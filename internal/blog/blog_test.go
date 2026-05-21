@@ -827,3 +827,211 @@ func TestPostFilenames_NoSpaces(t *testing.T) {
 			len(violations), strings.Join(violations, "\n  "))
 	}
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Slug/filename mismatch tests — cover the same class of bug as
+// TestGenerateSlug_SpaceInFilename but for other characters that collapse.
+// ─────────────────────────────────────────────────────────────────────────────
+
+// TestGenerateSlug_DoubleDashCollapse documents that consecutive hyphens in a
+// filename (e.g. from em-dash removal in the new-post Makefile target) collapse
+// to a single hyphen in the generated slug. This causes slug+".md" to miss the
+// actual file on disk.
+func TestGenerateSlug_DoubleDashCollapse(t *testing.T) {
+	cases := []struct {
+		filename string
+		wantSlug string
+	}{
+		{
+			filename: "2026-05-19-desiderata--on-my-41st-birthday.md",
+			wantSlug: "2026-05-19-desiderata-on-my-41st-birthday",
+		},
+		{
+			filename: "my--double--dash.md",
+			wantSlug: "my-double-dash",
+		},
+		{
+			filename: "leading--hyphens.md",
+			wantSlug: "leading-hyphens",
+		},
+		{
+			filename: "trailing--.md",
+			wantSlug: "trailing",
+		},
+	}
+	for _, c := range cases {
+		got := generateSlug(c.filename)
+		if got != c.wantSlug {
+			t.Errorf("generateSlug(%q) = %q, want %q", c.filename, got, c.wantSlug)
+		}
+		// Slug+".md" does NOT equal the original filename — this mismatch is
+		// the root cause of 404s when GetPostBySlug does direct file lookup.
+		reconstructed := got + ".md"
+		if reconstructed == c.filename {
+			t.Errorf("slug round-trip matched %q; test premise invalid", c.filename)
+		}
+	}
+}
+
+// TestGetPostBySlug_SlugMismatchWithCategoryViaIndex tests the exact bug:
+// a post filename has -- (double dash) but the slug collapses it to -.
+// When the URL includes category=tech, GetPostBySlug must fall back to the
+// index to map the collapsed slug to the actual filename.
+func TestGetPostBySlug_SlugMismatchWithCategoryViaIndex(t *testing.T) {
+	dir := t.TempDir()
+	techDir := filepath.Join(dir, "tech")
+	// Filename has double-dash; generateSlug collapses it to single
+	writePost(t, techDir, "2026-05-19-desiderata--on-my-birthday.md",
+		"---\ntitle: Desiderata\ndate: 2026-05-19\nauthor: R\n---\n\nPoem.")
+
+	cfg := makeTestConfig(dir)
+	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+
+	// Index stores the canonical slug (single hyphen) mapped to the real filename
+	idx := `[{"slug":"2026-05-19-desiderata-on-my-birthday","title":"Desiderata","date":"2026-05-19","author":"R","tags":"","description":"","excerpt":"Poem.","category_slug":"tech","source_path":"tech/2026-05-19-desiderata--on-my-birthday.md","filename":"2026-05-19-desiderata--on-my-birthday.md"}]`
+	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
+
+	b := New(cfg)
+
+	// Request with category=tech and the collapsed slug.
+	// Before the fix this returned nil (404) because the index fallback
+	// was gated behind categorySlug=="".
+	post := b.GetPostBySlug("2026-05-19-desiderata-on-my-birthday", "tech")
+	if post == nil {
+		t.Fatal("expected post resolved via index fallback with category, got nil")
+	}
+	if post.Title != "Desiderata" {
+		t.Errorf("Title = %q, want 'Desiderata'", post.Title)
+	}
+	if post.CategorySlug != "tech" {
+		t.Errorf("CategorySlug = %q, want 'tech'", post.CategorySlug)
+	}
+}
+
+// TestGetPostBySlug_SlugMismatchNoCategoryViaIndex tests the same scenario but
+// with categorySlug="" — the index fallback already works in this path.
+func TestGetPostBySlug_SlugMismatchNoCategoryViaIndex(t *testing.T) {
+	dir := t.TempDir()
+	techDir := filepath.Join(dir, "tech")
+	writePost(t, techDir, "my--double-post.md",
+		"---\ntitle: Double\ndate: 2026-01-01\n---\n\nContent.")
+
+	cfg := makeTestConfig(dir)
+	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+
+	idx := `[{"slug":"my-double-post","title":"Double","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"Content.","category_slug":"tech","source_path":"tech/my--double-post.md","filename":"my--double-post.md"}]`
+	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
+
+	b := New(cfg)
+
+	post := b.GetPostBySlug("my-double-post", "")
+	if post == nil {
+		t.Fatal("expected post resolved via index without category, got nil")
+	}
+	if post.Title != "Double" {
+		t.Errorf("Title = %q, want 'Double'", post.Title)
+	}
+	// CategorySlug should be extracted from the resolved path
+	if post.CategorySlug != "tech" {
+		t.Errorf("CategorySlug = %q, want 'tech'", post.CategorySlug)
+	}
+}
+
+// TestResolveSlugViaIndex_UsesFilename verifies that resolveSlugViaIndex
+// uses the index entry's Filename field (not slug+".md") to locate the
+// actual file on disk. This is critical when the slug and filename differ.
+func TestResolveSlugViaIndex_UsesFilename(t *testing.T) {
+	dir := t.TempDir()
+	techDir := filepath.Join(dir, "tech")
+
+	// The real filename has double-dash
+	writePost(t, techDir, "slug--differs-from-filename.md",
+		"---\ntitle: Mismatch\ndate: 2026-01-01\n---\n\nBody.")
+
+	cfg := makeTestConfig(dir)
+	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+
+	// Index slug has single dash; Filename field has double dash
+	idx := `[{"slug":"slug-differs-from-filename","title":"Mismatch","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"tech","source_path":"tech/slug--differs-from-filename.md","filename":"slug--differs-from-filename.md"}]`
+	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
+
+	b := New(cfg)
+
+	// slug+".md" would be "slug-differs-from-filename.md" — which doesn't exist.
+	// The function must use ip.Filename ("slug--differs-from-filename.md") instead.
+	resolved := b.resolveSlugViaIndex("slug-differs-from-filename")
+	if resolved == "" {
+		t.Fatal("resolveSlugViaIndex returned empty; it likely used slug+\".md\" instead of ip.Filename")
+	}
+
+	expected := filepath.Join(dir, "tech", "slug--differs-from-filename.md")
+	if resolved != expected {
+		t.Errorf("resolved path = %q, want %q", resolved, expected)
+	}
+}
+
+// TestGetPostBySlug_IndexHasPostButFileMissing verifies that when the index
+// references a post that doesn't exist on disk, GetPostBySlug returns nil.
+func TestGetPostBySlug_IndexHasPostButFileMissing(t *testing.T) {
+	dir := t.TempDir()
+	cfg := makeTestConfig(dir)
+	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+
+	idx := `[{"slug":"ghost-post","title":"Ghost","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"","category_slug":"tech","source_path":"tech/ghost-post.md","filename":"ghost-post.md"}]`
+	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
+
+	b := New(cfg)
+
+	// Without a category: index fallback runs but file doesn't exist
+	if post := b.GetPostBySlug("ghost-post", ""); post != nil {
+		t.Error("expected nil when index entry exists but file does not")
+	}
+
+	// With a category: direct lookup fails, index fallback finds entry,
+	// but file still doesn't exist
+	if post := b.GetPostBySlug("ghost-post", "tech"); post != nil {
+		t.Error("expected nil when index entry exists but file does not (with category)")
+	}
+}
+
+// TestGetPostBySlug_IndexMissingCategorySlug verifies that index entries
+// without a category_slug are skipped gracefully.
+func TestGetPostBySlug_IndexMissingCategorySlug(t *testing.T) {
+	dir := t.TempDir()
+	cfg := makeTestConfig(dir)
+	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+
+	// Entry with no category_slug — resolveSlugViaIndex should skip it
+	idx := `[{"slug":"orphan","title":"Orphan","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"","filename":"orphan.md"}]`
+	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
+
+	b := New(cfg)
+
+	if post := b.GetPostBySlug("orphan", ""); post != nil {
+		t.Error("expected nil when index entry has no category_slug and no file on disk")
+	}
+}
+
+// TestGetPostBySlug_CategoryButNoIndex tests that a post with a matching
+// filename in the correct category folder is found directly, without the index.
+func TestGetPostBySlug_CategoryButNoIndex(t *testing.T) {
+	dir := t.TempDir()
+	techDir := filepath.Join(dir, "tech")
+	// Filename matches slug exactly (no double-dash, no spaces)
+	writePost(t, techDir, "simple-post.md",
+		"---\ntitle: Simple\ndate: 2026-01-01\n---\n\nContent.")
+
+	cfg := makeTestConfig(dir)
+	// No index file — should still work via direct lookup
+	cfg.PostIndexFile = filepath.Join(dir, "nonexistent.json")
+
+	b := New(cfg)
+
+	post := b.GetPostBySlug("simple-post", "tech")
+	if post == nil {
+		t.Fatal("expected post via direct lookup, got nil")
+	}
+	if post.Title != "Simple" {
+		t.Errorf("Title = %q, want 'Simple'", post.Title)
+	}
+}

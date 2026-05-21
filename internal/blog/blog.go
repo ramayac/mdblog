@@ -195,16 +195,15 @@ func (b *Blog) GetPostBySlug(slug, categorySlug string) *Post {
 
 	fullPath := filepath.Join(postsDir, slug+".md")
 	if !fileExists(fullPath) {
-		// Index fallback routing: find the post in another category folder
-		if categorySlug == "" {
-			if resolved := b.resolveSlugViaIndex(slug); resolved != "" {
-				fullPath = resolved
-				// Extract category from resolved path
-				rel, _ := filepath.Rel(b.cfg.PostsDir, fullPath)
-				parts := strings.SplitN(rel, string(filepath.Separator), 2)
-				if len(parts) == 2 {
-					categorySlug = parts[0]
-				}
+		// Index fallback: slug-to-filename mapping (handles slugs that
+		// differ from the raw filename, e.g. double-dash collapse).
+		if resolved := b.resolveSlugViaIndex(slug); resolved != "" {
+			fullPath = resolved
+			// Extract category from resolved path
+			rel, _ := filepath.Rel(b.cfg.PostsDir, fullPath)
+			parts := strings.SplitN(rel, string(filepath.Separator), 2)
+			if len(parts) == 2 {
+				categorySlug = parts[0]
 			}
 		}
 		if !fileExists(fullPath) {
@@ -636,7 +635,7 @@ func (b *Blog) resolveSlugViaIndex(slug string) string {
 			if !ok {
 				continue
 			}
-			candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, slug+".md")
+			candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
 			if fileExists(candidate) {
 				return candidate
 			}
