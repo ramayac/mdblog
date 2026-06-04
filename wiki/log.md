@@ -1,5 +1,28 @@
 # Wiki Log
 
+## [2026-06-03] ingest | created posts-to-content directory renaming dry run plan
+
+- Created `wiki/posts-to-content-dryrun.md` detailing the step-by-step changes required to rename the primary post directory to `content/` across configurations, Makefiles, Dockerfiles, and CI/CD pipelines.
+- Linked the dry run plan in the main `wiki/index.md` list.
+
+## [2026-06-03] ingest | implemented parent and sub-category navigation structure
+
+- Updated `internal/blog/blog.go` to filter `GetCategoriesSorted` by the `Index` configuration flag, so sub-categories are hidden from the homepage cards by default.
+- Added `GetSubCategories` in `internal/blog/blog.go` to dynamically identify nested categories under a parent category by folder prefix (e.g. `projects/android` under parent `projects`).
+- Added `SubCategories` field to `templateData` in `internal/server/handler.go` and populated it for category request rendering.
+- Modified `templates/category.html` to render sub-category cards styled identically to homepage category cards.
+- Configured sub-categories (`android`, `opensource`, `sketches`) to have `index = false` in `config.toml` so they are hidden from the landing page.
+- Added unit tests covering sorted category filtering and sub-category retrieval in `internal/blog/blog_test.go` and `internal/server/handler_test.go`.
+- Documented parent/sub-category navigation feature in `wiki/agents.md`.
+
+## [2026-06-03] ingest | documented multiple navigation dropdowns support
+
+- Updated `internal/config` and `internal/blog` to support a list of `[[menu.dropdowns]]` in `config.toml` instead of the old single `[menu.categories]`.
+- Configured "Writings" and "Projects" dropdowns in `config.toml`, and registered `android`, `opensource`, and `sketches` categories.
+- Updated all unit tests in `internal/blog` and `internal/server` to match the new configuration schema.
+- Added sample/placeholder posts for the new categories (`android`, `opensource`, `sketches`).
+- Updated `wiki/agents.md` documentation to describe the multiple dropdowns configuration schema.
+
 ## [2026-06-03] ingest | documented custom slugs and added CLI request subcommand
 
 - Added `request` subcommand to simulate GET requests to relative URLs without starting the server, and wired it to `make request URL="/..."`.

@@ -197,14 +197,9 @@ func (b *Blog) GetPostBySlug(slug, categorySlug string) *Post {
 	if !fileExists(fullPath) {
 		// Index fallback: slug-to-filename mapping (handles slugs that
 		// differ from the raw filename, e.g. double-dash collapse).
-		if resolved := b.resolveSlugViaIndex(slug); resolved != "" {
+		if resolved, resolvedCat := b.resolveSlugViaIndex(slug); resolved != "" {
 			fullPath = resolved
-			// Extract category from resolved path
-			rel, _ := filepath.Rel(b.cfg.PostsDir, fullPath)
-			parts := strings.SplitN(rel, string(filepath.Separator), 2)
-			if len(parts) == 2 {
-				categorySlug = parts[0]
-			}
+			categorySlug = resolvedCat
 		}
 		if !fileExists(fullPath) {
 			return nil
@@ -270,12 +265,14 @@ func (b *Blog) GetMenu() []MenuLink {
 		links = append(links, MenuLink{Label: ml.Label, URL: ml.URL})
 	}
 	links = append(links, b.GetNavPinned()...)
-	if catLinks := b.GetMenuCategories(); len(catLinks) > 0 {
-		label := b.cfg.Menu.Categories.Label
-		if label == "" {
-			label = "More"
+	for _, dropdown := range b.cfg.Menu.Dropdowns {
+		if catLinks := b.GetDropdownCategories(dropdown); len(catLinks) > 0 {
+			label := dropdown.Label
+			if label == "" {
+				label = "More"
+			}
+			links = append(links, MenuLink{Label: label, SubItems: catLinks})
 		}
-		links = append(links, MenuLink{Label: label, SubItems: catLinks})
 	}
 	return links
 }
@@ -304,11 +301,11 @@ func (b *Blog) GetNavPinned() []MenuLink {
 	return links
 }
 
-// GetMenuCategories returns navigation links for menu.categories.item entries,
+// GetDropdownCategories returns navigation links for a dropdown's item entries,
 // sorted by Order.
-func (b *Blog) GetMenuCategories() []MenuLink {
-	refs := make([]config.MenuCategoryRef, len(b.cfg.Menu.Categories.Item))
-	copy(refs, b.cfg.Menu.Categories.Item)
+func (b *Blog) GetDropdownCategories(dropdown config.MenuDropdown) []MenuLink {
+	refs := make([]config.MenuCategoryRef, len(dropdown.Item))
+	copy(refs, dropdown.Item)
 	sort.Slice(refs, func(i, j int) bool {
 		if refs[i].Order != refs[j].Order {
 			return refs[i].Order < refs[j].Order
@@ -330,16 +327,18 @@ func (b *Blog) GetMenuCategories() []MenuLink {
 }
 
 // menuOrderForSlug returns the Order value for a category slug from either
-// menu.pinned or menu.categories.item. Returns 9999 if not referenced.
+// menu.pinned or any menu.dropdowns item. Returns 9999 if not referenced.
 func (b *Blog) menuOrderForSlug(slug string) int {
 	for _, ref := range b.cfg.Menu.Pinned {
 		if ref.Category == slug {
 			return ref.Order
 		}
 	}
-	for _, ref := range b.cfg.Menu.Categories.Item {
-		if ref.Category == slug {
-			return ref.Order
+	for _, dropdown := range b.cfg.Menu.Dropdowns {
+		for _, ref := range dropdown.Item {
+			if ref.Category == slug {
+				return ref.Order
+			}
 		}
 	}
 	return 9999
@@ -354,15 +353,18 @@ func (b *Blog) GetCategories() map[string]*CategoryInfo {
 	cats := make(map[string]*CategoryInfo)
 	for slug, cat := range b.cfg.Categories {
 		dir := filepath.Join(b.cfg.PostsDir, cat.Folder)
-		entries, err := os.ReadDir(dir)
-		if err != nil {
-			continue
-		}
 		count := 0
-		for _, e := range entries {
-			if !e.IsDir() && strings.EqualFold(filepath.Ext(e.Name()), ".md") {
+		err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+			if err != nil {
+				return err
+			}
+			if !d.IsDir() && strings.EqualFold(filepath.Ext(d.Name()), ".md") {
 				count++
 			}
+			return nil
+		})
+		if err != nil {
+			continue
 		}
 		if count > 0 {
 			cats[slug] = &CategoryInfo{
@@ -379,11 +381,16 @@ func (b *Blog) GetCategories() map[string]*CategoryInfo {
 	return cats
 }
 
-// GetCategoriesSorted returns categories sorted by MenuOrder (ascending), then slug.
+// GetCategoriesSorted returns categories sorted by MenuOrder (ascending), then slug,
+// filtering out categories where the configuration has index = false.
 func (b *Blog) GetCategoriesSorted() []CategoryInfo {
 	m := b.GetCategories()
 	out := make([]CategoryInfo, 0, len(m))
 	for _, c := range m {
+		catConfig, ok := b.cfg.Categories[c.Slug]
+		if ok && !catConfig.Index {
+			continue
+		}
 		out = append(out, *c)
 	}
 	sort.Slice(out, func(i, j int) bool {
@@ -398,6 +405,44 @@ func (b *Blog) GetCategoriesSorted() []CategoryInfo {
 // GetCategoryBySlug returns category info by slug, or nil if not found.
 func (b *Blog) GetCategoryBySlug(slug string) *CategoryInfo {
 	return b.GetCategories()[slug]
+}
+
+// GetSubCategories returns all sub-categories that belong to the given parent category slug.
+// A category is considered a sub-category if its configured folder path starts with
+// the parent's folder path followed by a slash (e.g. "projects/android" is a sub-category of "projects").
+func (b *Blog) GetSubCategories(parentSlug string) []CategoryInfo {
+	parent := b.GetCategoryBySlug(parentSlug)
+	if parent == nil {
+		return nil
+	}
+	parentFolder := parent.Folder
+	if parentFolder == "" {
+		parentFolder = parentSlug
+	}
+	prefix := parentFolder + "/"
+
+	var out []CategoryInfo
+	m := b.GetCategories()
+	for _, c := range m {
+		if c.Slug == parentSlug {
+			continue
+		}
+		folder := c.Folder
+		if folder == "" {
+			folder = c.Slug
+		}
+		if strings.HasPrefix(folder, prefix) {
+			out = append(out, *c)
+		}
+	}
+
+	sort.Slice(out, func(i, j int) bool {
+		if out[i].MenuOrder != out[j].MenuOrder {
+			return out[i].MenuOrder < out[j].MenuOrder
+		}
+		return out[i].Slug < out[j].Slug
+	})
+	return out
 }
 
 // GetFeedPosts returns up to maxItems posts (newest first) for feed/RSS use.
@@ -619,11 +664,11 @@ func (b *Blog) parsePost(fullPath string) (*Post, error) {
 }
 
 // resolveSlugViaIndex searches the post index for a slug and returns the full
-// filesystem path when found, or empty string when not found.
-func (b *Blog) resolveSlugViaIndex(slug string) string {
+// filesystem path and category slug when found, or empty strings when not found.
+func (b *Blog) resolveSlugViaIndex(slug string) (string, string) {
 	index := b.loadPostIndex()
 	if index == nil {
-		return ""
+		return "", ""
 	}
 	for _, ip := range index {
 		if ip.Slug == slug {
@@ -637,11 +682,11 @@ func (b *Blog) resolveSlugViaIndex(slug string) string {
 			}
 			candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
 			if fileExists(candidate) {
-				return candidate
+				return candidate, catSlug
 			}
 		}
 	}
-	return ""
+	return "", ""
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

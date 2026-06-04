@@ -196,7 +196,7 @@ Core domain logic. The `Blog` struct is the main service object:
 - `GetPage(slug string) *Page` — reads + renders a standalone page from `PagesDir`; path-traversal-safe
 - `GetCategories() map[string]*CategoryInfo`
 - `GetCategoryBySlug(slug string) (*CategoryInfo, bool)`
-- `GetMenu() []MenuLink` — returns flat links (`[[menu_links]]`, pinned) + one dropdown `MenuLink` (SubItems) for `menu.categories`
+- `GetMenu() []MenuLink` — returns flat links (`[[menu_links]]`, pinned) + multiple dropdown `MenuLink` entries configured in `[[menu.dropdowns]]`
 - `GetVersionInfo() VersionInfo`
 
 ### `internal/server`
@@ -239,11 +239,11 @@ CLI subcommand for rendering a single post to a standalone HTML file in a `rende
 The nav bar is built by `blog.GetMenu()`. Three sources, rendered in order:
 1. `[[menu_links]]` entries in `config.toml` — static custom links (always shown inline).
 2. `[[menu.pinned]]` entries — category links shown directly in the bar (no dropdown), sorted by `order`.
-3. `[menu.categories]` items — grouped into a **single dropdown** `MenuLink` whose `Label` is `menu.categories.label` and whose `SubItems` are the resolved category links (sorted by `order`).
+3. `[[menu.dropdowns]]` entries — a list of dropdown menus. Each dropdown entry specifies a `label` and a list of category references under `item` (each referencing `category` and an `order` hint).
 
 `MenuLink` carries a `SubItems []MenuLink` field. When `SubItems` is non-empty the template renders a `<div class="nav-dropdown">` with a button trigger; when empty it renders a plain `<a>` tag. Dropdown CSS lives in `base.style.css` (`.nav-dropdown`, `.nav-dropdown-content`); the anthropic theme overrides colours in `anthropic.style.css`.
 
-## Category Config Flags
+## Category Config Flags & Sub-categories
 
 Each `[categories.<slug>]` block in `config.toml` supports:
 
@@ -252,15 +252,22 @@ Each `[categories.<slug>]` block in `config.toml` supports:
 | `blog_name` | string | Display name in nav and category header |
 | `header_content` | string | Subtitle shown on category listing page |
 | `folder` | string | Subfolder under `posts/` (defaults to slug) |
-| `index` | bool | Include in legacy aggregated listing |
+| `index` | bool | Include in homepage landing page index category cards |
 | `menu` | bool | Add link to the nav bar |
+
+### Parent and Sub-categories
+
+MDBlog dynamically resolves parent/child category relationships by checking if a sub-category's folder starts with a parent category's folder prefix followed by a slash (e.g. `folder = "projects/android"` is resolved as a sub-category under parent category `projects` which has `folder = "projects"`).
+
+- **Homepage Index Filtering**: Sub-categories should set `index = false` to hide them from the landing page cards.
+- **Dynamic Render**: When a user visits the parent category page (e.g., `/?category=projects`), MDBlog populates `SubCategories` in `templateData` using `blog.GetSubCategories(parentSlug)`. The category template (`templates/category.html`) renders these sub-categories as cards at the top of the main listing, linking to `/?category=sub-category`.
 
 ## Landing Page, Category Page, Search, Feed, and Standalone Pages
 
 The server handler has **six rendering paths**:
 
-- **`/` with no query params** → Static landing page. Shows the blog header, optional `posts/index.md` blurb, then auto-generated category cards. **No post scanning.**
-- **`/?category=slug`** → Category post listing with pagination.
+- **`/` with no query params** → Static landing page. Shows the blog header, optional `posts/index.md` blurb, then auto-generated category cards (only those with `index = true`). **No post scanning.**
+- **`/?category=slug`** → Category post listing with pagination. If the category has sub-categories, it also renders them as card grids at the top.
 - **`/?q=keyword`** or **`/?search=1`** → Standalone search results page using the JSON index.
 - **`/feed.xml`** → Serves the pre-built RSS 2.0 feed from disk. Returns 404 when `feed.enabled = false`.
 - **`/feed`** → Human-readable feed page listing all posts (date | category | title). Uses `blog.GetFeedPosts(maxItems)`.

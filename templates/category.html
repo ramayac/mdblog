@@ -4,11 +4,23 @@
 </h2>
 
 <main class="main-content">
-    {{ if not .Posts }}
+    {{ if .SubCategories }}
+    <div class="category-cards" style="margin-bottom: 2rem;">
+        {{ range .SubCategories }}
+        <a href="?category={{ .Slug | urlquery }}" class="category-card">
+            <h3>{{ .BlogName }}</h3>
+            {{ if .HeaderContent }}<p>{{ .HeaderContent }}</p>{{ end }}
+            <span class="post-count">{{ .Count }} {{ $.Config.Labels.PostsLabel | defaultStr "posts" }}</span>
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if and (not .Posts) (not .SubCategories) }}
     <div class="no-posts">
         <p>{{ .Config.Labels.NoPostsInCategory }}</p>
     </div>
-    {{ else }}
+    {{ else if .Posts }}
     <div class="posts-grid">
         {{ range .Posts }}
         {{ template "post_preview" (postPreviewData . $.CategorySlug $.Config) }}

@@ -6,11 +6,14 @@ tags: go, flat-file, markdown, open-source, web
 description: A lightweight, database-free, and high-performance blog engine written in Go.
 ---
 
-This is a fun one, I started **MDBlog** in PHP, inspired directly by KirbyCMS. As many other of my projects, life got in the way and I never had the chance (or energy) to finish it. 
+This is a fun one, I started **MDBlog** in PHP. As many other of my projects, life got in the way and I never had the chance (or energy) to finish it. 
 
-Then along came AI, and I thought, well I'm learning Go, and maybe I can use AI to help me "translate" this project to Go? Lo and behold, a full refactor later and here we are, a brave new go project that... had a lot of baggage from the original PHP version.
+Then along came AI, and I thought, well I'm learning Go, and maybe I can use AI to help me "translate" this project to Go? Lo and behold, a full refactor later and here we are, a brave new go project that... had a lot of baggage from the original PHP version. You can read about that here: [Rewriting mdblog Engine in Go](/post?slug=2026-03-29-go-lambda-docker).
 
-But still is my own to some degree. Perhaps the most fun part after the big refactor, was that I had to go back and rethink my deployments strategies.
+> Curious thing: I still feel its my own project, to some degree even after the refactor, I guess that's the beauty of being the human in the loop?
+
+Now after that, the fun part started.
+
 
 ## Architecture & Deployment
 

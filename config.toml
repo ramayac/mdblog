@@ -41,24 +41,23 @@ priority_home        = "1.0"
 priority_category    = "0.8"
 priority_post        = "0.6"
 
-[[menu.pinned]]
-category = "guides"
-order    = 2
+# [[menu.pinned]]
+# category = "guides"
+# order    = 2
 
-[menu.categories]
+[[menu.dropdowns]]
 label = "Writings"
+item = [
+    { category = "personal", order = 1 },
+    { category = "substack", order = 4 },
+    { category = "srbyte", order = 5 }
+]
 
-[[menu.categories.item]]
-category = "personal"
-order    = 1
-
-[[menu.categories.item]]
-category = "substack"
-order    = 4
-
-[[menu.categories.item]]
-category = "srbyte"
-order    = 5
+[[menu.dropdowns]]
+label = "Projects"
+item = [
+    { category = "tools", order = 1 }
+]
 
 [[menu_links]]
 label = "Home"
@@ -71,19 +70,19 @@ url   = "/page?slug=about"
 [categories.personal]
 blog_name      = "Personal 🏠"
 header_content = "Personal Thoughts and Musings."
-folder         = "personal"
+folder         = "writings/personal"
 index          = true
 
 [categories.substack]
 blog_name      = "Code Forward ⏩"
 header_content = "(2023) Substack failed newsletter."
-folder         = "substack"
+folder         = "writings/substack"
 index          = false
 
 [categories.srbyte]
 blog_name      = "Sr. Byte 👨‍💻"
 header_content = "(2007-2010) Tecnologia para todos."
-folder         = "srbyte"
+folder         = "writings/srbyte"
 index          = false
 
 [categories.projects]
@@ -91,6 +90,19 @@ blog_name      = "Projects 🚀"
 header_content = "Apps, tools, and side projects I have built."
 folder         = "projects"
 index          = true
+
+[categories.tools]
+blog_name      = "Tools 🛠️"
+header_content = "Tools, utilities and other stuff I have built."
+folder         = "projects/tools"
+index          = false
+
+[categories.guides]
+blog_name      = "Guides 📖"
+header_content = "Setup guides and reference sheets for MDBlog."
+folder         = "guides"
+index          = false
+
 
 [labels]
 read_more              = "Read more →"
