@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-06-03] ingest | documented custom slugs and added CLI request subcommand
+
+- Added `request` subcommand to simulate GET requests to relative URLs without starting the server, and wired it to `make request URL="/..."`.
+- Added unit tests in `internal/render/request_test.go` to validate status headers and body responses.
+- Documented slug extraction logic and the `request` command in `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+- Registered the `projects` category mapping in `config.toml`.
+
 ## [2026-04-22] ingest | migrated AGENTS.md to wiki and linked prompts
 
 - Moved root `AGENTS.md` to `wiki/agents.md` to consolidate agent instructions into the persistent knowledge layer.

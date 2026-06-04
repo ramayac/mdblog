@@ -48,6 +48,7 @@ make serve           # Start HTTP dev server at http://localhost:8080
 make lint            # Run go vet on all packages
 make test            # Build index + feed + sitemap, then run the Go test suite
 make render random   # Render a random post to a standalone HTML file
+make request URL="/" # Simulate a GET request to "/" and print to stdout
 make wiki-refresh    # Show wiki files, recent log, diff-driven inputs, and lint results
 ```
 

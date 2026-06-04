@@ -12,7 +12,7 @@ LDFLAGS := -s -w -X main.version=$(VERSION) -X main.commit=$(COMMIT) -X main.dat
 
 .DEFAULT_GOAL := help
 
-.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render \
+.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
         docker-build docker-build-embed docker-run docker-run-release \
         docker-stop docker-push docker-pull
@@ -67,6 +67,12 @@ endif
 
 render: ## Render a post to HTML: make render random | make render [category] random | make render filename.md
 	go run ./cmd/mdblog render $(RENDER_ARGS)
+
+request: ## Simulate a GET request: make request URL="/page?slug=about"
+	@if [ -z "$(URL)" ]; then \
+		echo "Usage: make request URL=\"/page?slug=about\""; exit 1; \
+	fi
+	go run ./cmd/mdblog request "$(URL)"
 
 new-post: ## Scaffold a new post: make new-post TITLE="title" [CATEGORY=slug] [TAGS="tag1, tag2"]
 	$(eval DATE    := $(shell date +%Y-%m-%d))

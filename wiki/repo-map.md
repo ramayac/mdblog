@@ -95,11 +95,12 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 
 ## Make Targets
 
-- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `test`, `render`, and `new-post`.
+- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `test`, `render`, `request`, and `new-post`.
 - Wiki maintenance targets: `wiki-list`, `wiki-headings`, `wiki-log-tail`, `wiki-search`, `wiki-changed`, `wiki-candidates`, `wiki-lint`, and `wiki-refresh`. All targets delegate to the global `wiki-engine` CLI (`github.com/ramayac/go-wiki-engine`). Per-repo configuration lives in `.wikirc`. `wiki/` and `scripts/` are excluded from the Docker build via `.dockerignore`.
 - Docker targets: `docker-build`, `docker-build-embed`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.
 - `help` is the default goal and prints the annotated target list from the Makefile.
 - `render` is argument-driven and supports forms like `make render random`, `make render [category] random`, and `make render filename.md`.
+- `request` is variable-driven and simulates a GET request (e.g. `make request URL="/page?slug=about"`).
 - `new-post` scaffolds a Markdown post using `TITLE` and optional `CATEGORY` and `TAGS` variables.
 
 ## Testing Model
@@ -154,7 +155,7 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 ## Post Structure
 
 - A post is a Markdown file stored under `posts/`, usually inside a category subfolder such as `posts/personal/slug.md`.
-- The expected filename convention is `YYYY-MM-DD-slug-with-hyphens.md`; `make new-post` scaffolds files in that shape automatically.
+- The typical filename convention is `YYYY-MM-DD-slug-with-hyphens.md`, but names without the date prefix (e.g. `mdblog.md`) are supported for generating clean URL slugs, provided the `date` front-matter field is set explicitly.
 - Post files may begin with a simple YAML-style front matter block delimited by `---` lines, followed by the Markdown body.
 - The parser recognizes these front matter keys: `title`, `date`, `author`, `tags`, `description`, and `js`. Unknown keys are preserved in an `Extra` map but are not part of the main rendering contract.
 - `js` refers to an optional JavaScript file loaded from `assets/js/` for that post.

@@ -86,6 +86,12 @@ header_content = "(2007-2010) Tecnologia para todos."
 folder         = "srbyte"
 index          = false
 
+[categories.projects]
+blog_name      = "Projects 🚀"
+header_content = "Apps, tools, and side projects I have built."
+folder         = "projects"
+index          = true
+
 [labels]
 read_more              = "Read more →"
 posts_label            = "posts →"

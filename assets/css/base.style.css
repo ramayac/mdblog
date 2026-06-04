@@ -279,10 +279,6 @@ a:hover {
     line-height: 1.5;
 }
 
-.standalone-page .post-content {
-    font-family: var(--ui-font);
-}
-
 .post-content {
     margin: 2rem 0;
     line-height: var(--content-line-height);
