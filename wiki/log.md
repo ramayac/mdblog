@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-03] ingest | documented custom slug naming conventions and added projects category
+
+- Documented slug extraction logic in `wiki/agents.md` and `wiki/repo-map.md`.
+- Added guidelines for generating clean slugs by omitting the date prefix from post filenames when `date` is explicitly specified in the front matter.
+- Registered the `projects` category mapping in `config.toml`.
+
 ## [2026-04-22] ingest | migrated AGENTS.md to wiki and linked prompts
 
 - Moved root `AGENTS.md` to `wiki/agents.md` to consolidate agent instructions into the persistent knowledge layer.

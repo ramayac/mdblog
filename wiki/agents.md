@@ -108,7 +108,8 @@ js: optional-script.js   # loaded from assets/js/
 Markdown body here (GitHub Flavoured Markdown + footnotes).
 ```
 
-File naming convention: `YYYY-MM-DD-slug-with-hyphens.md`
+File naming convention: `YYYY-MM-DD-slug-with-hyphens.md`.
+*Note on Slugs:* The post slug is derived directly from the filename (e.g. `2026-06-03-my-post.md` resolves to the slug `2026-06-03-my-post`). If a clean slug without a date prefix is desired (e.g., `/post?slug=mdblog`), name the file without the date prefix (e.g. `mdblog.md`) and ensure you explicitly define the `date` key in the front matter.
 Category posts live under `posts/<category-folder>/`.
 
 ## Developer Workflow
@@ -389,3 +390,7 @@ The feed table is UI chrome, not prose — set `font-family: var(--ui-font)` on 
 ### Config Values Available in Templates
 
 `templateData` exposes the full `*config.Config` as `.Config`. This means any config value — including structs like `.Config.Feed.MaxItems` — is accessible directly in templates without adding new handler fields. Check `internal/server/handler.go` → `templateData` struct before assuming a value isn't available.
+
+### Custom Post Slugs and Dates
+
+By default, posts use the file naming format `YYYY-MM-DD-slug.md` which results in a date-prefixed slug (e.g. `2026-06-03-my-app`). For showcasing products or projects where a clean, permanent URL is desired (e.g. `/post?slug=my-app`), you can name the file without the date prefix (e.g. `my-app.md`). In this case, you **must** specify the date in the post's YAML front matter (`date: 2026-06-03`) to ensure it indexes and displays with the correct date.
