@@ -96,19 +96,19 @@ index          = true
 [categories.android]
 blog_name      = "Android 🤖"
 header_content = "My Android apps and mobile development projects."
-folder         = "android"
+folder         = "projects/android"
 index          = true
 
 [categories.opensource]
 blog_name      = "Open Source 🌐"
 header_content = "Libraries, CLI tools, and open-source contributions."
-folder         = "opensource"
+folder         = "projects/opensource"
 index          = true
 
 [categories.sketches]
 blog_name      = "Sketches 🎨"
 header_content = "Creative coding, Processing sketches, and visual designs."
-folder         = "sketches"
+folder         = "projects/sketches"
 index          = true
 
 [labels]
