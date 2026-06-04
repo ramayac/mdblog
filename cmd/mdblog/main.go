@@ -46,6 +46,8 @@ func main() {
 		runBuildSitemap(cfg)
 	case "render":
 		runRender(cfg, os.Args[2:])
+	case "request":
+		runRequest(cfg, os.Args[2:])
 	case "version":
 		fmt.Printf("mdblog %s (%s) built %s\n", version, commit, date)
 	default:
@@ -64,6 +66,7 @@ func printUsage() {
 	fmt.Println("  build-feed     Generate feed.xml (requires build-index to run first)")
 	fmt.Println("  build-sitemap  Generate sitemap.xml and robots.txt (requires build-index)")
 	fmt.Println("  render         Render a post to a standalone HTML file")
+	fmt.Println("  request        Simulate a GET request to a relative URL and print to stdout")
 	fmt.Println("  version        Print version information")
 }
 
@@ -112,3 +115,15 @@ func runRender(cfg *config.Config, args []string) {
 		os.Exit(1)
 	}
 }
+
+func runRequest(cfg *config.Config, args []string) {
+	if len(args) < 1 {
+		fmt.Fprintf(os.Stderr, "Usage: mdblog request <url>\n")
+		os.Exit(1)
+	}
+	if err := render.Request(cfg, args[0]); err != nil {
+		fmt.Fprintf(os.Stderr, "request: %v\n", err)
+		os.Exit(1)
+	}
+}
+

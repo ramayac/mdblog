@@ -8,7 +8,7 @@ MDBlog is a lightweight, flat-file blog engine written in **Go 1.24**. Posts are
 
 ```
 cmd/
-  mdblog/           # CLI entry point: serve | build-index | build-feed | build-sitemap | render | version
+  mdblog/           # CLI entry point: serve | build-index | build-feed | build-sitemap | render | request | version
   lambda/           # AWS Lambda entry point (reads templates/assets from disk)
   lambda-embed/     # AWS Lambda entry point (templates+assets embedded in binary)
 internal/
@@ -127,6 +127,7 @@ make test                                                     # Build index + fe
 make render random                                            # Render a random post to HTML
 make render [category] random                                 # Render a random post from a category
 make render filename.md                                       # Render a specific post to HTML
+make request URL="/"                                          # Simulate a GET request to a relative URL
 make new-post TITLE="Title" [CATEGORY=slug] [TAGS="t1, t2"]  # Scaffold a new post
 wiki-engine list                                              # List wiki files
 wiki-engine headings                                          # List wiki headings with file paths
@@ -231,7 +232,7 @@ Build-time SEO file generator.
 
 ### `internal/render`
 
-CLI subcommand for rendering a single post to a standalone HTML file in a `render/` output directory. Used by `make render`. Performs a fake HTTP round-trip through the `server.Handler` to reuse all template logic.
+CLI subcommand for rendering a single post to a standalone HTML file in a `render/` output directory (used by `make render`). It also supports the `request` command (used by `make request URL="..."`), which simulates a GET request against any site endpoint (posts, pages, home, XML feeds, etc.) and prints the response status, headers, and body to stdout. Both subcommands perform a mock HTTP round-trip through `server.Handler` without starting a server.
 
 ## Navigation Menu
 
