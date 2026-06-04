@@ -2,10 +2,10 @@
 title: Support Hub ☕
 date: 2026-06-03
 author: Rodrigo Amaya
-description: Get help, suggest features, or support my open-source and Android projects.
+description: Get help, suggest features, or support my open-source and projects.
 ---
 
-Welcome to the support hub for my projects and Android applications! If you have run into an issue, want to suggest a new feature, or would like to support my work, you are in the right place.
+Welcome to the support hub for my projects and applications! If you have run into an issue, want to suggest a new feature, or would like to support my work, you are in the right place.
 
 ## 1. Get Support & Report Issues
 
@@ -18,11 +18,11 @@ The best way to get support or report a bug is directly on GitHub:
 
 If you enjoy using my apps and would like to support their ongoing development, maintenance, and server/hosting costs, you can buy me a coffee or donate through any of the platforms below:
 
-- **Ko-fi:** Support me on [Ko-fi](https://ko-fi.com/) (Coming soon!)
-- **PayPal:** Support me via [PayPal](https://paypal.me/) (Coming soon!)
+- **Ko-fi:** Support me on [Ko-fi](https://ko-fi.com/ramayac)
+- **PayPal:** Support me via [PayPal](https://paypal.me/ramayac)
 - **GitHub Sponsors:** Sponsor my open-source work directly on [GitHub Sponsors](https://github.com/sponsors/ramayac).
 
-Any support is highly appreciated and helps keep these apps free, ad-free, and open source!
+Any support is highly appreciated and helps keep these apps free and ad-free!
 
 ## 3. Frequently Asked Questions
 
