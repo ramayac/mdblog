@@ -197,14 +197,9 @@ func (b *Blog) GetPostBySlug(slug, categorySlug string) *Post {
 	if !fileExists(fullPath) {
 		// Index fallback: slug-to-filename mapping (handles slugs that
 		// differ from the raw filename, e.g. double-dash collapse).
-		if resolved := b.resolveSlugViaIndex(slug); resolved != "" {
+		if resolved, resolvedCat := b.resolveSlugViaIndex(slug); resolved != "" {
 			fullPath = resolved
-			// Extract category from resolved path
-			rel, _ := filepath.Rel(b.cfg.PostsDir, fullPath)
-			parts := strings.SplitN(rel, string(filepath.Separator), 2)
-			if len(parts) == 2 {
-				categorySlug = parts[0]
-			}
+			categorySlug = resolvedCat
 		}
 		if !fileExists(fullPath) {
 			return nil
@@ -669,11 +664,11 @@ func (b *Blog) parsePost(fullPath string) (*Post, error) {
 }
 
 // resolveSlugViaIndex searches the post index for a slug and returns the full
-// filesystem path when found, or empty string when not found.
-func (b *Blog) resolveSlugViaIndex(slug string) string {
+// filesystem path and category slug when found, or empty strings when not found.
+func (b *Blog) resolveSlugViaIndex(slug string) (string, string) {
 	index := b.loadPostIndex()
 	if index == nil {
-		return ""
+		return "", ""
 	}
 	for _, ip := range index {
 		if ip.Slug == slug {
@@ -687,11 +682,11 @@ func (b *Blog) resolveSlugViaIndex(slug string) string {
 			}
 			candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
 			if fileExists(candidate) {
-				return candidate
+				return candidate, catSlug
 			}
 		}
 	}
-	return ""
+	return "", ""
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

@@ -1041,7 +1041,7 @@ func TestResolveSlugViaIndex_UsesFilename(t *testing.T) {
 
 	// slug+".md" would be "slug-differs-from-filename.md" — which doesn't exist.
 	// The function must use ip.Filename ("slug--differs-from-filename.md") instead.
-	resolved := b.resolveSlugViaIndex("slug-differs-from-filename")
+	resolved, _ := b.resolveSlugViaIndex("slug-differs-from-filename")
 	if resolved == "" {
 		t.Fatal("resolveSlugViaIndex returned empty; it likely used slug+\".md\" instead of ip.Filename")
 	}
