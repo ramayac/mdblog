@@ -41,9 +41,9 @@ priority_home        = "1.0"
 priority_category    = "0.8"
 priority_post        = "0.6"
 
-[[menu.pinned]]
-category = "guides"
-order    = 2
+# [[menu.pinned]]
+# category = "guides"
+# order    = 2
 
 [[menu.dropdowns]]
 label = "Writings"
@@ -56,9 +56,7 @@ item = [
 [[menu.dropdowns]]
 label = "Projects"
 item = [
-    { category = "android", order = 1 },
-    { category = "opensource", order = 2 },
-    { category = "sketches", order = 3 }
+    { category = "tools", order = 1 }
 ]
 
 [[menu_links]]
@@ -72,19 +70,19 @@ url   = "/page?slug=about"
 [categories.personal]
 blog_name      = "Personal 🏠"
 header_content = "Personal Thoughts and Musings."
-folder         = "personal"
+folder         = "writings/personal"
 index          = true
 
 [categories.substack]
 blog_name      = "Code Forward ⏩"
 header_content = "(2023) Substack failed newsletter."
-folder         = "substack"
+folder         = "writings/substack"
 index          = false
 
 [categories.srbyte]
 blog_name      = "Sr. Byte 👨‍💻"
 header_content = "(2007-2010) Tecnologia para todos."
-folder         = "srbyte"
+folder         = "writings/srbyte"
 index          = false
 
 [categories.projects]
@@ -93,23 +91,18 @@ header_content = "Apps, tools, and side projects I have built."
 folder         = "projects"
 index          = true
 
-[categories.android]
-blog_name      = "Android 🤖"
-header_content = "My Android apps and mobile development projects."
-folder         = "projects/android"
-index          = true
+[categories.tools]
+blog_name      = "Tools 🛠️"
+header_content = "Tools, utilities and other stuff I have built."
+folder         = "projects/tools"
+index          = false
 
-[categories.opensource]
-blog_name      = "Open Source 🌐"
-header_content = "Libraries, CLI tools, and open-source contributions."
-folder         = "projects/opensource"
-index          = true
+[categories.guides]
+blog_name      = "Guides 📖"
+header_content = "Setup guides and reference sheets for MDBlog."
+folder         = "guides"
+index          = false
 
-[categories.sketches]
-blog_name      = "Sketches 🎨"
-header_content = "Creative coding, Processing sketches, and visual designs."
-folder         = "projects/sketches"
-index          = true
 
 [labels]
 read_more              = "Read more →"

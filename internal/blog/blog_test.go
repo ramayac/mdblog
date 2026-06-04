@@ -236,6 +236,83 @@ func TestGetCategoryBySlug_Found(t *testing.T) {
 	}
 }
 
+func TestGetCategoriesSorted_FilterIndex(t *testing.T) {
+	dir := t.TempDir()
+	writePost(t, filepath.Join(dir, "personal"), "p1.md", "---\ntitle: P1\n---\nBody.")
+	writePost(t, filepath.Join(dir, "projects"), "pr1.md", "---\ntitle: Pr1\n---\nBody.")
+	writePost(t, filepath.Join(dir, "projects/android"), "a1.md", "---\ntitle: A1\n---\nBody.")
+
+	cfg := &config.Config{
+		BlogName:      "Test",
+		PostsDir:      dir,
+		PostIndexFile: filepath.Join(dir, "posts.index.json"),
+		PostsPerPage:  10,
+		Categories: map[string]config.Category{
+			"personal": {BlogName: "Personal", Folder: "personal", Index: true},
+			"projects": {BlogName: "Projects", Folder: "projects", Index: true},
+			"android":  {BlogName: "Android", Folder: "projects/android", Index: false},
+		},
+	}
+	b := New(cfg)
+
+	cats := b.GetCategoriesSorted()
+	if len(cats) != 2 {
+		t.Fatalf("expected 2 sorted categories, got %d: %v", len(cats), cats)
+	}
+
+	foundAndroid := false
+	for _, c := range cats {
+		if c.Slug == "android" {
+			foundAndroid = true
+		}
+	}
+	if foundAndroid {
+		t.Error("expected android sub-category to be filtered out of sorted category index list")
+	}
+}
+
+func TestGetSubCategories(t *testing.T) {
+	dir := t.TempDir()
+	writePost(t, filepath.Join(dir, "projects"), "pr1.md", "---\ntitle: Pr1\n---\nBody.")
+	writePost(t, filepath.Join(dir, "projects/android"), "a1.md", "---\ntitle: A1\n---\nBody.")
+	writePost(t, filepath.Join(dir, "projects/tools"), "s1.md", "---\ntitle: S1\n---\nBody.")
+	writePost(t, filepath.Join(dir, "personal"), "p1.md", "---\ntitle: P1\n---\nBody.")
+
+	cfg := &config.Config{
+		BlogName:      "Test",
+		PostsDir:      dir,
+		PostIndexFile: filepath.Join(dir, "posts.index.json"),
+		PostsPerPage:  10,
+		Categories: map[string]config.Category{
+			"projects": {BlogName: "Projects", Folder: "projects", Index: true},
+			"android":  {BlogName: "Android", Folder: "projects/android", Index: false},
+			"tools":    {BlogName: "Tools", Folder: "projects/tools", Index: false},
+			"personal": {BlogName: "Personal", Folder: "personal", Index: true},
+		},
+	}
+	b := New(cfg)
+
+	subs := b.GetSubCategories("projects")
+	if len(subs) != 2 {
+		t.Fatalf("expected 2 subcategories, got %d", len(subs))
+	}
+
+	// Verify slugs
+	if subs[0].Slug != "android" && subs[1].Slug != "android" {
+		t.Error("expected 'android' subcategory to be returned")
+	}
+	if subs[0].Slug != "tools" && subs[1].Slug != "tools" {
+		t.Error("expected 'tools' subcategory to be returned")
+	}
+
+	// Verify that personal is not a subcategory of projects
+	for _, sub := range subs {
+		if sub.Slug == "personal" {
+			t.Error("personal should not be a subcategory of projects")
+		}
+	}
+}
+
 func TestGetCategoryBySlug_NotFound(t *testing.T) {
 	cfg := makeTestConfig(t.TempDir())
 	b := New(cfg)

@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 
@@ -24,6 +25,17 @@ func testSetup(t *testing.T) *Handler {
 	srbyteDir := dir + "/srbyte"
 	if err := os.MkdirAll(srbyteDir, 0755); err != nil {
 		t.Fatal(err)
+	}
+
+	for _, folder := range []string{"personal", "projects", "projects/android", "projects/tools"} {
+		dirPath := filepath.Join(dir, folder)
+		if err := os.MkdirAll(dirPath, 0755); err != nil {
+			t.Fatal(err)
+		}
+		postContent := "---\ntitle: Post\ndate: 2026-01-01\nauthor: Rodrigo Amaya\n---\nPost content."
+		if err := os.WriteFile(filepath.Join(dirPath, "post.md"), []byte(postContent), 0644); err != nil {
+			t.Fatal(err)
+		}
 	}
 
 	// Create pages directory with an about page
@@ -109,7 +121,11 @@ Many useful commands.
 		},
 		MenuLinks: []config.MenuLink{{Label: "Home", URL: "/"}},
 		Categories: map[string]config.Category{
-			"srbyte": {BlogName: "Sr. Byte 👨‍💻", Folder: "srbyte", Index: false},
+			"srbyte":   {BlogName: "Sr. Byte 👨‍💻", Folder: "srbyte", Index: false},
+			"personal": {BlogName: "Personal", Folder: "personal", Index: true},
+			"projects": {BlogName: "Projects", Folder: "projects", Index: true},
+			"android":  {BlogName: "Android", Folder: "projects/android", Index: false},
+			"tools":    {BlogName: "Tools", Folder: "projects/tools", Index: false},
 		},
 		Menu: config.MenuConfig{
 			Dropdowns: []config.MenuDropdown{
@@ -117,6 +133,14 @@ Many useful commands.
 					Label: "Writings",
 					Item: []config.MenuCategoryRef{
 						{Category: "srbyte", Order: 1},
+						{Category: "personal", Order: 2},
+					},
+				},
+				{
+					Label: "Projects",
+					Item: []config.MenuCategoryRef{
+						{Category: "android", Order: 1},
+						{Category: "tools", Order: 2},
 					},
 				},
 			},
@@ -181,11 +205,65 @@ func TestHome(t *testing.T) {
 	if !strings.Contains(body, "Rodrigo A.") {
 		t.Error("should contain blog name")
 	}
-	if !strings.Contains(body, "srbyte") {
-		t.Error("should contain category card for srbyte")
+	if !strings.Contains(body, `href="?category=personal"`) {
+		t.Error("should contain category card for Personal")
+	}
+	if !strings.Contains(body, `href="?category=projects"`) {
+		t.Error("should contain category card for Projects")
+	}
+	if strings.Contains(body, `href="?category=srbyte"`) {
+		t.Error("should NOT contain category card link for srbyte (index=false)")
+	}
+	if strings.Contains(body, `href="?category=android"`) {
+		t.Error("should NOT contain category card link for android (index=false)")
+	}
+	if strings.Contains(body, `href="?category=tools"`) {
+		t.Error("should NOT contain category card link for tools (index=false)")
 	}
 	if strings.Contains(body, "What are you looking for?") {
 		t.Error("should NOT contain search form on home page")
+	}
+}
+
+func TestSubCategoryRendering(t *testing.T) {
+	h := testSetup(t)
+
+	// Verify projects category page renders sub-categories android and tools
+	w := get(h, "/?category=projects")
+	if w.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w.Code)
+	}
+	body := w.Body.String()
+
+	// Should contain the parent category title
+	if !strings.Contains(body, "Projects") {
+		t.Error("should contain parent category title Projects")
+	}
+
+	// Should contain sub-category cards for Android and Tools
+	if !strings.Contains(body, `href="?category=android"`) {
+		t.Error("should contain sub-category card link for Android")
+	}
+	if !strings.Contains(body, `href="?category=tools"`) {
+		t.Error("should contain sub-category card link for Tools")
+	}
+
+	// Should NOT contain personal as it's not a subcategory of projects
+	if strings.Contains(body, `href="?category=personal"`) {
+		t.Error("should NOT contain category card link for Personal inside Projects page")
+	}
+
+	// Verify that Android category page does NOT show sub-categories but shows its posts
+	w2 := get(h, "/?category=android")
+	if w2.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w2.Code)
+	}
+	body2 := w2.Body.String()
+	if !strings.Contains(body2, "Android") {
+		t.Error("should contain category title Android")
+	}
+	if !strings.Contains(body2, "post-preview") {
+		t.Error("should show post-preview for android category posts")
 	}
 }
 

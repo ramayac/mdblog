@@ -358,15 +358,18 @@ func (b *Blog) GetCategories() map[string]*CategoryInfo {
 	cats := make(map[string]*CategoryInfo)
 	for slug, cat := range b.cfg.Categories {
 		dir := filepath.Join(b.cfg.PostsDir, cat.Folder)
-		entries, err := os.ReadDir(dir)
-		if err != nil {
-			continue
-		}
 		count := 0
-		for _, e := range entries {
-			if !e.IsDir() && strings.EqualFold(filepath.Ext(e.Name()), ".md") {
+		err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+			if err != nil {
+				return err
+			}
+			if !d.IsDir() && strings.EqualFold(filepath.Ext(d.Name()), ".md") {
 				count++
 			}
+			return nil
+		})
+		if err != nil {
+			continue
 		}
 		if count > 0 {
 			cats[slug] = &CategoryInfo{
@@ -383,11 +386,16 @@ func (b *Blog) GetCategories() map[string]*CategoryInfo {
 	return cats
 }
 
-// GetCategoriesSorted returns categories sorted by MenuOrder (ascending), then slug.
+// GetCategoriesSorted returns categories sorted by MenuOrder (ascending), then slug,
+// filtering out categories where the configuration has index = false.
 func (b *Blog) GetCategoriesSorted() []CategoryInfo {
 	m := b.GetCategories()
 	out := make([]CategoryInfo, 0, len(m))
 	for _, c := range m {
+		catConfig, ok := b.cfg.Categories[c.Slug]
+		if ok && !catConfig.Index {
+			continue
+		}
 		out = append(out, *c)
 	}
 	sort.Slice(out, func(i, j int) bool {
@@ -402,6 +410,44 @@ func (b *Blog) GetCategoriesSorted() []CategoryInfo {
 // GetCategoryBySlug returns category info by slug, or nil if not found.
 func (b *Blog) GetCategoryBySlug(slug string) *CategoryInfo {
 	return b.GetCategories()[slug]
+}
+
+// GetSubCategories returns all sub-categories that belong to the given parent category slug.
+// A category is considered a sub-category if its configured folder path starts with
+// the parent's folder path followed by a slash (e.g. "projects/android" is a sub-category of "projects").
+func (b *Blog) GetSubCategories(parentSlug string) []CategoryInfo {
+	parent := b.GetCategoryBySlug(parentSlug)
+	if parent == nil {
+		return nil
+	}
+	parentFolder := parent.Folder
+	if parentFolder == "" {
+		parentFolder = parentSlug
+	}
+	prefix := parentFolder + "/"
+
+	var out []CategoryInfo
+	m := b.GetCategories()
+	for _, c := range m {
+		if c.Slug == parentSlug {
+			continue
+		}
+		folder := c.Folder
+		if folder == "" {
+			folder = c.Slug
+		}
+		if strings.HasPrefix(folder, prefix) {
+			out = append(out, *c)
+		}
+	}
+
+	sort.Slice(out, func(i, j int) bool {
+		if out[i].MenuOrder != out[j].MenuOrder {
+			return out[i].MenuOrder < out[j].MenuOrder
+		}
+		return out[i].Slug < out[j].Slug
+	})
+	return out
 }
 
 // GetFeedPosts returns up to maxItems posts (newest first) for feed/RSS use.

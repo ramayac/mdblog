@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-03] ingest | implemented parent and sub-category navigation structure
+
+- Updated `internal/blog/blog.go` to filter `GetCategoriesSorted` by the `Index` configuration flag, so sub-categories are hidden from the homepage cards by default.
+- Added `GetSubCategories` in `internal/blog/blog.go` to dynamically identify nested categories under a parent category by folder prefix (e.g. `projects/android` under parent `projects`).
+- Added `SubCategories` field to `templateData` in `internal/server/handler.go` and populated it for category request rendering.
+- Modified `templates/category.html` to render sub-category cards styled identically to homepage category cards.
+- Configured sub-categories (`android`, `opensource`, `sketches`) to have `index = false` in `config.toml` so they are hidden from the landing page.
+- Added unit tests covering sorted category filtering and sub-category retrieval in `internal/blog/blog_test.go` and `internal/server/handler_test.go`.
+- Documented parent/sub-category navigation feature in `wiki/agents.md`.
+
 ## [2026-06-03] ingest | documented multiple navigation dropdowns support
 
 - Updated `internal/config` and `internal/blog` to support a list of `[[menu.dropdowns]]` in `config.toml` instead of the old single `[menu.categories]`.

@@ -52,6 +52,7 @@ type templateData struct {
 	CurrentCategory *blog.CategoryInfo
 	Pagination      blog.Pagination
 	Categories      []blog.CategoryInfo
+	SubCategories   []blog.CategoryInfo
 	IndexBlurb      template.HTML
 	Query           string
 }
@@ -206,6 +207,7 @@ func (h *Handler) serveIndex(w http.ResponseWriter, r *http.Request) {
 		data.CategorySlug = categorySlug
 		data.Posts = list.Posts
 		data.Pagination = list.Pagination
+		data.SubCategories = h.b.GetSubCategories(categorySlug)
 		data.JSONLD = buildWebPageJSONLD(h.cfg, canonical, data.PageTitle, cat.HeaderContent)
 		h.renderPage(w, r, start, "category.html", &data)
 		return
