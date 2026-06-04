@@ -8,6 +8,7 @@
 - [phases.md](phases.md) | Phase 0 to Phase 11 rollout plan.
 - [repo-map.md](repo-map.md) | Current repo architecture and exclusions.
 - [navigation.md](navigation.md) | Architecture and decisions for parent/sub-category navigation.
+- [posts-to-content-dryrun.md](posts-to-content-dryrun.md) | Dry run plan for renaming posts to content directory.
 - [log.md](log.md) | Append-only timeline of wiki maintenance.
 
 ## Operations

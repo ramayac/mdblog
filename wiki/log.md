@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-06-03] ingest | created posts-to-content directory renaming dry run plan
+
+- Created `wiki/posts-to-content-dryrun.md` detailing the step-by-step changes required to rename the primary post directory to `content/` across configurations, Makefiles, Dockerfiles, and CI/CD pipelines.
+- Linked the dry run plan in the main `wiki/index.md` list.
+
 ## [2026-06-03] ingest | implemented parent and sub-category navigation structure
 
 - Updated `internal/blog/blog.go` to filter `GetCategoriesSorted` by the `Index` configuration flag, so sub-categories are hidden from the homepage cards by default.
