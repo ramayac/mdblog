@@ -196,7 +196,7 @@ Core domain logic. The `Blog` struct is the main service object:
 - `GetPage(slug string) *Page` — reads + renders a standalone page from `PagesDir`; path-traversal-safe
 - `GetCategories() map[string]*CategoryInfo`
 - `GetCategoryBySlug(slug string) (*CategoryInfo, bool)`
-- `GetMenu() []MenuLink` — returns flat links (`[[menu_links]]`, pinned) + one dropdown `MenuLink` (SubItems) for `menu.categories`
+- `GetMenu() []MenuLink` — returns flat links (`[[menu_links]]`, pinned) + multiple dropdown `MenuLink` entries configured in `[[menu.dropdowns]]`
 - `GetVersionInfo() VersionInfo`
 
 ### `internal/server`
@@ -239,7 +239,7 @@ CLI subcommand for rendering a single post to a standalone HTML file in a `rende
 The nav bar is built by `blog.GetMenu()`. Three sources, rendered in order:
 1. `[[menu_links]]` entries in `config.toml` — static custom links (always shown inline).
 2. `[[menu.pinned]]` entries — category links shown directly in the bar (no dropdown), sorted by `order`.
-3. `[menu.categories]` items — grouped into a **single dropdown** `MenuLink` whose `Label` is `menu.categories.label` and whose `SubItems` are the resolved category links (sorted by `order`).
+3. `[[menu.dropdowns]]` entries — a list of dropdown menus. Each dropdown entry specifies a `label` and a list of category references under `item` (each referencing `category` and an `order` hint).
 
 `MenuLink` carries a `SubItems []MenuLink` field. When `SubItems` is non-empty the template renders a `<div class="nav-dropdown">` with a button trigger; when empty it renders a plain `<a>` tag. Dropdown CSS lives in `base.style.css` (`.nav-dropdown`, `.nav-dropdown-content`); the anthropic theme overrides colours in `anthropic.style.css`.
 

@@ -1,5 +1,13 @@
 # Wiki Log
 
+## [2026-06-03] ingest | documented multiple navigation dropdowns support
+
+- Updated `internal/config` and `internal/blog` to support a list of `[[menu.dropdowns]]` in `config.toml` instead of the old single `[menu.categories]`.
+- Configured "Writings" and "Projects" dropdowns in `config.toml`, and registered `android`, `opensource`, and `sketches` categories.
+- Updated all unit tests in `internal/blog` and `internal/server` to match the new configuration schema.
+- Added sample/placeholder posts for the new categories (`android`, `opensource`, `sketches`).
+- Updated `wiki/agents.md` documentation to describe the multiple dropdowns configuration schema.
+
 ## [2026-06-03] ingest | documented custom slugs and added CLI request subcommand
 
 - Added `request` subcommand to simulate GET requests to relative URLs without starting the server, and wired it to `make request URL="/..."`.

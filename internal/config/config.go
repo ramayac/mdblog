@@ -77,8 +77,8 @@ type MenuLink struct {
 
 // MenuConfig holds all navigation placement configuration.
 type MenuConfig struct {
-	Pinned     []MenuCategoryRef `toml:"pinned"`     // direct inline nav links
-	Categories MenuDropdown      `toml:"categories"` // dropdown section
+	Pinned    []MenuCategoryRef `toml:"pinned"`    // direct inline nav links
+	Dropdowns []MenuDropdown    `toml:"dropdowns"` // dropdown sections
 }
 
 // MenuDropdown describes the dropdown section of the nav.
@@ -170,8 +170,10 @@ func Load(path string) (*Config, error) {
 		cfg.ExcerptLength = 200
 	}
 
-	if cfg.Menu.Categories.Label == "" {
-		cfg.Menu.Categories.Label = "Writings"
+	for i := range cfg.Menu.Dropdowns {
+		if cfg.Menu.Dropdowns[i].Label == "" {
+			cfg.Menu.Dropdowns[i].Label = "More"
+		}
 	}
 
 	// Cache defaults — only apply when nothing was explicitly configured

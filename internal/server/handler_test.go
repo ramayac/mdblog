@@ -112,10 +112,12 @@ Many useful commands.
 			"srbyte": {BlogName: "Sr. Byte 👨‍💻", Folder: "srbyte", Index: false},
 		},
 		Menu: config.MenuConfig{
-			Categories: config.MenuDropdown{
-				Label: "Writings",
-				Item: []config.MenuCategoryRef{
-					{Category: "srbyte", Order: 1},
+			Dropdowns: []config.MenuDropdown{
+				{
+					Label: "Writings",
+					Item: []config.MenuCategoryRef{
+						{Category: "srbyte", Order: 1},
+					},
 				},
 			},
 		},

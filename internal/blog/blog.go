@@ -270,12 +270,14 @@ func (b *Blog) GetMenu() []MenuLink {
 		links = append(links, MenuLink{Label: ml.Label, URL: ml.URL})
 	}
 	links = append(links, b.GetNavPinned()...)
-	if catLinks := b.GetMenuCategories(); len(catLinks) > 0 {
-		label := b.cfg.Menu.Categories.Label
-		if label == "" {
-			label = "More"
+	for _, dropdown := range b.cfg.Menu.Dropdowns {
+		if catLinks := b.GetDropdownCategories(dropdown); len(catLinks) > 0 {
+			label := dropdown.Label
+			if label == "" {
+				label = "More"
+			}
+			links = append(links, MenuLink{Label: label, SubItems: catLinks})
 		}
-		links = append(links, MenuLink{Label: label, SubItems: catLinks})
 	}
 	return links
 }
@@ -304,11 +306,11 @@ func (b *Blog) GetNavPinned() []MenuLink {
 	return links
 }
 
-// GetMenuCategories returns navigation links for menu.categories.item entries,
+// GetDropdownCategories returns navigation links for a dropdown's item entries,
 // sorted by Order.
-func (b *Blog) GetMenuCategories() []MenuLink {
-	refs := make([]config.MenuCategoryRef, len(b.cfg.Menu.Categories.Item))
-	copy(refs, b.cfg.Menu.Categories.Item)
+func (b *Blog) GetDropdownCategories(dropdown config.MenuDropdown) []MenuLink {
+	refs := make([]config.MenuCategoryRef, len(dropdown.Item))
+	copy(refs, dropdown.Item)
 	sort.Slice(refs, func(i, j int) bool {
 		if refs[i].Order != refs[j].Order {
 			return refs[i].Order < refs[j].Order
@@ -330,16 +332,18 @@ func (b *Blog) GetMenuCategories() []MenuLink {
 }
 
 // menuOrderForSlug returns the Order value for a category slug from either
-// menu.pinned or menu.categories.item. Returns 9999 if not referenced.
+// menu.pinned or any menu.dropdowns item. Returns 9999 if not referenced.
 func (b *Blog) menuOrderForSlug(slug string) int {
 	for _, ref := range b.cfg.Menu.Pinned {
 		if ref.Category == slug {
 			return ref.Order
 		}
 	}
-	for _, ref := range b.cfg.Menu.Categories.Item {
-		if ref.Category == slug {
-			return ref.Order
+	for _, dropdown := range b.cfg.Menu.Dropdowns {
+		for _, ref := range dropdown.Item {
+			if ref.Category == slug {
+				return ref.Order
+			}
 		}
 	}
 	return 9999

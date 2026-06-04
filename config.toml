@@ -45,20 +45,21 @@ priority_post        = "0.6"
 category = "guides"
 order    = 2
 
-[menu.categories]
+[[menu.dropdowns]]
 label = "Writings"
+item = [
+    { category = "personal", order = 1 },
+    { category = "substack", order = 4 },
+    { category = "srbyte", order = 5 }
+]
 
-[[menu.categories.item]]
-category = "personal"
-order    = 1
-
-[[menu.categories.item]]
-category = "substack"
-order    = 4
-
-[[menu.categories.item]]
-category = "srbyte"
-order    = 5
+[[menu.dropdowns]]
+label = "Projects"
+item = [
+    { category = "android", order = 1 },
+    { category = "opensource", order = 2 },
+    { category = "sketches", order = 3 }
+]
 
 [[menu_links]]
 label = "Home"
@@ -90,6 +91,24 @@ index          = false
 blog_name      = "Projects 🚀"
 header_content = "Apps, tools, and side projects I have built."
 folder         = "projects"
+index          = true
+
+[categories.android]
+blog_name      = "Android 🤖"
+header_content = "My Android apps and mobile development projects."
+folder         = "android"
+index          = true
+
+[categories.opensource]
+blog_name      = "Open Source 🌐"
+header_content = "Libraries, CLI tools, and open-source contributions."
+folder         = "opensource"
+index          = true
+
+[categories.sketches]
+blog_name      = "Sketches 🎨"
+header_content = "Creative coding, Processing sketches, and visual designs."
+folder         = "sketches"
 index          = true
 
 [labels]

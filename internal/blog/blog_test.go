@@ -61,9 +61,12 @@ func makeTestConfig(postsDir string) *config.Config {
 			"tech": {BlogName: "Tech", Folder: "tech", Index: true},
 		},
 		Menu: config.MenuConfig{
-			Categories: config.MenuDropdown{
-				Item: []config.MenuCategoryRef{
-					{Category: "tech", Order: 1},
+			Dropdowns: []config.MenuDropdown{
+				{
+					Label: "Writings",
+					Item: []config.MenuCategoryRef{
+						{Category: "tech", Order: 1},
+					},
 				},
 			},
 		},
@@ -143,7 +146,7 @@ func TestSearchPosts_NoIndex(t *testing.T) {
 func TestGetMenu_CategoryLinks(t *testing.T) {
 	cfg := makeTestConfig(t.TempDir())
 	cfg.MenuLinks = []config.MenuLink{{Label: "Home", URL: "/"}}
-	cfg.Menu.Categories.Label = "Writings"
+	cfg.Menu.Dropdowns[0].Label = "Writings"
 	b := New(cfg)
 
 	menu := b.GetMenu()
@@ -678,7 +681,7 @@ func TestGetMenu_PinnedLinksAreInline(t *testing.T) {
 
 func TestGetMenu_NoCategoriesNoDropdown(t *testing.T) {
 	cfg := makeTestConfig(t.TempDir())
-	cfg.Menu.Categories.Item = nil // no dropdown categories
+	cfg.Menu.Dropdowns[0].Item = nil // no dropdown categories
 	b := New(cfg)
 
 	menu := b.GetMenu()
@@ -691,7 +694,7 @@ func TestGetMenu_NoCategoriesNoDropdown(t *testing.T) {
 
 func TestGetMenu_DropdownLabelFallback(t *testing.T) {
 	cfg := makeTestConfig(t.TempDir())
-	cfg.Menu.Categories.Label = "" // empty — should fall back to "More"
+	cfg.Menu.Dropdowns[0].Label = "" // empty — should fall back to "More"
 	b := New(cfg)
 
 	menu := b.GetMenu()
@@ -738,12 +741,14 @@ func TestGetMenu_DropdownSubItemsOrdered(t *testing.T) {
 			"ccc": {BlogName: "CCC", Folder: "ccc"},
 		},
 		Menu: config.MenuConfig{
-			Categories: config.MenuDropdown{
-				Label: "Writings",
-				Item: []config.MenuCategoryRef{
-					{Category: "ccc", Order: 3},
-					{Category: "aaa", Order: 1},
-					{Category: "bbb", Order: 2},
+			Dropdowns: []config.MenuDropdown{
+				{
+					Label: "Writings",
+					Item: []config.MenuCategoryRef{
+						{Category: "ccc", Order: 3},
+						{Category: "aaa", Order: 1},
+						{Category: "bbb", Order: 2},
+					},
 				},
 			},
 		},
