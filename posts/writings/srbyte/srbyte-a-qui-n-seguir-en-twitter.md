@@ -25,8 +25,7 @@ Comentarios y Opiniones sobre Tecnología:
 )
 
 ![image](https://2.bp.blogspot.com/_ayvorITawE4/SMp1bMDV0LI/AAAAAAAABPw/YA6qssvqX3M/s320/srbyte.twitter.png)    
-"¡Siguenos en
-Twiiiteeeeer!"
+"¡Siguenos en Twiiiteeeeer!"
 
 Sitios de Noticias de Tecnología:
 
