@@ -1,9 +1,10 @@
 ---
 title: Bienvenido sea 2009
-date: 2009-01-01
-author: Wendy Aparicio
-tags: año nuevo, bienvenida
-post_id: blog-3515952828243908885.post-4582126359478961517
+date: 2009-01-02
+author: Rodrigo A.
+tags: bienvenida, año nuevo
+draft: false
+post_id: blog-3515952828243908885.post-7474913038386805248
 ---
 
 "Mañana nos daremos cuenta que hoy no sabemos todavía nada"
@@ -17,3 +18,5 @@ Esperamos sigan fieles al blog y estén pendientes de todo lo nuevo que tenemos 
 ¡FELIZ AÑO 2009!
 
 Bendiciones.
+
+Atte. Los autores.-

@@ -2,7 +2,8 @@
 title: Busquedas de Google: Popularidad o Relevancia?
 date: 2008-06-09
 author: Robertux
-tags: firefox, blog, debian, correo, internet, interesante, twitter, computadoras, buscar, email, tecnicas, google
+tags: tecnicas, firefox, google, blog, computadoras, twitter, buscar, correo, debian, email, internet, interesante
+draft: false
 post_id: blog-3515952828243908885.post-5363505763925015445
 ---
 
@@ -12,9 +13,8 @@ Como algunos sabrán, firefox posee integrado por defecto el buscador de Google 
 
 Esto me permitio darme cuenta que Google le da mas importancia a la popularidad que a la relevancia de los resultados de la busqueda. Como? pues recuerdo que hace meses cometia los errores de digitar "gamil" o "gmal" en lugar de "gmail" en mi barra de direcciones, lo cual obviamente me redireccionaba a gamil.com y pensaba en lo afortunados que eran los dueños de ese blog al recibir tantas visitas de todos los que se equivocaban al intentar ingresar a su cuenta de GMail.
 
-![image](https://bp1.blogger.com/_jH77WNrMVRA/SEzh5vENhZI/AAAAAAAAA5I/1Xo5jqL4LTk/s320/ShotGamil.png)    
-"Screenshot del panel derecho del sitio web de
-Gamil"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvUvgwIBVAtHDuYh6zHLtXpf8B0U1scAa9uOCMqr0v4AfhQMnhTkx3aubtGmEwZ9MBWFDMZ_tUxrY96YmwIng18u4QtN_q3gOYb0nIbrVGXzKK-4jd1OohZVAhjskYxaswadNNff8cF0s/s320/ShotGamil.png)    
+"Screenshot del panel derecho del sitio web de Gamil"
 
 Al parecer era tan común el error, que los dueños de Gamil hasta se tomaron la molestia de incluir una explicación indicando que tal vez llegaron a su sitio por equivocación al escribir mal "gmail".
 

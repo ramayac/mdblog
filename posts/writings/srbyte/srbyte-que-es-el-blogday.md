@@ -1,9 +1,10 @@
 ---
 title: ¿Que es el BlogDay?
 date: 2008-08-31
-author: Rodrigo Amaya
+author: Rodrigo A.
 tags: divertido, blog, day
-post_id: blog-3515952828243908885.post-4390008489845722822
+draft: false
+post_id: blog-3515952828243908885.post-7254401207092491172
 ---
 
 ![image](https://www.blogday.org/images/badge_blue.gif)    
@@ -13,7 +14,8 @@ De esta forma, todos los autores y lectores de los blogs, se encontraran saltand
 
 Visitar la página oficial del BlogDay en:
 
-[> https://www.blogday.org/](https://www.blogday.org/) Y
-si tienes twitter, puedes seguirlo en: @[BlogDay](https://twitter.com/blogday).
+[
+> https://www.blogday.org/
+](https://www.blogday.org/) Y si tienes twitter, puedes seguirlo en: @[BlogDay](https://twitter.com/blogday).
 
 El blog del Sr. Byte se une a esta celebración, recomendando (en unas horas) un par de nuestros blogs favoritos (que no son tan nuevos, pero no importa).

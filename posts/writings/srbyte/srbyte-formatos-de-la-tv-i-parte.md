@@ -1,13 +1,13 @@
 ---
 title: Formatos de la TV (I parte)
-date: 2008-09-08
-author: Wendy Aparicio
-tags: video, interesante, tv
-post_id: blog-3515952828243908885.post-3259068103569079829
+date: 2008-09-09
+author: Rodrigo A.
+tags: tv, video, interesante
+draft: false
+post_id: blog-3515952828243908885.post-6929752519816586241
 ---
 
-![image](https://3.bp.blogspot.com/_JbB9KsZ238w/SMXzBQviuYI/AAAAAAAAAKA/Xsf7gOoBo4w/s320/a236%5B1%5D.jpg)    Al escudriñar en la historia sobre la invención de la televisión,
-nos encontramos con los nombres de personajes como Paul Nipkow y John Logie Baird. No obstante, la televisión es más que nombres y anécdotas de personas brillantes.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsjomfSYcxLokPoQahiSzciArtzKH1Hi-fm6mB6sFR46yqr_Ep1m53FI0BmNJfbBbliP-7JOSXTA7Wsikb2FP-xLjV2QIo2AAtls1tceoamCURBx0StzuH87fbeR_4oMiZOUvRTq-MSlnp/s320/a236%5B1%5D.jpg)    Al escudriñar en la historia sobre la invención de la televisión, nos encontramos con los nombres de personajes como Paul Nipkow y John Logie Baird. No obstante, la televisión es más que nombres y anécdotas de personas brillantes.
 
 La televisión es una de las maravillas modernas que, a pesar de tener un poco más de cien años de invención, sigue teniendo vigencia en nuestros hogares y perfeccionándose continuamente. Aunque no tiene aspecto de reliquia, este modelo de tv ya se está defasando. Al igual que todo en esta vida, este singular aparatito ha evolucionado con el tiempo y se ha convertido en un complejo sistema de telecomunicación a distancia, que incluso permite anexarle funciones propias de una computadora. Sin embargo, muy pocos conocen todo el proceso histórico que hizo posible la recepción de la imágenes dentro de esa “cajita mágica”.
 
@@ -17,9 +17,8 @@ Esta doble selección permite dar un tratamiento diferenciado al color y al bril
 
 Es así como se realizan los llamados barridos que descomponen, secuencialmente, la imagen que se desea transmitir. Al hacer esto, la imagen se va descubriendo línea a línea, de manera interna en el aparato. Así se logra leer primero las líneas impares para luego leer las pares. De esta manera el nuevo haz de luz retroalimentación la línea que ya está perdiendo su luz.
 
-![image](https://4.bp.blogspot.com/_ayvorITawE4/SMX273y5ObI/AAAAAAAABPI/Yh9K_VxH4c4/s200/ntsc_colorbars.png)    
-"NTSC tiene una resolucion
-de 720x480, pero tiene el mismo radio aspecto de 4:3 de 640x480 o 720x540."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRGCGMlbG5RSL-bFIEk4ke8t_UdP-hoXidNuHg_WgIR2_s_NWWZjQGuvKBDVXPtLp4LVRPT7ZR439uvHJ29Uo6nM5CnTKfB5-nDRmVHA9X1PZW6HKJ6UTeRnrtF-eMnfndtmgAqcuOkbA/s200/ntsc_colorbars.png)    
+"NTSC tiene una resolucion de 720x480, pero tiene el mismo radio aspecto de 4:3 de 640x480 o 720x540."
 
 Posteriormente, en Alemania se desarrolló el sistema [PAL](https://es.wikipedia.org/wiki/PAL)(1966), conocido por sus siglas como Phase Altenating Line y que pretendía ser un nuevo sistema de televisión a color. Este nuevo sistema fue adoptado por todos los países de Europa Occidental, a excepción de Francia y los países de Europa Oriental que optaron por el [SECAM](https://es.wikipedia.org/wiki/SECAM).
 

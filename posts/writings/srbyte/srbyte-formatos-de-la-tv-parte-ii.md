@@ -1,13 +1,13 @@
 ---
 title: Formatos de la TV (Parte II)
-date: 2008-09-25
+date: 2008-09-26
 author: Wendy Aparicio
-tags: video, interesante, tv
+tags: tv, video, interesante
+draft: false
 post_id: blog-3515952828243908885.post-8503820463254019634
 ---
 
-![image](https://3.bp.blogspot.com/_JbB9KsZ238w/SNxJWBecUqI/AAAAAAAAALA/U_AfYaETgto/s320/BMW-TV-Tuner%5B1%5D.gif)    [Continuando con la historia de la televisión](https://www.srbyte.com/2008/09/formatos-de-la-tv-i-parte.html), es preciso dar un vistazo a uno de los sistemas bajo los
-cuales trabaja este singular aparato. En esta entrega hablaremos del sistema National Television System Committee, mejor conocido por sus siglas NTSC.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTDEf-XzFYIYzTvjFC4tlk6Fhmy4Vps40wPJ_PqOXTSjD0KDxpoSLhPv7rloQdtp2cCq-JdLv5vbmjRzICyGqpoh1c2drm3M6THyHOSYaa9RLmIKA9elL9KgzFTFTafQ8vWTNm-xbCwef2/s320/BMW-TV-Tuner%5B1%5D.gif)    [Continuando con la historia de la televisión](https://www.srbyte.com/2008/09/formatos-de-la-tv-i-parte.html), es preciso dar un vistazo a uno de los sistemas bajo los cuales trabaja este singular aparato. En esta entrega hablaremos del sistema National Television System Committee, mejor conocido por sus siglas NTSC.
 
 La Comisión Nacional de Sistemas de Televisión, como se traduce en español, fue creado por la cadena de televisión estadounidense CBS alrededor de 1940. Su funcionamiento consiste, básicamente, en una codificación y transmisión de imágenes a color analógica.
 
@@ -17,7 +17,6 @@ A pesar de que en algunos países este sistema es casi obsoleto, aún se utiliza
 
 Debido a que el sistema NTSC es un sistema que utiliza las imágenes a color, era necesario garantizar su compatibilidad con el sistema en blanco y negro, por lo que el sistema NTSC de color buscó la manera de mantener la señal monocromática blanco y negro como componente de luminancia de la imagen en color. De esta forma, el sistema es aplicable y visto tanto en aparatos digitales como de cátodos.
 
-![image](https://4.bp.blogspot.com/_JbB9KsZ238w/SNxgfWKog3I/AAAAAAAAALI/jgoaz8S6Nwg/s320/barras.bmp)    Sin embargo, el sistema NTSC no es infalible ni la panacea de la
-tecnología televisiva. Entre algunos de los problemas que presenta este sistema, se encuentra la degradación en cuanto a la calidad de la imagen. Debido a ello la imagen se altera y provoca que el cuadro a color pierda su equilibrio del color en el momento de la recepción. Posteriormente, los sistemas PAL o SECAM, superarían totalmente este obstáculo. Algo que también desfavorece a este sistema es su limitada resolución. El NTSC tiene sólo 525 líneas de resolución vertical. Esto da lugar a una imagen de calidad inferior en comparación con los otros sistemas televisivos, sin mencionar que hace más complicado y trabajoso el proceso de conversión de cintas para el cine. Todo esto se superaría con el sistema PAL y el SECAM que exploraremos en la siguiente entrega.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3vYZhpu5iurvnKnvjxHam6WjBharpxavWpBzY4FTeGpx-XEYEnL6xPLm3YDz0yN-lecmZNiRWPxjOPfrB-ci2jluBTaSFXRXDNIZIVYKY1LpFfTjkx_m6LOE-KzY7oT41sJGkEYFMm_gO/s320/barras.bmp)    Sin embargo, el sistema NTSC no es infalible ni la panacea de la tecnología televisiva. Entre algunos de los problemas que presenta este sistema, se encuentra la degradación en cuanto a la calidad de la imagen. Debido a ello la imagen se altera y provoca que el cuadro a color pierda su equilibrio del color en el momento de la recepción. Posteriormente, los sistemas PAL o SECAM, superarían totalmente este obstáculo. Algo que también desfavorece a este sistema es su limitada resolución. El NTSC tiene sólo 525 líneas de resolución vertical. Esto da lugar a una imagen de calidad inferior en comparación con los otros sistemas televisivos, sin mencionar que hace más complicado y trabajoso el proceso de conversión de cintas para el cine. Todo esto se superaría con el sistema PAL y el SECAM que exploraremos en la siguiente entrega.
 
 Fuentes consultadas: Wikipedia, Enciclopedia libre: [https://es.wikipedia.org/wiki/NTSC](https://es.wikipedia.org/wiki/NTSC) Monografías. com, Tesis, Documentos, Publicaciones y Recursos Educativos: [https://www.monografias.com/trabajos5/ntsc/ntsc.shtml?relacionados](https://www.monografias.com/trabajos5/ntsc/ntsc.shtml?relacionados)

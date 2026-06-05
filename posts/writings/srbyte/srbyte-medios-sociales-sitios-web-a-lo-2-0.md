@@ -1,8 +1,9 @@
 ---
 title: Medios Sociales, Sitios Web a lo 2.0
-date: 2008-05-31
+date: 2008-06-01
 author: Robertux
-tags: web 2.0, social, network, tutorial, internet, interesante
+tags: social, tutorial, web 2.0, internet, interesante, network
+draft: false
 post_id: blog-3515952828243908885.post-8797746415153448249
 ---
 
@@ -24,7 +25,6 @@ Entre las características de los sitios web considerados como medios sociales o
 
 No hay duda que los sitios al estilo web 2.0 con contenido social (o medios sociales, como lo quieran llamar) aumentan su productividad y popularidad. Una mejor manera de explicarlo es a través de un vídeo demostrativo (hecho con dibujos a lápiz en piezas de papel!), elaborado por [commoncraft](https://www.commoncraft.com/):
 
-"Commoncraft: Social Media in Plain
-English"
+"Commoncraft: Social Media in Plain English"
 
 Algo mas que deseen aportar sobre el tema?

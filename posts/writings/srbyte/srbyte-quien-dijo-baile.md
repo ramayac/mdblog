@@ -1,9 +1,10 @@
 ---
 title: ¿Quien dijo baile?
-date: 2007-01-24
-author: Rodrigo Amaya
+date: 2007-01-25
+author: Rodrigo A.
 tags: baile
-post_id: blog-3515952828243908885.post-2530025935677560882
+draft: false
+post_id: blog-3515952828243908885.post-4053680166620786657
 ---
 
 Decidí colocar unos vídeos muy interesantes y divertidos para resumir las actividades por aquí:

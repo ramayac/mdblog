@@ -1,15 +1,15 @@
 ---
 title: Feliz Cumpleaños DAMR.NET!
 date: 2008-07-07
-author: Rodrigo Amaya
+author: Rodrigo A.
 tags: curioso
-post_id: blog-3515952828243908885.post-195792457405184704
+draft: false
+post_id: blog-3515952828243908885.post-8072007551539433561
 ---
 
 ¡Hoy el blog de [David Mejia](https://damr.net/acerca-de/david-mejia) (damr.net) cumple 2 años de existencia en la blogosfera! Asi que, por semejante exito, constancia y dedicacion ( y porque aunque no les guste a muchos, el blog de david es un punto de referencia para la mayoria de blogs Salvadoreños jaja!) el Sr. Byte le hace la mención (prometida en Twitter, ooops!) y le da los honores que se mercidos :D
 
-![image](https://bp3.blogger.com/_ayvorITawE4/SHJF0_Ogh_I/AAAAAAAAA2E/Pb0NLxIVvdg/s400/damr.net.jpg)    
-"Imagen: Captura del blog de
-David Media."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0f3rrmOz6t5-6CXBjCTJzFd0ctUfP6g2SzHBgC_OE0RgKFaA2qWprYk3dk6OTdIJqt7Zxw6BqGFy8yCBziP9FhnDr0TtmNZJZYkzckKC8y_XuiE3AOcT4OkJYZQPqy09G-duCn0TQYY/s400/damr.net.jpg)    
+"Imagen: Captura del blog de David Media."
 
-¡Felicidades David! Muchos exitos y un "googol" de años más bloggeando :) Atte. Staff del Sr.
+¡Felicidades David! Muchos exitos y un "googol" de años más bloggeando :) Atte. Staff del Sr. Byte

@@ -3,12 +3,12 @@ title: Feliz Día PI
 date: 2008-03-14
 author: Robertux
 tags: pi, matematica
+draft: false
 post_id: blog-3515952828243908885.post-6526077740239626451
 ---
 
-![image](https://bp0.blogger.com/_jH77WNrMVRA/R9mFlNxJydI/AAAAAAAAAnw/niYOdn6XY-s/s320/2190712270_b57a62e511.jpg)    
-"Tarta de Calabaza con el
-Símbolo de PI"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglsnGd1UOyBwzjOQ8RqWI8t9ULTn7x0RjlGZc04ZU5OQf5GpkJeftmsCm-zQo6EBJnLGCFJh8IPBuuwCgoBy4sVe0Sbt4yqwCjCpjxSRqX2FvXTxMmVHMLXh26PYdhyphenhyphenATZRw6fueFtucU/s320/2190712270_b57a62e511.jpg)    
+"Tarta de Calabaza con el Símbolo de PI"
 
 Muchos informáticos, matemáticos, frikis y geeks en general celebran el día de hoy como el día pi (π), esa constante tan mencionada en la geometría y en la trigonometría que ha hecho sufrir a muchos cuando aparece en todas esas complicadas ecuaciones matemáticas desde áreas y volúmenes de figuras geométricas primitivas como los conos, cilindros y esferas hasta fórmulas relacionadas con la teoría de la relatividad general de Einstein.
 
@@ -17,8 +17,7 @@ Pueda que algunos solo lo hayan oído mencionar así que solo les brindo una sim
 
 PI es una constante matemática utilizada comúnmente en la geometría que representa la razón (o el cociente) de la longitud del perímetro de un círculo con respecto a la longitud su diámetro. Su valor suele redondearse a 3.1416 o 3.14159 aunque en realidad posee una cantidad infinita de decimales. En la wikipedia se encuentra más información al respecto y una imagen animada que ilustra muy claramente la relación perímetro/diámetro antes mencionada.
 
-[Acá](https://zenwerx.com/pi.php) pueden encontrar una
-aproximación de PI con al rededor de cuatro millones de decimales.
+[Acá](https://zenwerx.com/pi.php) pueden encontrar una aproximación de PI con al rededor de cuatro millones de decimales.
 
 - ¿Porqué se celebra hoy?
 El día PI se celebra comúnmente el día de hoy, 14 de marzo de cada año, de manera que se lea Marzo 3, día 14 las cuales son las primeras tres cifras que forman el número en cuestión: 3.14. Algunas personas lo celebran también el 22 de Julio(22 del 7), debido a que la fracción 22/7 es una aproximación común al valor de PI.

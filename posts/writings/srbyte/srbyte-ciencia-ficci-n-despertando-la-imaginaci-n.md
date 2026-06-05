@@ -1,9 +1,10 @@
 ---
 title: Ciencia Ficción: Despertando la imaginación
-date: 2009-09-09
-author: Wendy Aparicio
-tags: cine, animacion, cineastas, bienvenida, entrenamiento
-post_id: blog-3515952828243908885.post-925068168498926825
+date: 2009-09-10
+author: Rodrigo A.
+tags: entrenamiento, cineastas, cine, bienvenida, animacion
+draft: false
+post_id: blog-3515952828243908885.post-4429750853420929454
 ---
 
 Con este post marco mi regreso al Sr. Byte después de un largo y tortuoso exilio voluntario, pero productivo. Pero claro, no estoy aquí para hablar de qué hice, qué pasó o cómo fue. Además este es un blog de tecnología y ustedes están aquí para leer cosas cosntructivas, no anécdotas personales.
@@ -12,12 +13,12 @@ Entremos ya en materia. El día de hoy hablaremos de uno de los géneros cinemat
 
 En ocasiones sucede que cuando se menciona el término de ciencia ficción, lo primero que nos viene a la mente son entes mitad humanos mitad mecánicos, grandes computadoras con mentalidad propia, ciudades perfectas... En fin, una visión futurista espectacularmente tecnológica.
 
-![image](https://2.bp.blogspot.com/_JbB9KsZ238w/SqXLTSOFaEI/AAAAAAAAAUk/-q8drfB6MHI/s320/cifi1.jpg)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX8-qEpVF1iRdEKm-bae1MCJlr7DQQsZBdNkVifQ95rOOjvp_N8QJb7GLun6wrxkReVM8LKE2HUgow4WsK5TVhT9i0i0xV4cDnR-QmVttW0elcaUSlPqmJmeecE5L_LQnjpO6RcJRQ68Yy/s320/cifi1.jpg)  
 Aún con una forma rústica, ¡los robots sí que nos facilitarían la vida!
 
 No obstante, la ciencia ficción no es un género de reciente explotación. Alrededor de 1900 ya se hacían algunos esfuerzos por hacer producciones que echaran a volar la imaginación, dar un toque de magia y recrear situaciones que en la realidad serían casi imposibles. Un ejemplo de ello es el corto [Viaje a la Luna](https://es.wikipedia.org/wiki/Viaje_a_la_luna) del francés George Méliès.
 
-![image](https://4.bp.blogspot.com/_JbB9KsZ238w/SqXA5UX3ceI/AAAAAAAAAUc/r4wmbx5wjrg/s320/20070418klplylliu_158.Ies.SCO%5B1%5D.jpg)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1GzeARRmGhH8unB0Pz9vRaTih7XI77AHOvaIaXyt5g5hQD-Zffszmz6mfKMa2tBnJ73j9-X7rhWlEIRL0Ew-FnZfpzDSHwuTgw02w6dxsZTN6HhF975G6jJMlzVL0dW9B1X8oMaTgviNl/s320/20070418klplylliu_158.Ies.SCO%5B1%5D.jpg)  
 
 La Luna que vigila todo es una de las imágenes más emblemáticas del corto.
 

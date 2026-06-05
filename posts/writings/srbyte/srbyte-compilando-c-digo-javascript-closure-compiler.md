@@ -1,8 +1,9 @@
 ---
 title: Compilando código JavaScript (Closure Compiler)
 date: 2009-11-14
-author: Rodrigo Amaya
-tags: javascript, compiler, google
+author: Rodrigo A.
+tags: google, compiler, javascript
+draft: false
 post_id: blog-3515952828243908885.post-5276971736983403518
 ---
 
@@ -14,7 +15,11 @@ De clic en clic fui encontrando a "viejos conocidos" como el proyecto [Rhino](ht
 
 ![image](https://code.google.com/intl/es-AR/closure/images/logo128px.png)    
 
-¿Qué es el Closure Compiler? Es un VERDADERO compilador de código JavaScript escrito 100% en Java. Lo más sorprendente es que realmente compila código JavaScript y lo convierte en mejor código JavaScript. Interpreta JavaScript, lo analiza, remueve código muerto, reescribe rutinas y lo que ya esta optimizado lo "minimiza" (remueve espacios en blanco, comentarios, saltos de linea, etc), verifica sintaxis, referencias de variables y tipos, y ademas, avisa de problemas comunes con código JavaScript. Y por si fuera poco, no solo es Software Libre, sino que ademas, existe una extensión de para Firefox, para emplearlo en conjunto con tu código transformado y [Firebug](https://www.srbyte.com/2009/11/javascript-firebug-jsure.html), llamado: [Closure Inspector](https://closure-inspector.googlecode.com/files/closureinspector09.xpi).
+¿Qué es el Closure Compiler?
+
+Es un VERDADERO compilador de código JavaScript escrito 100% en Java. Lo más sorprendente es que realmente compila código JavaScript y lo convierte en mejor código JavaScript. Interpreta JavaScript, lo analiza, remueve código muerto, reescribe rutinas y lo que ya esta optimizado lo "minimiza" (remueve espacios en blanco, comentarios, saltos de linea, etc), verifica sintaxis, referencias de variables y tipos, y ademas, avisa de problemas comunes con código JavaScript.
+
+Y por si fuera poco, no solo es Software Libre, sino que ademas, existe una extensión de para Firefox, para emplearlo en conjunto con tu código transformado y [Firebug](https://www.srbyte.com/2009/11/javascript-firebug-jsure.html), llamado: [Closure Inspector](https://closure-inspector.googlecode.com/files/closureinspector09.xpi).
 
 ¿Como puedo usarlo?
 

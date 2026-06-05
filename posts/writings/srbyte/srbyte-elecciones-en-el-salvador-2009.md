@@ -1,16 +1,16 @@
 ---
 title: Elecciones en El Salvador 2009
-date: 2009-03-15
-author: Rodrigo Amaya
-tags: elecciones, politica, twitter, informacion
+date: 2009-03-16
+author: Rodrigo A.
+tags: twitter, elecciones, informacion, politica
+draft: false
 post_id: blog-3515952828243908885.post-7987489366654744050
 ---
 
 A pesar de que, usualmente, presento una apatía total por la política, estas ultimas elecciones me emocionaron mucho. Parte de la emoción fue debido a que al fin pude mantenerme al tanto de los resultados, por lo medios que a mi más me agradan... y de esos precisamente voy a escribirles brevemente en esta ocasión.
 
-![image](https://3.bp.blogspot.com/_ayvorITawE4/Sb22agJN3PI/AAAAAAAAB7I/e24X2493X_c/s320/social+media.jpg)    
-"La actividad en los medios
-sociales se hizo presente en estas elecciones."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEhDaCcNtygBhLxTCU0aH68dWTI5JNFCE6AjUd_Ig2ypVjghqffsWsIDaVkFlJwxUemUKsdDfFGoa95mUfhDcj3lKH520jWK-iykN2EvQ8emS3FvdsOzqNI9ZOFVOchptpsfLXk8yUezug/s320/social+media.jpg)    
+"La actividad en los medios sociales se hizo presente en estas elecciones."
 
 De lo que les quiero comentar, y de lo que muchos en todo caso ya saben, es de la disponibilidad de datos, de la cobertura de los medios y del papel genial que la comunidad de Twitters y Bloggers han jugado, al mantener totalmente informados a prácticamente todo aquel que estuviese buscando resultados de las elecciones en Internet.
 
@@ -21,9 +21,8 @@ De lo que les quiero comentar, y de lo que muchos en todo caso ya saben, es de l
 
 3. Twitt-radar: También quiero felicitar a [Adolfo Fitoria](https://fitoria.net/) e [Igor Guerrero](https://igordevlog.blogspot.com/) por el uso de una aplicación que usa el framework de Google Aplications, y la informacion generada en Twitter, nos compartieron el Twitt-radar:
 
-![image](https://3.bp.blogspot.com/_ayvorITawE4/Sb2ur_EwrTI/AAAAAAAAB64/DOGKy0-wuFs/s320/igorPolitiquero.png)    
-"Captura del Twitt-radar, en
-acción."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY_1gkIH7nypZuEzKk5JseRpKpmg3LktYhRIEbZwWSQlopeCJSb64_DL7Hp2On5hahEU4xjt2s7wtRYStz6b0qz18NaPl7P1NFCTndmqI6-1s_cgEq2NsMCjiSoTGGWZXxp50aYyVktdKc/s320/igorPolitiquero.png)    
+"Captura del Twitt-radar, en acción."
 
 En lo personal, una de las iniciativas que más fue de mi agrado. Felicitaciones.
 
@@ -42,9 +41,8 @@ Gracias a [Chero07](https://www.chero07.info/) por compartir estos vínculos.
 
 6. ¿Que me habría gustado ver?: ¿Se acuerdan de las elecciones del Presidente Barak Obama?, Google utilizo su tecnología de Google Maps para crear un mapa que mostraba los estados de la union, coloreados segun el partido que ganaba.
 
-![image](https://4.bp.blogspot.com/_ayvorITawE4/Sb2xuPpsNyI/AAAAAAAAB7A/6jj8LQmkkNk/s320/googlemaps.png)    
-"Google Maps
-Mashup"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAwyVrXd3X0wUDiqSdKFKTq_ax78ELrv0NzTTgtnJJFGcDW3s7uQIGNer0CLHTy0DQRietahpwwXs7Wj_iWUgpJZkiBYYiAUXfYV5vrrGHPG6UUffob0klS4haIPKPzuKi02-gHItL9L7p/s320/googlemaps.png)    
+"Google Maps Mashup"
 
 ¿Sería mucho pedir, que el Tribunal Supremo Electoral hiciera algo así? (Se vale soñar) También me habría gustado ver un poco más de calma entre las personas que comentan en el Cover-it-Live, no entiendo cual es el "ajolotamiento" de algunos individuos. En fin, muy emocionante el desenlace de esta campaña, también quiero mencionar el blog de [Hunnapuh](https://hunnapuh.blogcindario.com/), del que pase muy pendiente. Y no queda más que felicitar nuevamente a todos los involucrados, e invitar a los medios masivos de comunicacion Salvadoreña, a reconocer el peso, y la importancia que las comunidades de Bloggers y Twitters tienen en la cobertura de este tipo de eventos.
 

@@ -1,13 +1,16 @@
 ---
 title: 5 Juegos de Estrategia (100% libres).
 date: 2009-11-26
-author: Rodrigo Amaya
-tags: games, rts, linux, juegos, estrategia
+author: Rodrigo A.
+tags: games, juegos, rts, estrategia, linux
+draft: false
 post_id: blog-3515952828243908885.post-8790487069912455472
 ---
 
 Hace poco jugué una partida de Age of Empires II (The Conquerors Expansion) con un compañero del trabajo y me entro una nostalgia y un deseo increíble por volver rememorar aquellos viejos tiempos en los que mi vida era pensar en como hacer un "[rush](https://usuarios.lycos.es/aprendizaoe/pon.php?web=proyecto2.html)
-" (*snif* jaja). Valga la aclaración: soy un fanático de los juegos de estrategia en tiempo real ([RTS](https://es.wikipedia.org/wiki/Juego_de_estrategia_en_tiempo_real)), creo que perdí mucho tiempo jugando Age of Empires II, StarCraft y WarCraft III y sus respectivas expansiones, así como Age of Mythology, Empire Earth y Warlord... si, lo acepto, fue mucho tiempo "perdido"... pero  me divertí mucho :)
+" (*snif* jaja).
+
+Valga la aclaración: soy un fanático de los juegos de estrategia en tiempo real ([RTS](https://es.wikipedia.org/wiki/Juego_de_estrategia_en_tiempo_real)), creo que perdí mucho tiempo jugando Age of Empires II, StarCraft y WarCraft III y sus respectivas expansiones, así como Age of Mythology, Empire Earth y Warlord... si, lo acepto, fue mucho tiempo "perdido"... pero  me divertí mucho :)
 
 Recuerdo que cuando me pase definitivamente a utilizar Linux (Debian y Ubuntu) sentí la incomodidad de migrar a un sistema al que casi no existen juegos de este genero, y si los habían... pues daban lastima. Por supuesto con el tiempo fui conociendo varias alternativas para ejecutar juegos propietarios en los sistemas linux, los casos más exitosos (los juegos que mejor corren): StarCraft y WarCraft III se ejecutan perfectamente bien en el Wine, lamentablemente Age of Empires II, no, es insoportablemente lento.
 
@@ -16,35 +19,37 @@ Pero bien, no quiero hablarles de configuraciones mágicas del Wine (la mayoría
 Así que si son fans del genero RTS y del software libre, esto es lo que les recomiendo:
 
 1) Warzone 2100
-[Warzone 2100](https://www.junauza.com/2008/06/linux-got-game-warzone-2100.html) originalmente fue producido (en 1999) para Windows y el PlayStation, pero en el
-2004, el código fuente y todos sus datos multimedia fueron liberados bajo la amada GNU General Public License. Warzone 2100 esta disponible como paquete precompilado para tu distro preferida. Es ligeramente exigente, tiene gráficos aceptables y es completamente en 3D, como pueden ver en la captura:
 
-![image](https://4.bp.blogspot.com/_UqUwVPikChs/SMerpDyqwmI/AAAAAAAAFFM/IdZO59fTfjo/s400/warzone.jpg)    
+[Warzone 2100](https://www.junauza.com/2008/06/linux-got-game-warzone-2100.html) originalmente fue producido (en 1999) para Windows y el PlayStation, pero en el 2004, el código fuente y todos sus datos multimedia fueron liberados bajo la amada GNU General Public License. Warzone 2100 esta disponible como paquete precompilado para tu distro preferida. Es ligeramente exigente, tiene gráficos aceptables y es completamente en 3D, como pueden ver en la captura:
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNw7RAjJ9ozXHnmnBWTmp-2DLE-n4dywIoclqcfITTHEzgN7m0VQbOw_yJZzYr_pOHSgPGJOsnNKQoFBzYPfdRqXjpMSH8BUqdNY9VKRli4xZ2zwFsbNiACnM_nsCqod-azOlYeKu8cth/s400/warzone.jpg)    
 "Captura Warzone 2100"[https://wz2100.net/](https://wz2100.net/)
 
 2) Glest
-[Glest](https://glest.org/) es un
-excelente juego en 3D multiplataforma desarrollado por un equipo de Españoles. El ambiente del juego recuerda a la edad media, y tiene dos facciones únicamente (Mágica y Tecnológica), pero lo genial de Glest, es que puedes añadir facciones personalizadas al juego, muchas de estas las pueden encontrar en la gran comunidad que constantemente esta creando nuevos mapas, unidades y facciones para usar en el juego.
 
-![image](https://4.bp.blogspot.com/_UqUwVPikChs/SMerpTkB5rI/AAAAAAAAFFU/wTVddqZ1kxw/s400/glest.jpg)    
-"Captura de
-Glest"[https://glest.org/en/](https://glest.org/en/)
+[Glest](https://glest.org/) es un excelente juego en 3D multiplataforma desarrollado por un equipo de Españoles. El ambiente del juego recuerda a la edad media, y tiene dos facciones únicamente (Mágica y Tecnológica), pero lo genial de Glest, es que puedes añadir facciones personalizadas al juego, muchas de estas las pueden encontrar en la gran comunidad que constantemente esta creando nuevos mapas, unidades y facciones para usar en el juego.
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaMF_k-eVEYAMvBTOgBsQynaODCurME1BpswoFEQdVkkD3r7cZTHqlZ2i2YaqNO9ZlCiitj_Rl9zZCtKatPCF6wSLjya1A0i_t7e1KxUlWeVvsgRRGn-eoBSiiq8rsN-F3YOt400LsuTnu/s400/glest.jpg)    
+"Captura de Glest"[https://glest.org/en/](https://glest.org/en/)
 
 3) Bos Wars
-[Bos Wars](https://www.boswars.org/) tiene
-estilo futurista y es multiplataforma también. El proyecto comenzó en el 2004 por Tina Petersenand, el líder actual del proyecto es François Beerten. El motor del juego esta escrito completamente en C++  atado a [las librerías SDL](https://www.libsdl.org/), y utiliza [Lua como lenguaje script](https://www.lua.org/). Lo confuso (para mi) al comenzar a jugar Bos Wars es la lógica de economía variable en el juego. Hay dos recursos en el juego, energía y magma. La energía se produce por medio de plantas (de energía), y el magma se obtiene de los "puntos calientes" (hot spots). El control de largas partes del mapa crea un potencial para aumentar el rendimiento de tu economía. Y ahí esta el detalle, es claro que si controlas más del mapa, se posee una mejor economía, lo que te obliga psicologicamente a acaparar todo lo que se pueda siempre con una buena estrategia en mente. Bos Wars crea un juego totalmente original y bastante bueno, que recuerda a títulos de "similar aspecto" como como WarCraft II y AOE.
 
-![image](https://4.bp.blogspot.com/_UqUwVPikChs/SMerpeoFypI/AAAAAAAAFFc/SPB6e9M7uR8/s400/boswars-2.4-0.jpg)    
+[Bos Wars](https://www.boswars.org/) tiene estilo futurista y es multiplataforma también. El proyecto comenzó en el 2004 por Tina Petersenand, el líder actual del proyecto es François Beerten. El motor del juego esta escrito completamente en C++  atado a [las librerías SDL](https://www.libsdl.org/), y utiliza [Lua como lenguaje script](https://www.lua.org/).
+
+Lo confuso (para mi) al comenzar a jugar Bos Wars es la lógica de economía variable en el juego. Hay dos recursos en el juego, energía y magma. La energía se produce por medio de plantas (de energía), y el magma se obtiene de los "puntos calientes" (hot spots). El control de largas partes del mapa crea un potencial para aumentar el rendimiento de tu economía. Y ahí esta el detalle, es claro que si controlas más del mapa, se posee una mejor economía, lo que te obliga psicologicamente a acaparar todo lo que se pueda siempre con una buena estrategia en mente. Bos Wars crea un juego totalmente original y bastante bueno, que recuerda a títulos de "similar aspecto" como como WarCraft II y AOE.
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN4LYIhGU-ujUFLkVg_f00obXeXTdjgYYyhIc1nPlj_NG10dusAM0ZRvYKq09guqw1uL6h9V1ihYWbf97WemXmw63kypt-O-xq2C9CC_4gjgw0Q8Lx2YUseBL4FrLZYW1f9uEw4z07-s_-/s400/boswars-2.4-0.jpg)    
 "Captura de Bos Wars"[https://www.boswars.org/](https://www.boswars.org/)
 
 4) Globulation 2
 
-[Globulation 2](https://www.globulation2.org/) es una interesante propuesta
-para un RTS, que reduce el micro manejo de unidades (click y asignar tarea) al automatizar las mismas a tareas especificas de recoleccion, reparacion, ataque, defensa, etc, de acuerdo a las necesidades del usuario. En otras palabras, solo creas unidades, y dibujas areas en el mapa, y las unidades dinamicamente trataran de satisfacer estas necesidades lo mejor que pueden. Es interesante, innovador, posee una buena inteligencia artificial, juegos multiplayer y  editor de mapas y lenguaje script y gráficos aceptables... pero les advierto que se siente lento, este es un tipo de juego para las personas que se "ponen a hacer casitas" en Age of Empires.
+[Globulation 2](https://www.globulation2.org/) es una interesante propuesta para un RTS, que reduce el micro manejo de unidades (click y asignar tarea) al automatizar las mismas a tareas especificas de recoleccion, reparacion, ataque, defensa, etc, de acuerdo a las necesidades del usuario. En otras palabras, solo creas unidades, y dibujas areas en el mapa, y las unidades dinamicamente trataran de satisfacer estas necesidades lo mejor que pueden. Es interesante, innovador, posee una buena inteligencia artificial, juegos multiplayer y  editor de mapas y lenguaje script y gráficos aceptables... pero les advierto que se siente lento, este es un tipo de juego para las personas que se "ponen a hacer casitas" en Age of Empires.
 
-![image](https://4.bp.blogspot.com/_UqUwVPikChs/SMerpiDMpCI/AAAAAAAAFFk/LvLDdNbhhos/s400/globu2.jpg)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgovgH-PVQ-3S5IEQZ4DORiEflrHOM2nvFPaDkHXLTYJMSBb8c8PCkZVnrmSSJV1J94QyDAI-julJe7ypEbDDOC1iS5YnGqCVCxXYxwecStlgUmkIghlF3dMB3VqhbnQGi8WCHWMMhmGOyT/s400/globu2.jpg)  
 
-5) Spring Spring, no tiene nada que ver con el Framework de Java, es más bien un poderoso motor de juegos 3D de estrategia en tiempo real, que ofrece a los desarrolladores un marco de trabajo para hacer juegos RTS como ellos quieran... pero para ya no seguir explicando, mejor les dejo algunas capturas de varios "mods" para Spring:
+5) Spring
+
+Spring, no tiene nada que ver con el Framework de Java, es más bien un poderoso motor de juegos 3D de estrategia en tiempo real, que ofrece a los desarrolladores un marco de trabajo para hacer juegos RTS como ellos quieran... pero para ya no seguir explicando, mejor les dejo algunas capturas de varios "mods" para Spring:
 
 ![image](https://springrts.com/mediawiki/images/thumb/8/85/EvoRTS_screenshot.jpg/300px-EvoRTS_screenshot.jpg)    
 

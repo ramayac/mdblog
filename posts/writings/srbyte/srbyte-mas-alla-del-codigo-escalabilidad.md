@@ -1,21 +1,20 @@
 ---
 title: Mas Alla del Codigo: Escalabilidad
 date: 2009-01-20
-author: Robertux
-tags: elecciones, politica, computadoras, cloud, desarrollo, codigo, el salvador, programacion, twitter, empresa
-post_id: blog-3515952828243908885.post-4883452891109540459
+author: Rodrigo A.
+tags: cloud, codigo, twitter, el salvador, desarrollo, programacion, elecciones, empresa, computadoras, politica
+draft: false
+post_id: blog-3515952828243908885.post-4967399230400904716
 ---
 
-![image](https://1.bp.blogspot.com/_jH77WNrMVRA/SXOl-nRV4gI/AAAAAAAAFoQ/1Fz8NfsCHww/s400/scalability.jpg)     "Tu sistema debe ser capaz
-de crecer junto con tu negocio, para soportar la demanda del mercado"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ2V0XTX-1y4qf5QImNf1o6As4r6enRZp4ivfU0b5AtpBMP6axR0rEJywCwRDn0FoiuijMOkbK7tPkz4vOzytBs5M_wqb862f2h-lv_Fh9IUfOF-VJA5w7FO7ZD4Tw7nbTB9DYsf2ex5A/s400/scalability.jpg)     "Tu sistema debe ser capaz de crecer junto con tu negocio, para soportar la demanda del mercado"
 
 El año pasado, [Fafamonge](https://www.fafamonge.com/) me preguntó una vez cuánta influencia creía yo que podría tener el Internet y los blogs en las elecciones que estamos celebrando, a lo cual yo respondí que relativamente poca o casi nula, considerando que somos un país demasiado conservador con poca cultura tecnológica, en comparación con otros hermanos latinoamericanos como Chile o Brasil pero ahora que se celebraron las elecciones de diputados y alcaldes, quizá mi perspectiva podría variar un poco.
 
 Me he dado cuenta que los encargados de IT del tribunal supremo electoral compartían mi idea y nunca esperaron la saturación en el tráfico que ha tenido el sitio web de dicho organismo durante las elecciones y al parecer, lo mismo podría suceder con el sistema utilizado para el conteo de votos y transmisión de resultados. Lo mismo nos ocurría en la universidad cuando realizabamos exámenes en línea o al momento de realizar inscripciones en línea. Los servidores donde la aplicación web estaba alojada colapsaba por el exceso de tráfico.
 
-![image](https://3.bp.blogspot.com/_jH77WNrMVRA/SXOoemrnFrI/AAAAAAAAFoY/PUzrzV7QWPg/s400/fail_whale.gif)    
-"El ejemplo más claro de falta de escalabilidad:
-Twitter en sus inicios"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipaXO2xV5KJpHfr3G4W04nqCjyweJzGju4SzCuy8DABol2Zr0g1oPhlYDURUeaNb51SDLuiKFh5ut0uedL3cMP4dp06HoHA5pxtjI_wdkRrLCm-1CsIe5wwYZWw-jhAmwtMIBNWS6Rbk0/s400/fail_whale.gif)    
+"El ejemplo más claro de falta de escalabilidad: Twitter en sus inicios"
 
 Para evitar estos inconvenientes, es necesario tomar en cuenta la cantidad de usuarios que harán uso de nuestras aplicaciones al momento de desarrollarlas y publicarlas, además de considerar si tu sistema será capaz de crecer para adaptarse a estas nuevas necesidades de rendimiento.
 

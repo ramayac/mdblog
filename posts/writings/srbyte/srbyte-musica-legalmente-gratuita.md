@@ -1,9 +1,10 @@
 ---
 title: Musica Legalmente Gratuita
 date: 2008-07-25
-author: Robertux
-tags: last.fm, web 2.0, libre, propietario, util, free, buscar, internet, Creative Commons, interesante, musica
-post_id: blog-3515952828243908885.post-5414898074544847233
+author: Rodrigo A.
+tags: util, Creative Commons, buscar, propietario, musica, libre, web 2.0, free, internet, last.fm, interesante
+draft: false
+post_id: blog-3515952828243908885.post-6008383681075501913
 ---
 
 Los aspectos legales del software y la multimedia son temas muy delicados y poco tratados entre los usuarios, por lo menos en la mayoría de países de Latinoamérica donde la tecnología esta un tanto atrasada en comparación con los demás.
@@ -15,19 +16,17 @@ Entre los villanos que actualmente protagonizan esta película, se encuentran la
 Afortunadamente existen alternativas legales para escuchar música, gracias a artistas que han decidido lanzar su material bajo licencias libres como [CreativeCommons](https://srbyte.blogspot.com/2007/03/qu-es-creative-commons.html). Este tipo de material puede ser escuchado, compartido, descargado y redistribuido desde sitios como estos:
 
 - [Jamendo](https://www.jamendo.com/): Te permite acceder a una gran cantidad de música publicada bajo licencia CreativeCommons, muy al estilo de last.fm. Puedes crear tu perfil para agregar la música a tu lista de reproducción, hacer un review, descargarla, compartirla con amigos y hasta incrustar un widget en tu sitio web/blog para reproducir el álbum seleccionado.
-![image](https://bp3.blogger.com/_jH77WNrMVRA/SIlitNjcZEI/AAAAAAAAB4A/YdiLM5_efGw/s320/PostImg2.png)  
-"Página principal de Jamendo. Como pueden notar, su interfaz es
-multilenguaje".
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUNrC71c5CrUeu2crH3hKeqOlCX0p5SRCKv0jmKIiPJx8UZEewUBavtXXBQOgVFnaXdHZ8oHA0qwOUh5FKF5A1fSO3gBrlbPk8_0waJZ7ZPC-dcSubIsh0IU9kJgsL40-Na2_6BuFdniA/s320/PostImg2.png)  
+"Página principal de Jamendo. Como pueden notar, su interfaz es multilenguaje".
 
 - [CCMixer:](https://ccmixter.org/) Un sitio que te permite crear tus remixes utilizando samples publicados bajo licencia CreativeCommons.
 
 - [Magnatune:](https://magnatune.com/) Sitio con gran cantidad de música, el cual te permite escucharla de manera gratuita, incrustar un reproductor en tu sitio web y descargarla mediante la compra del "derecho de descarga" (Los músicos se llevan la mitad de las ganancias). Este pago depende del uso que le darás al archivo de audio el cual podría ser para alguna pelicula, remix, podcast, juego de vídeo, etc. y de esto dependerá el costo (los fines no comerciales tienen un costo de CERO).
-![image](https://bp2.blogger.com/_jH77WNrMVRA/SIljT1kM_dI/AAAAAAAAB4I/yUzwyHGhUwQ/s320/PostImg1.png)  
-"Interfaz de Magnatune,
-reproduciendo un álbum. Pueden apreciar la información del artista y los vínculos para descargar la musica."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT2wFahsD84S98tnBmjpovUUtVKw9Bl2gMzOML53rwzHIAOjRGbwfwImU3EqlpTjYAvqDWPfoYPAWVx0ETL9MeQXAmIaZILSVQcFq1rZLJrqRgMl7_6PNkKF5GNFz6TF2cyi-t5snO-Mo/s320/PostImg1.png)  
+"Interfaz de Magnatune, reproduciendo un álbum. Pueden apreciar la información del artista y los vínculos para descargar la musica."
 
 - [SoundClick:](https://www.soundclick.com/) Otro sitio web con capacidad de publicar/escuchar/descargar música con licencia CreativeCommons.
-![image](https://bp3.blogger.com/_jH77WNrMVRA/SIlle2C9l-I/AAAAAAAAB4Q/rqMw-YRB9KM/s320/PostImg6.png)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUwHms1L4Eja_co45YUSc9AUAm93mdfzUxs_bz49MGs5VkBtPqyK5hV5KmgP_T3An_Fe1tC1oes3f56DoPMAh57shSP9apBnvsmkaa8ZoupFYatMFWau3PSXEpHjBea63YR0u6lyd4wSA/s320/PostImg6.png)  
 "Interfaz del sitio SoundClick"
 
 - [Freesound:](https://www.freesound.org/) Base de datos de efectos de sonido publicados bajo licencia CreativeCommons. Estos pueden ser utilizados en cualquier tipo de proyecto que requiera efectos de sonido.
@@ -35,8 +34,7 @@ En [esta página](https://www.creativecommons.net/audio/) encontraran la lista c
 
 Por cierto, si tienes suerte podrás encontrar uno que otro track gratuito dentro de [last.fm](https://srbyte.blogspot.com/2008/07/lastfm-se-renueva.html) full lengh y descargable(lo cual es muy poco común), aunque no se brinda ninguna información acerca de la licencia de estos tracks así que hay que tener cuidado con lo que hacemos con ellos.
 
-![image](https://bp2.blogger.com/_jH77WNrMVRA/SIltbKp3ZMI/AAAAAAAAB4Y/XrIh3-_qjqg/s320/PostImg3.png)  
-"Algunos tracks dentro de last.fm pueden ser descargados. Estos no
-brindan información acerca de su licencia de uso."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk1XHHUzrSFY6o66o46EO5jmmU9O0OlllXXXI6gglJYcnEZckYk1PimYjL84vu-tfNejM9pTfX5PvL38yZGNmAqexV9Nv3kiYhtWpRo0XBNgZ6o9_g6OmyZYl1pJmLouZWrl6NC12bZW8/s320/PostImg3.png)  
+"Algunos tracks dentro de last.fm pueden ser descargados. Estos no brindan información acerca de su licencia de uso."
 
 Si conoces mas sitios que puedas aportar los cuales contengan música legalmente gratuita, compartela con nosotros.

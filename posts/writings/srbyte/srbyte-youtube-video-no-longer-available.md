@@ -2,7 +2,8 @@
 title: Youtube: "Video No Longer Available"
 date: 2008-08-03
 author: Robertux
-tags: video, cine, limitar, software, internet, musica, youtube, web 2.0, computadoras, propietario, google, tecnologia
+tags: youtube, software, propietario, google, video, computadoras, tecnologia, cine, limitar, musica, web 2.0, internet
+draft: false
 post_id: blog-3515952828243908885.post-6283377512970201251
 ---
 
@@ -12,15 +13,13 @@ Originalmente esto empezó por la publicación de vídeos con contenido sujeto a
 
 Youtube empezó a ceder, restringiendo algunos vídeos para que no puedan ser vistos fuera de los estados unidos:
 
-![image](https://bp1.blogger.com/_jH77WNrMVRA/SJTKbV0uW5I/AAAAAAAAB5Y/iuIgRKlwr7U/s320/postimage1.png)    
-"This video is not available
-in your country"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLy7qvFCL_QcGCp4SjAhRVPif50cgWWVR5rw7j3jUCUFTXnBXfn3EQkUkonhqDm7JCa4iz0VWDsocR9yA4NlqxVEVPVKKwT7xcl4fzUBT5_w1OpI_N1jdiGLfvbb4uGGfKjD_y1_HvZM8/s320/postimage1.png)    
+"This video is not available in your country"
 
 Luego de esto, ni siquiera para Estados Unidos permitieron la reproducción de estos vídeos así que ahora ya no es posible reproducirlos de ninguna forma. Habrá que irnos despidiendo de muchas escenas de películas y videoclips:
 
-![image](https://bp2.blogger.com/_jH77WNrMVRA/SJTKtU-39RI/AAAAAAAAB5g/5IlOss3yLyw/s320/postimage2.png)    
-"No longer available due to copyright
-claims..."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3eFID9YTKKb7nehl5E_ZuX_jMvWERNyEiBCHMCZfLu12sgb_Kazz-6NjgN0_5T1nkrtMGbvuWjzAGesX90X1luyfJYqvm2evnWXcxSCzaUAEqpHi9d-Z36qU1ywWWptPIJSCmhLFKvwk/s320/postimage2.png)    
+"No longer available due to copyright claims..."
 
 Lo bueno es que Google se preocupo por guardar nuestra privacidad, negándose a revelar la base de datos de las IPs de sus usuarios. Este era uno de los requisitos de los demandantes con el propósito de comprobar que el contenido con copyrights es el mas popular en el sitio.
 
@@ -34,8 +33,6 @@ Para que estas compañías se den cuenta del valor que youtube agrega a los lanz
 
 "X-Men Origins: Wolverine"
 
-"Transformers 2: Rise of the
-Decepticons"
+"Transformers 2: Rise of the Decepticons"
 
-"Dragon Ball Z, The
-Movie"
+"Dragon Ball Z, The Movie"

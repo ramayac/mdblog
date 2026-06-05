@@ -2,13 +2,13 @@
 title: Alternativas Libres: GIMP
 date: 2008-02-28
 author: Robertux
-tags: gimp, libre, gnu, linux, photoshop, software, graficos, adobe, google
+tags: software, gimp, linux, adobe, google, graficos, photoshop, libre, gnu
+draft: false
 post_id: blog-3515952828243908885.post-3667254230756861856
 ---
 
-![image](https://bp0.blogger.com/_jH77WNrMVRA/R8bj23l5lyI/AAAAAAAAAlQ/a5Y0eNrXNUI/s320/gimp-splash-2.4.png)    
-"Pantalla de Inicio del
-Gimp, en la versión 2.4 "
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXCX8hMQI0NAoPAwrszveYmJoFsP4KFgsE_VU-x-AEuf_blR__7vzR2QidEBM_ypMnm23Xk2waC9_HAXOBEyp8Y3HKRznvOdtpKddlC1-pvTyDGBLYdQTMXqcl-TO43Dais6HrCSrCkcc/s320/gimp-splash-2.4.png)    
+"Pantalla de Inicio del Gimp, en la versión 2.4 "
 
 Hace poco me enteraba leyendo en las noticias que Google desea patrocinar un proyecto más de Codeweavers, empresa detrás de wine, el popular emulador de aplicaciones Windows bajo Linux. Entre los proyectos que Google patrocina actualmente esta el soporte para la emulación de Picasa y Dragon Naturally Speaking sobre Linux.
 
@@ -34,8 +34,6 @@ Aca les dejo un vídeo de un SpeedDrawing elaborado con el GIMP:
 
 "Speed Drawing con el GIMP"
 
-[1]Las curvas Bézier son herramientas útiles de modelado,
-compuestas por curvas paramétricas generada a partir de puntos o líneas de control en cada una de sus secciones o puntas. El tamaño, posición y dirección de cada una de estas líneas de control definen la forma de la curva.
+[1]Las curvas Bézier son herramientas útiles de modelado, compuestas por curvas paramétricas generada a partir de puntos o líneas de control en cada una de sus secciones o puntas. El tamaño, posición y dirección de cada una de estas líneas de control definen la forma de la curva.
 
-[2]Una API es una interfaz de
-programación o una librería de funciones o de objetos que un programa o un sistema operativo provee para que otros programas puedan hacer uso de sus servicios sin necesidad que un usuario final tenga que interactuar con su interfaz original, si es que este la posee.
+[2]Una API es una interfaz de programación o una librería de funciones o de objetos que un programa o un sistema operativo provee para que otros programas puedan hacer uso de sus servicios sin necesidad que un usuario final tenga que interactuar con su interfaz original, si es que este la posee.

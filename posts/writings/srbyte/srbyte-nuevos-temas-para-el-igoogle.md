@@ -1,14 +1,14 @@
 ---
 title: Nuevos Temas para el iGoogle
 date: 2008-04-30
-author: Robertux
-tags: hotmail, computadoras, util, interesante, twitter, google, herramienta, youtube
-post_id: blog-3515952828243908885.post-5061763892267912496
+author: Rodrigo A.
+tags: youtube, twitter, hotmail, herramienta, util, google, interesante, computadoras
+draft: false
+post_id: blog-3515952828243908885.post-6581263820563612807
 ---
 
-![image](https://bp1.blogger.com/_jH77WNrMVRA/SBhvFvmVlfI/AAAAAAAAA1s/6sh19Yh4MTo/s320/shoot1.png)    
-"Nueva Caracteristica del
-iGoogle: Artist Themes"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyFZ6PeT0RAoutF4vyHGSPTj8QPOlMPvzAXfxI9GgLaXSo5D1rxc01fCNVZb8Hve90GwZvcuoq57_BJiryTl4nVUchPpQFvsg5DOKg_jTMaLfswarqTkmYu4R2b9TwN243J7T48mfqxcQ/s320/shoot1.png)    
+"Nueva Caracteristica del iGoogle: Artist Themes"
 
 iGoogle ahora ha habilitado una nueva característica: aplicarle temas (tamibén llamados [skins](https://es.wikipedia.org/wiki/Skin_%28software%29)) artísticos (o temas diseñados por artistas), los cuales están muy peculiares y llamativos, con los que podes hacer todavía mas lenta tu pagina de inicio de Google o iGoogle pero que se vea mas vistoso y te motive a usar su sin igual caja de texto de búsqueda y sus [widgets](https://es.wikipedia.org/wiki/Widget) (también llamados [gadgets](https://es.wikipedia.org/wiki/Gadget)).
 
@@ -23,8 +23,7 @@ Además de los gadgets, como dije al principio, iGoogle te permite personalizar 
 
 iGoogle con un tema comun:
 
-![image](https://bp2.blogger.com/_jH77WNrMVRA/SBhv9_mVlgI/AAAAAAAAA10/xnjYpXk7JGY/s320/shoot2.png)    iGoogle con un tema
-artístico:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9nJhoeS5uXjV-Xq3Ns7A9vjcfCJT3Pi21w-RNXRMl3N_Ei4AQtUhbCIKhxu9YwhiAEiXdoCstgctElv8BiEkK3y2PngB5TlSiKKcy2UmaefB6gmvOLJ-_g7liwYWF6bBrnBcIcyTuwVo/s320/shoot2.png)    iGoogle con un tema artístico:
 
-![image](https://bp2.blogger.com/_jH77WNrMVRA/SBhw7_mVlhI/AAAAAAAAA18/rXTxuQ1tqos/s320/shoot3.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVQ2AAPZeeeI2TErPMEHzpye58IdbKoAAfEKr2g5X_7YPoyVioosVC6ZjVjHxvynGB-LBbVKj8U0YOzeoSEEES8FP_qjsGPTjW7b3bKkex9worlB5nNOrbaohc3QO08GIaB7mNDiZ3nK4/s320/shoot3.png)    
 Cabe destacar que tanto los temas personalizados como el exeso de widgets harán el sitio web más lento a la hora de cargar la información.

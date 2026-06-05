@@ -1,16 +1,16 @@
 ---
 title: Los Geeks Tambien Jugamos al Futbol(Soccer)
-date: 2008-02-08
+date: 2008-02-09
 author: Robertux
-tags: deportes, ajedrez, blog, evento, futbol, nerd, geek
+tags: evento, ajedrez, geek, nerd, deportes, blog, futbol
+draft: false
 post_id: blog-3515952828243908885.post-8897404539260371293
 ---
 
 Así como en el caso de [las mujeres geek o programadoras](https://srbyte.blogspot.com/2008/02/existen-las-mujeres-geek-o.html), los futboleros geek o programadores son miembros difíciles de encontrar en nuestra especie. La mayoría de los programadores, lo mas cerca que están de realizar un deporte podría ser en juegos de ajedrez.
 
-![image](https://bp1.blogger.com/_jH77WNrMVRA/R60ov-__NPI/AAAAAAAAAgw/r_iPqKtQkDw/s320/45275929_264e85eb60.jpg)    
-"Dos personas jugando al ajedrez en una
-banca"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6ycLDZbLeTyh7iI2f9o-HKIWN4W-V73R44D4Nr8V_ADQhyy9jo7DdA80GLMDTtPzAcYNsSUZs1Hj1PPSpzcBFl11QbTWeJ62UaiZNvnb1V_8Vksq3OMMBbys_LfQDnvzDrQOzmd_25CI/s320/45275929_264e85eb60.jpg)    
+"Dos personas jugando al ajedrez en una banca"
 
 Pero aun así, existen algunos que, aunque no saben jugar, les gusta ese tipo de actividades deportivas. Tal vez no se llega al punto de estar al tanto de las estadísticas y los resultados de populares torneos internacionales como la Champions League pero se divierten tocando el balón y haciendo algo de ejercicio. Aparte del ejercicio, es una oportunidad para convivir con amigos, compañeros, familia o hasta completos desconocidos!. Un ejemplo de esto pueden ser los Nerds F.C.:
 

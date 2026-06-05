@@ -3,6 +3,7 @@ title: Clases de Consultoria Profesional
 date: 2008-10-22
 author: Robertux
 tags: srbyte
+draft: false
 post_id: blog-3515952828243908885.post-5434351704423286996
 ---
 
@@ -61,4 +62,4 @@ Clase 9:
 [Descarga como OGG](https://www.archive.org/download/Consultoria-Clase9/Consultoria-Clase9.ogg)
 [Descarga como MP3](https://www.archive.org/download/Consultoria-Clase9/Consultoria-Clase9_64kb.mp3)
 
-Un agradecimiento al Ing. Rodolfo Duque por darnos la autorización de grabar y publicar las clases, con el fin de facilitarnos el estudio de la cátedra de Consultoría Profesional y ojala sirva como un incentivo para que en otras
+Un agradecimiento al Ing. Rodolfo Duque por darnos la autorización de grabar y publicar las clases, con el fin de facilitarnos el estudio de la cátedra de Consultoría Profesional y ojala sirva como un incentivo para que en otras asignaturas hagan lo mismo.

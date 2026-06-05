@@ -1,9 +1,10 @@
 ---
 title: Lo que no sabias de las computadoras... (Especial de Fin de Año)
-date: 2007-12-31
-author: Rodrigo Amaya
+date: 2008-01-01
+author: Rodrigo A.
 tags: año nuevo, computadoras
-post_id: blog-3515952828243908885.post-4800674715142043673
+draft: false
+post_id: blog-3515952828243908885.post-6806206835893854178
 ---
 
 Nos han robado la vida social, y nos han dado nuevas formas de interactuar como sociedad. Tendremos que interactuar con ellas, de alguna u otra forma, querramos o no.
@@ -20,8 +21,7 @@ No cabe la menor duda de que para muchos, el funcionamiento interno y proceso de
 Y si tienen la curiosidad suficiente para seguir leyendo, les presento una serie de lecturas sencillas que les ayudara a esclarecer (espero ser lo suficientemente claro!) el origen de las computadoras y quizás hasta especular un poco, y comentar hacia adonde van nuestros queridos ordenadores...
 
 ![image](https://991.com/newgallery/Radiohead-Ok-Computer-122193.jpg)    
-"Screen saver en un disco de 3 1/4 del disco OK Computer, de RadioHead, para Win
-3.x"
+"Screen saver en un disco de 3 1/4 del disco OK Computer, de RadioHead, para Win 3.x"
 
 Comencemos pues a conocer a nuestros nuevos electrodomésticos preferidos (sorry TV, te robaron el puesto) con esta serie de 10 pequeños artículos sobre las computadoras hasta el día de hoy. Y sobre que nos depara el 2008... OK, Computer, Let's go!
 

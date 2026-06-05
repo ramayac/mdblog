@@ -1,9 +1,10 @@
 ---
 title: Billy G. (Bill Gates) se retira de Microsoft...
 date: 2008-06-16
-author: Rodrigo Amaya
+author: Rodrigo A.
 tags: microsoft
-post_id: blog-3515952828243908885.post-4402734387163061902
+draft: false
+post_id: blog-3515952828243908885.post-9176120086940854378
 ---
 
 Comedia ¿Que hará el Sr. Gates después de Microsoft?... este vídeo puede tener algunas respuestas:

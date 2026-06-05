@@ -1,17 +1,18 @@
 ---
 title: Firefox + Google = Libertad ( y Movilidad)
-date: 2007-04-09
-author: Rodrigo Amaya
-tags: last.fm, java, web 2.0, libre, free, fantastico, yahoo, google, musica
-post_id: blog-3515952828243908885.post-2180615378616439992
+date: 2007-04-10
+author: Rodrigo A.
+tags: fantastico, java, yahoo, musica, google, libre, web 2.0, free, last.fm
+draft: false
+post_id: blog-3515952828243908885.post-5122013833915782880
 ---
 
 No se necesita tener una PDA, un celular complejo con acceso a Internet o tener un servidor FTP para que una persona tenga la libertad para accesar a información importante en cualquier parte del mundo. Para un acceso básico a información solo se necesitan 2 cosas:
 
-> style="font-size:130%;">Firefox y Google
+> Firefox y Google
 Google en estos últimos años ha implementado una serie de herramientas fantásticas para trabajar en linea, que sustituyen aplicaciones de escritorio que usamos día a día. Es hora de dejar de pensar en el escritorio y comenzar a pensar OnLine, todas las herramientas están en nuestras narices.
 
-![image](https://bp3.blogger.com/_ayvorITawE4/RhsTt_XLh3I/AAAAAAAAAQY/DzVmchvGrXU/s400/google.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb4c8u_eZTOdWVc1rYx8bAYCOjMCU9e3L1zXZoF6BxRIGKGquWF5RXczb-bbpWXRF-WpIS8lT27w9otDzmV8yXMQByn7kDY57vgera0yjPh29QWDGQcsnJZsYspZt-ReEjzRSffQ9Nu6A/s400/google.jpg)    
 Documentos de Word y Excel: El sobrecargado Microsoft Office y el (a veces) lento OpenOffice.org pueden ser fácilmente remplazados con [Google Docs & Spreadsheets](https://www.google.com/google-d-s/intl/en/tour1.html). No solo Google Docs & Spreadsheets ofrece una poderosa interfaz web hecha en AJAX sino que se integra (como todos los servicios de Google) de manera transparente en una cuenta de Google existente (si tienes cuenta de Gmail tienes cuenta con Google).
 
 Email: Evidentemente la respuesta en Gmail ([aunque la nueva iniciativa de yahoo mail intriga mucho](https://srbyte.blogspot.com/2007/03/yahoo-mail-ilimitado.html)), Gmail es rápido, eficiente y mejor que muchas aplicaciones de escritorio que hacen "lo mismo".
@@ -32,13 +33,9 @@ Disco Duro: Si se usa Google Docs & Spreadsheets, Gmail, y Picasa todos los docu
 
 Uniendo todo: La mejor manera de unir todos estos servicios e integrarlos es usando [Google Personalize Homepage](https://www.google.com/ig) que me permite no solo tener juegos y leer otros blogs, sino que accesar de manera fácil a cualquier servicio de Google y a muchas cosas más. Recordando a J.R.R. Tolkien:
 
-> style="font-size:130%;">Una Pagina para dominarlos a
-> todos. bold;">Google para encontrarlos,
-> Gmail para style="font-weight: bold;"> atraerlos a todos y a Firefox
-> atarlos.
+> Una Pagina para dominarlos a todos. Google para encontrarlos, Gmail para atraerlos a todos y a Firefox atarlos.
 
 Es mas que evidente que nos estamos mudando a la red, lo que nos da
-> mucha libertad y movilidad (o facilidades de
-> acceso a la información)
+> mucha libertad y movilidad (o facilidades de acceso a la información)
 y aunque la seguridad y la privacidad son sumamente importantes, es obvio que la decisión de que tipo de información "subir" es siempre la del usuario. Bien dijeron hace unos años... "[Todas las aplicaciones deberían de ser Web y correr en Java](https://srbyte.blogspot.com/2007/04/java-en-todos-lados.html)
 ". Por lo que veo, nos acercamos mas y más a esa idea... nadie abandonara el Desktop... pero la tendencia web agarra cada vez más fuerza y eso NO se puede negar.

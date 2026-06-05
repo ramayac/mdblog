@@ -1,9 +1,10 @@
 ---
 title: Alternativas Libres: Encuentralas Tu Mismo
 date: 2008-10-28
-author: Robertux
-tags: open source, libre, diseño, free, buscar, animacion, 2d, flash, herramienta, anime
-post_id: blog-3515952828243908885.post-399370450977162765
+author: Rodrigo A.
+tags: 2d, open source, herramienta, buscar, animacion, diseño, libre, free, anime, flash
+draft: false
+post_id: blog-3515952828243908885.post-815902414223276064
 ---
 
 Aprovechando el post anterior acerca de Anime Studio, nos dimos a la tarea de, además de proponer un software muy popular y fácil de usar para la creación de dibujos animados como el anime manga, también buscar sus alternativas libres. Entre las alternativas libres encontradas para este programa se encuentran:
@@ -20,8 +21,7 @@ Así como en esta ocasión, muchas veces nos ocurre que necesitamos de alguna he
 
 Para facilitarnos la vida, podemos hacer uso de un sitio web creado especialmente para ello: Open Source Alternatives ([osalt.com](https://www.osalt.com/))
 
-![image](https://4.bp.blogspot.com/_jH77WNrMVRA/SQcUIaUdPGI/AAAAAAAADfQ/HVAg7K64hCk/s400/osalt.png)    
-"Captura del Sitio osalt.com
-mostrando las alternativas Open Source al Anime Studio"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsOz_YEfwMG0SncOmBQVuH3PFvObPuPIysuL7q2fI9putVwi0ZNoRTsnFILQ7WZ3qo6UQxKwFKFS5q4UUaRUGLQqAY7DI3YcLKaDasEYTcqgp1QTOG0aYfylbYrxuPdEqYDYJgijH-vAs/s400/osalt.png)    
+"Captura del Sitio osalt.com mostrando las alternativas Open Source al Anime Studio"
 
 Este sitio funciona como un directorio de aplicaciones con licencia comercial en el cual se registra además una lista de programas con funciones equivalentes pero con una licencia de código abierto o también llamada Open Source. Además, le permite también a los usuarios sugerir o proponer otras aplicaciones que no estén listadas en el sitio, tanto las de licencia comercial como sus contrapartes de código abierto.

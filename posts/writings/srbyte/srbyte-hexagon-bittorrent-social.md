@@ -1,8 +1,9 @@
 ---
 title: Hexagon (BitTorrent Social)
 date: 2009-12-05
-author: Rodrigo Amaya
-tags: hexagon, social, bittorrent, tracker, isohunt, redes sociales
+author: Rodrigo A.
+tags: isohunt, social, tracker, hexagon, redes sociales, bittorrent
+draft: false
 post_id: blog-3515952828243908885.post-7375509271132513888
 ---
 
@@ -23,15 +24,16 @@ Otra bondad de Hexagon, es su organizacion. No se cuanto se habran fijado ustede
 
 ![image](https://assets8.hexagon.cc/images/welcome/rid-of-spam.png)    
 
-Hexagon, esta en otro nivel técnico de administración de usuarios, porque actualmente solo se puede entrar por invitación. Así que si un "spammer A" crea una cuenta, y luego comienza a invitar a otros spammers, fácilmente se puede invalidar todas las cuentas que "spammer A" invito a sus amigos a abrir, y así se controla el problema del spam. Y la misma innovación ocurre con la gestión de archivos, que ya no solo se pueden etiquetar, sino que se puede utilizar recursos web "[semánticos](https://en.wikipedia.org/wiki/Semantic_Web)
+Hexagon, esta en otro nivel técnico de administración de usuarios, porque actualmente solo se puede entrar por invitación. Así que si un "spammer A" crea una cuenta, y luego comienza a invitar a otros spammers, fácilmente se puede invalidar todas las cuentas que "spammer A" invito a sus amigos a abrir, y así se controla el problema del spam.
+
+Y la misma innovación ocurre con la gestión de archivos, que ya no solo se pueden etiquetar, sino que se puede utilizar recursos web "[semánticos](https://en.wikipedia.org/wiki/Semantic_Web)
 " para categorizar mejor el .torrent en cuestión.
 
 Para mi, la evolución de los sitios de BitTorrent la podemos poner en cuatro simples pasos:
 
 1. Indice de Torrents ([suprnova](https://en.wikipedia.org/wiki/Suprnova.org)) 2. Indice de Torrents + Tracker ([piratebay](https://en.wikipedia.org/wiki/The_pirate_bay)) 3. Indice de Torrents Exclusivo o Privado + Tracker ([demonoid](https://en.wikipedia.org/wiki/Demonoid)) 4. (Indice de Torrents + Tracker) Social (hexagon) Así que Hexagon, es la evolución natural de las redes asociadas con BitTorrent, esperemos que Hexagon tenga mucho éxito, y que los lectores se animen a participar y hacer uso de este excelente servicio. Y de paso, invitarlos a que se unan al grupo de ["El Salvador" que ya existe en Hexagon](https://elsalvador.hexagon.cc/).
 
-> Y la URL de
-> invitación general es: href="https://lobby.hexagon.cc/invitations/kLVGYtaQmG">https://lobby.hexagon.cc/invitations/kLVGYtaQmG
+> Y la URL de invitación general es: [https://lobby.hexagon.cc/invitations/kLVGYtaQmG](https://lobby.hexagon.cc/invitations/kLVGYtaQmG)
 >
 
-Espero que les sirva mucho esta pagina, ya que
+Espero que les sirva mucho esta pagina, ya que tiene un gran y prometedor futuro, ¡saludos!

@@ -1,15 +1,19 @@
 ---
 title: Navegador Web de Google...
 date: 2008-09-01
-author: Rodrigo Amaya
-tags: internet, google, navegador
+author: Rodrigo A.
+tags: navegador, google, internet
+draft: false
 post_id: blog-3515952828243908885.post-6755835941121821787
 ---
 
 Así es, una de las cosas que le hacia falta a Google era su propio navegador web, y parece que al fin se animaron a lanzarlo, al menos el concepto, porque aún esta en etapa de proyecto, pero están prometiendo bastantes cosas interesantes. ¿Y saben que será lo mejor? ¡Que sera Software Libre!, y el nombre de este sueño es: "Google Chrome".
 ![image](https://blogoscoped.com/files/google-chrome.png)  
 
-En pocas palabras, esto es lo que Google Chrome será: - Google Chrome es Software Libre. Estará basado en el existente motor de renderizado (lo que dibuja las paginas web en tu navegador) llamado Webkit. Y ademas, estará fuertemente integrado con el proyecto Google Gears. - JavaScript Virtual Machine V8, Construido desde cero por un equipo en Dinamarca, este proyecto es software libre y además esta orientado a mejorar el rendimiento de los navegadores. Google también dice que utilizara un diseño de multi-procesamiento. En pocas palabras esto permitiría gobernar bien el mundo de los complementos y las paginas web que te relentizan en navegador, piensen en un TaskManager para javascript, que les permite saber que complemento o que pagina es la que no los deja navegar bien. Brillante, ¿no?. - Google Chrome usara Viñetas especiales. Chrome pondrá las viñetas en la parte superior de la barra de direcciones (donde se digitan las url). No me parece esa idea, va en contra del diseño estándar de los navegadores, es mas, muchos usuarios ni siquiera saben utilizar viñetas en los navegadores, no se que estarán pensando al cambiarlas de posición. ![image](https://blogoscoped.com/files/google-chrome-tabs.png)  ](/google-chrome/)
+En pocas palabras, esto es lo que Google Chrome será:
+- Google Chrome es Software Libre. Estará basado en el existente motor de renderizado (lo que dibuja las paginas web en tu navegador) llamado Webkit. Y ademas, estará fuertemente integrado con el proyecto Google Gears.
+- JavaScript Virtual Machine V8, Construido desde cero por un equipo en Dinamarca, este proyecto es software libre y además esta orientado a mejorar el rendimiento de los navegadores. Google también dice que utilizara un diseño de multi-procesamiento. En pocas palabras esto permitiría gobernar bien el mundo de los complementos y las paginas web que te relentizan en navegador, piensen en un TaskManager para javascript, que les permite saber que complemento o que pagina es la que no los deja navegar bien. Brillante, ¿no?.
+- Google Chrome usara Viñetas especiales. Chrome pondrá las viñetas en la parte superior de la barra de direcciones (donde se digitan las url). No me parece esa idea, va en contra del diseño estándar de los navegadores, es mas, muchos usuarios ni siquiera saben utilizar viñetas en los navegadores, no se que estarán pensando al cambiarlas de posición. ![image](https://blogoscoped.com/files/google-chrome-tabs.png)  ](/google-chrome/)
 
 - La barra de direcciones sabe lo que haces. Llamada "OmniBox", aparentemente ofrecerá sugerencias, sitios más visitados, más populares y mucho más. Piensen en esta característica como la mezcla de la barra de búsqueda, la nueva barra de direcciones de firefox 3.0, Google Suggest y/con PageRank.
 - Como pagina de incio Google Chrome te ofrece una pagina de inicio diferente. En esta nueva pagina de inicio veras tus nueve paginas favoritas (como en Opera) y a un lado una lista de tus búsquedas y favoritos recientes. ![image](https://blogoscoped.com/files/google-chrome-home.png)    

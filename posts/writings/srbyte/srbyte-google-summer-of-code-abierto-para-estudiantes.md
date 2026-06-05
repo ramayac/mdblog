@@ -1,14 +1,14 @@
 ---
 title: Google Summer of Code Abierto Para Estudiantes!
-date: 2009-03-24
-author: Robertux
+date: 2009-03-25
+author: Rodrigo A.
 tags: srbyte
-post_id: blog-3515952828243908885.post-3221408087273400056
+draft: false
+post_id: blog-3515952828243908885.post-3513527509593057661
 ---
 
-![image](https://2.bp.blogspot.com/_jH77WNrMVRA/Scm8pWBtlPI/AAAAAAAAFro/pCuEM2nIEyg/s400/2009+summer+of+code+logo+final+r3-01.png)    
-"Logo del Google Summer of
-Code de este año"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinBUlVxIx8CB2ehTgDUmLMpzd8sdZ7LV7iM6dZB9uZ8gEwAb6u7Lcs2lcGwxQBEMY7clQRccBbVKvWhsXZLqzCXZ5g7Unn_xB22bJNot20lyNwJH_mrgOf7Nhc7jUtqsAah8F2ZeucvCQ/s400/2009+summer+of+code+logo+final+r3-01.png)    
+"Logo del Google Summer of Code de este año"
 
 Como todos los años desde el 2005, Google lanza su iniciativa para promover el desarrollo de aplicaciones Open Source y al mismo tiempo iniciar a estudiantes universitarios en el desarrollo de software en la vida real mediante este programa llamado Google Summer of Code.
 

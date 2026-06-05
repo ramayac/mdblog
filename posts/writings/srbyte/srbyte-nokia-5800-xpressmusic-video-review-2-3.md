@@ -1,14 +1,14 @@
 ---
 title: Nokia 5800 XpressMusic - Video review (2/3)
 date: 2009-06-23
-author: Robertux
-tags: video, twitter, iphone, musica, navegador, opinion, 5800, nokia, nokia 5800, gadget, review, herramienta
-post_id: blog-3515952828243908885.post-1669548980520902879
+author: Rodrigo A.
+tags: nokia, navegador, twitter, herramienta, gadget, review, nokia 5800, musica, 5800, video, iphone, opinion
+draft: false
+post_id: blog-3515952828243908885.post-8007806096253700381
 ---
 
-![image](https://1.bp.blogspot.com/_jH77WNrMVRA/SkBvEN_uSoI/AAAAAAAAFuc/VsAQOsvL0gk/s400/NokiaInHand.jpg)    
-"Nokia 5800 XpressMusic, en
-mi poder"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuAXmabwKbHKyhi1btUFAuWfkmIzdSBjAH8XSCdeRzF5TkydZeGo6b0ZsuqpZSjT2G3jyOKmwuUG6PBsutr2NUaKz4g_QFMKMFvPvC0NurjfDgsL52wn63g-zva0rLAyOX-FiD82WMqg/s400/NokiaInHand.jpg)    
+"Nokia 5800 XpressMusic, en mi poder"
 
 Como [ya lo había mencionado Rodrigo](https://www.srbyte.com/2009/06/ganate-un-nokia-5800-xpressmusic.html), es hora de hacer mi post en continuación con la [serie de reviews del Nokia 5800](https://www.srbyte.com/2009/06/review-nokia-5800-xpressmusic-13.html). Hace dos semanas representantes de Nokia nos contactaron a [LuchoEdu](https://elgeek.info/), [Alexandra](https://dulcelimonpartido.blogspot.com/), Rodrigo y mi persona para poder asistir al lanzamiento en El Salvador del nuevo Nokia 5800 XpressMusic además de proveernos de uno de estos modelos para poder experimentar sus características y luego publicar nuestras opiniones al respecto.
 

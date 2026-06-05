@@ -1,9 +1,10 @@
 ---
-title: Metisse + Linux = Productividad
-date: 2007-05-27
-author: Rodrigo Amaya
-tags: mandriva, linux, metisse, youtube
-post_id: blog-3515952828243908885.post-343951421058160238
+title: Metisse +  Linux = Productividad
+date: 2007-05-28
+author: Rodrigo A.
+tags: youtube, mandriva, linux, metisse
+draft: false
+post_id: blog-3515952828243908885.post-590032996788017357
 ---
 
 Metisse es un manejador de ventadas de 2.5 Dimensiones (si, 2.5 Dimensiones, asi como los fractales), basado en X Windows System. Lamentablemente solo esta disponible para [Mandriva One 2007](https://www.mandriva.com/en) (por el momento, ya no tardara un fork en salir). Lo que separa el ambiente grafico de Metisse de Beryl (y lo que hace a Metisse único), es que su equipo desarrollador se enfoca en la funcionabilidad del escritorio y en su productividad más que en el "eye-candy".

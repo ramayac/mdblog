@@ -1,9 +1,10 @@
 ---
 title: Hello Blog World!
 date: 2008-02-02
-author: Robertux
-tags: libre, linux, software, ues, internet, tecnologia, geek
-post_id: blog-3515952828243908885.post-7257690114158789967
+author: Rodrigo A.
+tags: tecnologia, ues, geek, software, linux, libre, internet
+draft: false
+post_id: blog-3515952828243908885.post-7573379070015955258
 ---
 
 Aquí me tienen, a petición del público. Ahora colaborando con mi buen amigo Rodrigo Amaya para que su (ahora nuestro) blog vuelva a la vida.

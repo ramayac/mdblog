@@ -1,8 +1,9 @@
 ---
 title: El fin del "impuesto" Microsoft
 date: 2007-05-25
-author: Rodrigo Amaya
-tags: libre, gnu, dell, linux, fantastico, microsoft, ubuntu
+author: Rodrigo A.
+tags: fantastico, ubuntu, linux, libre, microsoft, dell, gnu
+draft: false
 post_id: blog-3515952828243908885.post-2191688278241384692
 ---
 

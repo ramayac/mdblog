@@ -2,7 +2,8 @@
 title: ¿Otro punto de vista o falta de ideas?
 date: 2008-12-21
 author: Wendy Aparicio
-tags: agil, divertido, cine, presentacion, identidad, cineastas, charla, arte, curioso
+tags: cineastas, divertido, cine, agil, curioso, presentacion, identidad, charla, arte
+draft: false
 post_id: blog-3515952828243908885.post-7261630493529981303
 ---
 
@@ -24,4 +25,4 @@ QUARANTINE
 
 REC
 
-Cómo último dato, se rumora que los españoles están pensando hacer Rec 2. Estaremos dándole seguimiento.
+Cómo último dato, se rumora que los españoles están pensando hacer Rec 2. Estaremos dándole seguimiento. Shalom.

@@ -2,13 +2,13 @@
 title: Resumen de Cómo Trabajar con Subversion
 date: 2008-03-26
 author: Robertux
-tags: subversion, programacion, svn, herramienta
+tags: programacion, svn, herramienta, subversion
+draft: false
 post_id: blog-3515952828243908885.post-5085654374222393901
 ---
 
-![image](https://bp1.blogger.com/_jH77WNrMVRA/R-q1yPa908I/AAAAAAAAAw8/w8OgPWy2XVg/s320/tortoisesvn_logo_hor468x64.PNG)    
-"Logo Oficial de
-TortoiseSVN"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDcBGKjMkqZZOf9d19z1BUMoYXha5KkSw9RTr90bzTTbVRVLML01TJpJMc-mu4XdcfOqXApKieXMqJIRvBduUZgqJ4ucqj44ApeNeit6lMynaNXfOI2cuA2YcaXKxnVRbuF0WvvOCr-mY/s320/tortoisesvn_logo_hor468x64.PNG)    
+"Logo Oficial de TortoiseSVN"
 
 Como montar un servidor de Subversion requiere algo de información sobre servidores y requiere tener acceso a uno también, es mejor utilizar un hosting gratuito como [Sourceforge](https://sourceforge.net/) o [Google Code](https://code.google.com/hosting/). Les recomiendo Google Code por su simplicidad y facilidad de uso. Luego de esto, descargan el cliente adecuado para su sistema operativo, cabe mencionar que Subversion ni sus clientes no están sujetos a un lenguaje de programación en específico. Mas aún, además de código fuente, es posible almacenar en el repositorio archivos de cualquier tipo, tomando en cuenta que los que mejor se administran son los archivos derivados del texto plano, como lo son los archivos de código fuente debido a su facilidad y universalidad de edición y manipulación.
 

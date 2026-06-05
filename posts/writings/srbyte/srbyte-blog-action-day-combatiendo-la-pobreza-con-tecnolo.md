@@ -1,14 +1,14 @@
 ---
 title: Blog Action Day: Combatiendo la Pobreza con Tecnologia
 date: 2008-10-15
-author: Robertux
-tags: administrar, blogger, dinero, blog, personal, free, software, pobreza, programacion, day, opinion, economia, computadoras, mac, energia
-post_id: blog-3515952828243908885.post-3183870948219965687
+author: Rodrigo A.
+tags: pobreza, software, energia, dinero, blogger, personal, blog, mac, opinion, computadoras, administrar, economia, programacion, free, day
+draft: false
+post_id: blog-3515952828243908885.post-7236701584944107442
 ---
 
 ![image](https://blogactionday.s3.amazonaws.com/banners/Badge_300x160.jpg)    
-"Banner
-Promocional del Blog Action Day"
+"Banner Promocional del Blog Action Day"
 
 Como parte de la campa﻿ña del Blog Action Day, el Sr Byte también se une a la causa para hacer conciencia a todos los lectores y bloggers para que hagamos ruido en la web, para que enfaticemos temas de importancia mundial y los tratemos desde nuestros blogs, como una manera de hacer conciencia en la sociedad y encontrar problemas a dichas situaciones.
 

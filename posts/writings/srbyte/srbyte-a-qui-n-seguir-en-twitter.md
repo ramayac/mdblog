@@ -1,16 +1,16 @@
 ---
 title: ¿A quién seguir en Twitter?
 date: 2008-09-12
-author: Rodrigo Amaya
-tags: web 2.0, el salvador, twitter
+author: Rodrigo A.
+tags: el salvador, twitter, web 2.0
+draft: false
 post_id: blog-3515952828243908885.post-7725267303473764154
 ---
 
 Ok, ya tienes tu cuenta de [Twitter](https://twitter.com/), ya [te logramos convencer](https://www.srbyte.com/2008/09/y-para-qu-te-puede-servir-twitter.html) de que la abrieras, ¿Y ahora no sabes a quien "seguir"? ¿Y sientes que tu Twitter es "aburrido"?... Voy a compartir una lista de personas o sitios que hacen que mi Twitter sea interesante, y que lo vuelve un poco (solo un poco) productivo.
 
-![image](https://1.bp.blogspot.com/_ayvorITawE4/SMpxRLIcC4I/AAAAAAAABPo/q9R9izgtvYY/s200/Aquiensigo.twitter.ramayac.png)    
-"Gente que sigo en
-Twitter."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmOsHOtr4Q0d00fyLu8cR7XfKOpcw8nfpVbiZp6U52V0d00JHzpCiJ-E0png6T8NcS0WfPI1EpnsIMd25kFFA3xQnHTTOqt2rZMeg2un5mQ7WNT-7qF37O9sdvSnHVgoASHPYwltjJkxE/s200/Aquiensigo.twitter.ramayac.png)    
+"Gente que sigo en Twitter."
 
 A continuación, listo cinco categorías y cinco twitters (o más) en cada una, espero que les sirva:
 
@@ -21,10 +21,9 @@ Comentarios y Opiniones sobre Tecnología:
 [@leolaporte](https://twitter.com/leolaporte)
 [@chrispirillo](https://twitter.com/chrispirillo)
 
-[@srbyte](https://twitter.com/srbyte) (¡No podemos faltar en tu twitter!
-)
+[@srbyte](https://twitter.com/srbyte) (¡No podemos faltar en tu twitter! )
 
-![image](https://2.bp.blogspot.com/_ayvorITawE4/SMp1bMDV0LI/AAAAAAAABPw/YA6qssvqX3M/s320/srbyte.twitter.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_NNsDgBxCs2-PKuBiQvQfkHoxQgIskApJAqDo_kU3DgfnPRP7tG9IRsLYTzOo9lR1ul9nSP2090QtUFbtzn2FN7pUNTOVpZHP7ztHFGdfJ7qwRlocOJWSppvLQsss8l06Q8RXcCS0WSs/s320/srbyte.twitter.png)    
 "¡Siguenos en Twiiiteeeeer!"
 
 Sitios de Noticias de Tecnología:
@@ -41,8 +40,7 @@ Sitios de Noticias de BitTorrent (BitTorrent Trackers):
 [@isohunt](https://twitter.com/isohunt)
 [@mininova](https://twitter.com/mininova)
 [@torrentfreak](https://twitter.com/torrentfreak)
-[@torrentnewsfeed](https://twitter.com/torrentnewsfeed) (Algo
-desactualizado...)
+[@torrentnewsfeed](https://twitter.com/torrentnewsfeed) (Algo desactualizado...)
 
 "Personalidades":
 
@@ -72,8 +70,7 @@ Twitters (que también son Bloggers) Salvadoreños:
 También hay Twitters programadores, que solo pasa hablando de .NET, Java o Python, el único inconveniente es encontrarlos. Lo que si me da curiosidad, es saber si hay Twitters que comenten sobre Fútbol o que sean: Psicólogos o Arquitectos o Médicos.
 
 Bien, los dejo con la inquietud de encontrar Twitters de otras profesiones no orientadas exclusivamente a la tecnología...
-> ¡y que lo compartan cuando los
-> encuentren!
+> ¡y que lo compartan cuando los encuentren!
 Incidentalmente, si llegaron hasta el final de este articulo, y si desean seguirme, este es mi twitter: [@ramayac](https://twitter.com/ramayac) :)
 
 ¿Quieres que te sigan?: siguenos en twitter y con gusto ¡te devolvemos el favor! ¿Y tu, a quien sigues en Twitter?

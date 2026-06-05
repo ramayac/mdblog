@@ -1,16 +1,16 @@
 ---
 title: ¿Que es el RSS Feed? (RSS/Atom/XML/Syndication)
-date: 2008-03-21
-author: Rodrigo Amaya
-tags: web 2.0, informatico, internet
-post_id: blog-3515952828243908885.post-6461637160100217726
+date: 2008-03-22
+author: Rodrigo A.
+tags: web 2.0, internet, informatico
+draft: false
+post_id: blog-3515952828243908885.post-8060644711762694341
 ---
 
 Si usas Internet de manera seguida, entonces habrás visto el creciente aumento de este símbolo en casi todas partes:
 
-![image](https://bp2.blogger.com/_ayvorITawE4/R-SCakiioOI/AAAAAAAAAmc/b0qbE5y97rA/s400/rss.jpg)    
-"Imagen: Icono común que
-representa un web feed."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR-DDQx8YVRS6tR8FgnzzcusycicUn6cnfOHpvFjqj2aQnjgUFGkWs831R8bIC_TyKZYTfW-VzMknoDO-s7Igvy56rQrDy57dUo4B_J9F_V31Usr4XbzJUgrvxjf9y2-ops_usajnuFtw/s400/rss.jpg)    
+"Imagen: Icono común que representa un web feed."
 
 Es más, el aumento ha sido tan drástico que mucha gente seguramente se preguntara ¿Para que es? ¿Que significa? ¿Por que esta ahí? ¿De que me sirve? y... ¿Hey, por que no funciona bien?. Así que, para solventar toda duda, el Sr. Byte se tomara dos minutos para explicarte que utilidad tiene para ti esta tecnología.
 
@@ -36,26 +36,22 @@ Lo explicare de la forma más sencilla:
 
 ¿Y como lo uso? Fácil, busca un sitio web de tu agrado y busca el icono de Sindicación, el fiel y nuevo amigo naranja que aparece en tu barra de navegador, como este:
 
-![image](https://bp3.blogger.com/_ayvorITawE4/R-SBM0iioMI/AAAAAAAAAmM/myn8YMbnpb0/s400/rsswiki.jpg)    
-"Imagen: Icono de
-Sindicación en Mozilla FireFox"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjezSq07uPVLhxSzAhrQ8KHxlrj-oQVGnb-8276o3nEYWqZ6Ta7DaYJ-45CCSZ4f8aiUi4sc4BYoQWJjignTX40bRbriHJlta0QEEkNChDN63VdWGSCJYvFa8RCRJQFvN4lfiXKf71nZPE/s400/rsswiki.jpg)    
+"Imagen: Icono de Sindicación en Mozilla FireFox"
 
 O en Internet Explorer, cuando hay un feed para consumir o al cual suscribirse, aparece habilitado el icono de Sindicación, así:
 
-![image](https://bp0.blogger.com/_ayvorITawE4/R-Ule0iioPI/AAAAAAAAAmk/O1etzXPs66M/s400/rssexplorer.jpg)    
-"Imagen: Icono de
-Sindicación en Internet Explorer 7.0"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB406x9vW46liAfKS6FYdgHzbM3bce4HqXpD_QIgQM0s6pGdyUmQxgHSxjRSaRgi93iFLH4BYiQQr3w33fet_J0uw1bUEZIbVDR_ZHNnPZV7-h2HPQOim4Cw-QxD31Qfu_CjlQbNrr56E/s400/rssexplorer.jpg)    
+"Imagen: Icono de Sindicación en Internet Explorer 7.0"
 
 O en forma de icono/imagen en una pagina web, por ejemplo nosotros tenemos uno bastante llamativo que dice "Suscribete al Sr. Byte":
 
-![image](https://bp1.blogger.com/_ayvorITawE4/R-SBRUiioNI/AAAAAAAAAmU/isfyPfDfVLE/s400/suscribetebyte.jpg)    
-"Imagen: 'Suscribete al Sr.
-Byte'"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwVvw-_ZLpLKAM8QYdrN5pnwvrlu66hInr6zt5mlS1jxtzm0wv1PtSYl4x26sv27MbQ4hkmK5Zf1LjGl3nZHCIrgZyWfS4gA-3hgkaYOMi44M0ueh2XLPmIsIRcbngGPoM5dSgQa-Dj-k/s400/suscribetebyte.jpg)    
+"Imagen: 'Suscribete al Sr. Byte'"
 
 Luego le das click y te suscribes a ese sitio. El proceso para "consumir" un feed es por medio de una suscripción. Tambien puedes usar un programa para consumir un feed, usualmente llamados: Lector de Feeds o lector de noticias (y en ingles news reader o aggregator), estos programas utilizan el proceso de la Sindicación para obtener solo las actualizaciones necesarias de los sitios a los que te suscribes, de esta forma puedes conocer que es lo que hay de nuevo en cada uno de estos, y así, el programa Lector de Feeds, se encarga a su vez de monitorear las actualizaciones de esos sitios.
 
-> ¡Pero claro que todo esto va mas
-> allá de simples actualizaciones!
+> ¡Pero claro que todo esto va mas allá de simples actualizaciones!
 
 Un lector de feeds/noticias trabajara obteniendo los feeds de los sitios a los que te suscribes, como ya "dije" un feed es un envoltorio que contiene los elementos de información que un sitio web produce, así que encima de la notificación de que existe una nueva noticia, articulo o foto, el feed te brinda y entrega la información a la que estas suscrita. Puedes escoger leer el nuevo contenido en el lector de feeds/noticias, o quizás decidas dejar el lector y visitar el sitio web. Algunos autores solo proveen la información de sus artículos resumida, forzándote a visitar el sitio de todas formas.
 

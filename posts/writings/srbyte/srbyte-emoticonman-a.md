@@ -2,27 +2,24 @@
 title: Emoticonmanía
 date: 2008-03-06
 author: Robertux
-tags: bad, smiley, messenger, emoticon, ascii
+tags: bad, ascii, emoticon, messenger, smiley
+draft: false
 post_id: blog-3515952828243908885.post-7715256210374718247
 ---
 
-![image](https://bp2.blogger.com/_jH77WNrMVRA/R87IF5MXVwI/AAAAAAAAAmM/iLCdmLtVWT0/s320/smiley.jpg)    
-"Ejemplo de un Emoticon en
-3D"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqRrho1lmgnrmWmfL7cC2GntKZH3Ab5hhJ3H2PBlzo41Qkq4wY-6kh95Zyn7TNrynwZjGvHNKREbo98ZbsdRrc9hTfCEmey9X-_Bc05G6N0_5WorQyuRyu-YY2jzVsc95tPMy_N3HVaiY/s320/smiley.jpg)    
+"Ejemplo de un Emoticon en 3D"
 
 Un emoticon (también conocido como smiley), como muchos saben, es la representación de una emoción o un estado de ánimo utilizando combinaciones de caracteres de texto o símbolos. Los más populares, creados por [Scott Fahlman](https://en.wikipedia.org/wiki/Scott_Fahlman) en 1982, son :-) y :-( .
 
 Es sorprendente cómo la gente en un principio encontró la manera de expresar emociones usando combinaciones de simples caracteres de texto, sin necesidad de imágenes. Aparte de emociones, también existe una tendencia a representar imágenes utilizando caracteres ASCII denominada [ASCII Art](https://en.wikipedia.org/wiki/ASCII_art). Existe una gran variedad de éstos y con un poco de imaginación, es posible entender lo que ellos representan.
 
 ```
-.o8 . "888 .o8 .oooo.o oooo d8b 888oooo. oooo ooo .o888oo .ooooo. d88( "8 `888""8P d88' `88b `88. .8' 888 d88' `88b `"Y88b. 888 888 888 `88..8' 888 888ooo888
-
-o. )88b 888 888 888 `888' 888 . 888 .o 8""888P' d888b `Y8bod8P' .8' "888" `Y8bod8P' .o..P' `Y8P' _ _ _ )) )) __ ___ __ __ __ )L __ __ _ _ o ((_)(( ((_)((_( _))((_)((_)(( o ((_ ((_)((`1( _)) ))
+.o8 . "888 .o8 .oooo.o oooo d8b 888oooo. oooo ooo .o888oo .ooooo. d88( "8 `888""8P d88' `88b `88. .8' 888 d88' `88b `"Y88b. 888 888 888 `88..8' 888 888ooo888 o. )88b 888 888 888 `888' 888 . 888 .o 8""888P' d888b `Y8bod8P' .8' "888" `Y8bod8P' .o..P' `Y8P' _ _ _ )) )) __ ___ __ __ __ )L __ __ _ _ o ((_)(( ((_)((_( _))((_)((_)(( o ((_ ((_)((`1( _)) ))
 
 ```
 "Arte ASCII Generado con el [ASCII Generator](https://www.network-science.de/ascii/)
-"
-ave fun. Don't forget to bookmark this website :) Actualmente en los foros y los programas de mensajería instantánea estas combinaciones de texto se ven reemplazadas por sus imágenes correspondientes y ya no son sólo imágenes estáticas sino que la gran mayoría utiliza ahora imágenes animadas.
+" ave fun. Don't forget to bookmark this website :) Actualmente en los foros y los programas de mensajería instantánea estas combinaciones de texto se ven reemplazadas por sus imágenes correspondientes y ya no son sólo imágenes estáticas sino que la gran mayoría utiliza ahora imágenes animadas.
 
 Lamentablemente esto está tendiendo a exagerar ya que las imágenes cada vez son más grandes, más llamativas y ya no sólo representan emociones sino que la gente las usa para sustituir palabras comunes como "Hola", "bien", "O.K.", "adiós", etc. o hasta simples letras tal vez con el objetivo de darle más originalidad o más colorido a sus conversaciones, pero para algunos esto podría ser molesto.
 

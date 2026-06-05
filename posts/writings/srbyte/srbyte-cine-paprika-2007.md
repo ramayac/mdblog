@@ -1,8 +1,9 @@
 ---
 title: Cine: Paprika (2007)
 date: 2008-02-16
-author: Rodrigo Amaya
+author: Rodrigo A.
 tags: cine, animacion, anime
+draft: false
 post_id: blog-3515952828243908885.post-5704544945200739866
 ---
 
@@ -12,8 +13,8 @@ Introducción: Con PAPRIKA, el director Satoshi Kon (también director de TOKYO 
 
 "Video Trailer Paprika."
 
-![image](https://bp0.blogger.com/_ayvorITawE4/R7cXTrTZHaI/AAAAAAAAAjU/6RkkQQjifog/s320/paprika.jpg)    Sinopsis: Paprika es una adaptación de una historia
-escrita por el aclamado escritor Yasutaka Tsutsui. En un futuro no muy distante, un grupo de científicos desarrolla un nuevo tratamiento de psicoterapia llamado PT, que coincide con la invención de un dispositivo llamado "DC Mini". El "DC Mini" permite entrar en los sueños de un sujeto de prueba y explorar el extraño y fantástico mundo de la mente inconsciente y en el proceso solucionar los problemas del individuo. Pero un día el "DC Mini" se pierde, y su desaparición obliga al equipo de científicos a buscar al terrorista que esta invadiendo desconsideradamente el ultimo santuario de la privacidad humana, el mundo de los sueños. El terrorista "ataca" al equipo de científicos creadores del "DC Mini", incrustando sueños psicóticos y abundantes en delirios de grandeza, que termina en la mezcla de la realidad y la fantasía, provocando a las victimas la locura y luego, la muerte. ¿Quien podrá moverse entre este mundo de confusión, en donde la realidad y los sueños se mezclan, para evitar que la tragedia siga, y así proteger nuestros sueños?
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge61-tuaYzRFGb-Yto8saWb6Bvr01i-ABAHDi-bfrGkOazz8bia9MqmHaP68sDDDclC6cmC4cxN7j2vuY2jtY93U6XZGiN9oIdSwjBShrR2YFyPQBADvodkPAMyIHDdzst-j5iykxhX1g/s320/paprika.jpg)    Sinopsis: Paprika es una adaptación de una historia escrita por el aclamado escritor Yasutaka Tsutsui. En un futuro no muy distante, un grupo de científicos desarrolla un nuevo tratamiento de psicoterapia llamado PT, que coincide con la invención de un dispositivo llamado "DC Mini". El "DC Mini" permite entrar en los sueños de un sujeto de prueba y explorar el extraño y fantástico mundo de la mente inconsciente y en el proceso solucionar los problemas del individuo. Pero un día el "DC Mini" se pierde, y su desaparición obliga al equipo de científicos a buscar al terrorista que esta invadiendo desconsideradamente el ultimo santuario de la privacidad humana, el mundo de los sueños. El terrorista "ataca" al equipo de científicos creadores del "DC Mini", incrustando sueños psicóticos y abundantes en delirios de grandeza, que termina en la mezcla de la realidad y la fantasía, provocando a las victimas la locura y luego, la muerte.
+¿Quien podrá moverse entre este mundo de confusión, en donde la realidad y los sueños se mezclan, para evitar que la tragedia siga, y así proteger nuestros sueños?
 
 "Video: Principio película Paprika."
 

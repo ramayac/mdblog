@@ -1,19 +1,18 @@
 ---
 title: ¡Ganate un Nokia 5800 XpressMusic!
 date: 2009-06-17
-author: Rodrigo Amaya
-tags: nokia, 5800, nokia 5800, el salvador
+author: Rodrigo A.
+tags: nokia, el salvador, nokia 5800, 5800
+draft: false
 post_id: blog-3515952828243908885.post-3909528218121138616
 ---
 
 Como aviso rápido, el [Sr. Byte](https://twitter.com/srbyte) se une a la campaña de Nokia, para promocionar el lanzamiento (en latinoamerica) del [Nokia 5800 XpressMusic](https://www.srbyte.com/2009/06/review-nokia-5800-xpressmusic-13.html). Asi que...
-> ¡con
-> el Sr. Byte puedes ganarte uno de estos SmartPhones!
+> ¡con el Sr. Byte puedes ganarte uno de estos SmartPhones!
 Basta con que llenes tus datos (nombre y correo) en el "Nokia 5800" de la derecha, y contestes la pregunta que aparece, de la forma más creativa posible....
 
-![image](https://3.bp.blogspot.com/_ayvorITawE4/SjkkwrshdxI/AAAAAAAACCo/4cj0AnJxJic/s320/nokia5800.png)    
-"¡Participa y gana!... puro
-anuncio ja ja."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4Ry4-wuterYUTUfBozTjMygspWFO5p6LNqE1YrLxyiV-jOLd8SeyHJvfNHILk13Cjjkh6Dn4o9GmvH3eC4lb2dPCOdZmZzb4daRQEQSYoNrhTKZqWKclS3p_u65r13e9N7mpJ7ej5jyq/s320/nokia5800.png)    
+"¡Participa y gana!... puro anuncio ja ja."
 
 Pero antes, hay unos puntos que tengo que aclarar:
 

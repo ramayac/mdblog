@@ -1,9 +1,10 @@
 ---
 title: Stop-motion: Fácil y divertido
 date: 2008-11-13
-author: Wendy Aparicio
-tags: fotografía, divertido, diseño, idea, cine, animacion, tips, cineastas, interesante, curioso
-post_id: blog-3515952828243908885.post-2055906736839368493
+author: Rodrigo A.
+tags: cineastas, divertido, cine, curioso, idea, animacion, diseño, fotografía, tips, interesante
+draft: false
+post_id: blog-3515952828243908885.post-9212192941046749338
 ---
 
 Considerado el séptimo arte, los pininos del cine son tecnológicamente simples. Su base de creación es la emisión de varios fotogramas a una velocidad considerablemente rápida y sucesiva, a fin de generar en el espectador la sensación de movimiento. Podríamos decir que una forma casera de hacer un video cinematográfico es empezar con un [Stop-motion.](https://es.wikipedia.org/wiki/Stop-motion)
@@ -28,4 +29,4 @@ Si estás interesado en hacer un stop-motion en tu casa, sólo necesitas lo sigu
 
 Espero que intenten hacerlo en sus casas. Recuerden, "pequeños pasos para hacer grandes cosas". Bendiciones.
 
-Fuentes consultadas: Wikipedia, Enciclopedia Libre; palabra clave: stop motion:
+Fuentes consultadas: Wikipedia, Enciclopedia Libre; palabra clave: stop motion: https://es.wikipedia.org/wiki/Stop-motion

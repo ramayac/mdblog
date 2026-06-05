@@ -1,8 +1,9 @@
 ---
 title: Capturas del nuevo Windows 7...
 date: 2008-09-21
-author: Rodrigo Amaya
+author: Rodrigo A.
 tags: windows
+draft: false
 post_id: blog-3515952828243908885.post-9089960249542203216
 ---
 

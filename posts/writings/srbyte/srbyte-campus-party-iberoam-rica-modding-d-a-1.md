@@ -1,12 +1,13 @@
 ---
 title: Campus Party Iberoamérica - Modding (Día 1)
 date: 2008-10-29
-author: Rodrigo Amaya
-tags: campus, party, el salvador, iberoamerica
+author: Rodrigo A.
+tags: el salvador, iberoamerica, campus, party
+draft: false
 post_id: blog-3515952828243908885.post-8108114227231887483
 ---
 
-![image](https://1.bp.blogspot.com/_ayvorITawE4/SQitrC4ykmI/AAAAAAAABZI/R3t8tRLCbBk/s400/modding1_conmemorativo.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-GW1rB6GocPGYV2qeijoBH8rXLgRywiV6s-tKcFvSd3dXdcDQQd1AdkkATUksChL-swjf_XxKG5-HvCTyEq_369i76s2a1ROAHX9ZuRm3OJqOYcMWMl54YB_eStlUlClfHLcwWLGbuq8/s400/modding1_conmemorativo.jpg)    
 
 Ahora van las fotos de las carcasas modificadas, área también conocida como "Modding".
 

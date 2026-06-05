@@ -2,7 +2,8 @@
 title: Sr. Byte: Resumen del 2008
 date: 2008-12-30
 author: Robertux
-tags: tiempo, blog, campus, tertulia, cine, bienvenida, twitter, iberoamerica, año nuevo, evento, arroba, podcast
+tags: iberoamerica, bienvenida, campus, año nuevo, blog, arroba, evento, twitter, cine, tiempo, podcast, tertulia
+draft: false
 post_id: blog-3515952828243908885.post-4432875059353668500
 ---
 

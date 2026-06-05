@@ -1,14 +1,15 @@
 ---
 title: Un blog puede cambiar tu negocio.
-date: 2008-10-16
-author: Rodrigo Amaya
-tags: opinion, blog, recomendado
-post_id: blog-3515952828243908885.post-1840591703957484055
+date: 2008-10-17
+author: Rodrigo A.
+tags: recomendado, blog, opinion
+draft: false
+post_id: blog-3515952828243908885.post-4251852590223210621
 ---
 
 Los blogs no son "una moda pasajera de jóvenes", son - usados sabiamente - más bien una robusta plataforma en donde virtualmente cualquier tipo de negocios, puede cosechar beneficios casi inmediatamente...
 
-![image](https://2.bp.blogspot.com/_ayvorITawE4/SPgEdoxR1aI/AAAAAAAABV4/NbrTeg1uuCA/s320/blog-blogging.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmY0dz8I7jb4Kxs9sGatQNhlgONvC48Mf99NcxdajhL-1xs5ZC35iSxGDnax2-fa0M5jClnzDeOyE8J2KAuHawIdgOe4c9yq2BxscTig1clHzpRBzex1WPnD-qquGVQB1G3u7BrHiZj_k/s320/blog-blogging.jpg)    
 "¿Qué esperas para tener un blog?"
 
 Si tu negocio no tiene un blog, o tienes dudas sobre porque deberías de tenerlo, quizás este articulo te ayude un poco a mejorar tus ideas, sigue leyendo ;)
@@ -17,14 +18,13 @@ Si tu negocio no tiene un blog, o tienes dudas sobre porque deberías de tenerlo
 
 Esta es una pequeña explicación (en Ingles) de qué es un blog:
 
-"Video: Blogs in Plain
-English"
+"Video: Blogs in Plain English"
 
 Los blogs pueden entrar en dos categorías:
 
 Blogs personales: una mezcla de diario personal y opiniones e investigaciones o recopilaciones de otros artículos en la red. Blogs de negocios: Es una idea corporativa, para comunicarse con clientes o con empleados, para compartir conocimientos y experiencias. Esta es la más nos interesa.
 
-![image](https://3.bp.blogspot.com/_ayvorITawE4/SPgC9UZPEII/AAAAAAAABVw/-nXElrmKygY/s320/BloggerHomePage.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmO4sl2IW4aX4ngl5-H9l3UW9C9rWSAfSbS8zyIxhOYao1TR9CtdifYs4qj_VqGP2L8wCSq7BTBe7ixP170MCfltuB1AJz0WfcF7OO5TEeb1Te-JuTFnEFMk_IhXwopB76NLWQ5ZRFMRw/s320/BloggerHomePage.png)    
 "Blogger.com"
 
 Los blogs de negocios están obteniendo lucro de la popularidad de este fenómeno, y son un excelente método para:
@@ -39,8 +39,8 @@ Los blogs de negocios están obteniendo lucro de la popularidad de este fenómen
 - El software que te permite escribir en un blog es de lo más sencillo de usar. Compañías como [Movable Type](https://www.moveabletype.org/), [Blogger](https://blogger.com/) y Typepad ofrecen una plataforma con mucha flexibilidad y sin complicaciones para comenzar a escribir en el blog sobre tu negocio... ![image](https://www.majordojo.com/images/mt4-logo.png)    También puede ser un poderoso punto de beneficio para consultores, puesto que les permite exponer sus ideas, pensamientos, experiencias y conocimiento (no todo, por supuesto, sino no seria negocio) para darse a conocer en un mercado global.
 
 Ejemplos de blogs de negocios:
-[Gizmodo](https://gizmodo.com/) es un blog sobre cualquier dispositivo tecnológico que se puedan
-imaginar, o como se les suele llamar: gadgets y gizmos. Gizmodo es como una revista web, y han construido una audiencia especial de consumidores de dispositivos electrónicos a quienes dirigen los anuncios y la publicidad que les hace ganar dinero. [Joel on Software](https://www.joelonsoftware.com/) es un blog que muestra las opiniones y el (inmenso) conocimiento de Joel Spolsky's sobre el desarrollo de software. Su blog, actúa como muestra de la experiencia que Joel tiene, y sirve para promover su pequeño negocio: Fog Creek Software.
+[Gizmodo](https://gizmodo.com/) es un blog sobre cualquier dispositivo tecnológico que se puedan imaginar, o como se les suele llamar: gadgets y gizmos. Gizmodo es como una revista web, y han construido una audiencia especial de consumidores de dispositivos electrónicos a quienes dirigen los anuncios y la publicidad que les hace ganar dinero.
+[Joel on Software](https://www.joelonsoftware.com/) es un blog que muestra las opiniones y el (inmenso) conocimiento de Joel Spolsky's sobre el desarrollo de software. Su blog, actúa como muestra de la experiencia que Joel tiene, y sirve para promover su pequeño negocio: Fog Creek Software.
 
 [Jupiter Research](https://weblogs.jupiterresearch.com/) una compañía que va a la vanguardia de las investigaciones y análisis de mercados, tienen un blog por cada analista de la compañía. Esto les permite que los analistas se "conecten" periódicamente con la audiencia que los lee (clientes en potencia).
 

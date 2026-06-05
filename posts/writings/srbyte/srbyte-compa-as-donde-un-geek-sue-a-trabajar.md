@@ -1,9 +1,10 @@
 ---
 title: Compañías Donde un Geek Sueña Trabajar
 date: 2008-03-28
-author: Robertux
-tags: programacion, interesante, google, tecnologia
-post_id: blog-3515952828243908885.post-804942464225895869
+author: Rodrigo A.
+tags: tecnologia, programacion, google, interesante
+draft: false
+post_id: blog-3515952828243908885.post-2562861556598501622
 ---
 
 En estos días, ya que tuvimos que estudiar para Recursos Humanos y como no me llevo muy bien con la lectura de la teoría, decidí realizar un par de investigaciones para desaburrirme. Aprovechando el tema de los recursos humanos he realizado una recopilación sobre las compañías mejor calificadas con respecto a recursos humanos, en las que todo programador soñaría trabajar.
@@ -16,8 +17,6 @@ En estos días, ya que tuvimos que estudiar para Recursos Humanos y como no me l
 
 - Google: Qué se puede decir de la empresa numero uno en la lista de las 100 mejores empresas donde trabajar de la [revista Fortune](https://money.cnn.com/magazines/fortune/bestcompanies/2008/snapshots/1.html)? No se ni por dónde empezar así que mejor vean un par de vídeos que lo explican:
 
-"Google, Una de las empresas
-que mejor trata a sus empleados"
+"Google, Una de las empresas que mejor trata a sus empleados"
 
-"La Empresa No. 1 de la
-revista Fortune"
+"La Empresa No. 1 de la revista Fortune"

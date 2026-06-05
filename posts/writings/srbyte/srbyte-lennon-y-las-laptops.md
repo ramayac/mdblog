@@ -1,9 +1,10 @@
 ---
 title: Lennon y las laptops
 date: 2009-01-03
-author: Wendy Aparicio
-tags: video, agil, social, laptop
-post_id: blog-3515952828243908885.post-5299555921824063592
+author: Rodrigo A.
+tags: agil, social, video, laptop
+draft: false
+post_id: blog-3515952828243908885.post-8844090574189665855
 ---
 
 One Laptop per Child (OLPC), es una organización sin fines de lucro creada por catedráticos del Laboratorio de Multimedia del Instituto Tecnológico de Massachusetts, (MIT) para diseñar, manufacturar y distribuir ordenadores portátiles entre los niños de países tercermundistas. Esto con el objetivo que todo niño tenga acceso a las nuevas tecnologías de la información, al mismo tiempo que se educa e interactúa a nivel mundial.

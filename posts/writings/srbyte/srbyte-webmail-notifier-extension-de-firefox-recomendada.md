@@ -1,13 +1,14 @@
 ---
 title: WebMail Notifier (Extension de FireFox recomendada)
-date: 2008-07-21
-author: Rodrigo Amaya
-tags: firefox, complementos, addon
-post_id: blog-3515952828243908885.post-2309706133110783938
+date: 2008-07-22
+author: Rodrigo A.
+tags: complementos, addon, firefox
+draft: false
+post_id: blog-3515952828243908885.post-3829364251796524496
 ---
 
-![image](https://bp3.blogger.com/_ayvorITawE4/SIVsUetrGlI/AAAAAAAAA7E/Ai09Gf7rn58/s400/4490.png)    [WebMail Notifier](https://addons.mozilla.org/en-US/firefox/addon/4490), es
-una [complemento/add-on](https://srbyte.blogspot.com/2008/07/qu-es-un-complementoadd-on-de-firefox.html) de [Firefox 3.0](https://srbyte.blogspot.com/2008/07/el-guiness-record-de-firefox-3.html) que revisa periódicamente diversas cuentas de correo y notifica ademas el numero de emails que tienes sin leer cada cuenta que configures. Así que si posees varias cuentas de correo electrónico, como una yahoo, otra hotmail y otra en gmail ( como yo :P ) y pasas revisando compulsivamente cada una de tus cuentas, esperando que llegue un emocionante correo...solo para darte cuenta que es una "Alerta" de Google... este complemento es definitivamente para ti. Las cuentas de correo que WebMail Notifier soporta son:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyNC-Lo9CwIyLmBdjNkIFWihcreejdu0gBpEMGCwgQwA4KOLNV3GRpT1axAK3aGDI3nTdAPgc3XFsHNHqzYPOZ42zba4bp11HRHg6rMNMO3_cDsglatjxyzHbRCBXzdzijIHTfeUz_Fb4/s400/4490.png)    [WebMail Notifier](https://addons.mozilla.org/en-US/firefox/addon/4490), es una [complemento/add-on](https://srbyte.blogspot.com/2008/07/qu-es-un-complementoadd-on-de-firefox.html) de [Firefox 3.0](https://srbyte.blogspot.com/2008/07/el-guiness-record-de-firefox-3.html) que revisa periódicamente diversas cuentas de correo y notifica ademas el numero de emails que tienes sin leer cada cuenta que configures. Así que si posees varias cuentas de correo electrónico, como una yahoo, otra hotmail y otra en gmail ( como yo :P ) y pasas revisando compulsivamente cada una de tus cuentas, esperando que llegue un emocionante correo...solo para darte cuenta que es una "Alerta" de Google... este complemento es definitivamente para ti.
+Las cuentas de correo que WebMail Notifier soporta son:
 
 - mail.google.com(Gmail)
 - mail.yahoo.com (yahoo.com, ymail.com, rocketmail.com)
@@ -20,15 +21,13 @@ Y tambien añade algunas que -sinceramente- ni sabia que existían:
 - www.nate.com
 Todo esto se visualiza -de una manera terriblemente sencilla- en un conveniente icono que se aloja en la barra de estado de Firefox, en la esquina inferior derecha de la ventana, al que se accesa con un sencillo click derecho (sobre ese icono ¡por supuesto!):
 
-![image](https://bp2.blogger.com/_ayvorITawE4/SIVrbS8GjUI/AAAAAAAAA60/ZzAXlVkzEDU/s400/1.png)    
-"Como ven WebMail no quita
-espacio en el navegador."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipgLf6-9_Ebd7y4qw6FiAKAMUQpy0_SJDVBAH9ZX7URvhG9stcRK56GyNG8pNwAfcYGBRLAsUIKOkTt9KsxCRPIxY_TCa7qSAz0POVJe4hyoB6jJKHReMttgELK0abrHoEELlS5XnFbZ8/s400/1.png)    
+"Como ven WebMail no quita espacio en el navegador."
 
 Y si no esta la cuenta extraña de correos que utilizas quizás eres un spammer, puedes añadir otros proveedores de correo electrónico, utilizando una útil opción en las preferencias (de complemento) llamada "User Script", este boton sirve para buscar archivos de javascript".js" que contengan la informacion para accesar a algun proveedor de servicio que quizas WebMail Notifier no soporta por defecto.
 
-![image](https://bp2.blogger.com/_ayvorITawE4/SIVrbd4O8yI/AAAAAAAAA6s/eGCMiSb9zHY/s400/webmailshot.jpg)    
-"Esta es la ventana de
-Preferencias, donde se añaden las cuentas y scripts para aumentar la funcionalidad de WebMail Notifier."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7nL4CKAg64CNjClWz6q4dRuNcfIAwKkOpJs2cWZIX-0YTOX2kItzX0_A-lphWqEOHvsjSXDdOIlWImd3gwRpQdJGseALnsNd0TH61DcaiJ01xGRhlb6J4AEFGNZCrrSHekWgd0re05k/s400/webmailshot.jpg)    
+"Esta es la ventana de Preferencias, donde se añaden las cuentas y scripts para aumentar la funcionalidad de WebMail Notifier."
 
 Algunos de esos archivos javascripts soportan los siguientes proveedores:
 
@@ -41,7 +40,8 @@ Algunos de esos archivos javascripts soportan los siguientes proveedores:
 - poczta.fm(poczta.interia.pl)
 Y si no esta el proveedor que utilizas y conoces javascript: puedes realizar tu propio script para tu cuenta de correo. Si deseas más información sobre esta extensión este es el sitio oficial (en algún lenguaje asiático que ignoro por completo):
 [https://tobwithu.tistory.com/category/WebMailNotifier](https://tobwithu.tistory.com/category/WebMailNotifier)
-> href="https://tobwithu.tistory.com/category/WebMailNotifier">https://tobwithu.tistory.com/category/WebMailNotifier
+> [https://tobwithu.tistory.com/category/WebMailNotifier](https://tobwithu.tistory.com/category/WebMailNotifier)
 Y nuevamente, el sitio para descargar el complemento es:
-[> https://addons.mozilla.org/en-US/firefox/addon/4490](https://addons.mozilla.org/en-US/firefox/addon/4490)¿Y
-tu que usas para revisar todas las cuentas de correo que posees?
+[
+> https://addons.mozilla.org/en-US/firefox/addon/4490
+](https://addons.mozilla.org/en-US/firefox/addon/4490)¿Y tu que usas para revisar todas las cuentas de correo que posees?

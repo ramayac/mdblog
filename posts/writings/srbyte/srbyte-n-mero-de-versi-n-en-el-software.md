@@ -1,14 +1,15 @@
 ---
 title: Número de Versión en el Software
-date: 2007-02-16
-author: Rodrigo Amaya
-tags: libre, gnu, linux, software, microsoft
-post_id: blog-3515952828243908885.post-3385006549121719633
+date: 2007-02-17
+author: Rodrigo A.
+tags: software, linux, libre, microsoft, gnu
+draft: false
+post_id: blog-3515952828243908885.post-8550885058374808763
 ---
 
 Si algo sabe hacer Microsoft bien, es llegar a todo el mundo. Respiremos profundo y aceptar la realidad. ¿Que tiene que ver esto con las versiones de los programas? Pues cuando Microsoft cambio el nombre de Windows 4.0 a Windows 95, miles rasgaron sus vestiduras y muchos dijeron: ¿Cómo sabrá el usuario a que versión de Windows actualizarse?
 
-![image](https://bp3.blogger.com/_ayvorITawE4/RdaAu6SA9-I/AAAAAAAAAHQ/BubUZxd1mhw/s400/grito.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp5u-H0714JI7CvcA4qCax47gj9EzAh2gUS97EWgOeA2LjFzgIR74xDx-FBbzPQlI1-HFAAo2rMxgdFG2TZq0ndcHoU-dolFwL7HVOWjlAwPvh-QvqPiVvxQpN2mO4PTBnmDHcwKue_5Y/s400/grito.jpg)    
 "El Grito - Edvard Münch, 1893"
 Parece ridículo ahora, pero fue un riesgo significativo en su momento, y para ser francos este cambio de política tiene mucho sentido ¿no? ¿Por que tiene sentido? fácil:
 
@@ -16,7 +17,7 @@ Parece ridículo ahora, pero fue un riesgo significativo en su momento, y para s
 - Un modelo de numeración basado en años es fácil de entender que un modelo de numeración tradicional.
 Un problema frecuente con mucho Software Libre es que muchos desarrolladores sigue los lineamientos de numeración de versiones del Kernel de Linux, por ejemplo la versión de numeración de un Kernel Linux, son tres números separados por un punto:
 
-> style="font-size:130%;"> 2.4.19
+> 2.4.19
 este número se descompone así:
 
 - Número Mayor: Representa cambios muy significativos en el Software.
@@ -24,8 +25,7 @@ este número se descompone así:
 - Micro Número / Parche: Significa numero de entullezcan o re-compilación o que arreglaron un bug o alguna otra cosa.
 Esa numeración tiene lógica para algo tan delicado como el desarrollo de un Kernel de un Sistema Operativo. Pero los desarrolladores de software libre van mas lejos cuando llaman a sus productos así. Una de las mejores ideas que se ha visto en el software libre son los nombres claves para las diferentes distribuciones de GNU/Linux; Ubuntu Hoary, por ejemplo, es mejor que Ubuntu 5.04 para el usuario (Aunque no mucho para el usuario de habla hispana, pero se entiende la idea). La forma normal de numerar un programa en .NET/Mono es:
 
-> (Versión mayor).(Versión
-> Menor).(Numero de revisión).(Numero de construcción)
+> (Versión mayor).(Versión Menor).(Numero de revisión).(Numero de construcción)
 
 Pero como dije antes, al usuario todos esos números no le importan y es mas, muchas veces:
 
@@ -34,11 +34,10 @@ Pero como dije antes, al usuario todos esos números no le importan y es mas, mu
 - No le dan importancia
 Y es que la numeración de las versiones se usa en caso de emergencia o actualización de Software, para la etapa de desarrollo o para darle seguimiento en general pero no para el nombre comercial de un software enfocado para el usuario final!. Por eso Microsoft Office 2007 se lee mas "bonito" que Microsoft Office 11.8125.8122.00 (verdad?). Lo mismo sucede con el Windows Messenger cuando cambio de 7.5 a 8.0 ¿se fijaron que ahora el se llama Windows Live Messenger? Pero los números siguen ahí:
 
-![image](https://bp0.blogger.com/_ayvorITawE4/RdZ1xKSA99I/AAAAAAAAAHI/IHkaYidDPxw/s400/messenger.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzZuNDvY5Po4xTKR5uniI2dm-N0ivsNi90adYpSVlKMOLAIZN9k5wiOVAhjDZy-DPI5TR9dxh5dd6IZZ-sfVsYt_rlpf950gLCKFznZQ1FOd2s2Gi6vGRgZFymSyBoDUkQ7dcKiyGccZg/s400/messenger.jpg)    
 Al parecer nadie se salva de agregar la fecha de alguna u otra forma en la numeración de sus programas/productos... ni siquiera el caricaturista Ruz:
 
-![image](https://bp3.blogger.com/_ayvorITawE4/RdaCX6SA9_I/AAAAAAAAAHY/ZufbAfpnUYs/s200/ruzhoy.JPG)    ...pero tomando un
-caso mejor adaptado a nuestra realidad tecnológica, veamos el de Microsoft Office, su versión de construcción se dividen en 4 dígito con la fecha codificada... no es tan difícil como se lee, la lógica funciona así:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4JfONqBhnHi4Wlk7VJ57K8rM99TTMyyltfjRmv_Xy-3Brs4Nm-rehfVH8J_DLiCgo4WYmWLR8awB6Mld7421z6YMAX_8-ti7tOJB_g3Nd_6rk51JCsZZhRCuwJw2n42YKHajrkQZYxp0/s200/ruzhoy.JPG)    ...pero tomando un caso mejor adaptado a nuestra realidad tecnológica, veamos el de Microsoft Office, su versión de construcción se dividen en 4 dígito con la fecha codificada... no es tan difícil como se lee, la lógica funciona así:
 
 - Toma el año en el que el proyecto comienza. Para Microsoft Office "12" fue el 2003.
 - Llama a Enero de ese año "Mes 1".
@@ -50,4 +49,4 @@ La fecha entonces es: 13 de Diciembre de 2004.
 
 De todos estos datos ¿Cuales son importantes para el usuario?, ¿Y cuantos para los desarrolladores? La idea general de todo esto es confundir lo menos posible al usuario. Siempre que sea posible es mejor usar datos más simples para llamar un programa que utilizar versiones numéricas en su nombre y también variar un poco es bueno, por eso Windows Vista no se llama Windows 2005, esto es aplicable particularmente a los nombres enfocados para la comercialización de nuestro Software/producto.
 
-Hasta la
+Hasta la próxima!

@@ -1,12 +1,13 @@
 ---
 title: Campus Party Iberoamérica - Robótica (Día 1)
 date: 2008-10-29
-author: Rodrigo Amaya
-tags: robotica, campus, party, iberoamerica
+author: Rodrigo A.
+tags: robotica, iberoamerica, campus, party
+draft: false
 post_id: blog-3515952828243908885.post-6560339885713532551
 ---
 
-![image](https://4.bp.blogspot.com/_ayvorITawE4/SQitggan8TI/AAAAAAAABZA/tio5P-0W4hQ/s400/banner_robotica_iberoamerica.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi535B2kK_WKEOC23-GbyHUcM99HEkVo-NFflcN8QknkYzl6qTRd6JqyM05aCfyClq-vTnH5yvhTpoB0Kc_gnm66wLpVAqhl77Nn46EcKlOvOo1RfIDh4OTcx-d6dk5YfmHjU_CuQhrtFE/s400/banner_robotica_iberoamerica.jpg)    
 
 Comparto con ustedes algunas fotos del área de Robótica del Campus Party Iberoamérica:
 

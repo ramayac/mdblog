@@ -1,37 +1,35 @@
 ---
 title: Es dificil instalar GNU\Linux?!
 date: 2007-04-05
-author: Rodrigo Amaya
-tags: libre, gnu, linux, software, windows, youtube
-post_id: blog-3515952828243908885.post-3561339350036476639
+author: Rodrigo A.
+tags: youtube, software, linux, libre, windows, gnu
+draft: false
+post_id: blog-3515952828243908885.post-3979787832796494422
 ---
 
 Tienes GNU\Linux en tu sistema?, lo usas a diario? (o al menos semanalmente?)...
 
-![image](https://bp2.blogger.com/_ayvorITawE4/RhUD_rQFkFI/AAAAAAAAAQA/jJE4HoWB1lE/s200/happytux.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUcFgYDimGiOpjkDpqZdC9_P013GJLl5cfbyn3NldhT2kFpHu4JJQEAJdr5W0Eh3yYFaR2uRJQALlbxLfENlU4STVijIwd9x2_bAT4OtUyJRWgC_6VsingeQLAMySFgvJ6Zg3anBgvWWw/s200/happytux.png)    
 "Tux"
 
 Si es asi, de acuerdo a algunas personas (y los que propagan el mito) si tienes GNU\Linux en tu sistema eres un super hombre...
-![image](https://bp0.blogger.com/_ayvorITawE4/RhUEJLQFkGI/AAAAAAAAAQI/pYLVinosLSY/s320/superlogo.jpeg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr3fl2DiIuN1VN0kQmXukQZ3tJBPv7wybE5vmUo6jtiq9quZ26VfanW6PkHGLFopWzdbQQ4N8SVDSyuVVOQ4NPie9nJCfy92gH7Vy_2w9HxC3DkSBNxDjmuARhueDXq9vRJOHX975MK3A/s320/superlogo.jpeg)    
 "Logo de Superman"
 
 Las distribuciones de GNU\Linux han hecho un sin fin de increíbles malabares para realizar de manera mas sencilla la instalación a través de los años.Hay instalaciones que super sencillas, por ejemplo la instalación de Linspire.
 
 ![image](https://www.ffnn.nl/media/.gallery/image213.png)    ![image](https://www.ffnn.nl/media/.gallery/image237.png)    ![image](https://www.ffnn.nl/media/.gallery/image238.png)    
 
-"Capturas de pantalla de
-instalación de Linspire Five-0"
+"Capturas de pantalla de instalación de Linspire Five-0"
 
 Hasta la imagen para reiniciar es suficientemente explicativa como para que cualquier usuario entienda que tiene que hacer...
 
 ![image](https://www.ffnn.nl/media/.gallery/image239.png)    
 
-"Captura de pantalla de
-instalación de Linspire Five-0"
+"Captura de pantalla de instalación de Linspire Five-0"
 
 Pero lamentablemente la percepción sigue siendo la misma (y el mito sigue propagándose): GNU\Linux es un sistema para los que tienen el cerebro, el valor y el tiempo de sobra para lidiar con "ese" sistema. Si uno busca en la red, puede encontrar muchos documentos en los cuales gente conocedora hace una comparación objetiva entre GNU/Linux y Windows (tanto en servidores como en estaciones de trabajo). En muchos de los documentos se exponen puntos válidos y vigentes en contra de Linux, pero en muchos otros sólo se perpetúan (de la manera más estúpida) algunos mitos acerca de este sistema operativo. Lo mas irónico del asunto es que ni Microsoft Windows ni GNU\Linux es "facil" de usar... estoy seguro que los "fans" de Microsoft Windows desean patearme el trasero, pero déjenme ejemplificar, para usar tu Windows XP tienes que instalar...
-> Antivirus y Anti
-> Spyware
+> Antivirus y Anti Spyware
 ¿Verdad? Ademas, una instalación original de Microsoft Windows no trae instalado muchos programas útiles (notepad, mspaint y calc no cuentan como util), entonces hay que instalar muchos programas adicionales más...
 
 - Nero (¿Qué?¿Todavía quemas con el explorer?)
@@ -43,8 +41,7 @@ Pero lamentablemente la percepción sigue siendo la misma (y el mito sigue propa
 - Y todos los demás programas que un "Power User" tiene que instalar...
 ¿Es eso ... "fácil"?... ja!, seguro (si, me estoy burlando). ¿Ademas, cuantos clicks tienes que dar para instalar software en Windows? ¿Puedes instalar 20 programas de una vez sin que te instalen accesos directos basura y sin dar ni un solo click? ¿Esta tu menú inicio ordenado de manera automática por categorías? ¿Puedes instalar programas remotamente (de una computadora a otra) sin que el usuario se de cuenta y sin que de un click de aceptar y sin reiniciar la maquina? Seamos claros...
 
-> style="font-weight: bold;"> Windows no
-> puede.
+> Windows no puede.
 Un CD de instalación de Ubuntu trae ademas...
 
 - Editor avanzado de imágenes (GIMP)
@@ -71,4 +68,4 @@ Pero si algo es seguro, es que Instalar GNU\Linux en una maquina, es tan difíci
 ![image](https://www.acota.de/pics/humor/tux/dummy1024x768.jpg)    
 "Sick of Crashing? Fondo de pantalla"
 
-Espera los mitos de GNU\Linux desmitificados muy pronto!
+Espera los mitos de GNU\Linux desmitificados muy pronto! Saludos!

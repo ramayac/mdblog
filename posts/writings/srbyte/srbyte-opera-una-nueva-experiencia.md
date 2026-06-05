@@ -1,17 +1,16 @@
 ---
 title: Opera... una nueva experiencia.
 date: 2007-09-25
-author: Rodrigo Amaya
+author: Rodrigo A.
 tags: software, freeware, Opera
-post_id: blog-3515952828243908885.post-1057178706624432252
+draft: false
+post_id: blog-3515952828243908885.post-8066792271417583778
 ---
 
-![image](https://bp2.blogger.com/_ayvorITawE4/RvkN0lmN2MI/AAAAAAAAAek/v27t0f9Fmlw/s400/92px-OperaLogo.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje7SJ0kl1cwrfTk1iTKnadWMAfmUmqhr2n9L3qdd5eZwRrTzUCaQn1zaUXq7MqzsuQuhTqr7m4yFzcA7AMmkUKKgpVVj8qFXUS999eAlCGyRJVIjldQkuWKHE4tkj0CflBEOv3ao2HegY/s400/92px-OperaLogo.png)    
 El Opera es un navegador web multiplataforma (corren en Microsoft Windows, Mac OS X, Linux, FreeBSD y Solaris), que posee una suite de características para manejar tareas comunes en Internet. Algunas de esas tareas comunes realizables desde Opera incluyen enviar y recibir correos, manejar contactos, chatear en linea, ver widgets, descarga de archivos de BitTorrent y leer RSS feeds. Ademas hay una versión "adelgazada" de Opera, llamada Opera Mini, orientada a los dispositivos moviles. Y lo mejor, es que las ultimas versiones de Opera se ofrecen como Freeware (aunque Opera es software propietario).
 
-> Este sera de aquellos raros casos, en los que recomiendo probar y
-> usar el software propietario (Opera) sobre el sofware libre
-> (Firefox/IceWeasel).
+> Este sera de aquellos raros casos, en los que recomiendo probar y usar el software propietario (Opera) sobre el sofware libre (Firefox/IceWeasel).
 Algunas caracteristicas de Opera son:
 
 - Cliente Simple de BitTorrent, orientado a los usuarios novatos (se puede deshabilitar).
@@ -23,23 +22,21 @@ Algunas caracteristicas de Opera son:
 - Editor WYSIWYG mejorado.
 - Protección contra Fraude (En tiempo real).
 - Y la característica mas útil para mi: "Speed Dial". ([Speed Dial para Firefox aquí](https://addons.mozilla.org/en-US/firefox/addon/4810))
-![image](https://bp1.blogger.com/_ayvorITawE4/RvkPDVmN2NI/AAAAAAAAAes/iKkOJAyD_aU/s400/lin.jpg)    
-"Opera con Speed
-Dial"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMlGNBduTwRPxZSNNXeCzTFf1Hqi_2EGlQKAfz3bQShyjNjUpviWJzeIeuDA30d4jFxaom9Xz-DBP6Ax_yE6ukHk43poT4_nAB5m_r77hNBfxuqnHhTKVFqV9t3TaSNZRxX16IEGRK2ys/s400/lin.jpg)    
+"Opera con Speed Dial"
 
 ¿Por que preferir Opera a Firefox/IceWeasel ? Aparte de lo mas obvio (Firefox es LENTO), es que una de las desventajas de FireFox (en algunos casos) es el uso de Extensiones (Add-ons) adicionales para que FireFox haga algo. El ejemplo mas triste es la extensión de Adblock y Adblock Plus, que aunque hacen un excelente trabajo bloqueando anuncios... son (cuando están instalados) una de las principales causas de lentitud en FireFox.
 
-![image](https://bp2.blogger.com/_ayvorITawE4/RvkPzlmN2OI/AAAAAAAAAe0/x8mm_t-uqx8/s400/content-blocker.png)    
-"Accesa al 'modo' de bloqueo
-de contenido con Opera"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh-zU2FGvzSK3b1m2fgZTQJptgQ5t9SScVP2Ds4S7jYXD4bu-_dYSJPYAi8PtKsXm3oU3droJH7T8s0LsjCGsvrKu92TBwSxyngLXKZBwB3dw7XCz4Xnh7cD831oWarbW3_sWKa3JA2dU/s400/content-blocker.png)    
+"Accesa al 'modo' de bloqueo de contenido con Opera"
 
 Para ver una lista de Extensiones Problemáticas para Firefox visita esta pagina:
-[> https://kb.mozillazine.org/Problematic_extensions](https://kb.mozillazine.org/Problematic_extensions) Opera
-incluye una herramienta de bloqueo de contenido, y un filtro de URL's, ejecuta mas rápido Java-Script, incluye una poderosa herramienta de desarrollo web ([https://dev.opera.com/tools/](https://dev.opera.com/tools/)), y lo mas importante es que posee caracteristicas "innatas" a el, que no requiere la instalación adicional de componentes.
+[
+> https://kb.mozillazine.org/Problematic_extensions
+](https://kb.mozillazine.org/Problematic_extensions) Opera incluye una herramienta de bloqueo de contenido, y un filtro de URL's, ejecuta mas rápido Java-Script, incluye una poderosa herramienta de desarrollo web ([https://dev.opera.com/tools/](https://dev.opera.com/tools/)), y lo mas importante es que posee caracteristicas "innatas" a el, que no requiere la instalación adicional de componentes.
 
-![image](https://bp2.blogger.com/_ayvorITawE4/RvkQSlmN2PI/AAAAAAAAAe8/9Pm3CHchPjA/s400/clock-widget.png)    
-"Widgets para
-Opera"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhQSA6tgu73ZoaA2bNFJFWsveDp23QPPdRPDfTxxbvnmyIy4mL1-4jdTyP0mxNL99iNcR5Y9CQY91S_s3vy7qb3rHXUpVRYslfcCaHZtkXQrIoMIpMTVW8gl8E3flIgwoA1c2-4b-ztNE/s400/clock-widget.png)    
+"Widgets para Opera"
 
 Pero NO todo es paz y amor con Opera. Por lo menos en mi Debian Etch... Opera no soporta muy bien el click con el scroll del mouse para pegar contenido del clipboard... y eso si que es molesto. Tan molesto como seleccionar texto en Windows y tener que usar Ctrl+C y Ctrl+V. Y muchos, pero muuuuchos sitios web están orientados a IE7 y a FF2.0, y aunque se puede cambiar la identidad del navegador, resulta en trabajo adicional. Y la edición de este blog no es tan sencilla como con FF...
 
@@ -47,8 +44,7 @@ Al menos para la navegación "light" de la Web en general, osea las trivialidade
 
 Realmente solo tengo una duda...
 
-> style="font-size:180%;">¡¿Cuando sera mi FF/IW tan lindo como
-> Opera?!
+> ¡¿Cuando sera mi FF/IW tan lindo como Opera?!
 ¿Alguien tiene una idea? Espero que con la salida de FF 3.0, todo el asunto se solucione ;)
 
 Estos son algunos dispositivos en los que corre Opera:

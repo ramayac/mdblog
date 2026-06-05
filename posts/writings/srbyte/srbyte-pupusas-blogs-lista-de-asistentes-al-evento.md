@@ -2,13 +2,13 @@
 title: Pupusas & Blogs - Lista de asistentes al evento
 date: 2008-12-13
 author: Robertux
-tags: wordpress, blogger, tertulia, campus, blog, social, evento, fun, humor, twitter, charla
+tags: evento, twitter, humor, social, wordpress, campus, blogger, blog, charla, tertulia, fun
+draft: false
 post_id: blog-3515952828243908885.post-8843771815144534157
 ---
 
-![image](https://2.bp.blogspot.com/_jH77WNrMVRA/SUMGKyHtOBI/AAAAAAAAFN4/VxG3IJdaoiQ/s400/pupusasblogs08.jpg)    
-"Casi todos los asistentes.
-Algunos ya se habían ido o quedaron en la parte de atrás cubiertos por otros (Clic para agrandar)"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH_HtimEsyCk0e_E8ILdRZv_CG_800R2t8g0WVHaGq3oTLuKtFYIgst7YNQkaXrDKt35-b6mTTo45dh61M0x0CN2XILQMZXsJ8flhIG9dH-c-3xJMKBAezLwxo2yts5LlY1SmxbZUqy9s/s400/pupusasblogs08.jpg)    
+"Casi todos los asistentes. Algunos ya se habían ido o quedaron en la parte de atrás cubiertos por otros (Clic para agrandar)"
 
 Mas vale tarde que nunca. El día 30 de Noviembre del 2008 los miembros del staff del Sr Byte Ramayac y Robertux asistieron a la reunión de bloggers/twitters/campuseros denominada Pupusas&Blogs. No hubieron temas de discusión ni una agenda a tratar u objetivos a lograr, simplemente nos conocimos en persona, degustamos de un plato de pupusas de arroz e hicimos chiste de las habilidades y calidad del servicio del mesero que nos atendió. A continuación tienen la lista de personas asistentes al evento. Si se nos ha escapado alguna, por favor hacérnoslo saber mediante un comentario. La lista consta de nombre, id de twitter (si es que poseen) y blog (si es que poseen):
 

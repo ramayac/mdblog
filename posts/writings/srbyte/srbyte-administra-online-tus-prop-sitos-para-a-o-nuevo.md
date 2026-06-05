@@ -1,9 +1,10 @@
 ---
 title: Administra Online tus Propósitos Para Año Nuevo
 date: 2009-12-30
-author: Robertux
-tags: administrar, todo, zen, google, iphone
-post_id: blog-3515952828243908885.post-7870303207297160592
+author: Rodrigo A.
+tags: todo, zen, administrar, google, iphone
+draft: false
+post_id: blog-3515952828243908885.post-8670542440440314320
 ---
 
 Todos hacemos propósitos para año nuevo, cosas que quizá no fuimos capaces de cumplir en el año que se va y que deseamos cumplir en el año que viene. Si no tienes propósitos para año nuevo te recomiendo que los hagas y no sólo para año nuevo, es muy productivo el hacer metas periódicamente y hacer todo lo posible por cumplirlas.

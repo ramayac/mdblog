@@ -1,8 +1,9 @@
 ---
 title: Campus Party Iberoamerica - Variado 1
 date: 2008-10-30
-author: Rodrigo Amaya
-tags: campus, party, iberoamerica
+author: Rodrigo A.
+tags: iberoamerica, campus, party
+draft: false
 post_id: blog-3515952828243908885.post-7919284768551903721
 ---
 

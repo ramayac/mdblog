@@ -1,8 +1,9 @@
 ---
 title: Manifiesto de adhesión, Bloggers El Salvador
 date: 2007-09-16
-author: Rodrigo Amaya
-tags: blog, manifiesto, el salvador
+author: Rodrigo A.
+tags: el salvador, manifiesto, blog
+draft: false
 post_id: blog-3515952828243908885.post-8493833101861730876
 ---
 
@@ -23,4 +24,4 @@ MANIFESTAMOS QUE:
 
 Dios, Unión, Libertad... (eso lo agregue YO)
 
-Para ver una lista de blogs que se adhieren al manifiesto
+Para ver una lista de blogs que se adhieren al manifiesto den click [aqui](https://www.svbloggers.ysifueraposible.org/).

@@ -1,9 +1,10 @@
 ---
 title: Algo de Entrenamiento Mental
 date: 2008-02-07
-author: Robertux
-tags: lisp, c++, puzzle, acertijo, entrenamiento, interesante, vacaciones, matematica, einstein, curioso
-post_id: blog-3515952828243908885.post-2226928118184121742
+author: Rodrigo A.
+tags: entrenamiento, matematica, c++, curioso, puzzle, vacaciones, lisp, acertijo, einstein, interesante
+draft: false
+post_id: blog-3515952828243908885.post-8403671632442515166
 ---
 
 Después de un largo y muy merecido descanso de aproximadamente dos meses, estamos a solo unas semanas de empezar clases nuevamente en la UES-FMO. Habrán algunos que ya iniciaron clases en sus respectivas universidades pero de todos modos no llevan mas de un par de semanas asi que también va para ustedes.
@@ -18,9 +19,8 @@ Da la casualidad que por razones de la vida, recientemente me topé con un famos
 
 Les ruego que no busquen la repuesta en internet, tómense su tiempo. También les sugiero que lo consideren como un problema de sudoku, solamente que en lugar de números posees características parcialmente relacionadas. Yo utilicé esa lógica para resolverlo, en realidad existen muchas (Ahhhhh, tenía que salir a relucir mi ego. No podía quedarme sin mencionar que yo lo había resuelto en 35 min., jajaja).
 
-![image](https://bp3.blogger.com/_jH77WNrMVRA/R6qxGO__NOI/AAAAAAAAAgk/2cXbnD2sVG0/s320/Albert_Einstein_Head.jpg)    
-"Mi querido amigo Albert.
-Seguramente estaría diciendo: Con que te crees capaz de resolver mi acertijo ah? A ver, inténtalo."
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_LBVQwv0flQEYGY-DK8fOpQWgzGvGH999u2OGjpxoFa4I3IyUnKa3JfWXlioCLzwPFzjN45-m-HnTga0M1jKHnHH4gQYcXZp7Rpgf4HUaCUq04iFYc_ySbkpLdvmKnosgnBeQkDqDjLI/s320/Albert_Einstein_Head.jpg)    
+"Mi querido amigo Albert. Seguramente estaría diciendo: Con que te crees capaz de resolver mi acertijo ah? A ver, inténtalo."
 
 He aquí el problema en cuestión:
 
@@ -30,8 +30,7 @@ La pregunta es: ¿Quién tiene un pez?
 
 Hechos · El británico vive en la casa roja · El sueco tiene un perro · El danés bebe té · La casa verde está a la izquierda de la casa blanca · El propietario de la casa verde bebe café · La persona que fuma Pall Mall cría pájaros · La persona que vive en la casa amarilla fuma Dunhill · El propietario de la casa de en medio bebe leche · El noruego vive en la primera casa · El hombre que fuma Blends vive al lado del propietario de un gato · El dueño del caballo vive al lado del hombre que fuma Dunhill · El fumador de Bluemasters bebe cerveza · El alemán fuma Prince · El noruego vive al lado de la casa azul · El fumador de Blends tiene un vecino que bebe agua
 
-[la mayoría elabora una tabla en cuya primera
-columna escribe las características: "Casa, Nacionalidad, Bebida, Cigarros, Mascota" e intenta rellenar las filas correspondientes a cada característica con lo que cada uno supone que es la relación correcta, hasta a encontrar al dueño del bendito pez]
+[la mayoría elabora una tabla en cuya primera columna escribe las características: "Casa, Nacionalidad, Bebida, Cigarros, Mascota" e intenta rellenar las filas correspondientes a cada característica con lo que cada uno supone que es la relación correcta, hasta a encontrar al dueño del bendito pez]
 
 ¡Algunos llegaron al colmo de escribir programas en C++ o Lisp para resolver el acertijo! Eso si ya sobrepasa mis limites. Si quieren ver el código, búsquen los links en [el artículo de la wikipedia relacionado con el acertijo](https://en.wikipedia.org/wiki/Zebra_Puzzle), en las referencias finales del mismo.
 

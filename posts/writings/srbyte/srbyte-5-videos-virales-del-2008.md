@@ -1,8 +1,9 @@
 ---
 title: 5 Videos Virales del 2008
-date: 2008-12-14
-author: Rodrigo Amaya
-tags: video, viral, youtube
+date: 2008-12-15
+author: Rodrigo A.
+tags: youtube, viral, video
+draft: false
 post_id: blog-3515952828243908885.post-545305937266753616
 ---
 
@@ -10,8 +11,8 @@ Les presento una lista de 5 vídeos virales del 2008 (y que también son favorit
 
 1. Where the Hell is Matt? (Donde diablos esta Matt?)
 
-[Matt Harding](https://www.wherethehellismatt.com/) es un
-diseñador de videojuegos de 32 años quien renuncio a su trabajo en el 2003 para viajar por Asia. Durante este recorrido, se grabo haciendo un exótico... baile (?). El clip de video se popularizo y llamo la atención de "Stride Gum", que decidió patrocinar dos mas de sus viajes. En el vídeo mostrado, Matt visita 42 países, en un periodo de 14 meses e invita a los "locales" a unirse a la diversión.
+[Matt Harding](https://www.wherethehellismatt.com/) es un diseñador de videojuegos de 32 años quien renuncio a su trabajo en el 2003 para viajar por Asia. Durante este recorrido, se grabo haciendo un exótico... baile (?).
+El clip de video se popularizo y llamo la atención de "Stride Gum", que decidió patrocinar dos mas de sus viajes. En el vídeo mostrado, Matt visita 42 países, en un periodo de 14 meses e invita a los "locales" a unirse a la diversión.
 
 2. Western Spaghetti
 
@@ -25,7 +26,7 @@ Sabemos que es muy difícil domesticar un animal salvaje, pero si podemos ganar 
 
 Mario al fin vence a sus enemigos y rescata a la mujer que tanto tiempo ha tratado de salvar. Lamentablemente, la princesa no esta muy impresionada por lo que ve. Directo de la mente de Seth MacFarlane, creador de los populares Family Guy y American Dad, surge este corto animado que seguro sacara mas de alguna carcajada a los "viejos" que jugaron Super Mario. Más cortos animados con el sello de MacFarlane, en su canal de Youtube:
 [https://www.youtube.com/user/SethComedy](https://www.youtube.com/user/SethComedy)
-> href="https://www.youtube.com/user/SethComedy">https://www.youtube.com/user/SethComedy
+> [https://www.youtube.com/user/SethComedy](https://www.youtube.com/user/SethComedy)
 
 5. Reportero Iraquí lanza Zapato a George Bush
 

@@ -1,8 +1,9 @@
 ---
 title: Arreglar pixeles en un monitor LCD
-date: 2008-02-15
-author: Rodrigo Amaya
-tags: util, lcd, fantastico, tutorial, interesante, tecnologia, geek, curioso
+date: 2008-02-16
+author: Rodrigo A.
+tags: tecnologia, fantastico, geek, util, curioso, tutorial, lcd, interesante
+draft: false
 post_id: blog-3515952828243908885.post-8081549705641177960
 ---
 
@@ -10,25 +11,21 @@ La hermosura de [un monitor o pantalla LCD](https://srbyte.blogspot.com/2007/03/
 
 Gracias a Dios, aparentemente se pueden arreglar los pixeles trabados en un monitor LCD, una solución esta en el sitio web [Killdeadpixel](https://killdeadpixel.com/).
 
-![image](https://bp0.blogger.com/_ayvorITawE4/R7ZTC7TZHXI/AAAAAAAAAi8/r-V1wnjsXaM/s320/killpixelweb.jpg)    
-"Captura de pantalla:
-Killdeadpixel.com"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgITojM-jotJ_gXOLMfCAvOqXrZ1YIyUWK-kVSkNooKNp5jieFjTXjMNHJUOTTLwgPJrGI3yCvRLQym6lZEkOKXeGwcxjeRRgAz8jVhQQjVUdhE56GmPC4GIh7JLr9GNCW1rCIgOpI5lgA/s320/killpixelweb.jpg)    
+"Captura de pantalla: Killdeadpixel.com"
 
 Killdeadpixel "destraba" los pixeles al mostrar una imagen que puede ser "arrastrada" al área del problema, la imagen es de alto contraste y tiene una animación constante y veloz, que seguramente causara un buen número de ataques de epilepsia...
 
-![image](https://bp0.blogger.com/_ayvorITawE4/R7ZVh7TZHZI/AAAAAAAAAjM/XVGz20NHptM/s400/180px-Battling_seizure_Robots.jpg)    
-"Imagen: Simpsons con Ataque
-de Epilepsia [1]"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPDpGDjr7o-73MJXOgLtpbiOq6vjtOQPRGB2BojJUBhK6a7xMd4kOTJD0KZma4csrbiGa3C3WGGEfuEdUzsKee4LgsAsDWvdbFM7xmiaA2QUwKJcRVXXCDhhTDPukPTBdaMQ5XuC7YIyg/s400/180px-Battling_seizure_Robots.jpg)    
+"Imagen: Simpsons con Ataque de Epilepsia [1]"
 
 Killdeadpixel posee ademas una psicodélica imagen de 800x600 ó 1024x784 pixeles que puede ser empleado en un modo de pantalla completa para atacar mas agresivamente el problema. Si eso aun no funciona, pues existe una útil aplicación que se puede usar llamada [JScreenFix](https://www.jscreenfix.com/#JScreenFix). JScreenFix también cumple con su cometido al destrabar los pixeles mostrando imágenes aleatorias de verde azul y rojo en alto contraste y de manera hipnótica.
 
-![image](https://bp0.blogger.com/_ayvorITawE4/R7ZUm7TZHYI/AAAAAAAAAjE/3g-t5gRLKd0/s320/jscreenfix.png)    
-"Captura Pantalla: Applet
-JScreenFix"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDiuu686flNwEsskrzQpOFcagfFr38znOyH7_vbsTmhiQUtM3CHugx2L48X1uEHatyokOhsLJCs-bQ1d8OfWSXR1ON7G2KLsdX279AQ39hYwd7rQ6aVPbF4JDNrmCwdmDqUIa9uN3L1Wk/s320/jscreenfix.png)    
+"Captura Pantalla: Applet JScreenFix"
 
 El sitio web de JScreenFix, ademas, [ofrece vídeos para destrabar pixeles](https://www.jscreenfix.com/video.php) en dispositivos con pantallas LCD, como: iPods, Telefonos Moviles, Play Station Portatiles, reproductores DVD portátiles, etc. Espero que, si tienen el problema del pixel trabado como en mi caso, este post sirva para que puedan solucionarlo.
 
 ¡Saludos!
 
-[1] Los Simpsons viendo el programa de TV: "Battling Seizure
-Robots", capitulo "Thirty Minutes over Tokyo". Creado por Matt Groening, todos los derechos reservados.
+[1] Los Simpsons viendo el programa de TV: "Battling Seizure Robots", capitulo "Thirty Minutes over Tokyo". Creado por Matt Groening, todos los derechos reservados.

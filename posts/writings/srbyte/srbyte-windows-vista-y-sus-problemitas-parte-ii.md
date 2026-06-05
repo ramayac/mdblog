@@ -1,15 +1,16 @@
 ---
 title: Windows Vista y sus "problemitas" [Parte II]
 date: 2007-02-03
-author: Rodrigo Amaya
-tags: bad, vista, windows
+author: Rodrigo A.
+tags: bad, windows, vista
+draft: false
 post_id: blog-3515952828243908885.post-1038926833403809365
 ---
 
 Mas confusión... (lee la [primera parte](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte-i.html))
 
-![image](https://bp2.blogger.com/_ayvorITawE4/RcaRLzD_iDI/AAAAAAAAADY/DGbt5RDzbwU/s400/quick_vista.gif)    Ahora Vista es más
-fácil de actualizar... al menos eso dice la publicidad y claro que, con los precios por los que ronda cualquier edición de Windows Vista muchas personas preferiran actualizar a Vista antes que comprar una versión completa. Según los precios en Amazon.com (versión completa/ versión actualización):
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheqJ-FgsAiB9eRg7eBcOIR_SL0JUjFyOi9yOY_mytl3Qv0o8SCYwwaZlIPo2uYwqCbOK955P03KjgclWsyZn-rQxwztdcRa6lWQtpXWauAO0kLbPdcVnbbobXB5kxUYnDKSLlN4Wo_lFc/s400/quick_vista.gif)    Ahora Vista es más fácil de actualizar... al menos eso dice la publicidad y claro que, con los precios por los que ronda cualquier edición de Windows Vista muchas personas preferiran actualizar a Vista antes que comprar una versión completa.
+Según los precios en Amazon.com (versión completa/ versión actualización):
 
 - Windows Vista Home Basic, $199/$99.95
 - Windows Vista Home Premium, $239/$159
@@ -28,12 +29,11 @@ Todos los usuarios de Windows saben que para trabajar bien y por largo rato con 
 - la versión Upgrade de Vista requiere que instales XP y Vista seguidos, duplicando - muy probablemente - el tiempo que requiere reformatear/reinstalar y aumentando los 7 pasos anteriores en al menos 35 minutos.
 - La versión Upgrade requiere tus discos originales de Windows XP/2000. MUUUUCHAS personas tienen estos discos en forma de "recovery CDs" que pueden poseer una instalación [OEM](https://es.wikipedia.org/wiki/OEM) que traiga toda clase de programas inútiles añadidos a su instalación (aumentando más el tiempo de instalación).
 - Muchos usuarios han perdido, o jamas se les dio, sus discos de instalación de XP/2000 con su PC, porque ya venia instalado en sus computadoras. Estos usuarios, si deciden comprar una versión Upgrade - por ahorrar dinero - deben estar consientes de que si su disco duro muere o por cualquier razón necesitan reformatear/reinstalar tendrían que comprar una segunda copia de Vista, y esta vez, seria la versión completa.... OUUUUCHHHH!!!
-- Usar una copia de XP o 2000 como prueba para la versión Upgrade de Vista invalida la llave XP y su licencia (leyó bien), según la licencia de Usuario Final de Vista (el ahora famoso y popular End User License Agreement, EULA). La EULA declara, en parte: > style="font-weight: bold;">"Upon upgrade, this agreement takes the place of the agreement > for the software you upgraded from. After you upgrade, you may no longer use the software you > upgraded from." traducción de Sr. Byte:
+- Usar una copia de XP o 2000 como prueba para la versión Upgrade de Vista invalida la llave XP y su licencia (leyó bien), según la licencia de Usuario Final de Vista (el ahora famoso y popular End User License Agreement, EULA). La EULA declara, en parte: > "Upon upgrade, this agreement takes the place of the agreement for the software you upgraded from. After you upgrade, you may no longer use the software you upgraded from." traducción de Sr. Byte:
 
 ¿Increíble no?, a esto solo se puede decir... BAD BAD BAD Vista!
 
-![image](https://bp0.blogger.com/_ayvorITawE4/Rciy6jfQLdI/AAAAAAAAADw/8W1fyvJd6Wk/s400/BadVista.png)    Como ya saben, el
-requerimiento mínimo para el Upgrade de Vista es tener XP/2000 ya instalado. Con respecto a si se necesita o no realmente una instalación de XP/2000 "limpia" (es decir instalar XP/2000 desde cero y luego Vista) la respuesta en un RESONANTE:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHuGVpbIfJwMw7M4FztYcdjHdyFizHITLobrt3BaZQ5m0bVLalsMr58bXQTQPhEvnXXBrabUaFdvgn1HAi0PLfAWmos2Q9eH_1LDj4smrqBwUUqyLa0J4d6U2Q4kSNjyZd0t00SrssOwA/s400/BadVista.png)    Como ya saben, el requerimiento mínimo para el Upgrade de Vista es tener XP/2000 ya instalado. Con respecto a si se necesita o no realmente una instalación de XP/2000 "limpia" (es decir instalar XP/2000 desde cero y luego Vista) la respuesta en un RESONANTE:
 
 ¿Quizás?
 
@@ -41,6 +41,5 @@ Ese es el problema... y los tres puntos anteriores, que con MUCHA razón, están
 
 Mi consejo:
 
-> NO compren una versión style="font-size:130%;"> Upgrade de
-> Vista.
+> NO compren una versión Upgrade de Vista.
 ...continua la [tercera parte](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte.html).

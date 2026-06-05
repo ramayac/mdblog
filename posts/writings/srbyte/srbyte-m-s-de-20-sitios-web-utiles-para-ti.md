@@ -1,8 +1,9 @@
 ---
 title: Más de 20 sitios web utiles para Ti...
 date: 2008-03-14
-author: Rodrigo Amaya
-tags: last.fm, educacion, divertido, util, fun, fantastico, guia, curioso
+author: Rodrigo A.
+tags: divertido, fantastico, util, curioso, guia, educacion, fun, last.fm
+draft: false
 post_id: blog-3515952828243908885.post-3402231312185141840
 ---
 
@@ -10,9 +11,8 @@ Definitivamente, no hablo de cualquier sitio web. Esta es una lista "pura" y exc
 
 ¿Necesitas una manera sencilla de respaldar tu computadora? ¿Una nueva forma de descubrir música que se ajuste a tu humor y tus gusto? ¿O necesitas saber como limpiar o como funciona algo? ¿Y que tal si quieres reírte un rato?
 
-![image](https://bp0.blogger.com/_ayvorITawE4/R9qdPuJ25DI/AAAAAAAAAl8/PnSz8iNi630/s200/wired.jpg)    
-"Imagen: Vida alambrada
-digital"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_kCPd8e5-_SwlWC9HELAroCoTRuY43YAuP87mXhiVI3t-MIeWqpvMo8mjH3O11DfB_CX9qYKi9xbhAKcHLWgAkFv2wQEg8vFJ-OPClT4-G3EQEvraH9-f6ykCUPF5mJMszvIqoiydbPI/s200/wired.jpg)    
+"Imagen: Vida alambrada digital"
 
 Pues para todo esto lector, existe un sitio que esta solo a un click de distancia. Aquí dejo una lista de sitios web super útiles, de los que quizás ni siquiera sabias que existen. Si tienes algún sitio que compartir (y YO se que si), deja el vinculo en los comentarios para agregarlos a esta lista (y seras debidamente agradecido).
 
@@ -21,7 +21,6 @@ General:
 - [How Stuff Works](https://www.howstuffworks.com/): Si alguna vez necesitas saber como funciona algo tienes que visitar este sitio.
 - [Online Conversions](https://www.onlineconversion.com/): Convierte cualquier tipo de medida a sus equivalentes. Extensivo y util.
 - [Search Public Records](https://www.searchsystems.net/): Este sitio es un directorio que posee más de 41,000 datos "publicos" de Estados Unidos, Canada, Australia y Europa. Y tambien posee un buscador de registros criminales.
-
 Salud y Ejercicio
 
 - [Calories Per Hour](https://www.caloriesperhour.com/): Contador gratuito de calorías, calculadora de perdida de peso y tutoriales para perder peso. Sin tonterías.
