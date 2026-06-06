@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6094590527453197486
 ---
 
-El Anuncio de Steve Ballmer (hace algunos días) de un nuevo sistema operativo de Microsoft, que hace un extensivo de [Cloud Computing](https://www.srbyte.com/2008/08/qu-es-cloud-computing.html), no deja de parecerme... extraño, bizarro... irreal.
+El Anuncio de Steve Ballmer (hace algunos días) de un nuevo sistema operativo de Microsoft, que hace un extensivo de [Cloud Computing](/2008/08/qu-es-cloud-computing.html), no deja de parecerme... extraño, bizarro... irreal.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkPgdgd64igk6qXQVOxtVYmeJqTijEr0dBy8KtKXYXvvG7y9fAY3fUCkNuDEcHDlti6YaarM00T7lVq9p-ozzmIAQZx0bAwCbUpXi204_4PN0FkQnnS6ZZkn3mVr5O3aKlIZ8L4g3pJgk/s320/4BFAx1500y1500.jpg)    
 "Windows Cloud... conveniente la imagen ¿verdad? :)"

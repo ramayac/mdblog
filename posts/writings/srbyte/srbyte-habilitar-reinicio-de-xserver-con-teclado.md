@@ -11,7 +11,7 @@ Mini nota:
 
 Recuerdo aquellos viejos tiempos en los que podia reiniciar mi XServer con la combinacion de teclas "Ctrl+Alt+BackSpace".
 
-En Karmic Koala esa combinación viene deshabilitada por defecto ([otra razón para protestar](https://www.srbyte.com/2009/11/opinion-sobre-ubuntu-910.html)), pero hay una pequeña solución:
+En Karmic Koala esa combinación viene deshabilitada por defecto ([otra razón para protestar](/2009/11/opinion-sobre-ubuntu-910.html)), pero hay una pequeña solución:
 
 1. En el menu, ve a System->Preferences->Keyboard (solo Keyboard, no Keyboard Shorcuts)
 

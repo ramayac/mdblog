@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7537335898152599645
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGoPil0Xz3liJFKryj29qZKRDVEWtFMibj4ScTt2Hzx-Y2WrI57_vtQ9x60TBbfYCwyrvgP6unrdIdtLv5F-coOTah1CbYLXX18ZKGPVOaxxJIJPaBcu29xE-snM_SAmWDrD3dmAnT1Wc/s320/yofrankie_psp.jpg)    Se recuerdan de un corto animado hecho en Blender llamado [Big Buck Bunny](https://www.srbyte.com/2008/06/big-buck-bunny-una-animacion-en.html). Bien, Big Buck Bunny es parte de un proyecto llamado "Apricot", que básicamente existe para demostrar la capacidad que tiene Blender para producir multimedia de calidad. Entre otra de las muestras que nos dan, esta este juego de plataformas 3D llamado: [Yo Frankie!](https://www.yofrankie.org/).
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGoPil0Xz3liJFKryj29qZKRDVEWtFMibj4ScTt2Hzx-Y2WrI57_vtQ9x60TBbfYCwyrvgP6unrdIdtLv5F-coOTah1CbYLXX18ZKGPVOaxxJIJPaBcu29xE-snM_SAmWDrD3dmAnT1Wc/s320/yofrankie_psp.jpg)    Se recuerdan de un corto animado hecho en Blender llamado [Big Buck Bunny](/2008/06/big-buck-bunny-una-animacion-en.html). Bien, Big Buck Bunny es parte de un proyecto llamado "Apricot", que básicamente existe para demostrar la capacidad que tiene Blender para producir multimedia de calidad. Entre otra de las muestras que nos dan, esta este juego de plataformas 3D llamado: [Yo Frankie!](https://www.yofrankie.org/).
 
 "Yo Frankie!"
 

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-9063969521900927744
 ---
 
-Continuando con la [entrada anterior](https://www.srbyte.com/2008/08/productividad-en-la-pc-i-parte.html), les traemos otra herramienta para mejorar su productividad:
+Continuando con la [entrada anterior](/2008/08/productividad-en-la-pc-i-parte.html), les traemos otra herramienta para mejorar su productividad:
 
 ![image](https://www.workrave.org/php/gfx/sheep.gif)    [WorkRave](https://www.workrave.org/welcome/): Es una útil herramienta que permite asistir en la recuperación y prevención de posibles daños a la saludo, por lecciones de desgarro repetitivo (Repetitive Strain Injury, RSI). Este programa frecuentemente te alerta que tomes pequeñas pausas del trabajo, te "obliga" a que descanses y también restringe el uso diario de la computadora.
 

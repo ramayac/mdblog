@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7086049153037675608
 ---
 
-Si aún continuas jugando los [juegos de NES que te recomendamos](https://www.srbyte.com/2008/12/feliz-navidad.html) y te quedaste con el ambiente de los antiguos juegos de vídeo 8 bits, pues acá te dejamos aún mas material para que continúes lo que queda de la época navideña escuchando villancicos en 8 bits, igual que tus juegos de Atari-Nintendo de esas épocas.
+Si aún continuas jugando los [juegos de NES que te recomendamos](/2008/12/feliz-navidad.html) y te quedaste con el ambiente de los antiguos juegos de vídeo 8 bits, pues acá te dejamos aún mas material para que continúes lo que queda de la época navideña escuchando villancicos en 8 bits, igual que tus juegos de Atari-Nintendo de esas épocas.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhae3Y9epYMSvrh9T9iazMY4AwX8q7EqhFVbaM20Rx46QKFmB5ib6AaGKXVobwS7w2_yNarfpMegWrZZcWnjUufV-Ko_nLAexhTeQmdRAKko-pFz79d9iSVP5_3wJThigOTkyuFfizwTUE/s400/8bitjesusfullsmall.jpg)    
 La colección en sí se llama 8-Bit Jesus, y consiste en una recopilación de los tradicionales villancicos que las personas suelen cantar o reproducir en sus aparatos de sonido, solo que esta vez elaborados con sonidos en 8 bits.

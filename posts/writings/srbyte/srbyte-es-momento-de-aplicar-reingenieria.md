@@ -18,7 +18,7 @@ Cuando esto ocurre, es hora de aplicar reingeniería y empezar a rediseñar los 
 
 Si algo ya no sirve, vuélvelo a hacer desde cero.
 
-Si es un programa hecho en Visual Fox Pro 6 que comparte archivos de tablas en una carpeta de red, aunque aún le sea útil al usuario, tú como programador sabes que será un completo dolor de cabeza tratar de consumir web services o transportar datos por Message Queue por lo que en lugar de seguir manteniendo un sistema pasado de moda desarrollado con [código obsoleto](https://www.srbyte.com/2009/04/deprecated-code-codigo-obsoleto.html), es mejor reescribirlo desde cero usando tecnologías que te ahorrarán mucho trabajo en el desarrollo y con capacidad de extenderlo según aparezcan nuevos estándares.
+Si es un programa hecho en Visual Fox Pro 6 que comparte archivos de tablas en una carpeta de red, aunque aún le sea útil al usuario, tú como programador sabes que será un completo dolor de cabeza tratar de consumir web services o transportar datos por Message Queue por lo que en lugar de seguir manteniendo un sistema pasado de moda desarrollado con [código obsoleto](/2009/04/deprecated-code-codigo-obsoleto.html), es mejor reescribirlo desde cero usando tecnologías que te ahorrarán mucho trabajo en el desarrollo y con capacidad de extenderlo según aparezcan nuevos estándares.
 
 Desarrolla pensando en el futuro.
 

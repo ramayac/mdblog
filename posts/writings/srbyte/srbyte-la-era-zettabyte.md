@@ -11,7 +11,7 @@ post_id: blog-3515952828243908885.post-7706356879334824840
 
 La amplitud de los medios estudiados, va desde la televisión digital hasta los teléfonos celulares. Se espera que el trafico en el 2013 llegue hasta los 56 [exabytes](https://es.wikipedia.org/wiki/Exabyte) al mes (eran 8 exabytes en el 2008). 56 exabytes en simple español equivale al "tamaño" de 10,000 millones de DVD's viajando por Internet cada mes... en pocas palabras una cantidad INCREÍBLE de datos.
 
-Más del 90% de este trafico sera de televisión digital, video bajo demanda y P2P ([BitTorrent](https://www.srbyte.com/2007/03/bittorrent-todo-mundo-ama-bittorrent.html), Emule, Gnutella, Frostwire, etc...). Cisco también predice que el video chat incrementara diez veces más entre 2008 y 2013. Otro incremento masivo, sera en los dispositivos moviles, y con móviles como el [Nokia 5800 XpressMusic](https://www.srbyte.com/2009/06/review-nokia-5800-xpressmusic-13.html), iPhone 3g S y el Palm Pre, tampoco es de extrañar que suceda.
+Más del 90% de este trafico sera de televisión digital, video bajo demanda y P2P ([BitTorrent](/2007/03/bittorrent-todo-mundo-ama-bittorrent.html), Emule, Gnutella, Frostwire, etc...). Cisco también predice que el video chat incrementara diez veces más entre 2008 y 2013. Otro incremento masivo, sera en los dispositivos moviles, y con móviles como el [Nokia 5800 XpressMusic](/2009/06/review-nokia-5800-xpressmusic-13.html), iPhone 3g S y el Palm Pre, tampoco es de extrañar que suceda.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQNQ7SOOCuDCyCkImuzufga3XrdKoXrvI69X8pGpuqkuf9W956cK2pMk8cqsIU-dN26EgG_HYGtkJZddjl8UnYFMM-dm0UPH9tv7cOCZQ_6FS0SQlJbL105STVi7-JfWFHZc16EOGKpcuC/s320/nokia-5800-xpressmusic1.jpg)    
 "Nokia 5800 XpressMusic"

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7649224212799121950
 ---
 
-Luego de una larga ausencia. Decido retornar con unos nuevos tips con respecto a la tildación, atendiendo a lo que comentaba Alecita, en el post [Técnicas de redacción](https://www.srbyte.com/2009/03/tecnicas-de-redaccion.html).
+Luego de una larga ausencia. Decido retornar con unos nuevos tips con respecto a la tildación, atendiendo a lo que comentaba Alecita, en el post [Técnicas de redacción](/2009/03/tecnicas-de-redaccion.html).
 
 Tildar es de suma importancia no sólo en la redacción, sino también en el habla. Es decir, la tilde nos ayuda a acentuar la entonación.
 

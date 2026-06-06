@@ -10,7 +10,7 @@ post_id: blog-3515952828243908885.post-7766568471977048028
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghV6a-y4gIavXRE2E8Ndu3GC73wYkA6H7Pa5CmF-IR_fGcPuUhg2Z1AenyzWG_c2Q-BHCfO4VpABDq7irAZo5fQJYfQ71IR2vLddz62Im9oD7yzyfFEjB5m_VT9BdVm1-Oj8W3sa5FZg0/s400/collabediting.png)    
 "La edición colaborativa de documentos es útil cuando el equipo de trabajo no se puede reunir físicamente"
 
-Gracias al uso del internet, hoy en día los desarrolladores pueden participar en proyectos de software que no necesariamente se llevan a cabo en la misma zona geográfica de su domicilio haciendo uso de [herramientas de versionamiento](https://www.srbyte.com/2008/03/programemos-mejor-subversion.html) de código fuente que permite tener un repositorio en la nube el cual puede ser actualizado desde cualquier parte del mundo donde se posea una conexión a internet.
+Gracias al uso del internet, hoy en día los desarrolladores pueden participar en proyectos de software que no necesariamente se llevan a cabo en la misma zona geográfica de su domicilio haciendo uso de [herramientas de versionamiento](/2008/03/programemos-mejor-subversion.html) de código fuente que permite tener un repositorio en la nube el cual puede ser actualizado desde cualquier parte del mundo donde se posea una conexión a internet.
 
 Así también ha sido de mucha ayuda contar con otros tipos de herramientas no solamente orientadas al control del código fuente sino también para la edición de documentos alojándolos en la nube por medio de [Google Docs](https://docs.google.com/Doc?docid=0Abiz-mJIJ7OFZGpoNTdkN18xNWhuY2dxemZi&hl=en) o la nueva versión web de [Microsoft Office](https://workspace.officelive.com/).
 

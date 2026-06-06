@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-3330827270548522151
 ---
 
-Uno de los anuncios más interesantes de la primera jornada de [Google IO 2011](https://www.srbyte.com/2011/05/google-io-2011-live-stream.html), fue Google Music.
+Uno de los anuncios más interesantes de la primera jornada de [Google IO 2011](/2011/05/google-io-2011-live-stream.html), fue Google Music.
 
 Google Music, es un beta que está únicamente disponible en Estados Unidos, y se presenta como un servicio de almacenamiento de nuestra música en la nube. Los usuarios del servicio dispondrán de una variedad de formas de acceder a su música, por ejemplo usando dispositivos Android 2.2 o superiores, una interfaz web o mediante una aplicación de escritorio (disponible para Windows y Mac OS X) llamada Music Manager.
 

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5287297264566811610
 ---
 
-Como ya lo había explicado Rodrigo [en el post anterior](https://www.srbyte.com/2008/08/que-es-el-blogday.html), el [blogday](https://www.blogday.org/) es una fecha especial para celebrar que somos bloggers y que nos gusta bloggear, ademas de expandir el conocimiento de otros blogs que nos agradan mediante nuestras recomendaciones, especialmente si son de una cultura totalmente diferente a la del blogger para así, dar a conocer las diferentes culturas de los demás blogs que existen al rededor del mundo.
+Como ya lo había explicado Rodrigo [en el post anterior](/2008/08/que-es-el-blogday.html), el [blogday](https://www.blogday.org/) es una fecha especial para celebrar que somos bloggers y que nos gusta bloggear, ademas de expandir el conocimiento de otros blogs que nos agradan mediante nuestras recomendaciones, especialmente si son de una cultura totalmente diferente a la del blogger para así, dar a conocer las diferentes culturas de los demás blogs que existen al rededor del mundo.
 
 En el Sr. Byte hemos decidido que cada autor recomendara a sus cinco blogs favoritos para hacerlos del conocimiento de los amables lectores que se dan una vuelta por este rincón tecnológico así que a continuación detallo los que, de entre mi larga lista de blogs que suelo visitar (o leer vía RSS) regularmente, los que mas me agradan:
 

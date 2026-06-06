@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5276971736983403518
 ---
 
-Siempre pensando en la oportunidad de mejorar la forma en la que pruebo código JavaScript, buscando información en la re, [encontré esta brillante idea](https://www.west-wind.com/WebLog/posts/10688.aspx). Cuando lo leí vi las puertas del cielo abrirse y luego pensé en usar el compilador de .Net, para realizar [pruebas unitarias](https://www.srbyte.com/2008/12/herramientas-del-programador-unit.html) sobre archivos simples de JavaScript (solo chequear que están bien era suficiente).
+Siempre pensando en la oportunidad de mejorar la forma en la que pruebo código JavaScript, buscando información en la re, [encontré esta brillante idea](https://www.west-wind.com/WebLog/posts/10688.aspx). Cuando lo leí vi las puertas del cielo abrirse y luego pensé en usar el compilador de .Net, para realizar [pruebas unitarias](/2008/12/herramientas-del-programador-unit.html) sobre archivos simples de JavaScript (solo chequear que están bien era suficiente).
 
 El problema es, que aparte de depender de .Net, el ejemplo de compilación de código JavaScript no me funciono en [SharpDeveloper](https://www.icsharpcode.net/OpenSource/SD/) 3.0 ... opte por utilizar Mono, pero lamentablemente el compilador de JavaScript que este posee esta actualmente sin mantenimiento.
 
@@ -19,7 +19,7 @@ De clic en clic fui encontrando a "viejos conocidos" como el proyecto [Rhino](ht
 
 Es un VERDADERO compilador de código JavaScript escrito 100% en Java. Lo más sorprendente es que realmente compila código JavaScript y lo convierte en mejor código JavaScript. Interpreta JavaScript, lo analiza, remueve código muerto, reescribe rutinas y lo que ya esta optimizado lo "minimiza" (remueve espacios en blanco, comentarios, saltos de linea, etc), verifica sintaxis, referencias de variables y tipos, y ademas, avisa de problemas comunes con código JavaScript.
 
-Y por si fuera poco, no solo es Software Libre, sino que ademas, existe una extensión de para Firefox, para emplearlo en conjunto con tu código transformado y [Firebug](https://www.srbyte.com/2009/11/javascript-firebug-jsure.html), llamado: [Closure Inspector](https://closure-inspector.googlecode.com/files/closureinspector09.xpi).
+Y por si fuera poco, no solo es Software Libre, sino que ademas, existe una extensión de para Firefox, para emplearlo en conjunto con tu código transformado y [Firebug](/2009/11/javascript-firebug-jsure.html), llamado: [Closure Inspector](https://closure-inspector.googlecode.com/files/closureinspector09.xpi).
 
 ¿Como puedo usarlo?
 

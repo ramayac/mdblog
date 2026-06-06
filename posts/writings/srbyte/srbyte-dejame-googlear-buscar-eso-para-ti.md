@@ -26,7 +26,7 @@ La pagina es de lo mas simple y muy fácil de usar: se digita en un cuadro de te
 - ¿Cómo cambio mi fondo de pantalla? [Click para ver la respuesta](https://letmegooglethatforyou.com/?q=Windows+%BFCambiar+fondo+de+pantalla%3F).
 Si bien parece una broma ligeramente pesada al principio, realmente creo que es una excelente forma de que los internautas novatos (y los que no lo son tanto) se percaten de la facilidad con la que se puede obtener respuesta a sus problemas/preguntas, y de paso pues nos quitamos de encima esas preguntillas tan obvias de encima ^^
 
-Y hablando de búsquedas, hace algún tiempo, Robertux escribió sobre las "Técnicas de Búsqueda en Google" ([parte I](https://www.srbyte.com/2008/02/tcnicas-de-bsqueda-en-google-parte-i.html) y [parte II](https://www.srbyte.com/2008/02/tcnicas-de-bsqueda-en-google-parte-ii.html)), si aún tienen dudas sobre como utilizar duda, o quieren refinar la calidad de sus busquedas, no duden en darle una (o varias) leídas.
+Y hablando de búsquedas, hace algún tiempo, Robertux escribió sobre las "Técnicas de Búsqueda en Google" ([parte I](/2008/02/tcnicas-de-bsqueda-en-google-parte-i.html) y [parte II](/2008/02/tcnicas-de-bsqueda-en-google-parte-ii.html)), si aún tienen dudas sobre como utilizar duda, o quieren refinar la calidad de sus busquedas, no duden en darle una (o varias) leídas.
 
 Visita el sitio oficial de esta graciosa herramienta en:
 [

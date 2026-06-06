@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4865367397803288776
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5DDmy_CjOwkaTDG0UpqxHPM5U67YJLH9aA1yVETlvOqdzxuEjPVlsu7mJSd4kk_cIK1kCW_jnH-xRNlhtGd_iMJYjZ56HOPcmbUsRbC7o6qxOTCUkNhC2FGqieFlAgBpleQZ5eMJwSMCU/s200/firefox.png)    Hace ya buen rato, nos pidieron el favor de poner una lista de [complementos que recomendamos para Firefox](https://www.srbyte.com/2008/07/qu-es-un-complementoadd-on-de-firefox.html). Así que, sin mucha fanfarria, aquí esta la colección oficial de complementos de Firefox que siempre me salva la vida:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5DDmy_CjOwkaTDG0UpqxHPM5U67YJLH9aA1yVETlvOqdzxuEjPVlsu7mJSd4kk_cIK1kCW_jnH-xRNlhtGd_iMJYjZ56HOPcmbUsRbC7o6qxOTCUkNhC2FGqieFlAgBpleQZ5eMJwSMCU/s200/firefox.png)    Hace ya buen rato, nos pidieron el favor de poner una lista de [complementos que recomendamos para Firefox](/2008/07/qu-es-un-complementoadd-on-de-firefox.html). Así que, sin mucha fanfarria, aquí esta la colección oficial de complementos de Firefox que siempre me salva la vida:
 [https://addons.mozilla.org/es-ES/firefox/collection/srbyte](https://addons.mozilla.org/es-ES/firefox/collection/srbyte)
 > [https://addons.mozilla.org/es-ES/firefox/collection/srbyte](https://addons.mozilla.org/es-ES/firefox/collection/srbyte)
 UPDATE: Actualice la lista, de acuerdo a las sugerencias en los comentarios :)

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6302627561200427818
 ---
 
-Hace unos días quería subir un cambio al [repositorio de código SVN](https://www.srbyte.com/2008/03/programemos-mejor-subversion.html), para añadir información extra de depuración a un Servlet para monitorear un extraño bug. Intentar enviar el cambio resultaba en un error en mi plugin de SVN (SubEclipse), que al principio confundí con un atributo "Lock" sobre el (archivo). Acepto que no leí en detalle el error y me deje ir por la primera impresión. Más después de unos momentos, comencé a notar varias irregularidades en los archivos "base"...
+Hace unos días quería subir un cambio al [repositorio de código SVN](/2008/03/programemos-mejor-subversion.html), para añadir información extra de depuración a un Servlet para monitorear un extraño bug. Intentar enviar el cambio resultaba en un error en mi plugin de SVN (SubEclipse), que al principio confundí con un atributo "Lock" sobre el (archivo). Acepto que no leí en detalle el error y me deje ir por la primera impresión. Más después de unos momentos, comencé a notar varias irregularidades en los archivos "base"...
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXiisVD_Io0lTjJhQCwNqg17HHz8U-o_kvcqzA-oRtRBqNkT0fF7N3qFMxVcnJGAkPVF89EzX9UwCA_cfvJ1cq1mFfCWGm9Qps0UyW-6bzMASEmb3ZJZDeF-sOoEnLHVn7xjfy0HtpGzfk/s320/svnERROR.png)    
 
@@ -25,7 +25,7 @@ Leyendo más a detalle el error del SubEclipse este describe un "mismatch" de la
 
 El explorador de archivos de Windows, "colorea" de azul los archivos que fueron comprimidos de esta forma. Ciertamente la caracteristica es util para ahorrar espacio, y transparente para muchisimos programas, pero no es bien recibido por los clientes de SVN.
 
-Los clientes de SVN ([SubEclipse](https://subclipse.tigris.org/), [Tortoise](https://tortoisesvn.tigris.org/), etc) mantienen un registro de [firmas (hash) de los archivos](https://www.srbyte.com/2007/09/encriptar-y-hashing.html) base (los originales que se obtienen desde el servidor). Pero como Windows XP comprimió los archivos, la firma de archivos modificados cambió, y el SubEclipse protesto mucho por el "mismatch" de la firma de los archivos afectados, por esa simple razón no se podía enviar el cambio a fin de cuentas.
+Los clientes de SVN ([SubEclipse](https://subclipse.tigris.org/), [Tortoise](https://tortoisesvn.tigris.org/), etc) mantienen un registro de [firmas (hash) de los archivos](/2007/09/encriptar-y-hashing.html) base (los originales que se obtienen desde el servidor). Pero como Windows XP comprimió los archivos, la firma de archivos modificados cambió, y el SubEclipse protesto mucho por el "mismatch" de la firma de los archivos afectados, por esa simple razón no se podía enviar el cambio a fin de cuentas.
 
 ¿Qué hacer en este caso? Lo primero que se nos viene a la mente es hacer un CheckOut del proyecto, y no es una mala idea, pero si tienes varios proyectos (ocho por ejemplo) afectados por los "archivos azules", antes de ponerte a insultar la cuenta de [@BillGates](https://twitter.com/BillGates) usando Twitter, puedes usar el comando "[compact](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/compact.mspx?mfr=true)
 " con los siguientes argumentos:

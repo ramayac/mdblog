@@ -7,14 +7,14 @@ draft: false
 post_id: blog-3515952828243908885.post-8351316329462856335
 ---
 
-Un Podcast es una serie de medios digitales, usualmente audio en formato mp3, que se distribuyen en Internet usando [la sindicación de feeds (RSS, Atom u OPML](https://www.srbyte.com/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html)) para reproducirlos principalmente en dispositivos portátiles y también en computadoras.
+Un Podcast es una serie de medios digitales, usualmente audio en formato mp3, que se distribuyen en Internet usando [la sindicación de feeds (RSS, Atom u OPML](/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html)) para reproducirlos principalmente en dispositivos portátiles y también en computadoras.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpA5BqZruQKP-bAvlTfBdcSa1XaSi_sQg7FqGVrXZ2bogyXyiU-dmqrnu_8m7BLalYTctzX68heTGv_Io73d-ye3i8n7jFlODvGtTs2NSqjyxhF41AlOmzMIP1FpfIV2132T-tQyjNKg/s320/podcast.png)    
 "El aparato que inicio todo."
 
 Muchas personas creen que el termino de "PodCast" tiene algo que ver con el iPod, y en efecto, están en lo correcto ([ver la historia del podcast aquí](https://en.wikipedia.org/wiki/History_of_podcasting)). El termino ingles "Pod" es usado como sinónimo de encapsulación de contenido (pod significa: vaina, en español), al podcast también se le llama "PodCasting". Y al autor de un podcast se le conoce como "PodCaster". Aunque los podcast fueron desarrollados para ser transferidos automáticamente a los iPod, otros dispositivos móviles comenzaron a facilitar esta tecnología para el uso de las masas, y el termino se refino para ser utilizado como la abreviación del acrónimo "Personal On Demand broadCASTING" (transmisión personal en demanda) y así dejar de lado la idea de que solo se puede usar con productos de Apple.
 
-Lo excelente de los podcast, es que permite que te suscribas a el, [como lo harías con cualquier feed](https://www.srbyte.com/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html). En el sentido practico, es como tener entrevistas de radio esperando a ser escuchadas, que puedes tener en tu móvil o reproductor portátil.
+Lo excelente de los podcast, es que permite que te suscribas a el, [como lo harías con cualquier feed](/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html). En el sentido practico, es como tener entrevistas de radio esperando a ser escuchadas, que puedes tener en tu móvil o reproductor portátil.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2TwuL3tg326DHBEAUHGP6vquF8MaUcUitVeJEOPV-DCku9IMF9zTOqmRUZ2e4740oQJSsTdZeBteuplSvI4rDKXOXAPDE5nzt6aTOJBZYndIOJ4Yx5jkeaXQdx1ZhMrMtF-4mXzPpBB4/s320/Podcast_CTAP_small.jpg)    
 "Usualmente te suscribes a un PodCast como lo haces con un Feed."
@@ -24,7 +24,7 @@ Se recomienda mucho suscribirse a los podcast usando Google Reader, porque cuand
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi84lMFd89PjdiboB4asS6z8kj3CfZuLbJcrAchNt7AvC2NoNq3GJ0rxwgB16FWo93i8HoNuAm2A9gVbTUMj_pe3D8nakjppGxhoXXz1yEMCbP0ztcmQl4NgF0fkqmQrzC_lUi5kG1sdvI/s320/screencast.png)    
 "Click par ver el detalle de la imagen."
 
-Hasta cierto punto es cómodo, por que por lo menos así ya no dependen de la maquina en la que estén (o del sistema operativo) para escuchar sus podcast favoritos. Aunque también pueden suscribirse a un podcast usando un reproductor musical como [Amarok](https://www.srbyte.com/2007/03/amarok-rocks.html) o [GtkPod](https://www.gtkpod.org/).
+Hasta cierto punto es cómodo, por que por lo menos así ya no dependen de la maquina en la que estén (o del sistema operativo) para escuchar sus podcast favoritos. Aunque también pueden suscribirse a un podcast usando un reproductor musical como [Amarok](/2007/03/amarok-rocks.html) o [GtkPod](https://www.gtkpod.org/).
 
 Para los amantes de Amarok, pongo un breve ejemplo para suscribirnos a un podcast. Supongamos que queremos escuchar las ultimas noticias del popular [CNET.com](https://news.cnet.com/daily-podcast/?tag=cnetfd.pdcst), para suscribirnos al podcast: posicionate sobre el vinculo de suscripción:
 

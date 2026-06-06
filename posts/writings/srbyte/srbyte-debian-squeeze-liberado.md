@@ -10,7 +10,7 @@ post_id: blog-3515952828243908885.post-8075314235663494732
 Después de varios meses de arduo trabajo y bugfixes en su versión testing, el día de hoy 6 de febrero el proyecto Debian hace oficial el release de la versión estable de esta distribución con el nombre "Squeeze"
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilVoEnDDoWQkQAMgXq3HgPukiQVPPPe5ZVVFiwUiYyMaxYb9bNMl5nOqOF-HgH9g4Dl_EO_KW_j0zWGwRYp3uKpzDFVAiNIU4X8VcNLHmOJEMi2GaiVYcU68wQBJTjMN16ZoKFTL0EFRw/s400/squeeze.png)    
-"Como ya es acostumbrado, las versiones de Debian son nombradas por los personajes de la película [Toy Story](https://www.srbyte.com/2008/08/feliz-cumpleaos-debian.html). Hoy es el turno de los extraterrestres de Planet Pizza"
+"Como ya es acostumbrado, las versiones de Debian son nombradas por los personajes de la película [Toy Story](/2008/08/feliz-cumpleaos-debian.html). Hoy es el turno de los extraterrestres de Planet Pizza"
 [https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilVoEnDDoWQkQAMgXq3HgPukiQVPPPe5ZVVFiwUiYyMaxYb9bNMl5nOqOF-HgH9g4Dl_EO_KW_j0zWGwRYp3uKpzDFVAiNIU4X8VcNLHmOJEMi2GaiVYcU68wQBJTjMN16ZoKFTL0EFRw/s1600/squeeze.png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilVoEnDDoWQkQAMgXq3HgPukiQVPPPe5ZVVFiwUiYyMaxYb9bNMl5nOqOF-HgH9g4Dl_EO_KW_j0zWGwRYp3uKpzDFVAiNIU4X8VcNLHmOJEMi2GaiVYcU68wQBJTjMN16ZoKFTL0EFRw/s1600/squeeze.png)
 
 Debian no se caracteriza por venir con lo último en actualizaciones de paquetes ya que se preocupa más por incluir paquetes en versión estable y no sobrecargar demasiado el sistema con aplicaciones preinstaladas, dejando la libertad al usuario de cómo armar su propio sistema dependiendo de sus capacidades y necesidades.

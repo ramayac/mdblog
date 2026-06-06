@@ -11,7 +11,7 @@ El mejor trato que alguien te puede ofrecer en estas fechas llenas de ofertas es
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCgpRCdFybv7u31wCq7jlie-RQVOVrC846OM1aaWPTpxQ4F84hq_P-3-4EfO9vGOSSkhZDit3oEauBn7HMsjfvAOEhnfRdNL-UIB-GYfuBCfTQvBPS9CpnuYsTacRR5XQOYglgwC0Nkj8r/s400/bundle2.png)    
 
-"The Humble Indie Bundle #2" es la secuela de [la original idea](https://www.srbyte.com/2010/05/cinco-excelentes-videojuegos-al-precio.html), lanzada en Mayo de 2010 por Wolf-Fire Games. Por lo que estes dispuesto a pagar, vas a obtener versiones libres de DRM de:
+"The Humble Indie Bundle #2" es la secuela de [la original idea](/2010/05/cinco-excelentes-videojuegos-al-precio.html), lanzada en Mayo de 2010 por Wolf-Fire Games. Por lo que estes dispuesto a pagar, vas a obtener versiones libres de DRM de:
 
 - [Braid](https://www.braid-game.com/)
 - [Machinarium](https://machinarium.net/demo/)

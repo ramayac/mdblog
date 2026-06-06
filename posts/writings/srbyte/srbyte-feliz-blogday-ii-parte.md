@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-2999799878222584853
 ---
 
-![image](https://www.blogday.org/images/badge_yellow.gif)     Ya [Robertux](https://www.blogger.com/profile/15615123126956711175) [compartio cinco blogs](https://www.srbyte.com/2008/08/feliz-blog-day.html) para el [BlogDay](https://www.srbyte.com/2008/08/que-es-el-blogday.html), y yo no me puedo quedar atrás jejeje. Si que, aquí están, sin ningún motivo en particular los otros cinco blogs que hacen falta para completar la lista y dar por terminada la "celebración" de este día. Solo me falta mencionar, que quizás para la próxima, la blogosfera Salvadoreña se organice y realice alguna actividad.
+![image](https://www.blogday.org/images/badge_yellow.gif)     Ya [Robertux](https://www.blogger.com/profile/15615123126956711175) [compartio cinco blogs](/2008/08/feliz-blog-day.html) para el [BlogDay](/2008/08/que-es-el-blogday.html), y yo no me puedo quedar atrás jejeje. Si que, aquí están, sin ningún motivo en particular los otros cinco blogs que hacen falta para completar la lista y dar por terminada la "celebración" de este día. Solo me falta mencionar, que quizás para la próxima, la blogosfera Salvadoreña se organice y realice alguna actividad.
 
 Nacionales:
 

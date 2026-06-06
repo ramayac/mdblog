@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6122207666345663019
 ---
 
-Esta es la segunda parte del post anterior de [Adaptando tu Sitio Para Moviles - Parte 1](https://www.srbyte.com/2010/01/adaptando-tu-sitio-para-moviles-parte-1.html), en el cual hablaba de los servicios que tea automatizan este proceso. Ahora explicaremos algunas librerías utiles para crear nuestros sitios móviles por nuestra cuenta.
+Esta es la segunda parte del post anterior de [Adaptando tu Sitio Para Moviles - Parte 1](/2010/01/adaptando-tu-sitio-para-moviles-parte-1.html), en el cual hablaba de los servicios que tea automatizan este proceso. Ahora explicaremos algunas librerías utiles para crear nuestros sitios móviles por nuestra cuenta.
 
 Para crear una versión de tu sitio orientada a un dispositivo móvil debes considerar ciertas características de la navegación en móviles:
 

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4879259210963445392
 ---
 
-¿Se acuerdan del [Google IO 2011](https://www.srbyte.com/2011/04/google-io-live.html)?, bueno, estas son algunas de mis charlas preferidas del Google IO 2011 relacionadas a la plataforma AppEngine:
+¿Se acuerdan del [Google IO 2011](/2011/04/google-io-live.html)?, bueno, estas son algunas de mis charlas preferidas del Google IO 2011 relacionadas a la plataforma AppEngine:
 
 ## Scaling App Engine Applications
 Una charla sobre escalabilidad en general, con explicaciones sobre la creación de instancias en el App Engine, estrategias de cache, hot tables, memcache, rewrite API para el datastore, etc.
@@ -59,4 +59,4 @@ Recursos:
 
 - [MapReduce Library for App Engine](https://code.google.com/p/appengine-mapreduce/)
 
-Acá esta [la segunda parte](https://www.srbyte.com/2011/05/charlas-de-google-io-2011-ii-parte.html) ¡Saludos!
+Acá esta [la segunda parte](/2011/05/charlas-de-google-io-2011-ii-parte.html) ¡Saludos!

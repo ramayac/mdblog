@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-464786498374165856
 ---
 
-Como [mencione hace unos días](https://www.srbyte.com/2009/06/search-wars.html), ya hace rato que Microsoft libero: [Bing](https://www.blogger.com/www.bing.com), su nuevo motor de búsqueda, para tener mayor oportunidad de competir con el Gran Blanco, pero Bing realmente no me pareció nada innovador o revolucionario, hasta que leí ([en el blog de Bing](https://www.bing.com/community/blogs/search/archive/2009/06/12/safe-search-update.aspx)) como manejan en contenido "explicito". La idea es tan simple y tan lógica, que me extraña que hasta a Google se le haya pasado por alto.
+Como [mencione hace unos días](/2009/06/search-wars.html), ya hace rato que Microsoft libero: [Bing](https://www.blogger.com/www.bing.com), su nuevo motor de búsqueda, para tener mayor oportunidad de competir con el Gran Blanco, pero Bing realmente no me pareció nada innovador o revolucionario, hasta que leí ([en el blog de Bing](https://www.bing.com/community/blogs/search/archive/2009/06/12/safe-search-update.aspx)) como manejan en contenido "explicito". La idea es tan simple y tan lógica, que me extraña que hasta a Google se le haya pasado por alto.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjM0v48ZN2ZQ8G3HADVzN-PLA4Wznq0pR-_c-h8PkuEv4ACv-lBdS8AXxDCTmyveUtCtDts9Xw657-j6sbcN1RZnBTvEUoWdBNo_f6P_XUKKBmeDivDto7fTAlfG8gcQU6BTb9fy-YALJsc/s320/searchmarketing.jpg)    
 "¿Qué es lo que hace a Google exitoso?"

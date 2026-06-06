@@ -13,9 +13,9 @@ Todo navegador web que se respete, debe ser capaz de interpretar el
 
 código JavaScript que se emplee en una pagina web, pero como se podrán imaginar, [no todos los navegadores interpretan igual el código](https://www.blogger.com/goog_1257714242864)
 
-[JavaScript](https://www.srbyte.com/2009/06/tu-sitio-compatible-en-todos-los.html) (entre las diferentes versiones de los mismos). Es por eso, que al crear paginas Web modernas e interactivas, hay que utilizar una librería (framework) que cumpla la importante característica de la interoperabilidad entre multiples navegadores (como recordatorio) a esto se le llama: CrossBrowser.
+[JavaScript](/2009/06/tu-sitio-compatible-en-todos-los.html) (entre las diferentes versiones de los mismos). Es por eso, que al crear paginas Web modernas e interactivas, hay que utilizar una librería (framework) que cumpla la importante característica de la interoperabilidad entre multiples navegadores (como recordatorio) a esto se le llama: CrossBrowser.
 
-Dojo, [Google Web Toolkit](https://www.srbyte.com/2009/10/trabajando-con-google-web-toolkit-y.html), ICEFaces, jQuery, son algunos ejemplos de librerías y frameworks CrossBrowser, y como pueden ver en el caso de GWT y ICEFaces, a veces ni siquiera se necesita codifica JavaScript.
+Dojo, [Google Web Toolkit](/2009/10/trabajando-con-google-web-toolkit-y.html), ICEFaces, jQuery, son algunos ejemplos de librerías y frameworks CrossBrowser, y como pueden ver en el caso de GWT y ICEFaces, a veces ni siquiera se necesita codifica JavaScript.
 
 Un gran, gran problema con JavaScript, radica en el proceso de depuración del mismo. Si bien existen herramientas bien integradas como Aptana, que te permite depurar código JavaScript en su entorno, en otros casos, como en RAD 7.0... (al menos con mi instalación) este IDE no me deja depurar JavaScript.
 
@@ -33,7 +33,7 @@ CSS, HTML y JavaScript de una pagina web en una manera instantánea y "en calien
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlX6N4OGoae6g3_nK46G9dfUXoqec-QdZF474paDoPT03_dCrIoP8mkk5SPgQVAugLX4xhty7TRrQ-e6xtWnUtM7jQZSmEdpD1c98nRwZQq0LxJcH15gp59IdgF1SCIgj26FsDjLY87TmG/s320/firebug.png)    
 
-[Para Internet Explorer](https://www.srbyte.com/2008/10/depurando-css-y-javascript-con-internet.html) 7, tenemos el DebugBar, que saca de problemas,
+[Para Internet Explorer](/2008/10/depurando-css-y-javascript-con-internet.html) 7, tenemos el DebugBar, que saca de problemas,
 
 pero no es tan bueno como su contraparte (FireBug), e Internet Explorer 8 trae una herramienta integrada similar en funcionamiento a FireBug.
 

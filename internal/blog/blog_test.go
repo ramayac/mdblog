@@ -1117,3 +1117,80 @@ func TestGetPostBySlug_CategoryButNoIndex(t *testing.T) {
 		t.Errorf("Title = %q, want 'Simple'", post.Title)
 	}
 }
+
+func TestResolveOldURL(t *testing.T) {
+	dir := t.TempDir()
+	srbyteDir := filepath.Join(dir, "writings", "srbyte")
+	writePost(t, srbyteDir, "srbyte-musica-legalmente-gratuita.md", "---\ntitle: Musica Legalmente Gratuita\ndate: 2008-07-25\n---\nBody.")
+	writePost(t, dir, "2026-05-19-desiderata-on-my-41st-birthday.md", "---\ntitle: Desiderata\ndate: 2026-05-19\n---\nBody.")
+
+	cfg := makeTestConfig(dir)
+	cfg.Categories["srbyte"] = config.Category{BlogName: "SrByte", Folder: "writings/srbyte", Index: false}
+	
+	// Write an index pointing to the posts
+	idx := `[
+		{"slug":"srbyte-musica-legalmente-gratuita","title":"Musica Legalmente Gratuita","date":"2008-07-25","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"srbyte","source_path":"writings/srbyte/srbyte-musica-legalmente-gratuita.md","filename":"srbyte-musica-legalmente-gratuita.md"},
+		{"slug":"2026-05-19-desiderata-on-my-41st-birthday","title":"Desiderata","date":"2026-05-19","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"","source_path":"2026-05-19-desiderata-on-my-41st-birthday.md","filename":"2026-05-19-desiderata-on-my-41st-birthday.md"}
+	]`
+	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
+
+	b := New(cfg)
+
+	tests := []struct {
+		path         string
+		expectedSlug string
+		expectFound  bool
+	}{
+		{
+			path:         "/2008/07/musica-legalmente-gratuita.html",
+			expectedSlug: "srbyte-musica-legalmente-gratuita",
+			expectFound:  true,
+		},
+		{
+			path:         "/2008/07/musica-legalmente-gratuita",
+			expectedSlug: "srbyte-musica-legalmente-gratuita",
+			expectFound:  true,
+		},
+		{
+			path:         "/2026/05/desiderata-on-my-41st-birthday.html",
+			expectedSlug: "2026-05-19-desiderata-on-my-41st-birthday",
+			expectFound:  true,
+		},
+		{
+			path:         "/2026/05/desiderata-on-my-41st-birthday",
+			expectedSlug: "2026-05-19-desiderata-on-my-41st-birthday",
+			expectFound:  true,
+		},
+		{
+			path:         "/2008/07/nonexistent-post.html",
+			expectFound:  false,
+		},
+		{
+			path:         "/2008/07/nonexistent-post",
+			expectFound:  false,
+		},
+		{
+			path:         "/invalid/format/path.html",
+			expectFound:  false,
+		},
+	}
+
+	for _, tc := range tests {
+		t.Run(tc.path, func(t *testing.T) {
+			post, found := b.ResolveOldURL(tc.path)
+			if tc.expectFound {
+				if !found {
+					t.Fatalf("expected to resolve path %q, but failed", tc.path)
+				}
+				if post.Slug != tc.expectedSlug {
+					t.Errorf("got slug %q, want %q", post.Slug, tc.expectedSlug)
+				}
+			} else {
+				if found {
+					t.Fatalf("expected path %q to not be resolved, but got post %q", tc.path, post.Slug)
+				}
+			}
+		})
+	}
+}
+

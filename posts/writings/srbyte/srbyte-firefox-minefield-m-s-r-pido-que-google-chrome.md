@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6910518111902055537
 ---
 
-Si después de utilizar [Google Chrome](https://www.srbyte.com/2008/09/navegador-web-de-google.html) en Windows, te sientes desdichado porque deseas esa misma velocidad en Firefox, entonces prueba Firefox [Minefield](https://www.mozilla.org/projects/minefield/).
+Si después de utilizar [Google Chrome](/2008/09/navegador-web-de-google.html) en Windows, te sientes desdichado porque deseas esa misma velocidad en Firefox, entonces prueba Firefox [Minefield](https://www.mozilla.org/projects/minefield/).
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghiphhTbbQqbFZAsplgzf-3cvT__H3OEi368qc__Nxs6_hfAcwa9V7Tu2CcEi4en8z3LogivuWyn_aD3xqnR_IVVQKwlY0OAV5woMjgQ5MRWVP2-zsg4sxlKV3rtBo4A4YnAxFOGgyo4c/s320/minefield-icon.png)    
 "El logo de Minefield es bastante explicito, ¿no creen?"
 

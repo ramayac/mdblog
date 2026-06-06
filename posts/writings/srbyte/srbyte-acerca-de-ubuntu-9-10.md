@@ -13,7 +13,7 @@ La nueva versión de Ubuntu 9.10, disponible desde hoy (Jueves 29), lleva en su 
 
 Las mejoras inmediatas, estan en los tiempos de carga y secuencia de arranque, mejoras en el audio (PulseAudio) y en de conectividad 3G.
 
-También podemos mencionar el innovador proyecto "[100 Paper Cuts](https://www.srbyte.com/2009/06/mejorando-la-usabilidad-en-ubuntu-910.html)
+También podemos mencionar el innovador proyecto "[100 Paper Cuts](/2009/06/mejorando-la-usabilidad-en-ubuntu-910.html)
 ", una iniciativa que en conjunto con la comunidad Ubuntu impacta de sobremanera la interfaz del usuario, y propone una nueva forma de mejorar la interfaz visual de cualquier software, liberándola de aquellas tonteras que molestan a los usuarios más exigentes.
 
 También tenemos ahora el Ubuntu Software Center, un nuevo intento de encapsular el extenso directorio de aplicaciones disponibles para Ubuntu, exponiendo de manera más sencilla la informacion sobre el mismo. Lo que podemos traducir como acercar más el software libre al usuario.

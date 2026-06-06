@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6118714536713522919
 ---
 
-¿Se acuerdan [del articulo de las pantallas de la muerte](https://www.srbyte.com/2008/08/las-pantallas-de-la-muerte-sod.html) de apenas hace algunos días? Es algo de lo que nadie se salva, suele ocurrir en el momento menos oportuno, y aparentemente la "[Ley de Murphy](https://es.wikipedia.org/wiki/Ley_de_Murphy)
+¿Se acuerdan [del articulo de las pantallas de la muerte](/2008/08/las-pantallas-de-la-muerte-sod.html) de apenas hace algunos días? Es algo de lo que nadie se salva, suele ocurrir en el momento menos oportuno, y aparentemente la "[Ley de Murphy](https://es.wikipedia.org/wiki/Ley_de_Murphy)
 " también se ve involucrada. En la inaguración de las Olimpiadas de Beijin ocurrió un BSOD en el famoso "Nido de Pájaro"... ¿No me creen?, he aquí las pruebas:
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVL1WGP6kYsrblvzs7lIrgROwCAfSAwzqsbYZRi-TPe6J4zv334wWttmm7fvccYbe_m3ks72Lr12brXJr5addtovjl7FZiNk_Z_txmegWy94lhKJsWbl7bUP7pDc3WLH5WumS3ziheD2Y/s320/bsod1.jpg)    

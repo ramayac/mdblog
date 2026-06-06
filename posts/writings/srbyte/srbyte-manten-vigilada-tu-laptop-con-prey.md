@@ -8,7 +8,7 @@ post_id: blog-3515952828243908885.post-5264936241908580953
 ---
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiattrotvtBVPXOpC6E64r4bQhFus-oL22W_Ky6Vc45UxDukad0tqWjdzLC_sk8yDauaZFAGV8iq_FWltJOD2iWmLih_-Ib8BXMwWVgKnIOzJ9KuMYOkD1n97ZcSFnr06mX4stiziVNQSdw/s320/prey-mobile-icon-trimmed.png)    
-Mañana hago un viaje a [#NokiaTalk](https://www.srbyte.com/2010/05/nokiatalk.html) y llevare mi netbook conmigo, pensando en el peor de los casos, esta pudiera perderse o ser robada. Asi que me puse a buscar, alguna forma de "mantener la pista" de mi netbook, si es que la robaran. En el mercado de aplicaciones existen variadas alternativas para dar "seguimiento" cuando se es victima del robo de una portatil, pero no todas estas (aplicaciones) son gratis, sencillas de usar o multiplataforma, y mucho menos OpenSource. Al menos, eso pensaba hasta que me encontre con "[Prey Proyect](https://preyproject.com/es)
+Mañana hago un viaje a [#NokiaTalk](/2010/05/nokiatalk.html) y llevare mi netbook conmigo, pensando en el peor de los casos, esta pudiera perderse o ser robada. Asi que me puse a buscar, alguna forma de "mantener la pista" de mi netbook, si es que la robaran. En el mercado de aplicaciones existen variadas alternativas para dar "seguimiento" cuando se es victima del robo de una portatil, pero no todas estas (aplicaciones) son gratis, sencillas de usar o multiplataforma, y mucho menos OpenSource. Al menos, eso pensaba hasta que me encontre con "[Prey Proyect](https://preyproject.com/es)
 ". Prey Proyect ([nada que ver con el popular juego FPS](https://www.prey.com/)) es una aplicacion que permite recibir reportes de una portatil robada siempre y cuando este se conecte a Internet.
 
 Algunas de sus características son:

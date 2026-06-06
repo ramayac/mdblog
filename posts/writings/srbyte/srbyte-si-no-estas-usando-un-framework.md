@@ -14,10 +14,10 @@ Si no estas usando un framework para desarrollar software, probablemente estés 
 
 Un framework, es una estructura de soporte definida mediante la cual, se desarrolla y organiza lógicamente una pieza de software. Entonces, el programa, modulo o sistema en cuestión, se apoya en un framework (en el marco de trabajo) para ser desarrollado. Un framework incluirá soporte para generar programas, una serie de librerías organizadas en módulos lógicos, y un lenguaje (que se ejecuta en una maquina virtual usualmente) para ayudar a desarrollar y unificar los módulos que conformen el proyecto. El uso de un framework, es tan obligatorio en un proyecto de grandes magnitudes, como lo son las típicas practicas de desarrollo de software:
 
-- [Unit Testing](https://www.srbyte.com/2008/12/herramientas-del-programador-unit.html)
+- [Unit Testing](/2008/12/herramientas-del-programador-unit.html)
 - Code Coverage
-- [MVC](https://www.srbyte.com/2008/10/cosas-que-todo-desarrollador-web-debe.html)
-- [Version Control](https://www.srbyte.com/2008/03/programemos-mejor-subversion.html)
+- [MVC](/2008/10/cosas-que-todo-desarrollador-web-debe.html)
+- [Version Control](/2008/03/programemos-mejor-subversion.html)
 - Automated Deployment
 Para los estudiantes, o novatos en el tema, permitanme dar un sencillo ejemplo: Imaginemos por un breve momento, que se quiere construir (de acuerdo a un plano) una casa de dos plantas, para tres personas, con cochera y jardín. Este es el problema:
 
@@ -37,13 +37,13 @@ Al menos, eso es lo lógico, ¿no? Son los pasos "normales", lo "sano". La misma
 Y para colmo, creen que se puede realizar la casa, en el mismo tiempo que lo haría de la manera "normal". Se que para muchos lectores, esto suena ridículo, ¡¿verdad?! suena muy ridículo. Es más, seria increíble pensar, que alguien proponga soluciones así.... pero les tengo una noticia...
 
 > Este es el caso que sucede SUCEDE en las empresas, y también SUCEDE en los equipos de desarrollo.
-Casi a diario, se esta perpetrando este crimen. No solo es una perdida de tiempo, sino que también es un insulto al desarrollador de software que si tiene buenas practicas ([o que intenta tenerlas](https://www.srbyte.com/2008/07/consejos-practicos-de-desarrollo-de.html)). ¿Saben que es lo peor? muchos cometen el error de creer que con solo usar Java o .NET (y solamente eso), ya están usando un framework suficiente para hacer un RIA ([Rich Internet Application](https://en.wikipedia.org/wiki/Rich_Internet_application)) en 3 meses. Pues déjenme decirle, que si ese fuera el caso, no existiría Spring, Struts, IceFaces, MyFaces, ASP.NET MVC, Adobe Flex, RoR, Etc... Lo terrible es que este suceso se sigue perpetrando, y es por simple ignorancia...
+Casi a diario, se esta perpetrando este crimen. No solo es una perdida de tiempo, sino que también es un insulto al desarrollador de software que si tiene buenas practicas ([o que intenta tenerlas](/2008/07/consejos-practicos-de-desarrollo-de.html)). ¿Saben que es lo peor? muchos cometen el error de creer que con solo usar Java o .NET (y solamente eso), ya están usando un framework suficiente para hacer un RIA ([Rich Internet Application](https://en.wikipedia.org/wiki/Rich_Internet_application)) en 3 meses. Pues déjenme decirle, que si ese fuera el caso, no existiría Spring, Struts, IceFaces, MyFaces, ASP.NET MVC, Adobe Flex, RoR, Etc... Lo terrible es que este suceso se sigue perpetrando, y es por simple ignorancia...
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieb6haLUASLULgHaBPsTbDw0ptJoxwC5WODdt2i0f0Jp9KRbml5uLjKFTyACrNPkpruH8SWUmPreHHT4qywUqTJe9ky2BPfxncMwep92k1LmyqCtUkhA3eloZFNQihJy-bWGkEIMBxS0_T/s320/simio-que-ignoras.jpg)    
 "¡Que pena ser ignorante!"
 
 Empresas, por que rayos ¿no capacitan a sus gerentes de informática?, ¿a sus arquitectos de software?, ¿a sus team leaders?, ¿Por que no escuchan las voces de los programadores, que de cara a semejantes atrocidades, alzan la voz inmediatamente y proponen el cambio?
-[Ya lo dije antes](https://www.srbyte.com/2009/02/acerca-del-micromanagement.html), pero no me molesta volverlo a repetir...
+[Ya lo dije antes](/2009/02/acerca-del-micromanagement.html), pero no me molesta volverlo a repetir...
 > "si un equipo de desarrollo, sumergido hasta el cuello de dificultades técnicas, pretende producir software: simplemente vamos a obtener software que es REFLEJO de las dificultades, problemas, ignorancia, malos requerimientos y mala administración en los que se vio envuelto el mismo".
 Instruyace, no deje de leer, no se estanque, procure estar a la par (o solo un centímetro atrás) de la tecnología, y procure, sobre todas las cosas, escuchar a sus colegas, pero a los que saben.
 

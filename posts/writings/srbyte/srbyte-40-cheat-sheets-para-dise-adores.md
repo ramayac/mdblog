@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-9067186136787647962
 ---
 
-Si necesitas aprender algo rápido, o recordar como se realiza una tarea especifica, los [Cheat Sheets son la herramienta que necesitas](https://www.srbyte.com/2008/12/qu-es-un-cheatsheet.html). En la siguiente colección, se presenta la selección de los 9 Cheat Sheets, de una lista original de 40 (el vinculo a la lista esta al final de este articulo), de los editores gráficos más utilizados por Diseñadores (Photoshop, Illustrator y Fireworks).
+Si necesitas aprender algo rápido, o recordar como se realiza una tarea especifica, los [Cheat Sheets son la herramienta que necesitas](/2008/12/qu-es-un-cheatsheet.html). En la siguiente colección, se presenta la selección de los 9 Cheat Sheets, de una lista original de 40 (el vinculo a la lista esta al final de este articulo), de los editores gráficos más utilizados por Diseñadores (Photoshop, Illustrator y Fireworks).
 
 Hoja de referencia para Photoshop CS3 ([Mac](https://www.customguide.com/pdf/photoshopmac-quick-reference-cs3.pdf), [Windows](https://www.customguide.com/pdf/photoshop-quick-reference-cs3.pdf))
 

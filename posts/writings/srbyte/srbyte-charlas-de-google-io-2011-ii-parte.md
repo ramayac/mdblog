@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-377077415244164665
 ---
 
-Continuando con los videos de las charlas preferidas de Google IO 2011, acá estan los que faltaban, espero que les sirvan [(pueden encontrar la primera parte aquí)](https://www.srbyte.com/2011/05/charlas-de-google-io-2011-i-parte.html):
+Continuando con los videos de las charlas preferidas de Google IO 2011, acá estan los que faltaban, espero que les sirvan [(pueden encontrar la primera parte aquí)](/2011/05/charlas-de-google-io-2011-i-parte.html):
 
 ## Large-scale Data Analysis Using the App Engine Pipeline API
 Una buena discucion sobre pipelines y la libreria de Map Reduce para el App Engine.

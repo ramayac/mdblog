@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6791010763266601127
 ---
 
-La celebración del Festival Latinoamericano de Instalación de Software Libre ([FLISoL](https://www.srbyte.com/2010/03/se-viene-el-flisol-2010.html)) se acerca ¡esta es tu oportunidad de adquirir nuevos (o más) conocimientos entorno a tecnologías libres!
+La celebración del Festival Latinoamericano de Instalación de Software Libre ([FLISoL](/2010/03/se-viene-el-flisol-2010.html)) se acerca ¡esta es tu oportunidad de adquirir nuevos (o más) conocimientos entorno a tecnologías libres!
 
 Mañana, en las instalaciones del Instituto Técnico EXSAL el FLISoL dará inicio con un registro, las primeras 100 personas recibirán un kit de bienvenida.
 

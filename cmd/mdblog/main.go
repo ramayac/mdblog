@@ -48,6 +48,8 @@ func main() {
 		runRender(cfg, os.Args[2:])
 	case "request":
 		runRequest(cfg, os.Args[2:])
+	case "lint-links":
+		runLintLinks(cfg)
 	case "version":
 		fmt.Printf("mdblog %s (%s) built %s\n", version, commit, date)
 	default:
@@ -67,6 +69,7 @@ func printUsage() {
 	fmt.Println("  build-sitemap  Generate sitemap.xml and robots.txt (requires build-index)")
 	fmt.Println("  render         Render a post to a standalone HTML file")
 	fmt.Println("  request        Simulate a GET request to a relative URL and print to stdout")
+	fmt.Println("  lint-links     Verify all internal post/page markdown links resolve successfully")
 	fmt.Println("  version        Print version information")
 }
 
@@ -125,5 +128,19 @@ func runRequest(cfg *config.Config, args []string) {
 		fmt.Fprintf(os.Stderr, "request: %v\n", err)
 		os.Exit(1)
 	}
+}
+
+func runLintLinks(cfg *config.Config) {
+	b := blog.New(cfg)
+	filesChecked, errors := b.LintLinks()
+	fmt.Printf("Linting completed. Checked %d markdown files.\n", filesChecked)
+	if len(errors) > 0 {
+		fmt.Fprintf(os.Stderr, "Found %d broken links:\n", len(errors))
+		for _, errStr := range errors {
+			fmt.Fprintln(os.Stderr, "  - "+errStr)
+		}
+		os.Exit(1)
+	}
+	fmt.Println("No broken links found!")
 }
 

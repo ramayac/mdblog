@@ -14,7 +14,7 @@ La mayoría de personas somos desordenados por costumbre, especialmente si nos r
 
 Muchos tienen por costumbre ordenar sus cuartos o sus escritorios, hacer una limpieza general de sus casas, pintar o arreglar los imperfectos aquí y allá. Otros hasta toman como superstición el hecho de tener la casa limpia y ordenada para el final del año, creyendo que de esa manera, el orden y la limpieza les durará todo el año siguiente.
 
-Aún sabiendo que [puede existir cierta eficiencia en el desorden](https://www.srbyte.com/2007/03/es-la-gente-desordenada-ms-productiva.html), muchos otros optamos por hacer una limpieza interna en nuestras computadoras. No solamente quitarle el polvo, ordenar las cajas de CDs apilados por ahí y quitar las notas y papeles que ya no ocupamos sino ir mas allá y ordenar-limpiar el software y los archivos instalados en ella.
+Aún sabiendo que [puede existir cierta eficiencia en el desorden](/2007/03/es-la-gente-desordenada-ms-productiva.html), muchos otros optamos por hacer una limpieza interna en nuestras computadoras. No solamente quitarle el polvo, ordenar las cajas de CDs apilados por ahí y quitar las notas y papeles que ya no ocupamos sino ir mas allá y ordenar-limpiar el software y los archivos instalados en ella.
 
 Para Windows existen varios programas que ayudan a esta tarea, como por ejemplo el [Perfect Uninstaller](https://www.freedownloadmanager.org/downloads/Perfect_Uninstaller_55181_p/). Linux también cuenta con su set de herramientas para administrar lo que guardas por ahí, darte cuenta del espacio que ocupa y si realmente está siendo útil o si solamente fue parte de un programa que instalaste una vez y luego quedó ahí abandonado y a su suerte, por error.
 

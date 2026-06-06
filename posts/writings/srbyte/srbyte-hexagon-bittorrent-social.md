@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7375509271132513888
 ---
 
-A menos que hayas vivido bajo una piedra por los ultimos cinco años, indudablemente habras escuchado sobre sitios web en donde puedes hacer "amigos", o conectarte con los que ya tenias, como: Hi5, Facebook, Cherada, Twitter, etc.... Bien, tarde o temprano esta moda tenia que llegar al mundo de [BitTorrent](https://www.srbyte.com/2007/03/bittorrent-todo-mundo-ama-bittorrent.html). Los maestros detrás del popular tracker "IsoHunt", anuncian (ya hace un buen rato) un innovador servicio llamado "[Hexagon](https://hexagon.cc/)
+A menos que hayas vivido bajo una piedra por los ultimos cinco años, indudablemente habras escuchado sobre sitios web en donde puedes hacer "amigos", o conectarte con los que ya tenias, como: Hi5, Facebook, Cherada, Twitter, etc.... Bien, tarde o temprano esta moda tenia que llegar al mundo de [BitTorrent](/2007/03/bittorrent-todo-mundo-ama-bittorrent.html). Los maestros detrás del popular tracker "IsoHunt", anuncian (ya hace un buen rato) un innovador servicio llamado "[Hexagon](https://hexagon.cc/)
 ".
 
 ![image](https://assets6.hexagon.cc/images/logo.gif)    

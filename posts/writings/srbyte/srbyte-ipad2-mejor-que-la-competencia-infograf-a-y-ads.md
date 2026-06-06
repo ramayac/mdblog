@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-4831404466524167834
 
 Super quick post
 
-Después del[lanzamiento del iPad 2](https://www.srbyte.com/2011/03/ipad-2-video-oficial-de-introduccion.html), comienzan las "infografías" comparando el nuevo producto de Apple contra la competencia (dele clic para ver más grande la imagen)
+Después del[lanzamiento del iPad 2](/2011/03/ipad-2-video-oficial-de-introduccion.html), comienzan las "infografías" comparando el nuevo producto de Apple contra la competencia (dele clic para ver más grande la imagen)
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvbsxDM0LOhy31I_fPnUjdNqv0IUnjWsYMW1AtFkvb8ibX1w-kvlWLnBM94leDmz4LdwRuSYw1mKlzYSNfP2hdeV9yD3Tyf2fo1d7a0GZJaOUfaQ6TSpk2WA_c_6kF2V-8zXALabYAsAqr/s320/ipad2-a.jpg)    
 iPad2, ¿mejor que la competencia? Acá los dejo con algunos videos de la competencia mencionada, el Motorola Xoom (Android 3.0), la Samsung Sliding PC() y la Notion Ink.

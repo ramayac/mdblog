@@ -47,7 +47,7 @@ Si arrestan a alguna persona, o alguien tiene un accidente, probablemente usar T
 
 ... Sirve para ser productivo: Twitter no te hace perder tiempo como un Blog o un Chat, estas son las razones:
 
-1. Es simple: No hay necesidad de perder tiempo aprendiendo a usarlo. 2. Es social: Se puede agregar amigos y mantener la pista de otras personas. 3. Se puede actualizar desde muchos clientes: No es necesario tener la pagina del navegador abierto para usar Twitter, puedes [utilizar varios clientes](https://www.srbyte.com/2008/07/clientes-de-twitter-para-todos-los.html) para este servicio (Yo les recomiendo Twhirl). 4. Twitter genera [Feeds](https://www.srbyte.com/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html): A los que se pueden suscribir usuarios que no desean utilizar Twitter.
+1. Es simple: No hay necesidad de perder tiempo aprendiendo a usarlo. 2. Es social: Se puede agregar amigos y mantener la pista de otras personas. 3. Se puede actualizar desde muchos clientes: No es necesario tener la pagina del navegador abierto para usar Twitter, puedes [utilizar varios clientes](/2008/07/clientes-de-twitter-para-todos-los.html) para este servicio (Yo les recomiendo Twhirl). 4. Twitter genera [Feeds](/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html): A los que se pueden suscribir usuarios que no desean utilizar Twitter.
 
 Esos son los elementos principales para lo que te puede servir Twitter. Es divertido, sumamente sencillo y versátil.
 

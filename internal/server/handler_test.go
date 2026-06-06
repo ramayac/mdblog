@@ -512,3 +512,28 @@ func TestStaticPage_NavDropdownRendered(t *testing.T) {
 		t.Error("dropdown label 'Writings' should appear in nav")
 	}
 }
+
+func TestLegacyAlternativeResolution(t *testing.T) {
+	h := testSetup(t)
+	
+	// Test with .html suffix
+	w1 := get(h, "/2008/01/12-34-56-7-8-9-y-el-tiempo.html")
+	if w1.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w1.Code)
+	}
+	body1 := w1.Body.String()
+	if !strings.Contains(body1, "12:34:56 7 8 9 y el tiempo") {
+		t.Error("rendered page should contain the post title")
+	}
+
+	// Test without .html suffix
+	w2 := get(h, "/2008/01/12-34-56-7-8-9-y-el-tiempo")
+	if w2.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w2.Code)
+	}
+	body2 := w2.Body.String()
+	if !strings.Contains(body2, "12:34:56 7 8 9 y el tiempo") {
+		t.Error("rendered page should contain the post title")
+	}
+}
+

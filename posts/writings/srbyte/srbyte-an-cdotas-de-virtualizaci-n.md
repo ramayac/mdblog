@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7528541824882962586
 ---
 
-La semana pasada, el servidor de Source Control ([Subversion](https://www.srbyte.com/2008/03/programemos-mejor-subversion.html)) en donde se encuentran alojados todos los proyectos informáticos de la empresa comienzo a presentar problemas SERIOS de rendimientos. Con problemas serios me refiero a tardar 2 o 3 minutos para realizar un commit de 13 Kbs...
+La semana pasada, el servidor de Source Control ([Subversion](/2008/03/programemos-mejor-subversion.html)) en donde se encuentran alojados todos los proyectos informáticos de la empresa comienzo a presentar problemas SERIOS de rendimientos. Con problemas serios me refiero a tardar 2 o 3 minutos para realizar un commit de 13 Kbs...
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgls70BPdOU6x4M_9fBEQiCA7Nzhbo-ChmGusM30ZAdDTFkEixQd8eoIRBkgLMLHrTEjygmZac3SH6-yAZkF1jKk20XmRLBS5q5FltQgCKi8aktWVQ9uECmk7mhhyphenhyphentzYixBQ5H_OLMfq355/s320/subversion_logo-200x173.png)    
 Todo esto comenzó a suceder justo en el momento en el que tres de los proyectos principales se estaban convirtiendo a TAGS ("Estable") y se comenzó a realizar un control mas minucioso de los commits realizados (se realizo lock en el main branch de los mismos). Así que la cosa se puso bastante seria cuando de un momento a otro, el rendimiento de este servidor, que se ha mantenido estable y confiable disminuyo, y en un momento, hasta se pensó que había "tronado", justo como trono el servidor CVS que le antecedía.

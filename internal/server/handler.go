@@ -144,6 +144,29 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// ── Legacy/Alternative URL resolution ─────────────────────────────────
+	if post, resolved := h.b.ResolveOldURL(path); resolved {
+		start := time.Now()
+		menu := h.b.GetMenu()
+		canonical := buildCanonical(r)
+		cssV := cssVersion(h.cfg.CSSTheme)
+		footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
+		versionInfo := h.b.GetVersionInfo()
+
+		base := templateData{
+			Config:     h.cfg,
+			OGType:     "article",
+			Canonical:  canonical,
+			CSSVersion: cssV,
+			Menu:       menu,
+			FooterHTML: footerHTML,
+			Version:    versionInfo,
+		}
+
+		h.renderSinglePost(w, r, start, post, post.CategorySlug, base)
+		return
+	}
+
 	// ── Route: index (/) ──────────────────────────────────────────────────
 	h.serveIndex(w, r)
 }
@@ -265,6 +288,10 @@ func (h *Handler) servPost(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	h.renderSinglePost(w, r, start, post, categorySlug, base)
+}
+
+func (h *Handler) renderSinglePost(w http.ResponseWriter, r *http.Request, start time.Time, post *blog.Post, categorySlug string, base templateData) {
 	// ETag / 304
 	postMtime := int64(0)
 	if t, err := time.Parse("2006-01-02", post.Date); err == nil {
@@ -315,7 +342,7 @@ func (h *Handler) servPost(w http.ResponseWriter, r *http.Request) {
 	data.CategorySlug = categorySlug
 	data.JSFiles = jsFiles
 	data.Tags = tags
-	data.JSONLD = buildArticleJSONLD(h.cfg, post, canonical, categorySlug)
+	data.JSONLD = buildArticleJSONLD(h.cfg, post, base.Canonical, categorySlug)
 	h.renderPage(w, r, start, "post.html", &data)
 }
 

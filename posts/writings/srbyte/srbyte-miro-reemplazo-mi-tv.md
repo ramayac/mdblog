@@ -14,7 +14,7 @@ Pero lo que quiero es un programa, un cliente de escritorio para ver estos "webc
 Ciertamente ya existe una aplicación así, se llama: Miro.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvolQkbWgcVRq_Tr0Z6oodA4eXY6W-3BIbY0bgiL7G8JckdbaX9wyxaGV3HOTzGIDvJfoIdPx7-nIrKvEhv2HNuQp0aKuZ2d8_jVgY0Tk30mxfBxZLDXpZfnanNfg-T4YHYL2_9-U8En9b/s200/Miro_icon.png)    
-Su concepto es brillante y a la vez extremadamente simple: Un catalogo de videos basado en suscripciones ([RSS/Feed](https://www.srbyte.com/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html)), que permite descargar video podcasts y ver mis "biblioteca" de videos locales.
+Su concepto es brillante y a la vez extremadamente simple: Un catalogo de videos basado en suscripciones ([RSS/Feed](/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html)), que permite descargar video podcasts y ver mis "biblioteca" de videos locales.
 
 ![image](https://s3.getmiro.3.0.com.s3.amazonaws.com/i/screenshots/mac-guide.png)    
 

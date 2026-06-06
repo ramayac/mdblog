@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8284140159529244054
 ---
 
-Para atender las crecientes necesidades de los programadores, que tratan de mantenerse a la par de la tecnología, existe una emergente gama de productos que se proponen solventar necesidades especificas (a veces de los autores más que de los usuarios finales) y emergentes. Muchos de estos productos (diseñados para hacer más llevadera la vida del programador) vienen en forma de "Frameworks", [que tanto recomendamos por diversos motivos](https://www.srbyte.com/2009/03/si-no-estas-usando-un-framework.html), como productividad, eficiencia, comodidad y mucha sanidad mental.
+Para atender las crecientes necesidades de los programadores, que tratan de mantenerse a la par de la tecnología, existe una emergente gama de productos que se proponen solventar necesidades especificas (a veces de los autores más que de los usuarios finales) y emergentes. Muchos de estos productos (diseñados para hacer más llevadera la vida del programador) vienen en forma de "Frameworks", [que tanto recomendamos por diversos motivos](/2009/03/si-no-estas-usando-un-framework.html), como productividad, eficiencia, comodidad y mucha sanidad mental.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUCAQs93uKzH0sGMgRYjsjsiGCK7SzvNb-QLPeYtCWw6NJfTtlCrZKh1RHyGb9n2B5uIQ0sDmyyuMnNUuKYBpq9vXFObeGUXOPlMsPBJFb554k8iDy_pF-HF3COi_ZK41RHl7h7SNFrZ25/s320/struts2-merger2.png)    
 

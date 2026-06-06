@@ -13,7 +13,7 @@ Mini aplicaciones Web
 
 Quizás una de las cosas que mas impactan al revisar las entradas participantes, es como muchas de ellas no se ven como sitios web. Usando tecnologías web "recientes" (para IE al menos) como Canvas, SVG, CSS3 y muuuuucho JavaScript, los concursantes fueron capaces de crear aplicaciones web que bien pueden pasar por aplicaciones nativas, flash o de iPhone.
 
-La creatividad y la energía demostrada en este concurso, recuerda al [DemoScene](https://www.srbyte.com/2010/06/que-es-la-demoscene.html), cuando habilidosos programadores competían para hacer los mejores "demos" para Amiga y Commodore 64. Solo que en este caso, en vez de apuntar a una sola plataforma, estas pequeñas obras de arte web, se ejecutan en cualquier SO y navegador (decente). Algunas de las entradas mas relevantes son:
+La creatividad y la energía demostrada en este concurso, recuerda al [DemoScene](/2010/06/que-es-la-demoscene.html), cuando habilidosos programadores competían para hacer los mejores "demos" para Amiga y Commodore 64. Solo que en este caso, en vez de apuntar a una sola plataforma, estas pequeñas obras de arte web, se ejecutan en cualquier SO y navegador (decente). Algunas de las entradas mas relevantes son:
 
 [Sinuous](https://10k.aneventapart.com/Entry/83)
 
@@ -37,7 +37,7 @@ Gráfica ecuaciones de ejemplo o digita las tuyas.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdWWCvFf-PB2ZafbFU4ADZ0VMWTSPkFaS6NAjom5FuAquHhHlst9Kp3CBXO27Z4YrXahz32QiBVwyw14_V-YRDlIAphT9wWZXWSB833c81gSecrSIDTjtSAfqNzaT6r9lrB6np-V2412i3/s320/Nishant_10K_6.png)    
 
-No será la competencia de [Blender](https://www.srbyte.com/2010/10/sintel-el-nuevo-cortometraje-de-blender.html), pero esta pequeña aplicación te permite dibujar curvas de Bézier y convertirlas a objetos 3D que podes "explorar".
+No será la competencia de [Blender](/2010/10/sintel-el-nuevo-cortometraje-de-blender.html), pero esta pequeña aplicación te permite dibujar curvas de Bézier y convertirlas a objetos 3D que podes "explorar".
 
 Como ven, son cosas "sencillas", pero con gran potencial y ejecutandoce en 10 miserables Kilobytes. Bien dicen que la necesidad hace al artista. El concurso "10K Apart" esta para quedarse, visitenlo y a ver quien se anima para participar en la proxima:
 

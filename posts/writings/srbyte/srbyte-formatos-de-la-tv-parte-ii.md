@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8503820463254019634
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTDEf-XzFYIYzTvjFC4tlk6Fhmy4Vps40wPJ_PqOXTSjD0KDxpoSLhPv7rloQdtp2cCq-JdLv5vbmjRzICyGqpoh1c2drm3M6THyHOSYaa9RLmIKA9elL9KgzFTFTafQ8vWTNm-xbCwef2/s320/BMW-TV-Tuner%5B1%5D.gif)    [Continuando con la historia de la televisión](https://www.srbyte.com/2008/09/formatos-de-la-tv-i-parte.html), es preciso dar un vistazo a uno de los sistemas bajo los cuales trabaja este singular aparato. En esta entrega hablaremos del sistema National Television System Committee, mejor conocido por sus siglas NTSC.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTDEf-XzFYIYzTvjFC4tlk6Fhmy4Vps40wPJ_PqOXTSjD0KDxpoSLhPv7rloQdtp2cCq-JdLv5vbmjRzICyGqpoh1c2drm3M6THyHOSYaa9RLmIKA9elL9KgzFTFTafQ8vWTNm-xbCwef2/s320/BMW-TV-Tuner%5B1%5D.gif)    [Continuando con la historia de la televisión](/2008/09/formatos-de-la-tv-i-parte.html), es preciso dar un vistazo a uno de los sistemas bajo los cuales trabaja este singular aparato. En esta entrega hablaremos del sistema National Television System Committee, mejor conocido por sus siglas NTSC.
 
 La Comisión Nacional de Sistemas de Televisión, como se traduce en español, fue creado por la cadena de televisión estadounidense CBS alrededor de 1940. Su funcionamiento consiste, básicamente, en una codificación y transmisión de imágenes a color analógica.
 

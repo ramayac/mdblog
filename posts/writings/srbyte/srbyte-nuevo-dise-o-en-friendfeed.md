@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5781633996282921344
 ---
 
-Leyendo mis Feeds me doy cuenta que [FriendFeed](https://https://www.srbyte.com/2008/08/que-es-friendfeed.html) esta haciendo más fácil las cosas en su sitio web. El problema anterior de FriendFeed es que había algo extraño en su GUI, parecía un poco incoherente, no era muy lógica, poco intuitiva, realmente no están explotando por completo la capacidad de innovar.
+Leyendo mis Feeds me doy cuenta que [FriendFeed](https:///2008/08/que-es-friendfeed.html) esta haciendo más fácil las cosas en su sitio web. El problema anterior de FriendFeed es que había algo extraño en su GUI, parecía un poco incoherente, no era muy lógica, poco intuitiva, realmente no están explotando por completo la capacidad de innovar.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyanw8P9KbtvBzguE-lAhN1gMvqO7hOxCaWANwWihX_ftB0qUzX4cnK7_entCmM_gz2lmfLndcHonpJzAAytLCtDsgge3VhQCVEcUfqAiJEZJH_M2AtLwh4qBFHciXr__vKlCIxWEKgq0/s400/beta.friendfeed.png)    
 "Nuevo Look de FriendFeed, click para ver más grande."

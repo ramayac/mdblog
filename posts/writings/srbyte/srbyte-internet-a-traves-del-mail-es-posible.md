@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7065079011726946705
 ---
 
-Existen empresas en el país que como bien lo dice Rodrigo en [este post](https://www.srbyte.com/2008/12/en-una-empresa-el-codigo-es-el-enemigo.html), no valoran lo suficiente a su equipo de IT por lo que no son tan flexibles a la hora de considerar las necesidades que este equipo tiene para lograr el éxito en el desarrollo de los proyectos de software.
+Existen empresas en el país que como bien lo dice Rodrigo en [este post](/2008/12/en-una-empresa-el-codigo-es-el-enemigo.html), no valoran lo suficiente a su equipo de IT por lo que no son tan flexibles a la hora de considerar las necesidades que este equipo tiene para lograr el éxito en el desarrollo de los proyectos de software.
 
 Un claro ejemplo de esto es cuando te restringen el acceso a Internet con el supuesto de volverte más productivo evitando que pierdas el tiempo procrastinando en lugar de desarrollar, ya que los jefes no conocen el valor único que tiene el Internet y cuantos servicios online existen que te permiten ser más productivo especialmente si formas parte de un equipo de trabajo.
 

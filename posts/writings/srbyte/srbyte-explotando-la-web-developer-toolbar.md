@@ -12,7 +12,7 @@ post_id: blog-3515952828243908885.post-3871582453194179268
 
 Firefox Addons
 
-Como ya se nos esta haciendo costumbre acá en el Sr Byte, les traemos un conjunto de [add-ons para Firefox](https://www.srbyte.com/2008/07/qu-es-un-complementoadd-on-de-firefox.html) que durante nuestras experiencias hemos descubierto como bastante útiles para trabajar con HTML, CSS y Javascript, especialmente porque los IDEs de desarrollo a veces no cuentan con las herramientas suficientes para editar visualmente las páginas web de modo que puedas saber con gran exactitud cómo se verá tu sitio en un navegador desde el momento en que lo estás diseñando.
+Como ya se nos esta haciendo costumbre acá en el Sr Byte, les traemos un conjunto de [add-ons para Firefox](/2008/07/qu-es-un-complementoadd-on-de-firefox.html) que durante nuestras experiencias hemos descubierto como bastante útiles para trabajar con HTML, CSS y Javascript, especialmente porque los IDEs de desarrollo a veces no cuentan con las herramientas suficientes para editar visualmente las páginas web de modo que puedas saber con gran exactitud cómo se verá tu sitio en un navegador desde el momento en que lo estás diseñando.
 
 Rodrigo anteriormente había publicado [una colección de add-ons](https://addons.mozilla.org/en-US/firefox/collection/srbyte) directamente en el sitio de addons de Firefox, a los cuales yo agregaré unos cuantos mas en este post y en otros posteriores los cuales considero un MUST para desarrolladores y diseñadores web.
 

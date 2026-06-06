@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-3928495759971467839
 ---
 
-Revisando algunos tweets de la semana pasada, encontré algunos tweets de sitios que hacen un mash-up muy interesante de [Twitter](https://www.srbyte.com/2008/09/y-para-qu-te-puede-servir-twitter.html) y algún otro servicio Web...
+Revisando algunos tweets de la semana pasada, encontré algunos tweets de sitios que hacen un mash-up muy interesante de [Twitter](/2008/09/y-para-qu-te-puede-servir-twitter.html) y algún otro servicio Web...
 
 [@marlonmelara](https://twitter.com/marlonmelara) comparte[en su blog](https://www.entreotrascosas.com/): [Twittas?](https://twittas.com/), un servicio que, entre otras cosas,[permite localizar en un mapa a tus followers](https://twittas.com/mapf/), y [cuando llegaras al millón de seguidores](https://twittas.com/1million/).
 

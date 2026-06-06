@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5935476885702396291
 ---
 
-La conferencia [#NokiaTalk](https://www.srbyte.com/2010/05/nokiatalk.html) comenzó el anuncio de dos estrenos, el primero es [Nokia Conversaciones](https://conversaciones.nokia.com/), blog de la corporación que fue lanzado el mismo dia del evento (miercoles 26 de mayo) en español, y lo segundo es (tambien) el lanzamiento oficial de la herramienta para crear aplicaciones "[Ovi App Wizard](https://appwizard.ovi.com/web_nokia/signIn.jsp)
+La conferencia [#NokiaTalk](/2010/05/nokiatalk.html) comenzó el anuncio de dos estrenos, el primero es [Nokia Conversaciones](https://conversaciones.nokia.com/), blog de la corporación que fue lanzado el mismo dia del evento (miercoles 26 de mayo) en español, y lo segundo es (tambien) el lanzamiento oficial de la herramienta para crear aplicaciones "[Ovi App Wizard](https://appwizard.ovi.com/web_nokia/signIn.jsp)
 ".
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEEEhIeN7AwP0wTkUf56nHiFJ1tMJQT7EcKAJ9T4NC4X4bOQq8cwTnTG1PKsMrwrvAivD8xdyxt2JS5Lwxj_ijRGn6Mk1qSx6UQLlX50jr9TniO33uTeVSDtndrKpKzlgg8uyJ8H1AtTJi/s400/oviconversationsnokia.jpg)    

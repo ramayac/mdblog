@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-6116930231356039053
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8CJQD1b6bkeGWSEMZ23jCtBV6Xc_-UQxOmOV5sEfDMrvFzyvWIbgB2SyolcJFnxqsY0VzgECL8I0izAXWGmxnIL0BBbI-GiRJOwkrnOeOFMJT02oNLkNK1dwYPpbBaNS4FF5sHGVcllOR/s320/NokiaTalkAustin.png)    
 #NokiaTalk 2011
-Durante la reciente edición del [#NokiaTalk](https://www.srbyte.com/2010/05/nokiatalk.html), realizada el 11 y 12 de Marzo en Estados Unidos, expertos en redes sociales de varios países discutieron acerca de las últimas tendencias tecnológicas que dominarán el 2011, estas son sus conclusiones:
+Durante la reciente edición del [#NokiaTalk](/2010/05/nokiatalk.html), realizada el 11 y 12 de Marzo en Estados Unidos, expertos en redes sociales de varios países discutieron acerca de las últimas tendencias tecnológicas que dominarán el 2011, estas son sus conclusiones:
 
 1. Consolidación de las Redes Sociales. Los movimientos sociales que se han creado en los países árabes han demostrado que las redes sociales están evolucionando. En la medida que las redes sociales sigan creciendo en número de usuarios los impactos generados por ellas sorprenderán cada vez más.
 

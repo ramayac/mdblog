@@ -12,9 +12,9 @@ post_id: blog-3515952828243908885.post-8495927696361290832
 
 Mas vale tarde que nunca. El día 30 de Noviembre del 2008 los miembros del staff del Sr Byte Ramayac y Robertux asistieron a la reunión de bloggers/twitters/campuseros denominada Pupusas&Blogs. No hubieron temas de discusión ni una agenda a tratar u objetivos a lograr, simplemente nos conocimos en persona, degustamos de un plato de pupusas de arroz e hicimos chiste de las habilidades y calidad del servicio del mesero que nos atendió. A continuación tienen la lista de personas asistentes al evento. Si se nos ha escapado alguna, por favor hacérnoslo saber mediante un comentario. La lista consta de nombre, id de twitter (si es que poseen) y blog (si es que poseen):
 
-- Roberto Linares: @Robertux del [Sr Byte](https://www.srbyte.com/)
+- Roberto Linares: @Robertux del [Sr Byte](/)
 - Gerardo Ramos: @G3RO de [Gero85](https://gero85.blogspot.com/)
-- Rodrigo Amaya: @Ramayac del [Sr Byte](https://www.srbyte.com/)
+- Rodrigo Amaya: @Ramayac del [Sr Byte](/)
 - William Lopez: del [Portafolio Fotografico](https://portafolio-fotografico.blogspot.com/)
 - Mario Francia: @mariocopinol de [Quo Vadis?](https://copinapitli.blogspot.com/)
 - Bolux: del blog [Bolux Blog](https://bolux.blogspot.com/)

@@ -37,7 +37,7 @@ Recuerden siempre que las pantallas resistivas se sienten inferiores a las [capa
 
 La decepción mas grande del N97 es el bajo rendimiento del procesador de apenas 424 MHz, lo único que no mencionan en TODO el empaque del teléfono, me imagino que les da vergüenza mencionarlo, y deben sentirla, porque ese procesador mata muchísima funcionalidad del telefono. No da abasto para lo que uno quiere hacer, y el sistema operativo no ayuda tampoco. El N97 tiene una profunda anemia de Megahertz, y eso lo vas a recordar constantemente si compras uno.
 
-El N97 posee dos cámaras como el [5800](https://www.srbyte.com/2009/06/review-nokia-5800-xpressmusic-13.html). La principal posee también el mismo tipo de lente, pero el N97 tiene una resolución de 5 Mega-pixeles y ademas tiene autofocus, lo que hace del N97 una excelente buena cámara digital, porque las fotos parecen "lavadas", y se nota que se tomaron con un teléfono con cámara. El flash de diodos LED es fuerte y la captura de video de 640x480 (a 30 fps) también es bastante buena. La cámara secundaria es risible en términos de calidad, dejemoslo en eso.
+El N97 posee dos cámaras como el [5800](/2009/06/review-nokia-5800-xpressmusic-13.html). La principal posee también el mismo tipo de lente, pero el N97 tiene una resolución de 5 Mega-pixeles y ademas tiene autofocus, lo que hace del N97 una excelente buena cámara digital, porque las fotos parecen "lavadas", y se nota que se tomaron con un teléfono con cámara. El flash de diodos LED es fuerte y la captura de video de 640x480 (a 30 fps) también es bastante buena. La cámara secundaria es risible en términos de calidad, dejemoslo en eso.
 
 Quizas la característica más interesante del teléfono es su transmisor FM de doble vía. Ademas de escuchar radio, también puedes transmitir tu librería musical por FM al radio de tu carro por ejemplo.
 
@@ -47,7 +47,7 @@ La batería dura mucho tiempo, es realmente buena, y se carga sumamente rápido.
 
 Así que lo único de lamentar del N97 con respecto a hardware, es su anémico procesador (que repercute en todo el teléfono), y ese problema de color en las fotos.
 
-Software ([@deprecated](https://www.srbyte.com/2009/04/deprecated-code-codigo-obsoleto.html))
+Software ([@deprecated](/2009/04/deprecated-code-codigo-obsoleto.html))
 
 El N97 trae la quinta edición del sistema Symbian OS (S60). Francamente, no se si es por el procesador, o porque es realmente malo, pero con lo que respecta al sistema, se siente lento, y aunque es multitareas, el procesador no da mucho abasto para soportar esa característica. Obtuve una amena pantalla de "El teléfono se recupero de un problema grave, reinicie el telefono" al menos tres veces el tiempo que lo use, solo por hacer la compleja tarea de cambiarle la apariencia al sistema, y habilitar la cámara, entre otras cosas "inesperadas" supongo. ¿Sera que el N97 que me dieron, tenia una versión beta del S60? Sinceramente no lo se, pero espero que lo arreglen. La sensación de la GUI es irregular e inconsistente. Lean el manual para saber que items necesita uno o dos Taps.
 
@@ -63,7 +63,7 @@ N97 trae preinstalado aplicaciones de otros proveedores como: Qik, RealPlayer, Y
 
 Conclusión
 
-Personalmente siento que en términos de diseño y algunas características de hardware, el N97 es mejor que el [5800](https://www.srbyte.com/2009/06/review-nokia-5800-xpressmusic-13.html), pero en términos de software es prácticamente similar.
+Personalmente siento que en términos de diseño y algunas características de hardware, el N97 es mejor que el [5800](/2009/06/review-nokia-5800-xpressmusic-13.html), pero en términos de software es prácticamente similar.
 
 Lo mejor: es la capacidad de almacenamiento (32 GB!), el auto enfoque al tomar fotos, la potencia de las bocinas, duración de la batería, widgets en la pantalla principal y transmisor FM doble (estoy seguro que eso ni lo van a mencionar mucho).
 

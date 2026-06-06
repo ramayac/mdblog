@@ -14,9 +14,9 @@ El código en exceso es malo. Requiere mantenimiento periódico. Posee errores .
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-qy5yiZc67TxH2IhCzcywS-JneJfLORIp3Hd3KM1ux4t_dAMRBQxzvKXgcJ0OoQmeJNkXua-EqGG9DltmWsaSh5x-LTmd0KzXXC7IU3nFuN0yktAKxlQev0d1_-JSzUvZPclA6_7h2ymD/s320/iStock_000000237891XSmall_3.jpg)    
 Mientras hay mas código escrito:
 
-- Existen mas lugares en donde se esconden[los infames bugs (que se combaten depurando o escribiendo más código)](https://www.srbyte.com/2008/12/herramientas-del-programador-unit.html)
+- Existen mas lugares en donde se esconden[los infames bugs (que se combaten depurando o escribiendo más código)](/2008/12/herramientas-del-programador-unit.html)
 - El proceso de compilación tarda mas tiempo
-- Los Checkouts del [repositorio de control de versiones](https://www.srbyte.com/2008/03/programemos-mejor-subversion.html) también se alargan
+- Los Checkouts del [repositorio de control de versiones](/2008/03/programemos-mejor-subversion.html) también se alargan
 - Un empleado nuevo tardara más tiempo en comprender el sistema
 - Es mas complicado refactorizar código
 - Y también es mas difícil encontrar documentación precisa de: que hace qué, cuándo, dónde y por qué.
@@ -34,7 +34,7 @@ El código es escrito por ingenieros de sistemas, técnicos programadores o cons
 - Documentos que constan la finalización de las actividades programadas.
 ... si hago esto por cada desarrollador... termino con un enorme costo organización, en función del tiempo gastado en cada desarrollador, o en función de un nuevo puesto de trabajo para que alguien realice esta tarea.
 
-¿No se debería hacer todo lo posible para[incrementar la productividad del individuo](https://www.srbyte.com/2007/02/programando-mejor-parte-iii.html) en términos del buen código que este escribe? La idea es simple: Escribir menos código para hacer algo (y si se puede, que sea buen código). Si tiene que escribir menos código, se contratan menos personas, y se reducen los costos de comunicación.
+¿No se debería hacer todo lo posible para[incrementar la productividad del individuo](/2007/02/programando-mejor-parte-iii.html) en términos del buen código que este escribe? La idea es simple: Escribir menos código para hacer algo (y si se puede, que sea buen código). Si tiene que escribir menos código, se contratan menos personas, y se reducen los costos de comunicación.
 
 Después de todo, una buena empresa debe ser eficiente y eficaz, ¿no?. Si algo ya existe, úselo. Si hay mejores tecnologías, procure utilizarlas. Y si sus desarrolladores le dicen que hay que utilizar una nueva tecnología, procure prestar atención a lo que dicen, y si es factible hágalo.
 

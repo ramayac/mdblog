@@ -16,7 +16,7 @@ El clip de video se popularizo y llamo la atención de "Stride Gum", que decidi�
 
 2. Western Spaghetti
 
-Filmado con la técnica de animación llamada [Stop Motion](https://www.srbyte.com/2008/11/stop-motion-fcil-y-divertido.html), el corto "Western Spaghetti" es una muy ingeniosa simulación de cocina realizada con papel, plástico, plastilina y otros materiales. Este maravilloso trabajo es de un artista digital llamado Adam Pesapane de 35 años que vive en New York, que se hace llamar a si mismo PES, para ver más de su trabajo, visiten su sitio: [eatPES](https://www.eatpes.com/index.html).
+Filmado con la técnica de animación llamada [Stop Motion](/2008/11/stop-motion-fcil-y-divertido.html), el corto "Western Spaghetti" es una muy ingeniosa simulación de cocina realizada con papel, plástico, plastilina y otros materiales. Este maravilloso trabajo es de un artista digital llamado Adam Pesapane de 35 años que vive en New York, que se hace llamar a si mismo PES, para ver más de su trabajo, visiten su sitio: [eatPES](https://www.eatpes.com/index.html).
 
 3. Christian The Lion (Christian, El León)
 

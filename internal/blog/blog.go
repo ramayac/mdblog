@@ -781,3 +781,57 @@ func max1(n int) int {
 	}
 	return n
 }
+
+var oldURLRegex = regexp.MustCompile(`^/(\d{4})/(\d{2})/([^/]+)$`)
+
+// ResolveOldURL maps legacy URL paths like "/2008/07/musica-legalmente-gratuita.html" (or without .html)
+// to a modern Post. Returns the post and true if resolved, or nil and false otherwise.
+func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
+	// Strip optional .html suffix
+	path = strings.TrimSuffix(path, ".html")
+
+	matches := oldURLRegex.FindStringSubmatch(path)
+	if matches == nil {
+		return nil, false
+	}
+	year := matches[1]
+	month := matches[2]
+	oldSlug := matches[3]
+
+	index := b.loadPostIndex()
+	if index == nil {
+		return nil, false
+	}
+
+	for _, ip := range index {
+		// Check if year and month match (date is formatted as YYYY-MM-DD)
+		if len(ip.Date) >= 7 && ip.Date[0:4] == year && ip.Date[5:7] == month {
+			// Compare normalized post slug with normalized old slug.
+			normalizedPostSlug := b.normalizeSlugForMatch(ip.Slug)
+			if normalizedPostSlug == oldSlug {
+				post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
+				if post != nil {
+					return post, true
+				}
+			}
+		}
+	}
+
+	return nil, false
+}
+
+// normalizeSlugForMatch strips date prefixes and category prefixes from a slug
+func (b *Blog) normalizeSlugForMatch(slug string) string {
+	// Remove date prefix (e.g. 2026-05-19-)
+	slug = datePrefixRegex.ReplaceAllString(slug, "")
+	
+	// Remove any known category prefix (e.g. "srbyte-")
+	for catSlug := range b.cfg.Categories {
+		if strings.HasPrefix(slug, catSlug+"-") {
+			slug = strings.TrimPrefix(slug, catSlug+"-")
+			break
+		}
+	}
+	return slug
+}
+

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7875668752862268948
 ---
 
-![image](https://upload.wikimedia.org/wikipedia/en/9/94/Www_y23_com--fractal----Lg_Z010121Z.jpg)    A la combinación de Arte y la generación de[Fractales](https://www.srbyte.com/2008/12/qu-son-los-fractales.html) se le conoce como "Arte Fractal". El arte fractal es creado calculando fractales y representando el resultado calculado (el fractal) en una imagen, animación, musica u otro tipo de "medio". La mayoría de arte fractal (o al menos, el más popular) se crea con la asistencia de software (para generarlos), y dependiendo del grado de profesionalismo que se desee en la imagen, se puede inclusive recurrir a un trabajo de edición extra sobre las imágenes producidas, usando algún software como Photoshop ó The Gimp, etc.
+![image](https://upload.wikimedia.org/wikipedia/en/9/94/Www_y23_com--fractal----Lg_Z010121Z.jpg)    A la combinación de Arte y la generación de[Fractales](/2008/12/qu-son-los-fractales.html) se le conoce como "Arte Fractal". El arte fractal es creado calculando fractales y representando el resultado calculado (el fractal) en una imagen, animación, musica u otro tipo de "medio". La mayoría de arte fractal (o al menos, el más popular) se crea con la asistencia de software (para generarlos), y dependiendo del grado de profesionalismo que se desee en la imagen, se puede inclusive recurrir a un trabajo de edición extra sobre las imágenes producidas, usando algún software como Photoshop ó The Gimp, etc.
 
 También existen otras formas (no recomendadas, pero que valen la pena mencionar) de obtener fractales: meta un CD a un microondas (puede dañar el microondas) por un par de segundos (de 3 a 5 segundos) y obtendrán esto:
 

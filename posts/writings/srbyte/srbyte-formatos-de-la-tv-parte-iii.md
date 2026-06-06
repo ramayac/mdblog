@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4617357104421644435
 ---
 
-Como todo buen antecesor, el sistema [NTSC](https://www.srbyte.com/2008/09/formatos-de-la-tv-parte-ii.html) poco a poco fue cediendo al natural proceso evolutivo de las tecnologías hasta darle paso a dos nuevos sistemas de transmisión: PAL y SECAM.
+Como todo buen antecesor, el sistema [NTSC](/2008/09/formatos-de-la-tv-parte-ii.html) poco a poco fue cediendo al natural proceso evolutivo de las tecnologías hasta darle paso a dos nuevos sistemas de transmisión: PAL y SECAM.
 
 Estos sistemas son como dos mellizos. A pesar de guardar un mismo cordón umbilical Americano, su nacimiento y crecimiento pertenecen a Europa. Estas y otras características los hacen diferentes el uno del otro, que a su vez, los aleja e independiza de su antecesor.
 

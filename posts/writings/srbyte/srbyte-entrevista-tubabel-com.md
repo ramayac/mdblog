@@ -115,7 +115,7 @@ No tenemos planes de una nueva versión por el momento pero siempre estamos con 
 
 [FIN]
 
-Le agradecemos a Alejandro Corpeño por darnos el tiempo para contestar la entrevista, y esperamos que más adelante ([después del WebConf panamá](https://www.srbyte.com/2011/03/webconf-latino-2011-honduras-y-panama.html)) podamos hablar de otros proyectos en los que esta trabajando.
+Le agradecemos a Alejandro Corpeño por darnos el tiempo para contestar la entrevista, y esperamos que más adelante ([después del WebConf panamá](/2011/03/webconf-latino-2011-honduras-y-panama.html)) podamos hablar de otros proyectos en los que esta trabajando.
 
 Los invito a que sigan a [@tuBabel](https://twitter.com/tuBabel) en Twitter, y los reto a que busquen cualquier modismo que se les ocurra en [tuBabel.com](https://tubabel.com/) ... y si no lo encuentran, lo agregan ;)
 

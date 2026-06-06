@@ -8,7 +8,7 @@ post_id: blog-3515952828243908885.post-8976026961266214767
 ---
 
 ![image](https://barcampelsalvador.com/imagenes/logo.jpg)    
-El sábado pasado (5 de Marzo 2011) se celebro un pequeño [BarCamp acá en El Salvador](https://www.srbyte.com/2011/02/barcamp-el-salvador.html).
+El sábado pasado (5 de Marzo 2011) se celebro un pequeño [BarCamp acá en El Salvador](/2011/02/barcamp-el-salvador.html).
 
 Le agradezco a los patrocinadores por el apoyo para la realización del evento: Nokia, LPG Multimedia, Escuela Mónica Herrera, Happy Punk Panda, Save Solutions, Grupo RAF, Class.io y Productos y promociones.
 

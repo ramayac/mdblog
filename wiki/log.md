@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-06-05] ingest | implemented legacy and alternative URL native resolution
+
+- Added `ResolveOldURL` method to `internal/blog/blog.go` that parses year/month/slug patterns (supporting both optional `.html` extension and extensionless formats) and resolves them to active posts using the pre-calculated slugs in the post index.
+- Refactored post rendering in `internal/server/handler.go` to extract a reusable `renderSinglePost` helper, and updated `ServeHTTP` to natively resolve and serve alternative post URLs directly inline (returning `200 OK` instead of performing a redirect).
+- Added unit and integration tests in `internal/blog/blog_test.go` and `internal/server/handler_test.go` verifying direct inline resolution, optional `.html` extensions, prefix stripping, and correct HTML rendering response status.
+- Created `bin/clean-srbyte-urls` and cleaned 121 markdown post files to swap absolute `srbyte.com` links for clean, portable, and relative root paths starting with `/`.
+
 ## [2026-06-03] ingest | created posts-to-content directory renaming dry run plan
 
 - Created `wiki/posts-to-content-dryrun.md` detailing the step-by-step changes required to rename the primary post directory to `content/` across configurations, Makefiles, Dockerfiles, and CI/CD pipelines.
