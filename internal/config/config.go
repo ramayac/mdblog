@@ -159,7 +159,7 @@ func Load(path string) (*Config, error) {
 		cfg.PagesDir = "pages"
 	}
 	if cfg.PostIndexFile == "" {
-		cfg.PostIndexFile = "content/posts.index.json"
+		cfg.PostIndexFile = "content/content.index.json"
 	}
 	if cfg.DateFormat == "" {
 		cfg.DateFormat = "2006-01-02"

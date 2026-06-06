@@ -102,7 +102,7 @@ Many useful commands.
 		ShowUncategorized:      false,
 		PostsDir:               dir,
 		PagesDir:               dir + "/pages",
-		PostIndexFile:          dir + "/posts.index.json",
+		PostIndexFile:          dir + "/content.index.json",
 		DateFormat:             "2006-01-02",
 		DefaultMetaDescription: "Test blog.",
 		CSSTheme:               "assets/css/default.style.css",

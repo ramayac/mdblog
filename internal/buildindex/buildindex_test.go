@@ -14,7 +14,7 @@ func makeTestConfig(t *testing.T) *config.Config {
 	dir := t.TempDir()
 	return &config.Config{
 		PostsDir:      dir,
-		PostIndexFile: filepath.Join(dir, "posts.index.json"),
+		PostIndexFile: filepath.Join(dir, "content.index.json"),
 		DateFormat:    "2006-01-02",
 		Categories: map[string]config.Category{
 			"tech": {BlogName: "Tech", Folder: "tech", Index: true, Menu: true},
@@ -160,7 +160,7 @@ func TestBuild_MultipleCategoriesAndUncategorized(t *testing.T) {
 	dir := t.TempDir()
 	cfg := &config.Config{
 		PostsDir:          dir,
-		PostIndexFile:     filepath.Join(dir, "posts.index.json"),
+		PostIndexFile:     filepath.Join(dir, "content.index.json"),
 		DateFormat:        "2006-01-02",
 		ShowUncategorized: true,
 		Categories: map[string]config.Category{

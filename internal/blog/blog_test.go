@@ -52,7 +52,7 @@ func makeTestConfig(postsDir string) *config.Config {
 	return &config.Config{
 		BlogName:          "Test",
 		PostsDir:          postsDir,
-		PostIndexFile:     filepath.Join(postsDir, "posts.index.json"),
+		PostIndexFile:     filepath.Join(postsDir, "content.index.json"),
 		PostsPerPage:      10,
 		ExcerptLength:     200,
 		DateFormat:        "2006-01-02",
@@ -245,7 +245,7 @@ func TestGetCategoriesSorted_FilterIndex(t *testing.T) {
 	cfg := &config.Config{
 		BlogName:      "Test",
 		PostsDir:      dir,
-		PostIndexFile: filepath.Join(dir, "posts.index.json"),
+		PostIndexFile: filepath.Join(dir, "content.index.json"),
 		PostsPerPage:  10,
 		Categories: map[string]config.Category{
 			"personal": {BlogName: "Personal", Folder: "personal", Index: true},
@@ -281,7 +281,7 @@ func TestGetSubCategories(t *testing.T) {
 	cfg := &config.Config{
 		BlogName:      "Test",
 		PostsDir:      dir,
-		PostIndexFile: filepath.Join(dir, "posts.index.json"),
+		PostIndexFile: filepath.Join(dir, "content.index.json"),
 		PostsPerPage:  10,
 		Categories: map[string]config.Category{
 			"projects": {BlogName: "Projects", Folder: "projects", Index: true},
@@ -967,7 +967,7 @@ func TestGetPostBySlug_SlugMismatchWithCategoryViaIndex(t *testing.T) {
 		"---\ntitle: Desiderata\ndate: 2026-05-19\nauthor: R\n---\n\nPoem.")
 
 	cfg := makeTestConfig(dir)
-	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+	cfg.PostIndexFile = filepath.Join(dir, "content.index.json")
 
 	// Index stores the canonical slug (single hyphen) mapped to the real filename
 	idx := `[{"slug":"2026-05-19-desiderata-on-my-birthday","title":"Desiderata","date":"2026-05-19","author":"R","tags":"","excerpt":"Poem.","category_slug":"tech","source_path":"tech/2026-05-19-desiderata--on-my-birthday.md","filename":"2026-05-19-desiderata--on-my-birthday.md"}]`
@@ -999,7 +999,7 @@ func TestGetPostBySlug_SlugMismatchNoCategoryViaIndex(t *testing.T) {
 		"---\ntitle: Double\ndate: 2026-01-01\n---\n\nContent.")
 
 	cfg := makeTestConfig(dir)
-	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+	cfg.PostIndexFile = filepath.Join(dir, "content.index.json")
 
 	idx := `[{"slug":"my-double-post","title":"Double","date":"2026-01-01","author":"","tags":"","excerpt":"Content.","category_slug":"tech","source_path":"tech/my--double-post.md","filename":"my--double-post.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
@@ -1031,7 +1031,7 @@ func TestResolveSlugViaIndex_UsesFilename(t *testing.T) {
 		"---\ntitle: Mismatch\ndate: 2026-01-01\n---\n\nBody.")
 
 	cfg := makeTestConfig(dir)
-	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+	cfg.PostIndexFile = filepath.Join(dir, "content.index.json")
 
 	// Index slug has single dash; Filename field has double dash
 	idx := `[{"slug":"slug-differs-from-filename","title":"Mismatch","date":"2026-01-01","author":"","tags":"","excerpt":"Body.","category_slug":"tech","source_path":"tech/slug--differs-from-filename.md","filename":"slug--differs-from-filename.md"}]`
@@ -1057,7 +1057,7 @@ func TestResolveSlugViaIndex_UsesFilename(t *testing.T) {
 func TestGetPostBySlug_IndexHasPostButFileMissing(t *testing.T) {
 	dir := t.TempDir()
 	cfg := makeTestConfig(dir)
-	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+	cfg.PostIndexFile = filepath.Join(dir, "content.index.json")
 
 	idx := `[{"slug":"ghost-post","title":"Ghost","date":"2026-01-01","author":"","tags":"","excerpt":"","category_slug":"tech","source_path":"tech/ghost-post.md","filename":"ghost-post.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
@@ -1081,7 +1081,7 @@ func TestGetPostBySlug_IndexHasPostButFileMissing(t *testing.T) {
 func TestGetPostBySlug_IndexMissingCategorySlug(t *testing.T) {
 	dir := t.TempDir()
 	cfg := makeTestConfig(dir)
-	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
+	cfg.PostIndexFile = filepath.Join(dir, "content.index.json")
 
 	// Entry with no category_slug — resolveSlugViaIndex should skip it
 	idx := `[{"slug":"orphan","title":"Orphan","date":"2026-01-01","author":"","tags":"","excerpt":"","filename":"orphan.md"}]`

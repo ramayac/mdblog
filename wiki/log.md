@@ -1,5 +1,17 @@
 # Wiki Log
 
+## [2026-06-06] ingest | created default embedded templates and assets plan
+
+- Created `wiki/embedded-path-plan.md` outlining the technical strategy to enable in-memory assets and templates by default in both local and production environments, while preserving dynamic disk-reloading during development.
+- Linked the plan in `wiki/index.md`.
+
+## [2026-06-06] ingest | renamed posts.index.json to content.index.json and verified parsing performance
+
+- Renamed `posts.index.json` to `content.index.json` to reflect that it lives in the `content/` folder and indexes clean content slugs.
+- Updated default path configurations in `config.toml`, `internal/config/config.go`, `Makefile`, and updated references across all Go unit tests.
+- Created a parsing speed performance test in `internal/blog/performance_test.go` running 500 parse iterations.
+- Verified that parsing the ~400 KB `content.index.json` containing 659 posts averages under 3 milliseconds (approx. 2.86ms), confirming parsing performance is highly optimized.
+
 ## [2026-06-06] ingest | merged description and excerpt in post index
 
 - Removed the redundant `description` field from `posts.index.json` schema (`IndexPost` struct in `buildindex.go`, `indexPost` struct in `blog.go`, and `indexPost` struct in `buildfeed.go`).

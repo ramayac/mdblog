@@ -38,7 +38,7 @@ build-embed: ## Compile embed-variant Lambda binary to bin/lambda-embed
 	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o bin/lambda-embed ./cmd/lambda-embed
 	@echo "Built: bin/lambda-embed (templates + assets embedded)"
 
-build-index: ## Generate post metadata index (writes content/posts.index.json)
+build-index: ## Generate post metadata index (writes content/content.index.json)
 	@echo "Building post metadata index..."
 	go run ./cmd/mdblog build-index
 

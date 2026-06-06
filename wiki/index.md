@@ -10,6 +10,7 @@
 - [navigation.md](navigation.md) | Architecture and decisions for parent/sub-category navigation.
 - [posts-to-content-dryrun.md](posts-to-content-dryrun.md) | Dry run plan for renaming posts to content directory.
 - [clean-slugs-plan.md](clean-slugs-plan.md) | Technical plan for clean category and page slugs.
+- [embedded-path-plan.md](embedded-path-plan.md) | Technical plan for default embedded templates and assets.
 - [log.md](log.md) | Append-only timeline of wiki maintenance.
 
 ## Operations

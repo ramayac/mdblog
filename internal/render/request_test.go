@@ -44,7 +44,7 @@ func TestRequest_Success(t *testing.T) {
 		Lang:          "en",
 		PostsDir:      dir,
 		PagesDir:      dir + "/pages",
-		PostIndexFile: dir + "/posts.index.json",
+		PostIndexFile: dir + "/content.index.json",
 		DateFormat:    "2006-01-02",
 		CSSTheme:      "assets/css/default.style.css",
 		MenuLinks:     []config.MenuLink{{Label: "Home", URL: "/"}},
@@ -111,7 +111,7 @@ func TestRequest_NotFound(t *testing.T) {
 		BlogName:      "Test Blog",
 		PostsDir:      dir,
 		PagesDir:      dir + "/pages",
-		PostIndexFile: dir + "/posts.index.json",
+		PostIndexFile: dir + "/content.index.json",
 		DateFormat:    "2006-01-02",
 		CSSTheme:      "assets/css/default.style.css",
 		Labels: config.Labels{

@@ -64,7 +64,7 @@ func printUsage() {
 	fmt.Println()
 	fmt.Println("Subcommands:")
 	fmt.Println("  serve          Start HTTP server (default :8080, set PORT env to override)")
-	fmt.Println("  build-index    Generate posts/posts.index.json")
+	fmt.Println("  build-index    Generate content/content.index.json")
 	fmt.Println("  build-feed     Generate feed.xml (requires build-index to run first)")
 	fmt.Println("  build-sitemap  Generate sitemap.xml and robots.txt (requires build-index)")
 	fmt.Println("  render         Render a post to a standalone HTML file")

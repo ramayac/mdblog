@@ -19,7 +19,7 @@ func makeTestConfig(t *testing.T) *config.Config {
 		BlogDescription: "A test blog.",
 		Lang:            "en",
 		PostsDir:        dir,
-		PostIndexFile:   filepath.Join(dir, "posts.index.json"),
+		PostIndexFile:   filepath.Join(dir, "content.index.json"),
 		DateFormat:      "2006-01-02",
 		Categories: map[string]config.Category{
 			"tech": {BlogName: "Tech Posts", Folder: "tech", Index: true},

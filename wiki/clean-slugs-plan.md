@@ -24,13 +24,13 @@ And document the changes in the wiki for future reference and onboarding, use a 
 The primary content folder will be renamed from `posts/` to `content/`. This matches the dry-run plan already documented in [wiki/posts-to-content-dryrun.md](posts-to-content-dryrun.md).
 
 ### File Modifications
-- **[config.toml](../config.toml)**: Point `posts_dir` to `"content"` and `post_index_file` to `"content/posts.index.json"`.
+- **[config.toml](../config.toml)**: Point `posts_dir` to `"content"` and `post_index_file` to `"content/content.index.json"`.
 - **[internal/config/config.go](../internal/config/config.go)**: Update fallback Go values if defaults are omitted.
 - **[Makefile](../Makefile)**: Update paths in `build-index` and `new-post` targets.
 - **[internal/blog/blog_test.go](../internal/blog/blog_test.go)**: Update relative test path references.
 - **Dockerfiles ([Dockerfile](../Dockerfile), [Dockerfile.embed](../Dockerfile.embed))**: Copy `content/` instead of `posts/` into the image.
 - **[.github/workflows/ghcr-release.yml](../.github/workflows/ghcr-release.yml)**: Update push triggers path to `content/**/*.md`.
-- **[.gitignore](../.gitignore)** & **[.wikirc](../.wikirc)**: Ignore `content/posts.index.json` and ignore `content/` in wiki searches.
+- **[.gitignore](../.gitignore)** & **[.wikirc](../.wikirc)**: Ignore `content/content.index.json` and ignore `content/` in wiki searches.
 
 ---
 
