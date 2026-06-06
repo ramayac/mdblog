@@ -16,9 +16,10 @@ Pero antes de hablar de esta maravilla, un poco de información:
 
 ¿Qué es Gizmo project?
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8g5XLj6M-ClyEfAyEzzZtigyxn3k_AufaluTkOBoIepHhyKMyBOkZR76tyuqrrs3DCv3knICV6QkS1t4aQOS8UFh72U91sXlBxBrYncZLoMZokFJEFFCyGhBvFDHDFdXxzqnsxJrurOU/s400/gizmo_logo.gif)    Gizmo project es un programa gratuito que usa avanzada tecnología VoIP para permitir hablar a personas alrededor del mundo. Este proyecto esta basado en tecnologías de software libre; para ser mas especifico en granjas de servidores corriendo GNU/Linux y [Asterisk.](https://es.wikipedia.org/wiki/Asterisk)
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8g5XLj6M-ClyEfAyEzzZtigyxn3k_AufaluTkOBoIepHhyKMyBOkZR76tyuqrrs3DCv3knICV6QkS1t4aQOS8UFh72U91sXlBxBrYncZLoMZokFJEFFCyGhBvFDHDFdXxzqnsxJrurOU/s400/gizmo_logo.gif)  
+Gizmo project es un programa gratuito que usa avanzada tecnología VoIP para permitir hablar a personas alrededor del mundo. Este proyecto esta basado en tecnologías de software libre; para ser mas especifico en granjas de servidores corriendo GNU/Linux y [Asterisk.](https://es.wikipedia.org/wiki/Asterisk)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_m0d_7sTP5iAeYdmp0YEqhNznyuI_vanbhgqA-me10eW4WtyD9Jpj0_t3m3O25I7YbWkAjKphSWJ3wnXhuagIBF3faxYhhpV22vr5Nm8uNoEm51WT5_qWd907-r4GDqKO9Rbb0tra1LA/s400/250px-Asterisk_logo.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_m0d_7sTP5iAeYdmp0YEqhNznyuI_vanbhgqA-me10eW4WtyD9Jpj0_t3m3O25I7YbWkAjKphSWJ3wnXhuagIBF3faxYhhpV22vr5Nm8uNoEm51WT5_qWd907-r4GDqKO9Rbb0tra1LA/s400/250px-Asterisk_logo.png)  
 
 ¿Qué es GizmoCall? Es una nueva y revolucionaria forma de hacer llamadas telefónicas directamente desde tu navegador web. Solo se necesita cumplir con ciertos requerimientos mínimos:
 

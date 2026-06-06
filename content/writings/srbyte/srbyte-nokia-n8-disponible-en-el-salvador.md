@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-2774415219453561131
 
 Nokia inicia el 2011 con grandes novedades para el mercado Salvadoreño e introduce el Nokia N8, un dispositivo inteligente que destaca por su diseño elegante y amplia variedad de contenido multimedia desde su pantalla principal.
 
-![image](https://www.priceindia.net/wp-content/uploads/2010/05/Nokia-N8-10.jpg)    
+![image](https://www.priceindia.net/wp-content/uploads/2010/05/Nokia-N8-10.jpg)  
 
 El N8, con respecto a hardware, es un dispositivo sofisticado, orientado a la captura de fotografías en alta definición (con su cámara de 12 MegaPixeles) y video HD, así como también a la conectividad "social" (Facebook y Twitter). Este anuncio resume bastante bien el espíritu del aparato (y en lo personal, lo que considero sus mejores características):
 

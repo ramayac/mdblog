@@ -9,12 +9,11 @@ post_id: blog-3515952828243908885.post-8926299346683622140
 
 Hoy 21 de Abril ha sido publicado en el blog de [Nokia Conversations](https://conversations.nokia.com/2011/04/21/one-step-closer-to-first-nokia-device-built-on-windows-phone/) una nota firmada en conjunto por [Kai Öistämö](https://www.nokia.com/about-nokia/corporate-governance/nokia-leadership-team/dr-kai-oistamo), Vicepresidente Ejecutivo de Nokia y [Andrew Lees](https://www.microsoft.com/presspass/exec/lees/), Presidente del Negocio de Mobile Communications en Microsoft.
 
-La publicación en cuestión, consolida el acuerdo definitivo de colaboración entre las empresas para crear una presencia real contra la competencia existente en el mercado de dispositivos móviles, al que el CEO de Nokia llama: "[El tercer ecosistema](https://conversaciones.nokia.com/2011/02/11/bienvenidos-al-tercer-ecosistema/trackback/)
-".
+La publicación en cuestión, consolida el acuerdo definitivo de colaboración entre las empresas para crear una presencia real contra la competencia existente en el mercado de dispositivos móviles, al que el CEO de Nokia llama: "[El tercer ecosistema](https://conversaciones.nokia.com/2011/02/11/bienvenidos-al-tercer-ecosistema/trackback/)".
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjInlwoMcEg4sbiEmyAcskl0wYBeAhO7ob5t7VqSoN5hn6_G30c6OO4tONz7O1m-wml4Rey1Ebox0vdiJPrRZ3YyuzhXBY84xpq5g0MJNoGfHgPAS31KH2bzO-sWD8pdR-ELMzR7i0sUGs2/s400/tercer-ecosistema-520.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjInlwoMcEg4sbiEmyAcskl0wYBeAhO7ob5t7VqSoN5hn6_G30c6OO4tONz7O1m-wml4Rey1Ebox0vdiJPrRZ3YyuzhXBY84xpq5g0MJNoGfHgPAS31KH2bzO-sWD8pdR-ELMzR7i0sUGs2/s400/tercer-ecosistema-520.jpg)  
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhM64Ysy6UWdO-q4bNod8kx5_Y9m_xKymBusZy5V22gBPamjy4I9uaZlj0IykzSjoqNHI-gcYiu9FOmWQYWl8iJ_rkFaMVL6i89OrDyGp-FsPSo9j0sSyP0aa7SYdjKS9DSOHLZbXSG5IC/s1600/nokia_microsoft150px.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhM64Ysy6UWdO-q4bNod8kx5_Y9m_xKymBusZy5V22gBPamjy4I9uaZlj0IykzSjoqNHI-gcYiu9FOmWQYWl8iJ_rkFaMVL6i89OrDyGp-FsPSo9j0sSyP0aa7SYdjKS9DSOHLZbXSG5IC/s1600/nokia_microsoft150px.jpg)  
 ¿Qué es lo que Microsoft y Nokia ganan y ofrecen en primera instancia?
 
 - Microsoft gana posicionar su sistema (y marca) como una legitima competencia contra el iOS y Android (que tenga éxito o no, es aún muy temprano para discutirlo, pero ustedes entienden a lo que me refiero). Nokia gana un proveedor de software que esta enteramente dedicado a darle el mejor sistema para sus dispositivos.

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4844741908420403216
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmSctgsFlYdIfoDVpG3gEZqCWK8fPWuxfRDgCxa3-8iATcIk57CEzGK3IxW20TMwoZ6ems-Lm8D0felfX8J-kbZqj8288eyoGwNzlVUCcGmYbsAfds3vDNrBtXiviIdDyHXAGXM21W-oM/s320/logo.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmSctgsFlYdIfoDVpG3gEZqCWK8fPWuxfRDgCxa3-8iATcIk57CEzGK3IxW20TMwoZ6ems-Lm8D0felfX8J-kbZqj8288eyoGwNzlVUCcGmYbsAfds3vDNrBtXiviIdDyHXAGXM21W-oM/s320/logo.gif)  
 "Logo Oficial del Sitio y Evento ShutdownDay 2008"
 
 ¿Eres capaz de sobrevivir 24 horas sin utilizar tu computadora?

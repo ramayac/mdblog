@@ -13,7 +13,7 @@ Hay que resaltar que el soporte a otros sistemas operativos solo está dispon
 
 La teoría mas popular que se maneja en estos momentos sobre esta acción tomada por Sony, involucra directamente a un personaje muy famoso en el ambito de "hackear iphones y ipods": [George Hotz](https://en.wikipedia.org/wiki/George_Hotz).
 
-![image](https://www.pmptoday.com/wp-content/uploads/2008/02/geohot-113-iphone-unlock.jpg)    
+![image](https://www.pmptoday.com/wp-content/uploads/2008/02/geohot-113-iphone-unlock.jpg)  
 George Hotz, tambien conocido como Geohot.
 
 En uno de sus [blogs](https://geohotps3.blogspot.com/) ha documentado los avances obtenidos al intentar "hackear"  el PS3, siendo el mas relevante - y preocupante para sony - , la [liberación de un exploit](https://geohotps3.blogspot.com/2010/01/heres-your-silver-platter.html) que permitía acceso completo al espacio de memoria de la consola a través del Sony [Hypervisor](https://en.wikipedia.org/wiki/Hypervisor) y la opción "Other OS Support". Recientemente publicó un ["post"](https://geohotps3.blogspot.com/2010/03/custom-themes.html) en el que se muestra una foto de su PS3 utilizando un tema personalizado, una prueba contundente de que la seguridad de la consola ha sido exitósamente burlada.

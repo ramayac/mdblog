@@ -129,6 +129,7 @@ make render [category] random                                 # Render a random 
 make render filename.md                                       # Render a specific post to HTML
 make request URL="/"                                          # Simulate a GET request to a relative URL
 make new-post TITLE="Title" [CATEGORY=slug] [TAGS="t1, t2"]  # Scaffold a new post
+make clean-urls                                               # Replace absolute srbyte.com URLs with relative root paths
 wiki-engine list                                              # List wiki files
 wiki-engine headings                                          # List wiki headings with file paths
 wiki-engine log-tail                                          # Show recent parseable log headings

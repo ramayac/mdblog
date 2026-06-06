@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4668805172346584219
 ---
 
-![image](https://blog.qwiki.com/wp-content/uploads/2011/01/Search3.jpg)    
+![image](https://blog.qwiki.com/wp-content/uploads/2011/01/Search3.jpg)  
 QWiki.com
 
 Qwiki es una plataforma que brinda una experiencia de aprendizaje totalmente nueva para los internautas. Si alguna vez te habías preguntado ¿qué viene después de la wikipedia? creo que Qwiki es la respuesta. Supongamos que queremos saber sobre la Patagonia, esta es la información que Qwiki nos muestra:

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8568108239776860512
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHOJdzCsPeTn5iZa7PMyjwgpsNl0cTEw7r-lXusI6rdTacL_DLwSKoGv64HPXYo5RidtMSLvX51SNgYt30UjaeQBzYNBwUtvVCvNfrlB0b6JlUvjoRNNHl0AF-6wOXtwXdC1MegBXYw4b5/s320/ANIME.JPG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHOJdzCsPeTn5iZa7PMyjwgpsNl0cTEw7r-lXusI6rdTacL_DLwSKoGv64HPXYo5RidtMSLvX51SNgYt30UjaeQBzYNBwUtvVCvNfrlB0b6JlUvjoRNNHl0AF-6wOXtwXdC1MegBXYw4b5/s320/ANIME.JPG)  
 
 Hace no mucho estuve recibiendo un curso sobre animación, que más que una obligación, fue un proyecto personal. El curso fue de Adobe Flash CS3. Este programa permite al animador muchas facilidades para crear contenidos interactivos. Es dinámico, con una plataforma accesible y entendible, que permite a cualquiera dar con facilidad sus primeros pininos en el dibujo y la animación.
 

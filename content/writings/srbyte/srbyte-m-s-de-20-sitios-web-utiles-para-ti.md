@@ -11,7 +11,7 @@ Definitivamente, no hablo de cualquier sitio web. Esta es una lista "pura" y exc
 
 ¿Necesitas una manera sencilla de respaldar tu computadora? ¿Una nueva forma de descubrir música que se ajuste a tu humor y tus gusto? ¿O necesitas saber como limpiar o como funciona algo? ¿Y que tal si quieres reírte un rato?
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_kCPd8e5-_SwlWC9HELAroCoTRuY43YAuP87mXhiVI3t-MIeWqpvMo8mjH3O11DfB_CX9qYKi9xbhAKcHLWgAkFv2wQEg8vFJ-OPClT4-G3EQEvraH9-f6ykCUPF5mJMszvIqoiydbPI/s200/wired.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_kCPd8e5-_SwlWC9HELAroCoTRuY43YAuP87mXhiVI3t-MIeWqpvMo8mjH3O11DfB_CX9qYKi9xbhAKcHLWgAkFv2wQEg8vFJ-OPClT4-G3EQEvraH9-f6ykCUPF5mJMszvIqoiydbPI/s200/wired.jpg)  
 "Imagen: Vida alambrada digital"
 
 Pues para todo esto lector, existe un sitio que esta solo a un click de distancia. Aquí dejo una lista de sitios web super útiles, de los que quizás ni siquiera sabias que existen. Si tienes algún sitio que compartir (y YO se que si), deja el vinculo en los comentarios para agregarlos a esta lista (y seras debidamente agradecido).
@@ -29,7 +29,8 @@ Felicidad y humor:
 - [Musicicovery](https://musicovery.com/): Descubre música de acuerdo a tu estado de animo (humor), "niveles de energía", genero preferido y más. Con una interfaz gráfica atractiva, y los resultados se muestran como un "mapa mental". Recomendado!
 - [Last.fm](https://www.last.fm/): Encuentra la música que te gusta, personas afines a tus gustos musicales, escucha música en linea, y encuentra artistas y grupos relacionados.
 - [WikiTravel](https://wikitravel.org/en/Main_Page): Wikipedia para los viajeros. Toneladas de detalles útiles e información para los destinos que deseas visitar.
-- [Dosis Diarias](https://www.dosisdiarias.com/) [:](https://www.dosisdiarias.com/) Tiras cómicas de Alberto Montt. Recomendado!
+- [Dosis Diarias](https://www.dosisdiarias.com/)  
+[:](https://www.dosisdiarias.com/) Tiras cómicas de Alberto Montt. Recomendado!
 Familia y Hogar
 
 - [Geni.com](https://www.geni.com/). Super aplicación que permite construir todo tu árbol familiar en linea. Adicionalmente, puedes establecer perfiles y recordatorios y más. ¡Es pocas palabras, es una red social privada para tu familia!

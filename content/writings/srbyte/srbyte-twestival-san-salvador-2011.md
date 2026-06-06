@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-8817139989824309569
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggoVnBabmrVEETSJ05gejD_W3S_T53zytqWzvVaU44_WNb4AJJXTSt2FfCpnOfgXTvhbi67QZWBbqrkmQLlK4BvF2ZY5hS_kC5YMz3QnGNCvYw6XWJ9r58VeAr9_mxkMRw-aF3EQMkZpkH/s1600/index.jpg)    El primer [Twestival local](https://sansalvador.twestival.com/) que se realizara en El Salvador, que cuenta con el apoyo de la Cruz Roja Salvadoreña, tiene como objetivo principal recaudar donantes de sangre:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggoVnBabmrVEETSJ05gejD_W3S_T53zytqWzvVaU44_WNb4AJJXTSt2FfCpnOfgXTvhbi67QZWBbqrkmQLlK4BvF2ZY5hS_kC5YMz3QnGNCvYw6XWJ9r58VeAr9_mxkMRw-aF3EQMkZpkH/s1600/index.jpg)  
+El primer [Twestival local](https://sansalvador.twestival.com/) que se realizara en El Salvador, que cuenta con el apoyo de la Cruz Roja Salvadoreña, tiene como objetivo principal recaudar donantes de sangre:
 
 > "Nuestro objetivo principal recaudar donantes de sangre para ayudar a todas las personas que lo necesitan y hacer conciencia de que todos podemos ser voluntarios." -- [Sitio Oficial](https://sansalvador.twestival.com/).
 Esta es una iniciativa que verdaderamente salva vidas, y es una necesidad latente y constante. Todos estamos invitados a participar, los detalles del evento son:

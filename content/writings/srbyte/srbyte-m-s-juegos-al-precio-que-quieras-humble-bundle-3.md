@@ -15,7 +15,7 @@ El Humble Indie Bundle, en su tercera entrega, nos trae cinco juegos indie clá
 - [VVVVVV](https://thelettervsixtim.es/)
 - [And Yet It Moves](https://www.andyetitmoves.net/)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3KikpROrVKv-OiY_XFVwPWvA9CIQrRBUabw1hEwbf8O0O45I5gUcXMK56AiW6NBPQZe8fU6Z6QZ9vAn-9fOac5_mwv496qXTzDqCuai_fedrWVShOh2n6wRelW3zpCb05IMJFLNDbZrh5/s400/humblebundle3real.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3KikpROrVKv-OiY_XFVwPWvA9CIQrRBUabw1hEwbf8O0O45I5gUcXMK56AiW6NBPQZe8fU6Z6QZ9vAn-9fOac5_mwv496qXTzDqCuai_fedrWVShOh2n6wRelW3zpCb05IMJFLNDbZrh5/s400/humblebundle3real.png)  
 Humble Indie Bundle 3
 
 Como siempre, ustedes ponen el precio que quieran, todos los juegos son multiplataforma (y redimibles en Stream), además el porcentaje que ustedes quieran va para Child's Play Charity y la Electronic Frontier Foundation, y también para los desarrolladores.

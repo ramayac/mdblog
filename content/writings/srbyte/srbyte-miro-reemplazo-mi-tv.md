@@ -13,18 +13,18 @@ Pero lo que quiero es un programa, un cliente de escritorio para ver estos "webc
 
 Ciertamente ya existe una aplicación así, se llama: Miro.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvolQkbWgcVRq_Tr0Z6oodA4eXY6W-3BIbY0bgiL7G8JckdbaX9wyxaGV3HOTzGIDvJfoIdPx7-nIrKvEhv2HNuQp0aKuZ2d8_jVgY0Tk30mxfBxZLDXpZfnanNfg-T4YHYL2_9-U8En9b/s200/Miro_icon.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvolQkbWgcVRq_Tr0Z6oodA4eXY6W-3BIbY0bgiL7G8JckdbaX9wyxaGV3HOTzGIDvJfoIdPx7-nIrKvEhv2HNuQp0aKuZ2d8_jVgY0Tk30mxfBxZLDXpZfnanNfg-T4YHYL2_9-U8En9b/s200/Miro_icon.png)  
 Su concepto es brillante y a la vez extremadamente simple: Un catalogo de videos basado en suscripciones ([RSS/Feed](/2008/03/que-es-el-rss-feed-rssatomxmlsyndicatio.html)), que permite descargar video podcasts y ver mis "biblioteca" de videos locales.
 
-![image](https://s3.getmiro.3.0.com.s3.amazonaws.com/i/screenshots/mac-guide.png)    
+![image](https://s3.getmiro.3.0.com.s3.amazonaws.com/i/screenshots/mac-guide.png)  
 
 Y tambien permite agregar audio podcast, y añadir canales de youtube al catalogo. Suena como iTunes, pero sin las licencias restrictivas y con un aspecto social importante. Si, Miro tambien posee un componente social que incita a participar alimentando su catalogo de contenido, con  recomendaciones o valoraciones entre otros.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkzq2zxvAK4V_kUi2LntF17Nrr5iQDdkdlq9BpN76Omqup7sNQZUPiATB5GLmngQhDlkZt6vhR9shVA_O3C3feNbI0AEOD5tO5R2YY_9acUpJiQevyEuw6uHOweEDBusbOqUQ-y29qXpkw/s320/publish-addchan.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkzq2zxvAK4V_kUi2LntF17Nrr5iQDdkdlq9BpN76Omqup7sNQZUPiATB5GLmngQhDlkZt6vhR9shVA_O3C3feNbI0AEOD5tO5R2YY_9acUpJiQevyEuw6uHOweEDBusbOqUQ-y29qXpkw/s320/publish-addchan.png)  
 
 Miro ademas soporta caracteristicas como BitTorrent, asistencia para crear y distribuir videos, canales de video por topico, por valoracion, recomendados por moderador, y muchos programas. Miro tambien reproduce videos en HD, soporta subtitulos, y lo mejor, es multi plataforma.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD1YO-uBCjNZmAnvOWYFZ3bH7XhINVVF4FVP0SHjTnUx8IMc-Zi2Vv0CrSIhL9vCNHclw8PIWZowbyGSDQsNMja2TgYHgOHwYpHQICWDu94sMyuDyl-RZWFqIYZpi2p5y7RyUOf5N9tkm0/s320/MiroUbuntu.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD1YO-uBCjNZmAnvOWYFZ3bH7XhINVVF4FVP0SHjTnUx8IMc-Zi2Vv0CrSIhL9vCNHclw8PIWZowbyGSDQsNMja2TgYHgOHwYpHQICWDu94sMyuDyl-RZWFqIYZpi2p5y7RyUOf5N9tkm0/s320/MiroUbuntu.png)  
 
 Sinceramente, seria genial ver programas de Salvadoreños o más programas latinoamericanos o españoles entre los canal de Miro TV, si algun Salvadoreño se anima, no dude en contactarnos y avisar, para hacerle la mención ;)
 

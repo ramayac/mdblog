@@ -7,10 +7,9 @@ draft: false
 post_id: blog-3515952828243908885.post-2568561640281338538
 ---
 
-TPB AFK o The Pirate Bay Away From Keyboard, es un interesante documental que trata sobre los fundadores de "[The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay)
-", el popular sitio de trackers de archivos .torrent de magnet links para distribuir archivos usando Bittorrent.
+TPB AFK o The Pirate Bay Away From Keyboard, es un interesante documental que trata sobre los fundadores de "[The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay)", el popular sitio de trackers de archivos .torrent de magnet links para distribuir archivos usando Bittorrent.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEzDKOD0zRHmkePaRy0zxm86UWEavATl1ZJBuhhuvOdNHDflg0DYseg5-ASCQ4n4b4dioNK6ztNMSnz9bLVjJALF19N3rOAk_uvYSmfsDXtCnXnjQdStFobS0wgsvh0ioN7he-YmLcWLCS/s320/TPB-AFK-logo-bat-cave.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEzDKOD0zRHmkePaRy0zxm86UWEavATl1ZJBuhhuvOdNHDflg0DYseg5-ASCQ4n4b4dioNK6ztNMSnz9bLVjJALF19N3rOAk_uvYSmfsDXtCnXnjQdStFobS0wgsvh0ioN7he-YmLcWLCS/s320/TPB-AFK-logo-bat-cave.png)  
 
 No crean que el documental esta relacionado a la infraestructura, programación o retos técnicos de mantener el tracker más grande del mundo ([o por lo menos ser el tracker el más visitado con un global rank de 74](https://www.alexa.com/siteinfo/thepiratebay.se)), para nada, más bien trata de las dificultades que enfrentaron sus fundadores, especialmente con las compañías que se ven afectadas por que su contenido se encuentre "ahí" y con su interminable lucha en la "guerra de derechos de autor".
 

@@ -7,11 +7,11 @@ draft: false
 post_id: blog-3515952828243908885.post-5048429236935370344
 ---
 
-Un miembro del equipo de desarrollo de [Amarok](https://srbyte.blogspot.com/2007/03/amarok-rocks.html) ha logrado compilar una versión del mismo en Windows. ITunes... ahora si que estas en problemas.
+Un miembro del equipo de desarrollo de [Amarok](/2007/03/amarok-rocks.html) ha logrado compilar una versión del mismo en Windows. ITunes... ahora si que estas en problemas.
 
 Desde hace pocos días ya es posible ejecutar Amarok2, el maravilloso reproductor de música del entorno KDE tan popular en los sistemas GNU \ Linux, en Windows. Concretamente lo que se logrado es compilar y ejecutar Amarok2, que es la versión de desarrollo, o inestable, que los programadores del software libre siempre ponen a disposición de programadores y testers para su prueba.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6r-QZ7_by6MTC8Vlu5NxwiYQ7zQ1FEiKYdV1-r-8__hF5OwOaqzHHN5XKlOXD1NoXVi72IeKWciFyFHuLVCV5LkJauyLNiP2UNn007LBmwLaFHpO0kqatnWMQxQtN_eWaJgx8vSn4pW8/s400/amarok_win1.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6r-QZ7_by6MTC8Vlu5NxwiYQ7zQ1FEiKYdV1-r-8__hF5OwOaqzHHN5XKlOXD1NoXVi72IeKWciFyFHuLVCV5LkJauyLNiP2UNn007LBmwLaFHpO0kqatnWMQxQtN_eWaJgx8vSn4pW8/s400/amarok_win1.jpg)  
 "Amarok 2 en Windows!"
 
 Todo esto ha sido posible gracias al increíble trabajo emprendido por el desarrollador del equipo de Amarok Dan Meltzer, que paso (solamente) dos días depurando el código para compilar Amarok 2 nativamente en Windows. Básicamente la mayoría del código de Amarok ya era multiplataforma y "portable" a otros sistemas casi sin cambios. Esto demuestra (nuevamente) el beneficio de desarrollo de aplicaciones con librerías multiplataforma como QT de Trolltech (los mismos desarrolladores del navegador Opera). Lo interesante de esta compilación es que ofrece casi las mismas funciones que la versión original, exceptuando alguna limitación como la búsqueda de ficheros multimedia en dispositivos USB, algo que el equipo de desarrollo promete corregir cuanto antes. Y claro, ya cuando lo hayan hecho, prometen poner a disposición de todos la versión funcional compilada.

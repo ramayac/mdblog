@@ -11,7 +11,7 @@ Definite es un mashup de la discografía de DaftPunk [realizada por Cameron Adam
 
 Este mashup nos presenta una visualización en tiempo real del montaje de 23 pistas de DaftPunk, cuidadosamente colocadas y montadas a lo largo de seis minutos, en el que se obtiene una mejor comprensión de la anatomía del mashup y del trabajo que requiere hacer uno.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqGZBCzNWq-giInbtRkEkgm3kR02fxKTvY6QbngjCYF-9XwzrgdiIfnt1uOCklej3z8Gyym2MMAsqd_wMs6UloySYY0sliKXyUtpQtFZQdxu0TnofifW1VPyvsEvQAedvIYROuzxnCnETg/s400/definite.daftpunk.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqGZBCzNWq-giInbtRkEkgm3kR02fxKTvY6QbngjCYF-9XwzrgdiIfnt1uOCklej3z8Gyym2MMAsqd_wMs6UloySYY0sliKXyUtpQtFZQdxu0TnofifW1VPyvsEvQAedvIYROuzxnCnETg/s400/definite.daftpunk.png)  
 Captura de Definite - Daftpunk Mashup Todos los gráficos de Definite se generan en tu navegador empleando HTML5 y CSS3: canvas, audio, transformaciones y transiciones. Por lo que se necesita un navegador decente ([Google Chrome](https://www.google.com/chrome/?hl=es)/Safari) para ver sin problemas la visualización.
 
 Si eres amante de DaftPunk, de visualizaciones en tiempo real, HTML5, mashups, música, arte, etc... esto es algo que tenes que ver, visita Definite acá:

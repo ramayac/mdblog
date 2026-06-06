@@ -18,7 +18,7 @@ Recientemente me vi en la "obligación" de instalar un Windows XP a una maquina,
 
 Creo que esas limitantes, se merecen esta imagen:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii4HGvz-Qu6eUk7bgpKmAEEmhGkWiKA8kCCvVyel08fO3iCwLrOZXD5Ug_Zlvx8dI-eENLFE2mc5SuUlQQFegnB6u5ghdrYD-d2nLeEYD28ABhVIoJKzNkma42z_qqScCSBDqk3D8RpCjj/s200/microsoft_lazy.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEii4HGvz-Qu6eUk7bgpKmAEEmhGkWiKA8kCCvVyel08fO3iCwLrOZXD5Ug_Zlvx8dI-eENLFE2mc5SuUlQQFegnB6u5ghdrYD-d2nLeEYD28ABhVIoJKzNkma42z_qqScCSBDqk3D8RpCjj/s200/microsoft_lazy.jpg)  
 
 Detalles, detalles, para no darle muchas vueltas al asunto, la basura no arrancaba. Así que hice el "truco legendario" de mapear los dispositivos en el GRUB, más no sabía que había cambiado ligeramente la sintaxis del comando map (irónicamente en la ayuda [este cambio no se menciona](https://www.gnu.org/software/grub/manual/html_node/map.html)).
 

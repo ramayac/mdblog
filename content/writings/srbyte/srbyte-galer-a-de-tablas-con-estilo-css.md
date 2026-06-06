@@ -11,7 +11,7 @@ Recientemente estaba en la tarea de diseñar un par de tablas para mostrar infor
 
 Terminado el HTML me dispuse a pensar en la forma más eficiente de darle estilo a mi tabla para que se acoplara a los colores y formas del resto del sitio y buscando en internet me encontré con esta fuente de inspiración y recursos denominada [CSS Table Gallery](https://icant.co.uk/csstablegallery/).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9cuwEmlu1reEktLzM7tYUdrxFCO6wR0uf0OnZMkT39s9eDbYXhBUxe2SChBUhW9fWqbEYHVNQ3v3NTxGW_K_tb58zNJ0qLMuqTL-0b1A368cnR5IPtCyRyBvHtXGucoP7O7t4BYuTq40/s320/Screen+shot+2011-09-20+at+8.57.37+PM.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9cuwEmlu1reEktLzM7tYUdrxFCO6wR0uf0OnZMkT39s9eDbYXhBUxe2SChBUhW9fWqbEYHVNQ3v3NTxGW_K_tb58zNJ0qLMuqTL-0b1A368cnR5IPtCyRyBvHtXGucoP7O7t4BYuTq40/s320/Screen+shot+2011-09-20+at+8.57.37+PM.png)  
 
 "El sitio en cuestión, mostrando aplicado uno de los estilos sobre la tabla de estilos"
 

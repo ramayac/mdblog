@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8972450777597994202
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB4M17WFw2dpIfNeKazQLuDtpzCOoNO9tlMmUhK5lnCaijYmhp05EBCqnm932tVSQhc7HmeMaaYV2FLkYnKJCEivGPWxmISW177M63Tl7NGokIAsGkMfnXMRS5IebIXYGDFkX606fwAjM/s400/zen.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiB4M17WFw2dpIfNeKazQLuDtpzCOoNO9tlMmUhK5lnCaijYmhp05EBCqnm932tVSQhc7HmeMaaYV2FLkYnKJCEivGPWxmISW177M63Tl7NGokIAsGkMfnXMRS5IebIXYGDFkX606fwAjM/s400/zen.jpg)  
 "Libérate del Stress de escribir páginas HTML a mano"
 
 Todo desarrollador web alguna vez tuvo que ensuciarse las manos escribiendo código HTML y se habrá dado cuenta de lo inmenso y engorroso que este puede volverse y de la poca eficiencia de los IDEs con capacidades WYSIWYG existentes. Aún teniendo frameworks como [GWT](/2009/10/trabajando-con-google-web-toolkit-y.html) que nos generan automáticamente todo el HTML y Javascript de nuestro sitio, en muchas ocasiones estos no resuelven nuestras necesidades específicas o "no forman parte del estándar de soluciones viables en nuestra empresa".

@@ -13,7 +13,7 @@ Aquí les va una noticia interesante: a partir de Ubuntu 11.04, el popular Ub
 
 ¿El problema? Ubuntu seguirá usando Unity, en lo personal no le he tomado mucho cariño, preferiría GNOME Shell, pero bueno, esos ya son gustos personales.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLmNcYSK47B5AK19H5RhWaTgeZu6NfkEPhxA2k96l3WlpZvtVv9yZ7i1TzY7ojvlVFVAopAbjBSINjYh52E_5Onog7Pqrl3YuRDt5kRtIOiQPmTraF9NuQRjZ1T-1E9gGWOIwUOzq-VJnM/s320/FileGNOME+Shell.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLmNcYSK47B5AK19H5RhWaTgeZu6NfkEPhxA2k96l3WlpZvtVv9yZ7i1TzY7ojvlVFVAopAbjBSINjYh52E_5Onog7Pqrl3YuRDt5kRtIOiQPmTraF9NuQRjZ1T-1E9gGWOIwUOzq-VJnM/s320/FileGNOME+Shell.png)  
 GNOME Shell 3.0 Los dejo con un vídeo de Unity :
 
 [YouTube video player](https://www.youtube.com/embed/zoUTBsL7M1s)

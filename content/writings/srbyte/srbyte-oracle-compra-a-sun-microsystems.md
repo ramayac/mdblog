@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4683499292409589782
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Ez6oc2KrOsWEeBcvtJFhbDbpLQQWfiSO7gnfPs9eKkxOiGB5Tc51QoSR5roZ_rQtI1XjK8cS9DR4z5NI1oS3Y5BzgZXz9w943AYDoMAPqFC8lHr7uCY2ipfSQ_QFpjpEhgrkcmio1gA/s400/hp1v3_announcement.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Ez6oc2KrOsWEeBcvtJFhbDbpLQQWfiSO7gnfPs9eKkxOiGB5Tc51QoSR5roZ_rQtI1XjK8cS9DR4z5NI1oS3Y5BzgZXz9w943AYDoMAPqFC8lHr7uCY2ipfSQ_QFpjpEhgrkcmio1gA/s400/hp1v3_announcement.jpg)  
 "Esto es lo que me apareció esta noche al visitar el sitio de Sun Microsystems. Aún no lo creo."
 
 Después de unos muy interesantes intentos de negociaciones entre IBM y Sun Microsystems para que la primera adquiriera a la segunda, resulta que fue Oracle, el emperador de las bases de datos, quien terminó adquiriendo a la moribunda empresa de Sun Microsystems por nada más y nada menos que 7,400 millones de dólares.

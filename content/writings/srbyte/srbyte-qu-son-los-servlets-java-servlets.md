@@ -19,7 +19,7 @@ De manera fundamental, un Java Servlet (o solo: Servlet) es una aplicación que 
 
 Uno de los temas mas intrigantes, citados y curiosos de los Servlets es su aclamada mejora en el rendimiento versus losCGI. Un CGI tradicional es escrito en Perl (script CGI), C (CGI compilado), etc... y su desventaja es que para servir a cada usuario (usualmente un http request) conectado con el servidor donde se aloje el CGI, el sistema tendrá que crear un nuevo proceso de ese mismo CGI... si hay 10,000 usuarios conectados al servidor solicitando utilizar el CGI "Hola Mundo", este iniciara 10,000 procesos para servir a cada usuario.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNTvUkMXBHm6ATsDRTm4kWCn1yjZhoT7UWdYtlmgX15n1G4ogA_pU-Snr4xbS39WSNNIuCjvjfq0a5EzImidWTOpOxAr3xREOEmOcHeKgrwJ1tbv5NKuVFh4Ik2chMv5KJ2muq0RxJp8gd/s320/javaservletur2.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNTvUkMXBHm6ATsDRTm4kWCn1yjZhoT7UWdYtlmgX15n1G4ogA_pU-Snr4xbS39WSNNIuCjvjfq0a5EzImidWTOpOxAr3xREOEmOcHeKgrwJ1tbv5NKuVFh4Ik2chMv5KJ2muq0RxJp8gd/s320/javaservletur2.jpg)  
 "Para la próxima, añade un libro de Java a la carta que haces a Santa"
 
 El impacto sucede con CGI que se manejan a niveles corporativos, con miles de solicitudes de usuarios por segundo (req/seg), de esa manera se sobrecarga el CPU y llena la memoria RAM a tal grado que se gasta más tiempo administrando los procesos que sirviendo los usuarios, lo que se traduce a una carga innecesaria para el servidor y que puede influir en el rendimiento del mismo.
@@ -30,7 +30,8 @@ Usualmente un servlet se une en conjunto con un JSP, en un patrón de codificaci
 
 La API para programar Servlets (Java Servlet API) es una parte "estandar" de la plataforma J2EE.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvdFL8dfhUuLa1rJN2xcIWtzXjQ_v1WJoqW3miIMEeWFdrD5QgMiEDn9F6Ao_MHA7VT6UQJ2INHjJVE0P1wtN8jHZkMzYxJ8tkI_T4P8vkZEXvAGZXlREV1MXtDuPziQ_vlEog6_ssW_vN/s320/Wave.png)    La utilidad de conocer que son o como funcionan los Servlets radica en que se utilizan enormemente, tanto en el ámbito empresarial y como en la red. Si estas buscando que tecnología conocer para conseguir trabajo, pues te sugerimos que comiences por aprender a utilizar Servlets y JSP, que es un requerimiento en la mayoría de empresas formales para conseguir trabajo aquí en El Salvador.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvdFL8dfhUuLa1rJN2xcIWtzXjQ_v1WJoqW3miIMEeWFdrD5QgMiEDn9F6Ao_MHA7VT6UQJ2INHjJVE0P1wtN8jHZkMzYxJ8tkI_T4P8vkZEXvAGZXlREV1MXtDuPziQ_vlEog6_ssW_vN/s320/Wave.png)  
+La utilidad de conocer que son o como funcionan los Servlets radica en que se utilizan enormemente, tanto en el ámbito empresarial y como en la red. Si estas buscando que tecnología conocer para conseguir trabajo, pues te sugerimos que comiences por aprender a utilizar Servlets y JSP, que es un requerimiento en la mayoría de empresas formales para conseguir trabajo aquí en El Salvador.
 
 Algunos recursos adicionales sobre los Servlets:
 

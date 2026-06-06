@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-8311296546419745089
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkGr_q95LYPl0d8MZyQYrSvbQrA0oxlToe2ldT3WCEwk2b65PD2v5ZLoZbQiAbtsNzycpWUPzE7AD9ao3Kx5CiRhFaOZQob7Uvgyux8nDqVXuTWkejM91O3Jaf0n6nXR8SxqSKQ4Ireiw/s320/Chrome_nav_150x75.jpg)    [El nuevo navegador de Google](/2008/09/navegador-web-de-google.html) ha logrado llenar la web de opiniones y un sin fin de expectativas: ¿Destronara a IE?, ¿Erradicara a Firefox? y podemos añadir un sin fin de comentarios y "twits" de anuncian el fin, o el principio del fin, para los principales navegadores. De toda eso ya se pueden encontrar mucho en Internet, de lo que nadie habla, es de Google Chrome desde el punto de vista de un Desarrollador de Software. Pues bien, para eso estamos ;)
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkGr_q95LYPl0d8MZyQYrSvbQrA0oxlToe2ldT3WCEwk2b65PD2v5ZLoZbQiAbtsNzycpWUPzE7AD9ao3Kx5CiRhFaOZQob7Uvgyux8nDqVXuTWkejM91O3Jaf0n6nXR8SxqSKQ4Ireiw/s320/Chrome_nav_150x75.jpg)  
+[El nuevo navegador de Google](/2008/09/navegador-web-de-google.html) ha logrado llenar la web de opiniones y un sin fin de expectativas: ¿Destronara a IE?, ¿Erradicara a Firefox? y podemos añadir un sin fin de comentarios y "twits" de anuncian el fin, o el principio del fin, para los principales navegadores. De toda eso ya se pueden encontrar mucho en Internet, de lo que nadie habla, es de Google Chrome desde el punto de vista de un Desarrollador de Software. Pues bien, para eso estamos ;)
 
 ¿Si Google Chrome es Open Source, donde esta el código? Seamos exactos: NO hay código de Google Chrome. Lo que si esta disponible es el codigo de Google Chromium. Podemos decir con toda propiedad que:
 
@@ -16,7 +17,7 @@ post_id: blog-3515952828243908885.post-8311296546419745089
 - Google Chromium ES Open Source
 La primera parada para los incrédulos es revisar la guía de documentación de Chromium en [dev.chromium.org](https://dev.chromium.org/)....
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0kno3DZ2rqTRHDAGiJLsomBOyQWcqKlj_mD5Tso6hyphenhyphenfcSPn1V8cjT2nGe3i-lCbsdyDBMMVURoJr1NUlS0dfwjB-5nmI8kyCjg6JdElUQPyW4egWJog7XV6bZBXSjnkOYK0rbP9yaMm8/s320/chormium.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0kno3DZ2rqTRHDAGiJLsomBOyQWcqKlj_mD5Tso6hyphenhyphenfcSPn1V8cjT2nGe3i-lCbsdyDBMMVURoJr1NUlS0dfwjB-5nmI8kyCjg6JdElUQPyW4egWJog7XV6bZBXSjnkOYK0rbP9yaMm8/s320/chormium.png)  
 "El logo de Chormium es en escala de azules."
 
 Así es amigos y amigas, "Chormium" es el nombre de la versión open source de Chrome, y Chrome a su vez, es la versión oficial y estable de Google.
@@ -34,7 +35,8 @@ Lo que si es cierto, es que la versión de Chrome para Windows esta diseñada pa
 Puntualizando: no esperen una versión para Mac o Linux en algún momento cercano, simplemente, falta mucho para que eso suceda.
 
 Quiero descargar el código y compilarlo: ¿vale la pena?
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZYMQaxTaW9RcZMeDqLgB5ZYw9RoLzullU5s1SX3YzLGOx9-wAUuHv2tgZHahd8M3zpPi03Ybi2eyNtd2zMX0qGNEOiVZC6FNR7IlHTAbgMKR8n2B6XcbjGSVKo5CSXusj7_wRpxBv7fM/s200/subversion_logo-384x332.png)    No, obtener el código es mas difícil de solo de dar un click y descargar. Por que además de eso, hay que instalar las librerias que "la solucion" demanda, y tambien hay que instalar una serie de scripts que permiten el [acceso al repositorio SVN](/2008/03/programemos-mejor-subversion.html) de Chromium. Si bien son scripts para la consola, se sienten lo suficientemente familiares para cualquier desarrollador con un poco de experiencia. Lo que implica trabajar con un repositorio SVN, es que se obtiene la ultima versión del código, pero obtenerlo en estos momentos, me parece un poco ridículo, porque Chomium es un proyecto en constante movimiento. Sin mencionar que el código es terriblemente pesado y puede alcanzar cerca de 2.4 GB de código, incluyendo pruebas para depurar WebKit (el renderizador de las paginas web). Solo el código de Chromium mide cerca de 500 MB comprimido. Repito, no, no vale la pena descargar el código e intentar compilarlo. Si desean aprender a compilar proyectos ajenos, comiencen compilando archivos ".tar.gz" pequeños, luego el Kernel de Linux, Mozilla Firefox, y finalmente KDE o GNOME.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZYMQaxTaW9RcZMeDqLgB5ZYw9RoLzullU5s1SX3YzLGOx9-wAUuHv2tgZHahd8M3zpPi03Ybi2eyNtd2zMX0qGNEOiVZC6FNR7IlHTAbgMKR8n2B6XcbjGSVKo5CSXusj7_wRpxBv7fM/s200/subversion_logo-384x332.png)  
+No, obtener el código es mas difícil de solo de dar un click y descargar. Por que además de eso, hay que instalar las librerias que "la solucion" demanda, y tambien hay que instalar una serie de scripts que permiten el [acceso al repositorio SVN](/2008/03/programemos-mejor-subversion.html) de Chromium. Si bien son scripts para la consola, se sienten lo suficientemente familiares para cualquier desarrollador con un poco de experiencia. Lo que implica trabajar con un repositorio SVN, es que se obtiene la ultima versión del código, pero obtenerlo en estos momentos, me parece un poco ridículo, porque Chomium es un proyecto en constante movimiento. Sin mencionar que el código es terriblemente pesado y puede alcanzar cerca de 2.4 GB de código, incluyendo pruebas para depurar WebKit (el renderizador de las paginas web). Solo el código de Chromium mide cerca de 500 MB comprimido. Repito, no, no vale la pena descargar el código e intentar compilarlo. Si desean aprender a compilar proyectos ajenos, comiencen compilando archivos ".tar.gz" pequeños, luego el Kernel de Linux, Mozilla Firefox, y finalmente KDE o GNOME.
 
 Pero si aun así, siguen de necios, [aquí están las instrucciones](https://dev.chromium.org/developers/how-tos/build-instructions-windows).
 
@@ -42,7 +44,7 @@ El código fuente: El código, hasta donde lo vi (si, lo descargue, pero NO lo c
 
 Notas Finales: Por ser un Beta, no esperen grandes cosas aún de Google Chrome/Chromium. Personalmente no me agrado darme cuenta de la "movida" de Google al dividir su proyecto en una versión "pulida y comercial" y en otra que no lo es tanto. Desde un punto de vista comercial, es sabio y conveniente hacerlo así. Pero por un breve instante, que confieso: fue muuuuy ingenuo de mi parte, quería que Google Chrome fuera en su totalidad Open Source. Si bien Google Chrome es una interesante propuesta es solo
 > ...otro navegador web más.
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKXtSJUL6Q7AespoBZM2tq-hq8kYwq9X8JKRratJ8eKpUiwn9k8M2KgDBwDzeVwhV8a5rLsoQ8hT7PuQxx3WZCF1HIVl_10Xf8Cma6dI6WDeoikgVDBd_4chJ0f0_Dii4PhUGnjZDTOGI/s320/googlechrome_450x257.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKXtSJUL6Q7AespoBZM2tq-hq8kYwq9X8JKRratJ8eKpUiwn9k8M2KgDBwDzeVwhV8a5rLsoQ8hT7PuQxx3WZCF1HIVl_10Xf8Cma6dI6WDeoikgVDBd_4chJ0f0_Dii4PhUGnjZDTOGI/s320/googlechrome_450x257.jpg)  
 "Así es, Chrome es solamente otro navegador web mas."
 
 Ni siquiera Microsoft se ha podido deshacer aún de IE 6, mucho menos Chrome podrá erradicar de la faz de la tierra a Opera, Safari, IE y a Firefox. ¿Pronosticos?, reservado... ¿por qué? Simple porque Chrome es beta, y nadie en su sano juicio demanda, exige o emite pronósticos de software de un beta "0.2"; como se haría con un producto completo. Ahora, como Desarrollador Web bueno, esa es otra historia que se comentará luego ...

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7492151323197734901
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu3kt0-GBNK6RzH4bc7GnC5in2EMi5MRLlawpMfSp6xSyxWdvVIkObx523G8pwkN1HXsBrNXP9KV-PpvTv_P98zcuvEzOXWjr61n_1-gSpJ1NCLQ8ffXI3v7SuO0rcuVXg9gCfUyuP-cQ/s400/Bitwise+2009.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu3kt0-GBNK6RzH4bc7GnC5in2EMi5MRLlawpMfSp6xSyxWdvVIkObx523G8pwkN1HXsBrNXP9KV-PpvTv_P98zcuvEzOXWjr61n_1-gSpJ1NCLQ8ffXI3v7SuO0rcuVXg9gCfUyuP-cQ/s400/Bitwise+2009.png)  
 "Logo del Bitwise, concurso online de programacion"
 
 Cada año desde el 2001, el instituto de ciencia y tecnología de Kharagpur en la India, organiza un concurso online de programación abierto para todo el mundo de forma gratuita. Acá tendras que demostrar tus habilidades desarrollando soluciones a una serie de algoritmos matemáticos en un lapso de 12 horas, ya sea que participes solo o como un equipo.

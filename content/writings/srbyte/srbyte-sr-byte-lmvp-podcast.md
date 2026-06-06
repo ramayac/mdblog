@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8540291952728622091
 ---
 
-![image](https://www.fafamonge.com/images/lmvp_logo.jpg)    
+![image](https://www.fafamonge.com/images/lmvp_logo.jpg)  
 "Logotipo del Podcast 'Lo Mas Variado Posible' de Fafamonge"
 
 Uno de los autores de este su blog, tuvo el placer de participar el podcast No. 17 de nuestro compañero blogger, Rafael Monge. Fafa, en su blog, publica regularmente una serie de archivos de [podcasts (grabaciones de audio, capaces de ser escuchadas on-line)](/2008/08/qu-es-un-podcast-y-como-escuchar.html) en los que entrevista a diferentes personajes de la blogósfera salvadoreña y comentan temas relacionados con la misma, al mismo tiempo que brinda la oportunidad que los escuchas del podcast conozcan mas de dicho personaje entrevistado.

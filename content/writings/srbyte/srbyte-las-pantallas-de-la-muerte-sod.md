@@ -11,12 +11,12 @@ Tenia rato de no tener una "Pantalla de la Muerte" asechando en mi monitor, y es
 
 En la familia de Windows NT, estos errores suceden cuando los controladores de los dispositivos están mal codificados/programados o cuando el hardware funciona incorrectamente.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiLenrfq-jweir6Cq7CrXoGzus0kC5tn6XUAFTfbWX8eVegAASpCy-NFr320Go_0bKTRN7zECQmpVe6iSMMv43O1od8hUxFNgTglymQJQIFz3w58v6L9AUD-QTK5BDd2qB72RpxVYX2B8/s400/Windows_XP_BSOD.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiLenrfq-jweir6Cq7CrXoGzus0kC5tn6XUAFTfbWX8eVegAASpCy-NFr320Go_0bKTRN7zECQmpVe6iSMMv43O1od8hUxFNgTglymQJQIFz3w58v6L9AUD-QTK5BDd2qB72RpxVYX2B8/s400/Windows_XP_BSOD.png)  
 "BSOD de Windows NT"
 
 En la familia de Windows 9x (95, 98, 98SE, Me, etc...) eran los DLLs el problema, o bugs en el Kernel:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBOqqtxkmUcOoGMve1P3-aS0e-mM6T7yY_K2mb2GA6usfcit74_aMiQjX6PHSAzlL49V399tq5GD3RkUMw-PfHxV5pBgLannnx3kRfroSftXUyWBGveZsvWr4-_ke4lrU_m-Vq0fbqY8o/s400/Windows_9X_BSOD.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBOqqtxkmUcOoGMve1P3-aS0e-mM6T7yY_K2mb2GA6usfcit74_aMiQjX6PHSAzlL49V399tq5GD3RkUMw-PfHxV5pBgLannnx3kRfroSftXUyWBGveZsvWr4-_ke4lrU_m-Vq0fbqY8o/s400/Windows_9X_BSOD.png)  
 "BSOD de Windows 9x"
 
 Inclusive puede suceder, que si se golpea -fuerte- el CPU, la maquina se reinicia y muestra la BSOD.
@@ -25,37 +25,37 @@ Por cierto los "amigos" de Microsoft, han incluido una característica en Window
 
 Bien, si dejamos el mundo de Winbugs Windows, veremos que hay muchos dispositivos también tienen esta "característica". La Xbox 360, cuando esta consola experimenta una "fallo general de hardware", tres luces rojas aparecen alrededor del botón de encendido.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfT-CU8a_4owihjk3yuqdtrXHMEXNqKtj004TD8Si-D2Qw6FD-VPZTt4PcG99aNG9enEowsk_erumeSvRTMtWCduJJXH-pa_v4CepS9OpXK7N1QX3eWTVAfnKo-R-9mbHMaQCiJB74p_w/s400/Xbox360-ringofdeath.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfT-CU8a_4owihjk3yuqdtrXHMEXNqKtj004TD8Si-D2Qw6FD-VPZTt4PcG99aNG9enEowsk_erumeSvRTMtWCduJJXH-pa_v4CepS9OpXK7N1QX3eWTVAfnKo-R-9mbHMaQCiJB74p_w/s400/Xbox360-ringofdeath.jpg)  
 "Xbox 360 anillo de la muerte"
 
 El nintendo DS también tiene una pantalla de la muerte, que sucede cuando se remueve una tarjeta DS o un cartucho de GBA mientras se esta en el menú de selección de Pictochat. El color de la pantalla esta basado en la versión del Firmware del DS:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrsV1B_Vu6i7UX4zmVQSIwwrm-G_jh-DSLcrTzty_OyABxOAd-AIQG2EPva1AO_hdkyxNuJEspWuKgY7oyvBRVmr5raqEvVooVCdgHuxJvv9YQsIPC7-lyUqvg01hj90ppR6nm33Yo42Q/s400/DS_BSoD.JPG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrsV1B_Vu6i7UX4zmVQSIwwrm-G_jh-DSLcrTzty_OyABxOAd-AIQG2EPva1AO_hdkyxNuJEspWuKgY7oyvBRVmr5raqEvVooVCdgHuxJvv9YQsIPC7-lyUqvg01hj90ppR6nm33Yo42Q/s400/DS_BSoD.JPG)  
 "Pantalla de la muerte del nintendo DS"
 
 Parece que entre la gente que ha comprado el nuevo iPhone, esta apareciendo un nuevo rumor: sobre algun problema del software 2.0 y 2.0.1 del iPhone o de alguna aplicación de maliciosa (para el iPhone) que daña el sistema operativo del mismo, solo que este error... es permanente :-S (hay usuarios que reportan que la característica de restauración no funciona).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhwKH5q6oD88vGLwnnJWW1908R12b9yTiJ_JscU0hdTbsakgBcCk9EAuh5_3GU83fZlQluEWm4nM8cjcGiMZGWeHL3vDdV0jHz7iYq2Hq0Vuga5LxGVMDjWP2vb4_OMbhYxZ0oTr1WEJ8/s400/iphone-boot-screen.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhwKH5q6oD88vGLwnnJWW1908R12b9yTiJ_JscU0hdTbsakgBcCk9EAuh5_3GU83fZlQluEWm4nM8cjcGiMZGWeHL3vDdV0jHz7iYq2Hq0Vuga5LxGVMDjWP2vb4_OMbhYxZ0oTr1WEJ8/s400/iphone-boot-screen.jpg)  
 "Pantalla de la Muerte para el iPhone"
 
 Los productos de Apple tampoco se salvan, antes la mayoría de Mac tenían esta imagen:
 
-![image](https://1.bp.blogspot.com/_ayvorITawE4/SJu6ZxBsVjI/AAAAAAAABAM/jNl5fhL8XrI/s400/Sad_mac.png)    
+![image](https://1.bp.blogspot.com/_ayvorITawE4/SJu6ZxBsVjI/AAAAAAAABAM/jNl5fhL8XrI/s400/Sad_mac.png)  
 "Pantalla de la Muerte, Sad Mac"
 
 Los primeros iPod, también tienen una especie de "Sad Mac":
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-JMQ5SY6z4SMfX_pHuA7Q79FV1mTWBGEtEX7bjrvUid2OPjJ7XL_2-5QTgwmTOhmKkjwjMilVvAMxMppeyTYlqx_fuPXJFo5fx__-2mQmY0r8I3yW-Id47W2Rz7PGpM6RZxaH3xDmjQE/s400/Sad_iPod.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-JMQ5SY6z4SMfX_pHuA7Q79FV1mTWBGEtEX7bjrvUid2OPjJ7XL_2-5QTgwmTOhmKkjwjMilVvAMxMppeyTYlqx_fuPXJFo5fx__-2mQmY0r8I3yW-Id47W2Rz7PGpM6RZxaH3xDmjQE/s400/Sad_iPod.png)  
 "Sad iPod"
 
 Y desde OS X, las Mac tiene una "elegante" pantalla de la muerte:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghDOhc5xhQacSXdXSxiGH84coW58CqyaJOQWrSrLnx1OtGeyz-CGptsRd-lAneUW_l75jEjm_SdL2BSJC1iBN4czzXdpLZTjJQDTojra0epwUuiEY0EmOAFue6yzKNpg1EMsa6Mt9-C38/s400/MacOSX_kernel_panic.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghDOhc5xhQacSXdXSxiGH84coW58CqyaJOQWrSrLnx1OtGeyz-CGptsRd-lAneUW_l75jEjm_SdL2BSJC1iBN4czzXdpLZTjJQDTojra0epwUuiEY0EmOAFue6yzKNpg1EMsa6Mt9-C38/s400/MacOSX_kernel_panic.png)  
 "Pantalla de la Muerte de Mac OS X"
 
 También GNU/Linux tiene el temido "Kernel Panic", que en lo personal, solo me ha sucedido dos veces: una por un CD de instalación rayado, y otra por que yo compile mal el kernel. Pero también tiene pantalla de la muerte:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioCWcM0588kqJnDjmgiBqH7DNMe_6auz2cupateRalqwP_kTF98d2evljYh5VRFeD5Br2-xtO_ojG5irmVOFeskZoaDTVjT9l3LL3X9bb4CHVQuIA1IY1JvQqSfVc18eA9iy6Jjv6in-I/s400/Kernel-panic.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioCWcM0588kqJnDjmgiBqH7DNMe_6auz2cupateRalqwP_kTF98d2evljYh5VRFeD5Br2-xtO_ojG5irmVOFeskZoaDTVjT9l3LL3X9bb4CHVQuIA1IY1JvQqSfVc18eA9iy6Jjv6in-I/s400/Kernel-panic.jpg)  
 "Kernel Panic!"
 
 El problema de un SOD para el usuario, es que sus mensajes de error son algo inexplicables/cripticos/misteriosos y no ayudan en nada a los usuarios a conocer el "porque" del error sucedido, lo que contribuye al pánico y la ansiedad (jaja).

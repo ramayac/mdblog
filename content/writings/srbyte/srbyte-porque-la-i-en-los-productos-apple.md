@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-8108791751544809008
 
 El día de hoy, a través de [Fayerwayer](https://www.fayerwayer.com/2008/05/10-anos-del-imac/#more-6912) me doy cuenta que el producto que causó controversia e innovación en el diseño de las computadoras en general allá por la época de 1998, la Apple iMac "todo en uno" cumple diez años de existencia en el mercado.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAX7AslDeRCj_ujquCgNwYsqPiCu9ddVKyozCNCBglhZn7rx2D24uu3mw94uyXDBMr7LI9VtGwY8lgZAV5M41lbbQSfaDTVdbOyk0NMsahPiMS3rxyOkt7hj423ZuNNRx5m1jB7V9QNwU/s320/iMacs.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAX7AslDeRCj_ujquCgNwYsqPiCu9ddVKyozCNCBglhZn7rx2D24uu3mw94uyXDBMr7LI9VtGwY8lgZAV5M41lbbQSfaDTVdbOyk0NMsahPiMS3rxyOkt7hj423ZuNNRx5m1jB7V9QNwU/s320/iMacs.png)  
 "Feliz Cumpleaños iMac!"
 
 Desde entonces, Apple ha lanzado una serie de productos con un diseño muy elegante y creativo y nombres simples como las iBook, iPod, iTunes y recientemente el iPhone, por lo que siempre me había quedado la duda sobre ¿A que se debe la tan mencionada "i" que precede a toda esta gama de productos?

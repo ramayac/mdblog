@@ -11,7 +11,8 @@ Introducción: Esta película tiene muchas cosas que hacen que valga la pena ver
 
 "Video: Juno, avance."
 
-![image](https://www.reelmovienews.com/images/gallery/the-juno-movie-poster_292x410.jpg)    Sinopsis: Se cuenta la historia de Juno, una audaz pre-adolescente cuyo aburrimiento no la lleva a comprar en el "Mall". En vez de eso, termina haciendo un viaje a los brazos de su mejor amigo Paulie Bleeker. Cuando Juno descubre que esta embarazada, se ve forzada a crecer - aunque no parece así al principio - y encontrar una pareja de padres adoptivos que brinden los cuidados que ella no podrá dar a su pequeño.
+![image](https://www.reelmovienews.com/images/gallery/the-juno-movie-poster_292x410.jpg)  
+Sinopsis: Se cuenta la historia de Juno, una audaz pre-adolescente cuyo aburrimiento no la lleva a comprar en el "Mall". En vez de eso, termina haciendo un viaje a los brazos de su mejor amigo Paulie Bleeker. Cuando Juno descubre que esta embarazada, se ve forzada a crecer - aunque no parece así al principio - y encontrar una pareja de padres adoptivos que brinden los cuidados que ella no podrá dar a su pequeño.
 
 "Canción de la película Juno: Anyone Else But You"
 

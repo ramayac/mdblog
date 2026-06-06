@@ -9,22 +9,22 @@ post_id: blog-3515952828243908885.post-3979787832796494422
 
 Tienes GNU\Linux en tu sistema?, lo usas a diario? (o al menos semanalmente?)...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUcFgYDimGiOpjkDpqZdC9_P013GJLl5cfbyn3NldhT2kFpHu4JJQEAJdr5W0Eh3yYFaR2uRJQALlbxLfENlU4STVijIwd9x2_bAT4OtUyJRWgC_6VsingeQLAMySFgvJ6Zg3anBgvWWw/s200/happytux.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUcFgYDimGiOpjkDpqZdC9_P013GJLl5cfbyn3NldhT2kFpHu4JJQEAJdr5W0Eh3yYFaR2uRJQALlbxLfENlU4STVijIwd9x2_bAT4OtUyJRWgC_6VsingeQLAMySFgvJ6Zg3anBgvWWw/s200/happytux.png)  
 "Tux"
 
 Si es asi, de acuerdo a algunas personas (y los que propagan el mito) si tienes GNU\Linux en tu sistema eres un super hombre...
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr3fl2DiIuN1VN0kQmXukQZ3tJBPv7wybE5vmUo6jtiq9quZ26VfanW6PkHGLFopWzdbQQ4N8SVDSyuVVOQ4NPie9nJCfy92gH7Vy_2w9HxC3DkSBNxDjmuARhueDXq9vRJOHX975MK3A/s320/superlogo.jpeg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr3fl2DiIuN1VN0kQmXukQZ3tJBPv7wybE5vmUo6jtiq9quZ26VfanW6PkHGLFopWzdbQQ4N8SVDSyuVVOQ4NPie9nJCfy92gH7Vy_2w9HxC3DkSBNxDjmuARhueDXq9vRJOHX975MK3A/s320/superlogo.jpeg)  
 "Logo de Superman"
 
 Las distribuciones de GNU\Linux han hecho un sin fin de increíbles malabares para realizar de manera mas sencilla la instalación a través de los años.Hay instalaciones que super sencillas, por ejemplo la instalación de Linspire.
 
-![image](https://www.ffnn.nl/media/.gallery/image213.png)    ![image](https://www.ffnn.nl/media/.gallery/image237.png)    ![image](https://www.ffnn.nl/media/.gallery/image238.png)    
+![image](https://www.ffnn.nl/media/.gallery/image213.png)![image](https://www.ffnn.nl/media/.gallery/image237.png)![image](https://www.ffnn.nl/media/.gallery/image238.png)  
 
 "Capturas de pantalla de instalación de Linspire Five-0"
 
 Hasta la imagen para reiniciar es suficientemente explicativa como para que cualquier usuario entienda que tiene que hacer...
 
-![image](https://www.ffnn.nl/media/.gallery/image239.png)    
+![image](https://www.ffnn.nl/media/.gallery/image239.png)  
 
 "Captura de pantalla de instalación de Linspire Five-0"
 
@@ -57,15 +57,21 @@ Estoy completamente de acuerdo con que la mayoría de usuarios no desean usar un
 
 Les recomiendo que vean este vídeo del Desafio 2.0 Install & GO organizado por los miembros del eGhost (grupo de Software Libre de la Universidad de Deusto) conciste en ver quien instala un sistema operativo funcional en el menor tiempo.
 
-[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)
 
-[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE) [https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)
-"[Mas información del desafió aquí](https://www.e-ghost.deusto.es/phpwiki/index.php/Desafio20Blog)
-"
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)  
+[https://www.youtube.com/v/FFC2Kyfe2EE](https://www.youtube.com/v/FFC2Kyfe2EE)
+"[Mas información del desafió aquí](https://www.e-ghost.deusto.es/phpwiki/index.php/Desafio20Blog)"
 
 Pero si algo es seguro, es que Instalar GNU\Linux en una maquina, es tan difícil como instalar y darle mantenimiento a Windows... bueno, instalar GNU\linux siempre es más fácil.
 
-![image](https://www.acota.de/pics/humor/tux/dummy1024x768.jpg)    
+![image](https://www.acota.de/pics/humor/tux/dummy1024x768.jpg)  
 "Sick of Crashing? Fondo de pantalla"
 
 Espera los mitos de GNU\Linux desmitificados muy pronto! Saludos!

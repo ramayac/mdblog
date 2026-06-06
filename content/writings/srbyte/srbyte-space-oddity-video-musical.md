@@ -7,9 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-9185436194821796921
 ---
 
-Rápidamente les quiero compartir  este increible video que hizo el astronauta canadiense "[Chris Hadfield](https://en.wikipedia.org/wiki/Chris_Hadfield)
-", desde la estación espacial internacional (ISS) haciendo un cover de nada más y nada menos de "[Scape Oddity](https://www.youtube.com/watch?v=D67kmFzSh_o)
-" (de David Bowie).
+Rápidamente les quiero compartir  este increible video que hizo el astronauta canadiense "[Chris Hadfield](https://en.wikipedia.org/wiki/Chris_Hadfield)", desde la estación espacial internacional (ISS) haciendo un cover de nada más y nada menos de "[Scape Oddity](https://www.youtube.com/watch?v=D67kmFzSh_o)" (de David Bowie).
 
 Y lo van a ver, y les va a gustar, ¿por qué?:
 

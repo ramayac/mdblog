@@ -7,9 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-5264936241908580953
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiattrotvtBVPXOpC6E64r4bQhFus-oL22W_Ky6Vc45UxDukad0tqWjdzLC_sk8yDauaZFAGV8iq_FWltJOD2iWmLih_-Ib8BXMwWVgKnIOzJ9KuMYOkD1n97ZcSFnr06mX4stiziVNQSdw/s320/prey-mobile-icon-trimmed.png)    
-Mañana hago un viaje a [#NokiaTalk](/2010/05/nokiatalk.html) y llevare mi netbook conmigo, pensando en el peor de los casos, esta pudiera perderse o ser robada. Asi que me puse a buscar, alguna forma de "mantener la pista" de mi netbook, si es que la robaran. En el mercado de aplicaciones existen variadas alternativas para dar "seguimiento" cuando se es victima del robo de una portatil, pero no todas estas (aplicaciones) son gratis, sencillas de usar o multiplataforma, y mucho menos OpenSource. Al menos, eso pensaba hasta que me encontre con "[Prey Proyect](https://preyproject.com/es)
-". Prey Proyect ([nada que ver con el popular juego FPS](https://www.prey.com/)) es una aplicacion que permite recibir reportes de una portatil robada siempre y cuando este se conecte a Internet.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiattrotvtBVPXOpC6E64r4bQhFus-oL22W_Ky6Vc45UxDukad0tqWjdzLC_sk8yDauaZFAGV8iq_FWltJOD2iWmLih_-Ib8BXMwWVgKnIOzJ9KuMYOkD1n97ZcSFnr06mX4stiziVNQSdw/s320/prey-mobile-icon-trimmed.png)  
+Mañana hago un viaje a [#NokiaTalk](/2010/05/nokiatalk.html) y llevare mi netbook conmigo, pensando en el peor de los casos, esta pudiera perderse o ser robada. Asi que me puse a buscar, alguna forma de "mantener la pista" de mi netbook, si es que la robaran. En el mercado de aplicaciones existen variadas alternativas para dar "seguimiento" cuando se es victima del robo de una portatil, pero no todas estas (aplicaciones) son gratis, sencillas de usar o multiplataforma, y mucho menos OpenSource. Al menos, eso pensaba hasta que me encontre con "[Prey Proyect](https://preyproject.com/es)". Prey Proyect ([nada que ver con el popular juego FPS](https://www.prey.com/)) es una aplicacion que permite recibir reportes de una portatil robada siempre y cuando este se conecte a Internet.
 
 Algunas de sus características son:
 
@@ -21,7 +20,7 @@ Algunas de sus características son:
 - Sistema de mensajes/alertas: Puedes alertar al individuo de que está siendo perseguido enviándole mensajes que aparecerán en pantalla. También puedes activar una alarma para dejarle claro el mensaje no sólo a él sino a todos quienes estén cerca.
 - Actualizaciones automáticas: No necesitas actualizar cada versión nueva de Prey a mano. Al activar esta funcionalidad, Prey verificará que la versión instalada (y la de cada uno de sus módulos) es la actual, y en caso de que no lo sea, bajará y actualizará todo de manera automática.
 - Y ademas, Prey es multiplataforma y 100% OpenSource.
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCoo5qVS5rrISP0agLKvhx-zXvgrqpttIqrJx8GV7OoZJVaegDcA9NvTmSr5X4uEIBi-JebKini-TwZpCeL6R_K7X_poZ0PxhQARxQq9eugUdVAFOmE1nSvjpS3oZ_DUtDlCDMDu0Poa3l/s320/prey-packages-540x237.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCoo5qVS5rrISP0agLKvhx-zXvgrqpttIqrJx8GV7OoZJVaegDcA9NvTmSr5X4uEIBi-JebKini-TwZpCeL6R_K7X_poZ0PxhQARxQq9eugUdVAFOmE1nSvjpS3oZ_DUtDlCDMDu0Poa3l/s320/prey-packages-540x237.png)  
 ¿Como funciona?
 
 - El usuario se registra en la página web y descarga el software  disponible para Windows/MacOSX/Linux y Android también...

@@ -9,7 +9,8 @@ post_id: blog-3515952828243908885.post-7918910236755948437
 
 El nuevo sistema operativo (SO) de Microsoft sin lugar a dudas es algo digno de ver y estudiar detenidamente. Windows Vista es toda una nueva plataforma de: trabajo, entretenimiento, desarrollo y comunicaciones. Este nuevo sistema - tan esperado por algunos - marca una nueva tendencia en los productos de Microsoft. Un nuevo estilo de aplicaciones nos espera con Windows Presentation Foundation, tecnologías unificadas con framework 3.0 y muchas otras "nuevas" tecnologías adicionales que terminan en "Foundation". Pero este sistema no es solo un gran motor de gráficos vectoriales llamativos y colores, sonidos y juegos. Es controversial, confuso e inclusive tonto. Así que antes de comprar Windows Vista, por favor sigue leyendo...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheqJ-FgsAiB9eRg7eBcOIR_SL0JUjFyOi9yOY_mytl3Qv0o8SCYwwaZlIPo2uYwqCbOK955P03KjgclWsyZn-rQxwztdcRa6lWQtpXWauAO0kLbPdcVnbbobXB5kxUYnDKSLlN4Wo_lFc/s400/quick_vista.gif)    Confuso:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheqJ-FgsAiB9eRg7eBcOIR_SL0JUjFyOi9yOY_mytl3Qv0o8SCYwwaZlIPo2uYwqCbOK955P03KjgclWsyZn-rQxwztdcRa6lWQtpXWauAO0kLbPdcVnbbobXB5kxUYnDKSLlN4Wo_lFc/s400/quick_vista.gif)  
+Confuso:
 
 Recuerdo perfectamente que uno de los eslogan de Microsoft para Vista era:
 > "Windows Vista, trayendo claridad a tu mundo"
@@ -23,7 +24,8 @@ prefiero que me digan la verdad:
 > "El usuario es el que se adapta a las restricciones y limitaciones que el sistema impone en SU computadora personal"
 cita tomada (y traducida) de el sitio de [Microsoft](https://www.microsoft.com/windows/products/windowsvista/editions/default.mspx):
 
-> ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDOjN5J-HU0t2QetcwoAvjvz8TojsmB_Rh3W9FxIB1sBY8DGc0LhZpQ2nZIEP1LEfKetkWsVQon46S8825eho9TLw4yMCBqI4Nhl3hWsu5C6uChqy6JCsWzwEBXOuDfyUmPPr_yxctRr0/s400/icon_boxshotultimate.gif)    Windows Vista edición: Ultimate
+> ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDOjN5J-HU0t2QetcwoAvjvz8TojsmB_Rh3W9FxIB1sBY8DGc0LhZpQ2nZIEP1LEfKetkWsVQon46S8825eho9TLw4yMCBqI4Nhl3hWsu5C6uChqy6JCsWzwEBXOuDfyUmPPr_yxctRr0/s400/icon_boxshotultimate.gif)  
+Windows Vista edición: Ultimate
 > Windows Vista Ultimate es la elección para esos que quieren tenerlo todo. Fácilmente cambie entre los mundos de productividad y juego con la edición más completa de Windows Vista. Ultimate provee el poder, la seguridad,y la movilidad características necesarias para el trabajo, y las demás características de entretenimiento que usted quiere para divertirse.
 
 ¿Por que Microsoft limita la experiencia del usuario en diversas ediciones?...

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5224065773591661222
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh34pXNlgBWsi1BkJMejyGkRB26QRRv-NAArONxvoDmfnEIFTz9aqFupS5piF3HvBHvYdbFp3SugfNCJzxpCdEACJ5JWuQQRrAuLj92LEu_8GJ6gkPHU2WiBwPWsSMGsWq4voyL2kwSe5k/s320/www.owasp.org+screen+capture+2011-12-15-23-32-23.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh34pXNlgBWsi1BkJMejyGkRB26QRRv-NAArONxvoDmfnEIFTz9aqFupS5piF3HvBHvYdbFp3SugfNCJzxpCdEACJ5JWuQQRrAuLj92LEu_8GJ6gkPHU2WiBwPWsSMGsWq4voyL2kwSe5k/s320/www.owasp.org+screen+capture+2011-12-15-23-32-23.png)  
 
 "OWASP - Logo de la página oficial"
 
@@ -17,7 +17,7 @@ La referencia y documentación sobre vulnerabilidades comunes en el diseño y t�
 
 Me tomé la libertad de descargar y probar la librería en su versión para Java 1.5 para jugar un rato con ella pero se ve un tanto compleja como para juzgarla a la ligera. Por tal razón me reservo mis comentarios de su uso y cuando haya podido implementarla actualizo con mis comentarios.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiswO6-PXLRQq9Ud1psch_OnCNJn9i0aEtgAJ5WdDDRjSErckYUiBXaG_oNCMbypE2wdqGc8VNLautP2K8OLg2otyA5p3xdusuK3BjUPKnMAM-IC7_5kSdhTiSP5f6Al7Pc2tLMUu3iZD8/s320/Screen+shot+2011-12-15+at+11.39.56+PM.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiswO6-PXLRQq9Ud1psch_OnCNJn9i0aEtgAJ5WdDDRjSErckYUiBXaG_oNCMbypE2wdqGc8VNLautP2K8OLg2otyA5p3xdusuK3BjUPKnMAM-IC7_5kSdhTiSP5f6Al7Pc2tLMUu3iZD8/s320/Screen+shot+2011-12-15+at+11.39.56+PM.png)  
 
 "Captura de pantalla del Read Me"
 

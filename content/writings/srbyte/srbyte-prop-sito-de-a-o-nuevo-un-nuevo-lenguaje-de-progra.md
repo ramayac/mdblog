@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7213948230430421182
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwY8LtKfMRPtEVKwgHC3sgYjafZQCYp9ISwoyINSP0LDZtRDfoW6fyDoas4NmuklaXO3gGIT6ml8uSAXUbWWiDjnG6h1SlKkq8YTQURwlSPICozlouDDGsZ_aclhV7uuubUnm-WK5AdQ/s400/Laptop+Coffee.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwY8LtKfMRPtEVKwgHC3sgYjafZQCYp9ISwoyINSP0LDZtRDfoW6fyDoas4NmuklaXO3gGIT6ml8uSAXUbWWiDjnG6h1SlKkq8YTQURwlSPICozlouDDGsZ_aclhV7uuubUnm-WK5AdQ/s400/Laptop+Coffee.jpg)  
 Llegó el año nuevo y muchos suelen establecer propósitos que intentarán cumplir durante el nuevo año. Unos pueden proponerse hacer más ejercicio, conseguir un nuevo trabajo, procrastinar menos, etc. En esta ocasión les propongo como propósito aprender un nuevo lenguaje de programación.
 
 Posiblemente seas ya un master en .Net, ya conozcas todo lo que se debe saber sobre los foundation y hasta tengas tu certificación. Quizá tengas años de experiencia trabajando con java y sus stacks, quizá spring, faces, ejbs. Quizá seas uno de los mejores con Python o Ruby o quizá tengas un enorme portafolio de sitios elaborados con PHP en tu currículum. Es muy importante escoger un lenguaje de programación, aferrarnos a el y conocerlo a fondo pero no debemos quedarnos hasta ahí. Es importante seguir avanzando y no necesariamente en la misma rama que ya dominamos porque llegará un momento en el que nuestro lenguaje ya no sea el más popular o el mejor pagado en el mercado y sea hora de migrar a uno nuevo.

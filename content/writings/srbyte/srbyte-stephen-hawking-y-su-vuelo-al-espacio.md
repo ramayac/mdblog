@@ -11,7 +11,7 @@ No es solo una persona que a pesar de su terrible condición, nos inspira y hace
 
 En la navidad de 1962 Hawking había notado que se había vuelto más torpe (con sus habilidades motoras) durante su último año en Oxford y a principios de 1963, pasó dos semanas haciéndose pruebas en el hospital y le diagnosticaron una enfermedad neuronal motora deformativa (Enfermedad de Lou Gehrig).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9BPC6Ca_ltdaCgB2uqWtWzMHadfszZviqY7JG5gEm0pQgYNwChZNx-oxaKnloUPkjHsY-963Brk-HGqkdFgRiuAiFIjiMj5C74FpGLPCjJyvARPo4Bmo6jZT7Uob1ZO84Pj6xRX3iR68/s400/hawking.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9BPC6Ca_ltdaCgB2uqWtWzMHadfszZviqY7JG5gEm0pQgYNwChZNx-oxaKnloUPkjHsY-963Brk-HGqkdFgRiuAiFIjiMj5C74FpGLPCjJyvARPo4Bmo6jZT7Uob1ZO84Pj6xRX3iR68/s400/hawking.jpg)  
 "Stephen Hawking"
 
 Su estado se deterioró rápidamente y los médicos le pronosticaron que no viviría lo suficiente para acabar su doctorado en física cuántica y relatividad. Sin embargo, Hawking escribió:
@@ -25,7 +25,7 @@ Su sueño consistía en sentir la ingravidez del espacio, sentirse libre de su s
 
 Tanta fue la emoción del viaje que Sir Hawking hasta se tomo una fotografía con una manzana, un simbolismo Newtoniano...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWJo9jeeKhRViKHQXe9Ure1oybXo-I5OJEqPmYUC1uQQNbiFF7khRLf8AEC14cvg57ZxOlvRvV1AAjm3C0CJuZZVWfOsYQjORVLX-Hzu9pZIMsTCDrE4fWygu6bZbbJoDEQ7QmLBt0HeM/s400/hawking-zero-g.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWJo9jeeKhRViKHQXe9Ure1oybXo-I5OJEqPmYUC1uQQNbiFF7khRLf8AEC14cvg57ZxOlvRvV1AAjm3C0CJuZZVWfOsYQjORVLX-Hzu9pZIMsTCDrE4fWygu6bZbbJoDEQ7QmLBt0HeM/s400/hawking-zero-g.jpg)  
 "Stephen Hawking con su manzana"
 
 Sigue, Stephen, con tus teorías sobre el espacio y física cuántica, formulando principios para la creación de agujeros negros y leyes gravitacionales. Pero sobre todas las cosas sigue soñando, así vences la gravedad que te ata a tu silla de ruedas y nos regalas una historia de inspiración para alojar en nuestros corazones.

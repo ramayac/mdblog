@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4427478790484058378
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT05ALscrWRwEofngJo2IdT-bCMElpDBjII2npHWQjkX7acfLOJeHhr3QchBzqFzuN_rSPyNS1ucXi-r3p21D0jeb0h7PpmECLero_Qp7Di2xP5rwGjgCaLlq_vNU0-9z5JRL68qg49Qw/s400/llevo-decadas-en-la-empresa-y-no-me-promueven-pero-me-dejan-jugar-wow.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT05ALscrWRwEofngJo2IdT-bCMElpDBjII2npHWQjkX7acfLOJeHhr3QchBzqFzuN_rSPyNS1ucXi-r3p21D0jeb0h7PpmECLero_Qp7Di2xP5rwGjgCaLlq_vNU0-9z5JRL68qg49Qw/s400/llevo-decadas-en-la-empresa-y-no-me-promueven-pero-me-dejan-jugar-wow.jpg)  
 "Imagen ligeramente inspirada en hechos reales xD"
 
 "¿Cómo se proyecta usted en su futuro de acá a diez años?" preguntó la encargada de recursos humanos que se encargó de hacerme la entrevista laboral. "Como coordinador de equipos de desarrollo o subgerente de IT" fue mi respuesta, sabiendo que la evolución lógica de un programador es a convertirse en jefe de equipos de desarrollo o subgerente y eso además me hacía ver visionario y con metas propuestas. Desde entonces esa había sido mi meta personal o mi aspiración para mi próximo puesto de trabajo una vez ganada experiencia y de ser posible mayores grados académicos. Hoy en día me pongo a pensar ¿es eso lo que realmente quiero hacer dentro de diez años?

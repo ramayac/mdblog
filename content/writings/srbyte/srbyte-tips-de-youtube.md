@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-3951349049094925047
 
 Este es una mini guía para aquellas personas que gustan de videos de mayor calidad que la que YouTube provee por defecto. Desde hace algunos meses YouTube ya provee una opción para ver en mayor resolución ciertos videos:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq2-BpASjWo6FTPm9F6L6L3w5N-BCDgPbw2MygHMxEwTBp0nQHL77cXjeb9wW60XBpZQz6Z-3QmDr5ZmQSUpmK6Q2Q4n5F7flTfd6U-sUgobfiwEGhM5sfvobLja3WyYPLzpPAhqyRUpw/s320/youtubehdopcion.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq2-BpASjWo6FTPm9F6L6L3w5N-BCDgPbw2MygHMxEwTBp0nQHL77cXjeb9wW60XBpZQz6Z-3QmDr5ZmQSUpmK6Q2Q4n5F7flTfd6U-sUgobfiwEGhM5sfvobLja3WyYPLzpPAhqyRUpw/s320/youtubehdopcion.jpg)  
 "Opción para ver videos en mejor calidad"
 
 Pero YouTube ha estado "jugando" tras bambalinas con diversas resoluciones de los videos que los usuarios suben. Por esa razón es que podemos añadir "&fmt=18" a la URL de un video, y obtener un video con una resolución de 480x270 y con audio en stereo. Y en algunos otros videos, si se añade "&fmt=22", estos aparecen aun en mayor calidad, de 1280x720 y también en stereo. Con estas opciones, si vale la pena ver videos en pantalla completa :) Les dejo este claro ejemplo de lo mencionado en el párrafo anterior:
@@ -30,7 +30,7 @@ y se añade:
 > "https://www.youtube.com/v/IDENTIFICADORVIDEO&ap=%2526fmt%3D22"
 en el código que YouTube proporciona para incrustar videos (Embed)...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshTaTc2uQpzGIqN1iF3hB8OMvG141KlQkhD4xAn0ken7fCQbyZHxycXlvJN-Gob1z8aGySgwhvIUr9HMThljh0AXlncfaV1ObG8eYzaahET3ISRnnTL1gbJKkm_s8daU6SmHoVLFUFvg/s320/embedvideocodigo.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshTaTc2uQpzGIqN1iF3hB8OMvG141KlQkhD4xAn0ken7fCQbyZHxycXlvJN-Gob1z8aGySgwhvIUr9HMThljh0AXlncfaV1ObG8eYzaahET3ISRnnTL1gbJKkm_s8daU6SmHoVLFUFvg/s320/embedvideocodigo.jpg)  
 "Código para incrustar videos en paginas web"
 
 Veamos la calidad de los videos incrustados, con un ejemplo, el cover de la canción "Girls Just Wanna Have Fun"(de Cindy Lauper) interpretada por The Killers:

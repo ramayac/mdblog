@@ -7,10 +7,9 @@ draft: false
 post_id: blog-3515952828243908885.post-601970174988729115
 ---
 
-Me comentan por ahí que que hay un "[Hackaton](https://en.wikipedia.org/wiki/Hackathon)
-" en El Salvador, para "hacer algo digital" (en el mejor sentido de la frase) contra la Violencia Domestica.
+Me comentan por ahí que que hay un "[Hackaton](https://en.wikipedia.org/wiki/Hackathon)" en El Salvador, para "hacer algo digital" (en el mejor sentido de la frase) contra la Violencia Domestica.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg70KPNJf41bj8fhAeuuTl91z-3C2Xx3NzuVtkDSWtxUWAfxctZmDrWiQYnH_Jjdpz_0k2jsyYhY5bGSRNOZazWX-rABfujaVYOeOG6LMlOO5u8T_Ae6zVeN_T2i7r9UsYTkvkomXXPlqDn/s400/HCLV_ElSalvador.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg70KPNJf41bj8fhAeuuTl91z-3C2Xx3NzuVtkDSWtxUWAfxctZmDrWiQYnH_Jjdpz_0k2jsyYhY5bGSRNOZazWX-rABfujaVYOeOG6LMlOO5u8T_Ae6zVeN_T2i7r9UsYTkvkomXXPlqDn/s400/HCLV_ElSalvador.png)  
 
 Es un tema muy serio y delicado para un Hackaton, y espero que los participantes estén preparados para [afrontar el desafio que conlleva](https://vdhackathon.pbworks.com/w/page/62086132/Short%20Summaries%20of%20All%20Problems), y el reto de elaborar un "producto" gratuito y de alto atractivo.
 

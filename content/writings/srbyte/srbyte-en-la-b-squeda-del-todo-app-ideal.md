@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5624123285168921277
 ---
 
-![image](https://blogpress.w18.net/photos/11/01/03/s_1260.jpg)    
+![image](https://blogpress.w18.net/photos/11/01/03/s_1260.jpg)  
 Aplicaciones para administrar tareas las hay por montones y cada una con sus propias características. En lo personal tengo necesidades específicas que un TODO manager debe poseer para que este me sea útil:
 
 - Disponible desde cualquier PC

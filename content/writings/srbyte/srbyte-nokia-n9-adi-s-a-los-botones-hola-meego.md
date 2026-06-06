@@ -17,11 +17,11 @@ Meego OS
 
 El N9 posee una interfaz bastante atractiva llamada "Swipe", que reposa sobre el sistema operativo Meego OS, fruto del esfuerzo entre Intel y Nokia. Lo interesante de ver a Meego OS en el N9 es ver la estrategia de innovación de Nokia siendo aplicada y efectiva en este smartphone.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgguBA2VnJYDc1pARc7xTEKrRtBttLr2FaIYQDTrvTGsuAF7WYnAbyFWUJ1u0UIYoIRCgQAfLALv1ZX7NVIlETYt066VtUEWiJKwgYLoKBoKa68xU2_T_Lvp99iNPQM10ouY63wqQY6db5y/s400/11x06221544.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgguBA2VnJYDc1pARc7xTEKrRtBttLr2FaIYQDTrvTGsuAF7WYnAbyFWUJ1u0UIYoIRCgQAfLALv1ZX7NVIlETYt066VtUEWiJKwgYLoKBoKa68xU2_T_Lvp99iNPQM10ouY63wqQY6db5y/s400/11x06221544.jpg)  
 
 Para aclarar la estrategia me remito a la siguiente figura, que nos muestra una piramide de 3 niveles y 4 sistemas (S40, Symbian^3, Windows Phone 7 y Meego OS):
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQTSdKNdmY_Dut4E6BZfB31LyaMMbPRyF-xEOfS4CDKcy9vLAdZCH55aW-HLoHlIfx_edNbNnpq2xka89B0uQ-ViGfVffEV5RtcQC4219W-qglKePmCt5OAmeF8NNa7qdd-Y4mRwxHHQBm/s320/306974845.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQTSdKNdmY_Dut4E6BZfB31LyaMMbPRyF-xEOfS4CDKcy9vLAdZCH55aW-HLoHlIfx_edNbNnpq2xka89B0uQ-ViGfVffEV5RtcQC4219W-qglKePmCt5OAmeF8NNa7qdd-Y4mRwxHHQBm/s320/306974845.jpg)  
 
 Pueden encontrar más información de la estrategia mencionado en el blog de [Symbian Latino](https://www.symbianlatino.com/2011/05/el-presente-de-nokia-es-symbian-el.html). Los dejo con el video de introducción del N9:
 

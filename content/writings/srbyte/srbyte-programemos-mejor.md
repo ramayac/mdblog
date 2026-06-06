@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6113201256585132819
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv7gLWTfeRLWuOEDweWFvoT5Muh7DwWnpXKBGy1eKdMOtvRIK1rS57ZQm9i2QuKY5uwjvl9BiGjuaXUTuhMVGgrpitQ5NG_m9oC12geo2WvZWqwWKkaEnqqcTM971V72ACiJxkWTh63x4/s320/156713983_c264885895_o.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgv7gLWTfeRLWuOEDweWFvoT5Muh7DwWnpXKBGy1eKdMOtvRIK1rS57ZQm9i2QuKY5uwjvl9BiGjuaXUTuhMVGgrpitQ5NG_m9oC12geo2WvZWqwWKkaEnqqcTM971V72ACiJxkWTh63x4/s320/156713983_c264885895_o.jpg)  
 "Barquito elaborado con una hoja impresa de código HTML"
 
 Hace poco terminé de desarrollar un sistema X y como programador, siempre acostumbro a dedicarme unos minutos, una vez terminada la creación, a contemplarla y sentirme orgulloso de haber sido capaz de crear algo de la nada usando mi ingenio y habilidades. Algo que puede ser de utilidad a otras personas, algo que vive (en sentido figurado), que tiene la apariencia que yo quise que tuviera y se comporta como yo quise que se comportara. Es algo así como: "Y vió Roberto que era bueno y ese fué el último día de la creación del sistema X".

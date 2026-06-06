@@ -9,10 +9,10 @@ post_id: blog-3515952828243908885.post-4773937781174860620
 
 IcedRobot es el nombre que recibe un nuevo proyecto que apunta a ejecutar aplicaciones de Android en el OpenJDK ofreciendo otra alternativa a "Dalvik" (la maquina virtual de Android) y Apache Harmony.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA3z3xR7bdIcsEwkad8LBDHyMzfO7P8yplWx1oxhaYlaPCwLYl2hMhJcRVmJeTjgqYPkxH5E9yGNB6mEQUKW3mpC-0hri2WO4DfUkS_loBmp4ZCecaJlIk5qeVPE-E4fiND-ynKv5OlkS6/s320/500px-FOSDEM.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA3z3xR7bdIcsEwkad8LBDHyMzfO7P8yplWx1oxhaYlaPCwLYl2hMhJcRVmJeTjgqYPkxH5E9yGNB6mEQUKW3mpC-0hri2WO4DfUkS_loBmp4ZCecaJlIk5qeVPE-E4fiND-ynKv5OlkS6/s320/500px-FOSDEM.jpg)  
 Free and Open Source Software Developers European Meeting El proyecto fue revelado al público en e[l FOSDEM 2011](https://wiki.debian.org/Java/DevJam/2011/Fosdem/JavaSpeakers#IcedRobot) por los developers David Fu y Mario Torre. Este (el proyecto) se separará en tres partes: GNUDroid creara una simplemente de Android utilizando software libre, el GNU Classpath y OpenJDK ( OpenJDK sera renombrado como IcedRobot Micro Edition para la plataforma Android). GNUBishop añadira funcionalidad extra para crear la IcedRobot Standard Edition. Y finalmente tendremos a "Daneel" que sería la VM contraparte de Dalvik.
 
-![image](https://www.icedrobot.org/downloads/logo/robot.png)    
+![image](https://www.icedrobot.org/downloads/logo/robot.png)  
 Logo de IcedRobot Por el momento, no hay código disponible al publico, pero Torre dice que se esta trabajando para "separar a Dalvik del kernel Linux personalizado que Android usa", lo que les permitiría ejecutar el código de forma separada e independiente (stand-alone). Luego, se esperan cambiar a Dalvik por la VM de OpenJDK y agregar un traductor para convertir el DEX bytecode de Android a Java ByteCode.
 
 En pocas palabras (y espero que de forma más clara) van a hacer lo siguiente:

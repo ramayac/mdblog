@@ -16,13 +16,15 @@ En ocasiones sucede que cuando se menciona el término de ciencia ficción, lo p
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX8-qEpVF1iRdEKm-bae1MCJlr7DQQsZBdNkVifQ95rOOjvp_N8QJb7GLun6wrxkReVM8LKE2HUgow4WsK5TVhT9i0i0xV4cDnR-QmVttW0elcaUSlPqmJmeecE5L_LQnjpO6RcJRQ68Yy/s320/cifi1.jpg)  
 Aún con una forma rústica, ¡los robots sí que nos facilitarían la vida!
 
-No obstante, la ciencia ficción no es un género de reciente explotación. Alrededor de 1900 ya se hacían algunos esfuerzos por hacer producciones que echaran a volar la imaginación, dar un toque de magia y recrear situaciones que en la realidad serían casi imposibles. Un ejemplo de ello es el corto [Viaje a la Luna](https://es.wikipedia.org/wiki/Viaje_a_la_luna) del francés George Méliès.
+No obstante, la ciencia ficción no es un género de reciente explotación. Alrededor de 1900 ya se hacían algunos esfuerzos por hacer producciones que echaran a volar la imaginación, dar un toque de magia y recrear situaciones que en la realidad serían casi imposibles. Un ejemplo de ello es el corto [Viaje a la Luna](https://es.wikipedia.org/wiki/Viaje_a_la_luna)  
+del francés George Méliès.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1GzeARRmGhH8unB0Pz9vRaTih7XI77AHOvaIaXyt5g5hQD-Zffszmz6mfKMa2tBnJ73j9-X7rhWlEIRL0Ew-FnZfpzDSHwuTgw02w6dxsZTN6HhF975G6jJMlzVL0dW9B1X8oMaTgviNl/s320/20070418klplylliu_158.Ies.SCO%5B1%5D.jpg)  
 
 La Luna que vigila todo es una de las imágenes más emblemáticas del corto.
 
-Considerado como el primer film de ciencia ficción, este corto de casi ocho minutos y medio es una de las obras combres de los inicios del cine. Su guión fue retomado del libro de Julio Verne que se titula [De la Tierra a la Luna](https://es.wikipedia.org/wiki/De_la_Tierra_a_la_Luna) y del libro de H. G. Wells, [Los primeros hombres en la Luna](https://es.wikipedia.org/wiki/Los_primeros_hombres_en_la_luna).
+Considerado como el primer film de ciencia ficción, este corto de casi ocho minutos y medio es una de las obras combres de los inicios del cine. Su guión fue retomado del libro de Julio Verne que se titula [De la Tierra a la Luna](https://es.wikipedia.org/wiki/De_la_Tierra_a_la_Luna)  
+y del libro de H. G. Wells, [Los primeros hombres en la Luna](https://es.wikipedia.org/wiki/Los_primeros_hombres_en_la_luna).
 
 Le voyage dans la lune fue realizado en el año de 1902 y es considerada una gran hazaña cinematográfica, no sólo por los efectos utilizados, sino por su complejidad en la producción. Hecha en base a fotogramas, este corto revolucionó la forma en que los hermanos Lumière comenzaron a hacer cine, la forma de pensar de las personas con respecto a la realidad y su manera de contar sus historias. Además de que mantuvo la inocencia e ingenuidad que hacía más empático el film para los espectadores de la época.
 

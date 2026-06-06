@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-5302489112529415368
 
 ¿Alguna vez  se han preguntado lo peligroso que podría ser el hacer clic sobre un link?. La respuesta es sencilla, puede ser muuuuuuuuuuy peligroso. Traigo a colación este tema, ya que en varias ocasiones he iniciado sesión en Windows Live Messenger y recibo mensajes de contactos desconectados. Esos mensajes contienen links - muy sosprechosos - y que hacen alusión a fotos bastante subidas de tono - básicamente, "pornografía" - o contenidos que para "el usuario común" son considerados atractivos e inofensivos. He aquí el problema, pues con hacer clic a ese link "inofensivo" podemos entregar valiosa información a cualquier mal intencionado ahí afuera: la [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) de nuestra computadora.
 
-![image](https://www.muypro.com/wp-content/uploads/2009/07/Hacker-500x333.jpg)    
+![image](https://www.muypro.com/wp-content/uploads/2009/07/Hacker-500x333.jpg)  
 Mala combinación: "Información correcta, en manos inadecuadas".
 
 En este punto probablemente se cuestionen, ¿qué demonios puede saber alguien a partir de un simple conjunto de dígitos separados por puntos?, Básicamente se pueden conocer los siguientes datos:

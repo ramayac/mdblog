@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5892652039461638865
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUwYsqwgte39aot5BII6MADDUgXME4lwgE9VfUYocvSBsO1G-iZyfrvMt5srmTA10Lg471Psj6KcJWAoK88JtKzUMmie674m0A9MISzenwKlH5chkxQuzCk3JuMUWWl1jgVSK6-_XSV3gf/s200/hp_netbook.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUwYsqwgte39aot5BII6MADDUgXME4lwgE9VfUYocvSBsO1G-iZyfrvMt5srmTA10Lg471Psj6KcJWAoK88JtKzUMmie674m0A9MISzenwKlH5chkxQuzCk3JuMUWWl1jgVSK6-_XSV3gf/s200/hp_netbook.jpg)  
 
 Si tienes una Netbook (o una Laptop viejita) que NO tiene alguna distribución de Linux instalada, aqui hay cinco razones puntuales y para instalarlo y comenzarlo a usar... y al final del articulo, cinco distribuciones Linux para probar.
 

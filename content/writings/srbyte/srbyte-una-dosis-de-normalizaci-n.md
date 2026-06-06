@@ -11,7 +11,7 @@ Nota: Este artículo fué escrito por el Ing. Alexander Calderon Peraza, docente
 
 Desde el punto de vista de los programadores, administradores de bases de datos, y demás afines a la informática, normalización es un paradigma con el cual se busca que una base de datos relacional minimice los problemas de coherencia de datos.Este articulo busca refrescarnos las primeras formar normales, y abordar el primer paso en lo que muchos consideran formas normales avanzadas, no quiero profundizar en los detalles teóricos, pues esos los encuentran en los miles de libros aburridos de bases de datos que están en la red, en lugar de ello quiero llevarlos por un recorrido practico que nos dirija el día de hoy hasta la [Forma Normal de Boyce-Codd](https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form). En primer lugar planteamos un escenario: un modelo entidad relación para registra las visitas que realizan los empleados a distintos inmuebles registrados en la empresa, el empleado visita la vivienda y elabora unas observaciones al respecto, para realizar las visitas al empleado se le proporciona un vehículo para el rápido desplazamiento, la tabla RevisionVivienda almacena la información referida a las revisiones realizadas. Dedique 1 minuto para observar la figura y los datos ejemplo de la tabla RevisionVivienda.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxZLStyvKtcwYAxeNI_cZvPZps3ih-bxfsgNY4Evk5zyzKIHM6r5uMDxXJnD0YAI-CPJaBKgzI_vppwvNL597qeqNDIemRTJBaOduToWUgvGJ9A4asWyILXAT7F0cjKUguZeZxIKR7-QXi/s1600/normalizacion1.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxZLStyvKtcwYAxeNI_cZvPZps3ih-bxfsgNY4Evk5zyzKIHM6r5uMDxXJnD0YAI-CPJaBKgzI_vppwvNL597qeqNDIemRTJBaOduToWUgvGJ9A4asWyILXAT7F0cjKUguZeZxIKR7-QXi/s1600/normalizacion1.png)  
 
 ¿Identifico la anomalía en dicha tabla? ¿Aún no? Observe las visitas hecha el día 1-1-12 del empleado EACP, ahora imagine que ese día el empleado se equivocó al momento de registrar los datos, pues el no llevo el vehículo P1111, sino que utilizo para dichas visitas el carro Z2222. Si usted debe hacer esta corrección a los datos ¿cuantas tuplas tendría que modificar?
 
@@ -47,7 +47,7 @@ Observemos la tercera dependencia funcional, el Carro es asignado a un empleado 
 
 Para solucionarlo debemos tomar esta dependencia funcional y convertirla en otra tabla, de la cual será la llave primaria el determinante de la dependencia. La solución se muestra en la siguiente figura:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvgQ7mtaxQ3MFuTUFW_VNhTJxWtiUAxWO5s9RvFvjZAAIxvdGlz0U2gofwgx-S9nAqqWPh4XAO7BRJUJcHf2lCypEy6O7TYVjkd4-CYkFoL3B_wI8ObZCwVJzLVyucvBb2tEIm-4wvy0iy/s1600/normalizacion2.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvgQ7mtaxQ3MFuTUFW_VNhTJxWtiUAxWO5s9RvFvjZAAIxvdGlz0U2gofwgx-S9nAqqWPh4XAO7BRJUJcHf2lCypEy6O7TYVjkd4-CYkFoL3B_wI8ObZCwVJzLVyucvBb2tEIm-4wvy0iy/s1600/normalizacion2.png)  
 
 Noten que se quitó el campo Id_carro de la tabla RevisionVivienda, y se creó la nueva tabla AsignacionCarro.
 

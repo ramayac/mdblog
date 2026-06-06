@@ -7,10 +7,9 @@ draft: false
 post_id: blog-3515952828243908885.post-7676674249316431975
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzPxn0vD6DNQeqL28pzpK8prDOud6xif2g0cWyJswsFzpCNSe065g86JHR_IqsLQaTfBM2r6IENFqAuzUIHpsOWJ48WEAvi747liUwScRMUFMv_W1Ebaad2bij63fsK_VGfPzXNoT4gZg/s320/subversion-background.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzPxn0vD6DNQeqL28pzpK8prDOud6xif2g0cWyJswsFzpCNSe065g86JHR_IqsLQaTfBM2r6IENFqAuzUIHpsOWJ48WEAvi747liUwScRMUFMv_W1Ebaad2bij63fsK_VGfPzXNoT4gZg/s320/subversion-background.png)  
 
-"Subversion Wallpaper, por [Michael Pilato](https://cmpilato.blogspot.com/2009/02/subversion-desktop-wallpaper.html)
-"
+"Subversion Wallpaper, por [Michael Pilato](https://cmpilato.blogspot.com/2009/02/subversion-desktop-wallpaper.html)"
 
 Desde que conocí el control de versiones este se ha vuelto una parte crucial de mis actividades de desarrollo de aplicaciones permitiéndome resguardar el código en un servidor pudiendo recobrar y comparar contra los cambios efectuados en el pasado así como llevar un control de las ramificaciones de mis aplicaicones y si aun no lo utilizan se los recomiendo enfáticamente y muy especialmente si (como es muy común) trabajan dentro de un equipo de desarrollo que en conjunto realizan cambios simultáneos a los mismos archivos de código fuente.
 
@@ -22,7 +21,7 @@ Con todas las bondades conocidas y publicadas acerca de SVN y su variedad de sab
 
 - Choque de versiones concurrentes. Me ha ocurrido ya demasiadas veces que me solicitan desarrollar una nueva funcionalidad para un componente pero me entero que alguien más también tiene en fase de desarrollo o pruebas otra versión de este mismo componente las cuales, como pasarán a producción antes que mi versión, yo debo procurar incorporarlas para que cuando yo pase mi versión a producción esta sea una combinación de ambas. Mediante la creación de una rama por cada versión concurrente he logrado solucionar el problema a nivel de control de cambios e incorporación de revisiones de una rama a otra y esta solución ha sobrevivido aún a escenarios más bizarros como cuando ambos componentes deben pasar a producción en una misma fecha o cuando estos cambian de prioridad para pasar a producción mientras ambos se encuentran en fase de pruebas de calidad. Aun así, hasta el momento no he encontrado un cliente de SVN que me permita ver de una manera gráfica y detallada (número de revisión, autor, mensaje añadido a la revisión, fecha y fase) de las ramificaciones hechas a la rama principal de la línea de tiempo de un componente, lo cual me parece muy importante para llevar un control de desarrollos concurrentes, manejo de prioridades y reportería para jefes inmediatos. Un gráfico y estadísticas similares a las de [Ohloh](https://www.ohloh.net/) pero visualmente más detallados y mayormente enfocados en la línea de tiempo, las fases y las ramificaciones.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUsYz-N3s6dFp7M5MZbSGRSmlLsafz8NlsbmE3i7XhFHSun-2ZHzTkbWGthBa21PxkPx1vL4_hP7SUDEQP1D9HM90AeCRTyotSu6JGJnyXqC0VH-_NFpfC1WXuXUQsLt16nps_BE3GkdM/s400/Screen+shot+2011-09-04+at+11.16.18+PM.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUsYz-N3s6dFp7M5MZbSGRSmlLsafz8NlsbmE3i7XhFHSun-2ZHzTkbWGthBa21PxkPx1vL4_hP7SUDEQP1D9HM90AeCRTyotSu6JGJnyXqC0VH-_NFpfC1WXuXUQsLt16nps_BE3GkdM/s400/Screen+shot+2011-09-04+at+11.16.18+PM.png)  
 
 "Línea de tiempo en Ohloh. Si tan solo mostrara más detalles y las ramificaciones"
 

@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-3980416331547811332
 
 En esta ocasión tengo la oportunidad de compartirles una breve entrevista realizada al staff ([Rómulo Guzman](https://twitter.com/#!/romguz) y [Emilio Velis](https://twitter.com/#!/dubsnipe)) de [Culebrita Macheteada](https://www.culebritamacheteada.com/), un blog bastante popular de noticias deportivas 100% Salvadoreñas, que con mucho esmero y dedicación buscan darle al fútbol nacional el lugar que se merece en la red, espero que la disfruten:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR8RSjm3NncxTupaZU_1EZh_DKPsVxS52bAGJZ53AVrYoqyYMpVTX8aG84LvCraeJXG5uUgNFynGSQLz84nNI9GrUOCHOdArdKz7Xlryxlh1ANZU63-IqDcKgw2TsvNinixLaiCb474YOI/s400/CM.banner.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR8RSjm3NncxTupaZU_1EZh_DKPsVxS52bAGJZ53AVrYoqyYMpVTX8aG84LvCraeJXG5uUgNFynGSQLz84nNI9GrUOCHOdArdKz7Xlryxlh1ANZU63-IqDcKgw2TsvNinixLaiCb474YOI/s400/CM.banner.png)  
 
 ¿Qué es, o cómo definen Culebrita Macheteada?
 
@@ -27,7 +27,7 @@ Rómulo: Además, aunque conozcamos poco del deporte, siempre simpatizamos con a
 
 Para nosotros, escribir de fútbol es como ser la voz del que ríe, grita o llora en una grada. Si vos sentis el fútbol como nosotros, si te interesa como a nosotros y no podes pasar un fin de semana sin ir a una cancha o sin ver un partido, entonces este sitio es para vos.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUL6ZpMuweYcLfpO4f3vWrzxNZ2rIvZOpE780ylQqrhfB5LfjEYt1kpJ_pD59TFFjmZEbtDrhNL5dD2kesnTyC4UJ8GpvBvxxXoasoceWQkNQnTDTEe1QKPbNOWEaB6fNCLO1vd3lewWzq/s400/cmshot.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUL6ZpMuweYcLfpO4f3vWrzxNZ2rIvZOpE780ylQqrhfB5LfjEYt1kpJ_pD59TFFjmZEbtDrhNL5dD2kesnTyC4UJ8GpvBvxxXoasoceWQkNQnTDTEe1QKPbNOWEaB6fNCLO1vd3lewWzq/s400/cmshot.png)  
 
 ¿Cuál es el proceso típico de creación de una entrada/artículo nuevo?
 
@@ -55,7 +55,7 @@ Emilio: Las visitas en nuestro sitio hasta la fecha son variables, ya que depend
 
 Rómulo: En realidad hay muchos factores que influyen en las visitas, por ejemplo cuando hay alguna buena entrevista o articulo por dia festivo de algun equipos, la gente los comparte y eso permite que lleguen nuevos lectores y vean hasta 5 cosas distintas dentro del sitio, luego les termina gustando y terminan formando parte de nuestro sector de lectores fidelizados, ademas este tipo de cosas permite que siga creciendo la gente que nos acompaña en las redes sociales.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Miy_5f5vFFdpN6-Eiex860WdNmkV662GJJFAPovP53nfnj8TgH8lE6q1SuD_aAx6H9if22u11Vfso466_rrtv9lYXw9Clx9XooYYsO2mM7fNB7Z3BV01gQq2LaHQEdlei74V_SwP5S00/s320/redessocialescm.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7Miy_5f5vFFdpN6-Eiex860WdNmkV662GJJFAPovP53nfnj8TgH8lE6q1SuD_aAx6H9if22u11Vfso466_rrtv9lYXw9Clx9XooYYsO2mM7fNB7Z3BV01gQq2LaHQEdlei74V_SwP5S00/s320/redessocialescm.png)  
 
 ¿Cuantas entradas publican semanalmente?
 
@@ -67,7 +67,7 @@ Rómulo: Otro punto del que depende la cantidad de entradas es de cuánto movimi
 
 Emilio: Esta es una de las preguntas más populares cuando las personas conocen nuestro sitio. Rómulo y yo hemos sido bloggers desde hace más de cuatro años, estamos acostumbrados a escribir porque nos gusta hacerlo, y no como un trabajo; incluso, en los meses que llevamos con el sitio hemos logrado muchísimas cosas: crear una comunidad futbolera con casi 3,000 fans en Facebook, cubrir eventos deportivos, tener exposición en periódicos, televisión y otros medios digitales,[incluso ganamos la Arroba de Oro pasada](https://www.culebritamacheteada.com/culebrita-macheteada-gana-la-arroba-de-oro/), todo porque creemos en lo que nos gusta y tenemos la capacidad de lograr milagros con el poco presupuesto que dedicamos al sitio.
 
-![image](https://www.culebritamacheteada.com/wp-content/themes/culebrita/images/banner/205.jpg)    
+![image](https://www.culebritamacheteada.com/wp-content/themes/culebrita/images/banner/205.jpg)  
 
 Sin embargo, nos hemos topado con momentos en los que nos toca admitir que de obtener un ingreso por esto, podríamos hacer cosas incluso mejores a las que actualmente hacemos. Ya estamos planificando un modelo para generar ingresos en el sitio, y esperamos con eso poder dedicar las ganancias para mejorar el proyecto. Actualmente todo está en papel, pero no descartamos que muy pronto tengamos anunciantes en el sitio.
 

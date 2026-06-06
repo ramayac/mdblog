@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-2990469460734781108
 
 Resulta que en YouTube no solo hay videos de "the Harlem shake", sino que también esta el concierto completo que conmemora los 25 años de Studio Ghibli, dirigido por el inigualable y mas prolífico compositor japones: [Joe Hisaishi](https://es.wikipedia.org/wiki/Joe_Hisaishi).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEWN-Fz6Vve5ZK370RpTZ3WF3F7rjFpsKKzE0kLhxU8yVW-TxCzrBDtcYR8ljH8OBOiwuoJGy584k0NnwBDJNktR4heA_7kCY2-25whQ-xIPBzv-5dJw0CrFk3iD7TQkh044X6Rw3D2aXH/s400/hisaishi_1.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEWN-Fz6Vve5ZK370RpTZ3WF3F7rjFpsKKzE0kLhxU8yVW-TxCzrBDtcYR8ljH8OBOiwuoJGy584k0NnwBDJNktR4heA_7kCY2-25whQ-xIPBzv-5dJw0CrFk3iD7TQkh044X6Rw3D2aXH/s400/hisaishi_1.jpg)  
 "Levántense y aplaudan ;)"
 
 Esta es la lista de piezas musicales que escucharan:

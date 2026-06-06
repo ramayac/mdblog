@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-6896909722601748062
 
 Creative Commons, traducido literalmente como "Comunes Creativos", es una organización no gubernamental y sin fines de lucro, fundada y actualmente (marzo 2007) es presidida por [Lawrence Lessig](https://es.wikipedia.org/wiki/Lawrence_Lessig), profesor de derecho en la Universidad de Stanford (este tipo no es cualquier extraño de pelo largo) y ademas especialista en ciberderechos (Woooow!).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6q8nEpm4xB4xGg-86XVQsMKBirnE_g4upDUUxTyGSoNCEHA-MiEe8IuzkoCOpEJ7Tep_C45S-VXfLw61Fe-brACpYjRYZ9Ikb_wNn_xfE5e6qY-ZuvddRku07WMkXAZlp1iclHeY5qxk/s400/gnu-linux.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6q8nEpm4xB4xGg-86XVQsMKBirnE_g4upDUUxTyGSoNCEHA-MiEe8IuzkoCOpEJ7Tep_C45S-VXfLw61Fe-brACpYjRYZ9Ikb_wNn_xfE5e6qY-ZuvddRku07WMkXAZlp1iclHeY5qxk/s400/gnu-linux.jpg)  
 Creative Commons está inspirada en la licencia GPL (General Public License) de la Free Software Foundation (Pues claro!), sin embargo no es un tipo de licencia de software (libre) aunque trabaja de manera similar.
 
 > La idea principal es posibilitar un modelo legal, que ayudado por las herramientas informáticas permita facilitar la distribución y el uso de contenidos para el dominio público.

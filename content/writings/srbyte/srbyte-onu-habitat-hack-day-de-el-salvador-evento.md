@@ -15,7 +15,7 @@ Este Hack Day se realizara en ["La Casa Tomada" (Centro cultural español)](http
 
 Y la única restricción es la edad, debes tener entre 18 - 30 años, ser capaces de trabajar 36 horas continuas en el proyecto y que este (el proyecto) este dentro de la temática que es: una aplicación para pagos móviles y nuevas propuestas de transferencias desde celulares, con sentido social y urbano.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrglY2oAnLxVOEW8xX0zQwqPPPMqvJr9qIDX1Q60N-Pp94DlX4QGK8ot-ejEI9mF2dl5iRH7X1mvIRzL1N5SXY0zh4exWuE9hJJ7-CO_gDvTvInnB9SPV-ZGUDJ8dEwJwY5_BDzEfsxdR3/s1600/onuhack.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrglY2oAnLxVOEW8xX0zQwqPPPMqvJr9qIDX1Q60N-Pp94DlX4QGK8ot-ejEI9mF2dl5iRH7X1mvIRzL1N5SXY0zh4exWuE9hJJ7-CO_gDvTvInnB9SPV-ZGUDJ8dEwJwY5_BDzEfsxdR3/s1600/onuhack.jpg)  
 ONU Habitat Hack Day El Salvador
 
 Les dejo con la convocatoria oficial en pdf dando clic acá:

@@ -9,7 +9,8 @@ post_id: blog-3515952828243908885.post-8371025312052384721
 
 Mas confusión... (lee la [primera parte](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte-i.html))
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheqJ-FgsAiB9eRg7eBcOIR_SL0JUjFyOi9yOY_mytl3Qv0o8SCYwwaZlIPo2uYwqCbOK955P03KjgclWsyZn-rQxwztdcRa6lWQtpXWauAO0kLbPdcVnbbobXB5kxUYnDKSLlN4Wo_lFc/s400/quick_vista.gif)    Ahora Vista es más fácil de actualizar... al menos eso dice la publicidad y claro que, con los precios por los que ronda cualquier edición de Windows Vista muchas personas preferiran actualizar a Vista antes que comprar una versión completa.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheqJ-FgsAiB9eRg7eBcOIR_SL0JUjFyOi9yOY_mytl3Qv0o8SCYwwaZlIPo2uYwqCbOK955P03KjgclWsyZn-rQxwztdcRa6lWQtpXWauAO0kLbPdcVnbbobXB5kxUYnDKSLlN4Wo_lFc/s400/quick_vista.gif)  
+Ahora Vista es más fácil de actualizar... al menos eso dice la publicidad y claro que, con los precios por los que ronda cualquier edición de Windows Vista muchas personas preferiran actualizar a Vista antes que comprar una versión completa.
 Según los precios en Amazon.com (versión completa/ versión actualización):
 
 - Windows Vista Home Basic, $199/$99.95
@@ -33,7 +34,8 @@ Todos los usuarios de Windows saben que para trabajar bien y por largo rato con 
 
 ¿Increíble no?, a esto solo se puede decir... BAD BAD BAD Vista!
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHuGVpbIfJwMw7M4FztYcdjHdyFizHITLobrt3BaZQ5m0bVLalsMr58bXQTQPhEvnXXBrabUaFdvgn1HAi0PLfAWmos2Q9eH_1LDj4smrqBwUUqyLa0J4d6U2Q4kSNjyZd0t00SrssOwA/s400/BadVista.png)    Como ya saben, el requerimiento mínimo para el Upgrade de Vista es tener XP/2000 ya instalado. Con respecto a si se necesita o no realmente una instalación de XP/2000 "limpia" (es decir instalar XP/2000 desde cero y luego Vista) la respuesta en un RESONANTE:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHuGVpbIfJwMw7M4FztYcdjHdyFizHITLobrt3BaZQ5m0bVLalsMr58bXQTQPhEvnXXBrabUaFdvgn1HAi0PLfAWmos2Q9eH_1LDj4smrqBwUUqyLa0J4d6U2Q4kSNjyZd0t00SrssOwA/s400/BadVista.png)  
+Como ya saben, el requerimiento mínimo para el Upgrade de Vista es tener XP/2000 ya instalado. Con respecto a si se necesita o no realmente una instalación de XP/2000 "limpia" (es decir instalar XP/2000 desde cero y luego Vista) la respuesta en un RESONANTE:
 
 ¿Quizás?
 

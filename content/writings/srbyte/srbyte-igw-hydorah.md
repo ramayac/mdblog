@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-6460067970717000762
 
 Encontrar Hydorah me dejo con una gran sonrisa en el rostro. Tres años de desarollo (intermitente) e independiente nos da este brillante retro-juego que se pone a la par de los mejores titulos noventeros de estilo "shoot-em-up".
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXTvlSVErG3q5iQvlQv-yaNTjosLTweFbrDZm9SDWUZ39J5u0WkBGXsIUxF6je9kHGT-75gOpUuMjtyPIgZqmn8oWd_j-7Q29Kfd7KvjGyOyL_pUzJFpb0gcklDlG3Ba0pjqTxPIOmso56/s320/hydorah_08.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXTvlSVErG3q5iQvlQv-yaNTjosLTweFbrDZm9SDWUZ39J5u0WkBGXsIUxF6je9kHGT-75gOpUuMjtyPIgZqmn8oWd_j-7Q29Kfd7KvjGyOyL_pUzJFpb0gcklDlG3Ba0pjqTxPIOmso56/s320/hydorah_08.jpg)  
 
 Hydorah es un juego influenciado de clasicos como Gradius, Castelvania y R-Type, que brinda graficos "old school" detallados y pulidos, jugabilidad adictiva y un soundtrack original, que encaja con los aspectos visuales del juego como un guante...
 

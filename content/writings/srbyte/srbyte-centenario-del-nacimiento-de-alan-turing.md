@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-6682807602207991280
 
 No podía permitir que terminara el día - 23 de junio de 2012 - sin escribir una entrada en conmemoración al centenario del nacimiento de [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). Sus contribuciones [son tan invaluables](/2007/12/la-maquina-de-turing.html) para la humanidad que me atrevo a afirmar con certeza que sin ellas ninguno de nosotros estaría frente a una computadora en estos momentos.
 
-![image](https://upload.wikimedia.org/wikipedia/en/c/c8/Alan_Turing_photo.jpg)    
+![image](https://upload.wikimedia.org/wikipedia/en/c/c8/Alan_Turing_photo.jpg)  
 
 "Sólo podemos ver un poco más adelante, pero podemos ver que hay un mucho por hacer".
 

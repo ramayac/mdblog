@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8108114227231887483
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-GW1rB6GocPGYV2qeijoBH8rXLgRywiV6s-tKcFvSd3dXdcDQQd1AdkkATUksChL-swjf_XxKG5-HvCTyEq_369i76s2a1ROAHX9ZuRm3OJqOYcMWMl54YB_eStlUlClfHLcwWLGbuq8/s400/modding1_conmemorativo.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-GW1rB6GocPGYV2qeijoBH8rXLgRywiV6s-tKcFvSd3dXdcDQQd1AdkkATUksChL-swjf_XxKG5-HvCTyEq_369i76s2a1ROAHX9ZuRm3OJqOYcMWMl54YB_eStlUlClfHLcwWLGbuq8/s400/modding1_conmemorativo.jpg)  
 
 Ahora van las fotos de las carcasas modificadas, área también conocida como "Modding".
 
@@ -31,7 +31,7 @@ Y este: ![image](https://farm3.static.flickr.com/2028/2984600300_53d5b13602.jpg?
 
 ![image](https://farm4.static.flickr.com/3068/2984599526_236085e84b.jpg?v=0)  
 
-![image](https://farm4.static.flickr.com/3141/2983741275_e91a41d0c4.jpg?v=0)   ... posee botones en la parte superior, con los sonidos de la respiración y control de las luces y ventiladores internos.
+![image](https://farm4.static.flickr.com/3141/2983741275_e91a41d0c4.jpg?v=0) ... posee botones en la parte superior, con los sonidos de la respiración y control de las luces y ventiladores internos.
 
 "AlienWarrior":
 
@@ -41,7 +41,7 @@ Y este: ![image](https://farm3.static.flickr.com/2028/2984600300_53d5b13602.jpg?
 
 ![image](https://farm4.static.flickr.com/3282/2984596292_87a4dd8d4e.jpg?v=0)  
 
-![image](https://farm4.static.flickr.com/3285/2983737741_2e8dcffb06.jpg?v=0)   ... se que Ridley Scott (creador de Alien) estaría orgulloso.
+![image](https://farm4.static.flickr.com/3285/2983737741_2e8dcffb06.jpg?v=0) ... se que Ridley Scott (creador de Alien) estaría orgulloso.
 
 Claro, también había un case Retro: ![image](https://farm4.static.flickr.com/3053/2983736199_62904a36be.jpg?v=0)  
 

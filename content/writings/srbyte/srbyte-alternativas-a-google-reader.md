@@ -7,17 +7,15 @@ draft: false
 post_id: blog-3515952828243908885.post-5482689056256166501
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP3slhEihWbN4cK486LoUY6cqBtkIDpl3F26wW7aywSnj0rHOwdzcW_UM89yJ3wTAqQ_zKEFlNPFeH2ihogZ6-5E1wK9-9eNhan5Zh8abBr05NzBCFVIdl67JDYe6gjYLDmKbjSfinw9-X/s320/imgres.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP3slhEihWbN4cK486LoUY6cqBtkIDpl3F26wW7aywSnj0rHOwdzcW_UM89yJ3wTAqQ_zKEFlNPFeH2ihogZ6-5E1wK9-9eNhan5Zh8abBr05NzBCFVIdl67JDYe6gjYLDmKbjSfinw9-X/s320/imgres.jpg)  
 "No voy a llorar, no voy a llorar..."
 
 Bueno, como seguramente muchos ya saben, pronto Google Reader morirá y como muchos lo único en que pude pensar es ¿y ahora que hago? ¿a que servicio me cambio? ... también maldije mucho, pero eso no viene al caso, en fin, estas son algunas alternativas que he recopilado que me han parecido adecuadas para sustituir en cierta medida este amado producto de Google.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtA_3zBGwrCzO14U9Py9z8zF8KfmQUUWlEJfoQAoiBV_OUjvDKgMQZay2_w0vBszuN9aspzXA9L0i1QXP-PZRVwdB13aIUOZLaONFHnhGL5iKkt0EOgzn70Hso0TjrNgUOlaKeXJY9tMeZ/s320/a-second-spring-of-cleaning.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtA_3zBGwrCzO14U9Py9z8zF8KfmQUUWlEJfoQAoiBV_OUjvDKgMQZay2_w0vBszuN9aspzXA9L0i1QXP-PZRVwdB13aIUOZLaONFHnhGL5iKkt0EOgzn70Hso0TjrNgUOlaKeXJY9tMeZ/s320/a-second-spring-of-cleaning.jpg)  
 "Voy a llorar"
 
-Pero antes de recomendar cualquier cambio, el verdadero primer paso que tienen que hacer es ¡poner sus feeds en un lugar seguro! Para realizar esto, por favor accedan al "[Data Liberation](https://www.dataliberation.org/)
-" de Google, para obtener su archivo "[OPML](https://en.wikipedia.org/wiki/OPML)
-" en donde están todos los feeds que han guardado en su Google Reader.
+Pero antes de recomendar cualquier cambio, el verdadero primer paso que tienen que hacer es ¡poner sus feeds en un lugar seguro! Para realizar esto, por favor accedan al "[Data Liberation](https://www.dataliberation.org/)" de Google, para obtener su archivo "[OPML](https://en.wikipedia.org/wiki/OPML)" en donde están todos los feeds que han guardado en su Google Reader.
 
 Para liberar sus feeds vayan al sitio oficial, den clic al botón "create archive" y luego esperan o dejan que Google les mande el correo con el archivo. Visiten el Data Liberation Front acá:
 
@@ -38,7 +36,8 @@ Ahora si, ya con su archivo OPML seguro, aquí les dejo la lista de productos a
 
 Nobles menciones:
 - [BlogTrottr](https://blogtrottr.com/).  Envia articulos RSS a tu correo y acepta archivos OPML, una locura probablemente, pero  más de algún alma se animara a usarlo.
-- [Digg](https://blog.digg.com/post/45355701332/were-building-a-reader) esta haciendo su propio RSS, [hay que estar pendientes](https://www.digg.com/reader).
+- [Digg](https://blog.digg.com/post/45355701332/were-building-a-reader)  
+esta haciendo su propio RSS, [hay que estar pendientes](https://www.digg.com/reader).
 - [Tiny Tiny RSS](https://tt-rss.org/redmine/projects/tt-rss/wiki) un lector de noticias RSS que tienes que alojar tu mismo.
 - [RSSOwl](https://www.rssowl.org/) uno de mis clientes RSS para desktop favoritos (es multiplataforma).
 

@@ -7,10 +7,9 @@ draft: false
 post_id: blog-3515952828243908885.post-534893314639607440
 ---
 
-En esta ocasión, les comparto la entrevista realizada a Sergio Rodríguez Ávila, uno de los fundadores de blog Salvadoreño conocido como "[Medio Lleno](https://mediolleno.com.sv/)
-", con más de 10,000 "Likes" en Facebook y una gran cantidad de lectores, es un blog que destaca por su contenido editorial, los autores y puntos de vista, enfocado más en oportunidades que en los problemas de el país:
+En esta ocasión, les comparto la entrevista realizada a Sergio Rodríguez Ávila, uno de los fundadores de blog Salvadoreño conocido como "[Medio Lleno](https://mediolleno.com.sv/)", con más de 10,000 "Likes" en Facebook y una gran cantidad de lectores, es un blog que destaca por su contenido editorial, los autores y puntos de vista, enfocado más en oportunidades que en los problemas de el país:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUV8oqtDfcgupUXYgYbV5GjgmS3T3YTvgX6onuMLHi8NWrsfciYvfVP0SsXq2nwhJFBfYNHhiNTuv-oV18csumelLEFoatNJ41TBcq3GBlJ7bynK9dObCSbVVF5pVNfomIQyObXoCrFK5v/s400/mediollenobanner.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUV8oqtDfcgupUXYgYbV5GjgmS3T3YTvgX6onuMLHi8NWrsfciYvfVP0SsXq2nwhJFBfYNHhiNTuv-oV18csumelLEFoatNJ41TBcq3GBlJ7bynK9dObCSbVVF5pVNfomIQyObXoCrFK5v/s400/mediollenobanner.png)  
 [https://mediolleno.com.sv/](https://mediolleno.com.sv/)
 
 ¿Qué es MedioLleno?
@@ -29,7 +28,7 @@ Sergio: MedioLleno nace como una iniciativa para incentivar el debate entre los 
 
 Sergio: MedioLleno es un proyecto 100% Salvadoreño y completamente conformado por jóvenes que están interesados en conocer el punto de vista de otros jóvenes salvadoreños. Además, no nos quedaremos en solamente escucharlos, sino juntos lograr un consenso de cuáles son las oportunidades que podemos encontrar dentro de las mismas problemáticas de nuestro país. MedioLleno es único, no hay otro medio similar.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuitAxRrh0Vv8yLBCSJIdKhMcyoCLrj60O1n8bToK-3b2CTQd9Eizbt9_1W0mG-cc91ymF-M52CgS0l70gxgU1BLFwER9X8Ozk3cYmKWWHbAXYq4Ky0uflDKdWwBABeh3q9b27Pp3_6Ip7/s400/mediolleno.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuitAxRrh0Vv8yLBCSJIdKhMcyoCLrj60O1n8bToK-3b2CTQd9Eizbt9_1W0mG-cc91ymF-M52CgS0l70gxgU1BLFwER9X8Ozk3cYmKWWHbAXYq4Ky0uflDKdWwBABeh3q9b27Pp3_6Ip7/s400/mediolleno.png)  
 Captura Mediolleno.com.sv
 
 ¿Cuál es el proceso típico de creación de una entrada/artículo nuevo?

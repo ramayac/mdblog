@@ -11,13 +11,13 @@ Antes de comenzar, es necesario hacer la aclaración, de que este pequeño artic
 
 Estoy molesto con Ubuntu, hice un upgrade de la distribución, el error fue dejar mi amada Terminal (la Consola) por la (a veces molesta) interfaz de actualización de Ubuntu... en ambas maquinas hice lo mismo (tengo dos computadoras de escritorio, bastante modestas), suponiendo que la primera falló por falta de conectividad (aparentemente así fue, y precisamente falló el paquete [msttcorefonts](https://corefonts.sourceforge.net/)) sin embargo, en la otra maquina quedaron 20 paquetes sin actualizar (incluyendo firefox 3.5). No es que la actualización falle en si misma, porque hice el upgrade al 100%, pero presento fallos, algo que no sucedió con ninguna actualización anterior de Ubuntu, y mucho menos con Debian (Etch).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2pBXJbnXPtnX_ECSLe2wzF0ZE-vbVT7v34mwzZyYFjfQXpsJ6988sH3ha51tW9KXE4a3OUiS-GxVdGzXyiqwpRd3Y4Q7NwAV9AlqfQifeD8lKvRL8h6W1HFb5Kfikp4Micsw-kwVT5AFV/s320/ubuntu910.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2pBXJbnXPtnX_ECSLe2wzF0ZE-vbVT7v34mwzZyYFjfQXpsJ6988sH3ha51tW9KXE4a3OUiS-GxVdGzXyiqwpRd3Y4Q7NwAV9AlqfQifeD8lKvRL8h6W1HFb5Kfikp4Micsw-kwVT5AFV/s320/ubuntu910.jpg)  
 
 "¿Será mejor una instalación desde cero?"
 
 Después de solventar el problema desde la consola (viva apt!), comencé a utilizar el sistema, lo que impacta inmediatamente, es el nuevo tema de GDM, su suavidad y velocidad para responder a la selección de teclado, usuario o entorno gráfico.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPWswQYgCONDOjnYzBrSJUt9QNmN7zQ5I-j3Txrc-_M219SDGFYTOGTa694YyOYmYHFlfm_MkLiaaohRmw56jD_3b3LeGLiMqfRDlrSgjA6UYJZAErKzv7qfUPcedzNRDSNMW57KEKILE2/s320/xsplash.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPWswQYgCONDOjnYzBrSJUt9QNmN7zQ5I-j3Txrc-_M219SDGFYTOGTa694YyOYmYHFlfm_MkLiaaohRmw56jD_3b3LeGLiMqfRDlrSgjA6UYJZAErKzv7qfUPcedzNRDSNMW57KEKILE2/s320/xsplash.png)  
 
 "Nuevo GDM..."
 
@@ -43,7 +43,7 @@ Ubuntu Software Center se ve bien, pero no le quita el lugar a Synaptic, me pare
 
 Sin embargo, esta más que claro que Ubuntu 9.10 es solo una versión de transición y estabilización para el Ubuntu 10.4 que dicho de paso, será LTS (Long Time Support), si estas cómodo con Ubuntu 9.04, no veo absolutamente ningún motivo para un apresurado o inmediato upgrade al 9.10. Asi de simple. Y si quieres actualizar, mejor espera un mes o dos, y luego cambia haz tu upgrade.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ4LxpZpwRkVFFLnk12Ge4fHzB-sEQdv3wN_Incr83q9UQsLgxeIuiGxkcA500U_EZEzPZvPqB_fli7Y0h81jkTDn3-GuQ_NUxJdMN1QDKE_-X5lp0AXbrbxkWdHCI6II0NOV7-YkqhLH9/s320/6585x1500y1500.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ4LxpZpwRkVFFLnk12Ge4fHzB-sEQdv3wN_Incr83q9UQsLgxeIuiGxkcA500U_EZEzPZvPqB_fli7Y0h81jkTDn3-GuQ_NUxJdMN1QDKE_-X5lp0AXbrbxkWdHCI6II0NOV7-YkqhLH9/s320/6585x1500y1500.jpg)  
 
 "Los koalas no se reponen de la fiesta, por eso esta buggy el ubuntu :P"
 

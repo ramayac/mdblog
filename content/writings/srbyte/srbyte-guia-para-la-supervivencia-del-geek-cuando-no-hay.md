@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-5670683738870723418
 
 Nota: Se le recomienda al lector que guarde este artículo en su computadora como página HTML, para que pueda hacer uso del mismo sin necesidad de tener internet, ya que para eso es esta guía.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYR-ZA0zdLmctMYZNjE0vBomvByk8e5PkmSIL8CU-OjbvvtCP1QOIgWSPvVLfKwK3UrJdZ76CUYgehR1fMs-4ufnZ0CxwuPqIyb_3PpEOpaBLL1wlmRN5KlRaHS3Qcz5WFiGxObMuyxj8/s320/NoConexion.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYR-ZA0zdLmctMYZNjE0vBomvByk8e5PkmSIL8CU-OjbvvtCP1QOIgWSPvVLfKwK3UrJdZ76CUYgehR1fMs-4ufnZ0CxwuPqIyb_3PpEOpaBLL1wlmRN5KlRaHS3Qcz5WFiGxObMuyxj8/s320/NoConexion.jpg)  
 "Imagen que muestra el Firefox o Iceweasel cuando no te puedes conectar a un sitio web específico, a veces porque no tienes internet"
 
 Tú nunca esperas que pase, te acostumbras al hecho de que, cuando enciendes la máquina y abras el navegador, este cargue tu página de inicio. Asi también con tu cliente de IM[1], esperas ver la lista de tus contactos al momento que lo ejecutas y te logueas a tu cuenta. Muchos (no es mi caso) hasta lo configuran para que cargue automáticamente cuando arrranca el sistema y algunos hasta llegan al punto de dejarle predeterminado el nombre de usuario (correo electrónico) y la clave de acceso!
@@ -39,7 +39,7 @@ Que puedes hacer mientras estas offline?
 
 Que tal si tenias una muy importante tarea que realizar?
 
-Pues, como prevencion, te recomiendo que te descargues la [Wikipedia en DVD.](https://srbyte.blogspot.com/2007/05/wikpedia-en-dvd.html) Te podria ser muy útil. Sino, recuerda que todavia existen las bibliotecas públicas y las bibliotecas universitarias!
+Pues, como prevencion, te recomiendo que te descargues la [Wikipedia en DVD.](/2007/05/wikpedia-en-dvd.html) Te podria ser muy útil. Sino, recuerda que todavia existen las bibliotecas públicas y las bibliotecas universitarias!
 
 [1]IM = Instant Messenger o cliente de mensajeria instantanea, ej. msn messenger, gaim, pidgin, amsn. Los cuales usan protocolos como msn, aim, google talk, etc.
 

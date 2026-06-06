@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5154694238754325501
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGYYO4mJFpH9vzaLe7s74tWGy9fvq_1nBIU9uXDW2Fr0oExpmlS9EKLOIOMSykEAyIOl4W8oOfI795EOAZH4WJdzYDs9mu9y5NLarwFOsf1T82Hb2hehTlLjwIFYuV0dVgSZp4lV7bLLLo/s1600/TED+wordmark.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGYYO4mJFpH9vzaLe7s74tWGy9fvq_1nBIU9uXDW2Fr0oExpmlS9EKLOIOMSykEAyIOl4W8oOfI795EOAZH4WJdzYDs9mu9y5NLarwFOsf1T82Hb2hehTlLjwIFYuV0dVgSZp4lV7bLLLo/s1600/TED+wordmark.png)  
 
 Hace unos momentos [@PatriciaLinares](https://twitter.com/#!/patricialinares) compartió una encuesta para encontrar a los mejores conferencistas para realizar un "TEDx San Salvador". De por si la idea es emocionante, se sabe que el evento requiere bastante organización, pero este es uno de los primeros pasos para ver la viabilidad de tal evento.
 

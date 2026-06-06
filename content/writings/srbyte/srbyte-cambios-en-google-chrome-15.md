@@ -13,7 +13,7 @@ En [Google Chrome Blog](https://chrome.blogspot.com/), publica una entrada en la
 
 Los cambios son interesantes, y hasta "naturales", las aplicaciones y extensiones se presentan en un "muro de imágenes" que se actualiza cada vez que el usuario visita la Chrome Web Store, lo que permite que el usuario encuentre aplicaciones interesantes para probar con solo un vistazo general. Además, las aplicaciones y las extensiones son más fáciles de instalar, bastan con poner el cursor sobre una imagen y luego hacer clic en "Añadir a Google Chrome."
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKUoqr7dX3Lk7s1TLER90E6uaq6C5b20bCIlU-CQhzJq7VBA2FqNggUesdktUVOgeBv7CPqnKgwz75WzL0_FvzHzsmbZtop40kpn5hu6JBIRqx_0knqUohmhDvYt6-zCGKFfS505k3lYfI/s320/cws_image.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKUoqr7dX3Lk7s1TLER90E6uaq6C5b20bCIlU-CQhzJq7VBA2FqNggUesdktUVOgeBv7CPqnKgwz75WzL0_FvzHzsmbZtop40kpn5hu6JBIRqx_0knqUohmhDvYt6-zCGKFfS505k3lYfI/s320/cws_image.jpg)  
 "Nuevo look del Chrome Web Store"
 
 Creo que son cambios sencillos pero acertados, en los que Google mejora la experiencia del usuario, y borra la linea entre la "instalación" y el uso de las web apps.

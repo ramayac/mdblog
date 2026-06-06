@@ -13,7 +13,7 @@ tipo: guía/tutorial.
 
 Esta parte especifica describe el proceso de creación de un Kernel personalizado (o que se volverá así a medida que veas que es un proceso para nada complicado). Abarca desde la descarga de un Kernel (donde encontrarlo), usar un parche en nuestro Kernel, el software necesario para compilar el Kernel, la Configuración y la creación de un "initram" (no se preocupen, ya llegaremos a eso). Todos los pasos se realizan suponiendo que el lector tiene Debian Etch instalado como sistema operativo y GRUB como bootloader (gestor de arranque) instalado. Al final de esta guía/tutorial, se espera que termines con un Kernel (por lo menos ligeramente) personalizado...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5XrYx24PmSuWa-_nHXQo5uKLnQG-k5Zjowp2cwzmWqEtk9FsL8HloWgwqhQEAiDVhjIKTiln-jAnm0FhD54xtg8uvRNHQZpmYrOitGoCUAsnMagq044yiQcBUmEjJlis2mqJrVfbW_n4/s400/iconos-tux.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5XrYx24PmSuWa-_nHXQo5uKLnQG-k5Zjowp2cwzmWqEtk9FsL8HloWgwqhQEAiDVhjIKTiln-jAnm0FhD54xtg8uvRNHQZpmYrOitGoCUAsnMagq044yiQcBUmEjJlis2mqJrVfbW_n4/s400/iconos-tux.jpg)  
 "La belleza del Kernel de Linux, esta en su personalización"
 
 1. 1 Instalando los paquetes requeridos para la compilación del Kernel.
@@ -34,7 +34,7 @@ Luego instalamos los paquetes
 > apt-get install kernel-package libncurses5-dev fakeroot wget bzip2 build-essential
 1.2 Descargando el código fuente del Kernel
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVue5aJuAnhkPtt78Y4wRvfNKXK2IouVE1xEfCCWp6iS7q4fAkwgUTYmtjCmdhj7p2vWq0ev7Sh-vO9ga3hd2FuAko4KqYwYYMwEf26D29KOjW3O0U1pQLajgR_vAKZlUy-OVsvoTZneM/s400/korg10yr.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVue5aJuAnhkPtt78Y4wRvfNKXK2IouVE1xEfCCWp6iS7q4fAkwgUTYmtjCmdhj7p2vWq0ev7Sh-vO9ga3hd2FuAko4KqYwYYMwEf26D29KOjW3O0U1pQLajgR_vAKZlUy-OVsvoTZneM/s400/korg10yr.gif)  
 "10 años de Kernel.org"
 
 En el sitio [https://kernel.org](https://kernel.org/) se publica el codigo del kernel mas reciente, versiones anteriores del mismo y también parches respectivos. Al momento de hacer esta guía, el Kernel esta en su version estable 2.6.22.1 (este es el Kernel que sera usado). Pero antes de descargarlo vamonos al directorio "/usr/src":
@@ -73,17 +73,17 @@ make se encargara construir el programa menuconfig y mostrarlo, menuconfig lista
 - gconfig, que usa un front end con GTK
 Pero menuconfig es la manera de hacerlo este trabajo como un vikingo leñador, y no requiere mayor cosa que los libncurses5, asi que ¡adelante!
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijNtB_Qzm4vfO36Iir74R3VJ7qMCuN85GLb9poVFhD3PX2k6-6ugx9EfEAlD9N2Z3whuWJ8OoAvLj52fLomVtQ8gflsRUuWKd2x2XRiVA-vdhQCPkYoAfMOcYSJ_8jAkvpjd1Ofw_fgEk/s400/makemenuconfig.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijNtB_Qzm4vfO36Iir74R3VJ7qMCuN85GLb9poVFhD3PX2k6-6ugx9EfEAlD9N2Z3whuWJ8OoAvLj52fLomVtQ8gflsRUuWKd2x2XRiVA-vdhQCPkYoAfMOcYSJ_8jAkvpjd1Ofw_fgEk/s400/makemenuconfig.png)  
 "Captura de pantalla de menuconfig"
 
 Ahora vamos a seleccionar la opción: Load an Alternate Configuration File.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglk1OViNTHIMDiv2muAsvRIV91E80dxbZTtPljUcis6UiMLX39KtVgOEb0LJfacptzawkg_qN-8zRxmXzcjAK9OMto-rknostUUBDBtvoLGvR207xuCNjVqSB6-c7PJka59WK6HMUXg-A/s400/loadalter.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglk1OViNTHIMDiv2muAsvRIV91E80dxbZTtPljUcis6UiMLX39KtVgOEb0LJfacptzawkg_qN-8zRxmXzcjAK9OMto-rknostUUBDBtvoLGvR207xuCNjVqSB6-c7PJka59WK6HMUXg-A/s400/loadalter.png)  
 "Captura de pantalla, selección de la opción Load an Alter Configuration File"
 
 Y nos aseguramos de que este el nombre del archivo ".config":
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbUI0InN0V1TO3XSxqvRxC3G-2hiyxSXyE_cgKFp7jJKDANK-Imr3-F5fNT-nNdGDwAunq5Mg4a9qmP56CAvQymWljdGoMxOaCA8yk-Obpucb1dTXm2eNzEradVQN5TAsoez5lINV16Bo/s400/loadconfig.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbUI0InN0V1TO3XSxqvRxC3G-2hiyxSXyE_cgKFp7jJKDANK-Imr3-F5fNT-nNdGDwAunq5Mg4a9qmP56CAvQymWljdGoMxOaCA8yk-Obpucb1dTXm2eNzEradVQN5TAsoez5lINV16Bo/s400/loadconfig.png)  
 "Captura de pantalla, nombre del archivo de configuración"
 
 Cuando salgas, si has cambiado alguna configuración y no has salvado el ".config", te aparecerá un "cuadro de dialogo" para salvar el archivo. Hay que aclarar, que el proceso de compilación del Kernel espera que exista un archivo con el nombre ".config", si este no existe, entonces no podremos continuar.
@@ -107,7 +107,7 @@ en "/usr/src/linux", la carpeta del código del Kernel, claro.
 
 El nuevo Kernel ahora esta instalado en tu sistema, pero necesita un "ramdisk", si no lo tiene, lo mas probable es que ¡el sistema no arranque!
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXX24AFoe2QUIyd9uXQR03Imql3cRnn0x7w6t4vXJfU1Ah3ET37MyR6ZVEKaQ2ECb_oQS_r_tVgPgaPLHjE0KPTydXRJY1xF2aGNQwsN6kLss2s5Sz84ix1btzwxeD5sY7EADaoCUk2lA/s400/kernelpanic.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXX24AFoe2QUIyd9uXQR03Imql3cRnn0x7w6t4vXJfU1Ah3ET37MyR6ZVEKaQ2ECb_oQS_r_tVgPgaPLHjE0KPTydXRJY1xF2aGNQwsN6kLss2s5Sz84ix1btzwxeD5sY7EADaoCUk2lA/s400/kernelpanic.png)  
 "Oh no!... Kernel Panic"
 
 Además necesitamos actualizar el GRUB para que muestre el nuevo Kernel. Bien, lo primero es hacer el "ramdisk", asumiendo que tenemos el Kernel :

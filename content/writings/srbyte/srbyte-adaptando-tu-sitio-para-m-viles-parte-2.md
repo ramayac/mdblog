@@ -33,12 +33,12 @@ Segun comentan en su sitio, la [YUI Library](https://developer.yahoo.com/yui/gri
 
 Otra buena libreria de javascript especializada en el desarrollo de sitios web para móviles es [WebAppNet](https://webapp-net.com/). Esta es otra libreria que simula la UI y animaciones del iPhone OS. Puedes ver un demo de sus features (desde un móvil preferiblemente) en [este sitio](https://demo.webapp-net.com/). A continuación un preview de este demo, visualizado desde un iPod Touch:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSZIvCGSESKfQPwJotA02_5olqeotazNmZVAIZpzAgvKKzxK3jOlUjNJXtrIM-XpOk3gzPYl70crU9D4LxP1S3omzFIenroiEruopLoD7c4nkQ8rKNHSSMAW8TNrWQusVFp4fN6Wo1ea8/s400/WebAppNet-demo-itouch.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSZIvCGSESKfQPwJotA02_5olqeotazNmZVAIZpzAgvKKzxK3jOlUjNJXtrIM-XpOk3gzPYl70crU9D4LxP1S3omzFIenroiEruopLoD7c4nkQ8rKNHSSMAW8TNrWQusVFp4fN6Wo1ea8/s400/WebAppNet-demo-itouch.jpg)  
 "Aplicación Demo que muestra la apariencia y features de la libreria WebAppNet, visualizada desde un iPod Touch"
 
 Por último los invito a leer el siguiente [post recomendado](https://woorkup.com/2010/01/10/best-practices-to-develop-perfect-websites-for-iphone-and-mobile-devices/) para desarrolladores de sitios web para iPhone y otros móviles, con muchas otras ideas a tomar en cuenta a la hora de realizar nuestros sitios. En [este otro sitio](https://patterns.littlespringsdesign.com/index.php/Main_Page) tambien pueden encontrar documentacion, patrones de diseño y guias para crear sitios para móviles. Además, no te olvides de comprobar la compatibilidad de tu sitio mediante [este test](https://www.w3.org/2008/06/mobile-test/) del w3c especifíco para sitios web orientados a smartphones.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj72yKflF5B6F1VBOcf3Ih8zzggkjbe1T_eMmgMwOeXhzudBSSpYKjFzNF2osY0I-vLkyjs52K4DODeXDYJB4WWFytGWBki0lsdMsGW-2OSTD3OtaMgDTBORGszsxXpv_EgD_W86qbLYww/s400/WebCompatibilityTest-itouch.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj72yKflF5B6F1VBOcf3Ih8zzggkjbe1T_eMmgMwOeXhzudBSSpYKjFzNF2osY0I-vLkyjs52K4DODeXDYJB4WWFytGWBki0lsdMsGW-2OSTD3OtaMgDTBORGszsxXpv_EgD_W86qbLYww/s400/WebCompatibilityTest-itouch.jpg)  
 "Resultados de Mobile Safari en el Test de Compatibilidad de Browsers para Móviles, del w3c"
 
 Si necesitas ofrecerle a tus usuarios algo mas que contenido y los navegadores para móviles no te lo permiten, siempre puedes optar por programar una aplicación específica para smartphones haciendo uso de los SDKs que provee cada productor de smartphones.

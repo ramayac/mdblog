@@ -7,23 +7,24 @@ draft: false
 post_id: blog-3515952828243908885.post-8504320822733563080
 ---
 
-Continuando con la saga de posts para los adictos al Internet, especialmente cuando [no sabemos que hacer cuando este nos falla](https://srbyte.blogspot.com/2008/02/guia-para-la-supervivencia-del-geek.html), ahora Google nos brinda una nueva alternativa para no perdernos de sus servicios cuando sucedan estos casos tan trágicos como la falta de Internet.
+Continuando con la saga de posts para los adictos al Internet, especialmente cuando [no sabemos que hacer cuando este nos falla](/2008/02/guia-para-la-supervivencia-del-geek.html), ahora Google nos brinda una nueva alternativa para no perdernos de sus servicios cuando sucedan estos casos tan trágicos como la falta de Internet.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsUIOTdoj2rBvd4UcVwlnClVVElBRXsMgQCXNcOhNsrpluJ_3U1cvkoNvjtjrkCsJXLoYlYxNYNX9hphZ367OA4vFvoK19iHN6wjOsg10utsqT5XzlOiAgreXAk1OIx9J3XtlDI593O0Q/s400/GearsLogo.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsUIOTdoj2rBvd4UcVwlnClVVElBRXsMgQCXNcOhNsrpluJ_3U1cvkoNvjtjrkCsJXLoYlYxNYNX9hphZ367OA4vFvoK19iHN6wjOsg10utsqT5XzlOiAgreXAk1OIx9J3XtlDI593O0Q/s400/GearsLogo.png)  
 "Logotipo de Google Gears"
 
 Esta alternativa se llama [Google Gears](https://gears.google.com/), una tecnología que almacena la información on-line de los servicios que lo implementan en una base de datos en la computadora del usuario, de forma que sea posible seguir usando estos servicios aunque no estemos conectados a Internet.
 
-Para usar Gears, basta con ir a la [página](https://gears.google.com/) [principal de este servicio](https://gears.google.com/), el cual te instalara el [Add-on de Firefox](https://srbyte.blogspot.com/2008/07/qu-es-un-complementoadd-on-de-firefox.html) (así es, funciona nada mas con el mejor navegador del mercado: Firefox) que permitirá revisar dichos documentos sin la necesidad de una conexión a Internet.
+Para usar Gears, basta con ir a la [página](https://gears.google.com/)  
+[principal de este servicio](https://gears.google.com/), el cual te instalara el [Add-on de Firefox](/2008/07/qu-es-un-complementoadd-on-de-firefox.html) (así es, funciona nada mas con el mejor navegador del mercado: Firefox) que permitirá revisar dichos documentos sin la necesidad de una conexión a Internet.
 
 Una vez instalado, nada más visiten los sitios que permiten el uso de Gears para que guarden su información on-line de forma local en su computadora. Por ejemplo, en Google Docs les aparecerá junto a su dirección de correo electrónico un vínculo con la palabra "Offline" (Deben configurarlo para el lenguaje Ingles, por cierto):
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigLHPzg8Y7NU43qJCIojl8AzNouc2lR2Ge6hXKa5DFy_8YHorIvthwNK33QzOcikoVE40R40g2_Fb588esCefTx6yBGcike-Va_drLZd8RHAja5PANXcrEHf9hNXKtWUcOjWIMUqVVNJU/s400/GearsOfflineMessage.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigLHPzg8Y7NU43qJCIojl8AzNouc2lR2Ge6hXKa5DFy_8YHorIvthwNK33QzOcikoVE40R40g2_Fb588esCefTx6yBGcike-Va_drLZd8RHAja5PANXcrEHf9hNXKtWUcOjWIMUqVVNJU/s400/GearsOfflineMessage.png)  
 "Mensaje que indica que ahora podemos configurar Google Docs para trabajar sin conexión (Clic para agrandar)."
 
 Al hacer clic en este vinculo, aparece un mensaje de confirmación para configurar el acceso sin conexión a Google Documents. Al confirmar nuestra decisión, aparecerá otro cuadro de diálogo por parte de Gears, preguntándonos si queremos darle acceso a Google Documents de usar su API. Al confirmar también este cuadro, automáticamente empieza a sincronizar la base de datos local con la información on-line, en este caso, a copiar los documentos que tenemos en nuestra cuenta de Google Documents a una base de datos alojada en nuestra computadora:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwlixvfYeuXObhKR9pqFt7iOU5bNbjNoHz_WV7Eyqxbx7enDGHvegLtUhKHAI8Kbnll8Ou1D1_NGpdrkCrDnJTfjL6Q2lUC8d6Fz_KAnf5Uq4Tmyf_rZWs1eZq8YidZKKFKaWbC4z8rIU/s400/GoogleDocsSync.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwlixvfYeuXObhKR9pqFt7iOU5bNbjNoHz_WV7Eyqxbx7enDGHvegLtUhKHAI8Kbnll8Ou1D1_NGpdrkCrDnJTfjL6Q2lUC8d6Fz_KAnf5Uq4Tmyf_rZWs1eZq8YidZKKFKaWbC4z8rIU/s400/GoogleDocsSync.png)  
 "Google Gears, sincronizando los documentos on-line con nuestra base de datos local (Clic para agrandar)."
 
 Al terminar la sincronización, ya esta todo preparado para poder trabajar sin conexión. Simplemente llamen a su ISP y díganles que no quieren mas el servicio de Internet, consigan unas tijeras y corten el cable UTP, quiebren su tarjeta de red o si no quieren ser tan drásticos, nada mas hagan clic en la opción "Work Offline" ("Trabajar sin Conexión" en español) del menú archivo de Firefox para que puedan comprobar que la pagina les seguirá cargando, permitiéndoles visualizar y editar sus documentos de Google Documents.

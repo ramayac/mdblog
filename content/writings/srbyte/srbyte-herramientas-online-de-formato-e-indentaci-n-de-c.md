@@ -18,7 +18,7 @@ XML:
 - [https://xmlindent.com/](https://xmlindent.com/)
 - [https://x01.co.uk/tools/online-xml-formatter](https://x01.co.uk/tools/online-xml-formatter)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlrliqe46s7W3YHnlzL-BHfnhifbn4Ne19YLU2kMNQrCtS_pF6M1PBTxvLSXzOVWaEjr0JPmIt3NB4-UPQJtPh7hRyqD-eloxvucbG8VH4Rs4fmGyrywm21ohnAxbNoEdCypuptQGjYNQ/s400/XMLIndent.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlrliqe46s7W3YHnlzL-BHfnhifbn4Ne19YLU2kMNQrCtS_pF6M1PBTxvLSXzOVWaEjr0JPmIt3NB4-UPQJtPh7hRyqD-eloxvucbG8VH4Rs4fmGyrywm21ohnAxbNoEdCypuptQGjYNQ/s400/XMLIndent.png)  
 "Captura de pantalla de xmlindent.com, formateando un xml de ejemplo (click para agrandar)"
 
 JSON:
@@ -26,7 +26,7 @@ JSON:
 - [https://jsoneditor.appspot.com/](https://jsoneditor.appspot.com/)
 - [https://jsoneditor.net/](https://jsoneditor.net/)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1LAxvPxeT29INjShraJL1S2VPh0W8TJy0-x3xpP0TVRvzeAOJqSRvjm2VbHFcKc5bVSgSA_KXpxmyCmW_r0mSlwzUVS7PgE0f9dn-nFk45DW_hiqjy2px9Nh8i7tnT9ZlGOvjzrKr62Q/s400/JSONEditor.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1LAxvPxeT29INjShraJL1S2VPh0W8TJy0-x3xpP0TVRvzeAOJqSRvjm2VbHFcKc5bVSgSA_KXpxmyCmW_r0mSlwzUVS7PgE0f9dn-nFk45DW_hiqjy2px9Nh8i7tnT9ZlGOvjzrKr62Q/s400/JSONEditor.png)  
 "Captura de pantalla de jsoneditor.net, quien te forma la estructura jerárquica de tu mensaje JSON"
 
 Múltiples lenguajes de programación:
@@ -39,7 +39,7 @@ Múltiples lenguajes de programación:
 
 Cabe resaltar algunas características especiales que poseen algunas de estas herramientas como por ejemplo jsbeautifier además de formatear el código, también te lo desempaqueta cuando este ha sido generado mediante la herramienta [packer](https://www.blogger.com/dean.edwards.name/packer/), o la herramienta sqlformat que te genera un output de SQL no solamente formateado y con sintaxis coloreada sino que también te puede generar un output de SQL que generalmente colocamos en una variable String dentro de nuestro lenguaje de programación, así como lo ilustra la siguiente imagen:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtUGcpHfq903t3q_k1eStBLb072UkMWmiOL1DX_F_HYztZchricXgUHlJvz2bw2MdIFtgrBEe67EAAiL3ut0BrvI_upy59PJS5ZHsUmRVk5J6bZoksCr2jOsVk9tELDcJdfFFaWIT1Z3c/s400/SqlFormat.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtUGcpHfq903t3q_k1eStBLb072UkMWmiOL1DX_F_HYztZchricXgUHlJvz2bw2MdIFtgrBEe67EAAiL3ut0BrvI_upy59PJS5ZHsUmRVk5J6bZoksCr2jOsVk9tELDcJdfFFaWIT1Z3c/s400/SqlFormat.png)  
 "Sqlformat, indentando correctamente un procedimiento almacenado generando un output a manera de StringBuffer para ser utilizado en una clase Java (Click para agrandar)"
 
 Algún otro que ustedes utilicen para formatear su código fuente en línea?

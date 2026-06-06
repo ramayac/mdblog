@@ -16,7 +16,7 @@ Bien, sabemos que un flop es una medida de rendimiento, y "peta" significa 10^15
 
 Lo importante de conocer este tipo de medidas, es que nos ayuda a tener un indicador del progreso de la capacidad de procesamiento en las ciencias computacionales. De manera que ahora, las supercomputadoras que logran romper la barrera de velocidad del petaflop, se encargaran de llevarnos a nuevos reinos de profundidad conocimiento y cambios muy profundos en la ciencia. Recientemente (lunes 17) un par de computadoras de IBM y Cray lograron romper la barrera que mencione, llegando a velocidades exorbitantes de 1.105 y 1.059 petaflops.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjF79qMbTRDWp9dDiWdQM3R_Dr0aK7wqHUgbYz_sd4xtFbJP6w0KCZkBQlf8XXEPGTFj8md4i1udCTLYhjFUMOVuCdciQswiNP91mbJYs-quwjkNnBtiwfDqvDhQKvKzwNonqfbTNzVtE/s320/800px-Protein_folding.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjF79qMbTRDWp9dDiWdQM3R_Dr0aK7wqHUgbYz_sd4xtFbJP6w0KCZkBQlf8XXEPGTFj8md4i1udCTLYhjFUMOVuCdciQswiNP91mbJYs-quwjkNnBtiwfDqvDhQKvKzwNonqfbTNzVtE/s320/800px-Protein_folding.png)  
 "Plegamiento de Proteínas"
 
 "Si, si, que bueno que sean rápidas" - dirían algunos, pero esto no se trata solo de velocidad, se trata de una capacidad de computo que permite:
@@ -26,10 +26,10 @@ Lo importante de conocer este tipo de medidas, es que nos ayuda a tener un indic
 - [Plegamiento de proteínas](https://es.wikipedia.org/wiki/Plegamiento_de_prote%C3%ADnas)
 - Simulación de explosiones nucleares
 - etc...
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNiCcA-2E7Vj94tFFWK_sAmyFXegMjdYwyJup1C0wEiNY30YgE3upMs5Yg1VUuk_SYLF7h6TbjvvmlfKfYHGhZnyI9UHo2P3kZw70-SGu9rDIYgW4y2NYvIYDIyfXdAoIjuVQyBD0_AUI/s320/modsim_2.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNiCcA-2E7Vj94tFFWK_sAmyFXegMjdYwyJup1C0wEiNY30YgE3upMs5Yg1VUuk_SYLF7h6TbjvvmlfKfYHGhZnyI9UHo2P3kZw70-SGu9rDIYgW4y2NYvIYDIyfXdAoIjuVQyBD0_AUI/s320/modsim_2.gif)  
 "Simulación de fenómenos naturales: Huracanes"
 
-Basta con leer las especificaciones de una de las supercomputadoras de las que les estoy hablando, la Oak Ridge's Jaguar: con 182,000 procesadores AMD quad-core Opterons de 2.3 gigahertz y 362 terabytes de memoria RAM (eso es 362,000 GB de memoria RAM). Es necesario aclarar que la Jaguar esta formada por una agrupación de varias computadoras con recursos compartidos, que ejecuta un "sabor" de Unix llamado: [UNICOS/lc](https://en.wikipedia.org/wiki/UNICOS). ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjXFaOKuTKXCy8hN2JP4WE63BE5XlyWtj0YcRRAgl3g2Ogsd-vSwAJkcuqbdGTvpF_m3060YqG8GRf1qmRN24plRbp4a1dF-pBETx9eFJJdL3GCdbvOnGmlt8nyT_R3qzNV9n0J4Xigjw/s320/jaguar1.jpg)    
+Basta con leer las especificaciones de una de las supercomputadoras de las que les estoy hablando, la Oak Ridge's Jaguar: con 182,000 procesadores AMD quad-core Opterons de 2.3 gigahertz y 362 terabytes de memoria RAM (eso es 362,000 GB de memoria RAM). Es necesario aclarar que la Jaguar esta formada por una agrupación de varias computadoras con recursos compartidos, que ejecuta un "sabor" de Unix llamado: [UNICOS/lc](https://en.wikipedia.org/wiki/UNICOS). ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjXFaOKuTKXCy8hN2JP4WE63BE5XlyWtj0YcRRAgl3g2Ogsd-vSwAJkcuqbdGTvpF_m3060YqG8GRf1qmRN24plRbp4a1dF-pBETx9eFJJdL3GCdbvOnGmlt8nyT_R3qzNV9n0J4Xigjw/s320/jaguar1.jpg)  
 "Oak Ridge's Jaguar"
 
 Así que, al tener computadoras mucho mas potentes, pues los científicos pueden modelar problemas mas complejos y - probablemente - encontrarles solución. Y es mas, algunos científicos creen que el cerebro humano tiene un poder de procesamiento de 10 petaflops... ¿parece que nos estamos acercando no?

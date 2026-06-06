@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-2800018751351296683
 
 Offline Google Mail es una versión especial de GMail, en la que se puede "acceder" al correo sin conexión a Internet (con las respectivas limitantes). Los correos electrónicos que escribas sin conexión se enviarán en el momento en que te conectes a Internet. Las conversaciones y mensajes eliminados, archivados o modificados se sincronizarán la próxima vez que estés online.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX9cyKvJRyqfs03ex34M_BVXJxJjLjbMuaCr9mcWSpKaSbtvBwZDI5ZWozI9uRVIlBU-SETpztjVOTrgS3_CzImDazM0820B_8VGf7T4EbGucV7R6BXvtRVBm7nbjEBHR_Enb5BuNuTclf/s400/gmailoffline.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX9cyKvJRyqfs03ex34M_BVXJxJjLjbMuaCr9mcWSpKaSbtvBwZDI5ZWozI9uRVIlBU-SETpztjVOTrgS3_CzImDazM0820B_8VGf7T4EbGucV7R6BXvtRVBm7nbjEBHR_Enb5BuNuTclf/s400/gmailoffline.png)  
 El "look"
 
 Las características de Offline Google Mail son:
@@ -26,7 +26,7 @@ Pueden "instalar" Offline Google Mail dando click acá:
 
 Por cierto, ni se molesten en probarlo en otros navegadores, para los curiosos en FireFox se ve así:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMRKJhzX-cFKCQ7R_hFxtVds8GK2ZQAaIMrPGCyI3iqeAABhJh7SUV0dxpok1wWCPtU-nZbRVJRPiw_taAA44NzPjlyUEJomTzMvHc0LtjEcBFNPGZ49ygoSYFaBXGowW4nhgU-5nVSWjq/s320/offlinegmailff.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMRKJhzX-cFKCQ7R_hFxtVds8GK2ZQAaIMrPGCyI3iqeAABhJh7SUV0dxpok1wWCPtU-nZbRVJRPiw_taAA44NzPjlyUEJomTzMvHc0LtjEcBFNPGZ49ygoSYFaBXGowW4nhgU-5nVSWjq/s320/offlinegmailff.png)  
 FF 6.0, navegador no soportado ¬¬
 
 Fuente de la noticia: [https://gmailblog.blogspot.com/2011/08/using-gmail-calendar-and-docs-without.html](https://gmailblog.blogspot.com/2011/08/using-gmail-calendar-and-docs-without.html)

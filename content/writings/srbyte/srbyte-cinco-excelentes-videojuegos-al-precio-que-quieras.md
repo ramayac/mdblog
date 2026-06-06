@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8913287221764401718
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY73xtbFGFvYrszJ5X6nV4s30oXEmQmFGL9VhcVJ5i8KrNZhAT3iPX3owKbnNpCC1xHeAAuz9Q8wFZIrE4i0gQkc8bvhaWyBL5flo4iausnnvRCOoXs4uPznDEKSTtOSa77_eZa-_aK_8/s400/HumbleIndieBundle.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY73xtbFGFvYrszJ5X6nV4s30oXEmQmFGL9VhcVJ5i8KrNZhAT3iPX3owKbnNpCC1xHeAAuz9Q8wFZIrE4i0gQkc8bvhaWyBL5flo4iausnnvRCOoXs4uPznDEKSTtOSa77_eZa-_aK_8/s400/HumbleIndieBundle.png)  
 Si, estamos hablando en serio y si, pusimos esa misma cara de desconfianza cuando leímos el anuncio pero es la verdad y personalmente lo acabo de comprobar. [Wolfire](https://www.wolfire.com/humble) esta lanzando una promoción única por tiempo limitado en la cual puedes comprar cinco excelentes juegos multiplataforma (windows, mac linux) al precio que tu quieras.
 
 El link del sitio donde pueden comprar el pack de videojuegos es el siguiente:

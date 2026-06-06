@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4408711151775461262
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha8q-fDYEgMv-VIxS8OqUOfC4K83RP0rGy8BScqzSPlxLH6tn3VZLD4ct81BOJsc0gfQ7JOCre3H-SFbjy91BwTDndcJ49VtCNxxgva9u6b28CandNGZqHXYMTaODqlQtU_EExdv2q-As/s400/default_full.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha8q-fDYEgMv-VIxS8OqUOfC4K83RP0rGy8BScqzSPlxLH6tn3VZLD4ct81BOJsc0gfQ7JOCre3H-SFbjy91BwTDndcJ49VtCNxxgva9u6b28CandNGZqHXYMTaODqlQtU_EExdv2q-As/s400/default_full.jpg)  
 
 Esta semana charlando con un colega de trabajo aprendí una importante lección sobre porqué unos programadores triunfan más que otros. Es cierto que existen muchos factores importantes para lograr un empleo decente como programador, ejemplo de ello son la experiencia, habilidad, conocimiento y persistencia pero hay un punto que he comprobado lo decisivo que puede ser para lograr el éxito: tu imagen profesional.
 

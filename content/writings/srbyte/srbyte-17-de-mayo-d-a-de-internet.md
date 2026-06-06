@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-6471933678608154835
 
 Si, tal y como lo leen el 17 de mayo se celebra el [Día Internacional de Internet](https://www.diadeinternet.org/2010/index.php?body=ppal&pais=10&lang=es&pais_cab=10&lang_cab=es). Si esto ha causado admiración les comento que no son los únicos, yo también me sorprendí cuando ví el afiche oficial - y cuando lo mencionaron en clases -.
 
-![image](https://blogs.laprensagrafica.com/litoibarra/wp-content/uploads/2009/04/logo_ddi_org_72px.gif)    
+![image](https://blogs.laprensagrafica.com/litoibarra/wp-content/uploads/2009/04/logo_ddi_org_72px.gif)  
 ¡ Vívelo! ¡Celebra el Día de Internet!
 
 El Día de Internet se celebró por primera vez el 25 de octubre de 2005. Luego de la [Cumbre Mundial sobre la Sociedad de la Información](https://www.itu.int/wsis/index-es.html) realizada ese mismo año, la [Asociación de Usuarios de Internet](https://aui.es/) - entidad que impulsa y apoya esta celebración - propone a la ONU la designación del 17 de mayo como Día Mundial de Internet y es así como queda estipulado que se celebrará en esta fecha.

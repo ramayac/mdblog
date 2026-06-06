@@ -21,8 +21,7 @@ El segundo video, es una charla del experto en seguridad [Ralph Langner](https:/
 
 [Video](https://www.youtube.com/embed/CS01Hmjv1pQ)
 
-Y finalmente, un brillante y detallado análisis por Bruce Dang (Microsoft), donde explica su aventura analizando el comportamiento del virus, desde como fue descompilado, hasta los "[zero day bugs](https://en.wikipedia.org/wiki/Zero-day_attack)
-" que aprovecha:
+Y finalmente, un brillante y detallado análisis por Bruce Dang (Microsoft), donde explica su aventura analizando el comportamiento del virus, desde como fue descompilado, hasta los "[zero day bugs](https://en.wikipedia.org/wiki/Zero-day_attack)" que aprovecha:
 
 [Video](https://www.youtube.com/embed/rOwMW6agpTI)(La charla comienza en el minuto 6:44)
 

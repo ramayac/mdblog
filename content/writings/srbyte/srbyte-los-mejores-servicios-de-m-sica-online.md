@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-9059961043388984704
 
 El día de hoy rememore cuando mi madre me comento que ya no podía escuchar musica de "Last.fm" (esto fue en marzo de este año), también recordé que varias personas me lo comentaron... y cuanto lo experimente en carne propia eventualmente me resigne a no usar ningún cliente de last.fm para escuchar radio on-line.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXDvDSzGVmHfoYwM_PQYzAdMTtqIa4TY92ICsKUlKo7tMXdCF_lMs6x7rwHV8LsayPrfhmiWNnlvJ2zT434f3PeEU8c1JXFBqN-vSxVUWFiSwg54szEOteDxmRSRbwO6xhdMAdPSH30q6s/s200/tangent_quattro.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXDvDSzGVmHfoYwM_PQYzAdMTtqIa4TY92ICsKUlKo7tMXdCF_lMs6x7rwHV8LsayPrfhmiWNnlvJ2zT434f3PeEU8c1JXFBqN-vSxVUWFiSwg54szEOteDxmRSRbwO6xhdMAdPSH30q6s/s200/tangent_quattro.jpg)  
 
 Lo difícil de dejar last.fm, es que tengo cuenta con ellos desde desde el 25 Diciembre de 2006, con más de 35,000 temas "scrobblings", y casi 500 canciones marcadas como "favoritas" (Hay un extraño orgullo en decir que he escuchado tanta música diariamente). El hecho de que tengan tanta información sobre mis gustos musicales, hace que me sienta en el paraíso al escuchar las sugerencias o listas aleatorias musicales, porque es casi garantizado que no me voy a aburrir. Pero ahora que cambiaron su política de radio on-line, me siento atado y decepcionado del servicio.
 
@@ -20,21 +20,21 @@ Ahora el problema es encontrar un nuevo servicio para descubrir nueva música. L
 [OurStage](https://www.ourstage.com/)
 Encontrar OurStage fue sinceramente muy agradable. OurStage es una comunidad musical que usa una fusión de tecnologías para atraer fans, artistas y profesionales de la industria. Para los que buscamos nueva música constantemente, existen 50 géneros que puedes explorar, todo envuelto en una interesante pero también rara interfaz llamada "Thumbing".
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDhHoN92mFU4FwFRH7-SHXvHOPU2EsUUOIej3nR3OUh0zLJs1Koz57ihiLjAa4tMxfFK1Ujshw5O2ScpUQa_IMeH08XXdgjodPeRdw1Q_tZoW1Wi3M6T9Y60j6cxowZnb547DvR8idwP81/s200/ourstage.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDhHoN92mFU4FwFRH7-SHXvHOPU2EsUUOIej3nR3OUh0zLJs1Koz57ihiLjAa4tMxfFK1Ujshw5O2ScpUQa_IMeH08XXdgjodPeRdw1Q_tZoW1Wi3M6T9Y60j6cxowZnb547DvR8idwP81/s200/ourstage.jpg)  
 
 Lo interesante: El motor para juzgar canciones, que te permite valorar sobre canciones o videos, con tus gustos, "se salva al mundo de la música mediocre"... [tienen que verlo](https://www.ourstage.com/judge?channel=50-latin). Lo malo: me aturde un poco la interfaz, es molesto el "pop up" que aparece con el reproductor de la música. Lo bueno: música ilimitada y gran variedad.
 
 [MySpace Music](https://music.myspace.com/)
 Un relativamente reciente servicio de MySpace, MySpace Music se ha vuelto rápidamente un servicio atractivo en Internet. Su librería musical es INMENSA, tiene canciones de las mayores disqueras y de artistas independientes, y aprender acerca del artista y sus canciones es sencillo, gracias a la riqueza de información que tiene MySpace de cada pista de audio. Puedes escuchar música casi ilimitadamente, sin registrarte, y existen buenos recursos para escuchar lo mas reciente, lo mejor y ver que canciones se vuelven más populares.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLSqmZ-YsH2LYeWHs4QVKOxqjOrCbaac5Tt5Fv3lskraBzAtLQfodxQHYfAQesqDIFOoXo47MhtUPJAnAsO6QN1CgtSGA0AG3hwTX3UxqEdSBx6StmkrBfKLu1JzYogjN2PT7LSaJVoTp/s320/myspace.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLSqmZ-YsH2LYeWHs4QVKOxqjOrCbaac5Tt5Fv3lskraBzAtLQfodxQHYfAQesqDIFOoXo47MhtUPJAnAsO6QN1CgtSGA0AG3hwTX3UxqEdSBx6StmkrBfKLu1JzYogjN2PT7LSaJVoTp/s320/myspace.jpg)  
 
 Lo interesante: la cantidad de información, algo desordenado, pero realmente es bastante. Lo malo: hay ciertas canciones que solo permiten que se escuchen 30 segundos de audio, y la calidad de audio es un poco baja. Lo bueno: Gran variedad, playlists, podes repetir varias veces la misma canción, y muchas características de interacción social.
 
 [GrooveShark](https://listen.grooveshark.com/)
 Como preferencia personal, yo pensé que no encontraría nada que le quitara el lugar que Last.fm tiene en mis favoritos... pues me equivoque. Ya tenia ratos de ver varios usuarios de twitter usar GrooveShark para compartir sus canciones, pero no tuve el tiempo (ni el ancho de banda) para dedicarme a usarlo. Con la ayuda de una excelente interfaz de usuario, un usuario cualquiera puede encontrar un artista, álbum o canción de una manera sumamente sencilla. La interfaz completa de GrooveShark esta basada en Flash. Con animaciones suaves, opciones "drag and drop", y las canciones más recientes y populares hace de GrooveShark la mejor opción para los adictos a escuchar música online. Comparada a la base de datos de MySpace Music, la librería se siente pequeña, y si dejas el motor de música recomendada, después de una media hora se comienza a escuchar lo mismo. Lo mas atractivo quizás, es que me dejo armar mi lista de reproducción sin ningún problema, no tenia canciones de 30 segundos, cambiar el orden de las canciones, repetirlas, etc...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ9pyfECys9m_2crTueWWaNj_8CbWi4dSp-RyggVFkBYxc88UE846r2LuetyNIRSmNT5Tw6qdGrOjHjj5F5DTxT3DJJRjcgyEtuD9iWEepuTJ6wVUsHMVAJD5H4qIiDAs5meRCLhfN0YNm/s200/grooveshark.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ9pyfECys9m_2crTueWWaNj_8CbWi4dSp-RyggVFkBYxc88UE846r2LuetyNIRSmNT5Tw6qdGrOjHjj5F5DTxT3DJJRjcgyEtuD9iWEepuTJ6wVUsHMVAJD5H4qIiDAs5meRCLhfN0YNm/s200/grooveshark.jpg)  
 
 Lo interesante: Una excelente interfaz de usuario. Lo malo: el motor de recomendaciones se queda corto, pero no es totalmente malo. Lo bueno: La calidad de la música es superior a la de MySpace Music, posee integración con Twitter, Facebook y Stumble Upon, y el reproductor en si es genial.
 

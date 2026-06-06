@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7236701584944107442
 ---
 
-![image](https://blogactionday.s3.amazonaws.com/banners/Badge_300x160.jpg)    
+![image](https://blogactionday.s3.amazonaws.com/banners/Badge_300x160.jpg)  
 "Banner Promocional del Blog Action Day"
 
 Como parte de la campa﻿ña del Blog Action Day, el Sr Byte también se une a la causa para hacer conciencia a todos los lectores y bloggers para que hagamos ruido en la web, para que enfaticemos temas de importancia mundial y los tratemos desde nuestros blogs, como una manera de hacer conciencia en la sociedad y encontrar problemas a dichas situaciones.

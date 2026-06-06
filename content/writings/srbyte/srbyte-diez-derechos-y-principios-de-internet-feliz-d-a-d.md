@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5549713778595647735
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo624WT_pqijHwou4v5Di6wNZgW0AtPuQ2zzIcsPl6cFc50bY8w5SO3MawwmhMXIsPNomw5vhfkwE6RqxpjSoWwWFBe8fXWixmc_pYbBAsGmArJIzDM42HNNpS8QMFVRRWVAhkEsYjxmkW/s200/20110403213644.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo624WT_pqijHwou4v5Di6wNZgW0AtPuQ2zzIcsPl6cFc50bY8w5SO3MawwmhMXIsPNomw5vhfkwE6RqxpjSoWwWFBe8fXWixmc_pYbBAsGmArJIzDM42HNNpS8QMFVRRWVAhkEsYjxmkW/s200/20110403213644.jpg)  
 [Este documento](https://internetrightsandprinciples.org/userfiles/file/spanish_DLPrinciples_V3-links.pdf) define los diez derechos y principios fundamentales que deberían formar la base de Internet. Han sido recopilados por la [Internet Rights and Principles Coalition](https://internetrightsandprinciples.org/) (IRP), una coalición abierta de individuos y organizaciones que trabajan para defender los Derechos Humanos en el entorno "On Line". Los principios se basan en las normas internacionales sobre Derechos Humanos y se derivan de la Carta de la Coalición sobre los Derechos y los Principios Humanos enfocados para Internet.
 
 Internet ofrece oportunidades sin precedentes para desarrollar los Derechos Humanos y desempeña un papel cada vez más importante en nuestra vida. Por lo tanto, es esencial que todos los agentes, tanto públicos como privados, respeten y protejan los Derechos Humanos en Internet. También se deben tomar medidas que garanticen que Internet funcione y evolucione de manera que cumpla y sea respetuosa con estos derechos. Para hacer realidad un Internet basado en la Carta Universal de los Derechos Humanos, el IRP proponen los siguientes derechos:

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7766568471977048028
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghV6a-y4gIavXRE2E8Ndu3GC73wYkA6H7Pa5CmF-IR_fGcPuUhg2Z1AenyzWG_c2Q-BHCfO4VpABDq7irAZo5fQJYfQ71IR2vLddz62Im9oD7yzyfFEjB5m_VT9BdVm1-Oj8W3sa5FZg0/s400/collabediting.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghV6a-y4gIavXRE2E8Ndu3GC73wYkA6H7Pa5CmF-IR_fGcPuUhg2Z1AenyzWG_c2Q-BHCfO4VpABDq7irAZo5fQJYfQ71IR2vLddz62Im9oD7yzyfFEjB5m_VT9BdVm1-Oj8W3sa5FZg0/s400/collabediting.png)  
 "La edición colaborativa de documentos es útil cuando el equipo de trabajo no se puede reunir físicamente"
 
 Gracias al uso del internet, hoy en día los desarrolladores pueden participar en proyectos de software que no necesariamente se llevan a cabo en la misma zona geográfica de su domicilio haciendo uso de [herramientas de versionamiento](/2008/03/programemos-mejor-subversion.html) de código fuente que permite tener un repositorio en la nube el cual puede ser actualizado desde cualquier parte del mundo donde se posea una conexión a internet.
@@ -24,7 +24,7 @@ Lo que destaca a esta herramienta del resto es su simplicidad y facilidad de uso
 
 La desventaja de su simplicidad es que, al no tener la necesidad de registrarse en el sitio para poseer una cuenta, tampoco se posee la funcionalidad de guardar el documento aunque sí permite descargar el contenido como archivo. El propósito mas apropiado para esta herramienta es entonces, el usarlo como medio para discutir código fuente que ya tenias creado mediante algún IDE de desarrollo pero necesitas discutirlo o corregirlo de manera colaborativa con otros colegas a través de internet.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0QKKuUVGtYv_83XABPgotQgGGvCbpWGCkUP3Oeq6EpnHaZRoLq64_R9_YSzAbaO3l0dmeUZqjxrdC1mLA8pcou5K8T5bUILl0W4UbFUZYPID4HWVL6_YdfQKKrXFNAGbPbbGhKfEDN6A/s400/CollabEditShot.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0QKKuUVGtYv_83XABPgotQgGGvCbpWGCkUP3Oeq6EpnHaZRoLq64_R9_YSzAbaO3l0dmeUZqjxrdC1mLA8pcou5K8T5bUILl0W4UbFUZYPID4HWVL6_YdfQKKrXFNAGbPbbGhKfEDN6A/s400/CollabEditShot.png)  
 "Edición colaborativa de una clase Java en Collabedit(Clic para agrandar)"
 
 Cacoo ([link](https://cacoo.com/))

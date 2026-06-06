@@ -7,24 +7,24 @@ draft: false
 post_id: blog-3515952828243908885.post-6470450690565599416
 ---
 
-Este día, Junio 30, es el día que Microsoft comienza la fase de retirada de Windows XP del mercado, al dejar de proveer copias de este sistema operativo a los vendedores y fabricantes de PC's. También es un buen día para comenzar a ver lo que viene después de "Windows" y de Microsoft, recuerden que el 16 Junio fué el día que Mr. Gates, dejó su puesto de CEO, y se dedicara a actividades[filantropicas en vez de seguir compitiendo en el mercado y ganando más dinero.](https://srbyte.blogspot.com/2008/02/la-estrategia-de-salida-de-bill-gates.html)
+Este día, Junio 30, es el día que Microsoft comienza la fase de retirada de Windows XP del mercado, al dejar de proveer copias de este sistema operativo a los vendedores y fabricantes de PC's. También es un buen día para comenzar a ver lo que viene después de "Windows" y de Microsoft, recuerden que el 16 Junio fué el día que Mr. Gates, dejó su puesto de CEO, y se dedicara a actividades[filantropicas en vez de seguir compitiendo en el mercado y ganando más dinero.](/2008/02/la-estrategia-de-salida-de-bill-gates.html)
 
 La partida de Billy G. (Bill Gates) marca un pivote en la historia de esa compañía, de ahora en adelante nos referiremos a este punto como la era "Post Gates", y a Microsoft Corporation, podríamos llamarlo: "Microsoft 2.0" (si, si, [como el libro](https://www.amazon.com/Microsoft-2-0-Plans-Relevant-Post-Gates/dp/0470191384)).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifYb3UcMvnpAAr6gx_9RillvS6TKyfbkWvqC3P8y-xNBQ3lfENIBVCUcafa-BM33rDkYttYpI4cndA3HUYV-OR0fSSnXqyFW82qq2i2IO-NzCIM455qPUyxSePz69QbmpOI-cjQTisxko/s400/msft20.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifYb3UcMvnpAAr6gx_9RillvS6TKyfbkWvqC3P8y-xNBQ3lfENIBVCUcafa-BM33rDkYttYpI4cndA3HUYV-OR0fSSnXqyFW82qq2i2IO-NzCIM455qPUyxSePz69QbmpOI-cjQTisxko/s400/msft20.jpg)  
 "Imagen: Microsoft comienza una nueva era..."
 
 Por una parte, me da tristeza que retiren XP del mercado, no porque me guste, sino porque poco a poco la mayoría de usuarios, tendrán que usar Vista (o lo que venga), un sistema operativo que ni siquiera tiene una GUI bien unificada.
 
 NO, la GUI de Vista NO ESTA UNIFICADA, ¿no me creen?, aquí hay algunos ejemplos:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdylbRtXj7_JNnGJJyevc2F9EU4a8zn44i2-4UCKSHXveHnmLv-Em4vfgqxF5y5_pnVCu3tp8M9hgGu35vUsXYJFVotzc8-01ziyLiSqwE27xlZ2_Ps8Q1ONiy5QqdFBPv01An-TjqeNY/s400/menucrap.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdylbRtXj7_JNnGJJyevc2F9EU4a8zn44i2-4UCKSHXveHnmLv-Em4vfgqxF5y5_pnVCu3tp8M9hgGu35vUsXYJFVotzc8-01ziyLiSqwE27xlZ2_Ps8Q1ONiy5QqdFBPv01An-TjqeNY/s400/menucrap.jpg)  
 "Imagen: ¡No hay menú para acceder a los contactos, ni a las descargas!"
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNth3aYrEDZXEDj4Wp7bcDLQCAwwvM9BKj_6XDh7jUBZcFx2mBcAmqu4w0rmWmQkEDnWpFXl-9MlZ_eAalFYOISSLEUwJlvmhYF0vKatwczCbwz-cCBYAkei3yV7GAjhIPtQC9lbxpJDk/s400/nohayvistapreviaAERO.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNth3aYrEDZXEDj4Wp7bcDLQCAwwvM9BKj_6XDh7jUBZcFx2mBcAmqu4w0rmWmQkEDnWpFXl-9MlZ_eAalFYOISSLEUwJlvmhYF0vKatwczCbwz-cCBYAkei3yV7GAjhIPtQC9lbxpJDk/s400/nohayvistapreviaAERO.jpg)  
 "Imagen: No hay vista previa del tema AERO"
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioDJt9gTnrMLsGm6fXnd1inALej0Qu90BaCZFU3Nm1716ULJza2ECXZCK49yrISQ-yTEdl48RlX9LzjXgmNXffDz6Q8G_0bnobOfq6IXx0BS9BSNhd73M6PjfSDskkb8RG3w42FI08RIQ/s400/agregarfuentes.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioDJt9gTnrMLsGm6fXnd1inALej0Qu90BaCZFU3Nm1716ULJza2ECXZCK49yrISQ-yTEdl48RlX9LzjXgmNXffDz6Q8G_0bnobOfq6IXx0BS9BSNhd73M6PjfSDskkb8RG3w42FI08RIQ/s400/agregarfuentes.jpg)  
 "Imagen: Este es el SUPER moderno cuadro de dialogo para agregar fuentes al sistema,¿ notan los iconos tipo windows 95 y la disposición moderna y nada confusa de la dichosa ventana?"
 
 Y pueden ver mas inconsistencias (y agregar las suyas) aquí:

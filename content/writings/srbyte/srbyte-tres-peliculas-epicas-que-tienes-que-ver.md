@@ -17,8 +17,7 @@ Basada en la historia del popular juego del mismo nombre ([PoP SOT](https://en.w
 
 The Last Air Bender
 
-Basada en la popular, compleja, rica y bien realizada serie animada de Nikelodeon, "[Avatar: The Last Airbender](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender)
-", es una historia, en donde un pequeño monje de doce años de la orden de los "nómadas del aire" llamado Aang debe "terminar" de convertirse en el maestro Avatar (nada que ver con James Cameron): que domina los cuatro elementos. En esta historia, el Avatar es el ser que se encarga de mantener el balance y la paz entre las cuatro naciones (cada una identificada por un elemento). Y así Aang debe encontrar la manera de pacificar este mundo caótico, que esta a punto de ser subyugado por la "nación de fuego".
+Basada en la popular, compleja, rica y bien realizada serie animada de Nikelodeon, "[Avatar: The Last Airbender](https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender)", es una historia, en donde un pequeño monje de doce años de la orden de los "nómadas del aire" llamado Aang debe "terminar" de convertirse en el maestro Avatar (nada que ver con James Cameron): que domina los cuatro elementos. En esta historia, el Avatar es el ser que se encarga de mantener el balance y la paz entre las cuatro naciones (cada una identificada por un elemento). Y así Aang debe encontrar la manera de pacificar este mundo caótico, que esta a punto de ser subyugado por la "nación de fuego".
 
 Lo mas interesante de esta película, es quien la dirige... nada más y nada menos que [M. Night Shyamalan](https://en.wikipedia.org/wiki/M._Night_Shyamalan), el director de El Sexto Sentido. Han pasado 10 años desde que M. Night nos dejo traumados con la memorable frase:
 

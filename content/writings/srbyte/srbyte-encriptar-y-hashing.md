@@ -11,7 +11,7 @@ Cansado de que tanto los docentes, como los alumnos de mi universidad, usen casi
 
 ¿Qué es encriptar? En primer lugar la palabra "encriptar" ni siquiera debería de ser usada en español, el termino es una traducción literal del ingles, para este oscuro proceso siempre se había empleado el termino de CIFRADO. Pero bien, le seguiremos diciendo "Encriptado". En la ciencia de la criptografía, la encriptación es el proceso de TRANSFORMAR información para hacerla completamente ILEGIBLE para cualquier persona, excepto para aquel que tengan un conocimiento especial ... a este conocimiento especial le llamaremos LLAVE (de encriptación).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT1WI7bPor3th2ZEy5ABqlVV1Z1hdeeDrjjmzxJuSbIG0oWi88SFU_QiKYz012WkWlwOlPedinp5LWkvceV_N533zUdSHJAZAmnua4JpWy8XKzDxZuGFDxGQ7_tj_KfUMryo-RDUhrmD4/s320/mortal.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT1WI7bPor3th2ZEy5ABqlVV1Z1hdeeDrjjmzxJuSbIG0oWi88SFU_QiKYz012WkWlwOlPedinp5LWkvceV_N533zUdSHJAZAmnua4JpWy8XKzDxZuGFDxGQ7_tj_KfUMryo-RDUhrmD4/s320/mortal.png)  
 "¿Se recuerdan de esto en Mortal Kombat?"
 
 El resultado de este proceso es información encriptada. En muuuuchos contextos, la palabra encriptar también se refiere al proceso inverso: desencriptar, para poder hacer que la información que antes era ILEGIBLE, vuelva a su condición original (gracias a la LLAVE).
@@ -19,10 +19,9 @@ El resultado de este proceso es información encriptada. En muuuuchos contextos,
 En resumen, al encriptar se convierte o transforma la información, pero este proceso es reversible. Veamos un ejemplo:
 
 > "Iholc gld gh od lqghshqghfld ohfwruhv Vdoydgruhñrv"
-El texto anterior esta encriptado con el "[código Cesar](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
-". Este código cesar es la llave para desencriptar el texto: Se cuenta que Julio Cesar invento esta forma de encriptacion por si capturaban a un mensajero que lleva ordenes militares, los capturadores no pudieran leer el mensaje (y claro, solo los generales del Cesar tenian el conocimiento para hacerlo). ¿Y cual es este gran proceso para desencriptar el mensaje anterior? Sencillo, tomemos una letra: h, ahora nos vamos tres letras atras en el abecedario, eso nos da la letra e.
+El texto anterior esta encriptado con el "[código Cesar](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)". Este código cesar es la llave para desencriptar el texto: Se cuenta que Julio Cesar invento esta forma de encriptacion por si capturaban a un mensajero que lleva ordenes militares, los capturadores no pudieran leer el mensaje (y claro, solo los generales del Cesar tenian el conocimiento para hacerlo). ¿Y cual es este gran proceso para desencriptar el mensaje anterior? Sencillo, tomemos una letra: h, ahora nos vamos tres letras atras en el abecedario, eso nos da la letra e.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNxYriyAJ9EhtPxhDqi1MzZfZ8AOysPBmmLlnZU_IX5RzeQwtytHnOpxATqzF-EB6W5-vm23VxqbfEV60K1rgzC79VDNjEQdbZm3WC5rkKsvBcJC-TIDK5l7QbgqTPH06tUftc1KdAbTQ/s320/320px-Caesar3.svg.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNxYriyAJ9EhtPxhDqi1MzZfZ8AOysPBmmLlnZU_IX5RzeQwtytHnOpxATqzF-EB6W5-vm23VxqbfEV60K1rgzC79VDNjEQdbZm3WC5rkKsvBcJC-TIDK5l7QbgqTPH06tUftc1KdAbTQ/s320/320px-Caesar3.svg.png)  
 "código de cifrado del César"
 
 El mismo proceso se repite para las letras mayusculas y minusculas.
@@ -49,7 +48,7 @@ Pero observen que, a partir del hash MD5 es CASI IMPOSIBLE generar un DVD comple
 > ¡El proceso no es reversible!
 A menos que .... Generemos un archivo de 4.3G, con datos completamente aleatorios y generemos su hash MD5 para ver si concuerda con el primer hash MD5 del primer DVD y repitamos este proceso las veces que sean necesarias (con brute force attack).... las probabilidades, son bastante remotas. Así que dejemos lo en CASI IMPOSIBLE... o podríamos terminar asi:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf_3N2mUkXPkkcn6hZqlixqNvV-8rI6_8YSSQMVPXuA209CJzEGbmMIHUrYQSn_5lmp5AaS4exm2DHZ9uiuZPE7OjI82GL2DzRHCzK1PgwqOfuxgz8OF0Jx5z6zkR9qqXriKQ9bCVFB9c/s320/death.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf_3N2mUkXPkkcn6hZqlixqNvV-8rI6_8YSSQMVPXuA209CJzEGbmMIHUrYQSn_5lmp5AaS4exm2DHZ9uiuZPE7OjI82GL2DzRHCzK1PgwqOfuxgz8OF0Jx5z6zkR9qqXriKQ9bCVFB9c/s320/death.png)  
 "..."
 
 Esa aproximación jamas funcionaria para un archivo de 4.3 GB.... pero si para.... algo más pequeño. Espero haber aclarado términos, hasta la proxima!

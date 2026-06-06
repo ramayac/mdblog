@@ -11,15 +11,14 @@ Para nadie es sorpresa que cada vez son más las personas que poseen un smartpho
 
 Sabiendo esto, las empresas y organizaciones deben tomar en cuenta que muchos de sus clientes / usuarios ahora tienen la alternativa de acceder desde un dispositivo móvil a los servicios web (o simplemente el contenido web) que estos ofrecen pero existe un inconveniente: Dichos sitios web fueron diseñados para ser vistos desde una computadora con una resolución como mínimo de 1024x768. Esto significa que cuando intentas ver uno de estos sitios en tu dispositivo móvil, puede lucir como en la siguiente imagen:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib09uHQMqPjoFJcrbQgoiNCwgS6xZ5f9zOHCw2wEiFgdBQlwsGyk-FV1fuc28ExiIX5O-a7OMs7iRagUtaomubTrr5vqSK3Bzn5uQ095tBJrf5MZKbMwojv5uNSCsV_vvfdC6DksLyPh4/s400/google-code-ipod.jpg)    
-"Google Code - Uno de los sitios de Google que a diferencia de GMail, GReader y Google Calendar, aun no tiene una version para móviles. Screenshot tomado desde un iPod touch (izquierda) y desde un móvil con Android (derecha). Captura de pantalla desde el Android cortesia de [@jainux](https://twitter.com/jainux)
-"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEib09uHQMqPjoFJcrbQgoiNCwgS6xZ5f9zOHCw2wEiFgdBQlwsGyk-FV1fuc28ExiIX5O-a7OMs7iRagUtaomubTrr5vqSK3Bzn5uQ095tBJrf5MZKbMwojv5uNSCsV_vvfdC6DksLyPh4/s400/google-code-ipod.jpg)  
+"Google Code - Uno de los sitios de Google que a diferencia de GMail, GReader y Google Calendar, aun no tiene una version para móviles. Screenshot tomado desde un iPod touch (izquierda) y desde un móvil con Android (derecha). Captura de pantalla desde el Android cortesia de [@jainux](https://twitter.com/jainux)"
 
 Como puedes notar, el sitio no está adecuado para ser visualizado desde un dispositivo móvil. Esto dificulta la navegación en el mismo, teniendo que hacer zoom in para poder leer el texto y también zoom out para luego ver la página completa y dirigirse a otras secciones de esta.
 
 El primer framework que conocí, el cual realmente es un plugin para Wordpress, fué [WPTouch](https://www.bravenewcode.com/wptouch/). Al agregar este plugin a tu blog de Wordpress, este identifica automáticamente cuando estás visitando el blog desde un iPhone o iPod touch y modifica la plantilla adaptándolo a las dimensiones y paleta de colores de dicho dispositivo para que la lectura del blog sea lo más adecuada.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKgn4NfvCvSgJ72tkwKCTCdo1oCNQofAjUf8gutm6z5vfu612ge4o0pLFdHndbkOGm2mzj6cdM1IFx9stmDOpkumVt_tJMb28AFpvcWuapCMjWA8723k8bYvyur8JYPV0Bn4HgkUlZ2WA/s400/wptouch-blog.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKgn4NfvCvSgJ72tkwKCTCdo1oCNQofAjUf8gutm6z5vfu612ge4o0pLFdHndbkOGm2mzj6cdM1IFx9stmDOpkumVt_tJMb28AFpvcWuapCMjWA8723k8bYvyur8JYPV0Bn4HgkUlZ2WA/s400/wptouch-blog.jpg)  
 "[Soda Caustica](https://sicotropico.wordpress.com/), blog de Virginia Lemus. Uno de los primeros blogs donde observe el uso del plugin WPTouch para blogs de Wordpress."
 
 Existen servicios que te automatizan la tarea de crear una versión móvil de tu sitio, adaptando las dimensiones de la plantilla y eliminando contenido que posiblemente no funcionará en tu dispositivo o retrasará innecesariamente la carga del mismo. Entre estos sitios se encuentran [MoFuse,](https://www.mofusepremium.com/) [dotMobi](https://mtld.mobi/) y [mobifyMe](https://mobify.me/).
@@ -30,7 +29,7 @@ DotMobi ([link](https://mtld.mobi/)) Es en forma general, un conjunto de servici
 
 MobifyMe ([link](https://mobify.me/)) También te permite crear una versión móvil de tu sitio pero a diferencia de DotMobi y MoFuse, este no te lo hace de forma instantánea generando una plantilla automáticamente. Sacrificas esta feature obteniendo un mayor control sobre el contenido de tu nuevo sitio permitiéndote seleccionar los elementos que deseas mostrar tomándolos directamente de tu sitio original y adaptándolos a las dimensiones de un dispositivo móvil usando además hojas de estilo personalizadas.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhroQRtpa71CXL9cpdawoUkcozq7iDs-lyEcNBh04HLsyHUaPz4KAAaHniKtYtEYD4hj7f6PXXlrvlAMCf_Mpt9RMqo7FrqH9WcG1n-9dLKe7NINp2rBCx9SO7x93B8jNXOgw6hF6bh6Xo/s400/mobify+-+editing.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhroQRtpa71CXL9cpdawoUkcozq7iDs-lyEcNBh04HLsyHUaPz4KAAaHniKtYtEYD4hj7f6PXXlrvlAMCf_Mpt9RMqo7FrqH9WcG1n-9dLKe7NINp2rBCx9SO7x93B8jNXOgw6hF6bh6Xo/s400/mobify+-+editing.png)  
 "Editando el layout una página de ejemplo en mobify.me"
 
 Estos tres servicios te generan un sitio con su propio hosting y un domain customizable (también asociable a tu propio dominio) además de ofrecerte plugins y scripts para autodetección de tipos de dispositivos, el cual, al agregarlo a tu sitio original, puedes hacer que te redireccione automáticamente a tu versión móvil cuando este detecta que el usuario está navegando desde uno de estos dispositivos. Aunque parezca que este no es tan sencillo como los otros dos, este es el más profesional de todos y el que más opciones te ofrece para la personalización de tu nuevo sitio móvil. Además, entre los planes de pago te ofrece un plan gratuito con el que puedes hacer más que suficiente para montar la versión móvil de un sitio sencillo o un blog.

@@ -7,26 +7,27 @@ draft: false
 post_id: blog-3515952828243908885.post-3076634438102502473
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7BvVWUBJSlag2Qx7tVJJu2l-wphQA2Fkc-ZsbZcTG_oUDNV76Zqkb3Vk1Teu1ypbxRZga-sqZCTaZFzegJ_WE_Fv_cYdmKNlJ6ljrGRTR8zDDCO2VrYsVbWAhbz0OwQOhsLtMPqzqeQY/s400/midomi-logo.jpg)    Midomi es un buscador de música, pero no como los que conoces. Midomi implementa un avanzado sistema de búsqueda de música, en el que para encontrar una canción usas el micrófono de tu computadora para cantar o tararear una canción. Cuantas veces no has pasado días con una canción metida en tu cabeza, y no sabes de que canción se trata, y la tarareas a tus amigos para saber si ellos la conocen, y sueñas, con que algún día, puedas buscar música/sonidos en Internet. A mí me pasa muy seguido.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7BvVWUBJSlag2Qx7tVJJu2l-wphQA2Fkc-ZsbZcTG_oUDNV76Zqkb3Vk1Teu1ypbxRZga-sqZCTaZFzegJ_WE_Fv_cYdmKNlJ6ljrGRTR8zDDCO2VrYsVbWAhbz0OwQOhsLtMPqzqeQY/s400/midomi-logo.jpg)  
+Midomi es un buscador de música, pero no como los que conoces. Midomi implementa un avanzado sistema de búsqueda de música, en el que para encontrar una canción usas el micrófono de tu computadora para cantar o tararear una canción. Cuantas veces no has pasado días con una canción metida en tu cabeza, y no sabes de que canción se trata, y la tarareas a tus amigos para saber si ellos la conocen, y sueñas, con que algún día, puedas buscar música/sonidos en Internet. A mí me pasa muy seguido.
 
 Así que tenia que probar si era cierto, me dispuse a ingresar a la pagina de Midomi, y comencé a cantar una canción algo popular (Best Of You, de los Foo Fighters) para ver si Midomi funciona tan bien como dicen:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO4RdeZT3eB_MYAfVi9vKR40-JizHgusuP9SLXBGE_TLOrAZ4SbJGfrYmnGx9Yf-lYWIglrETgoqLokBnG91uFM_0dA5FHmQKTycU-9-gt5P2sGzJADsD2G3FNAvFF5XnxwDl072FQ8Bo/s400/midomi-tarareando.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO4RdeZT3eB_MYAfVi9vKR40-JizHgusuP9SLXBGE_TLOrAZ4SbJGfrYmnGx9Yf-lYWIglrETgoqLokBnG91uFM_0dA5FHmQKTycU-9-gt5P2sGzJADsD2G3FNAvFF5XnxwDl072FQ8Bo/s400/midomi-tarareando.jpg)  
 "Se recomienda que se cante la canción al menos durante 10 segundos."
 
 Cuando termine de hacer el ridículo cantar, apareció esta pagina de búsqueda, muy entretenida de ver:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiihlfvmw93nhjh0nCQ58mEqVJNLe1XGirBnp4Bv71Q3lcj5Dt3tDlfvg1NB_iF-4UteSYBU8pWGrgqNSj0qcDBjEg79JTrr12En4NIVmlnQxnbimUImc-56IWTNaWmlGctFmLMW8lqRjw/s400/midomi-search.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiihlfvmw93nhjh0nCQ58mEqVJNLe1XGirBnp4Bv71Q3lcj5Dt3tDlfvg1NB_iF-4UteSYBU8pWGrgqNSj0qcDBjEg79JTrr12En4NIVmlnQxnbimUImc-56IWTNaWmlGctFmLMW8lqRjw/s400/midomi-search.jpg)  
 "Midomi buscando la canción..."
 
 Y, suerte la mía, a la primera salio la búsqueda correcta:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZoED9W5MCAOi8uo-9gbY4oJq-5JSNJeCzlcaBeib4agv82ZZmOpGtu1feOmr2Xk88pE80FrfvRdYVPQC2Uh6lGExdCSInZ1AEXj_HWqe3em0IEp6qmjHTxJPrnDf5orZ_PLesH3kdm2s/s400/midomi-found.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZoED9W5MCAOi8uo-9gbY4oJq-5JSNJeCzlcaBeib4agv82ZZmOpGtu1feOmr2Xk88pE80FrfvRdYVPQC2Uh6lGExdCSInZ1AEXj_HWqe3em0IEp6qmjHTxJPrnDf5orZ_PLesH3kdm2s/s400/midomi-found.jpg)  
 "El primer resultado era la canción que había buscado!"
 
 Este primer experimento resulto bastante satisfactorio, pero cuando busque (cante) otras canciones... pues... digamos que los resultados fueron menos que satisfactorios:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipbnq7bEKL4O8az_71XcgVZg2zODNAXwlcV9UzJMgcjbxusZqq_UUeedtzPTcQtff_2YH9LH_owcVjiKXGEeBKRdU6LD1vCKaxqADpHWiHDMi7QkrNbr2i8Zakf5vl0gTlt9AuhtDetvg/s400/midomi-wtf.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipbnq7bEKL4O8az_71XcgVZg2zODNAXwlcV9UzJMgcjbxusZqq_UUeedtzPTcQtff_2YH9LH_owcVjiKXGEeBKRdU6LD1vCKaxqADpHWiHDMi7QkrNbr2i8Zakf5vl0gTlt9AuhtDetvg/s400/midomi-wtf.jpg)  
 "Resultados... extraños en Midomi"
 
 Digamos que el detalle de una búsqueda exitosa esta en: cantar la canción con los labios cerrados ([Hum](https://www.spanishdict.com/translate/Hum)), pero NO tararear. Eso mejora en cierto porcentaje la búsqueda de canciones. Y si conoces parte de la letra de la canción, entonces a cantar lo mejor posible y siempre trata de que no exista ruido de fondo en el lugar donde estés.

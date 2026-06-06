@@ -7,27 +7,25 @@ draft: false
 post_id: blog-3515952828243908885.post-7375509271132513888
 ---
 
-A menos que hayas vivido bajo una piedra por los ultimos cinco años, indudablemente habras escuchado sobre sitios web en donde puedes hacer "amigos", o conectarte con los que ya tenias, como: Hi5, Facebook, Cherada, Twitter, etc.... Bien, tarde o temprano esta moda tenia que llegar al mundo de [BitTorrent](/2007/03/bittorrent-todo-mundo-ama-bittorrent.html). Los maestros detrás del popular tracker "IsoHunt", anuncian (ya hace un buen rato) un innovador servicio llamado "[Hexagon](https://hexagon.cc/)
-".
+A menos que hayas vivido bajo una piedra por los ultimos cinco años, indudablemente habras escuchado sobre sitios web en donde puedes hacer "amigos", o conectarte con los que ya tenias, como: Hi5, Facebook, Cherada, Twitter, etc.... Bien, tarde o temprano esta moda tenia que llegar al mundo de [BitTorrent](/2007/03/bittorrent-todo-mundo-ama-bittorrent.html). Los maestros detrás del popular tracker "IsoHunt", anuncian (ya hace un buen rato) un innovador servicio llamado "[Hexagon](https://hexagon.cc/)".
 
-![image](https://assets6.hexagon.cc/images/logo.gif)    
+![image](https://assets6.hexagon.cc/images/logo.gif)  
 
 El cambio conceptual mas grande, es que todo (lo que se sube por bittorrent) se comparte entre grupos que tu puedes crear y a los que te puedes unir....
 
-![image](https://assets5.hexagon.cc/images/welcome/share-with-friends.png)    
+![image](https://assets5.hexagon.cc/images/welcome/share-with-friends.png)  
 
 Los grupos pueden ser publicos, basados en intereses como bandas independientes, cineastas, estudios de juegos, o para promocionar productos. Tambien un grupo se puede crear como privado, para que comodamente invites a tus amigos a compartir archivos sin que nadie más les ponga las manos encima.
 
-![image](https://assets0.hexagon.cc/images/welcome/privacy-features.png)    
+![image](https://assets0.hexagon.cc/images/welcome/privacy-features.png)  
 
 Otra bondad de Hexagon, es su organizacion. No se cuanto se habran fijado ustedes, pero ultimamente existe un sin numero de torrents falsos (spam) que se filtran y nos hace perder precioso tiempo y ancho de banda, yo mismo he caido unas cuatro o cinco veces ante este problema. En IsoHunt, este problema se fue resolviendo poco a poco con la integracion de comentarios y valoraciones en el torrent, para que la gente no descargue basura.
 
-![image](https://assets8.hexagon.cc/images/welcome/rid-of-spam.png)    
+![image](https://assets8.hexagon.cc/images/welcome/rid-of-spam.png)  
 
 Hexagon, esta en otro nivel técnico de administración de usuarios, porque actualmente solo se puede entrar por invitación. Así que si un "spammer A" crea una cuenta, y luego comienza a invitar a otros spammers, fácilmente se puede invalidar todas las cuentas que "spammer A" invito a sus amigos a abrir, y así se controla el problema del spam.
 
-Y la misma innovación ocurre con la gestión de archivos, que ya no solo se pueden etiquetar, sino que se puede utilizar recursos web "[semánticos](https://en.wikipedia.org/wiki/Semantic_Web)
-" para categorizar mejor el .torrent en cuestión.
+Y la misma innovación ocurre con la gestión de archivos, que ya no solo se pueden etiquetar, sino que se puede utilizar recursos web "[semánticos](https://en.wikipedia.org/wiki/Semantic_Web)" para categorizar mejor el .torrent en cuestión.
 
 Para mi, la evolución de los sitios de BitTorrent la podemos poner en cuatro simples pasos:
 

@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-5615465391984056102
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHd9EhMOUQdlpeil-jjqcsxvVkUvAsluVSWy6snhHUSrrARGgSbCJW9zwCbLpdjvzA5JlzncFRiU-UnaFTKD9IEXYvnQNtHw-ywsLUxoakYYGf1zAKtqImL3UFu727belJ9hC_lUZsX3o/s320/nasa.png)    Si, leíste bien, ¿quieres enviar tu nombre al espacio?... entonces sigue leyendo:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHd9EhMOUQdlpeil-jjqcsxvVkUvAsluVSWy6snhHUSrrARGgSbCJW9zwCbLpdjvzA5JlzncFRiU-UnaFTKD9IEXYvnQNtHw-ywsLUxoakYYGf1zAKtqImL3UFu727belJ9hC_lUZsX3o/s320/nasa.png)  
+Si, leíste bien, ¿quieres enviar tu nombre al espacio?... entonces sigue leyendo:
 El sitio web "Envía tu nombre al Espacio" (Send your name to Space) permite que cualquier persona participe en un misión científica que consiste en poner su nombre en órbita por años venideros, con el fin de entender los efectos de la radiación que emite el sol, entre otras cosas... El sitio en donde puedes ingresar tu nombre es:
 [https://polls.nasa.gov/utilities/sendtospace/jsp/sendName.jsp](https://polls.nasa.gov/utilities/sendtospace/jsp/sendName.jsp)
 
@@ -15,7 +16,7 @@ Al ingresarlo, recibirás un certificado de participación de la NASA, y será e
 
 El nombre del satélite - y de la misión - es Glory, y la idea del mismo es medir la cantidad de partículas de polvo y smog en la atmósfera terrestre con una exactitud jamás alcanzada. Y también la radiación solar, como ya había mencionado.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPl_rpOED15gD1ldAYd3l1GmZx-X7O2lrrVT-PS3wUum0dmEJLuKGWQ0Z5kogmcwSL6_9T0Gn6CBECLZxj8uO7kC2EMU7XE-Xr1W3eY0xWaf5Y1uLwBrwnwtS9eNNs7aEoZlrQ5_Q9BSY/s320/Glory-Comp011708_02s.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPl_rpOED15gD1ldAYd3l1GmZx-X7O2lrrVT-PS3wUum0dmEJLuKGWQ0Z5kogmcwSL6_9T0Gn6CBECLZxj8uO7kC2EMU7XE-Xr1W3eY0xWaf5Y1uLwBrwnwtS9eNNs7aEoZlrQ5_Q9BSY/s320/Glory-Comp011708_02s.jpg)  
 "Posible apariencia del satélite Glory"
 
 Glory esta programado para ser lanzado en Junio 2009, desde la la base aérea Vandenberg en California, EUA. Glory también será "miembro" de una serie de satélites llamados "A-Train" que orbitarán la tierra. Estos satélites, se seguirán en la órbita con unos pocos minutos de diferencia cada día.... o al menos eso esperan, recorriendo la tierra cada 100 minutos aproximadamente.
@@ -26,7 +27,7 @@ Si desean saber más detalles sobre la misión Glory puedes visitar:
 
 Esta idea publicitaria NASA, particularmente, porque no gozan de mucha popularidad hoy en día. Al principio, sinceramente, pensé que alguien estaba armando asombrosa estrategia para crear una base de datos gigante para enviar SPAM... y aún tengo ese leve temor, pero realmente no hay nada de que preocuparse, yo soy el paranoico... je je (risa nerviosa).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2XswQKK5znIk9Bq18V3xs4vtBuAj_wtqlBz3mEP9kYtDavoLXC9qbtE7QzOejSHs4or2AaPAUuseuwB7yLTAWFd94924_nuHzR-Rh6ggxdW4U7D3K-Q479Plz2uGW4_v4xdmmiQe3HHY/s320/srbyteenelespacio.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2XswQKK5znIk9Bq18V3xs4vtBuAj_wtqlBz3mEP9kYtDavoLXC9qbtE7QzOejSHs4or2AaPAUuseuwB7yLTAWFd94924_nuHzR-Rh6ggxdW4U7D3K-Q479Plz2uGW4_v4xdmmiQe3HHY/s320/srbyteenelespacio.png)  
 "El Sr. Byte se va para el espacio :D"
 
 Espero que todos nuestros lectores nos acompañen participando en esta partícula oportunidad ¡Saludos!

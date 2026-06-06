@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-5993245120579970104
 
 Hace un par de semanas, finalmente me canse de estar usando Windows en la laptop del trabajo, así que decidí sacar de su miseria a la pobre maquina, ser infiel al sistema operativo de los gamers y ponerle "otra cosa". La "afortunada" es una Compaq CQ45:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7HUP2Tnk1kPnYAw0eAKhsCkeorsXHge2W6V7KDhNZsi752Q-oDGsEBpnbFXCJO2m5IycAmiAOVk9mDkgnPg-L7deLMhnNHky_iMju3rOu7vNbsDtQdMYNCs59dOrqTYzPxIq2_IZMyWLP/s320/CQ50.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7HUP2Tnk1kPnYAw0eAKhsCkeorsXHge2W6V7KDhNZsi752Q-oDGsEBpnbFXCJO2m5IycAmiAOVk9mDkgnPg-L7deLMhnNHky_iMju3rOu7vNbsDtQdMYNCs59dOrqTYzPxIq2_IZMyWLP/s320/CQ50.jpg)  
 "No es una maravilla, pero es una buena maquina."
 
 Mi única duda, era si ponerle Debian o Ubuntu de 64bits... recordé las palabras de un blogger Hondureño: "Debian es para Desktops, y Ubuntu es para Laptops." Sinceramente, para mi son lo mismo, pero tenia el disco de Ubuntu a la mano. Para no aburrirlos la laptop ya tiene Ubuntu. Y antes de que se haga un flamewar sobre que distro es mejor, dejen me compartir una idea que siempre he tenido bien clara:
@@ -27,7 +27,7 @@ Mi problema es que Skype sólo está disponible en paquetes para arquitectura 32
 
 3. Bien, si falta alguna dependencia, pues hay que resolverla, y despues de eso, solo nos falta Skype. Debido a la variedad de Hardware y servidores de audio, la tarea de configuración de audio y video, queda a discreción del lector, me exonero de "ese asunto".
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxBFCLO0TgaKMlGCGswPxscEHpRiZr6qyfdNIQe-QJbokoLB7jbVP-9JwLpx66CJB6Oz5jEInxALv9URxgdKImpvaeZQJw97P9nLO_iIoz3OKu0CVHSSunOmPcWVzDSeYn93Nbve5_TBOc/s320/skypeme_big.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxBFCLO0TgaKMlGCGswPxscEHpRiZr6qyfdNIQe-QJbokoLB7jbVP-9JwLpx66CJB6Oz5jEInxALv9URxgdKImpvaeZQJw97P9nLO_iIoz3OKu0CVHSSunOmPcWVzDSeYn93Nbve5_TBOc/s320/skypeme_big.png)  
 "Ahora ya tienes listo tu Skype :)"
 
 Bien, espero que esta pequeñisima guía le ayude a algun internauta por ahi, a instalar esta util aplicacion. Cabe mencionar que tambien existen aplicaciones 100% libres, que tiene casi la misma utilidad que Skype, como son: [Ekiga](https://www.gnomemeeting.org/) (antes conocido como GnomeMeeting), despues hablaremos un poco del porque usar Software Libre, en vez de Freeware.

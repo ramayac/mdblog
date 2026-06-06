@@ -11,7 +11,7 @@ El GTUG (Google Technology User Group) de El Salvador, los invita este Martes 30
 
 Los dejo con el afiche oficial del evento:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFkGEzY4WrBgPEpMtuvTwuFR5AJ5BjDBaYmObCWyzufVRDkWD-q8t1D4Ar_L5yg2rZxcJ0jXnwDzmjwEtAN8TCrUilH-4GPg9kNHJ85NgyNo1e9ryE6Sy9owXX39akugafkdCpQjZgYkPv/s1600/gtugESEN.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFkGEzY4WrBgPEpMtuvTwuFR5AJ5BjDBaYmObCWyzufVRDkWD-q8t1D4Ar_L5yg2rZxcJ0jXnwDzmjwEtAN8TCrUilH-4GPg9kNHJ85NgyNo1e9ryE6Sy9owXX39akugafkdCpQjZgYkPv/s1600/gtugESEN.jpg)  
 La [reunión anterior fue un éxito](/2010/10/gtug-para-desarrolladores.html), y con su ayuda y asistencia, esperamos que esta tambien lo sea. Recuerden que no hay costo de participación ni lugares de inscripción, solo lleguen, escuchen, pregunten y hagamos networking :)
 
 No olviden visitar el GTUG El Salvador en:

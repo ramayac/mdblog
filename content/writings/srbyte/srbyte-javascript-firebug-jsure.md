@@ -16,13 +16,13 @@ Dojo, [Google Web Toolkit](/2009/10/trabajando-con-google-web-toolkit-y.html), I
 
 Un gran, gran problema con JavaScript, radica en el proceso de depuración del mismo. Si bien existen herramientas bien integradas como Aptana, que te permite depurar código JavaScript en su entorno, en otros casos, como en RAD 7.0... (al menos con mi instalación) este IDE no me deja depurar JavaScript.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqJB-GAXBJwEO6IoWBZSDaIe_07HOSvBM1L0ONuk6JAn2Rjf_hsZE1wLBhRqqRuCZZLNA0D3n0AWkEezBupJgS2kQJlrDT-zlWinCDTtKl6DaPCwgaO_St8twXEn9YRF_pENeWLPxVrSeC/s320/frustration.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqJB-GAXBJwEO6IoWBZSDaIe_07HOSvBM1L0ONuk6JAn2Rjf_hsZE1wLBhRqqRuCZZLNA0D3n0AWkEezBupJgS2kQJlrDT-zlWinCDTtKl6DaPCwgaO_St8twXEn9YRF_pENeWLPxVrSeC/s320/frustration.png)  
 
 Supongamos el escenario con un entorno de programación desfasado, en donde no podemos poner puntos de interrupción en el código JavaScript, analizar la pila, o inspeccionar variables... ¿Qué se emplea en este caso tan desahuciado?
 
 FireBug FireBug es un complemento de Firefox creado y diseñado especialmente para desarrolladores y programadores web. Es un paquete de utilidades con el que se puede analizar, editar, monitorear y depurar el código fuente, CSS, HTML y JavaScript de una pagina web en una manera instantánea y "en caliente" (por ejemplo si se borra una clase CSS, se ve inmediatamente el cambio reflejado en la pagina, eso si: sin modificar el código original).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlX6N4OGoae6g3_nK46G9dfUXoqec-QdZF474paDoPT03_dCrIoP8mkk5SPgQVAugLX4xhty7TRrQ-e6xtWnUtM7jQZSmEdpD1c98nRwZQq0LxJcH15gp59IdgF1SCIgj26FsDjLY87TmG/s320/firebug.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlX6N4OGoae6g3_nK46G9dfUXoqec-QdZF474paDoPT03_dCrIoP8mkk5SPgQVAugLX4xhty7TRrQ-e6xtWnUtM7jQZSmEdpD1c98nRwZQq0LxJcH15gp59IdgF1SCIgj26FsDjLY87TmG/s320/firebug.png)  
 
 [Para Internet Explorer](/2008/10/depurando-css-y-javascript-con-internet.html) 7, tenemos el DebugBar, que saca de problemas,
 pero no es tan bueno como su contraparte (FireBug), e Internet Explorer 8 trae una herramienta integrada similar en funcionamiento a FireBug.
@@ -33,7 +33,7 @@ Con los archivos JavaScript tradicionalmente existe "la solución" de revertir t
 
 JSure JSure es un analizador de sintaxis de JavaScript (probablemente el mejor que hay), de manera que [JSure](https://www.jsure.org/), te puede decir exactamente donde esta el problema con el código JavaScript que modificaste, y también te muestra la linea del error y el error en si mismo remarcado. Lo mejor de JSure, es que existe una versión para Linux y MacOS X, y para los usuarios de Windows, se puede emplear la versión en linea ([https://www.jsure.org/](https://www.jsure.org/)), que permite verificar pequeños métodos o grandes archivos.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij9creCcbEsRjgb2jPBKfJtYYskH31KmISG8Dkn-3wQ79k6yCNpl00Ov8sy-70kcrXpiXz3V_k1mgvqEdn6KarSYfDo9zgxivKInGPNH6D9h6yvoTBWgruSyhgXLPIl7_Bl4rQU9d5SK3_/s320/logo.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij9creCcbEsRjgb2jPBKfJtYYskH31KmISG8Dkn-3wQ79k6yCNpl00Ov8sy-70kcrXpiXz3V_k1mgvqEdn6KarSYfDo9zgxivKInGPNH6D9h6yvoTBWgruSyhgXLPIl7_Bl4rQU9d5SK3_/s320/logo.png)  
 
 Con estas dos fabulosas herramientas, he logrado convertir mi vieja relación de amor/odio con JavaScript, en "más amor y menos odio" ... pero todavía no dejo de odiarlo... en fin, JSure es una herramienta tan indispensable como FireBug, espero que a ustedes también les sirva tanto como a mi.
 

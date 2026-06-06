@@ -13,7 +13,7 @@ Pocos son los casos en los que una compañía o página web, tiene que rendirse 
 
 La historia es que alguien publicó en Digg un número. Pero no es un número cualquiera, sino la secuencia de [secuencia de 32 digitos](https://www.lapetiteclaudine.com/archives/011543.html) que es la clave que permitirá [romper la proteccion de la nueva generación de DVD's](https://www.freedom-to-tinker.com/?p=1104) (Blu-Ray y HD DVD) y copiarlos a diestra y siniestra.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTCw0TMZcR5u-5Y9doMormX9BJ3TCqsT2dpVEApn0QNGCrn7dw_LE71eqU1J3-CKmhXooOoUNgSMGwTvKqwqRw9T_tYO8Rz8py-YI4Vfl34uMxHY4EuB7dKrqPn6dyq4IiMBwocu926K8/s400/1178174099_g_1.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTCw0TMZcR5u-5Y9doMormX9BJ3TCqsT2dpVEApn0QNGCrn7dw_LE71eqU1J3-CKmhXooOoUNgSMGwTvKqwqRw9T_tYO8Rz8py-YI4Vfl34uMxHY4EuB7dKrqPn6dyq4IiMBwocu926K8/s400/1178174099_g_1.jpg)  
 
 "Noticia en Digg.com"
 
@@ -34,11 +34,17 @@ Rose remata su comentario con un heroico:
 > "y si perdemos, qué demonios, al menos caímos intentándolo"
 Por el camino quedan ya [más de 300.000 resultados en Google](https://www.google.com/search?q=09+F9+11+02+9D+74+E3+5B+D8+41+56+C5+63+56+88+C0) generados en unas horas, un vídeo/canción:
 
-[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0) [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0) [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0) [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0) [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0) [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0) [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)  
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)  
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)  
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)  
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)  
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)  
+[https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)
 
 Camisas:
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6OYF1M1o6v_YltsCrdrhJ4ZvafHb36uu5V4kiijL1cob6v9oF9L9tiJGCwQU_FrUoiS64ofWjOvbPVZo-DfC2HvwWWEq5_xYsUY54L-hk1v0Bz5QHerbgz-phUNTBosodwMQE0ny0UkE/s400/09F91102b.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6OYF1M1o6v_YltsCrdrhJ4ZvafHb36uu5V4kiijL1cob6v9oF9L9tiJGCwQU_FrUoiS64ofWjOvbPVZo-DfC2HvwWWEq5_xYsUY54L-hk1v0Bz5QHerbgz-phUNTBosodwMQE0ny0UkE/s400/09F91102b.jpg)  
 "Camisa con los 32 dígitos"
 
 Nombres de dominio, noticias falsas con el contenido de la noticia verdadera, anuncios, etc, etc, etc... ¿Y si hay demanda contra Digg? Quizá alguien recuerde la polémica y decida ayudar a costear la ayuda legal (o quizás no) Eso si, esto ha dejado en claro quien manda...
-> Digg.com bienvenido a la realidad de [la web 2.0](https://srbyte.blogspot.com/2007/04/web-20-qu-es.html).
+> Digg.com bienvenido a la realidad de [la web 2.0](/2007/04/web-20-qu-es.html).

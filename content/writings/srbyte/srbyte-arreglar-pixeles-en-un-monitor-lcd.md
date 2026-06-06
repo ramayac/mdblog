@@ -7,21 +7,21 @@ draft: false
 post_id: blog-3515952828243908885.post-8081549705641177960
 ---
 
-La hermosura de [un monitor o pantalla LCD](https://srbyte.blogspot.com/2007/03/protectores-de-pantalla-acuarios-y.html) a veces se ve opacada por los fallos en uno o en varios pixeles "trabados". Un pixel trabado es usualmente el que muestra un color, ya sea rojo, verde, azul o bien alguna combinación de esos colores (blanco por ejemplo).
+La hermosura de [un monitor o pantalla LCD](/2007/03/protectores-de-pantalla-acuarios-y.html) a veces se ve opacada por los fallos en uno o en varios pixeles "trabados". Un pixel trabado es usualmente el que muestra un color, ya sea rojo, verde, azul o bien alguna combinación de esos colores (blanco por ejemplo).
 
 Gracias a Dios, aparentemente se pueden arreglar los pixeles trabados en un monitor LCD, una solución esta en el sitio web [Killdeadpixel](https://killdeadpixel.com/).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgITojM-jotJ_gXOLMfCAvOqXrZ1YIyUWK-kVSkNooKNp5jieFjTXjMNHJUOTTLwgPJrGI3yCvRLQym6lZEkOKXeGwcxjeRRgAz8jVhQQjVUdhE56GmPC4GIh7JLr9GNCW1rCIgOpI5lgA/s320/killpixelweb.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgITojM-jotJ_gXOLMfCAvOqXrZ1YIyUWK-kVSkNooKNp5jieFjTXjMNHJUOTTLwgPJrGI3yCvRLQym6lZEkOKXeGwcxjeRRgAz8jVhQQjVUdhE56GmPC4GIh7JLr9GNCW1rCIgOpI5lgA/s320/killpixelweb.jpg)  
 "Captura de pantalla: Killdeadpixel.com"
 
 Killdeadpixel "destraba" los pixeles al mostrar una imagen que puede ser "arrastrada" al área del problema, la imagen es de alto contraste y tiene una animación constante y veloz, que seguramente causara un buen número de ataques de epilepsia...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPDpGDjr7o-73MJXOgLtpbiOq6vjtOQPRGB2BojJUBhK6a7xMd4kOTJD0KZma4csrbiGa3C3WGGEfuEdUzsKee4LgsAsDWvdbFM7xmiaA2QUwKJcRVXXCDhhTDPukPTBdaMQ5XuC7YIyg/s400/180px-Battling_seizure_Robots.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPDpGDjr7o-73MJXOgLtpbiOq6vjtOQPRGB2BojJUBhK6a7xMd4kOTJD0KZma4csrbiGa3C3WGGEfuEdUzsKee4LgsAsDWvdbFM7xmiaA2QUwKJcRVXXCDhhTDPukPTBdaMQ5XuC7YIyg/s400/180px-Battling_seizure_Robots.jpg)  
 "Imagen: Simpsons con Ataque de Epilepsia [1]"
 
 Killdeadpixel posee ademas una psicodélica imagen de 800x600 ó 1024x784 pixeles que puede ser empleado en un modo de pantalla completa para atacar mas agresivamente el problema. Si eso aun no funciona, pues existe una útil aplicación que se puede usar llamada [JScreenFix](https://www.jscreenfix.com/#JScreenFix). JScreenFix también cumple con su cometido al destrabar los pixeles mostrando imágenes aleatorias de verde azul y rojo en alto contraste y de manera hipnótica.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDiuu686flNwEsskrzQpOFcagfFr38znOyH7_vbsTmhiQUtM3CHugx2L48X1uEHatyokOhsLJCs-bQ1d8OfWSXR1ON7G2KLsdX279AQ39hYwd7rQ6aVPbF4JDNrmCwdmDqUIa9uN3L1Wk/s320/jscreenfix.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDiuu686flNwEsskrzQpOFcagfFr38znOyH7_vbsTmhiQUtM3CHugx2L48X1uEHatyokOhsLJCs-bQ1d8OfWSXR1ON7G2KLsdX279AQ39hYwd7rQ6aVPbF4JDNrmCwdmDqUIa9uN3L1Wk/s320/jscreenfix.png)  
 "Captura Pantalla: Applet JScreenFix"
 
 El sitio web de JScreenFix, ademas, [ofrece vídeos para destrabar pixeles](https://www.jscreenfix.com/video.php) en dispositivos con pantallas LCD, como: iPods, Telefonos Moviles, Play Station Portatiles, reproductores DVD portátiles, etc. Espero que, si tienen el problema del pixel trabado como en mi caso, este post sirva para que puedan solucionarlo.

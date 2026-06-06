@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-4918393788218179475
 
 Hace aproximadamente unos meses, luego de haber realizado un par de compras satisfactorias en el sitio de Amazon, recibí un correo de estos notificándome que me habían regalado 5 dolares de crédito para comprar archivos de audio mp3 en su tienda. Feliz con mi regalo me dispuse a entrar al sitio para realizar mis compras y luego resulta que me encuentro con el siguiente mensaje:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiITH6h2y4-61KcPV0wTKNJ4CMscsh2wHAHyfGDa2K1zEXejyylhhndn_rt9OfCEk_J8hHKpgkA-xQG4tijzKMmvNzYe5zTUmaqkDSOmy5tepaNEdNRkvFS1wCfVuEPfPIlGDMdaRx-4m8/s400/AmazonRestrictions.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiITH6h2y4-61KcPV0wTKNJ4CMscsh2wHAHyfGDa2K1zEXejyylhhndn_rt9OfCEk_J8hHKpgkA-xQG4tijzKMmvNzYe5zTUmaqkDSOmy5tepaNEdNRkvFS1wCfVuEPfPIlGDMdaRx-4m8/s400/AmazonRestrictions.png)  
 "Amazon MP3 Purchaces are limited to U.S. customers"
 
 Resulta que las ventas de música desde la tienda de Amazon están restringidas únicamente a compradores que residan en los Estados Unidos, aun cuando un usuario de casi cualquier país puede crear una cuenta y realizar compras desde la tienda, por alguna razón, la música es un articulo especial al cual no cualquier comprador tiene acceso.
@@ -20,12 +20,12 @@ Países Restringidos
 
 iTunes, la tienda de música que al momento de este post[comercializa la cuarta parte de la música en EEUU](https://www.pcworld.com/article/170501/itunes_sells_24_of_all_us_music.html), tampoco me permite realizar compras de multimedia en su tienda porque vivo en un país "no soportado". Lamentablemente no existe una lista especifica donde Apple determine que países están soportados ni porque otros países no lo están y en su lugar han elaborado un documento de términos y condiciones para cada país y en el caso de el [documento para El Salvador](https://www.apple.com/legal/itunes/appstore/sv/terms.html), este no hace ninguna mención a la iTunes Music Store y se remite nada mas a la sub-tienda App Store, relacionada con aplicaciones y no con multimedia.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuyshFpYSb2iAwUyZqDnsQJ8gWeFLjHilaBjNaPSijCxGpEWpvnYuSVD0wvoDH-JIRvCSHNZ6Zb33kT4C4fgZ2g55w2bWNANvbeZcgdH_4K3XP_RSGtjoKW4gZyQ7q5oSoaqmf4i5h14s/s400/itunes-not-available.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuyshFpYSb2iAwUyZqDnsQJ8gWeFLjHilaBjNaPSijCxGpEWpvnYuSVD0wvoDH-JIRvCSHNZ6Zb33kT4C4fgZ2g55w2bWNANvbeZcgdH_4K3XP_RSGtjoKW4gZyQ7q5oSoaqmf4i5h14s/s400/itunes-not-available.jpg)  
 "The iTunes Store is nos supported in this country"
 
 Aunque recientemente la exclusividad americana del comercio de música en Internet se rompió con la aparición de un servicio muy parecido a [last.fm](https://www.last.fm/) y su nombre es [Spotify](https://www.spotify.com/). Este es un muy excelente servicio de streaming de música exclusivo para países europeos que tiene la bondad de permitirte escuchar de forma gratuita la música del artista/álbum que prefieras, todo financiado mediante advertisements y cuentas especiales premium.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixftjDbl-tN_tiEkfJo_TcoxLulJZKiq3tW-Y1h-2zrgWyoRrlJVPMqsvvkoFZzYgpgpxPsUcSU6RIBCTOEnJZrkEJRuZf6NPmpwzG-ubpilK0ZKXW6XP2WQF38107lWFVwDvxK0uiqpA/s400/spotify-not-available.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixftjDbl-tN_tiEkfJo_TcoxLulJZKiq3tW-Y1h-2zrgWyoRrlJVPMqsvvkoFZzYgpgpxPsUcSU6RIBCTOEnJZrkEJRuZf6NPmpwzG-ubpilK0ZKXW6XP2WQF38107lWFVwDvxK0uiqpA/s400/spotify-not-available.png)  
 "Why Spotify is not available in my country?"
 
 Para no hacer mas largo el post, nada mas mencionamos que estos no son casos aislados y que muchos otros servicios no nos permiten reproducir ni comprar multimedios en linea por causa de restricciones hacia ciertos países.
@@ -45,7 +45,7 @@ Ubuntu Music Store
 
 La verdad es que aun no he tenido la oportunidad de probar este nuevo servicio que nos ofrece Cannonical, el cual pretende competir con la iTunes Music Store y demás servicios de venta de medios por Internet pero según las expectativas populares se espera que este servicio sea todo un éxito y una alternativa mucho mas abierta que sus competidores, eliminando las restricciones antes mencionadas en este post con la cual ganamos una alternativa legal para adquirir nuestra música y demás medios electrónicos.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenbZWm-iKN1C_0_ibJeUxkGMlf3vLtn1LD8va-sy8IFJG0vgFQDVCFEOdXigJ2SlqbO2wIVOwUVuQ1FiyKcAV63l_HYMO9wmiPiddEtMJ_wYbRx-Pnpn87vZW2DG_mOa0wwk7JmOh1Ik/s400/ubuntu-music-store.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyphenhyphenbZWm-iKN1C_0_ibJeUxkGMlf3vLtn1LD8va-sy8IFJG0vgFQDVCFEOdXigJ2SlqbO2wIVOwUVuQ1FiyKcAV63l_HYMO9wmiPiddEtMJ_wYbRx-Pnpn87vZW2DG_mOa0wwk7JmOh1Ik/s400/ubuntu-music-store.png)  
 "Ubuntu Music Store"
 
 Como leía en [un post de Ars Technica](https://arstechnica.com/open-source/reviews/2010/03/hands-on-ubuntu-one-music-store-will-rock-in-lucid-lynx.ars), el servicio, integrado en el reproductor Rhythmbox, aun se encuentra en beta pero brinda una experiencia bastante satisfactoria y comparable a sus contrapartes como iTunes, con la posibilidad de escuchar previews de las canciones y adquirirlas mediante diferentes medios de pago como por ejemplo [Paypal](https://www.paypal.com/).

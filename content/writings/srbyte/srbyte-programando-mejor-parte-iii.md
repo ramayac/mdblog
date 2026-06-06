@@ -12,18 +12,16 @@ Otro problema a la hora de programar, además de perder la creatividad, es perde
 > El sentido común, es el sentido menos común de todos.
 Al perder el sentido común y los principios fundamentales de las soluciones de problemas podríamos terminar con una maquina de [Goldberg](https://en.wikipedia.org/wiki/Rube_Goldberg) (una maquina que hace una acción extremadamente sencilla de la manera muy complicada) en nuestro código. En donde algo tan simple como sacarle punta a un lápiz se vuelve una odisea completa:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG8pAskPMrGelP_mjBYsl1m5P3fGWhFv6OreeE25nYEA6kORqkUzDA_tj-cEcnI5xtYItvSUKxsnNg1tKKCQgYKrMOFcvFQa75TM2wZ-Rx0xUtgO0s3m55VbfiXK_NeGWMn7x2gWgnelg/s400/RG_168.gif)    
-"Mas caricaturas de Rube Goldberg [aqui](https://www.rubegoldberg.com/gallery.php)
-"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG8pAskPMrGelP_mjBYsl1m5P3fGWhFv6OreeE25nYEA6kORqkUzDA_tj-cEcnI5xtYItvSUKxsnNg1tKKCQgYKrMOFcvFQa75TM2wZ-Rx0xUtgO0s3m55VbfiXK_NeGWMn7x2gWgnelg/s400/RG_168.gif)  
+"Mas caricaturas de Rube Goldberg [aqui](https://www.rubegoldberg.com/gallery.php)"
 
 Vean una maquina de Rube Goldberg en acción:
 
 Que hace algo, de eso no hay duda (y también nos hace reír un rato), pero de una manera tan complicada que: hay que pensar seriamente si en internar en un hospital siquiátrico a un programador que haga lo mismo con su código. La delgada linea entre la genialidad y la locura es muy difusa sin el sentido común... o se es extremada mente genial y no te entienden... o increíblemente idiota y que tampoco te entienden... O bueno... simplemente idiota, como muchos en El Salvador.
 
 Un ejemplo claro de la perdida del sentido común en el país es:
-> "[La ley de libre circulación de vehículos en días no feriados en las playas de El Salvador](https://www.elsalvador.com/mwedh/nota/nota_opinion.asp?idCat=2892&idArt=1035774)
-"
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkv-Pq9YlvOAp_zbSh57QdEvTOB3C6AlX5oEOJVXj2y4LHdeqmzTDA69iK4u3m7jZ6hRqFEhDucj_6-6w-vq1gTkeHz2a4oJDbEF7jPMKSaf5x53g749fbjmhY8DjN18ckUrMlK0MAM1A/s400/tor.jpg)    
+> "[La ley de libre circulación de vehículos en días no feriados en las playas de El Salvador](https://www.elsalvador.com/mwedh/nota/nota_opinion.asp?idCat=2892&idArt=1035774)"
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkv-Pq9YlvOAp_zbSh57QdEvTOB3C6AlX5oEOJVXj2y4LHdeqmzTDA69iK4u3m7jZ6hRqFEhDucj_6-6w-vq1gTkeHz2a4oJDbEF7jPMKSaf5x53g749fbjmhY8DjN18ckUrMlK0MAM1A/s400/tor.jpg)  
 Me salí un poco del tema principal, pero estoy seguro que me doy a entender.
 [Noam Chomsky](https://es.wikipedia.org/wiki/Noam_Chomsky) (una de las personalidades más relevantes en la lingüística y en la ciencia cognitiva contemporánea) nos dice que:
 

@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-8550885058374808763
 
 Si algo sabe hacer Microsoft bien, es llegar a todo el mundo. Respiremos profundo y aceptar la realidad. ¿Que tiene que ver esto con las versiones de los programas? Pues cuando Microsoft cambio el nombre de Windows 4.0 a Windows 95, miles rasgaron sus vestiduras y muchos dijeron: ¿Cómo sabrá el usuario a que versión de Windows actualizarse?
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp5u-H0714JI7CvcA4qCax47gj9EzAh2gUS97EWgOeA2LjFzgIR74xDx-FBbzPQlI1-HFAAo2rMxgdFG2TZq0ndcHoU-dolFwL7HVOWjlAwPvh-QvqPiVvxQpN2mO4PTBnmDHcwKue_5Y/s400/grito.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp5u-H0714JI7CvcA4qCax47gj9EzAh2gUS97EWgOeA2LjFzgIR74xDx-FBbzPQlI1-HFAAo2rMxgdFG2TZq0ndcHoU-dolFwL7HVOWjlAwPvh-QvqPiVvxQpN2mO4PTBnmDHcwKue_5Y/s400/grito.jpg)  
 "El Grito - Edvard Münch, 1893"
 Parece ridículo ahora, pero fue un riesgo significativo en su momento, y para ser francos este cambio de política tiene mucho sentido ¿no? ¿Por que tiene sentido? fácil:
 
@@ -34,10 +34,10 @@ Pero como dije antes, al usuario todos esos números no le importan y es mas, mu
 - No le dan importancia
 Y es que la numeración de las versiones se usa en caso de emergencia o actualización de Software, para la etapa de desarrollo o para darle seguimiento en general pero no para el nombre comercial de un software enfocado para el usuario final!. Por eso Microsoft Office 2007 se lee mas "bonito" que Microsoft Office 11.8125.8122.00 (verdad?). Lo mismo sucede con el Windows Messenger cuando cambio de 7.5 a 8.0 ¿se fijaron que ahora el se llama Windows Live Messenger? Pero los números siguen ahí:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzZuNDvY5Po4xTKR5uniI2dm-N0ivsNi90adYpSVlKMOLAIZN9k5wiOVAhjDZy-DPI5TR9dxh5dd6IZZ-sfVsYt_rlpf950gLCKFznZQ1FOd2s2Gi6vGRgZFymSyBoDUkQ7dcKiyGccZg/s400/messenger.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzZuNDvY5Po4xTKR5uniI2dm-N0ivsNi90adYpSVlKMOLAIZN9k5wiOVAhjDZy-DPI5TR9dxh5dd6IZZ-sfVsYt_rlpf950gLCKFznZQ1FOd2s2Gi6vGRgZFymSyBoDUkQ7dcKiyGccZg/s400/messenger.jpg)  
 Al parecer nadie se salva de agregar la fecha de alguna u otra forma en la numeración de sus programas/productos... ni siquiera el caricaturista Ruz:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4JfONqBhnHi4Wlk7VJ57K8rM99TTMyyltfjRmv_Xy-3Brs4Nm-rehfVH8J_DLiCgo4WYmWLR8awB6Mld7421z6YMAX_8-ti7tOJB_g3Nd_6rk51JCsZZhRCuwJw2n42YKHajrkQZYxp0/s200/ruzhoy.JPG)    ...pero tomando un caso mejor adaptado a nuestra realidad tecnológica, veamos el de Microsoft Office, su versión de construcción se dividen en 4 dígito con la fecha codificada... no es tan difícil como se lee, la lógica funciona así:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4JfONqBhnHi4Wlk7VJ57K8rM99TTMyyltfjRmv_Xy-3Brs4Nm-rehfVH8J_DLiCgo4WYmWLR8awB6Mld7421z6YMAX_8-ti7tOJB_g3Nd_6rk51JCsZZhRCuwJw2n42YKHajrkQZYxp0/s200/ruzhoy.JPG)...pero tomando un caso mejor adaptado a nuestra realidad tecnológica, veamos el de Microsoft Office, su versión de construcción se dividen en 4 dígito con la fecha codificada... no es tan difícil como se lee, la lógica funciona así:
 
 - Toma el año en el que el proyecto comienza. Para Microsoft Office "12" fue el 2003.
 - Llama a Enero de ese año "Mes 1".

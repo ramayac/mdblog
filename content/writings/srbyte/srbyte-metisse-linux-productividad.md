@@ -11,19 +11,59 @@ Metisse es un manejador de ventadas de 2.5 Dimensiones (si, 2.5 Dimensiones, asi
 
 El ejemplo mas poderoso y atrayente de Metisse es el de Copiar y Pegar con 2 Clicks:
 
-[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh) [https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)  
+[https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh](https://www.dailymotion.com/swf/2NxKAPfp2AELT7jOh)
 
 En Metisse las ventanas pueden ser giradas en cualquiera de las 3 dimensiones, permitiendo al usuario "meter" más ventanas en una sola pantalla, y pueden ser escaladas mientras son completamente operacionales...
 
-[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs) [https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)  
+[https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs](https://www.dailymotion.com/swf/12tPegV4fQVXU7jNs)
 
 ¿Qué seriamos sin nuestros escritorios virtuales?, gracias a ellos tenemos mas aplicaciones y mas posibilidades pero aun están en una sola pantalla. Así que para verlos... solo basta con dar unos "pasos atrás" para ver todos nuestros escritorios...
 
-[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1) [https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)  
+[https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1](https://www.dailymotion.com/swf/7dRhN2hZ9WknH7jz1)
 
 Otra característica interesante de Metisse es el uso de "Façades", con lo que podemos crear nuestras propias interfaces... algo así como elegir que elementos salen en un menú contextual, pero... mejor vean el vídeo:
 
-[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV) [https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV) [https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV) [https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV) [https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV) [https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV) [https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)  
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)  
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)  
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)  
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)  
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)  
+[https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV](https://www.dailymotion.com/swf/NuDDuZQjmZQijebfV)
 
 Metisse + Linux produce un escritorio interesante y vistoso, sin complicados efectos especiales e increíblemente productivo.Espero ver pronto esta maravillosa herramienta disponible para otras distribuciones.
 

@@ -7,8 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-8945719889236252812
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj51LBiG5m-HEcduGWIu5UA8F0H_CPUPl2sLNly1ayPdV-Mb6zj7g0mg3aXYzFLRYPADtgv1tAXyYj0h5dCAOAyAY3aBx5aa5NsCUpw6PFm3pHeYdXE6zuQYV1mit_yoyRzlcCDmiXF0oUb/s1600/download.gif)    Para continuar con la modalidad de entrevistas a blogs, sitos web o aplicaciones web de la región, acá les comparto una nueva realizada al compañero emprendedor Alejandro Corpeño ([@corp](https://twitter.com/#!/corp)). La entrevista esta enfocada en uno de sus proyectos llamado "[tuBabel.com](https://tubabel.com/)
-" una excelente herramienta para conocer los regionalismos o modismos de todos los países de habla hispana, espero que la disfruten:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj51LBiG5m-HEcduGWIu5UA8F0H_CPUPl2sLNly1ayPdV-Mb6zj7g0mg3aXYzFLRYPADtgv1tAXyYj0h5dCAOAyAY3aBx5aa5NsCUpw6PFm3pHeYdXE6zuQYV1mit_yoyRzlcCDmiXF0oUb/s1600/download.gif)  
+Para continuar con la modalidad de entrevistas a blogs, sitos web o aplicaciones web de la región, acá les comparto una nueva realizada al compañero emprendedor Alejandro Corpeño ([@corp](https://twitter.com/#!/corp)). La entrevista esta enfocada en uno de sus proyectos llamado "[tuBabel.com](https://tubabel.com/)" una excelente herramienta para conocer los regionalismos o modismos de todos los países de habla hispana, espero que la disfruten:
 
 ¿Qué es o como definís tuBabel?
 
@@ -18,7 +18,7 @@ Alejandro: tuBabel es un diccionario de regionalismos latinos, creado y moderado
 
 Alejandro: La idea surgió aproximadamente en el mes de agosto de 2007, cuando yo estaba viendo un diccionario de regionalismos y modismos hondureños, me estuve riendo bastante al leerlo pero hubo momentos en que sentía una leve frustración por que faltaban algunas palabras que yo conocía y que utilizo a diario. Entonces surgió la idea: crear un sitio con todo este contenido (el cual resulta divertido de leer), pero que cuando el usuario no encuentre una palabra de uso común, este tenga la libertad de aportar su conocimiento y así hacer cada vez más completo el diccionario. Pensando más en la idea, decidí que no tiene porque ser algo limitado a una sola región o país, sino algo totalmente abierto al mundo, todo país o región de habla hispana debería poder colaborar y hacer uso del portal.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUE_8kqJb5Vg_0NR1bZu0cDhbof5WZ1RSsKt9g0r5MLPzcbKCQPzG6BWdBxcRICnIMHjrjxZsWV4-PK7nIshTK8kZQd9EgBoH2G0-wJOMfc4O-Zx6laqeE1bK2uocL_fQVVV-jeBGblJeI/s400/tubabel.principal.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUE_8kqJb5Vg_0NR1bZu0cDhbof5WZ1RSsKt9g0r5MLPzcbKCQPzG6BWdBxcRICnIMHjrjxZsWV4-PK7nIshTK8kZQd9EgBoH2G0-wJOMfc4O-Zx6laqeE1bK2uocL_fQVVV-jeBGblJeI/s400/tubabel.principal.png)  
 [tuBabel.com](https://tubabel.com/)
 
 Desde septiembre 2007 comencé con la programación del prototipo y poco a poco, con ayuda de todos los amigos, familiares, estudiantes, colegas, clientes y todo a quien le mostraba el prototipo, fui mejorándolo poco a poco, hasta el momento que estaba listo para lanzarlo en etapa beta al primer grupo abierto de usuarios en Internet. La etapa beta fue lanzada el jueves 27 de diciembre 2007 a las 5:00 PM.
@@ -35,7 +35,7 @@ En cuanto a datos demográficos del segmento, tuBabel es bastante popular entre 
 
 Alejandro: tuBabel cumpleaños los 27 de Diciembre de cada año, este pasado 2010 cumplimos 3 años de estar en línea superando ya las 40,000 palabras en el diccionario.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsQY6Cqz-4y2RHghMOLnE1kbzB9AWs9XjiRyqZRIluk7mLNCQSGGgATM-6ZQ6uG8MVIijRlNmukp8-H_lM4STMBHaDpRBLdmzh11n4QiTCCYXVSGGeWNUuXStyxsY_ef6WujMmI0Qy7e4W/s320/jergaporpais.tubabel.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsQY6Cqz-4y2RHghMOLnE1kbzB9AWs9XjiRyqZRIluk7mLNCQSGGgATM-6ZQ6uG8MVIijRlNmukp8-H_lM4STMBHaDpRBLdmzh11n4QiTCCYXVSGGeWNUuXStyxsY_ef6WujMmI0Qy7e4W/s320/jergaporpais.tubabel.png)  
 [Jerga por país](https://tubabel.com/pais/latinos)
 
 ¿Cuantas personas/usuarios en total conforman la comunidad de tuBabel?
@@ -86,7 +86,7 @@ Alejandro: Desde el inicio una inspiración para tuBabel fue el sitio [UrbanDic
 
 Hicimos un experimento de lanzar un buscador de jerga hispana en inglés, por medio del API de traducción de Google. A este sitio web le llamamos [LocalSpanish.com](https://localspanish.com/) y utiliza la base de datos de palabras de tuBabel con traducciones al inglés por medio de Google.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuHS5HWj2lZEr-oCrwz7LPI7lGIkgibbYsCzCDkVhid2WMYKK93vLaYlmgEzN4Df7Q5woV-NwTIXbvWEH3e0LO_T24-xsZFMPd7UzJPlCODC_nGR7hfsyGdvTz694jXK1sLXNWs0ikx4Gh/s320/localspanish.learnit.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuHS5HWj2lZEr-oCrwz7LPI7lGIkgibbYsCzCDkVhid2WMYKK93vLaYlmgEzN4Df7Q5woV-NwTIXbvWEH3e0LO_T24-xsZFMPd7UzJPlCODC_nGR7hfsyGdvTz694jXK1sLXNWs0ikx4Gh/s320/localspanish.learnit.png)  
 [Local Spanish: learn it!](https://localspanish.com/)
 ¿Cuál es el stack de desarrollo de tuBabel?
 
@@ -96,7 +96,7 @@ Alejandro: Está desarrollado en Ruby on Rails (2.x) y base de datos MySQL
 
 Alejandro: La primera versión de lanzó después de unos 3 meses de trabajo (de Octubre a Diciembre 2007 aprox). Así se miraba antes tuBabel:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDphHvTTLrsiNqZJwPjh9rNg-h0Cwj13ts0YFnUV8Ghhu263k0CSZPkly1kPNuqmdwm46OvrfYwljLGvpAByCfMOsV4ueOfRJeLtBv3rIKXEqUevjXSqoGR4bch8tQcDaqVpfA9H-9Vhgw/s320/waybacktuBabel.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDphHvTTLrsiNqZJwPjh9rNg-h0Cwj13ts0YFnUV8Ghhu263k0CSZPkly1kPNuqmdwm46OvrfYwljLGvpAByCfMOsV4ueOfRJeLtBv3rIKXEqUevjXSqoGR4bch8tQcDaqVpfA9H-9Vhgw/s320/waybacktuBabel.png)  
 [tuBabel "Beta"](https://replay.waybackmachine.org/20080110031645/https://www.tubabel.com/)
 ¿Cuánto te toma lanzar una nueva versión del sitio?
 
@@ -106,10 +106,9 @@ Alejandro: Después del lanzamiento inicial nos tomó unos 4 meses hacer un red
 
 Alejandro: A mediados de 2008 hicimos un rediseño de la apariencia de tuBabel, eso fue en preparación para los premios Exponet en Guatemala, evento a que quedamos como finalistas en la competencia de Mejores Prácticas Web de Latino América.
 
-Luego, el último lanzamiento de mejoras fue el año pasado cuando abrimos al público una sección llamada "[La Torre de Babel](https://tubabel.com/foros)
-" que son básicamente foros de discusión en que los usuarios pueden taggear palabras para que estas tengan un enlace a su definición/explicación en el diccionario de tuBabel.
+Luego, el último lanzamiento de mejoras fue el año pasado cuando abrimos al público una sección llamada "[La Torre de Babel](https://tubabel.com/foros)" que son básicamente foros de discusión en que los usuarios pueden taggear palabras para que estas tengan un enlace a su definición/explicación en el diccionario de tuBabel.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfC1uuFNaTFlgbHZs999r37SD_NwlIqYl-3X_iq4bQtSMBP6wrYFqgJNJiLAR7BC5QXmbVl2Tv5Tq_8p_iny8NR83qwZU-SjDptWaMLNhyphenhyphenEx2cM_ddy1JpQHdsN6EMqppk0NzZOuaPpdHV/s320/torre_top.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfC1uuFNaTFlgbHZs999r37SD_NwlIqYl-3X_iq4bQtSMBP6wrYFqgJNJiLAR7BC5QXmbVl2Tv5Tq_8p_iny8NR83qwZU-SjDptWaMLNhyphenhyphenEx2cM_ddy1JpQHdsN6EMqppk0NzZOuaPpdHV/s320/torre_top.gif)  
 
 No tenemos planes de una nueva versión por el momento pero siempre estamos con los ojos abiertos a nuevas tendencias y mejoras que se puedan implementar.
 

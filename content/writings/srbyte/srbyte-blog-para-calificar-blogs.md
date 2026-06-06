@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8603404223804770676
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFUkcAmZHHOMAPRaCYO3Ys_1Y1RcZTQcc0oC5HAL28W3_DMYMlbnA7ZnISpc6mqkRt7B29uSeQoUVJ9XGJFNlcCqTk-CDIS8ToI3LJFDQWNCEzusRsmDAkZE1VSOtZ6iqZMVWwZiimSKc/s320/dgnm.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFUkcAmZHHOMAPRaCYO3Ys_1Y1RcZTQcc0oC5HAL28W3_DMYMlbnA7ZnISpc6mqkRt7B29uSeQoUVJ9XGJFNlcCqTk-CDIS8ToI3LJFDQWNCEzusRsmDAkZE1VSOtZ6iqZMVWwZiimSKc/s320/dgnm.gif)  
 Al parecer en estos tiempos a un blog se le pueden dar usos inimaginables, y es que ahora Javier Pocasangre, alias Xpoks se decidió a crear un blog con el objetivo de clasificar y calificar a los demás blogs de la comunidad salvadoreña. Ya casi todos han sido agregados a la lista y como que han sido clasificados en grupos pero no se cuales han sido los parámetros para esa agrupación. Creo que fue el orden en que los fue recopilando para agregarlos a la lista general.
 
 Por supuesto, sin dudarlo, este blog fue uno de los primeros en ser agregados a la mencionada lista. La noticia cayó como un comentario completamente fuera de lugar pero igual la noticia se hizo llegar a estos autores (o sea, Rodrigo y yo).

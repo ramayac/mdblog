@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8121869469087906449
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2X1nd5MGBr2wc2KjGbO0fE3ZN2MlkNzPxmJ6B9At_PfOJJP7lGeFGAetd9jHTJAJ_3StH7nDUDoIHqfkp1lEdExGolVehMxNF8yUYCUpmfyRxwAKYlYXZ9ucZy1xoswZo10W4Tx6-sx4/s320/LaptopAtBeach.PNG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2X1nd5MGBr2wc2KjGbO0fE3ZN2MlkNzPxmJ6B9At_PfOJJP7lGeFGAetd9jHTJAJ_3StH7nDUDoIHqfkp1lEdExGolVehMxNF8yUYCUpmfyRxwAKYlYXZ9ucZy1xoswZo10W4Tx6-sx4/s320/LaptopAtBeach.PNG)  
 "Visitando al Sr Byte desde la playa"
 
 Estamos en Semana Santa y muchos aprovechan estos días festivos en El Salvador para salir un poco de su rutina de estudio o trabajo (o cualquier otra cosa que acostumbren hacer todos los días) y darse un respiro para recargar energías, ya sea quedándose en casa acomodados en un sillón viendo películas en la tele, saliendo de paseo a la playa o cualquier lugar turístico o alimentando el espíritu participando de las tradicionales actividades que cada uno realiza de acuerdo a sus convicciones.

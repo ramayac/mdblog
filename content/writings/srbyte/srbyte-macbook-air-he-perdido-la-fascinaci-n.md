@@ -31,7 +31,7 @@ Si compro una MacBook Air...
 
 ¿Realmente obtengo la computadora mas liviana y delgada del mundo? Si, pero no dejen que la idea de tener la computadora más delgada y mas liviana nuble su mente, seria mejor comprar una [laptop fujitsu LIFEBOOK Q2010](https://www.fujitsu-siemens.com/campaigns/lifebook_q2010/index.html) que es solamente 0.5 mm mas gruesa que la MacBook Air y solo pesa 1 Kg, o simplemente mejor, comprar una laptop con más prestaciones y un poquito pasada de peso.
 
-![image](https://www.fujitsu-siemens.com/Resources/67/606398809.jpg)    
+![image](https://www.fujitsu-siemens.com/Resources/67/606398809.jpg)  
 "Imagen: LIFEBOOK Q2010, dale click para verla más grande."
 
 El problema principal de esta laptop, es que después de perder la fascinación por su atractivo diseño... nos damos cuenta de la dura realidad del compromiso que Apple tuvo que realizar para obtener esta sobre estilizada y sobre valorada pieza de hardware.

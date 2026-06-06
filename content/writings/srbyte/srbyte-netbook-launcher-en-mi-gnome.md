@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-3222536249714833010
 
 Hace un tiempo, tuve la oportunidad de instalar [Ubuntu Netbook Remix](https://www.canonical.com/projects/ubuntu/unr)(UNR) en una netbook, y aunque me gusto la interfaz, mi impresión personal sobre la interfaz general del UNR es que es vistos, pero lento al lanzar las aplicaciones. Pero como aun así me había gustado, decidí instalarlo y utilizarlo en mi desktop. Básicamente, lo que quería, es tener el "feeling" del UNR en mi escritorio GNOME, y esto fue una tarea bastante fácil de realizar.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnj3VZNfVE9CYDzq1mMvwkyayp5uReXe0rk-Aeaq45ZlG3GwswysapXDwyhWqBGJZ0HDH7wV7D9xyChSW5DB4bFhhvnI4yRL1QQvHa-KFHpn_SUafE0Y7qAyCrQyP6DlUaYO8B39ubJbqA/s320/unr-favorites-small.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnj3VZNfVE9CYDzq1mMvwkyayp5uReXe0rk-Aeaq45ZlG3GwswysapXDwyhWqBGJZ0HDH7wV7D9xyChSW5DB4bFhhvnI4yRL1QQvHa-KFHpn_SUafE0Y7qAyCrQyP6DlUaYO8B39ubJbqA/s320/unr-favorites-small.png)  
 
 La interfaz de UNR esta compuesta por tres programas integrados entre si:
 
@@ -26,10 +26,10 @@ El Netbook Launcher jamas podrá reemplazar a Gnome-Do, en velocidad y extensibi
 
 Ah, ¿y el resultado de la instalacion? una locura:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH6M72YytkZb-_IC9ys-a6npf9CG-FrYoRwpak7iRCpclctVWUHW7ijz6_C5HU_ZgcX_p9Ov4w7A9Q6nc2zjlVCncjfGrrDsjE8sygqGtDM3YoiHyRzX18Zr0VD2iESi2ZKHSOkGMDj9Wh/s320/ramayacDesktopNetbookLauncher.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH6M72YytkZb-_IC9ys-a6npf9CG-FrYoRwpak7iRCpclctVWUHW7ijz6_C5HU_ZgcX_p9Ov4w7A9Q6nc2zjlVCncjfGrrDsjE8sygqGtDM3YoiHyRzX18Zr0VD2iESi2ZKHSOkGMDj9Wh/s320/ramayacDesktopNetbookLauncher.png)  
 "Sección Favoritos Netbook Launcher"
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeEud3w1H9y3NH3aDt1cMRjUrw6yfe4WH1vt5vlvh6dR6mfW4W2SvDvpWEQTyLdXAExFeXMeFYK6yKgtG9KtEKxcadOVV-IcD2K9-hTSenEQChA_bbLhFiGUv7f_7dCpCS7nqnqaNpWCxk/s320/NetbookLauncherCompiz.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeEud3w1H9y3NH3aDt1cMRjUrw6yfe4WH1vt5vlvh6dR6mfW4W2SvDvpWEQTyLdXAExFeXMeFYK6yKgtG9KtEKxcadOVV-IcD2K9-hTSenEQChA_bbLhFiGUv7f_7dCpCS7nqnqaNpWCxk/s320/NetbookLauncherCompiz.png)  
 "Netbook Launcher & Compiz Fusion"
 
 La integración del Netbook Launcher con Compiz Fusion es transparente, y en general la experiencia es integrada y placentera. Realmente deseo usar la interfaz de Netbook Launcher con un monitor touch, creo que así le sacaría más el jugo a la interfaz. Sinceramente creo que es una curiosidad que vale la pena probar, así que para los aventureros que cambian constantemente su interfaz, y no saben a ciencia cierta que poner o quitar en su escritorio, si se animan esta es una funcional alternativa. El siguiente paso, creo que sería instalar [Gnome-Shell](https://live.gnome.org/GnomeShell) junto al Netbook Launcher, ¿no? ¡Saludos!

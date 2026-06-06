@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4860585545482072654
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIKzg8xX6YSHXgJ102QzB0Rus8mmDsvyUTXSuviRsK0TWySY7CaqHZZElS3yqBFhjrPbYuCJ0zI06Es91G5x09fPN-hE-AUWwk-alFw1xDJkk9SgbYH_CddYPth7osK7A93vKHBWMeMgQ/s400/gappengine.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIKzg8xX6YSHXgJ102QzB0Rus8mmDsvyUTXSuviRsK0TWySY7CaqHZZElS3yqBFhjrPbYuCJ0zI06Es91G5x09fPN-hE-AUWwk-alFw1xDJkk9SgbYH_CddYPth7osK7A93vKHBWMeMgQ/s400/gappengine.gif)  
 "Logotipo del framework Google App Engine"
 
 Habiendo salido de mi tesis recientemente, me he interesado en buscar hobbies relacionados con programación y en plasmar muchas ideas de software que vinieron a mi cabeza mientras estaba ocupado haciendo el trabajo de grado. Uno de los inconvenientes que tenemos los desarrolladores Java es que no existen en internet tantas alternativas para hosting de aplicaciones así como la gran variedad disponible para el Stack LAMP (Linux/Apache/Mysql/PHP).
@@ -24,7 +24,7 @@ Lo único a tener en cuenta es que nada mas puedes subir 10 aplicaciones como m�
 
 Otro tema que me llamó la atención al navegar entre las soluciones de desarrollo de google fue el GWT, [Google Web Toolkit](https://code.google.com/webtoolkit/). Este es un framework visual para apps web que te permite desarrollar aplicaciones sin la necesidad de escribir HTML o Javascript, generándolo todo desde clases Java. Es un framework bastante joven comparado con JSF, Struts o Tapestry pero teniendo el respaldo de google puede llegar lejos, ademas la idea de no escribir HTML será un alivio para muchos desarrolladores web que no saben mucho de estructuración y decoración de sitios web con HTML/CSS y desean una solución rápida y sencilla para sus interfaces. Al igual que con el App Engine Framework, Google apuesta nuevamente por eclipse brindando soporte para la creación de proyectos de GWT mediante asistentes y el uso de un navegador embedido que te permite realizar pruebas de tus aplicaciones sin necesidad de hacer deploy.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVDz7nxMkXbUVX6meIV0zCkuOTud1utMhlERpfdJoecqwRFYNI0g-iYXSgrcVysjp11gIMUfenKaadA5U7Vd34BbqiXeI9vlzYWDmHLj7SW4emQzIi-L38QbTsek0TO4cpQMwKAKs40Oc/s400/sampleGWTapp.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVDz7nxMkXbUVX6meIV0zCkuOTud1utMhlERpfdJoecqwRFYNI0g-iYXSgrcVysjp11gIMUfenKaadA5U7Vd34BbqiXeI9vlzYWDmHLj7SW4emQzIi-L38QbTsek0TO4cpQMwKAKs40Oc/s400/sampleGWTapp.png)  
 "Aplicación de ejemplo de uso de GWT, creada a partir de un proyecto web de eclipse con el plugin de GWT y App Engine. En la captura pueden apreciar el browser embedido que incluye el framework de GWT."
 
 Cabe mencionar que GWT puede ser usado nada más para generar el HTML/Javascript de un sitio, usando cualquier otro lenguaje de programación del lado del server. Como ellos bien lo mencionan, este puede ser usado para generar front-ends en aplicaciones Ruby, Python, etc. Además es full Ajax-enabled trabajando de forma transparente con invocaciones a código del lado del servidor hecho con Java y mediante el uso de XML-RPC para otros lenguajes.

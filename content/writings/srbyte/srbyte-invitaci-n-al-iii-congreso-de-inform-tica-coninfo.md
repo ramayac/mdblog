@@ -9,7 +9,8 @@ post_id: blog-3515952828243908885.post-8400894482715924480
 
 El cinco de octubre se celebrará en El Salvador el Día del y la profesional de Informática. Como parte de dicha celebración, la Asociación Salvadoreña de Profesionales en Computación (ASPROC) han organizado una serie de conferencias durante los días cinco y seis de Octubre, en el denominado: Congreso de Informática, CONINFO 2010.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSHKlYUI82pBv3Cs61a3mJg9aVqwRpoPyJBvf7fHoctXrba2YcV5NYmL84GvYysIdp-9OF9Imk_QxMqgHNbFolOiCneSLoGi1_wCIIEckANF1lXE8B4AxWRI6gYa2jYIWPtof4LIvUdolU/s320/Afiche+CONINFO+web.jpg)    El evento contará con la participación de entidades gubernamentales con las temáticas:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSHKlYUI82pBv3Cs61a3mJg9aVqwRpoPyJBvf7fHoctXrba2YcV5NYmL84GvYysIdp-9OF9Imk_QxMqgHNbFolOiCneSLoGi1_wCIIEckANF1lXE8B4AxWRI6gYa2jYIWPtof4LIvUdolU/s320/Afiche+CONINFO+web.jpg)  
+El evento contará con la participación de entidades gubernamentales con las temáticas:
 
 - Nueva Estrategia TIC gubernamental: de la visión a la implementación.
 - Software Libre en Sistemas de Información en Salud en El Salvador: un hecho creciente.

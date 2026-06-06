@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-2199918131780529234
 
 Hace 5 años esta semana, un pequeño grupo de personas comenzó a trabajar en un prototipo de el servicio que se conocería como Twitter. El 21 de Marzo de 2006, @jack (Jack Dorsey) envió su primer Tweet, y desde su primer boceto de Twitter (al que llamaba "Stat.us" en Julio de 2006, [vea la corta historia aquí](https://www.flickr.com/photos/jackdorsey/182613360/)).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjObnguml4G8fX61vQektgX1Wy9nkllYb63eGPrQNJJoPic_c_1tCuLrxRynQuTqLBY7DAFEtoPmgGUrz9NZ4zF-wBpB2HePHEX_Jzb6EIT9GOx0M3oXl41khxkc_BCPedqiV9A5Xeg_zHN/s200/182613360_6d76db726a_z.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjObnguml4G8fX61vQektgX1Wy9nkllYb63eGPrQNJJoPic_c_1tCuLrxRynQuTqLBY7DAFEtoPmgGUrz9NZ4zF-wBpB2HePHEX_Jzb6EIT9GOx0M3oXl41khxkc_BCPedqiV9A5Xeg_zHN/s200/182613360_6d76db726a_z.jpg)  
 Paper Prototype de Twitter "Stat.us" Para esta fecha tan importante para el micro servicio, el blog oficial de Twitter nos comparte los números (#numbers) que describen su increible crecimiento:
 
 #Tweets

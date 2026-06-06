@@ -12,12 +12,12 @@ Un fractal es generalmente:
 > "una forma geométrica fragmentada, que se puede separar en sus partes, en donde cada una de ellas es (aproximadamente) una copia reducida de la forma completa".
 Para entender un poco mejor este concepto, veamos una construcción de la fractal:
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/280px-KochFlake.svg.png)    
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/KochFlake.svg/280px-KochFlake.svg.png)  
 "Fractales de Koch"
 
 El fractal de la figura, es la conocida Curva de Koch, si, ES una curva matemática, y una de las primeras curvas fractales en ser descrita. Su construcción aparece en un papel de 1904 llamado: "Sur une courbe continue sans tangente, obtenue par une construction géométrique élémentaire" ("Sobre la curva continua sin tangentes, elaborada mediante geometría elemental") realizada por el matemático [Helge von Koch](https://en.wikipedia.org/wiki/Helge_von_Koch). La Curva de Koch aplicada en un triangulo equilátero, deriva "naturalmente" en un Copo de Nieve de Koch:
 
-![image](https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif)    
+![image](https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif)  
 "Copo de nieve de Koch"
 
 Verdaderamente, las matemáticas son hermosas :)
@@ -46,7 +46,7 @@ cristales, rayos, redes de ríos...
 
 en vasos sanguíneos, en el brócoli ([Romanescu](https://es.wikipedia.org/wiki/Romanescu)):
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fractal_Broccoli.jpg/800px-Fractal_Broccoli.jpg)    
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Fractal_Broccoli.jpg/800px-Fractal_Broccoli.jpg)  
 
 en las ramas de los arboles, en las venas de las hojas, en las hojas de helechos...
 

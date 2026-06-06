@@ -8,7 +8,7 @@ post_id: blog-3515952828243908885.post-6726524978148075221
 ---
 
 En televisión, cortina o cortinilla se le denomina al breve video que apertura y cierra un programa, un segmento o una cápsula dentro de la programación de una televisiora. Este recurso es utilizado no sólo para la respectiva identificación de los elementos sino también, para sentar un espacio o "aire"- como suele llamársele- entre la pauta programativa del medio y captar la atención del espectador.
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNMvzQgzjH4T28KeMNVVPFFWm-zxAnkipJtlXbsuIn4lZdZT4VMEepX06WxVItu3kahgwJq3sj2LdzDxvXl24lVvvZm1M7YjpCgwzyLK4KTMR1Ju5PK6VSk8Y4aHBE3neU7n3Z88_SAQVU/s320/history.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNMvzQgzjH4T28KeMNVVPFFWm-zxAnkipJtlXbsuIn4lZdZT4VMEepX06WxVItu3kahgwJq3sj2LdzDxvXl24lVvvZm1M7YjpCgwzyLK4KTMR1Ju5PK6VSk8Y4aHBE3neU7n3Z88_SAQVU/s320/history.jpg)  
 La duración de las cortinas no debe exceder de entre 5 a 15 segundos para programas cortos, cápsulas o segmentos. Sin embargo, para programas completos, ya sean noticieros, entrevistas, series, promocionales institucionales o programáticos, el tiempo puede ser entre 10 segundos hasta 1 minuto. El tiempo de duración también puede variar de la intención comunicativa de los productores.
 
 Una cortina bien elaborada busca captar la atención del espectador, de manera que éste sienta curiosidad por el programa y desee verlo. Sin embargo, existen cortinas muy buenas que para nada coinciden con el contenido del programa al que preceden. Es así como muchas veces vemos promocionales muy buenos, pero el programa en sí no lo es tanto.

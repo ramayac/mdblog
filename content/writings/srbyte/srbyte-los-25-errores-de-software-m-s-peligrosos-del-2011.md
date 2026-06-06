@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5692024609438567604
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqUqbzXBfjeL79-3mRb7cyRF5IlNDXc8w8fP1K9tuVQLh3X_mbyrNUaiSV2RryeY_rRkeBszYUFRfYM8y-o0qDoXZr738fJiNnWwtN5iJ7acjKdiZgdzZmTWSgwBSwM60Uy2gNErdM6nI/s400/sql_injection.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqUqbzXBfjeL79-3mRb7cyRF5IlNDXc8w8fP1K9tuVQLh3X_mbyrNUaiSV2RryeY_rRkeBszYUFRfYM8y-o0qDoXZr738fJiNnWwtN5iJ7acjKdiZgdzZmTWSgwBSwM60Uy2gNErdM6nI/s400/sql_injection.gif)  
 "SQL Injection. Una de las más peligrosas y comunes vulnerabilidades en los sistemas"
 
 Recientemente me entero de una comunidad online de programadores y especialistas en seguridad que cada año se encargan de enumerar las vulnerabilidades de sistemas informáticos que más daño han realizado y que más se han popularizado entre los sistemas para que cada uno tome las medidas necesarias al momento de desarrollar sus sistemas especialmente cuando manejamos datos que al ser vulnerados causarían pérdidas significativas de información en nuestra empresa.
@@ -26,7 +26,7 @@ cualquiera podría escribir cualquier comando SQL dentro de los textboxes y con 
 
 Esto me recuerda a una vieja ilustración que XKCD elaboró para el día de las madres:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-G-eFU9xTYHe_DClGECVq7zjQDAkDxwG5zL7YNW88AclmmDgfQSpgFYucavniIes3wjlf8hvjLB0M6TxN3der7oi8UQ9ULA6qDt5rsVjIXNEoim03Z65uMvYrqrLyC7pwmdoIL8HUxMU/s400/exploits_of_a_mom.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-G-eFU9xTYHe_DClGECVq7zjQDAkDxwG5zL7YNW88AclmmDgfQSpgFYucavniIes3wjlf8hvjLB0M6TxN3der7oi8UQ9ULA6qDt5rsVjIXNEoim03Z65uMvYrqrLyC7pwmdoIL8HUxMU/s400/exploits_of_a_mom.png)  
 "...'Little Bobby Tables' xD"
 
 En el blog de [El Rincon de Cisko](https://ciskosv.blogspot.com/) pueden encontrar más información en español acerca de este tema.

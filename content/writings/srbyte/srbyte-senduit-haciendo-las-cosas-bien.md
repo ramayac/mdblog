@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-6544694013300982508
 
 [Senduit](https://www.senduit.com/) es un servicio que provee a los usuarios la habilidad para "subir" un archivo (máximo 100 MB), y permite descargarlo mediante una URL especifica. El archivo puede ser descargado un numero ilimitado de veces. Senduit añade un tiempo de caducidad para el archivo en cuestión, desde media hora hasta una semana (luego el archivo caduca y se elimina).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrtfiuVcIw1kxnjH5xqXfXebk5KPAOlQ4e9FWTobT859E2Wt1zT6lI9f2VgFpzRuDpc0d8WgH7S8vULiUvkFmlx5npXO5szqoVS6Y3kpT9TkBHqtmzw-s-o5Shw7flExxejI2gBejJSN4/s320/senduit.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrtfiuVcIw1kxnjH5xqXfXebk5KPAOlQ4e9FWTobT859E2Wt1zT6lI9f2VgFpzRuDpc0d8WgH7S8vULiUvkFmlx5npXO5szqoVS6Y3kpT9TkBHqtmzw-s-o5Shw7flExxejI2gBejJSN4/s320/senduit.png)  
 "Un vistazo a la apariencia de Senduit"
 
 Lo que mas me intereso de este servicio es:

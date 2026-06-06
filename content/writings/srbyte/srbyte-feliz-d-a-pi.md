@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6526077740239626451
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglsnGd1UOyBwzjOQ8RqWI8t9ULTn7x0RjlGZc04ZU5OQf5GpkJeftmsCm-zQo6EBJnLGCFJh8IPBuuwCgoBy4sVe0Sbt4yqwCjCpjxSRqX2FvXTxMmVHMLXh26PYdhyphenhyphenATZRw6fueFtucU/s320/2190712270_b57a62e511.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglsnGd1UOyBwzjOQ8RqWI8t9ULTn7x0RjlGZc04ZU5OQf5GpkJeftmsCm-zQo6EBJnLGCFJh8IPBuuwCgoBy4sVe0Sbt4yqwCjCpjxSRqX2FvXTxMmVHMLXh26PYdhyphenhyphenATZRw6fueFtucU/s320/2190712270_b57a62e511.jpg)  
 "Tarta de Calabaza con el Símbolo de PI"
 
 Muchos informáticos, matemáticos, frikis y geeks en general celebran el día de hoy como el día pi (π), esa constante tan mencionada en la geometría y en la trigonometría que ha hecho sufrir a muchos cuando aparece en todas esas complicadas ecuaciones matemáticas desde áreas y volúmenes de figuras geométricas primitivas como los conos, cilindros y esferas hasta fórmulas relacionadas con la teoría de la relatividad general de Einstein.

@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-4482642539542296136
 
 Luego de una serie rumores y especulaciones - el pasado 11 de febrero de 2011 - [Nokia y Microsoft han oficializado  su relación](https://conversations.nokia.com/nokia-strategy-2011/) para incursionar de manera unificada en el mercado de Smartphones. El objetivo principal es explotar en conjunto las fortalezas de cada compañía para crear un "nuevo ecosistema para dispositivos móviles".
 
-![image](https://admin.conversations.nokia.com/wp-content/uploads/2011/02/nokia-micro-chart-520.jpg)    
+![image](https://admin.conversations.nokia.com/wp-content/uploads/2011/02/nokia-micro-chart-520.jpg)  
 El ecosistema Nokia + Microsoft.
 
 Segun el [comunicado oficial de prensa](https://presskit.nokia.com/PressKit/Download.aspx?pid=137&cid=581;), la creación de este ecosistema - o conjunto integrado de servicios, software, hardware, mercado de aplicaciones, etc. - estaría constituido por las siguientes estrategias:

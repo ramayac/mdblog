@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-8221122611615572164
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRzjDRyW7UT-UHOwC5QnkGdAC2tSCtXrR6MfYe9ZTO9nBW25vR5y7ztIbc330RX7VoR2uo_tHCyxfzdg25KOdjeQ6rdretNzn-u5fz5vrw1Vng3Mz7hiI_F5RBVzsV7qFisrqz9yYzp4c/s200/cloud_win.jpg)    El anuncio de Microsoft, de crear otro sistema operativo ([Windows Cloud OS](/2008/10/windows-cloud-os-el-anuncio.html)) que no tenga nada que ver con Windows es increíble, pero ¿De donde sale este sistema? ¿Y por qué Microsoft trabaja en algo que no sea Windows?
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRzjDRyW7UT-UHOwC5QnkGdAC2tSCtXrR6MfYe9ZTO9nBW25vR5y7ztIbc330RX7VoR2uo_tHCyxfzdg25KOdjeQ6rdretNzn-u5fz5vrw1Vng3Mz7hiI_F5RBVzsV7qFisrqz9yYzp4c/s200/cloud_win.jpg)  
+El anuncio de Microsoft, de crear otro sistema operativo ([Windows Cloud OS](/2008/10/windows-cloud-os-el-anuncio.html)) que no tenga nada que ver con Windows es increíble, pero ¿De donde sale este sistema? ¿Y por qué Microsoft trabaja en algo que no sea Windows?
 Para contestar estas preguntas, primero quiero resaltar dos ideas que hay que tener en mente:
 - Microsoft es una empresa de software (por propósitos prácticos, obviemos el Zune).
 - Microsoft es una empresa agresiva de negocios.
@@ -19,16 +20,17 @@ Para contestar estas preguntas, primero quiero resaltar dos ideas que hay que te
 > "Digamos que Microsoft tiene años de tener la misma serie de carros de motor diésel, y ahora quiere ampliar su horizonte de negocios y darnos un vehículo nuevo y con un motor eléctrico."
 Microsoft esta buscando ir más allá de las tecnologías que Windows nos brinda. Y para eso, precisamente, crearon [Midori](https://en.wikipedia.org/wiki/Midori_%28operating_system%29). Este nuevo sistema aparentemente esta saliendo de su fase de incubación. Un articulo de "The Daily Times" dice que Redmon tiene al menos un equipo que trabaja activamente en el nuevo sistema. La base de la nueva plataforma se centra en los resultados de las investigaciones de Microsoft en otro proyecto, medio secreto, llamado [Singularity](https://en.wikipedia.org/wiki/Singularity_%28operating_system%29).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSpMny8j6YEmts8VKXRYAZX9CushafXUzWmoCCwABlnDiIIYl55hzlqHCd42Ke7M_W79_SFBGMXhe-uAkF_uBUGnEk_1dtLHSfSToiLtftCEiqGECF1efWjgZG0YQibmaAZB0zqbghIVM/s320/Singularity_v1.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSpMny8j6YEmts8VKXRYAZX9CushafXUzWmoCCwABlnDiIIYl55hzlqHCd42Ke7M_W79_SFBGMXhe-uAkF_uBUGnEk_1dtLHSfSToiLtftCEiqGECF1efWjgZG0YQibmaAZB0zqbghIVM/s320/Singularity_v1.png)  
 "Captura de Singularity en proceso de arranque."
 
-Supuestamente, la visión de Singularity es servir de portada a un sistema distribuido de aplicaciones, documentos y conectividad; general que este apoyada en la nube. Este sistema se podrá ejecutar de manera nativa en una sola computadora o en varias. Además, el equipo de investigadores están trabajando para Singularity utilice una distribución paralela y concurrente de los recursos de hardware de los equipos en los que funcione, así como también un método para manejar aplicaciones en varias computadoras separadas (la antigua promesa de una arquitectura de hardware asíncrona).
+Supuestamente, la visión de Singularity es servir de portada a un sistema distribuido de aplicaciones, documentos y conectividad; general que este apoyada en la [nube](https://en.wikipedia.org/wiki/Cloud_computing). Este sistema se podrá ejecutar de manera nativa en una sola computadora o en varias. Además, el equipo de investigadores están trabajando para Singularity utilice una distribución paralela y concurrente de los recursos de hardware de los equipos en los que funcione, así como también un método para manejar aplicaciones en varias computadoras separadas (la antigua promesa de una arquitectura de hardware asíncrona).
 
 Ambos proyectos, como ya mencione, están relacionados: Singularity es más un proyecto de investigación, y la aplicación comercial de Singularity es Midori. También podríamos decir que:
 
 > "Singularity es a Midori, lo que Google Chromium es a Google Chrome."
-Para Microsoft, Midory es la realización del sueño de ver aplicaciones ejecutándose en una multitud variada de topologías de red, como: cliente-servidor, multi-tier, p2p y Cloud Datacenters. Todas esas topologías, forman un medio heterogéneo donde las diversas capacidades del Sistema Operativo, puede existir en diversos lugares. Realmente, es muy, pero muy interesante. Pero irónicamente, me suena a un sistema operativo [Multics(el abuelo de Unix)](https://www.multicians.org/) distribuido...
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwnlPLaFFeuVERV1GsvOjl7lesLQwrDvFwgnLtC6oxDdROPjBKkUwZLY8b25F1qtUoS1Yk9ik8kxw-D7nsymiIw7K6SqIJxcbvADewZtLvPwCO3fezIPNpBSffB5Y2G6-c7DQn4xM8-ls/s320/multics-logo.jpg)    ¿Quieres los detalles técnicos? Visita el sitio de Singularity:
+Para Microsoft, Midory es la realización del sueño de ver aplicaciones ejecutándose en una multitud variada de topologías de red, como: cliente-servidor, multi-tier, p2p y [Cloud Datacenters](https://en.wikipedia.org/wiki/Cloud_computing). Todas esas topologías, forman un medio heterogéneo donde las diversas capacidades del Sistema Operativo, puede existir en diversos lugares. Realmente, es muy, pero muy interesante. Pero irónicamente, me suena a un sistema operativo [Multics(el abuelo de Unix)](https://www.multicians.org/) distribuido...
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwnlPLaFFeuVERV1GsvOjl7lesLQwrDvFwgnLtC6oxDdROPjBKkUwZLY8b25F1qtUoS1Yk9ik8kxw-D7nsymiIw7K6SqIJxcbvADewZtLvPwCO3fezIPNpBSffB5Y2G6-c7DQn4xM8-ls/s320/multics-logo.jpg)¿Quieres los detalles técnicos? Visita el sitio de Singularity:
 [
 > https://research.microsoft.com/os/singularity/
-](https://research.microsoft.com/os/singularity/) Y tu, ¿Piensas que Microsoft debería de limitarse a Windows y hacerlo bien, en vez de intentar acaparar el mercado con otros sistemas, que no se sabe si serán tan "exitosos" como Vista?
+](https://research.microsoft.com/os/singularity/)  
+Y tu, ¿Piensas que Microsoft debería de limitarse a Windows y hacerlo bien, en vez de intentar acaparar el mercado con otros sistemas, que no se sabe si serán tan "exitosos" como Vista?

@@ -9,21 +9,19 @@ post_id: blog-3515952828243908885.post-7987489366654744050
 
 A pesar de que, usualmente, presento una apatía total por la política, estas ultimas elecciones me emocionaron mucho. Parte de la emoción fue debido a que al fin pude mantenerme al tanto de los resultados, por lo medios que a mi más me agradan... y de esos precisamente voy a escribirles brevemente en esta ocasión.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEhDaCcNtygBhLxTCU0aH68dWTI5JNFCE6AjUd_Ig2ypVjghqffsWsIDaVkFlJwxUemUKsdDfFGoa95mUfhDcj3lKH520jWK-iykN2EvQ8emS3FvdsOzqNI9ZOFVOchptpsfLXk8yUezug/s320/social+media.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEhDaCcNtygBhLxTCU0aH68dWTI5JNFCE6AjUd_Ig2ypVjghqffsWsIDaVkFlJwxUemUKsdDfFGoa95mUfhDcj3lKH520jWK-iykN2EvQ8emS3FvdsOzqNI9ZOFVOchptpsfLXk8yUezug/s320/social+media.jpg)  
 "La actividad en los medios sociales se hizo presente en estas elecciones."
 
 De lo que les quiero comentar, y de lo que muchos en todo caso ya saben, es de la disponibilidad de datos, de la cobertura de los medios y del papel genial que la comunidad de Twitters y Bloggers han jugado, al mantener totalmente informados a prácticamente todo aquel que estuviese buscando resultados de las elecciones en Internet.
 
 1. Twitter: En twitter, se vivió la emoción de tener los datos en tiempo real, de al menos diez personas dedicadas constantemente a publicar informacion de cualquier medio que los canales les permitiera ver. La comunidad de Twitters se puso de acuerdo en utilizar la etiqueta [#eleccion2009](https://search.twitter.com/search?q=%23eleccion2009) para marcar toda noticia relacionada con el evento. Y para que tengan una idea de la cantidad de informacion que se genero, deberían darle un vistazo a la [búsqueda de esa etiqueta en Twitter](https://search.twitter.com/search?q=%23eleccion2009). Así que, permitanme felicitar a los twitters que vi más activos, notificándonos cada vez que sus dedos les permitían, entre ellos y sin ningún orden en particular: [@eleccion_sv2009](https://twitter.com/eleccion_sv2009) (cuya vida útil, esta a punto de terminar), [@queith](https://twitter.com/queith), [@u2fan87](https://twitter.com/u2fan87), [@chero07](https://twitter.com/chero07), [@drakedalfa](https://twitter.com/drakedalfa), [@jomap19](https://twitter.com/jomap19), [@dubsnipe](https://twitter.com/dubsnipe), [@alexanndra](https://twitter.com/alexanndra), [@prensagrafica](https://twitter.com/prensagrafica), [@eddddysimo](https://twitter.com/eddddysimo), [@doug404](https://twitter.com/doug404) [@LuChOeDu](https://twitter.com/LuChOeDu) y [@victor_j](https://twitter.com/victor_j).
 
-2. Cover-it-Live: Utilizando Twitter como base, también se utilizo el servicio de "[Cover it Live](https://www.coveritlive.com/)
-", para estar al tanto de los comentarios y términos claves como "ARENA", "FMLN", etc...
-[Video/Embed](https://www.coveritlive.com/index2.php/option=com_altcaster/task=viewaltcast/altcast_code=54a7c6669d/height=750/width=500)
-"Gracias [@LuchoEdu](https://twitter.com/LuChOeDu) por la iniciativa"
+2. Cover-it-Live: Utilizando Twitter como base, también se utilizo el servicio de "[Cover it Live](https://www.coveritlive.com/)", para estar al tanto de los comentarios y términos claves como "ARENA", "FMLN", etc...
+[Video/Embed](https://www.coveritlive.com/index2.php/option=com_altcaster/task=viewaltcast/altcast_code=54a7c6669d/height=750/width=500)"Gracias [@LuchoEdu](https://twitter.com/LuChOeDu) por la iniciativa"
 
 3. Twitt-radar: También quiero felicitar a [Adolfo Fitoria](https://fitoria.net/) e [Igor Guerrero](https://igordevlog.blogspot.com/) por el uso de una aplicación que usa el framework de Google Aplications, y la informacion generada en Twitter, nos compartieron el Twitt-radar:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY_1gkIH7nypZuEzKk5JseRpKpmg3LktYhRIEbZwWSQlopeCJSb64_DL7Hp2On5hahEU4xjt2s7wtRYStz6b0qz18NaPl7P1NFCTndmqI6-1s_cgEq2NsMCjiSoTGGWZXxp50aYyVktdKc/s320/igorPolitiquero.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY_1gkIH7nypZuEzKk5JseRpKpmg3LktYhRIEbZwWSQlopeCJSb64_DL7Hp2On5hahEU4xjt2s7wtRYStz6b0qz18NaPl7P1NFCTndmqI6-1s_cgEq2NsMCjiSoTGGWZXxp50aYyVktdKc/s320/igorPolitiquero.png)  
 "Captura del Twitt-radar, en acción."
 
 En lo personal, una de las iniciativas que más fue de mi agrado. Felicitaciones.
@@ -37,13 +35,14 @@ En lo personal, una de las iniciativas que más fue de mi agrado. Felicitaciones
 - [Diario LaPagina.com.sv](https://www.lapagina.com.sv/)
 Gracias a [David Mejia](https://damr.net/) por compartir estos vínculos.
 
-5. Live Streaming: Transmisión en vivo de TCS: [https://www.esmitv.com/vivo.aspx](https://www.esmitv.com/vivo.aspx) Transmisión en vivo de Megavision: [https://megavision.com.sv/21/internettv/canal21.html](https://megavision.com.sv/21/internettv/canal21.html) Transmisión en vivo canal 33: [https://www.canal33.tv/tv/?page_id=35](https://www.canal33.tv/tv/?page_id=35)
+5. Live Streaming: Transmisión en vivo de TCS: [https://www.esmitv.com/vivo.aspx](https://www.esmitv.com/vivo.aspx) Transmisión en vivo de Megavision: [https://megavision.com.sv/21/internettv/canal21.html](https://megavision.com.sv/21/internettv/canal21.html)  
+Transmisión en vivo canal 33: [https://www.canal33.tv/tv/?page_id=35](https://www.canal33.tv/tv/?page_id=35)
 
 Gracias a [Chero07](https://www.chero07.info/) por compartir estos vínculos.
 
 6. ¿Que me habría gustado ver?: ¿Se acuerdan de las elecciones del Presidente Barak Obama?, Google utilizo su tecnología de Google Maps para crear un mapa que mostraba los estados de la union, coloreados segun el partido que ganaba.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAwyVrXd3X0wUDiqSdKFKTq_ax78ELrv0NzTTgtnJJFGcDW3s7uQIGNer0CLHTy0DQRietahpwwXs7Wj_iWUgpJZkiBYYiAUXfYV5vrrGHPG6UUffob0klS4haIPKPzuKi02-gHItL9L7p/s320/googlemaps.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAwyVrXd3X0wUDiqSdKFKTq_ax78ELrv0NzTTgtnJJFGcDW3s7uQIGNer0CLHTy0DQRietahpwwXs7Wj_iWUgpJZkiBYYiAUXfYV5vrrGHPG6UUffob0klS4haIPKPzuKi02-gHItL9L7p/s320/googlemaps.png)  
 "Google Maps Mashup"
 
 ¿Sería mucho pedir, que el Tribunal Supremo Electoral hiciera algo así? (Se vale soñar) También me habría gustado ver un poco más de calma entre las personas que comentan en el Cover-it-Live, no entiendo cual es el "ajolotamiento" de algunos individuos. En fin, muy emocionante el desenlace de esta campaña, también quiero mencionar el blog de [Hunnapuh](https://hunnapuh.blogcindario.com/), del que pase muy pendiente. Y no queda más que felicitar nuevamente a todos los involucrados, e invitar a los medios masivos de comunicacion Salvadoreña, a reconocer el peso, y la importancia que las comunidades de Bloggers y Twitters tienen en la cobertura de este tipo de eventos.

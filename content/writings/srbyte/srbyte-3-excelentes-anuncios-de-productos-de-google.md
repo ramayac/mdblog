@@ -13,7 +13,7 @@ Google Swiffy
 
 Swiffy convierte archivos flash SWF a HTML5, permitiéndote reusar contenido Flash en dispositivos que no lo soportan (iPhones y iPads).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUkvKtUKRZ26TJltpU_czrj7nDdOpyX33xoRHkXC9JI3LAHavBQntFt3AW4R-tuJmab5f02uXHU-MX_zQ9WZtl0fPK6eEGiwCPPfr3t2Gwvvv2u2_3BfsQqmVp9rHMNVyD9NwD1IB6mJLx/s400/Swiffy+demo.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUkvKtUKRZ26TJltpU_czrj7nDdOpyX33xoRHkXC9JI3LAHavBQntFt3AW4R-tuJmab5f02uXHU-MX_zQ9WZtl0fPK6eEGiwCPPfr3t2Gwvvv2u2_3BfsQqmVp9rHMNVyD9NwD1IB6mJLx/s400/Swiffy+demo.jpg)  
 Swiffy en acción. Pueden probar Swiffy acá (es un producto experimental, que esta aun en "Labs"):
 
 > [https://swiffy.googlelabs.com/](https://swiffy.googlelabs.com/)
@@ -25,7 +25,7 @@ Google Web Fonts (v2)
 
 Google web fonts es un proyecto para asegurarse que los diseñadores, webmasters y desarrolladores tengan un acceso gratuito y sencillo a tipografías gratuitas y de alta calidad. Si bien Google Web Fonts tiene ratos de existir, hace poco recibió un rediseño completo:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpC-NzAl82iVz_Qgy8Ob9iTLkqwA-S3RmYThcwSwgQaEd4RRkC_WQd8Pv1SRu2hTYxdigRinFGXMWrmtTBiZVSfc-o2Y5K8jSY3oh53cfGvjj4QgaTNYtEVzUJzoFrtt67ZMuJ5H5xt9wB/s400/googlewebfonts.front.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpC-NzAl82iVz_Qgy8Ob9iTLkqwA-S3RmYThcwSwgQaEd4RRkC_WQd8Pv1SRu2hTYxdigRinFGXMWrmtTBiZVSfc-o2Y5K8jSY3oh53cfGvjj4QgaTNYtEVzUJzoFrtt67ZMuJ5H5xt9wB/s400/googlewebfonts.front.png)  
 Nuevo Look de Google Web Fonts. Esto es altamente recomendado que lo visiten y que lo usen:
 
 > [https://www.google.com/webfonts/v2](https://www.google.com/webfonts/v2)

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-3951194780353313481
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgap50R5zEqKOfRzvdCls8GNhfie1EVssPlWsm2p5GNIrzvvWsNAykEP5pgTzCYQQAwyJWS6wN3uB0EewEHoV4hX2V-JExq9LaQTaZBJWCa2hb8pEYZWBGfATwOZZO_IF96Lqp0zath5qU/s320/learn_how_to_type_fast_fastest_typist_typing.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgap50R5zEqKOfRzvdCls8GNhfie1EVssPlWsm2p5GNIrzvvWsNAykEP5pgTzCYQQAwyJWS6wN3uB0EewEHoV4hX2V-JExq9LaQTaZBJWCa2hb8pEYZWBGfATwOZZO_IF96Lqp0zath5qU/s320/learn_how_to_type_fast_fastest_typist_typing.jpg)  
 "Es cierto que a veces quisiera tener cuatro o mas manos, pero esto es exagerar"
 
 [CASE](https://es.wikipedia.org/wiki/Herramienta_CASE) son las siglas de Computer Aided Software Engineering lo cual se refiere a una serie de herramientas de software que ayudan al programador y/o analista a planear/diseñar/desarrollar su proyecto. Esto le permite su usuario ahorrarse tiempo y dolores de cabeza con tareas automatizadas como el cronograma de actividades, el diseño de diagramas [UML](https://es.wikipedia.org/wiki/Uml), [refactoring](https://es.wikipedia.org/wiki/Refactorizaci%C3%B3n), entre otros.

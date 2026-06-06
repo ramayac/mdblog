@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4953194001083525057
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUAxUvJEcTCPpBQvg3vpywWyJjsdujC_MWy_nWi9vMkvVg3C4diqzSzzv4prhZBbjyAzflDZxmAq-JuVbYwMsOEPv69j0WznGYv0zWFRpFuD8HTPi-KflZpFd0PcdSk5GlnvQzONeclUE/s320/Nokia-symbian-anna-update-for-symbian%255E3.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUAxUvJEcTCPpBQvg3vpywWyJjsdujC_MWy_nWi9vMkvVg3C4diqzSzzv4prhZBbjyAzflDZxmAq-JuVbYwMsOEPv69j0WznGYv0zWFRpFuD8HTPi-KflZpFd0PcdSk5GlnvQzONeclUE/s320/Nokia-symbian-anna-update-for-symbian%255E3.jpg)  
 
 "Anna y los dispositivos Nokia beneficiados con esta actualización"
 
@@ -29,7 +29,7 @@ Para serles sinceros y si les interesa mi opinión personal, a pesar de mi exper
 
 Me parece extraño que Nokia haya tomado la decisión de descontinuar Meego sin siquiera haber esperado a ver los resultados que este pueda obtener con el lanzamiento del Nokia N9. Para mi punto de vista, el N9 promete bastante ya que al fin podremos experimentar cómo se verá un teléfono con el hardware característico de Nokia y un software como Meego, arduamente pensado y trabajado por años entre Nokia, Intel y otras empresas. Este además, al haber sido liberado bajo una licencia abierta, podría haber contado con una creciente comunidad de desarrolladores dispuetos a crear aplicaciones para el mismo así como parches y actualizaciones más frecuentes. Me atrevería a decir que si Nokia hubiera optado por Meego en lugar de elegir a Windows Phone 7, estos terminales podrían haber llegado a competir cara a cara contra los actuales dispositivos con Android y quizás algunos fabricantes como HTC se hubieran animado a adoptar este sistema operativo.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyxYwwXnGIn41m7RAGMpYVzWSaOv2SG_A0DcwMjF2wAYqZm5EeV_fS_ygbn3uMBffxkRrQZrVlRn_g5vOvYm2nlnvWeBigXagt-QI9G7UOYX9YjXJuwdrDRmUFKIl_ZW9bHoMPYeIVsTM/s320/meego-logo1.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyxYwwXnGIn41m7RAGMpYVzWSaOv2SG_A0DcwMjF2wAYqZm5EeV_fS_ygbn3uMBffxkRrQZrVlRn_g5vOvYm2nlnvWeBigXagt-QI9G7UOYX9YjXJuwdrDRmUFKIl_ZW9bHoMPYeIVsTM/s320/meego-logo1.jpg)  
 
 "Imagen logotipo de Meego"
 

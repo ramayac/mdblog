@@ -19,7 +19,7 @@ No. Definitivamente no. Así como la gente que se desmaya viendo sangre y no se 
 Y sobre todo, no pierde el tiempo re-escribiendo código. Un programador, es un individuo apasionado por resolver problemas, para hacer mejorar el diario vivir de los usuarios. Suele ser autodidacta, y no espera a que alguien más resuelva sus problemas, el procura resolverlos todos.
 
 [https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg)
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s320/computer-programmer.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s320/computer-programmer.jpg)  
 [https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg)
 
 2. ¿Programar es una habilidad?
@@ -43,7 +43,8 @@ Escribir código es como escribir cuentos, y si el autor esta triste y escribe e
 
 4. ¿Entiende los conceptos avanzados de la programación?
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6UbHqf43bDkZdXP5Hs3wwfwfO_7t9Bnl5h0-21A8PnLTJWNSYE9Hlpmmk5JRftNbsU7dkiBADKvsfLgwdep2GzZBi9roAv841wzvRatM8WaCzMAuit1QipRAep1Jx1N3Htlxs0xOTvw7K/s200/software_abstr.jpg)    Ya sea con programación funcional u orientada a objetos, usted debe comprender los conceptos y los tecnicismos asociados a su estilo de programación favorito.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6UbHqf43bDkZdXP5Hs3wwfwfO_7t9Bnl5h0-21A8PnLTJWNSYE9Hlpmmk5JRftNbsU7dkiBADKvsfLgwdep2GzZBi9roAv841wzvRatM8WaCzMAuit1QipRAep1Jx1N3Htlxs0xOTvw7K/s200/software_abstr.jpg)  
+Ya sea con programación funcional u orientada a objetos, usted debe comprender los conceptos y los tecnicismos asociados a su estilo de programación favorito.
 
 Estos conceptos ayudan a pensar "outside the box", y te ahorran trabajo (como los patrones de diseño).
 

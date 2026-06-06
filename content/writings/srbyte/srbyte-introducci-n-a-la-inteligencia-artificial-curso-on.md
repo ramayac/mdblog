@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7710164839249198603
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkxL2pS5Ch117aj3OF-l8MbMzwyaQJ8DzjgzvknpIrEfueISXbafGPgRnsX4Xi7ZXjJPTvaiy_Mv5GyvIGUXlfRhTMBd7KNuU0Z6stDA3WtoTPIjG-sOs4SZoOQpsyIj2YWDNnhLcnSnhg/s400/artificial_intelligence_header.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkxL2pS5Ch117aj3OF-l8MbMzwyaQJ8DzjgzvknpIrEfueISXbafGPgRnsX4Xi7ZXjJPTvaiy_Mv5GyvIGUXlfRhTMBd7KNuU0Z6stDA3WtoTPIjG-sOs4SZoOQpsyIj2YWDNnhLcnSnhg/s400/artificial_intelligence_header.jpg)  
 
 La Universidad de Stanford ha ofrecido ya por algunos años, porciones de sus cursos online sobre robotica, pero el profesor [Sebastian Thrun](https://robots.stanford.edu/) y [Peter Norvig](https://research.google.com/pubs/author205.html) estan llevando sus cursos online a nuevos niveles con la clase del próximo semestre CS221: Introduction to Artificial Intelligence.
 

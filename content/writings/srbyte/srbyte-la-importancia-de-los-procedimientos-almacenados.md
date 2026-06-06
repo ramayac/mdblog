@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-3533771959719215532
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF2IwxzZ8q3SwcDODnBjmGSVl6HViA4vtWatOb-ayWBQEu7TNePONFIbQM7FtWzrKw2qIDCj6Q0HOLgav2XmGKsYJw9PlG0BxfZSTYT3GrSPB0hnEb8QwgvpbqSptlDqFlP6uP1o4XQRn0/s320/codecode.jpg)    En esta ocasión, me quiero concentrar en algo muy importante del inmenso mundo (y misterioso para algunos) de las bases de datos, quiero hablarles de: Los Procedimientos Almacenados.
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF2IwxzZ8q3SwcDODnBjmGSVl6HViA4vtWatOb-ayWBQEu7TNePONFIbQM7FtWzrKw2qIDCj6Q0HOLgav2XmGKsYJw9PlG0BxfZSTYT3GrSPB0hnEb8QwgvpbqSptlDqFlP6uP1o4XQRn0/s320/codecode.jpg)  
+En esta ocasión, me quiero concentrar en algo muy importante del inmenso mundo (y misterioso para algunos) de las bases de datos, quiero hablarles de: Los Procedimientos Almacenados.
 Los procedimientos almacenados (conocidos también como proc, sproc, stopro, o SP's por sus siglas en Ingles) son subrutinas que están disponibles para las aplicaciones que acceden a una base de datos relacional. Los procedimientos almacenados están, como su nombre lo indica, almacenados en el diccionario de datos de la base de datos.
 
 ¿Para que existen?, ¿para que usarlos, si puedo tener mis consultas bien bonitas metida en mi código (como consultas SQL Ad-hoc)? Esas preguntas exactas me hice yo hace algunos años. Que pena ser tan ingenuo. Gracias a Dios desperté de ese "lapsus ..." y si bien, no lo se todo, lo que se, lo tengo que compartir.
@@ -22,7 +23,7 @@ static function String getConsultaUsuario(String usuarioid) { return "SELECT * F
 ```
 ...usted debería de tener una serie SP en su gestor de bases de datos, implementado como un API "consolidado y centralizado" (en la base de datos). Lo mismo sucede con muchas consultas SQL "grandes", o secuenciales: no podemos dejarlas regadas en el codigo, necesitamos moverlas a un solo lugar...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-wBsZKXAmeGVFVeQh9t-x-ZcEUU426Gn_MdL_PasIZTWkYGKyAS2XQPM7bs6EwkCob_IpRTqYgPNJLBkRfOTm4VNo2BfDRvSE8LoCHDvK0KPydLpkee2O860cbHdMJDCap8dz32Z_bgWr/s320/mysqlstoredprocedures.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-wBsZKXAmeGVFVeQh9t-x-ZcEUU426Gn_MdL_PasIZTWkYGKyAS2XQPM7bs6EwkCob_IpRTqYgPNJLBkRfOTm4VNo2BfDRvSE8LoCHDvK0KPydLpkee2O860cbHdMJDCap8dz32Z_bgWr/s320/mysqlstoredprocedures.jpg)  
 "MySQL también tiene procedimientos almacenados"
 
 ¿Por que? bien, enumerare solo algunas razones:
@@ -35,7 +36,7 @@ Entonces podemos observar dos ventajas inmediatas: Reducir la carga de mantenimi
 
 Tengo que aclarar que no hay usar SP absolutamente todo el tiempo y en toda aplicación a desarrollar. Un caso practico para implementar SP en una aplicación, es en el que se tiene una sola base de datos, y diferentes módulos o clientes que se conectan constantemente a esta. ¿Se imaginan tener una lista de consultas en cada modulo o cliente que se conecta?, ¿Y si se modifica la base de datos?, ¿cuantas consultas y en cuantos lugares lo iremos a modificar?
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggFChxXmsJy4D1e6gnzMqY1eOCnBU6e2FHxYVNiqGhy6weCUygJNmw_nr4v8UC7G6DGz2U-kPfIixdPoBhesX9o71napsH8j_Tvghzj2pJzWy83IlkocguVILJ7WCfh0hkRVmAmgajhOeK/s320/sqlalchemy.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggFChxXmsJy4D1e6gnzMqY1eOCnBU6e2FHxYVNiqGhy6weCUygJNmw_nr4v8UC7G6DGz2U-kPfIixdPoBhesX9o71napsH8j_Tvghzj2pJzWy83IlkocguVILJ7WCfh0hkRVmAmgajhOeK/s320/sqlalchemy.jpg)  
 "Los SP son parte de la Alquimia de SQL que usted debe conocer"
 
 Los SP en general, serán realmente útiles (y aplicables) en caso de estar desarrollando aplicaciones robustas, de categoría empresarial, o para servicios que deben ser seguros, que posean alta disponibilidad y con vistas a ser escalables.

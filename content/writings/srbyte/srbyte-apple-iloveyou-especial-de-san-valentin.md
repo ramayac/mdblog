@@ -13,11 +13,12 @@ Revolucionando el software con NeXTSTEP un sistema operativo orientado a objetos
 
 Mejorando nuevamente el mercado de las computadoras personales con la iMac:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR4KOTykpNuxqvgs92rMtHmVR-FyyFU9Hy-MgzkCrU6K8C4RlO4lph-RaOYk18IS3viJILdB5KJ5MeHnOFtqC8TGQ1EnZa8gfSHuxt5LqR6m9FjmKeMv6ms1nUkYbD_CsIipMknFkAlB4/s400/SteveiMac.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR4KOTykpNuxqvgs92rMtHmVR-FyyFU9Hy-MgzkCrU6K8C4RlO4lph-RaOYk18IS3viJILdB5KJ5MeHnOFtqC8TGQ1EnZa8gfSHuxt5LqR6m9FjmKeMv6ms1nUkYbD_CsIipMknFkAlB4/s400/SteveiMac.jpg)  
 Entreteniendo nuestra vida con el ya famoso iPod (mejor que el Zune, pero sumamente restrictivo):
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtsJziE4ySYg6xtdE8lFFngpLzZF6Ihvm_ujvGofQ7RNG7TfNtzxS-17orXEv7AzqfaCplRDg_t8NcuYy84Z8IzmKELeHOyMhOepCtr8XduLUFIvMUA-oAfzQUXU9ZMd4lETj04hzbATU/s200/ipodu2.JPG)    Y continuando con su revolución, Apple se supera así mismo una vez mas, con el lanzamiento de un nuevo invento... el [iPhone:](https://www.apple.com/iphone/)
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtsJziE4ySYg6xtdE8lFFngpLzZF6Ihvm_ujvGofQ7RNG7TfNtzxS-17orXEv7AzqfaCplRDg_t8NcuYy84Z8IzmKELeHOyMhOepCtr8XduLUFIvMUA-oAfzQUXU9ZMd4lETj04hzbATU/s200/ipodu2.JPG)  
+Y continuando con su revolución, Apple se supera así mismo una vez mas, con el lanzamiento de un nuevo invento... el [iPhone:](https://www.apple.com/iphone/)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWLFNXnFHARhIlFV_V7vUgI9lOtSAtBG8Xqq2MTTbUYSeOnlY0VJ4uSH80kbzzyIJFifYCEAmk3Zt99wx8mlmt9pBy4xg2wwlQBkomo5btknxQgJi9JIdBYQbmRnJbLqcRb5maCJynKE/s400/indexhero20070109.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCWLFNXnFHARhIlFV_V7vUgI9lOtSAtBG8Xqq2MTTbUYSeOnlY0VJ4uSH80kbzzyIJFifYCEAmk3Zt99wx8mlmt9pBy4xg2wwlQBkomo5btknxQgJi9JIdBYQbmRnJbLqcRb5maCJynKE/s400/indexhero20070109.jpg)  
 
 ¿Con ganas de saber más?, ¿Y quién no? El iPhone es un dispositivo handheld inalámbrico anunciado por el CEO de Apple Inc., Steve Jobs, durante su charla en la Macworld del 9 de enero de 2007. El dispositivo es un teléfono móvil cuatribanda que soporta e-mail, telefonía móvil, mensajería de texto, navegación web y otros servicios de información inalámbricos (Google Maps, Yahoo mail, etc...) Además, el dispositivo tiene una pantalla táctil e incluye funcionalidad presente en la serie de reproductores de música iPod, y corre una versión del sistema operativo Mac OS X. Vendrá equipado con Wi-Fi y Bluetooth 2.0, además de una cámara digital de 2 megapíxeles.
 

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5839884266140708286
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieoX0TZOPaH7dp-vrhR02W8feTTG5-tKG3QtDhWO0tNsZu74sw3SPrIuda1qCOCOm-MpN77id4LN78bDwRv2re3eHHfhGkmVamK8kXVawVKaSMejCMgqQmvicabc3zivMHpO3UG2rPRMFF/s200/1.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieoX0TZOPaH7dp-vrhR02W8feTTG5-tKG3QtDhWO0tNsZu74sw3SPrIuda1qCOCOm-MpN77id4LN78bDwRv2re3eHHfhGkmVamK8kXVawVKaSMejCMgqQmvicabc3zivMHpO3UG2rPRMFF/s200/1.png)  
 "Time"
 
 XKCD #1190, mejor conocido como "Time", es un proyecto realizado por [Randall Munroe](https://en.wikipedia.org/wiki/Randall_Munroe), creador del popular comic: [XKCD](https://xkcd.com/). Time comenzó el 25 de Marzo de 2013 y finalizo  el 26 de Julio de 2013, durante este tiempo el autor publico al menos un frame (imagen) de la animación total cada hora, haciendo un total de 3099 frames de "historia". El experimento de Randall es bastante fascinante, posee una historia interesante y un sin fin de elementos y pistas que ayudan a comprender sobre el contexto y la ubicación en la que esta se desenvuelve. Existen cuatro escenas identificadas:
@@ -17,7 +17,7 @@ XKCD #1190, mejor conocido como "Time", es un proyecto realizado por [Randall Mu
 - Escena 3: Encontrando una tribu desconocida.
 - Escena 4: Recuperando a las personas en sus hogares.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsq7QSIkQ19FnKjxHDqmQdgVBkzPi4c3L2Tv1JhF9apqOUnDZonADWeOD02peP6qeyezQ1VsEIblNKJOPC7Z9qEKm5Xa9rdhWbpKWifyiMYRi2Jtgh7lyQGTDBOg4_5UFiZHk40Y6WxhT/s320/USBese.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWsq7QSIkQ19FnKjxHDqmQdgVBkzPi4c3L2Tv1JhF9apqOUnDZonADWeOD02peP6qeyezQ1VsEIblNKJOPC7Z9qEKm5Xa9rdhWbpKWifyiMYRi2Jtgh7lyQGTDBOg4_5UFiZHk40Y6WxhT/s320/USBese.png)  
 "Lenguajes del comic"
 
 Como les mencione, Time esta lleno de detalles muy interesantes y muy discutidos ([tiene al menos 1399 páginas de comentarios en los foros de xkcd](https://forums.xkcd.com/viewtopic.php?f=7&t=101043&start=999999999)), algunos de los detalles más interesantes son:

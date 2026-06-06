@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-6116930231356039053
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8CJQD1b6bkeGWSEMZ23jCtBV6Xc_-UQxOmOV5sEfDMrvFzyvWIbgB2SyolcJFnxqsY0VzgECL8I0izAXWGmxnIL0BBbI-GiRJOwkrnOeOFMJT02oNLkNK1dwYPpbBaNS4FF5sHGVcllOR/s320/NokiaTalkAustin.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8CJQD1b6bkeGWSEMZ23jCtBV6Xc_-UQxOmOV5sEfDMrvFzyvWIbgB2SyolcJFnxqsY0VzgECL8I0izAXWGmxnIL0BBbI-GiRJOwkrnOeOFMJT02oNLkNK1dwYPpbBaNS4FF5sHGVcllOR/s320/NokiaTalkAustin.png)  
 #NokiaTalk 2011
 Durante la reciente edición del [#NokiaTalk](/2010/05/nokiatalk.html), realizada el 11 y 12 de Marzo en Estados Unidos, expertos en redes sociales de varios países discutieron acerca de las últimas tendencias tecnológicas que dominarán el 2011, estas son sus conclusiones:
 
@@ -31,7 +31,7 @@ Durante la reciente edición del [#NokiaTalk](/2010/05/nokiatalk.html), realizad
 
 9. Cloud Computing. "Muchos aún necesitamos de equipos de almacenamiento masivo y software que corra en nuestros computadores". Este es todavía el obstáculo que deben sortear los oferentes de sistemas de computación en la red. Quizás este año 2011 alguien logre una idea genial para emocionarnos a probarla.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyMUuUTRylcFVY4ob5IVpJBx0jAmMr8iFzg9Hmd6Z-8hryJa_4jLir4VnpF5biCb47u8tVSUekf9LIfhi7ATIss1JhIQCN6A71TGXbEm2sJP0tZGNparI98fK98ClOWazat87SDRldDPPq/s200/nokia_nfc.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyMUuUTRylcFVY4ob5IVpJBx0jAmMr8iFzg9Hmd6Z-8hryJa_4jLir4VnpF5biCb47u8tVSUekf9LIfhi7ATIss1JhIQCN6A71TGXbEm2sJP0tZGNparI98fK98ClOWazat87SDRldDPPq/s200/nokia_nfc.jpg)  
 NFC 10. NFC. Los principios del [NFC](https://en.wikipedia.org/wiki/Near_field_communication)(Comunicaciones de Campo Cercanas) se están utilizando más frecuentemente en lugares como Londres, donde millones de usuarios ya utilizan sistemas NFC a diario en su tarjeta Oyster. Para los usuarios del NFC, uno de los logros más importantes es poder deshacerse de las billeteras para concretar pagos.
 
 11. Sistemas en catástrofes. Lamentablemente en los últimos meses, desastres naturales como el terremoto de Haití y el tsunami de Japón han conmocionado al mundo. Estas situaciones han tenido una muy rápida divulgación por la integración en redes sociales. "Seguramente seremos testigos de nuevos hechos de atención global y en cada uno de ellos veremos cómo van surgiendo nuevas herramientas para brindar ayuda a los afectados".

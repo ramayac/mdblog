@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8764236823225518557
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi709Y7Y8TlHtmFsSRxAoauuest4TJ_z1eWHTO_5aO8KjBNBqtHHLRawk0tJoTTvA5NlmWjnkaCYaWz61FhHQ1jmtzhMX-iWImvjvf6wu_sYijm-6wtkQHxBQCsWHKGhewt5uEgbv_kqLQ/s320/Screen+shot+2011-11-09+at+9.10.43+PM.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi709Y7Y8TlHtmFsSRxAoauuest4TJ_z1eWHTO_5aO8KjBNBqtHHLRawk0tJoTTvA5NlmWjnkaCYaWz61FhHQ1jmtzhMX-iWImvjvf6wu_sYijm-6wtkQHxBQCsWHKGhewt5uEgbv_kqLQ/s320/Screen+shot+2011-11-09+at+9.10.43+PM.png)  
 
 "Portada del Toolkit en Github"
 

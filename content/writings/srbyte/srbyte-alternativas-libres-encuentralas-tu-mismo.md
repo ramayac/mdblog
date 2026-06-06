@@ -21,7 +21,7 @@ Así como en esta ocasión, muchas veces nos ocurre que necesitamos de alguna he
 
 Para facilitarnos la vida, podemos hacer uso de un sitio web creado especialmente para ello: Open Source Alternatives ([osalt.com](https://www.osalt.com/))
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsOz_YEfwMG0SncOmBQVuH3PFvObPuPIysuL7q2fI9putVwi0ZNoRTsnFILQ7WZ3qo6UQxKwFKFS5q4UUaRUGLQqAY7DI3YcLKaDasEYTcqgp1QTOG0aYfylbYrxuPdEqYDYJgijH-vAs/s400/osalt.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsOz_YEfwMG0SncOmBQVuH3PFvObPuPIysuL7q2fI9putVwi0ZNoRTsnFILQ7WZ3qo6UQxKwFKFS5q4UUaRUGLQqAY7DI3YcLKaDasEYTcqgp1QTOG0aYfylbYrxuPdEqYDYJgijH-vAs/s400/osalt.png)  
 "Captura del Sitio osalt.com mostrando las alternativas Open Source al Anime Studio"
 
 Este sitio funciona como un directorio de aplicaciones con licencia comercial en el cual se registra además una lista de programas con funciones equivalentes pero con una licencia de código abierto o también llamada Open Source. Además, le permite también a los usuarios sugerir o proponer otras aplicaciones que no estén listadas en el sitio, tanto las de licencia comercial como sus contrapartes de código abierto.

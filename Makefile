@@ -15,7 +15,7 @@ LDFLAGS := -s -w -X main.version=$(VERSION) -X main.commit=$(COMMIT) -X main.dat
 .PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
         docker-build docker-build-embed docker-run docker-run-release \
-        docker-stop docker-push docker-pull
+        docker-stop docker-push docker-pull clean-urls
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
@@ -61,6 +61,9 @@ lint-links: build-index ## Run internal markdown links validation linter
 
 content-count: ## Show a treeview directory listing of markdown file counts
 	go run ./cmd/mdblog content-count
+
+clean-urls: ## Replace absolute srbyte.com URLs with relative root paths in markdown files
+	@python3 scripts/clean-urls.py
 
 test: build-index build-feed build-sitemap ## Run the Go test suite
 	go test ./...

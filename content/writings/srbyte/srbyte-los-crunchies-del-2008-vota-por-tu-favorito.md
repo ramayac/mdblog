@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7320871329116710262
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiSk0BTo_XGSPvapo3f098ia5CflHC308BoKOeWEbwsI4taYyfVJkR-Fj7bF2_u0zK3DG_Qh3jIgvqntRkFkxFef64ezSmtL9z4yKXdpYjG4fB2NM5MLYSnbmZ3OawaJfChiN0CFnwzfE/s400/logo_crunchies.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiSk0BTo_XGSPvapo3f098ia5CflHC308BoKOeWEbwsI4taYyfVJkR-Fj7bF2_u0zK3DG_Qh3jIgvqntRkFkxFef64ezSmtL9z4yKXdpYjG4fB2NM5MLYSnbmZ3OawaJfChiN0CFnwzfE/s400/logo_crunchies.png)  
 Como todo buen salvadoreño, me complace anunciarles de un evento justo un día antes que se acabe el periodo, se trata de los Crunchies del 2008, certamen celebrado para seleccionar a los startups (sitios web o tecnologías recién nacidos o recién popularizados) que se destacaron durante año, llevado a cabo por blogs como TechCrunch y GigaOM, entre otros.
 
 Que quienes son [TechCrunch](https://techcrunch.com/) y [GigaOM](https://gigaom.com/)? pues son populares y muy influyentes blogs relacionados con tecnología, casi tan populares e influyentes como el Sr Byte, pero su envidia no los deja llegar a nuestro nivel y hasta creemos que nos copian los artículos xD Dichos blogs, crecieron para convertirse en comunidades con mucha influencia en los medios sociales de la tecnología, generando opinión y apoyando nuevos proyectos para el web, como por ejemplo Twitter.

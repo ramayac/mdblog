@@ -11,11 +11,11 @@ El formato de archivos PDF es de lo mas común en la red, y eso lo demuestra el 
 
 Hace poco me vi en la tarea muy peculiar, de añadir una pagina de un PDF, a otro PDF.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0V9u858XgqPp0_EUMtvd_dVNinw1iu3YNjWK1U7GFKKmLugI95U2wB0tteAaDqV43a3WJxrOmQeUmJ5xowKv3AQdAOyz-USt42X5kYBSLuOiH42QamY6UqICddc3_bWotWkYIkrn7PhoQ/s200/pull_hair_out_2.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0V9u858XgqPp0_EUMtvd_dVNinw1iu3YNjWK1U7GFKKmLugI95U2wB0tteAaDqV43a3WJxrOmQeUmJ5xowKv3AQdAOyz-USt42X5kYBSLuOiH42QamY6UqICddc3_bWotWkYIkrn7PhoQ/s200/pull_hair_out_2.jpg)  
 
 Eso era todo, pero cuando no sabes que herramienta usar, hay que dar un par de vueltas para encontrar la herramienta justa para el trabajo. Para ahorrarles el sufrimiento, permitanme presentarles: [PDFedit](https://pdfedit.petricek.net/en/download.html).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoEn3lD_iBVNH6svAoyzJCbf7nOprKzxZyNJVtKnVIevOc_u2OErhb2h0trEGIUnXYy1lIAzmsuqqhW34UB-znNmhU6fBUKQvu21pwcmjWIvNtmJV60v1ZrjpCycJR8yAvilAphV52RKe-/s320/pdfedit-linux-pdf-writer-software.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoEn3lD_iBVNH6svAoyzJCbf7nOprKzxZyNJVtKnVIevOc_u2OErhb2h0trEGIUnXYy1lIAzmsuqqhW34UB-znNmhU6fBUKQvu21pwcmjWIvNtmJV60v1ZrjpCycJR8yAvilAphV52RKe-/s320/pdfedit-linux-pdf-writer-software.jpg)  
 
 PDFedit es una herramienta libre y gratuita, que permite: modificar, crear y editar archivos PDF, imprimirlos, guardarlos y exportarlos a XML, y ademas PDFedit que posee una interfaz gráfica y otra de consola :) Su único "problema" es que no soporta la edición de archivos de PDF protegidos o encriptados, por obvias razones.
 

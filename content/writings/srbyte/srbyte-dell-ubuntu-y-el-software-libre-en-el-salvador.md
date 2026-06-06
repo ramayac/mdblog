@@ -7,9 +7,9 @@ draft: false
 post_id: blog-3515952828243908885.post-8689492983873511714
 ---
 
-Dado el amor que tiene Michael Dell's (CEO de Dell) por Ubuntu ([Feisty Fawn](https://www.engadget.com/2007/04/19/ubuntu-7-04-feisty-fawn-released/), específicamente) y el anuncio anterior instalar [GNU\Linux en laptops Dell y computadoras de escritorio](https://srbyte.blogspot.com/2007/03/dell-y-gnulinux.html). Al parecer el grito de los "linuxeros" fue escuchado (y fue muy fuerte), para que Dell ofreciera Linux pre instalado en sus sistemas. Solo se espera que Dell anuncie que Ubuntu sea la distribución de preferencia de la compañía. ¿Y cuando comenzaremos a ver esas computadoras (mas baratas, seguras y estables) con Ubuntu? Parece que sera una opción para modelos selectos para consumidores, y sera cuestión de semanas para ver esa opción en el pedido de computadoras.
+Dado el amor que tiene Michael Dell's (CEO de Dell) por Ubuntu ([Feisty Fawn](https://www.engadget.com/2007/04/19/ubuntu-7-04-feisty-fawn-released/), específicamente) y el anuncio anterior instalar [GNU\Linux en laptops Dell y computadoras de escritorio](/2007/03/dell-y-gnulinux.html). Al parecer el grito de los "linuxeros" fue escuchado (y fue muy fuerte), para que Dell ofreciera Linux pre instalado en sus sistemas. Solo se espera que Dell anuncie que Ubuntu sea la distribución de preferencia de la compañía. ¿Y cuando comenzaremos a ver esas computadoras (mas baratas, seguras y estables) con Ubuntu? Parece que sera una opción para modelos selectos para consumidores, y sera cuestión de semanas para ver esa opción en el pedido de computadoras.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM96muxAUEJ6FDIiZ5EP_Q5c7g1PlcucPtqtj3l1eUVHoI21e6GPy_WeMc-SzJ-_mLgDnx83aoxht3M8GkHT_qwAUdNtG2EtMDbjRllOUbo_MfW-ZP1nxe3xzuOssgTCXTKqmyG_22hEM/s400/ubuntu-dell-laptop.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM96muxAUEJ6FDIiZ5EP_Q5c7g1PlcucPtqtj3l1eUVHoI21e6GPy_WeMc-SzJ-_mLgDnx83aoxht3M8GkHT_qwAUdNtG2EtMDbjRllOUbo_MfW-ZP1nxe3xzuOssgTCXTKqmyG_22hEM/s400/ubuntu-dell-laptop.jpg)  
 "GNU\Linux en todos los escritorios ya no es un sueño"
 
 No es esta, solamente una buena noticia para el mundo, sino que también afecta en gran medida a El Salvador... nuestra economía no permite comprar sistemas operativos (que solo son "bonitos") con exorbitantes y (muy) ridículos precios de licencias. Quiero un sistema que pueda instalar en todas las computadoras que me den ganas.
@@ -18,7 +18,7 @@ No es esta, solamente una buena noticia para el mundo, sino que también afecta 
 - ¿Estas seguro qué quieres comprar una licencia por cada computadora?
 - ¿No es más fácil bajar una distribución de GNU\Linux e instalarlo en todo lo que quieras (hasta en la refrigeradora o la lavadora) sin problemas legales?
 - ¿Con un precio de $0 dolares?
-[¡Al fin se quitara el mito de que es difícil instalar o usar un sistema GNU\Linux!](https://srbyte.blogspot.com/2007/04/es-dificil-instalar-gnulinux.html)
+[¡Al fin se quitara el mito de que es difícil instalar o usar un sistema GNU\Linux!](/2007/04/es-dificil-instalar-gnulinux.html)
 
 Lo mas hermoso sera que la gente comience a comprar computadoras portátiles y cuando vean que la diferencia en las computadoras que tiene "Ventanas" y GNU\Linux es de $100 a $300 dolares.
 
@@ -40,7 +40,7 @@ Claro el tipo tiene que ver como se las ingenia para que el poco dinero que se a
 > ¿o sera mejor que los alumnos solo trabajen en notepad, wordpad y paint?
 Otro ejemplo de esto son los Infocentros... ¿por qué siguen con Windows 98? Pues no tienen $ para actualizar Hardware y más licencias de Ventanas XP. ¿Y por que no usan GNU\linux? ... pues simplemente por idiotas. No quieren entender que GNU\Linux puede ser tanto o mas fácil de instalar, administrar y usar en las computadoras, y que no necesitan actualizar el hardware para tener una computadora funcional y con un sistema operativo "moderno".
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKnvb2CPbPI0qS1lhrnCSAe6drDX0agm3EEUlQyefHcughupH5RCEoEoUwtYqcYtAg5JQq9m3PvH56wFBEdapKOEaWTjmjlOoGw05g1rdJgkSVx9gffS7bjZJh9BcLRgX7E_N86EJObXU/s200/MaxLinuxPenguin.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKnvb2CPbPI0qS1lhrnCSAe6drDX0agm3EEUlQyefHcughupH5RCEoEoUwtYqcYtAg5JQq9m3PvH56wFBEdapKOEaWTjmjlOoGw05g1rdJgkSVx9gffS7bjZJh9BcLRgX7E_N86EJObXU/s200/MaxLinuxPenguin.jpg)  
 "Es mucho pedir que los Infocentros dejen de usar Ventanas 98 y usen GNU\Linux"
 
 ¿Y que se hace para cambiar ese panorama?.... Eventos como FLISOL y Linux Lan Party, cursos de Software Libre en las Universidades, capacitaciones de OpenOffice 2.0 entre otras cosas. Pero esto no es suficiente...

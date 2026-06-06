@@ -8,10 +8,10 @@ post_id: blog-3515952828243908885.post-8495973040200282155
 ---
 
 [Linux Foundation](https://www.linux-foundation.org/en/Main_Page), es una organización sin fines de lucro, que lucha desde hace tiempito por promover la estandarización entre las diversas [distribuciones](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux) de GNU/Linux para mantenerlo avanzando en ese camino tan dificil de los sistemas operativos, lleno de vidrios por las "ventanas" rotas...
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO8P97J1Q9OADUcPsaoJiXtUHJ29TwfhShewJvxj4bbeKzrtatkbsl4AdJ4Tla0ZgQmpDjeXdiwjUmXHlnURIu6tXF2SjOrdbuUXON67G3fyKfh-zi0DO87pa2e0uklGJ8X3aZlgEsjuw/s400/vista-cracked-possibly.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO8P97J1Q9OADUcPsaoJiXtUHJ29TwfhShewJvxj4bbeKzrtatkbsl4AdJ4Tla0ZgQmpDjeXdiwjUmXHlnURIu6tXF2SjOrdbuUXON67G3fyKfh-zi0DO87pa2e0uklGJ8X3aZlgEsjuw/s400/vista-cracked-possibly.jpg)  
 Hace poco [Mark Shuttleworth](https://es.wikipedia.org/wiki/Mark_Shuttleworth) se unio a la junta directiva del Linux Foundation. Y claro... Shuttleworth, ademas de viajar al espacio sideral:
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Shuttleworth_big_NASA.jpg/610px-Shuttleworth_big_NASA.jpg)    
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Shuttleworth_big_NASA.jpg/610px-Shuttleworth_big_NASA.jpg)  
 "Shuttleworth en el [Soyuz](https://es.wikipedia.org/wiki/Soyuz) TM-34, 25 abril 2002"
 
 ... fundo [Canonical Ltd](https://es.wikipedia.org/wiki/Canonical_Ltd.). y esta financiando (activamente) el proyecto Ubuntu... el tipo tiene de donde: después de vender su compañía de seguridad "Thawte" a "VeriSign" por 575 Millones de dólares (cuatro años después de comenzar la misma en el garaje de su casa). En fin, Shuttleworth tiene el interés de mantener a GNU/Linux en el camino correcto y demuestra el claro deseo de llevarlo a las computadoras de escritorio.

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-3667254230756861856
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXCX8hMQI0NAoPAwrszveYmJoFsP4KFgsE_VU-x-AEuf_blR__7vzR2QidEBM_ypMnm23Xk2waC9_HAXOBEyp8Y3HKRznvOdtpKddlC1-pvTyDGBLYdQTMXqcl-TO43Dais6HrCSrCkcc/s320/gimp-splash-2.4.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXCX8hMQI0NAoPAwrszveYmJoFsP4KFgsE_VU-x-AEuf_blR__7vzR2QidEBM_ypMnm23Xk2waC9_HAXOBEyp8Y3HKRznvOdtpKddlC1-pvTyDGBLYdQTMXqcl-TO43Dais6HrCSrCkcc/s320/gimp-splash-2.4.png)  
 "Pantalla de Inicio del Gimp, en la versión 2.4 "
 
 Hace poco me enteraba leyendo en las noticias que Google desea patrocinar un proyecto más de Codeweavers, empresa detrás de wine, el popular emulador de aplicaciones Windows bajo Linux. Entre los proyectos que Google patrocina actualmente esta el soporte para la emulación de Picasa y Dragon Naturally Speaking sobre Linux.

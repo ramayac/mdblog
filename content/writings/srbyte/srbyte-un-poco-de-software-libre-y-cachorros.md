@@ -27,12 +27,12 @@ Si quieres decir que un programa es software libre, por favor no digas que está
 
 Como alguna vez dije (y muchos mas dijeron también) el software libre es una bendición para los países "en vías de desarrollo" (¡hay que ser positivos!). Pero un proyecto de software libre es como un pequeño cachorro, si leyeron bien.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6PmQeCjwjVmun1Qr_4uPP9s9CzqRCKAP8YzDPeUwfA2coSt4aowV_dumh72Yse52hxqhtfZGLxSoVDNrsHRj7VPeKXg0dhGZZ1hfZ1gkszP8d4cVMjGK2aqtNSL8Pl88h9MkDgrhOBsM/s400/puppy.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6PmQeCjwjVmun1Qr_4uPP9s9CzqRCKAP8YzDPeUwfA2coSt4aowV_dumh72Yse52hxqhtfZGLxSoVDNrsHRj7VPeKXg0dhGZZ1hfZ1gkszP8d4cVMjGK2aqtNSL8Pl88h9MkDgrhOBsM/s400/puppy.jpg)  
 Un pequeño cachorro que hay que alimentar, cuidar y toma años para que crezca. Así que, para todos ustedes fanáticos de windows, si alguna vez por la web se cruzan con un software libre que les interesa, lo bajan e instalan (suponiendo que este disponible para windows) y este apenas en una versión beta o alpha: no pueden, repito, no pueden criticarlo.
 
 O acaso ¿criticas a un cachorro (de un mes de edad) que llevas a la casa porque no pueda ir a traer: el periódico, tus chanchletas y una Kolashampan cuando suenes tus dedos? No, con los proyectos de software libre hay que esperar: por el tiempo para hacer las cosas, para conseguir dinero, equipo o personas, recursos en general... y aun así hay programas/proyectos fantásticos como: amaroK, Blender, KDE, Gnome, Enlightenment, Xgl, PyGame, iFolder, NUnit, Beaggle, etc que pueden hacer "trucos" realmente buenos...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwJfRjtrofrrxReyP-yCewg18u9Xx3Bt7g_ZxUw0N-dAG323kzGEE7bSPEtJWkKgZsFA92D5EmdW9MHMcyC9W6DFhyoQ7r7G3QE6Q5BDp0_NBHTFkb4p0FBr9Pt1uOnYHPyP3Peb_s7HM/s400/puppy2.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwJfRjtrofrrxReyP-yCewg18u9Xx3Bt7g_ZxUw0N-dAG323kzGEE7bSPEtJWkKgZsFA92D5EmdW9MHMcyC9W6DFhyoQ7r7G3QE6Q5BDp0_NBHTFkb4p0FBr9Pt1uOnYHPyP3Peb_s7HM/s400/puppy2.jpg)  
 El problema es que muchos proyectos quedan como cachorros, y no pueden salir adelante, por falta de apoyo en lo que necesiten. Y quien sabe, quizás la próxima herramienta que necesites este entre ellos...
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDXOA1QYOXS_NpqsuJ5zEkcaz83yt0ppAiOkec2udlIn6_dRWD9DjodqxOVrMYRpZ8ya6Ol6m-7ZR-UkPS5sVJqioi2849_se_UqZWVaoiyjQlxMKUSm6r9DjFvYnZdAMXD4D7HRr5m6E/s400/puppies.jpg)

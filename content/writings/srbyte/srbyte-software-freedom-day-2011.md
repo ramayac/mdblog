@@ -11,7 +11,7 @@ Por medio de la lista de correo de los usuarios de Linux de la UES me entero que
 
 A continuación les dejo el afiche del evento en El Salvador y la agenda de charlas que se impartirán:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-15zYbKWc9fHa2IZ9p3qZ6z6ypRXk6czRUua5WMNZbleXSbr7NMQ66Xd-pYatXufSibDbosjWdA9dUaBmHhs_je38RmijGKH2jni7KVGD6jU-0F67_eVDRZON5gDgYrLrAf456TS7GC4/s320/SFD2011-GarabatosLinux.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-15zYbKWc9fHa2IZ9p3qZ6z6ypRXk6czRUua5WMNZbleXSbr7NMQ66Xd-pYatXufSibDbosjWdA9dUaBmHhs_je38RmijGKH2jni7KVGD6jU-0F67_eVDRZON5gDgYrLrAf456TS7GC4/s320/SFD2011-GarabatosLinux.png)  
 
 Charlas:
 

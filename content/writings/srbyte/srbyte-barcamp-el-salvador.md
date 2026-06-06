@@ -9,12 +9,11 @@ post_id: blog-3515952828243908885.post-7528525873720665499
 
 Tengo el honor de invitarlos a participar en el [BarCamp - El Salvador](https://barcampelsalvador.com/), a realizarse el Sábado 5 de Marzo de 2011, en la Escuela de Comunicación Monica Herrera, de 8:30AM y terminamos a las 12:30PM (aunque se podría alargar hasta la tarde).
 
-![image](https://barcampelsalvador.com/imagenes/logo.jpg)    
+![image](https://barcampelsalvador.com/imagenes/logo.jpg)  
 
 ¿Qué es un barcamp?
 
-El BarCamp es una red internacional de "[desconferencias](https://es.wikipedia.org/wiki/Desconferencia)
-" (eventos abiertos y participativos), cuyo contenido es provisto por los participantes. Se enfocan usualmente tecnología y medios sociales, sin embargo, este tipo de encuentros han ampliado su temática y actualmente incluyen eventos participativos y abiertos alrededor de temas sociales, artísticos, educativos... con fuertes componentes creativos e innovadores en los respectivos ámbitos.
+El BarCamp es una red internacional de "[desconferencias](https://es.wikipedia.org/wiki/Desconferencia)" (eventos abiertos y participativos), cuyo contenido es provisto por los participantes. Se enfocan usualmente tecnología y medios sociales, sin embargo, este tipo de encuentros han ampliado su temática y actualmente incluyen eventos participativos y abiertos alrededor de temas sociales, artísticos, educativos... con fuertes componentes creativos e innovadores en los respectivos ámbitos.
 
 [YouTube video player](https://www.youtube.com/embed/DsGWuXywZ6o)
 

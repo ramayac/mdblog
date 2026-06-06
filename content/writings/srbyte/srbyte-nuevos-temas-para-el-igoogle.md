@@ -7,13 +7,13 @@ draft: false
 post_id: blog-3515952828243908885.post-6581263820563612807
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyFZ6PeT0RAoutF4vyHGSPTj8QPOlMPvzAXfxI9GgLaXSo5D1rxc01fCNVZb8Hve90GwZvcuoq57_BJiryTl4nVUchPpQFvsg5DOKg_jTMaLfswarqTkmYu4R2b9TwN243J7T48mfqxcQ/s320/shoot1.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyFZ6PeT0RAoutF4vyHGSPTj8QPOlMPvzAXfxI9GgLaXSo5D1rxc01fCNVZb8Hve90GwZvcuoq57_BJiryTl4nVUchPpQFvsg5DOKg_jTMaLfswarqTkmYu4R2b9TwN243J7T48mfqxcQ/s320/shoot1.png)  
 "Nueva Caracteristica del iGoogle: Artist Themes"
 
 iGoogle ahora ha habilitado una nueva característica: aplicarle temas (tamibén llamados [skins](https://es.wikipedia.org/wiki/Skin_%28software%29)) artísticos (o temas diseñados por artistas), los cuales están muy peculiares y llamativos, con los que podes hacer todavía mas lenta tu pagina de inicio de Google o iGoogle pero que se vea mas vistoso y te motive a usar su sin igual caja de texto de búsqueda y sus [widgets](https://es.wikipedia.org/wiki/Widget) (también llamados [gadgets](https://es.wikipedia.org/wiki/Gadget)).
 
 - ¿Que es el iGoogle?
-Como ya lo había mencionado Rodrigo en [este post](https://srbyte.blogspot.com/2007/04/firefox-google-libertad-y-movilidad.html), Google ha unificado una serie de servicios que ofrece mediante una unica cuenta para que puedas hacer uso de ellos y compartir información como GMail, Blogger, Youtube, Google Documents, Google Calendar, etc.
+Como ya lo había mencionado Rodrigo en [este post](/2007/04/firefox-google-libertad-y-movilidad.html), Google ha unificado una serie de servicios que ofrece mediante una unica cuenta para que puedas hacer uso de ellos y compartir información como GMail, Blogger, Youtube, Google Documents, Google Calendar, etc.
 
 La cuestión es que todos estos servicios poseen su propia pagina web y a veces no necesitas todas las opciones que la página contiene sino que solo revisar si tienes un nuevo correo o si te han escrito nuevos comentarios, como van las visitas, el estado del tiempo, etc. y pueda que te moleste tener que visitar un sitio web diferente para realizar tareas simples por lo que existen portales web con la posibilidad de agregar widgets o accesorios que se incrustan en ella y que contienen los servicios básicos de un sitio web en específico.
 
@@ -23,7 +23,8 @@ Además de los gadgets, como dije al principio, iGoogle te permite personalizar 
 
 iGoogle con un tema comun:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9nJhoeS5uXjV-Xq3Ns7A9vjcfCJT3Pi21w-RNXRMl3N_Ei4AQtUhbCIKhxu9YwhiAEiXdoCstgctElv8BiEkK3y2PngB5TlSiKKcy2UmaefB6gmvOLJ-_g7liwYWF6bBrnBcIcyTuwVo/s320/shoot2.png)    iGoogle con un tema artístico:
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9nJhoeS5uXjV-Xq3Ns7A9vjcfCJT3Pi21w-RNXRMl3N_Ei4AQtUhbCIKhxu9YwhiAEiXdoCstgctElv8BiEkK3y2PngB5TlSiKKcy2UmaefB6gmvOLJ-_g7liwYWF6bBrnBcIcyTuwVo/s320/shoot2.png)  
+iGoogle con un tema artístico:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVQ2AAPZeeeI2TErPMEHzpye58IdbKoAAfEKr2g5X_7YPoyVioosVC6ZjVjHxvynGB-LBbVKj8U0YOzeoSEEES8FP_qjsGPTjW7b3bKkex9worlB5nNOrbaohc3QO08GIaB7mNDiZ3nK4/s320/shoot3.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVQ2AAPZeeeI2TErPMEHzpye58IdbKoAAfEKr2g5X_7YPoyVioosVC6ZjVjHxvynGB-LBbVKj8U0YOzeoSEEES8FP_qjsGPTjW7b3bKkex9worlB5nNOrbaohc3QO08GIaB7mNDiZ3nK4/s320/shoot3.png)  
 Cabe destacar que tanto los temas personalizados como el exeso de widgets harán el sitio web más lento a la hora de cargar la información.

@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-5602083590593905362
 
 Las cosas que hay que saber sobre este famoso buscador son tan extensas que no ... la capacidad de dejarlo en un solo post y como me dí a la tarea de traducir casi completamente el contenido de la [Google Guide](https://www.googleguide.com/) de Nancy Blachman, he aquí el resto de la guía mas mis propias aportaciones:
 
-El principio de esta guía mas unos interesantes vídeos relacionados los pueden encontrar en [Tecnicas de Busqueda en Google, parte I.](https://srbyte.blogspot.com/2008/02/tcnicas-de-bsqueda-en-google-parte-i.html)
+El principio de esta guía mas unos interesantes vídeos relacionados los pueden encontrar en [Tecnicas de Busqueda en Google, parte I.](/2008/02/tcnicas-de-bsqueda-en-google-parte-i.html)
 
 Comprendiendo los Resultados
 
@@ -41,12 +41,24 @@ Ejemplos de Accesos Directos:
 
 Si aún así no te salen las búsquedas o no te caben en la cabeza tantas cosas a tomar en cuenta a la hora de buscar, pues pronto existirán nuevos buscadores que serán capaces de entender una consulta como la haría cualquier ser humano:
 
-[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/UC5DS0w9mJ4&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)
 "Google Brain. Ojalá sea un futuro cercano."
 
 Algún día esta tecnología será implementada en Google. Aunque otros se le están adelantando en esta idea:
 
-[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0) [https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)  
+[https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0](https://www.youtube.com/v/IONdWQwcmxA&rel=0&color1=0xd6d6d6&color2=0xf0f0f0&border=0)
 "TrueKnowledge: no mas necesidad de consultas ni accesos directos!"
 
 Aún se encuentra en versión beta y para utilizarlo tienes que suscribirte y esperar a que los webmasters se apiaden de tu persona y decidan aceptarte, pero esperemos que pronto esté disponible para cualquiera.

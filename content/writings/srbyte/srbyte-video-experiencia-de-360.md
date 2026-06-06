@@ -11,7 +11,7 @@ Técnicamente, lo que van a ver a continuación es un video de 360º (realizado
 
 Si alguna vez han querido hacer un recorrido en helicóptero, esta es la mejor forma de hacerse una idea (on-line) de como sería:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh3gCeTAM_Fm9c-7B6usxj5UKHryJtwf-2RTUGnxiMSW5CibH1uSQhO-Nin9meh2WNQJ20VdkX66YAp3AsyzJQOr6MC3jxpsITtHLL4Ll1vIItETm_DS4vp2ikZgJc9wPiMZyMeqvJoUqV/s320/experiencia360.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh3gCeTAM_Fm9c-7B6usxj5UKHryJtwf-2RTUGnxiMSW5CibH1uSQhO-Nin9meh2WNQJ20VdkX66YAp3AsyzJQOr6MC3jxpsITtHLL4Ll1vIItETm_DS4vp2ikZgJc9wPiMZyMeqvJoUqV/s320/experiencia360.jpg)  
 Captura del recorrido
 
 Espero que les guste tanto como a mi, acá les dejo la URL:

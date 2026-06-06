@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8234730157515078790
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAzcE8O7tyQf5d3IV2Jg3qNqDrnbB47R7bBYotZDsdwiFgfplhbqBYHRMge2SuKoUxUFXd0vUDSOuWnFZ3a0wvmRk4JQcN7ma6iPAUtnTppbinPQuFVtTWgiz0aN1cSHc-CUvFKHXY6xc/s400/FlisolSvLogo.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAzcE8O7tyQf5d3IV2Jg3qNqDrnbB47R7bBYotZDsdwiFgfplhbqBYHRMge2SuKoUxUFXd0vUDSOuWnFZ3a0wvmRk4JQcN7ma6iPAUtnTppbinPQuFVtTWgiz0aN1cSHc-CUvFKHXY6xc/s400/FlisolSvLogo.jpg)  
 "El próximo 24 de Abril se llevará acabo en el país el Flisol de este año"
 
 Cada año en toda latinoamérica las comunidades de software libre de cada país se reúnen para llevar a cabo el Festival de Instalación de Software Libre, acortado como [FLISoL](https://www.flisol.net/).

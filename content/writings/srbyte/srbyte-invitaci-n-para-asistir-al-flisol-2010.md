@@ -13,7 +13,7 @@ Mañana, en las instalaciones del Instituto Técnico EXSAL el FLISoL dará inici
 
 A las 9:00 am continua con la primera ponencia: Filosofía del Software Libre. Se impartirán exposiciones por medio de kioskos con temáticas especificas y se repetirán durante todo el evento que finaliza a las 4:00 pm.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidy7iQ6g3eOd8ZieQfRFuZmfldUHyaQ3BGXAtQJ65bGUZaypj6_-kAzEaO88mvtqbJ4OffE8zf2PhbqKO7bE_-zIdfRic8-kxnG1NqxoN8wEk5OdD9mV_2k7a13_FunRPGqbPnsLTV1tbV/s320/Flisolsv.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidy7iQ6g3eOd8ZieQfRFuZmfldUHyaQ3BGXAtQJ65bGUZaypj6_-kAzEaO88mvtqbJ4OffE8zf2PhbqKO7bE_-zIdfRic8-kxnG1NqxoN8wEk5OdD9mV_2k7a13_FunRPGqbPnsLTV1tbV/s320/Flisolsv.jpg)  
 Algunas temáticas a exponer:
 
 - Edición y mezcla de audio (taller)

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-7447375558777797964
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjYgqMtIRjE3CPIwdH7hNpPxAs5YhkSanp6OU_OX8LzI8CIDyClb8Bu14nikcrx0LR7lU73AhPXuRsifsFt7FV5GNoThvv3b2kZrUPhCvVnAF0tJRX7sTZllefJGMhHay94o-qIwn6gx_K/s200/bittorrent_icon.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjYgqMtIRjE3CPIwdH7hNpPxAs5YhkSanp6OU_OX8LzI8CIDyClb8Bu14nikcrx0LR7lU73AhPXuRsifsFt7FV5GNoThvv3b2kZrUPhCvVnAF0tJRX7sTZllefJGMhHay94o-qIwn6gx_K/s200/bittorrent_icon.png)  
 El pasado 2 de Julio (2011), el popular protocolo para compartir archivos conocido como [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) cumplió 10 años de existencia. Cuando [Bram Cohen](https://en.wikipedia.org/wiki/Bram_Cohen) reveló BitTorrent en un [mensaje en Yahoo Groups en el 2001](https://finance.groups.yahoo.com/group/decentralization/message/3160), jamás se imagino que sería uno de los principales generadores de tráfico de Internet.
 
 BitTorrent resultó ser algo con muchísimo potencial, y cuya existencia esta relacionada con historias controversiales (piratería, demandas, redadas policíacas) y también con grandes innovaciones.

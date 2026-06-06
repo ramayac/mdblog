@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-4041155318505386496
 
 Para los interesados en al seguridad informática, ESET, anuncia la realización del ESET Security Day en El Salvador mañana jueves 25 de Agosto (de 2011) en el Hotel Sheraton Presidente de 8:30 am a 1:30 pm .
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWZXMA9RBFWgZ6vOTnNMSl3uqHdrPTlf6nXm2UyEBgQZ7Wu1M7esE68V2XEGprF9wRMzgoLzAlxdOjmwTzv07-jL6lwkr_Ct9vBTRPXMf66COQze1T1Ds8YPi_A640dsy4_lLK98pKGpBs/s320/ESET+Security+Day+2011++Live+the+Experience.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWZXMA9RBFWgZ6vOTnNMSl3uqHdrPTlf6nXm2UyEBgQZ7Wu1M7esE68V2XEGprF9wRMzgoLzAlxdOjmwTzv07-jL6lwkr_Ct9vBTRPXMf66COQze1T1Ds8YPi_A640dsy4_lLK98pKGpBs/s320/ESET+Security+Day+2011++Live+the+Experience.jpg)  
 
 El evento estará dirigido al sector corporativo, académico y empresas del sector público y privado con el principal objetivo de dar a conocer los temas más relevantes a tener en cuenta cuando se implementan soluciones de seguridad informática y antivirus en empresas e instituciones.
 

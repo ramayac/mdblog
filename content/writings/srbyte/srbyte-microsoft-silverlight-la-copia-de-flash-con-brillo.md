@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4897511027394864358
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgOiEOV28S880ItXCL5u-1dP0sguYKGvZ4Ck5RYJaX54WL331pY0O0SGiWs47xex1Aqdpa1T46g5rbbvidrrL2z3pPHp6ypZolu9YkfgKftYl_b5kfloqVmTwaWdazGA_7HSlABExeYmE/s400/logo_main_sl.gif)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgOiEOV28S880ItXCL5u-1dP0sguYKGvZ4Ck5RYJaX54WL331pY0O0SGiWs47xex1Aqdpa1T46g5rbbvidrrL2z3pPHp6ypZolu9YkfgKftYl_b5kfloqVmTwaWdazGA_7HSlABExeYmE/s400/logo_main_sl.gif)  
 "Logo de Microsoft Silverlight"
 
 Siguiendo su larga trayectoria de hacer productos que no tienen ningún tipo de innovación, Microsoft libera el beta de su (infame) Silverligth... un producto de tercera categoría similar (terriblemente) a Adobe Flash.
@@ -28,7 +28,7 @@ Ray Ozzie, pronto la nueva cabeza de Microsoft, ha criticado con anterioridad la
 > "Mientras AJAX no es necesariamente tecnología eficiente, la razón por la que es tan popular es porque interopera bien con cualquier navegador y sistema operativo."
 Es más que evidente que el mercado de las tecnologías web quieran algo que se ejecute en cualquier cosa, un servidor web, un Iceweasel en Debian, en un Arch Linux, en Opera, o en un Safari.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-m2cz_Xja1siyze-jP-p__6nuVQPg7iiX2s31GPEsBWzaIEGTx2TiUtuVlXV2ndI-0D3nzx_pogekKT2FPpJG0GRskBJSFbhsA8jGXUCoxnqPrIHYGQQv2GZwgu8mQIvEMaSi7lF6wEo/s400/manybrowsers.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-m2cz_Xja1siyze-jP-p__6nuVQPg7iiX2s31GPEsBWzaIEGTx2TiUtuVlXV2ndI-0D3nzx_pogekKT2FPpJG0GRskBJSFbhsA8jGXUCoxnqPrIHYGQQv2GZwgu8mQIvEMaSi7lF6wEo/s400/manybrowsers.png)  
 "Muchos navegadores web"
 
 Mike Schroepfer, vicepresidente de Mozilla menciona que el Software Libre es vital para el espíritu creativo que miles de personas empeñan en la web.

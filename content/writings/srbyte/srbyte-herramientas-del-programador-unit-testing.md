@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5032663546368890754
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Q1tX3fY0v__ymIT_UEBZvgMtfqh6005Rd-NI0bK0lcY6tLLP25SUon06aFbYDSmlAzT9hkx0kJV_WgIV-x0AxvM7myGN6O_gjgmdYgGZzfT4vnSOmaBCNt_FxCBZ8ndsJ6fuIjxTOjo/s400/sourcecode.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Q1tX3fY0v__ymIT_UEBZvgMtfqh6005Rd-NI0bK0lcY6tLLP25SUon06aFbYDSmlAzT9hkx0kJV_WgIV-x0AxvM7myGN6O_gjgmdYgGZzfT4vnSOmaBCNt_FxCBZ8ndsJ6fuIjxTOjo/s400/sourcecode.png)  
 "Jajajaja Nunca te librarás de mi, programador"
 Bugs. Todo programador los conoce. Desde el primer hola mundo que escribe en C y se da cuenta que no le compiló porque le hacía falta el punto y coma al final de la sentencia, el programador se da cuenta que los programas que escriba nunca serán perfectos y siempre habrá que arreglar los diferentes errores que comunmente se cometen cuando estamos desarrollando alguna aplicación.
 

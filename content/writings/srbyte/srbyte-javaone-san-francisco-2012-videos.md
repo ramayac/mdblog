@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-630562616141380626
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJN-CnBS1-3gDZUa9QTklxu5HQ_BGrH66sxaZIX7-JMY9MrO111seWXQ0PhSYeVRo96P47sedAurqBScPAWz_M9eazeS6dzAXncWQAMTiPb6G17iTlmfQtjdKavT-e9oEirSHBY_FKJsrR/s400/javaone.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJN-CnBS1-3gDZUa9QTklxu5HQ_BGrH66sxaZIX7-JMY9MrO111seWXQ0PhSYeVRo96P47sedAurqBScPAWz_M9eazeS6dzAXncWQAMTiPb6G17iTlmfQtjdKavT-e9oEirSHBY_FKJsrR/s400/javaone.jpg)  
 "JavaOne 2012"
 
 Si eres fan de [Java](https://www.java.com/es/), [y de la popular conferencia "JavaOne"](https://www.oracle.com/javaone/index.html), estoy seguro que estarás contento de saber que todos los videos de la conferencia de JavaOne San Francisco 2012 están disponibles en YouTube vía el canal de "Oracle Learning Portal" de forma 100% libre.

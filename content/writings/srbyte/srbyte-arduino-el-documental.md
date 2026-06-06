@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-388520755360165231
 
 El software libre ha tenido un increíble impacto en las aplicaciones y plataformas que todos usamos hoy en día. Existen muchos ejemplos de software libre muy popular: Linux, Firefox y Android. Y ahora el mismo fenómeno le esta ocurriendo al hardware. Con el desarrollo de componentes electrónicos baratos y fáciles de usar como parte de la plataforma de computación libre "Arduino", se vuelve más sencillo crear tus propias soluciones de hardware sin la necesidad de gastar mucho dinero.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC1XlOkAWmFt-I71A_0p3ZZ9f8TIXlGVwVOPIvNS4BP-pxiaDQulqGPdnUoVCqtyHRvmxl5BLyLmrdCjQXhhg6Fl9WBnscrL659RcceYkcEjilEEKKSjlABIntbjVx8-_unsAiUxugMD9E/s320/Arduino+The+Documentary+Poster+%2528Flickr+Link%2529.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC1XlOkAWmFt-I71A_0p3ZZ9f8TIXlGVwVOPIvNS4BP-pxiaDQulqGPdnUoVCqtyHRvmxl5BLyLmrdCjQXhhg6Fl9WBnscrL659RcceYkcEjilEEKKSjlABIntbjVx8-_unsAiUxugMD9E/s320/Arduino+The+Documentary+Poster+%2528Flickr+Link%2529.jpg)  
 El Poster El Documental sobre Arduino, nos da una introducción a lo que es y cómo se fue desarrollado desde sus primeros conceptos. Después de todo, si el software puede ser libre para usar ¿por qué el hardware no puede serlo también? Les comparto el documental completo en español ([también disponible en Ingles](https://vimeo.com/18539129)):
 
 [Video](https://player.vimeo.com/video/18390711?title=0&byline=0&portrait=0)

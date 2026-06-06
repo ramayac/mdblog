@@ -13,12 +13,12 @@ Pues para aliviar esta carga, les quiero compartir esta sencilla herramienta, qu
 
 Realmente no hay mucho que ver o explicar, smtp4dev es un sencillo programa que se aloja en el taskbar y escucha el puerto 25, por cualquier correo entrante.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioieZ-7pO_KYChvWHPcm4tmJHvoCbvqQJyko6H1FWDiJLkeaFGQjOtzjNOSx3Mx4G1qcXPld64S9AFtUIszg2hla3ITUmYwbzaH1iZKciMdhh3Wtldl31dINsj1HSfH2vDZoiypeh6VPFz/s320/mainform.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioieZ-7pO_KYChvWHPcm4tmJHvoCbvqQJyko6H1FWDiJLkeaFGQjOtzjNOSx3Mx4G1qcXPld64S9AFtUIszg2hla3ITUmYwbzaH1iZKciMdhh3Wtldl31dINsj1HSfH2vDZoiypeh6VPFz/s320/mainform.png)  
 "Bandeja de entrada de smtp4dev"
 
 Entonces si usas Java Mail o la funcion mail() de PHP para enviar un correo, smtp4dev lo recibe y te despliega una notificación de recibido, el correo "recibido" lo pueden abrir con Thunderbird o Outlook sin mayor problema.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP3BGJEIoJgLQfwwcgi6WGtcO4vwqwjGvTW0Knrb8r_EKDpHsLHw7r0VxQKNp5D0chGO1XG5YZLVesYLA6sTJP_XwTmouVWdxGKoUasIbrcJ39asVoz5VRYD8YM0Cv5OmIeuu5f2JiaqDu/s1600/notify.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP3BGJEIoJgLQfwwcgi6WGtcO4vwqwjGvTW0Knrb8r_EKDpHsLHw7r0VxQKNp5D0chGO1XG5YZLVesYLA6sTJP_XwTmouVWdxGKoUasIbrcJ39asVoz5VRYD8YM0Cv5OmIeuu5f2JiaqDu/s1600/notify.png)  
 "Notificación de correo entrante"
 
 Simple, funcional y open source ¿qué más se puede pedir?, pueden descargar smtp4dev acá:

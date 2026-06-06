@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-1887937418289184200
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgahh6WYHOcIPJtY2z99WlY3FAHwXxAm41HPlUQC7MQmEaa5-eaO2UM9EId9UNrUoXU7Us8k6bNElVLYB2UfqAT0Zv1WL8METEVWrQq4JAiXUT4ybXjOxHJ9dxHMuXh6tgEEPm71a8X3XE/s320/dpan_logo.jpg)    Esta mañana, leyendo entre la lista interminable lista de feeds, tuve la agradable sorpresa, de encontrarme con una corta noticia sobre una organización llamada [Deaf Performing Artists Network o D-PAN](https://www.d-pan.com/index.html) (Red de Artistas Sordos). Esta organización se encarga de crear medios digitales (videos) para servir (entretener) a las audiencias sordas, mediante el uso de el [ASL (American Sign Lenguage)](https://en.wikipedia.org/wiki/American_Sign_Language).
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgahh6WYHOcIPJtY2z99WlY3FAHwXxAm41HPlUQC7MQmEaa5-eaO2UM9EId9UNrUoXU7Us8k6bNElVLYB2UfqAT0Zv1WL8METEVWrQq4JAiXUT4ybXjOxHJ9dxHMuXh6tgEEPm71a8X3XE/s320/dpan_logo.jpg)  
+Esta mañana, leyendo entre la lista interminable lista de feeds, tuve la agradable sorpresa, de encontrarme con una corta noticia sobre una organización llamada [Deaf Performing Artists Network o D-PAN](https://www.d-pan.com/index.html) (Red de Artistas Sordos). Esta organización se encarga de crear medios digitales (videos) para servir (entretener) a las audiencias sordas, mediante el uso de el [ASL (American Sign Lenguage)](https://en.wikipedia.org/wiki/American_Sign_Language).
 
 El ultimo video que esta organización ha realizado es "Beautiful" de Christina Aguilera.
 

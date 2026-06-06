@@ -11,7 +11,7 @@ Como parte de la serie de cambios en su diseño, los cuales se han venido dando 
 
 Desde hace aproximadamente seis meses el buscador más popular de la web ha realizado diversas modificaciones al diseño de sus páginas para crear una mejor experiencia para los usuarios. Considero que los cambios han sido muy positivos, y han logrado su propósito, puesto que un mejor ambiente genera precisamente que el usuario pase más tiempo en el sitio y a la vez, se obtiene su preferencia. Como ellos mismos citan en su publicación, su meta era "crear una experiencia de usuario sencilla e intuitiva a través de Google."
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU_z-UizCz3g3hXgasdQTbLvCWstgCKADgCSAK-hxlM5vqs_yjn1CqhEvz38XIl6ZbwgcK6Ekmew28EKkLpPFeoo-eXu6VmHag9rwEUfUHYUJPjZZs7RsFEKpeoZSg0tqYsathYT9nQwps/s320/Google+Bar+2.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU_z-UizCz3g3hXgasdQTbLvCWstgCKADgCSAK-hxlM5vqs_yjn1CqhEvz38XIl6ZbwgcK6Ekmew28EKkLpPFeoo-eXu6VmHag9rwEUfUHYUJPjZZs7RsFEKpeoZSg0tqYsathYT9nQwps/s320/Google+Bar+2.png)  
 
 Vista de la nueva barra de Google
 

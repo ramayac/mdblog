@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-7725267303473764154
 
 Ok, ya tienes tu cuenta de [Twitter](https://twitter.com/), ya [te logramos convencer](/2008/09/y-para-qu-te-puede-servir-twitter.html) de que la abrieras, ¿Y ahora no sabes a quien "seguir"? ¿Y sientes que tu Twitter es "aburrido"?... Voy a compartir una lista de personas o sitios que hacen que mi Twitter sea interesante, y que lo vuelve un poco (solo un poco) productivo.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmOsHOtr4Q0d00fyLu8cR7XfKOpcw8nfpVbiZp6U52V0d00JHzpCiJ-E0png6T8NcS0WfPI1EpnsIMd25kFFA3xQnHTTOqt2rZMeg2un5mQ7WNT-7qF37O9sdvSnHVgoASHPYwltjJkxE/s200/Aquiensigo.twitter.ramayac.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmOsHOtr4Q0d00fyLu8cR7XfKOpcw8nfpVbiZp6U52V0d00JHzpCiJ-E0png6T8NcS0WfPI1EpnsIMd25kFFA3xQnHTTOqt2rZMeg2un5mQ7WNT-7qF37O9sdvSnHVgoASHPYwltjJkxE/s200/Aquiensigo.twitter.ramayac.png)  
 "Gente que sigo en Twitter."
 
 A continuación, listo cinco categorías y cinco twitters (o más) en cada una, espero que les sirva:
@@ -23,7 +23,7 @@ Comentarios y Opiniones sobre Tecnología:
 
 [@srbyte](https://twitter.com/srbyte) (¡No podemos faltar en tu twitter! )
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_NNsDgBxCs2-PKuBiQvQfkHoxQgIskApJAqDo_kU3DgfnPRP7tG9IRsLYTzOo9lR1ul9nSP2090QtUFbtzn2FN7pUNTOVpZHP7ztHFGdfJ7qwRlocOJWSppvLQsss8l06Q8RXcCS0WSs/s320/srbyte.twitter.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_NNsDgBxCs2-PKuBiQvQfkHoxQgIskApJAqDo_kU3DgfnPRP7tG9IRsLYTzOo9lR1ul9nSP2090QtUFbtzn2FN7pUNTOVpZHP7ztHFGdfJ7qwRlocOJWSppvLQsss8l06Q8RXcCS0WSs/s320/srbyte.twitter.png)  
 "¡Siguenos en Twiiiteeeeer!"
 
 Sitios de Noticias de Tecnología:

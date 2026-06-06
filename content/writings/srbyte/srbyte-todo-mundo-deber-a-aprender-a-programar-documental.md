@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4538548624537958803
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIDyCBYY-G-TEn_A1YaxKiWJq6wl92rS7nlb8t271x4G4W8TSKPW9U2Jr0jNDwk5FE2WkSig_dfwuzQYcVtsS4leZl1FmkLlAn9fx6WMRRFqGgfohcRv1DJmnjwgaYD7WsfpqXS7-XdqHb/s1600/Code.org.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIDyCBYY-G-TEn_A1YaxKiWJq6wl92rS7nlb8t271x4G4W8TSKPW9U2Jr0jNDwk5FE2WkSig_dfwuzQYcVtsS4leZl1FmkLlAn9fx6WMRRFqGgfohcRv1DJmnjwgaYD7WsfpqXS7-XdqHb/s1600/Code.org.png)  
 
 Hay un par de sitios de los que quiero hablarles que están relacionados con el aprendizaje online y en especial en "aprender a programar". Y uno de los primeros lugares en los que creo que tengo que comenzar es [code.org](https://code.org/).
 

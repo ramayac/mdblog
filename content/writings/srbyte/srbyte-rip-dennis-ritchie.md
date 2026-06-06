@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-3576120161107596555
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3MrEQfd0kcYKl1hhXiZ0bjZE2iO1ibS1Eormg6DU8wprckXGAmKbu-Xm9qfmL472GiU2RO-Nnob_X4x2aozQcEHIXBJZS0JkX0FbAYAC8rHic29TIWyLDAFeMUPIAMxTT4crrVZGlKZ4/s1600/Timeline_0578_Kern_Richie.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3MrEQfd0kcYKl1hhXiZ0bjZE2iO1ibS1Eormg6DU8wprckXGAmKbu-Xm9qfmL472GiU2RO-Nnob_X4x2aozQcEHIXBJZS0JkX0FbAYAC8rHic29TIWyLDAFeMUPIAMxTT4crrVZGlKZ4/s1600/Timeline_0578_Kern_Richie.jpg)  
 
 "Dennis MacAlistair Ritchie. 1941 - 2011"
 

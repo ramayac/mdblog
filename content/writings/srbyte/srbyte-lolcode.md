@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8172634918964379585
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHqCcnkI170ZXZK4-Fez3gYnIsAcrlQfMS2UCd2qLjerVjOyWsa-dFvXpugHrb6iPek4fGUlKtR2NMaHFXEH4JrTxpuJTwYwrVdAK7jcpslvVBBqyvzm1ZgtLJ6K6y3f1C68nH62JH4VI/s400/2542236565_bd6b4a87df_o.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHqCcnkI170ZXZK4-Fez3gYnIsAcrlQfMS2UCd2qLjerVjOyWsa-dFvXpugHrb6iPek4fGUlKtR2NMaHFXEH4JrTxpuJTwYwrVdAK7jcpslvVBBqyvzm1ZgtLJ6K6y3f1C68nH62JH4VI/s400/2542236565_bd6b4a87df_o.jpg)  
 "Imagen LOLCat, haciendo referencia al LOLCode"
 
 Como [ya mencionamos alguna vez](/2007/01/el-lenguaje-de-programacion-perfecto.html), la lista de lenguajes de programación disponibles es extensa, hay muchos muy populares, bien fundamentados y con gran soporte por parte de sus creadores, como Java y .Net pero también hay otros llamados esotéricos u oscuros que son poco conocidos, orientados a una rama específica y quizá un tanto difíciles de aprender. Cada programador debe buscar el lenguaje en el que se sienta cómodo y satisfaga sus necesidades y los requerimientos de los programas que desarrolla.

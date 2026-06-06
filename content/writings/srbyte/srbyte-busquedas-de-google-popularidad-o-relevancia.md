@@ -7,13 +7,13 @@ draft: false
 post_id: blog-3515952828243908885.post-5363505763925015445
 ---
 
-Como habíamos mencionado antes en el articulo de las [técnicas de búsqueda en Google](https://srbyte.blogspot.com/2008/02/tcnicas-de-bsqueda-en-google-parte-i.html), este buscador se basa en diferentes criterios parar mostrar los resultados que considere adecuados a las palabras clave utilizadas.
+Como habíamos mencionado antes en el articulo de las [técnicas de búsqueda en Google](/2008/02/tcnicas-de-bsqueda-en-google-parte-i.html), este buscador se basa en diferentes criterios parar mostrar los resultados que considere adecuados a las palabras clave utilizadas.
 
 Como algunos sabrán, firefox posee integrado por defecto el buscador de Google para que podamos digitar palabras clave directamente en la barra de direcciones y al instante, nos muestra los resultados de la búsqueda y si tenemos suerte y si existe un resultado con grandes similitudes con nuestra palabra clave, nos redirecciona automáticamente a esta pagina. Pueden hacer la prueba digitando en su barra de direcciones de firefox palabras como "wikipedia", "debian" o "twitter" y los redireccionara automaticamente a www.wikipedia.org, www.debian.org y twitter.com respectivamente por ser resultados sumamente relevantes a los terminos de busqueda e igualmente pueden digitar las palabras "sr" y "byte", las cuales les mostrara los resultados de la busqueda de dichas palabras en google.
 
 Esto me permitio darme cuenta que Google le da mas importancia a la popularidad que a la relevancia de los resultados de la busqueda. Como? pues recuerdo que hace meses cometia los errores de digitar "gamil" o "gmal" en lugar de "gmail" en mi barra de direcciones, lo cual obviamente me redireccionaba a gamil.com y pensaba en lo afortunados que eran los dueños de ese blog al recibir tantas visitas de todos los que se equivocaban al intentar ingresar a su cuenta de GMail.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvUvgwIBVAtHDuYh6zHLtXpf8B0U1scAa9uOCMqr0v4AfhQMnhTkx3aubtGmEwZ9MBWFDMZ_tUxrY96YmwIng18u4QtN_q3gOYb0nIbrVGXzKK-4jd1OohZVAhjskYxaswadNNff8cF0s/s320/ShotGamil.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvUvgwIBVAtHDuYh6zHLtXpf8B0U1scAa9uOCMqr0v4AfhQMnhTkx3aubtGmEwZ9MBWFDMZ_tUxrY96YmwIng18u4QtN_q3gOYb0nIbrVGXzKK-4jd1OohZVAhjskYxaswadNNff8cF0s/s320/ShotGamil.png)  
 "Screenshot del panel derecho del sitio web de Gamil"
 
 Al parecer era tan común el error, que los dueños de Gamil hasta se tomaron la molestia de incluir una explicación indicando que tal vez llegaron a su sitio por equivocación al escribir mal "gmail".

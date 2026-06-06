@@ -7,11 +7,11 @@ draft: false
 post_id: blog-3515952828243908885.post-3164450502222063937
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW3DevRX6ozctYUnAnN_z5LyFaPEH0CmNQpUMgC2fS-lj2UF3eoqg1fNXrR05AWlh3gox4gchiBlTtXijJgJ2U3tAjnQyWbSSLrABJo5qKGb7yopDau65cxwC_n6rkkN8LGJ4WgJH6P0s/s400/p1000007.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiW3DevRX6ozctYUnAnN_z5LyFaPEH0CmNQpUMgC2fS-lj2UF3eoqg1fNXrR05AWlh3gox4gchiBlTtXijJgJ2U3tAjnQyWbSSLrABJo5qKGb7yopDau65cxwC_n6rkkN8LGJ4WgJH6P0s/s400/p1000007.jpg)  
 "El Nokia N97 en mis manos una vez mas"
 
 La semana pasada nuevamente nuestros amigos de Nokia tuvieron a bien permitirnos experimentar con uno de sus gadgets y así nosotros poder brindarles nuestras experiencias con el mismo. En este caso queríamos darle una segunda oportunidad al modelo Nokia N97 y ver si con el firmware actualizado, una mejor conexión a Internet y mas tiempo de uso podemos dar una nueva opinión sobre el producto. He aquí nuestras experiencias:
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8y5BbK_vGIR-pZet_sYrXbXqArizuvRXgAtp7JqgI4UR2WR42hKCCcqgwPhfRH9EaWkAKSY-XZ9b1e9Ii88z3StbqVaekqsRVjhvYfAY-2OIO3_cD7MSbeMl_DRWMvYEjMEAsia2ZkM/s400/scr000036.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8y5BbK_vGIR-pZet_sYrXbXqArizuvRXgAtp7JqgI4UR2WR42hKCCcqgwPhfRH9EaWkAKSY-XZ9b1e9Ii88z3StbqVaekqsRVjhvYfAY-2OIO3_cD7MSbeMl_DRWMvYEjMEAsia2ZkM/s400/scr000036.jpg)  
 "Actualizado a la última version disponible a la fecha de uso"
 
 - Teléfono
@@ -28,7 +28,7 @@ La interfaz del player es aceptable, aunque lamentablemente la calidad de los gr
 
 Para instalar aplicaciones en el teléfono tienes dos vías diferentes, una es hacer uso de la flamante y reciente tienda Ovi, la cual recopila y clasifica aplicaciones específicas para tu modelo de teléfono, en donde encontraras no solamente aplicaciones sino también temas visuales y ringtones curiosos. La tienda clasifica dichas aplicaciones por categorías, asi como también por aplicaciones de pago y gratuitas. Debido a que el teléfono no es de mi propiedad, no pude experimentar el proceso de compra de aplicaciones pero si me dedique a hacer pruebas con varias aplicaciones gratuitas y algunas trial.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMpQjPn7DrP1Xs7dToptl6-kWohKwsiaOn3iZGH8Rkv8jkuPG7iNqnUbEAE-3RDrsPFqCWY4XjENsIHmLx03EssWEajfmCjxzgtss-LwwxAWI5C8fsAG26W0CRdaVAm3WvyZlzS9wel4/s400/scr000005.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkMpQjPn7DrP1Xs7dToptl6-kWohKwsiaOn3iZGH8Rkv8jkuPG7iNqnUbEAE-3RDrsPFqCWY4XjENsIHmLx03EssWEajfmCjxzgtss-LwwxAWI5C8fsAG26W0CRdaVAm3WvyZlzS9wel4/s400/scr000005.jpg)  
 "Screenshot de la apariencia de la tienda Ovi mas tres diferentes temas visuales aplicados al telefono"
 
 La deficiencia actual de la tienda Ovi es la baja cantidad de aplicaciones disponibles en ella, en especial la cantidad de aplicaciones gratuitas. Esto hace que muchos opten por la segunda vía: los foros y aplicaciones Java.
@@ -48,22 +48,22 @@ El teclado, aunque significa un aumento en las dimensiones del aparato, realment
 
 Otro punto importante y que habíamos resaltado en el [review anterior](/2010/01/review-nokia-n97.html) es que, por el hecho de haber probado un teléfono con teclado español, la disposición de las teclas parecía un tanto extraña, dejando de lado ciertas teclas que suelen ser de uso más frecuente que otras. En este caso hablamos de las teclas de paréntesis que si bien es posible obtenerlas mediante la tecla "char" que muestra en pantalla una lista de caracteres especiales "extra", significa realizar dos(o hasta tres) pasos para obtener un caracter frecuentemente utilizado.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_fiQqeJCSBsGmhbz4e6hAJ_wNmWqL6qldo6Zi8vlgFHAFPE-28AzXnfkHZxJ5S_5GhouNhYoL9aR-WczPHMwGAvjfumUv53VLmUnpwYyNO44GX1czl9Ul_UVY3P9WRerhg_MrfTzIVjQ/s400/scr000014.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_fiQqeJCSBsGmhbz4e6hAJ_wNmWqL6qldo6Zi8vlgFHAFPE-28AzXnfkHZxJ5S_5GhouNhYoL9aR-WczPHMwGAvjfumUv53VLmUnpwYyNO44GX1czl9Ul_UVY3P9WRerhg_MrfTzIVjQ/s400/scr000014.jpg)  
 "Pantalla con caracteres extra, la cual aparece al presionar la tecla 'char' en el teclado físico del Nokia N97"
 
 La inclinación que toma la pantalla al abrir el teclado también es perfecto para cuando deseas ocupar tu teléfono para ver videos o simplemente navegar por el web sin sostener el aparato en tus manos sino puesto en una mesa o superficie horizontal. Esto evita la necesidad de hacer uso de un dock o algún otro accesorio que permita la colocación vertical o inclinada del aparato.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwyKjTCFZGEDQUyc3cpbMHUs-cwhF_UNWGndILhz54NUCZWqu04c4m6bfa2mLD7RP_kSviwHyMIRy7AxfGAg-E0axlMI0fXZujaiethT57YZr1JeRZ9quZ3L8fWbzST7JmvxGnCkgc6x0/s400/p1000008.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwyKjTCFZGEDQUyc3cpbMHUs-cwhF_UNWGndILhz54NUCZWqu04c4m6bfa2mLD7RP_kSviwHyMIRy7AxfGAg-E0axlMI0fXZujaiethT57YZr1JeRZ9quZ3L8fWbzST7JmvxGnCkgc6x0/s400/p1000008.jpg)  
 "Nokia N97 en posición landscape con el teclado expandido. Nótese la inclinación que toma la pantalla"
 
 A pesar de poseer un acelerómetro integrado, el Nokia N97 realmente no le sacaba provecho y supongo que es porque volvería aun mas lento el aparato. Eran pocas las aplicaciones que de forma nativa soportaban este feature. Algunos simplemente se quedaban en su posicion original y un juego hasta se atrevió a mostrar mensajes como el siguiente cuando rotabas el teléfono:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizhdLr5_tuYB8fEif32jucqio8nnPzOxPgChUMftpDF6CZRmKdNADHXbTatCVj5XPU5UVjo3ILxCVfCk8OpMZskZSHaEZdIXZM0Ghd_xCRz2CSvC0qiND6CljgPmQXNKHE_nwsbInn1lY/s400/scr000021.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizhdLr5_tuYB8fEif32jucqio8nnPzOxPgChUMftpDF6CZRmKdNADHXbTatCVj5XPU5UVjo3ILxCVfCk8OpMZskZSHaEZdIXZM0Ghd_xCRz2CSvC0qiND6CljgPmQXNKHE_nwsbInn1lY/s400/scr000021.jpg)  
 "Lamentablemente muchos juegos y aplicaciones no aprovechaban el acelerómetro del teléfono"
 
 La cámara por otra parte es una de las características que más me encantaron respecto a este teléfono. Los 5 megapixeles con Carl Zeis y Autofocus me permitieron de sentir que con este teléfono puedo prescindir de una cámara digital que satisfaga mis necesidades de capturar momentos espontáneos memorables y otros acontecimientos sin perder la calidad de los mismos.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzpKW-vvJvJNzjtLzsDFYzwSEvOZ4jmjo-VWGFzLGd6DPrcuwC822YntB-NPERjLA_8O5kwHUp2WqzDTSNv9E9vIryd_1sWNQT3ry34ZdnuakxpGXjXPRhHXaSUrbY8pNFAoi8zd1KZec/s400/12012010053.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzpKW-vvJvJNzjtLzsDFYzwSEvOZ4jmjo-VWGFzLGd6DPrcuwC822YntB-NPERjLA_8O5kwHUp2WqzDTSNv9E9vIryd_1sWNQT3ry34ZdnuakxpGXjXPRhHXaSUrbY8pNFAoi8zd1KZec/s400/12012010053.jpg)  
 "Captura de pantalla del pórtico de galerias, tomada con la cámara del Nokia N97 (click para ver en tamaño completo)"
 
 Me agradó bastante el hecho de no tener que dar muchos taps para activarla sino que basta con destapar el lente para que el teléfono esté listo para realizar una captura. Si se requiere cambiar al modo de vídeo nada mas basta dar dos taps más. La calidad del mismo también es bastante buena y se puede demostrar con la siguiente captura de vídeo:

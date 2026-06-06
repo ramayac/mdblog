@@ -17,25 +17,25 @@ La creatividad y la energía demostrada en este concurso, recuerda al [DemoScene
 
 [Sinuous](https://10k.aneventapart.com/Entry/83)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdEAAdTrxxEnVguZQW6IlhfDMCm0N67k73UotBu5LMofTJOZWZzjSoI98JUmWUb0jbpZvfboaR8vhC4ioQ-TwlIaX2uxMNMW7S600q2rim22Jq3-qsbuMwf2p5TFEKXK5bzmmAplsyd08L/s320/sinous10K_1.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdEAAdTrxxEnVguZQW6IlhfDMCm0N67k73UotBu5LMofTJOZWZzjSoI98JUmWUb0jbpZvfboaR8vhC4ioQ-TwlIaX2uxMNMW7S600q2rim22Jq3-qsbuMwf2p5TFEKXK5bzmmAplsyd08L/s320/sinous10K_1.png)  
 
 Sinious fue el gran ganador, un pequeño juego casual y entretenido.
 
 [Graph10k](https://10k.aneventapart.com/Entry/211)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFi4B6f-Dy9Z0Bw2bOuCc1fNW9Uv02D3LuCILkQtDdzGewhd-kswWDNmhiqaxIwHiLb3N9p-9JwLMKILnVrgAo1bEYIMq2xfg6n65A1mFuXpWhBT_D3HKfMuq4AFVmDHw_-4yGQqLR4b4p/s320/graph10K_3.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFi4B6f-Dy9Z0Bw2bOuCc1fNW9Uv02D3LuCILkQtDdzGewhd-kswWDNmhiqaxIwHiLb3N9p-9JwLMKILnVrgAo1bEYIMq2xfg6n65A1mFuXpWhBT_D3HKfMuq4AFVmDHw_-4yGQqLR4b4p/s320/graph10K_3.png)  
 
 Gráfica ecuaciones de ejemplo o digita las tuyas.
 
 [Racer 10K](https://10k.aneventapart.com/Entry/198)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaTL6NJAemGccA3AwWhF9GNJSWOUXdlIp7jg1C-I-ol7XToRf-3tlvRPO3Dq6Vjs8-2XXHNrGwH-XGV_tTg3ks_sKZ1nIYm-eLZRe3pNJNHFpGdM6kMwgDwT-eIISbOOfQbPvr0bg4wMm5/s320/racer10K_5.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaTL6NJAemGccA3AwWhF9GNJSWOUXdlIp7jg1C-I-ol7XToRf-3tlvRPO3Dq6Vjs8-2XXHNrGwH-XGV_tTg3ks_sKZ1nIYm-eLZRe3pNJNHFpGdM6kMwgDwT-eIISbOOfQbPvr0bg4wMm5/s320/racer10K_5.png)  
 
 ¿No te recuerda V.R. o Mario Kart (SNES)?
 
 [The Smallest 3D Maker](https://10k.aneventapart.com/Entry/345)
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdWWCvFf-PB2ZafbFU4ADZ0VMWTSPkFaS6NAjom5FuAquHhHlst9Kp3CBXO27Z4YrXahz32QiBVwyw14_V-YRDlIAphT9wWZXWSB833c81gSecrSIDTjtSAfqNzaT6r9lrB6np-V2412i3/s320/Nishant_10K_6.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdWWCvFf-PB2ZafbFU4ADZ0VMWTSPkFaS6NAjom5FuAquHhHlst9Kp3CBXO27Z4YrXahz32QiBVwyw14_V-YRDlIAphT9wWZXWSB833c81gSecrSIDTjtSAfqNzaT6r9lrB6np-V2412i3/s320/Nishant_10K_6.png)  
 
 No será la competencia de [Blender](/2010/10/sintel-el-nuevo-cortometraje-de-blender.html), pero esta pequeña aplicación te permite dibujar curvas de Bézier y convertirlas a objetos 3D que podes "explorar".
 

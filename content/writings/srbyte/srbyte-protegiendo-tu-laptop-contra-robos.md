@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-9000221362938488665
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzpwmw4v2B5OkmF6stme7pqxxRlDqHpVgq42LnuEc38f7-jlknYDHh5I2omf6QBqWQaZBPU9EebOk0ylzf2DK1nGl28W7ZjvJpFBN6qCdJKZpytRw0higY3LTbXcDySAwHf8zPDNW6Ad4/s400/Laptop-Security-Protecting-Your-laptop.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzpwmw4v2B5OkmF6stme7pqxxRlDqHpVgq42LnuEc38f7-jlknYDHh5I2omf6QBqWQaZBPU9EebOk0ylzf2DK1nGl28W7ZjvJpFBN6qCdJKZpytRw0higY3LTbXcDySAwHf8zPDNW6Ad4/s400/Laptop-Security-Protecting-Your-laptop.jpg)  
 
 Justamente el día de hoy por la mañana me comentaban sobre un posible móvil de robo de laptops que llevan a cabo en cierta universidad del país en la que un infiltrado universitario identifica a los estudiantes que portan laptops en sus mochilas para luego notificarle a quienes se encargaría de robárselas una vez estos salgan del campus.
 
@@ -35,5 +35,5 @@ Recién ayer leía una noticia en [CodigoGeek](https://www.codigogeek.com/2011/0
 
 Hidden es una aplicación de pago únicamente disponible para computadoras Mac pero existen otras alternativas que además de ser multiplataforma son libres y gratuitas. En este caso específico les hablo de la aplicación [Prey](https://preyproject.com/) (que [ya hace rato mencionamos](/2010/05/manten-vigilada-tu-laptop-con-prey.html), pero no esta de más tenerla en mente). Prey hace exactamente lo mismo que Hidden: te permite registrar tus dispositivos en el sitio y controlarlos remotamente desde el mismo pudiendo reportarlos como robados y configurar para este evento que tu laptop realice capturas de la pantalla, capturas de imagen de la cámara web, ubicación de la laptop mediante geolocalización, entre otras opciones las cuales te las envía a tu correo periódicamente en forma de un reporte del estatus de tu laptop. Prey además tiene la ventaja de estar disponible también para dispositivos móviles y ofrece una serie de cuentas premium con mayores beneficios al usuario.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsUzjA8NaynMV5TzgWZGtQUamQyLxSJrEFU6v0l12md_k0JqbrEOHOwxEZgUqbdoYnqzDNEFqr0zhb5uTzKFuybwBvIfyyZYhMvENwy6zCSHwEfnKnbxa_ENFc7-0cqu39znH06giWpxY/s400/Screen+shot+2011-06-07+at+9.37.52+PM.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsUzjA8NaynMV5TzgWZGtQUamQyLxSJrEFU6v0l12md_k0JqbrEOHOwxEZgUqbdoYnqzDNEFqr0zhb5uTzKFuybwBvIfyyZYhMvENwy6zCSHwEfnKnbxa_ENFc7-0cqu39znH06giWpxY/s400/Screen+shot+2011-06-07+at+9.37.52+PM.png)  
 "Rastrea remotamente tu laptop robada utilizando Prey"

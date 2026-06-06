@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8286580749986992385
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn9C5Z-wD-TEUQ9QTOdE3iiNG8dqTZQWbRpydwVFvnSafBFzUQSCjLF_fZ53HnuSTombyvl3HRaPyfkDcqW9-dGr_GR0kHUxlts1etzkRCkR0EJugGU_Y6kh0SFeXTeCWPXMVaTyqgARPn/s640/LAN-Party.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn9C5Z-wD-TEUQ9QTOdE3iiNG8dqTZQWbRpydwVFvnSafBFzUQSCjLF_fZ53HnuSTombyvl3HRaPyfkDcqW9-dGr_GR0kHUxlts1etzkRCkR0EJugGU_Y6kh0SFeXTeCWPXMVaTyqgARPn/s640/LAN-Party.jpg)  
 
 El Día de Internet aporta una oportunidad para impulsar y favorecer el acceso de la sociedad a Internet. Es por eso que, por segunda vez consecutiva, el próximo 17 de Mayo de 2011, El Salvador se  unirá a la conmemoración internacional del Día de Internet.
 

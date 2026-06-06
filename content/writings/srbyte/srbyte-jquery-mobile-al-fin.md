@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5748740416201666990
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSoO6AcDFvoBZBc6KtMhAqFtUYLaJDJse82pvFUw8BwXRmOjwUQzyTYxfP4LzY4BJZC349az9WlVZ897v1qjsag-W0BRrO0RcKDjwdxrs3VqQlQEDM1dxKbHXF-vhfTxV9cXa7rxvYwmE/s400/ipod-touch.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSoO6AcDFvoBZBc6KtMhAqFtUYLaJDJse82pvFUw8BwXRmOjwUQzyTYxfP4LzY4BJZC349az9WlVZ897v1qjsag-W0BRrO0RcKDjwdxrs3VqQlQEDM1dxKbHXF-vhfTxV9cXa7rxvYwmE/s400/ipod-touch.jpg)  
 "jQuery Mobile desde mi iPod Touch"
 
 Llegó el momento de la verdad con el tan esperado release de jQuery para Móviles.

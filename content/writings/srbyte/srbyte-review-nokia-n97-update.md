@@ -11,7 +11,7 @@ Hace poco los amigos de Nokia nos dieron la oportunidad de probar su nuevo model
 
 UPDATE: Algunos lectores comentan que la experiencia del usuario mejora en el N97, [al actualizar el Firmware del telefono](https://thesymbianblog.com/2009/08/17/new-nokia-n97-firmware-v122024-now-available/)...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuRZKUR4Cn83nrzEScItAa5O_92Not-ieaFv09Q73JcDgwhGf7SLivCV9G6YKjcnpm_0maHIIo1FjL12or19tzpAFA9LGlZxQF0avyzwo84Uxx68AyHTYIa8wfX7trf2z2RYWNS6lfuC7f/s320/scr0000033.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuRZKUR4Cn83nrzEScItAa5O_92Not-ieaFv09Q73JcDgwhGf7SLivCV9G6YKjcnpm_0maHIIo1FjL12or19tzpAFA9LGlZxQF0avyzwo84Uxx68AyHTYIa8wfX7trf2z2RYWNS6lfuC7f/s320/scr0000033.jpg)  
 
 ADVERTIMOS que el teléfono lo probamos sin actualizar, y muchas de las "quejas" encontradas en el articulo con respecto al software se corrigen al actualizar el teléfono asi que NO aplica el review al menos en el software.
 
@@ -21,19 +21,19 @@ Como detalle adicional con respecto a la actualizacion: es que esta se puede rea
 
 N97 es el intento de Nokia de ingresar agresivamente a un mercado que espera un iPhone para las masas. Como ya habíamos mencionado, Nokia es el fabricante numero uno de teléfonos celulares en el mundo, solo el año pasado vendieron 468 millones de unidades, y aun son dueños del 41.2 % del mercado de "SmartPhones". Un punto muy importante a recalcar siempre, es que el N97 es un SmartPhone, para los tecnófilos: [acá están los detalles técnicos](https://www.gsmarena.com/nokia_n97-2615.php).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyYB0JpRDhkn9XKRynBUQU2POxVsBvL2FhBytJobTOO2bXf1vs9GediTuWgvZlOuEsVorsXvCXWcrMrlFkiAD0xOJ1nJALMqmOf-oympca5eISs8XZJgzXDpc0Wa2CpXnfm8CJJomsL5e-/s320/nokia-n97-white-keyboard-163584.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyYB0JpRDhkn9XKRynBUQU2POxVsBvL2FhBytJobTOO2bXf1vs9GediTuWgvZlOuEsVorsXvCXWcrMrlFkiAD0xOJ1nJALMqmOf-oympca5eISs8XZJgzXDpc0Wa2CpXnfm8CJJomsL5e-/s320/nokia-n97-white-keyboard-163584.jpg)  
 
 Hardware
 
 Mencionamos primero lo más decente. El diseño, la pantalla y el teclado QWERTY completo son geniales. Quizás el mejor gusto del aparato es escuchar el "flip" que hace la pantalla cuando de desplaza para mostrar el teclado. El movil esta bien diseñado, se ve elegante y sobrio, es un poco grueso, pero pesa menos que un iPhone 3GS. Y en la mano, el N97 se siente solido, como una unidad diseñada para durar más de un año. La inclinación de la pantalla no se puede cambiar, lo que es lamentable pero comprensible (por el diseño) al mismo tiempo. El teclado que espera abajo de la pantalla es interesante: esta ligeramente iluminado, esta bien distribuido, ademas posee una agradable textura de goma, tecla "SHIFT" y "FUNC". Ademas de un "pad direccional", al lado izquierdo, en el que vas a terminar presionando equivocadamente más de lo que se esperan. Así que uno termina utilizando más la pantalla para desplazarte que las teclas de dirección. La molestia más grande del teclado es que no hay tecla "(" ni ")". En pocas palabras, con el teclado de goma, no podrás poner "caritas" :( Parece tonto, pero es un detalle interesante, no se cuantos de ustedes usan más "#" que el ")" en sus mensajes de texto, pero son detallitos que no se como rayos pasan por alto. El teléfono no pasa la prueba de "mandar mensajes de texto mientras conduces" (lo que personalmente me parece genial) ya que se necesitan ambas manos (dedos gordos) para escribir en el teclado.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6zp_4YK9CtrDGEqvpJZZNuvd9mFnVNg-MClBzIGbX6KClTtGFFlQJ7H2T3Y1ARm7XnYzKMAXrMMprfKdXmGuyrcjf1j_oFVRCp9-r9a8SxkwgKh-hEyNCQ4FXnIDt0SrN0PHfPQPixKnQ/s320/nokia-n97-photo-15.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6zp_4YK9CtrDGEqvpJZZNuvd9mFnVNg-MClBzIGbX6KClTtGFFlQJ7H2T3Y1ARm7XnYzKMAXrMMprfKdXmGuyrcjf1j_oFVRCp9-r9a8SxkwgKh-hEyNCQ4FXnIDt0SrN0PHfPQPixKnQ/s320/nokia-n97-photo-15.jpg)  
 
 La pantalla de 640x360 esta bien, es [resistiva](https://en.wikipedia.org/wiki/Touchscreen#Resistive), y aclaremos desde ya que la pantalla del N97 funciona muchísimo mejor utilizando un stylus (que NO venia en la caja que me dieron, pero como menciona un lector, ya lo trae la caja), ya que se siente raro usar el dedo porque el teléfono no es muy exacto.
 
 Recuerden siempre que las pantallas resistivas se sienten inferiores a las [capacitiva](https://en.wikipedia.org/wiki/Touchscreen#Capacitive) (como la del iPhone, Palm Pre o BlackBerry Storm).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_-yMrYrDD04eluZd6Ghb7kZ3llPbgueWnG8ebLZ5b__EjBQn5JhUyT-C9fPA_1S7SswECEM8Nk2ojwVudXuDbVOT3zqOKofFXI7aIJ3cOQ0WG60rF4iRp8jDNv1Hriy0Xn7eWxurrMG-i/s320/nokia-n97-photo-09.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_-yMrYrDD04eluZd6Ghb7kZ3llPbgueWnG8ebLZ5b__EjBQn5JhUyT-C9fPA_1S7SswECEM8Nk2ojwVudXuDbVOT3zqOKofFXI7aIJ3cOQ0WG60rF4iRp8jDNv1Hriy0Xn7eWxurrMG-i/s320/nokia-n97-photo-09.jpg)  
 
 La decepción mas grande del N97 es el bajo rendimiento del procesador de apenas 424 MHz, lo único que no mencionan en TODO el empaque del teléfono, me imagino que les da vergüenza mencionarlo, y deben sentirla, porque ese procesador mata muchísima funcionalidad del telefono. No da abasto para lo que uno quiere hacer, y el sistema operativo no ayuda tampoco. El N97 tiene una profunda anemia de Megahertz, y eso lo vas a recordar constantemente si compras uno.
 
@@ -53,7 +53,7 @@ El N97 trae la quinta edición del sistema Symbian OS (S60). Francamente, no se 
 
 La pantalla principal del telefono tiene (dos) paginas, y muchos "widgets" configurables, que te dan accesos directos a Mapas, FaceBook, Reproductor de musica, Contactos favoritos, Gmail y hasta Hi5. La mayoria de aplicaciones se sienten solidas y funcionales. El navegador WebKit es bueno, pero NO es fácil de usar, practicamente es el mismo del 5800, pero con un panel de botones al lado derecho que roban espacio en la pantalla por tiempos caprichosamente aleatoreos (defecto corregido en actualizacon de Firmware).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggx1E82OQJVmSjZXGas1su0wXtBRvVuwAJZ_xpQpA5R7N_CuR2k31PWhdY2nYS3rua4e_tEr1MZ4kGpSzI7QwH7yHffeehC2Khvj1qBPzD_M709ncRPGYhOeurQ755hZL63P4xjX0Cs67l/s320/4225757363_75683a1d0c.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggx1E82OQJVmSjZXGas1su0wXtBRvVuwAJZ_xpQpA5R7N_CuR2k31PWhdY2nYS3rua4e_tEr1MZ4kGpSzI7QwH7yHffeehC2Khvj1qBPzD_M709ncRPGYhOeurQ755hZL63P4xjX0Cs67l/s320/4225757363_75683a1d0c.jpg)  
 
 Nokia Maps se ve interesante: navegación guiada por voz, información de trafico, puntos de interés, etc... pero esos datos para El Salvador no esta, así que no nos va a servir de mucho acá.
 
@@ -70,5 +70,4 @@ Lo mejor: es la capacidad de almacenamiento (32 GB!), el auto enfoque al tomar f
 Lo peor: experiencia de usuario igual de rara que el 5800, procesador ridícula e insoportablemente LENTO. Habría que ver si hay una actualización del sistema y que tal se comporta el teléfono luego de la misma. Lamentablemente, no empleamos el telefono con la ultima version del Firmware, y esta actualizacion arregla muchos incovenientes mencionados.
 
 > "Finalmente, solo puedo decir que si el 5800 es Windows XP, entonces el N97 es Vista (recién salido al mercado); y esa es la mejor analogía que se puede hacer."
-Es un telefono que esta bien, pero no tiene ese factor que hace que pienses: Yo quiero ese teléfono, y mucho menos es un "[iPhone Killer](https://www.telegraph.co.uk/technology/3541941/Nokia-N97-Nokia-launches-iPhone-killer-N97-phone.html)
-".
+Es un telefono que esta bien, pero no tiene ese factor que hace que pienses: Yo quiero ese teléfono, y mucho menos es un "[iPhone Killer](https://www.telegraph.co.uk/technology/3541941/Nokia-N97-Nokia-launches-iPhone-killer-N97-phone.html)".

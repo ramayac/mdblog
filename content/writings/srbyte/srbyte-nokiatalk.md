@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5254066027358022971
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1_mt-ZsBHgtPGwBoliFI7TfpykTxrdguRQnajZ1eGahdFEIyHhIwPoCfZ3mj6dvdB2or0brXbh_OIklYMG5_Yf7xSkStDcUDgXpNlVFnFWe0Ja-igh1PDr9vir7nPcac6byNSA2frlWwT/s400/nokiatalk.PNG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1_mt-ZsBHgtPGwBoliFI7TfpykTxrdguRQnajZ1eGahdFEIyHhIwPoCfZ3mj6dvdB2or0brXbh_OIklYMG5_Yf7xSkStDcUDgXpNlVFnFWe0Ja-igh1PDr9vir7nPcac6byNSA2frlWwT/s400/nokiatalk.PNG)  
 Nokia ha creado #NokiaTalk, una conferencia para blogueros y desarrolladores, a llevarse a cabo en Miami (EEUU), en los días 25 a 27 de Mayo, 2010.
 
 El encuentro tendrá  la presencia de 60 de los más relevantes expertos en medios sociales de la región, representando a 12 países. En el evento se hablara de la evolución digital en la América Latina, destacando temas como los servicios basados en ubicación, el desarrollo de aplicaciones y como celebridades han abrazado el fenómeno de los medios sociales (un perfecto ejemplo, Hugo Chavez en Twitter: [@chavezcandanga](https://twitter.com/chavezcandanga)).

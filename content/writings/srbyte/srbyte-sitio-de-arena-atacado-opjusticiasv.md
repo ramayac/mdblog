@@ -9,12 +9,12 @@ post_id: blog-3515952828243908885.post-2582970721933762588
 
 Hace unos minutos, el sitio web del partido político "ARENA", fue atacado por un grupo que se identifica con los ideales de Anonymous. El ataque se realizo con una redirección al sitio web anonarg.com.ar y con ingreso de contenido por parte de los atacantes al CMS de ARENA.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0ImMjXW8_8iu5lwdiJzs_-Hq-AaWYrsDiXu3YCNZ5kuZ07mD65b18I_NqsPyD83UQc_hcXF_1enmm6sG2zG6cnpPAovbeMyQLldbeTJ1HPzz6zNRdxi8nmrf9p3U2_45_WF0z0bFSdSYm/s320/Arena.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0ImMjXW8_8iu5lwdiJzs_-Hq-AaWYrsDiXu3YCNZ5kuZ07mD65b18I_NqsPyD83UQc_hcXF_1enmm6sG2zG6cnpPAovbeMyQLldbeTJ1HPzz6zNRdxi8nmrf9p3U2_45_WF0z0bFSdSYm/s320/Arena.jpg)  
 anonarg.com.ar
 
 El fin del ataque es el de difundir un video en el que se insta a las autoridades a poner un alto a la escalada de violencia y corrupción, y además prometen acciones para el próximo 5 de noviembre, fecha en que se conmemora el Primer Grito de Independencia y también conmemora el [Guy Fawkes Night](https://en.wikipedia.org/wiki/Guy_Fawkes_Night).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCXfFbELjMbvlIScElRQ4GpkMeBV3hrKu4BNzfCBMMXc0k4I__dfVERY8fG6EIUGwXhW-PgghwJqojlv7uhxTetempTu_4kuw_iroa55WMfg9duJcSGpNHcnvYuUZsWs2CLVI8Hjx2OiX6/s320/427970537.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCXfFbELjMbvlIScElRQ4GpkMeBV3hrKu4BNzfCBMMXc0k4I__dfVERY8fG6EIUGwXhW-PgghwJqojlv7uhxTetempTu_4kuw_iroa55WMfg9duJcSGpNHcnvYuUZsWs2CLVI8Hjx2OiX6/s320/427970537.png)  
 Clic para ver más grande
 
 Les dejo el video con el mensaje en cuestión:

@@ -7,12 +7,12 @@ draft: false
 post_id: blog-3515952828243908885.post-8415687457758136752
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD1HvahQh50eJrm4IRAGJscyZQu1qu6Y7kx-TdOD5JG8hyphenhyphengJBfnVUzv5L8Sb8-uB18QfWhQOIWDg87hlOIkOtvE05fYbgW5jSxuvzgxm7GGJiZ3r5WPllsUnIFsAXzpJGOAFnRzCKQqI4/s200/Wikipedia-logo_BWb-full.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD1HvahQh50eJrm4IRAGJscyZQu1qu6Y7kx-TdOD5JG8hyphenhyphengJBfnVUzv5L8Sb8-uB18QfWhQOIWDg87hlOIkOtvE05fYbgW5jSxuvzgxm7GGJiZ3r5WPllsUnIFsAXzpJGOAFnRzCKQqI4/s200/Wikipedia-logo_BWb-full.jpg)  
 "Logo de Wikipedia"
 
 Wikipedia, la enciclopedia online más popular (y libre), hará una incursión al mundo offline con un CD con cerca de 2.000 entradas en inglés dirigido a aquellos que no tienen conexión a internet, anunció hoy la Fundación Wikimedia. El CD, que vendrá con su propio motor de búsqueda para navegar entre los documentos, incluirá artículos seleccionados como los mejores de la enciclopedia y, según dijo la fundación, estarán libres de errores y prejuicios. Los artículos versarán sobre temas no controvertidos y que no cambian mucho con el tiempo, como geografía o literatura.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYB7QzC_aZNnjzwmDs9OU9GfaTn645UjPRuKphytKUUe5vWl_i4GUgSRjnp5Nt6E1wS2QZFURw5svf3Irqn1sStbihWH4NBslRmMNZ1GtTy7obBXRBTG1ACcCpIqMqLGkHxvUdU_XxePw/s400/Wikipedia05.JPG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYB7QzC_aZNnjzwmDs9OU9GfaTn645UjPRuKphytKUUe5vWl_i4GUgSRjnp5Nt6E1wS2QZFURw5svf3Irqn1sStbihWH4NBslRmMNZ1GtTy7obBXRBTG1ACcCpIqMqLGkHxvUdU_XxePw/s400/Wikipedia05.JPG)  
 
 "Aspecto del Wikipedia on DVD edición Inglesa"
 

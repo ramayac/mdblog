@@ -23,8 +23,8 @@ Se construyen modelos de un sistema porque no se puede comprender un sistema en 
 > Divide y Vencerás...
 aplicada al desarrollo de software.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifg17kDKZXV8uWiLWhx4FThkeu00rQhL1j-uZiBJ7MUPAdCibN4kD9Mo65Dcqt53ycMW7MN-Srb41uX4FnYtpmIuWxrUqJwU_7SayztiTKF0Rt84U4EI_Ax_n1cWlsLOBhBV20ZBmoEZo/s400/DivideConquer.JPG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifg17kDKZXV8uWiLWhx4FThkeu00rQhL1j-uZiBJ7MUPAdCibN4kD9Mo65Dcqt53ycMW7MN-Srb41uX4FnYtpmIuWxrUqJwU_7SayztiTKF0Rt84U4EI_Ax_n1cWlsLOBhBV20ZBmoEZo/s400/DivideConquer.JPG)  
 "Portada del libro: "Divide y Venceras"" Algo importante que se tiene que mencionar es que: > La elección acerca de qué modelos crear tiene una profunda influencia sobre cómo se acomete un problema y cómo se le da forma a una solución. Y algo más importante que lo anterior es que: > Los mejores modelos están ligados a la "realidad"
 Cualquier sistema informático no trivial se aborda mejor a través de un pequeño conjunto de modelos casi independientes con múltiples puntos de vista para asegurar el éxito del sistema.
 
-Ve la segunda parte [da click aquí.](https://srbyte.blogspot.com/2007/04/modelos-objetos-y-uml-parte-ii.html)
+Ve la segunda parte [da click aquí.](/2007/04/modelos-objetos-y-uml-parte-ii.html)

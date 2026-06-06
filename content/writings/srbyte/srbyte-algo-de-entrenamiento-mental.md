@@ -19,7 +19,7 @@ Da la casualidad que por razones de la vida, recientemente me topé con un famos
 
 Les ruego que no busquen la repuesta en internet, tómense su tiempo. También les sugiero que lo consideren como un problema de sudoku, solamente que en lugar de números posees características parcialmente relacionadas. Yo utilicé esa lógica para resolverlo, en realidad existen muchas (Ahhhhh, tenía que salir a relucir mi ego. No podía quedarme sin mencionar que yo lo había resuelto en 35 min., jajaja).
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_LBVQwv0flQEYGY-DK8fOpQWgzGvGH999u2OGjpxoFa4I3IyUnKa3JfWXlioCLzwPFzjN45-m-HnTga0M1jKHnHH4gQYcXZp7Rpgf4HUaCUq04iFYc_ySbkpLdvmKnosgnBeQkDqDjLI/s320/Albert_Einstein_Head.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_LBVQwv0flQEYGY-DK8fOpQWgzGvGH999u2OGjpxoFa4I3IyUnKa3JfWXlioCLzwPFzjN45-m-HnTga0M1jKHnHH4gQYcXZp7Rpgf4HUaCUq04iFYc_ySbkpLdvmKnosgnBeQkDqDjLI/s320/Albert_Einstein_Head.jpg)  
 "Mi querido amigo Albert. Seguramente estaría diciendo: Con que te crees capaz de resolver mi acertijo ah? A ver, inténtalo."
 
 He aquí el problema en cuestión:

@@ -11,7 +11,7 @@ Indie Game of the Week (IGW) o Juego [Indie](https://en.wikipedia.org/wiki/Indep
 
 La recomendación de esta semana: Enough Plumbers.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWHW50OXoF6TPqTjOF0X7Af4d1JpbUD_Gz0YzOMcAM7_v8XtElFzv1TR34itJZg_rwCPWabP64SVsJgheQQHewCP2w2NTDSmF0Zlm4CJ2cLmHVYgVliDS-Om8Tzmw6VD4v2sFsQCadtJHE/s320/enoughplumbers-thumb.PNG)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWHW50OXoF6TPqTjOF0X7Af4d1JpbUD_Gz0YzOMcAM7_v8XtElFzv1TR34itJZg_rwCPWabP64SVsJgheQQHewCP2w2NTDSmF0Zlm4CJ2cLmHVYgVliDS-Om8Tzmw6VD4v2sFsQCadtJHE/s320/enoughplumbers-thumb.PNG)  
 
 [Enough Plumbers](https://notdoppler.com/enoughplumbers.php) es un pequeño juego arcade de plataformas, desarrollado en flash protagonizado por un fontanero (hmmmm, me parece familia) que tiene la particularidad de clonarse cada vez que consigue una moneda. Utilizando adecuadamente la habilidad de nuestro protagonista tendremos que saltar todos los obstáculos de cada nivel, para capturar la bandera enemiga a lo largo de (solamente) 25 niveles.
 

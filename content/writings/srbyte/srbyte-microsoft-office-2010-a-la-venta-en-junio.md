@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-4308620513815321816
 
 Microsoft Office 2010 estará a la venta al público a partir del 15 de junio de 2010. Los [requerimientos de sistema](https://www.microsoft.com/office/2010/en/faqs/default.aspx#29q) para ejecutar cómodamente Office 2010 son similares a los requeridos por Office 2007 y por tanto no es necesario reemplazar hardware existente para utilizar la nueva versión. Como ya es costumbre, Microsoft ofrecerá una serie de "suites" con diferentes [aplicaciones incluidas](https://www.microsoft.com/office/2010/en/faqs/default.aspx#5zzs104007q) para cada una.
 
-![image](https://upload.wikimedia.org/wikipedia/en/5/55/Microsoft_Office_2010.png)    
+![image](https://upload.wikimedia.org/wikipedia/en/5/55/Microsoft_Office_2010.png)  
 El nuevo logo, bonito ¿verdad?.
 
 Algunas nuevas características que se incluirán en esta versión son:

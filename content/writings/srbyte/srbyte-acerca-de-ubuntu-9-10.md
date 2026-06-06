@@ -7,24 +7,23 @@ draft: false
 post_id: blog-3515952828243908885.post-8699972522184725240
 ---
 
-![image](https://www.ubuntu.com/files/masthead/910/tour/910-header.jpg)    
+![image](https://www.ubuntu.com/files/masthead/910/tour/910-header.jpg)  
 
 La nueva versión de Ubuntu 9.10, disponible desde hoy (Jueves 29), lleva en su corazón cambios y mejoras dedicadas al usuario de las que tenemos que hablar.
 
 Las mejoras inmediatas, estan en los tiempos de carga y secuencia de arranque, mejoras en el audio (PulseAudio) y en de conectividad 3G.
 
-También podemos mencionar el innovador proyecto "[100 Paper Cuts](/2009/06/mejorando-la-usabilidad-en-ubuntu-910.html)
-", una iniciativa que en conjunto con la comunidad Ubuntu impacta de sobremanera la interfaz del usuario, y propone una nueva forma de mejorar la interfaz visual de cualquier software, liberándola de aquellas tonteras que molestan a los usuarios más exigentes.
+También podemos mencionar el innovador proyecto "[100 Paper Cuts](/2009/06/mejorando-la-usabilidad-en-ubuntu-910.html)", una iniciativa que en conjunto con la comunidad Ubuntu impacta de sobremanera la interfaz del usuario, y propone una nueva forma de mejorar la interfaz visual de cualquier software, liberándola de aquellas tonteras que molestan a los usuarios más exigentes.
 
 También tenemos ahora el Ubuntu Software Center, un nuevo intento de encapsular el extenso directorio de aplicaciones disponibles para Ubuntu, exponiendo de manera más sencilla la informacion sobre el mismo. Lo que podemos traducir como acercar más el software libre al usuario.
 
 Ojala que no sea como el (para mi fallido) CRN (Click and Run) de Linspire.
 
-![image](https://www.ubuntu.com/files/masthead/910/tour/ubuntu-910-software-center.jpg)    
+![image](https://www.ubuntu.com/files/masthead/910/tour/ubuntu-910-software-center.jpg)  
 
 Esta version de Ubuntu incluye la integracion con "Ubuntu One", un servicio que Canonical libero como beta en mayo de este año. Ubuntu One es una suite de servicios online que mejorar la experiencia del escritorio, simplifica las tareas de respaldo, sincronizacion  (notas de Tomboy o contactos entre varias maquinas por ejemplo) y compartir archivos.
 
-![image](https://www.ubuntu.com/files/masthead/910/tour/ubuntu-910-share-files.jpg)    
+![image](https://www.ubuntu.com/files/masthead/910/tour/ubuntu-910-share-files.jpg)  
 
 Ubuntu 9.10 tambien esta pensado para los developers, sean casuales o profesionales. "Quickly" automatiza las mundanas tareas involucrads en la programcion y ayuda a empaquetar codigo y redistribuirlo mediante los repositorios de Ubuntu. Ahora si esta facil desarrollar en Ubuntu ;)
 

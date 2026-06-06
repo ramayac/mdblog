@@ -13,7 +13,7 @@ El problema es, que aparte de depender de .Net, el ejemplo de compilación de c�
 
 De clic en clic fui encontrando a "viejos conocidos" como el proyecto [Rhino](https://www.mozilla.org/rhino/) de Mozilla, sustituto del motor [SpiderMonkey](https://www.mozilla.org/js/spidermonkey/), ambos motores para interpretar, "compilar" y ejecutar JavaScript. Aun asi, estas soluciones no son completamente multiplataformas, claro, son útiles y funcionales, eso NO lo podemos negar, pero aun así, yo queria algo al estilo Java o Python, y vaya que lo encontre y del mejor autor, la susodicha herramienta de las que les quiero hablar hoy, es el: [Closure Compiler de Google](https://code.google.com/intl/es-AR/closure/).
 
-![image](https://code.google.com/intl/es-AR/closure/images/logo128px.png)    
+![image](https://code.google.com/intl/es-AR/closure/images/logo128px.png)  
 
 ¿Qué es el Closure Compiler?
 

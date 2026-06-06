@@ -19,7 +19,7 @@ La instalación de aplicaciones web, hasta hace algunos años, era similar a la 
 
 Cloud Computing cambia la idea del consumo fijo. Los varios recursos consumidos por una aplicación web (CPU, memoria, ancho de banda) se contabilizan por unidad (comenzando desde cero), como los contadores de agua de tu casa, y se paga de acuerdo al consumo de cada uno.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTA7Nh4GsOoY7SmomhM89aFYFEykgTgmMvS8Th6ikErdIZlRNMj8YTy0KseeVJV3yzLxIpZPQ0LzEpXqpaGHS88rsP-0O39-rCwkCHMuEvOFlhamf0GB9xXX6-J_d6wihGaXagXpQz_-Fp/s200/Mtron_Pushes_SSDs_to_120_GB-1.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTA7Nh4GsOoY7SmomhM89aFYFEykgTgmMvS8Th6ikErdIZlRNMj8YTy0KseeVJV3yzLxIpZPQ0LzEpXqpaGHS88rsP-0O39-rCwkCHMuEvOFlhamf0GB9xXX6-J_d6wihGaXagXpQz_-Fp/s200/Mtron_Pushes_SSDs_to_120_GB-1.jpg)  
 
 "... paga por lo que consumes(CPU, espacio, ancho de banda)."
 
@@ -35,7 +35,7 @@ Las aplicaciones web a veces sufren de "picos" de trafico debido a la cobertura 
 
 Si tu aplicación esta apoyada sobre una plataforma de servicio de un proveedor de Cloud Computing, este será el que se adaptará dinamicamente para proveer el recurso (CPU, memoria, ancho de banda) para que tu aplicación web supla la demanda de información por los visitantes que llegan repentinamente a tu sitio, sin que gastes ni un centavo en equipo físico.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrnLworS20b7Oc4sIDgT2YfbW5CSzU_KycxL5QwpSHIm-hO1oEugUAY2O7hf0_KkgQrzmVJLj-kb3_OvRvtRSHVJXVjJoEtOPuUqkcTdsqerMRsOFAl4ZzLUqOHv_XmBwAhszoPiKH5X2V/s320/servers.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrnLworS20b7Oc4sIDgT2YfbW5CSzU_KycxL5QwpSHIm-hO1oEugUAY2O7hf0_KkgQrzmVJLj-kb3_OvRvtRSHVJXVjJoEtOPuUqkcTdsqerMRsOFAl4ZzLUqOHv_XmBwAhszoPiKH5X2V/s320/servers.jpg)  
 
 "... no inviertas en equipo innecesario."
 
@@ -45,7 +45,7 @@ Crecimiento automatizado y tecnologías escalables
 
 Si se tiene la capacidad de soportar eventos momentáneos, entonces las plataformas de Cloud Computing también facilitan el crecimiento gradual de curvas que presentan las aplicaciones web exitosas. En los escenarios usuales de crecimiento para aplicación web necesitan equipo especial (balanceadores de carga y clusters), que al emplear Cloud Computing, queda en la abstracción de la plataforma de nuestro proveedor de servicio. Y adicionalmente, muchas plataformas de Cloud Computing, proveen soporte para un "tier" de datos que excede el rendimiento de RDBMS (Relational Database Systems), como: Map Reduce, Big Table, etc.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnEBTySSqLmWeANhWTzOJAS03LmsKba1f0-tRK9hSawu-gXA-brTS96FsHbsOgGuOFvlxvMnqoZcN2ujo70o2Vv9xd_LMRADHSHoGp36WZmf3oDW0jR3KNt71w5jz7Tfs8bCMk6lDtdnmO/s200/cloud-computing2.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnEBTySSqLmWeANhWTzOJAS03LmsKba1f0-tRK9hSawu-gXA-brTS96FsHbsOgGuOFvlxvMnqoZcN2ujo70o2Vv9xd_LMRADHSHoGp36WZmf3oDW0jR3KNt71w5jz7Tfs8bCMk6lDtdnmO/s200/cloud-computing2.jpg)  
 
 "... crece sobre una infraestructura escalable."
 

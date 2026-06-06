@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-06-06] ingest | added clean-urls script and Makefile target
+
+- Created `scripts/clean-urls.py` containing domain cleaning logic to replace absolute `srbyte.com` URLs with relative root paths.
+- Added `clean-urls` target to the `Makefile` and registered it in `.PHONY` and documented it in `README.md` and `wiki/agents.md`.
+
 ## [2026-06-06] ingest | implemented content-count subcommand and Makefile target
 
 - Created `internal/blog/contentcount.go` containing logic to recursively scan content and page directories and format a text-based treeview of subdirectory file counts.

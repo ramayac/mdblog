@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-1128488937539170532
 ---
 
-![image](https://i64.photobucket.com/albums/h187/darkela/blog/homesite.jpg)    
+![image](https://i64.photobucket.com/albums/h187/darkela/blog/homesite.jpg)  
 
 Hace más de un mes fue anunciada la creación de [Photovine](https://photovine.com/), en versión beta y privada, solo se podía usar por medio de invitación. Photovine es una marca registrada por Google. [La aplicación esta disponible en la App Store de Apple](https://itunes.apple.com/us/app/photovine/id447965023?mt=8), como algo extraño aun no hay versión para Android. Photovine es ofrecido por [Slide](https://www.slide.com/) que es parte de Google Inc, el lema es "plant a photo, watch it grow".
 
@@ -17,7 +17,7 @@ Les detallo algunas características que posee Photovine:
 
 +Al entrar a la aplicación te da una bienvenida, explica como se utiliza Photovine:
 
-![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0549.png)  ![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0552.png)  ![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0553.png)  
+![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0549.png)![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0552.png)![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0553.png)  
 
 +En la pantalla perfil indica que te faltan 4 cosas por completar para que este listo para usar Photovine.
 
@@ -25,7 +25,7 @@ Les detallo algunas características que posee Photovine:
 
 +Al momento de subir una foto hay que escoger una viñeta, al escribirla se convierte como un buscador ya que te muestra las palabras relacionadas a la que estas eligiendo.
 
-![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0557.png)   ![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0561.png)   ![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0563.png)  
+![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0557.png) ![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0561.png) ![image](https://i64.photobucket.com/albums/h187/darkela/blog/IMG_0563.png)  
 
 +Para compartir la imagen, por el momento solo esta habilitado facebook y twitter. Luego de compartirla podemos escoger si queremos que la imagen sea visible u ocultarlas:
 

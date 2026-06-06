@@ -11,7 +11,7 @@ Celebremos el nacimiento de nuestro Señor y salvador, disfrutando sanamente en 
 
 El Staff del Sr. Byte, le desea a todos sus lectores una feliz navidad y prospero 2010....
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQj6hh56VIphe6ta0gwYSoUkBwGpmkAPmFOQebbSdxUJJUhK0X8Sh5fGel1Pc0R4-vLFdvSjkA3UuRHcYO5B4tkdyZpYNzHgX8P4xBzGr2Bznx6V75hJgrXgwrn8_cx-ESCAIbOvbicWiX/s200/merry%2520christmas.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQj6hh56VIphe6ta0gwYSoUkBwGpmkAPmFOQebbSdxUJJUhK0X8Sh5fGel1Pc0R4-vLFdvSjkA3UuRHcYO5B4tkdyZpYNzHgX8P4xBzGr2Bznx6V75hJgrXgwrn8_cx-ESCAIbOvbicWiX/s200/merry%2520christmas.jpg)  
 
 "El amor y la verdad se darán cita, la paz y la justicia se besarán" (Sal 85:10).
 

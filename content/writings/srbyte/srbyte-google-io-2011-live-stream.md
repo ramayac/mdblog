@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-2608302089128076672
 
 [Tal y como les habiamos comentado](/2011/04/google-io-live.html), Google esta haciendo Live Stream de Google IO 2011:
 
-![image](https://www.google.com/events/io/2011/static/img/poster_highlights.png)    
+![image](https://www.google.com/events/io/2011/static/img/poster_highlights.png)  
 
 Pueden obtener más información sobre el evento en:
 

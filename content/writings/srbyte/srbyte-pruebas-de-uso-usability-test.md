@@ -20,7 +20,7 @@ Que este sea el mantra de esta semana:
 > "Mi aplicación deberá facilitar la vida del usuario final."
 La manera para asegurarte de que este mantra se cumpla lo máximo posible es utilizando las [Pruebas de Uso](https://en.wikipedia.org/wiki/Usability_testing). En el sentido técnico una Prueba de Uso consiste en realizar una prueba de "caja negra" a tu software. Es decir, observar a las personas que van a usar el producto, REALMENTE usándolo para descubrir errores y ÁREAS de mejora.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi98FepMglDqOcz4ZZzCX1pkpAbihk7IySrJMPf8nEdYgu2MhkeW7QsYcX5YWtYzYOGtC675Ws447cu2I7v67TamT2h2j_iXytabcLSDvhqRGFeiHN32xq4IghZuAyVFc9NvCgjXRdiRv4V/s320/eyetracking_corporate_site_about_us.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi98FepMglDqOcz4ZZzCX1pkpAbihk7IySrJMPf8nEdYgu2MhkeW7QsYcX5YWtYzYOGtC675Ws447cu2I7v67TamT2h2j_iXytabcLSDvhqRGFeiHN32xq4IghZuAyVFc9NvCgjXRdiRv4V/s320/eyetracking_corporate_site_about_us.png)  
 "Google realiza pruebas de uso, para conocer que áreas de una pagina son las que mas son 'visitadas' por el cursor (esto también es conocido como HeatMap)"
 
 Suele ser de caja negra, porque no importa lo que hace en el fondo el sistema, sino la forma. Generalmente una prueba de uso, medirá que tan bien responden los usuarios en cuatro áreas: eficiencia, exactitud, recuerdo o familiaridad (recall), y respuesta emocional...
@@ -28,7 +28,7 @@ Suele ser de caja negra, porque no importa lo que hace en el fondo el sistema, s
 - Exactitud -- ¿Cuantos errores realizaron las personas? (Fueron errores fatales, recuperables, etc).
 - Recuerdo-- ¿Que tan bien se recuerda el uso del programa, después de largos periodos de no utilizarlo?
 - Respuesta Emocional -- ¿Como se siente una persona al completar una tarea? ¿Estresada, Confiada, Emocionada?
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBr3e2mEeD1_hO-rmY_3uO6kPpmo8F_n7HeyHwoiALbymFYaFMCCQVd6eOjvyROworkAy6Cn7-_GIvnXGUsZ1xU7A8R09jK92kRdWY-_5zQiId66ol_qnlLGw24nzK5vlyDoaj476dYzlJ/s320/usability_testing_absplit.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBr3e2mEeD1_hO-rmY_3uO6kPpmo8F_n7HeyHwoiALbymFYaFMCCQVd6eOjvyROworkAy6Cn7-_GIvnXGUsZ1xU7A8R09jK92kRdWY-_5zQiId66ol_qnlLGw24nzK5vlyDoaj476dYzlJ/s320/usability_testing_absplit.jpg)  
 "Es necesario conocer que piensa el usuario final del software que usara"
 
 ¿Fácil no? ¿Ves a donde vamos con la implementar de una Prueba de Uso? Con estas pruebas, nos estamos asegurando que:
@@ -51,7 +51,7 @@ En el [blog de Robin Good](https://www.masternewmedia.org/es/2007/05/02/pruebas_
 
 Aquí la clave (resaltada en negritas) es no dejar que prevalezca la opinión del que grita mas, sino la mejor opción, pero para el usuario.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB4NizmmzWlydk27x9FVX-jGK64JzhdegJZWH3E-ACZiCxNsNY4ckqOFtY1APxh5u20QEh9PMUi5stIkKX2OW6PHEeremMZBVAeL_NE-I6rBKZaZTa3TUEfkbT2lQaZSMK2GN3KOGOY9AA/s320/steveDontMakeMeThink.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB4NizmmzWlydk27x9FVX-jGK64JzhdegJZWH3E-ACZiCxNsNY4ckqOFtY1APxh5u20QEh9PMUi5stIkKX2OW6PHEeremMZBVAeL_NE-I6rBKZaZTa3TUEfkbT2lQaZSMK2GN3KOGOY9AA/s320/steveDontMakeMeThink.jpg)  
 Steve Krug en su libro [Don't Make Me Think!](https://www.amazon.com/Think-Common-Sense-Approach-Usability/dp/0789723107), en el capitulo nueve, plantea una serie de aclaraciones sobre las Pruebas de Uso, que toda persona que este encargada de crear software debe de leer, pueden encontrar el capitulo 9 (en Ingles) de la primera edición de este genial libro [dando clic aquí.](https://sensible.com/Downloads/DMMTchapter09_for_personal_use_only.pdf)
 
 Espero, sinceramente, que la próxima vez que estén en un proyecto de software, que se preocupen constantemente, en la opinión del usuario final, final, final (el que realmente usara tu software todos los dias, para hacer su vida mas fácil). Para que de esta forma, realmente estés produciendo software enfocado al uso o a la "usabilidad".

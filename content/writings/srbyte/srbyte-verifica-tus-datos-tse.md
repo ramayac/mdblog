@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-5018457027392508587
 
 Nota: Este es un artículo dirigido a lectores Salvadoreños.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp6arG6OUkz3NmBT4yH1WLBk6R5md07_ihCgX0WgZMS8NkdMwIm_0gyVDEcKhj6crRb4xAXrs6LtESGVVm_oY8SI8fLTgPwHs65jCpb2V37y00nlRdJVc21rZvWbHNCm4ZfTdtto9OqwUs/s1600/300x100.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp6arG6OUkz3NmBT4yH1WLBk6R5md07_ihCgX0WgZMS8NkdMwIm_0gyVDEcKhj6crRb4xAXrs6LtESGVVm_oY8SI8fLTgPwHs65jCpb2V37y00nlRdJVc21rZvWbHNCm4ZfTdtto9OqwUs/s1600/300x100.jpg)  
 
 El día 6 de octubre, fue lanzada formalmente la consulta al padrón electoral y la campaña de motivación que está implementando el Tribunal Supremo Electoral a nivel nacional. La actividad está dirigida a verificar errores evidentes como: nombres, apellidos y fotografía, la "cancelación" de personas fallecidas e identificar las inscripciones fraudulentas en el Registro Electoral.
 

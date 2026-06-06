@@ -7,7 +7,8 @@ draft: false
 post_id: blog-3515952828243908885.post-7962220393499034104
 ---
 
-![image](https://farm4.static.flickr.com/3184/2965247835_e6e2fee441.jpg)    Como ya habrán leído, en más [de](https://feedproxy.google.com/%7Er/damrnetblog/%7E3/-3I3AfV6Boo/campus-party-iberoamerica-preparativos-finales) [algún](https://www.aeromental.com/2008/10/26/fotos-y-videos-de-como-se-organiza-el-campus-party-iberoamerica-en-san-salvador/) blog o en los periódicos, este martes muchos Salvadoreños y extranjeros tendremos el honor de asistir a este increíble evento.
+![image](https://farm4.static.flickr.com/3184/2965247835_e6e2fee441.jpg)  
+Como ya habrán leído, en más [de](https://feedproxy.google.com/%7Er/damrnetblog/%7E3/-3I3AfV6Boo/campus-party-iberoamerica-preparativos-finales) [algún](https://www.aeromental.com/2008/10/26/fotos-y-videos-de-como-se-organiza-el-campus-party-iberoamerica-en-san-salvador/) blog o en los periódicos, este martes muchos Salvadoreños y extranjeros tendremos el honor de asistir a este increíble evento.
 ¿Qué es el Campus Party?
 [Citando al sitio oficial](https://iberoamerica.campus-party.org/index.php/elevento.html):
 

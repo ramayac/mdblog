@@ -11,7 +11,7 @@ Advertencia: Post para programadores ;)
 
 Update (17 Junio): Se publica la versión correcta del artículo.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfCQTUe00xi6OltBHF8nYlDSBNF7vIxXJgRrMZ3Agf7TQ7ebX6tfJTqkim3b-bRqfIKmNN6KX6GU2jWR5Tl5ojlBOuC19CDHMgQjeN3QvJl3BptuCRyzuUgP5pFPrOuHVWqaEZ_lbnTfIU/s200/questionmark.jpg)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfCQTUe00xi6OltBHF8nYlDSBNF7vIxXJgRrMZ3Agf7TQ7ebX6tfJTqkim3b-bRqfIKmNN6KX6GU2jWR5Tl5ojlBOuC19CDHMgQjeN3QvJl3BptuCRyzuUgP5pFPrOuHVWqaEZ_lbnTfIU/s200/questionmark.jpg)  
 Como en toda carrera, cada cierto tiempo y en algún lugar, alguien inventa o idea nuevos conceptos que cambian paradigmas para bien. El problema de estos (nuevos o no tan nuevos conceptos) radica en que vienen acompañados de terminologia que suele ser complicada y que tambien intimidante.
 
 "Dependency Injection" y "Design by Contract" son dos ejemplos perfectos de lo que menciono, y precisamente les quiero recomendar cuatro lecturas para comprenderlos, ¡y tambien los invito a que los practiquen!... y si ya los conoce, vale la pena repasarlos.

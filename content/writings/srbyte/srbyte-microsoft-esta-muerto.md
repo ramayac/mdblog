@@ -16,12 +16,18 @@ Lo interesante del ensayo es que Paul Graham no propone una teoría ridícula (p
 > La verdad es que a nadie le importa lo que Microsoft esta haciendo.
 El ejemplo perfecto es [Live.com](https://www2.blogger.com/live.com) (WTF?!), que no es nada más que el patético esfuerzo de motor de búsqueda con una apariencia descaradamente similar a la del ya famoso y casi en todas las paginas de inicio de navegadores: Google. O acaso antes de ver este blog, ¿sabias que existía Live.com?... yo no sabia hasta que leí el ensayo que les estoy mencionando. Esto simplemente significa que la atemorizante sombra que Microsoft proyecto sobre el mundo del Software (siguiendo la linea del gigante azul IBM) se esta desvaneciendo. Solo al ver a Bill Gates retirándose en el 2008 para dedicarse a su fundación y el fiasco llamado Office 2007 y ver a este retrasado mental (con dinero, pero sigue siendo retrasado) saltando por ahí:
 
-[https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE) [https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE) [https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE) [https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE) [https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE)
+[https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE)  
+[https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE)  
+[https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE)  
+[https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE)  
+[https://www.youtube.com/v/Nc4MzqBFxZE](https://www.youtube.com/v/Nc4MzqBFxZE)
 "Steve Ballmer bailando como mono" le da mucha valides al ensayo... ¿no?. Y claro, hay esperanzas para que Microsoft se abstenga de hacer el ridículo. Y Ray Ozzie (cabeza del NUEVO Microsoft) ve el futuro de la empresa en productos de consumo como el Zune (Ooops!) y el Xbox 360.
 
 Definitivamente... Microsoft aun hace dinero y seguirá haciendo, pero definitivamente existen mejores y mas confiables alternativas en software, aparatos electrónicos, multimedia y telecomunicaciones.
 
 Solo podemos decir, bye bye Bill, te retiras en el momento adecuado...
 
-[https://www.youtube.com/v/5NoGbLI3ePA](https://www.youtube.com/v/5NoGbLI3ePA) [https://www.youtube.com/v/5NoGbLI3ePA](https://www.youtube.com/v/5NoGbLI3ePA) [https://www.youtube.com/v/5NoGbLI3ePA](https://www.youtube.com/v/5NoGbLI3ePA)
+[https://www.youtube.com/v/5NoGbLI3ePA](https://www.youtube.com/v/5NoGbLI3ePA)  
+[https://www.youtube.com/v/5NoGbLI3ePA](https://www.youtube.com/v/5NoGbLI3ePA)  
+[https://www.youtube.com/v/5NoGbLI3ePA](https://www.youtube.com/v/5NoGbLI3ePA)
 "Homenaje a Bill Gates"

@@ -9,7 +9,7 @@ post_id: blog-3515952828243908885.post-4570816451209111516
 
 [Heroes of Newerth](https://www.heroesofnewerth.com/) es un vídeojuego multiplataforma desarrollado y publicado por [S2 Games](https://www.s2games.com/). Esta basado en el escenario [Defense of the Ancients](https://es.wikipedia.org/wiki/Defense_of_the_Ancients) de [Warcraft III](https://es.wikipedia.org/wiki/Warcraft_III) por lo que se desenvuelve en un genero similar, multijugador en linea utilizando estrategia y tácticas en tiempo real.
 
-![image](https://ctrlaltkill.org/wp-content/uploads/2009/09/heroes-of-newerth.jpg)    
+![image](https://ctrlaltkill.org/wp-content/uploads/2009/09/heroes-of-newerth.jpg)  
 
 El juego se lanzará oficialmente el 12 de mayo de 2010 - ¡falta poco! - mientras tanto se puede participar gratuitamente en la fase "Open Beta". Luego del lanzamiento oficial todos los datos de los jugadores registrados serán reiniciados y se deberá empezar desde cero adquiriendo una cuenta pagada para poder jugarlo. Esta tendrá un costo de $30.00 que se cancelarán solamente una vez, es decir que no se deberá  pagar un monto mensual para jugar Heroes of Newerth.
 

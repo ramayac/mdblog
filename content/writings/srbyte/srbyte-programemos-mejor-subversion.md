@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5173755952151884031
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXYRa6d_lVhsF0K_IyBsn4cjr4aPY1op6tCvCyIeBSadlXla8A5QHFNO7ljGyQLZ8xhbg614N5ohbYcd407CCGPD7EpAT1JHN5hKH9FhU-scObVUU1NYImp99MjfdeS6Ns6zedV6FPsZM/s320/subversion_logo_hor-468x64.png)    
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXYRa6d_lVhsF0K_IyBsn4cjr4aPY1op6tCvCyIeBSadlXla8A5QHFNO7ljGyQLZ8xhbg614N5ohbYcd407CCGPD7EpAT1JHN5hKH9FhU-scObVUU1NYImp99MjfdeS6Ns6zedV6FPsZM/s320/subversion_logo_hor-468x64.png)  
 "Logo Oficial de Subversion"
 
 ¿Les ha pasado alguna vez que cuando están programando se dan cuenta que las líneas de código que acaban de agregar arruinaron el sistema y desean volver a como lo tenían el día de ayer ya que en ese entonces todavía compilaba, pero ya no se acuerdan qué fue lo último que agregaron para así poder revertirlo?
