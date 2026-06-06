@@ -40,7 +40,7 @@ var md goldmark.Markdown
 func init() {
 	md = goldmark.New(
 		goldmark.WithExtensions(
-			extension.GFM,        // tables, strikethrough, linkify, task lists
+			extension.GFM, // tables, strikethrough, linkify, task lists
 			extension.Footnote,
 		),
 		goldmark.WithParserOptions(

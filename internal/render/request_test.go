@@ -40,14 +40,14 @@ func TestRequest_Success(t *testing.T) {
 
 	// Setup basic config
 	cfg := &config.Config{
-		BlogName:        "Test Blog",
-		Lang:            "en",
-		PostsDir:        dir,
-		PagesDir:        dir + "/pages",
-		PostIndexFile:   dir + "/posts.index.json",
-		DateFormat:      "2006-01-02",
-		CSSTheme:        "assets/css/default.style.css",
-		MenuLinks:       []config.MenuLink{{Label: "Home", URL: "/"}},
+		BlogName:      "Test Blog",
+		Lang:          "en",
+		PostsDir:      dir,
+		PagesDir:      dir + "/pages",
+		PostIndexFile: dir + "/posts.index.json",
+		DateFormat:    "2006-01-02",
+		CSSTheme:      "assets/css/default.style.css",
+		MenuLinks:     []config.MenuLink{{Label: "Home", URL: "/"}},
 		Labels: config.Labels{
 			NotFoundTitle:   "404 — Post Not Found",
 			NotFoundMessage: "The post you're looking for doesn't exist.",

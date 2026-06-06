@@ -515,7 +515,7 @@ func TestStaticPage_NavDropdownRendered(t *testing.T) {
 
 func TestLegacyAlternativeResolution(t *testing.T) {
 	h := testSetup(t)
-	
+
 	// Test with .html suffix
 	w1 := get(h, "/2008/01/12-34-56-7-8-9-y-el-tiempo.html")
 	if w1.Code != http.StatusOK {
@@ -536,4 +536,3 @@ func TestLegacyAlternativeResolution(t *testing.T) {
 		t.Error("rendered page should contain the post title")
 	}
 }
-

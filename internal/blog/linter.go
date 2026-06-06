@@ -84,6 +84,9 @@ func (b *Blog) isInternalLink(link string) bool {
 	if link == "" {
 		return false
 	}
+	if strings.HasPrefix(link, "//") {
+		return false
+	}
 	if strings.HasPrefix(link, "http://") || strings.HasPrefix(link, "https://") {
 		// If it's absolute, check if it points to localhost or the base URL
 		if strings.HasPrefix(link, "http://localhost") {
@@ -131,6 +134,11 @@ func (b *Blog) validateLink(link string, currentFile string) error {
 
 	// 1. Home / Root routes
 	if path == "/" || path == "" || path == "/feed" || path == "/feed.xml" || path == "/sitemap.xml" || path == "/robots.txt" {
+		return nil
+	}
+
+	// 1b. Search Label routes (legacy blogger tag lists)
+	if strings.HasPrefix(path, "/search/label/") {
 		return nil
 	}
 

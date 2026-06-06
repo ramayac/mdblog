@@ -15,7 +15,7 @@ func TestLintLinks(t *testing.T) {
 	// Create subdirectories
 	techDir := filepath.Join(dir, "tech")
 	pagesDir := filepath.Join(dir, "pages")
-	
+
 	// Create post 1 (valid internal links)
 	writePost(t, techDir, "post1.md", `---
 title: Post One

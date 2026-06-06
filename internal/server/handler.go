@@ -107,6 +107,13 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// ── Legacy Blogger search/label redirects ─────────────────────────────
+	if strings.HasPrefix(path, "/search/label/") {
+		tag := strings.TrimPrefix(path, "/search/label/")
+		http.Redirect(w, r, "/?q="+tag+"&search=true", http.StatusMovedPermanently)
+		return
+	}
+
 	// ── CSP header —————————————————————————————————————————————————————————
 	if h.cfg.CSP.Enabled {
 		w.Header().Set(splitCSPHeader(h.cfg.CSP.Header))

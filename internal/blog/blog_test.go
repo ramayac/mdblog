@@ -1126,7 +1126,7 @@ func TestResolveOldURL(t *testing.T) {
 
 	cfg := makeTestConfig(dir)
 	cfg.Categories["srbyte"] = config.Category{BlogName: "SrByte", Folder: "writings/srbyte", Index: false}
-	
+
 	// Write an index pointing to the posts
 	idx := `[
 		{"slug":"srbyte-musica-legalmente-gratuita","title":"Musica Legalmente Gratuita","date":"2008-07-25","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"srbyte","source_path":"writings/srbyte/srbyte-musica-legalmente-gratuita.md","filename":"srbyte-musica-legalmente-gratuita.md"},
@@ -1162,16 +1162,16 @@ func TestResolveOldURL(t *testing.T) {
 			expectFound:  true,
 		},
 		{
-			path:         "/2008/07/nonexistent-post.html",
-			expectFound:  false,
+			path:        "/2008/07/nonexistent-post.html",
+			expectFound: false,
 		},
 		{
-			path:         "/2008/07/nonexistent-post",
-			expectFound:  false,
+			path:        "/2008/07/nonexistent-post",
+			expectFound: false,
 		},
 		{
-			path:         "/invalid/format/path.html",
-			expectFound:  false,
+			path:        "/invalid/format/path.html",
+			expectFound: false,
 		},
 	}
 
@@ -1193,4 +1193,3 @@ func TestResolveOldURL(t *testing.T) {
 		})
 	}
 }
-

@@ -810,14 +810,28 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 		if len(ip.Date) >= 7 && ip.Date[0:4] == year && ip.Date[5:7] == month {
 			normalized := b.normalizeSlugForMatch(ip.Slug)
 			cleanPost := cleanSlug(normalized)
-			
-			// Match if clean slugs are equal, one is a prefix of the other,
-			// or they share a prefix of at least 8 characters (tiny search space per month)
-			if cleanPost == cleanOld || 
-				strings.HasPrefix(cleanPost, cleanOld) || 
+
+			// Prefix-restricted Levenshtein match (handles truncation/expansion in slug generation)
+			minLen := len(cleanPost)
+			if len(cleanOld) < minLen {
+				minLen = len(cleanOld)
+			}
+			var prefixMatch bool
+			if minLen >= 10 {
+				prefixMatch = levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
+			}
+
+			// Match if clean slugs are equal, one is a prefix/suffix of the other,
+			// or they are within Levenshtein distance of 2 (or 20% of length)
+			if cleanPost == cleanOld ||
+				strings.HasPrefix(cleanPost, cleanOld) ||
 				strings.HasPrefix(cleanOld, cleanPost) ||
-				(len(cleanPost) >= 8 && len(cleanOld) >= 8 && cleanPost[:8] == cleanOld[:8]) {
-				
+				strings.HasSuffix(cleanPost, cleanOld) ||
+				strings.HasSuffix(cleanOld, cleanPost) ||
+				levenshtein(cleanPost, cleanOld) <= 2 ||
+				levenshtein(cleanPost, cleanOld) <= len(cleanOld)/5 ||
+				prefixMatch {
+
 				post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
 				if post != nil {
 					return post, true
@@ -827,10 +841,39 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 	}
 
 	// 2. Fallback: Search entire index without year/month constraint (handles publish vs draft date discrepancies)
+	// Pass 2a: Try exact, prefix, suffix match first
 	for _, ip := range index {
 		normalized := b.normalizeSlugForMatch(ip.Slug)
 		cleanPost := cleanSlug(normalized)
-		if cleanPost == cleanOld || strings.HasPrefix(cleanPost, cleanOld) || strings.HasPrefix(cleanOld, cleanPost) {
+
+		minLen := len(cleanPost)
+		if len(cleanOld) < minLen {
+			minLen = len(cleanOld)
+		}
+		var prefixMatch bool
+		if minLen >= 10 {
+			prefixMatch = levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
+		}
+
+		if cleanPost == cleanOld ||
+			strings.HasPrefix(cleanPost, cleanOld) ||
+			strings.HasPrefix(cleanOld, cleanPost) ||
+			strings.HasSuffix(cleanPost, cleanOld) ||
+			strings.HasSuffix(cleanOld, cleanPost) ||
+			prefixMatch {
+			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
+			if post != nil {
+				return post, true
+			}
+		}
+	}
+
+	// Pass 2b: Try Levenshtein match next
+	for _, ip := range index {
+		normalized := b.normalizeSlugForMatch(ip.Slug)
+		cleanPost := cleanSlug(normalized)
+		dist := levenshtein(cleanPost, cleanOld)
+		if dist <= 2 || (len(cleanOld) >= 10 && dist <= len(cleanOld)/5) {
 			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
 			if post != nil {
 				return post, true
@@ -839,6 +882,38 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 	}
 
 	return nil, false
+}
+
+func levenshtein(s, t string) int {
+	if len(s) < len(t) {
+		s, t = t, s
+	}
+	if len(t) == 0 {
+		return len(s)
+	}
+	r1 := make([]int, len(t)+1)
+	r2 := make([]int, len(t)+1)
+	for j := range r1 {
+		r1[j] = j
+	}
+	for i := 1; i <= len(s); i++ {
+		r2[0] = i
+		for j := 1; j <= len(t); j++ {
+			cost := 1
+			if s[i-1] == t[j-1] {
+				cost = 0
+			}
+			r2[j] = r2[j-1] + 1
+			if r1[j]+1 < r2[j] {
+				r2[j] = r1[j] + 1
+			}
+			if r1[j-1]+cost < r2[j] {
+				r2[j] = r1[j-1] + cost
+			}
+		}
+		copy(r1, r2)
+	}
+	return r1[len(t)]
 }
 
 func cleanSlug(s string) string {
@@ -850,11 +925,17 @@ func cleanSlug(s string) string {
 	s = strings.ReplaceAll(s, "ú", "u")
 	s = strings.ReplaceAll(s, "ñ", "n")
 	s = strings.ReplaceAll(s, "ü", "u")
-	
+	s = strings.ReplaceAll(s, "que", "qu")
+
 	var sb strings.Builder
+	var last rune
 	for _, r := range s {
 		if (r >= 'a' && r <= 'z') || (r >= '0' && r <= '9') {
+			if r == last {
+				continue
+			}
 			sb.WriteRune(r)
+			last = r
 		}
 	}
 	return sb.String()
@@ -864,7 +945,7 @@ func cleanSlug(s string) string {
 func (b *Blog) normalizeSlugForMatch(slug string) string {
 	// Remove date prefix (e.g. 2026-05-19-)
 	slug = datePrefixRegex.ReplaceAllString(slug, "")
-	
+
 	// Remove any known category prefix (e.g. "srbyte-")
 	for catSlug := range b.cfg.Categories {
 		if strings.HasPrefix(slug, catSlug+"-") {
@@ -874,4 +955,3 @@ func (b *Blog) normalizeSlugForMatch(slug string) string {
 	}
 	return slug
 }
-

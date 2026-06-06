@@ -143,4 +143,3 @@ func runLintLinks(cfg *config.Config) {
 	}
 	fmt.Println("No broken links found!")
 }
-
