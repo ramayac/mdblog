@@ -207,19 +207,19 @@ func TestHome(t *testing.T) {
 	if !strings.Contains(body, "Rodrigo A.") {
 		t.Error("should contain blog name")
 	}
-	if !strings.Contains(body, `href="?category=personal"`) {
+	if !strings.Contains(body, `href="/content/personal/" class="category-card"`) {
 		t.Error("should contain category card for Personal")
 	}
-	if !strings.Contains(body, `href="?category=projects"`) {
+	if !strings.Contains(body, `href="/content/projects/" class="category-card"`) {
 		t.Error("should contain category card for Projects")
 	}
-	if strings.Contains(body, `href="?category=srbyte"`) {
+	if strings.Contains(body, `href="/content/srbyte/" class="category-card"`) {
 		t.Error("should NOT contain category card link for srbyte (index=false)")
 	}
-	if strings.Contains(body, `href="?category=android"`) {
+	if strings.Contains(body, `href="/content/projects/android/" class="category-card"`) {
 		t.Error("should NOT contain category card link for android (index=false)")
 	}
-	if strings.Contains(body, `href="?category=tools"`) {
+	if strings.Contains(body, `href="/content/projects/tools/" class="category-card"`) {
 		t.Error("should NOT contain category card link for tools (index=false)")
 	}
 	if strings.Contains(body, "What are you looking for?") {
@@ -231,7 +231,7 @@ func TestSubCategoryRendering(t *testing.T) {
 	h := testSetup(t)
 
 	// Verify projects category page renders sub-categories android and tools
-	w := get(h, "/?category=projects")
+	w := get(h, "/content/projects/")
 	if w.Code != http.StatusOK {
 		t.Fatalf("status = %d, want 200", w.Code)
 	}
@@ -243,20 +243,20 @@ func TestSubCategoryRendering(t *testing.T) {
 	}
 
 	// Should contain sub-category cards for Android and Tools
-	if !strings.Contains(body, `href="?category=android"`) {
+	if !strings.Contains(body, `href="/content/projects/android/"`) {
 		t.Error("should contain sub-category card link for Android")
 	}
-	if !strings.Contains(body, `href="?category=tools"`) {
+	if !strings.Contains(body, `href="/content/projects/tools/"`) {
 		t.Error("should contain sub-category card link for Tools")
 	}
 
 	// Should NOT contain personal as it's not a subcategory of projects
-	if strings.Contains(body, `href="?category=personal"`) {
+	if strings.Contains(body, `href="/content/personal/" class="category-card"`) {
 		t.Error("should NOT contain category card link for Personal inside Projects page")
 	}
 
 	// Verify that Android category page does NOT show sub-categories but shows its posts
-	w2 := get(h, "/?category=android")
+	w2 := get(h, "/content/projects/android/")
 	if w2.Code != http.StatusOK {
 		t.Fatalf("status = %d, want 200", w2.Code)
 	}
@@ -271,7 +271,7 @@ func TestSubCategoryRendering(t *testing.T) {
 
 func TestCategory(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/?category=srbyte")
+	w := get(h, "/content/srbyte/")
 	if w.Code != http.StatusOK {
 		t.Errorf("status = %d, want 200", w.Code)
 	}
@@ -313,7 +313,7 @@ func TestSearchWorking(t *testing.T) {
 
 func TestPost(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/post?slug=srbyte-12-34-56-7-8-9-y-el-tiempo&category=srbyte")
+	w := get(h, "/content/srbyte/srbyte-12-34-56-7-8-9-y-el-tiempo")
 	if w.Code != http.StatusOK {
 		t.Errorf("status = %d, want 200", w.Code)
 	}
@@ -328,7 +328,7 @@ func TestPost(t *testing.T) {
 
 func Test404(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/post?slug=does-not-exist")
+	w := get(h, "/content/does-not-exist")
 	if w.Code != http.StatusNotFound {
 		t.Errorf("status = %d, want 404", w.Code)
 	}
@@ -410,7 +410,7 @@ func TestFeedPage(t *testing.T) {
 
 func TestCacheControl_PostPage_Enabled(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/post?slug=srbyte-12-34-56-7-8-9-y-el-tiempo&category=srbyte")
+	w := get(h, "/content/srbyte/srbyte-12-34-56-7-8-9-y-el-tiempo")
 	if w.Code != http.StatusOK {
 		t.Fatalf("status = %d, want 200", w.Code)
 	}
@@ -423,7 +423,7 @@ func TestCacheControl_PostPage_Enabled(t *testing.T) {
 func TestCacheControl_PostPage_Disabled(t *testing.T) {
 	h := testSetup(t)
 	h.cfg.Cache.Enabled = false
-	w := get(h, "/post?slug=srbyte-12-34-56-7-8-9-y-el-tiempo&category=srbyte")
+	w := get(h, "/content/srbyte/srbyte-12-34-56-7-8-9-y-el-tiempo")
 	if w.Code != http.StatusOK {
 		t.Fatalf("status = %d, want 200", w.Code)
 	}
@@ -439,7 +439,7 @@ func TestCacheControl_PostPage_Disabled(t *testing.T) {
 
 func TestStaticPage_Found(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/page?slug=about")
+	w := get(h, "/pages/about")
 	if w.Code != http.StatusOK {
 		t.Errorf("status = %d, want 200", w.Code)
 	}
@@ -454,7 +454,7 @@ func TestStaticPage_Found(t *testing.T) {
 
 func TestStaticPage_NotFound(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/page?slug=does-not-exist")
+	w := get(h, "/pages/does-not-exist")
 	if w.Code != http.StatusNotFound {
 		t.Errorf("status = %d, want 404", w.Code)
 	}
@@ -468,7 +468,7 @@ func TestStaticPage_NotFound(t *testing.T) {
 
 func TestStaticPage_EmptySlugRedirects(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/page")
+	w := get(h, "/pages/")
 	if w.Code != http.StatusFound {
 		t.Errorf("status = %d, want 302 redirect", w.Code)
 	}
@@ -480,7 +480,7 @@ func TestStaticPage_EmptySlugRedirects(t *testing.T) {
 func TestStaticPage_PathTraversalSlug(t *testing.T) {
 	h := testSetup(t)
 	for _, slug := range []string{"../etc/passwd", "foo/bar"} {
-		w := get(h, "/page?slug="+slug)
+		w := get(h, "/pages/"+slug)
 		if w.Code == http.StatusOK {
 			t.Errorf("slug %q should not return 200", slug)
 		}
@@ -489,7 +489,7 @@ func TestStaticPage_PathTraversalSlug(t *testing.T) {
 
 func TestStaticPage_NoMetadata(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/page?slug=about")
+	w := get(h, "/pages/about")
 	body := w.Body.String()
 	// Pages should not show post metadata like dates or category breadcrumbs
 	if strings.Contains(body, "post-meta") {
@@ -502,7 +502,7 @@ func TestStaticPage_NoMetadata(t *testing.T) {
 
 func TestStaticPage_NavDropdownRendered(t *testing.T) {
 	h := testSetup(t)
-	w := get(h, "/page?slug=about")
+	w := get(h, "/pages/about")
 	if w.Code != http.StatusOK {
 		t.Fatalf("status = %d, want 200", w.Code)
 	}
@@ -518,30 +518,24 @@ func TestStaticPage_NavDropdownRendered(t *testing.T) {
 func TestLegacyAlternativeResolution(t *testing.T) {
 	h := testSetup(t)
 
-	// Test with .html suffix
+	// Test with .html suffix redirects to clean URL
 	w1 := get(h, "/2008/01/12-34-56-7-8-9-y-el-tiempo.html")
-	if w1.Code != http.StatusOK {
-		t.Fatalf("status = %d, want 200", w1.Code)
+	if w1.Code != http.StatusMovedPermanently {
+		t.Fatalf("status = %d, want 301", w1.Code)
 	}
-	body1 := w1.Body.String()
-	if !strings.Contains(body1, "12:34:56 7 8 9 y el tiempo") {
-		t.Error("rendered page should contain the post title")
-	}
-	if !strings.Contains(body1, `href="/assets/css/default.style.css`) {
-		t.Error("stylesheet path should start with a leading slash / to resolve correctly on deep legacy URLs")
+	loc1 := w1.Header().Get("Location")
+	if loc1 != "/content/srbyte/srbyte-12-34-56-7-8-9-y-el-tiempo" {
+		t.Errorf("Location = %q, want clean URL", loc1)
 	}
 
-	// Test without .html suffix
+	// Test without .html suffix redirects to clean URL
 	w2 := get(h, "/2008/01/12-34-56-7-8-9-y-el-tiempo")
-	if w2.Code != http.StatusOK {
-		t.Fatalf("status = %d, want 200", w2.Code)
+	if w2.Code != http.StatusMovedPermanently {
+		t.Fatalf("status = %d, want 301", w2.Code)
 	}
-	body2 := w2.Body.String()
-	if !strings.Contains(body2, "12:34:56 7 8 9 y el tiempo") {
-		t.Error("rendered page should contain the post title")
-	}
-	if !strings.Contains(body2, `href="/assets/css/default.style.css`) {
-		t.Error("stylesheet path should start with a leading slash / to resolve correctly on deep legacy URLs")
+	loc2 := w2.Header().Get("Location")
+	if loc2 != "/content/srbyte/srbyte-12-34-56-7-8-9-y-el-tiempo" {
+		t.Errorf("Location = %q, want clean URL", loc2)
 	}
 }
 

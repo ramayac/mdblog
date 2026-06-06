@@ -167,6 +167,73 @@ func (b *Blog) validateLink(link string, currentFile string) error {
 		return nil
 	}
 
+	// 3a. Clean pages route
+	if strings.HasPrefix(path, "/pages/") {
+		slug := strings.TrimPrefix(path, "/pages/")
+		slug = strings.TrimSuffix(slug, "/")
+		if slug == "" {
+			return fmt.Errorf("missing page slug")
+		}
+		if b.GetPage(slug) == nil {
+			return fmt.Errorf("page not found: %s", slug)
+		}
+		return nil
+	}
+
+	// 3b. Clean content route
+	if strings.HasPrefix(path, "/content/") {
+		rel := strings.TrimPrefix(path, "/content/")
+		rel = strings.TrimSuffix(rel, "/")
+		if rel == "" {
+			return nil
+		}
+		var categorySlug string
+		for slug, cat := range b.cfg.Categories {
+			folder := cat.Folder
+			if folder == "" {
+				folder = slug
+			}
+			if folder == rel {
+				categorySlug = slug
+				break
+			}
+		}
+		if categorySlug != "" {
+			return nil
+		}
+
+		var folderPath, postSlug string
+		lastSlash := strings.LastIndex(rel, "/")
+		if lastSlash != -1 {
+			folderPath = rel[:lastSlash]
+			postSlug = rel[lastSlash+1:]
+		} else {
+			postSlug = rel
+		}
+
+		var postCategorySlug string
+		if folderPath != "" {
+			for slug, cat := range b.cfg.Categories {
+				folder := cat.Folder
+				if folder == "" {
+					folder = slug
+				}
+				if folder == folderPath {
+					postCategorySlug = slug
+					break
+				}
+			}
+			if postCategorySlug == "" {
+				return fmt.Errorf("invalid category folder: %s", folderPath)
+			}
+		}
+
+		if b.GetPostBySlug(postSlug, postCategorySlug) == nil {
+			return fmt.Errorf("post not found: %s (category: %s)", postSlug, postCategorySlug)
+		}
+		return nil
+	}
+
 	// 4. Legacy/Alternative URL route
 	if _, resolved := b.ResolveOldURL(path); resolved {
 		return nil

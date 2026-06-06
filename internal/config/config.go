@@ -153,13 +153,13 @@ func Load(path string) (*Config, error) {
 		cfg.Lang = "en"
 	}
 	if cfg.PostsDir == "" {
-		cfg.PostsDir = "posts"
+		cfg.PostsDir = "content"
 	}
 	if cfg.PagesDir == "" {
 		cfg.PagesDir = "pages"
 	}
 	if cfg.PostIndexFile == "" {
-		cfg.PostIndexFile = "posts/posts.index.json"
+		cfg.PostIndexFile = "content/posts.index.json"
 	}
 	if cfg.DateFormat == "" {
 		cfg.DateFormat = "2006-01-02"

@@ -128,7 +128,7 @@ func TestBuild_Items(t *testing.T) {
 	}
 
 	// Item link format
-	expectedLink := `https://example.com/post?slug=2024-01-15-hello-world&amp;category=tech`
+	expectedLink := `https://example.com/content/tech/2024-01-15-hello-world`
 	if !strings.Contains(xmlStr, expectedLink) {
 		t.Errorf("expected item link %q not found in feed.xml", expectedLink)
 	}

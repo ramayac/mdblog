@@ -7,7 +7,7 @@
     {{ if .SubCategories }}
     <div class="category-cards" style="margin-bottom: 2rem;">
         {{ range .SubCategories }}
-        <a href="?category={{ .Slug | urlquery }}" class="category-card">
+        <a href="/content/{{ .Folder }}/" class="category-card">
             <h3>{{ .BlogName }}</h3>
             {{ if .HeaderContent }}<p>{{ .HeaderContent }}</p>{{ end }}
             <span class="post-count">{{ .Count }} {{ $.Config.Labels.PostsLabel | defaultStr "posts" }}</span>
@@ -30,11 +30,11 @@
     {{ if gt .Pagination.Total 1 }}
     <nav class="pagination">
         {{ if .Pagination.HasPrev }}
-        <a href="?category={{ .CategorySlug | urlquery }}&page={{ .Pagination.Prev }}" class="pagination-link prev">{{ .Config.Labels.PaginationPrev }}</a>
+        <a href="/content/{{ .CurrentCategory.Folder }}/?page={{ .Pagination.Prev }}" class="pagination-link prev">{{ .Config.Labels.PaginationPrev }}</a>
         {{ end }}
         <span class="pagination-info">{{ printf .Config.Labels.PageIndicator .Pagination.Current .Pagination.Total }}</span>
         {{ if .Pagination.HasNext }}
-        <a href="?category={{ .CategorySlug | urlquery }}&page={{ .Pagination.Next }}" class="pagination-link next">{{ .Config.Labels.PaginationNext }}</a>
+        <a href="/content/{{ .CurrentCategory.Folder }}/?page={{ .Pagination.Next }}" class="pagination-link next">{{ .Config.Labels.PaginationNext }}</a>
         {{ end }}
     </nav>
     {{ end }}

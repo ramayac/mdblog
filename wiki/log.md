@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-06] ingest | created clean category and page slugs technical plan
+
+- Created `wiki/clean-slugs-plan.md` outlining the technical strategy to rename the `posts/` folder to `content/` and route clean URL slugs (e.g. `/content/category/post` and `/pages/about`) while preserving backward compatibility.
+- Created git branch `feat/new-slugs-2` for the implementation phase.
+- Registered the clean slugs plan in the wiki index.
+
 ## [2026-06-05] ingest | implemented URL mapping, link linter, CSS theme normalization, and root favicon serving
 
 - **Legacy URL Native Resolution**:

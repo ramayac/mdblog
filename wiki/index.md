@@ -9,6 +9,7 @@
 - [repo-map.md](repo-map.md) | Current repo architecture and exclusions.
 - [navigation.md](navigation.md) | Architecture and decisions for parent/sub-category navigation.
 - [posts-to-content-dryrun.md](posts-to-content-dryrun.md) | Dry run plan for renaming posts to content directory.
+- [clean-slugs-plan.md](clean-slugs-plan.md) | Technical plan for clean category and page slugs.
 - [log.md](log.md) | Append-only timeline of wiki maintenance.
 
 ## Operations

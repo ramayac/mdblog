@@ -38,7 +38,7 @@ build-embed: ## Compile embed-variant Lambda binary to bin/lambda-embed
 	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o bin/lambda-embed ./cmd/lambda-embed
 	@echo "Built: bin/lambda-embed (templates + assets embedded)"
 
-build-index: ## Generate post metadata index (writes posts/posts.index.json)
+build-index: ## Generate post metadata index (writes content/posts.index.json)
 	@echo "Building post metadata index..."
 	go run ./cmd/mdblog build-index
 
@@ -80,14 +80,14 @@ request: ## Simulate a GET request: make request URL="/page?slug=about"
 new-post: ## Scaffold a new post: make new-post TITLE="title" [CATEGORY=slug] [TAGS="tag1, tag2"]
 	$(eval DATE    := $(shell date +%Y-%m-%d))
 	$(eval SLUG    := $(shell echo "$(TITLE)" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd '[:alnum:]-'))
-	$(eval DIR     := $(if $(CATEGORY),posts/$(CATEGORY),posts))
+	$(eval DIR     := $(if $(CATEGORY),content/$(CATEGORY),content))
 	$(eval FILE    := $(DIR)/$(DATE)-$(SLUG).md)
 	$(eval AUTHOR  := $(shell grep -oP 'author_name\s*=\s*"\K[^"]+' config.toml 2>/dev/null || echo "Author"))
 	@if [ -z "$(TITLE)" ]; then \
 		echo "Usage: make new-post TITLE=\"my post title\" [CATEGORY=slug] [TAGS=\"tag1, tag2\"]"; exit 1; \
 	fi
-	@if [ -n "$(CATEGORY)" ] && [ ! -d "posts/$(CATEGORY)" ]; then \
-		echo "Category folder not found: posts/$(CATEGORY)"; exit 1; \
+	@if [ -n "$(CATEGORY)" ] && [ ! -d "content/$(CATEGORY)" ]; then \
+		echo "Category folder not found: content/$(CATEGORY)"; exit 1; \
 	fi
 	@if [ -f "$(FILE)" ]; then \
 		echo "File already exists: $(FILE)"; exit 1; \

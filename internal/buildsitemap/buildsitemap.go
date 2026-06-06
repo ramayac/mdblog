@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"net/url"
 	"os"
 	"path/filepath"
 	"strings"
@@ -77,8 +76,18 @@ func Build(cfg *config.Config) error {
 	for _, p := range posts {
 		if p.CategorySlug != "" && !seen[p.CategorySlug] {
 			seen[p.CategorySlug] = true
+			var folder string
+			cat, ok := cfg.Categories[p.CategorySlug]
+			if ok {
+				folder = cat.Folder
+				if folder == "" {
+					folder = p.CategorySlug
+				}
+			} else {
+				folder = p.CategorySlug
+			}
 			urls = append(urls, sitemapEntry{
-				Loc:        base + "/?category=" + url.QueryEscape(p.CategorySlug),
+				Loc:        base + "/content/" + folder + "/",
 				ChangeFreq: cfg.Sitemap.ChangeFreqCategory,
 				Priority:   cfg.Sitemap.PriorityCategory,
 			})
@@ -87,10 +96,23 @@ func Build(cfg *config.Config) error {
 
 	// Individual post pages
 	for _, p := range posts {
-		u := base + "/post?slug=" + url.QueryEscape(p.Slug)
+		var folder string
 		if p.CategorySlug != "" {
-			u += "&category=" + url.QueryEscape(p.CategorySlug)
+			cat, ok := cfg.Categories[p.CategorySlug]
+			if ok {
+				folder = cat.Folder
+				if folder == "" {
+					folder = p.CategorySlug
+				}
+			} else {
+				folder = p.CategorySlug
+			}
 		}
+		u := base + "/content/"
+		if folder != "" {
+			u += folder + "/"
+		}
+		u += p.Slug
 		entry := sitemapEntry{
 			Loc:        u,
 			ChangeFreq: cfg.Sitemap.ChangeFreqPost,

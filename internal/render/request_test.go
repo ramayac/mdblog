@@ -77,7 +77,7 @@ This is the test about page content.
 
 	// Capture output for Request("/page?slug=about")
 	output, err := captureStdout(func() error {
-		return Request(cfg, "/page?slug=about")
+		return Request(cfg, "/pages/about")
 	})
 
 	if err != nil {
@@ -127,7 +127,7 @@ func TestRequest_NotFound(t *testing.T) {
 
 	// Capture output for a non-existent page
 	output, err := captureStdout(func() error {
-		return Request(cfg, "/page?slug=does-not-exist")
+		return Request(cfg, "/pages/does-not-exist")
 	})
 
 	if err == nil {

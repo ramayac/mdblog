@@ -171,8 +171,8 @@ func TestGetMenu_CategoryLinks(t *testing.T) {
 			techURL = sub.URL
 		}
 	}
-	if techURL != "/?category=tech" {
-		t.Errorf("Tech URL = %q, want /?category=tech", techURL)
+	if techURL != "/content/tech/" {
+		t.Errorf("Tech URL = %q, want /content/tech/", techURL)
 	}
 }
 
@@ -747,8 +747,8 @@ func TestGetMenu_PinnedLinksAreInline(t *testing.T) {
 			if len(item.SubItems) != 0 {
 				t.Error("pinned item should not have SubItems")
 			}
-			if item.URL != "/?category=tech" {
-				t.Errorf("pinned URL = %q, want /?category=tech", item.URL)
+			if item.URL != "/content/tech/" {
+				t.Errorf("pinned URL = %q, want /content/tech/", item.URL)
 			}
 			return
 		}
@@ -882,7 +882,7 @@ func TestGenerateSlug_SpaceInFilename(t *testing.T) {
 // .md file contains a space in its name. Spaces in filenames cause slug
 // mismatches that prevent posts from being served (see TestGenerateSlug_SpaceInFilename).
 func TestPostFilenames_NoSpaces(t *testing.T) {
-	postsDir := filepath.Join("..", "..", "posts")
+	postsDir := filepath.Join("..", "..", "content")
 	var violations []string
 
 	err := filepath.WalkDir(postsDir, func(path string, d os.DirEntry, err error) error {
@@ -1041,9 +1041,9 @@ func TestResolveSlugViaIndex_UsesFilename(t *testing.T) {
 
 	// slug+".md" would be "slug-differs-from-filename.md" — which doesn't exist.
 	// The function must use ip.Filename ("slug--differs-from-filename.md") instead.
-	resolved, _ := b.resolveSlugViaIndex("slug-differs-from-filename")
+	resolved, _ := b.ResolveSlugViaIndex("slug-differs-from-filename")
 	if resolved == "" {
-		t.Fatal("resolveSlugViaIndex returned empty; it likely used slug+\".md\" instead of ip.Filename")
+		t.Fatal("ResolveSlugViaIndex returned empty; it likely used slug+\".md\" instead of ip.Filename")
 	}
 
 	expected := filepath.Join(dir, "tech", "slug--differs-from-filename.md")
