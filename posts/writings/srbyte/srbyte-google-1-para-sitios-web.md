@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5396554272100339269
 ---
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ykVnSfpkeF0olN_O8fmvdLGW0hnTqYgFx-zpow-qntdBfA4Uf9zY0ilxzqBsQGDs40LUpFEOhR5-8woCxt0cSl6FlrPaPqW4F9Uze-ULSrfCkUaWkgMrAL66TYMwwfbZ3prW-oKlyDSp/s1600/button.png)    [Como estábamos esperando](/2011/04/que-es-google-1.html), Google esta [habilitando el esperado botón '+1'](https://googleblog.blogspot.com/2011/06/1-button-for-websites-recommend-content.html), que puede ser colocado en cualquier sitio web. El código/botón posee soporte en 44 lenguajes, aunque el botón solo aparece en los resultados en Ingles de Google (poco a poco Google habilitara los botones de '+1' en las búsquedas en otros idiomas).
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ykVnSfpkeF0olN_O8fmvdLGW0hnTqYgFx-zpow-qntdBfA4Uf9zY0ilxzqBsQGDs40LUpFEOhR5-8woCxt0cSl6FlrPaPqW4F9Uze-ULSrfCkUaWkgMrAL66TYMwwfbZ3prW-oKlyDSp/s1600/button.png)    [Como estábamos esperando](/2011/04/qu-es-google-1), Google esta [habilitando el esperado botón '+1'](https://googleblog.blogspot.com/2011/06/1-button-for-websites-recommend-content.html), que puede ser colocado en cualquier sitio web. El código/botón posee soporte en 44 lenguajes, aunque el botón solo aparece en los resultados en Ingles de Google (poco a poco Google habilitara los botones de '+1' en las búsquedas en otros idiomas).
 
 Los Webmasters pueden utilizar el sencillo generador de código que Google ofrece:  [https://www.google.com/webmasters/+1/button/index.html](https://www.google.com/webmasters/+1/button/index.html)
 

@@ -16,7 +16,7 @@ La razón por la que RPG no es tan popular como el resto de lenguajes se debe a 
 
 AS/400?
 
-Es un modelo de mainframes desarrollados por IBM, ahora integrado con otros modelos para formar la familia IBM Power Systems. Estos mainframes son comúnmente utilizados en grandes empresas cuando estas requieren equipo de alto rendimiento para procesar grandes cantidades de transacciones o para contar con un entorno de [múltiples servidores virtualres](/2009/07/anecdotas-de-virtualizacion.html). Estos equipos cuestan candidades de cinco cifras como mínimo por lo que no cualquierea puede tener uno de estos en su casa para dedicarse a aprender a programar en RPG.
+Es un modelo de mainframes desarrollados por IBM, ahora integrado con otros modelos para formar la familia IBM Power Systems. Estos mainframes son comúnmente utilizados en grandes empresas cuando estas requieren equipo de alto rendimiento para procesar grandes cantidades de transacciones o para contar con un entorno de [múltiples servidores virtualres](/2009/07/an-cdotas-de-virtualizaci-n). Estos equipos cuestan candidades de cinco cifras como mínimo por lo que no cualquierea puede tener uno de estos en su casa para dedicarse a aprender a programar en RPG.
 
 Esta dificultad para concer el lenguaje ha permitido que existan relativamente pocos programadores conocedores del lenguaje y esto por ende los vuelve muy cotizados en el mercado.
 

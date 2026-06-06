@@ -11,7 +11,7 @@ Google no para. Últimamente parece que cada novedad en la red, viene de la mano
 
 Recientemente, se presentó Google Related, una extensión de Chrome que muestra contenidos útiles e interesantes mientras navegas por la web.
 
-Cuando se navega con Related, a menudo se ve una barra delgada en la parte inferior de la pantalla que ofrece videos, mapas, comentarios y otros contenidos relevantes para esa página. Cuando veas un artículo que te interesa, puedes correr la voz mediante el uso del [botón +1](/2011/04/que-es-google-1.html) que está incorporado.
+Cuando se navega con Related, a menudo se ve una barra delgada en la parte inferior de la pantalla que ofrece videos, mapas, comentarios y otros contenidos relevantes para esa página. Cuando veas un artículo que te interesa, puedes correr la voz mediante el uso del [botón +1](/2011/04/qu-es-google-1) que está incorporado.
 
 La idea básica es que mientras navegamos por ciertos contenidos, la barra de Google Related trabaje en segundo plano, y nos muestre contenido relacionado con dicho contenido. Esto nos ayudará a poder percibir un contexto más amplio de nuestros intereses, o poder tener un mayor rango de opciones. Al dar click al botón +1, estamos ayudando al sistema a seguir ofreciendo material relevante.
 

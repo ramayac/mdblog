@@ -31,5 +31,8 @@ jobs:
     - name: Build post index
       run: go run ./cmd/mdblog build-index
 
+    - name: Lint links
+      run: go run ./cmd/mdblog lint-links
+
     - name: Run tests
       run: go test ./...

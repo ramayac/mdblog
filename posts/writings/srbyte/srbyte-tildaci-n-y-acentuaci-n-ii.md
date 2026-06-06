@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-5262682626387303843
 ---
 
-Como veíamos en el post anterior, [Tildación y acentuación I](/2010/03/tildacion-y-acentuacion-i.html), algunas palabras parece no apegarse mucho a las reglas general de la tildación según la clasificación de las palabras.
+Como veíamos en el post anterior, [Tildación y acentuación I](/2010/03/tildaci-n-y-acentuaci-n-i), algunas palabras parece no apegarse mucho a las reglas general de la tildación según la clasificación de las palabras.
 
 No obstante, no es porque exista un vacío o una falta de concordancia entre las reglas. Al contrario, esto demuestra que nuestra gramática posee riqueza y variedad. Una variedad que puede resultar frustrante si la explicación es complicada.
 

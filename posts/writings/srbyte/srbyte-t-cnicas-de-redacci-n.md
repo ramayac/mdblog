@@ -13,7 +13,7 @@ Lee más sobre redacción y estilo, visita: [https://tecnicasderedaccionyestilo.
 
 Esto no quiere decir que hacer uso de un lenguaje culto o científico sea incorrecto. Por el contario, este tipo de lenguaje le da un toque singular al texto, pues muestra el bagaje intelectual del autor. Pero cuando se abusa de él es cuando nuestros escritos pierden toda gracia posible. Lo mismo sucede cuando, por evitar un lenguaje rebuscado, caemos en una simplicidad escrita que evidencia una pobreza de vocabulario y un toque insípido en el texto.
 
-En una entrada anterior comentaba acerca de [la redacción y el estilo](/2009/02/redaccion-y-estilo.html). En esta ocasión, ahondaré en las técnicas básicas para tener una buena redacción. O por lo menos, cómo tener una redacción presentable que evite que los demás pongan el grito en el cielo cuando lean nuestros textos.
+En una entrada anterior comentaba acerca de [la redacción y el estilo](/2009/02/redacci-n-y-estilo). En esta ocasión, ahondaré en las técnicas básicas para tener una buena redacción. O por lo menos, cómo tener una redacción presentable que evite que los demás pongan el grito en el cielo cuando lean nuestros textos.
 
 Técnicas sencillas de redacción
 

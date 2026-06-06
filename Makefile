@@ -50,11 +50,14 @@ build-sitemap: ## Generate sitemap.xml and robots.txt (requires build-index firs
 	@echo "Building sitemap and robots.txt..."
 	go run ./cmd/mdblog build-sitemap
 
-lint: lint-config ## Run go vet on all packages + validate config.toml
+lint: lint-config lint-links ## Run all code and post link validation linters
 	go vet ./...
 
 lint-config: ## Validate config.toml by parsing it (panics on TOML errors)
 	@go run ./cmd/mdblog version > /dev/null && echo "config.toml OK"
+
+lint-links: build-index ## Run internal markdown links validation linter
+	go run ./cmd/mdblog lint-links
 
 test: build-index build-feed build-sitemap ## Run the Go test suite
 	go test ./...

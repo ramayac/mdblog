@@ -803,12 +803,21 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 		return nil, false
 	}
 
+	cleanOld := cleanSlug(oldSlug)
+
+	// 1. Try match with year/month constraint
 	for _, ip := range index {
-		// Check if year and month match (date is formatted as YYYY-MM-DD)
 		if len(ip.Date) >= 7 && ip.Date[0:4] == year && ip.Date[5:7] == month {
-			// Compare normalized post slug with normalized old slug.
-			normalizedPostSlug := b.normalizeSlugForMatch(ip.Slug)
-			if normalizedPostSlug == oldSlug {
+			normalized := b.normalizeSlugForMatch(ip.Slug)
+			cleanPost := cleanSlug(normalized)
+			
+			// Match if clean slugs are equal, one is a prefix of the other,
+			// or they share a prefix of at least 8 characters (tiny search space per month)
+			if cleanPost == cleanOld || 
+				strings.HasPrefix(cleanPost, cleanOld) || 
+				strings.HasPrefix(cleanOld, cleanPost) ||
+				(len(cleanPost) >= 8 && len(cleanOld) >= 8 && cleanPost[:8] == cleanOld[:8]) {
+				
 				post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
 				if post != nil {
 					return post, true
@@ -817,7 +826,38 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 		}
 	}
 
+	// 2. Fallback: Search entire index without year/month constraint (handles publish vs draft date discrepancies)
+	for _, ip := range index {
+		normalized := b.normalizeSlugForMatch(ip.Slug)
+		cleanPost := cleanSlug(normalized)
+		if cleanPost == cleanOld || strings.HasPrefix(cleanPost, cleanOld) || strings.HasPrefix(cleanOld, cleanPost) {
+			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
+			if post != nil {
+				return post, true
+			}
+		}
+	}
+
 	return nil, false
+}
+
+func cleanSlug(s string) string {
+	s = strings.ToLower(s)
+	s = strings.ReplaceAll(s, "á", "a")
+	s = strings.ReplaceAll(s, "é", "e")
+	s = strings.ReplaceAll(s, "í", "i")
+	s = strings.ReplaceAll(s, "ó", "o")
+	s = strings.ReplaceAll(s, "ú", "u")
+	s = strings.ReplaceAll(s, "ñ", "n")
+	s = strings.ReplaceAll(s, "ü", "u")
+	
+	var sb strings.Builder
+	for _, r := range s {
+		if (r >= 'a' && r <= 'z') || (r >= '0' && r <= '9') {
+			sb.WriteRune(r)
+		}
+	}
+	return sb.String()
 }
 
 // normalizeSlugForMatch strips date prefixes and category prefixes from a slug

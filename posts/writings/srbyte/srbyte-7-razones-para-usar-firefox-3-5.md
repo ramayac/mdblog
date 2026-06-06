@@ -13,7 +13,7 @@ Leyendo el blog [SwordFish](https://swordfishcode.com/2009/07/firefox-con-el-303
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQFLzoo9lGhYS4r2QV9GossCXD_tikgSg-i9Ie4fahyphenhyphengHj37Gdy7uLR7XqNkK88TIJwa510WO00Ot35q7BCHFEythctzc9zRqtm6M9lxzA2DOQzkVAPutYCqRsh8QqPOLr8-U7XNIuTOB2/s320/2009july.gif)    
 
-Y no es de extrañarnos, con [Firefox 3.5](/2009/06/usar-firefox-35-se-ha-dicho.html), prácticamente se enmendó las pocas deficiencias que tenía la version 3.0 Asi que, para los aun "no conversos", enumero rápidamente 7 razones para usar Firefox 3.5:
+Y no es de extrañarnos, con [Firefox 3.5](/2009/06/a-usar-firefox-3-5-se-ha-dicho), prácticamente se enmendó las pocas deficiencias que tenía la version 3.0 Asi que, para los aun "no conversos", enumero rápidamente 7 razones para usar Firefox 3.5:
 
 1. Velocidad: El criterio numero uno para determinar si un navegador web es bueno o no es su velocidad. La versión 3.5 de Mozilla Firefox es marcadamente mas veloz que su antecesor, dos veces mas que Firefox 3.0 y diez veces mas veloz que Firefox 2.... Mozilla utiliza el estándar de la industria para pruebas de rendimiento de JavaScript, nada menos que [SunSpider JavaScript Benchmark](https://www2.webkit.org/perf/sunspider-0.9/sunspider.html), para salir con estos números.
 

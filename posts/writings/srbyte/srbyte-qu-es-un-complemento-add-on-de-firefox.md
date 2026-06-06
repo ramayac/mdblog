@@ -7,11 +7,11 @@ draft: false
 post_id: blog-3515952828243908885.post-4536594053437362855
 ---
 
-Un Complemento o Add-on(en ingles) son mejoras que se pueden instalar a [FireFox](https://srbyte.blogspot.com/2008/07/el-guiness-record-de-firefox-3.html). Un Complemento permite al usuario añadir o aumentar las características de [FireFox](https://srbyte.blogspot.com/2008/07/el-guiness-record-de-firefox-3.html), usar temas visuales y manejar nuevos tipos de contenido dentro del navegador.
+Un Complemento o Add-on(en ingles) son mejoras que se pueden instalar a [FireFox](https://srbyte.blogspot.com/2008/07/el-guinness-record-de-firefox-3). Un Complemento permite al usuario añadir o aumentar las características de [FireFox](https://srbyte.blogspot.com/2008/07/el-guinness-record-de-firefox-3), usar temas visuales y manejar nuevos tipos de contenido dentro del navegador.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi4sapaaRh77AyP6A1MFnnyGy2xDwzhlsxogXCMVwRgc8IVUgvQxVkLmGGgKlyJX1WCzaevrB2e7lLBgSjhTzwm6dJp6P_9xdrPLgXwgI_hvlINKurf268J1Z_dDEAfFQ_s0M8JeDQqwU/s320/firefox-logo.png)    Un complemento también puede ser usado para modificar el comportamiento de las características existentes de la aplicación o añadir comportamientos completamente nuevos. Los complementos son particularmente populares con FireFox, porque cuando se comenzó el proyecto Mozilla (derivado de Netscape), los desarrolladores quisieron que el navegador fuera bastante minimalista, para reducir el numero de posibles errores e inconvenientes que surgen en el ciclo de vida del software, y de esta forma retener un alto grado de flexibilidad para permitir que los usuarios añadan las características que ellos prefieren.
 
-Para ver los complementos instalados (y temas y plugins...) en [Firefox 3.0](https://srbyte.blogspot.com/2008/07/el-guiness-record-de-firefox-3.html), da click al menú Herramientas y luego Complementos:
+Para ver los complementos instalados (y temas y plugins...) en [Firefox 3.0](https://srbyte.blogspot.com/2008/07/el-guinness-record-de-firefox-3), da click al menú Herramientas y luego Complementos:
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkjkkZsBfEqsxKZ9Y84FRJX7tKup4nyzfFhJRMl7G7g1zETCQyI4p1RdWuZVuXI321I0artBrAImbMwi6UtpzaHJCcmg1hEuPUXY6Ow7-K4SuSzo_SSWZnIfQSduJMUA0TBdufrlhWkEI/s400/menu-tools-addons.jpg)    
 "Accesa a la ventana de complementos: Click al menú Herramientas -> y luego a Complementos"
