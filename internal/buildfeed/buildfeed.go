@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"net/url"
 	"os"
 	"path/filepath"
 	"time"
@@ -19,7 +18,6 @@ type indexPost struct {
 	Date         string `json:"date"`
 	Author       string `json:"author"`
 	Tags         string `json:"tags"`
-	Description  string `json:"description"`
 	Excerpt      string `json:"excerpt"`
 	CategorySlug string `json:"category_slug"`
 	SourcePath   string `json:"source_path"`
@@ -109,7 +107,7 @@ func Build(cfg *config.Config) error {
 	// Build items
 	items := make([]rssItem, 0, len(posts))
 	for _, p := range posts {
-		link := buildPostURL(baseURL, p.Slug, p.CategorySlug)
+		link := buildPostURL(cfg, baseURL, p.Slug, p.CategorySlug)
 		pubDate := ""
 		if t, err := time.Parse("2006-01-02", p.Date); err == nil {
 			pubDate = t.UTC().Format(time.RFC1123Z)
@@ -178,10 +176,23 @@ func Build(cfg *config.Config) error {
 }
 
 // buildPostURL constructs an absolute post URL.
-func buildPostURL(baseURL, slug, categorySlug string) string {
-	u := baseURL + "/post?slug=" + url.QueryEscape(slug)
+func buildPostURL(cfg *config.Config, baseURL, slug, categorySlug string) string {
+	var folder string
 	if categorySlug != "" {
-		u += "&category=" + url.QueryEscape(categorySlug)
+		cat, ok := cfg.Categories[categorySlug]
+		if ok {
+			folder = cat.Folder
+			if folder == "" {
+				folder = categorySlug
+			}
+		} else {
+			folder = categorySlug
+		}
 	}
+	u := baseURL + "/content/"
+	if folder != "" {
+		u += folder + "/"
+	}
+	u += slug
 	return u
 }

@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - 'posts/**/*.md'
+      - 'content/**/*.md'
 
 jobs:
   build-and-push-ghcr:

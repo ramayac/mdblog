@@ -4,7 +4,7 @@ log_lines = 10
 
 ignore = [
   "wiki/",
-  "posts/",
+  "content/",
   "bin/",
   "render/",
   "feed.xml",

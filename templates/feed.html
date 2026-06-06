@@ -27,10 +27,10 @@
             <tr>
                 <td class="feed-date">{{ formatDate .Date }}</td>
                 <td class="feed-category">
-                    {{ if .Category }}<a href="/?category={{ .CategorySlug | urlquery }}">{{ .Category.BlogName }}</a>{{ end }}
+                    {{ if .Category }}<a href="/content/{{ .Category.Folder }}/">{{ .Category.BlogName }}</a>{{ end }}
                 </td>
                 <td class="feed-title">
-                    <a href="/post?slug={{ .Slug | urlquery }}{{ if .CategorySlug }}&category={{ .CategorySlug | urlquery }}{{ end }}">{{ .Title }}</a>
+                    <a href="/content/{{ if .Category }}{{ .Category.Folder }}/{{ end }}{{ .Slug }}">{{ .Title }}</a>
                 </td>
             </tr>
             {{ end }}

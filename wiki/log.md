@@ -1,5 +1,36 @@
 # Wiki Log
 
+## [2026-06-06] ingest | created performance insights wiki page
+
+- Created `wiki/performance.md` documenting key optimization strategies (redundancy elimination, index bypassing via clean slugs, embedded memory vs disk reads) and raw benchmark/simulation test results.
+- Linked the performance page in `wiki/index.md`.
+
+## [2026-06-06] ingest | created default embedded templates and assets plan
+
+- Created `wiki/embedded-path-plan.md` outlining the technical strategy to enable in-memory assets and templates by default in both local and production environments, while preserving dynamic disk-reloading during development.
+- Linked the plan in `wiki/index.md`.
+
+## [2026-06-06] ingest | renamed posts.index.json to content.index.json and verified parsing performance
+
+- Renamed `posts.index.json` to `content.index.json` to reflect that it lives in the `content/` folder and indexes clean content slugs.
+- Updated default path configurations in `config.toml`, `internal/config/config.go`, `Makefile`, and updated references across all Go unit tests.
+- Created a parsing speed performance test and a randomized traffic simulation in `internal/blog/performance_test.go` running 500 iterations.
+- Verified that parsing the ~400 KB `content.index.json` containing 659 posts averages 2.86ms.
+- Verified that a realistic user traffic simulation (69% post reads, 18.4% category list views, 12.6% searches) averages **1.27ms** per request, proving that direct path lookups successfully bypass the index and minimize latency.
+
+## [2026-06-06] ingest | merged description and excerpt in post index
+
+- Removed the redundant `description` field from `posts.index.json` schema (`IndexPost` struct in `buildindex.go`, `indexPost` struct in `blog.go`, and `indexPost` struct in `buildfeed.go`).
+- Updated `indexPostToPost` in `internal/blog/blog.go` to fallback/hydrate `FrontMatter.Description` from the post `Excerpt` when building post list responses.
+- Cleaned up mocked post index JSON strings in unit tests (`internal/blog/blog_test.go` and `internal/buildindex/buildindex_test.go`) to conform to the new structure without the `description` key.
+- Verified that all unit and integration tests pass successfully and regenerated `content/posts.index.json` without the `description` key.
+
+## [2026-06-06] ingest | created clean category and page slugs technical plan
+
+- Created `wiki/clean-slugs-plan.md` outlining the technical strategy to rename the `posts/` folder to `content/` and route clean URL slugs (e.g. `/content/category/post` and `/pages/about`) while preserving backward compatibility.
+- Created git branch `feat/new-slugs-2` for the implementation phase.
+- Registered the clean slugs plan in the wiki index.
+
 ## [2026-06-05] ingest | implemented URL mapping, link linter, CSS theme normalization, and root favicon serving
 
 - **Legacy URL Native Resolution**:

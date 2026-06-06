@@ -94,7 +94,6 @@ type indexPost struct {
 	Date         string `json:"date"`
 	Author       string `json:"author"`
 	Tags         string `json:"tags"`
-	Description  string `json:"description"`
 	Excerpt      string `json:"excerpt"`
 	CategorySlug string `json:"category_slug"`
 	SourcePath   string `json:"source_path"`
@@ -197,7 +196,7 @@ func (b *Blog) GetPostBySlug(slug, categorySlug string) *Post {
 	if !fileExists(fullPath) {
 		// Index fallback: slug-to-filename mapping (handles slugs that
 		// differ from the raw filename, e.g. double-dash collapse).
-		if resolved, resolvedCat := b.resolveSlugViaIndex(slug); resolved != "" {
+		if resolved, resolvedCat := b.ResolveSlugViaIndex(slug); resolved != "" {
 			fullPath = resolved
 			categorySlug = resolvedCat
 		}
@@ -293,9 +292,13 @@ func (b *Blog) GetNavPinned() []MenuLink {
 		if !ok {
 			continue
 		}
+		folder := cat.Folder
+		if folder == "" {
+			folder = ref.Category
+		}
 		links = append(links, MenuLink{
 			Label: cat.BlogName,
-			URL:   "/?category=" + ref.Category,
+			URL:   "/content/" + folder + "/",
 		})
 	}
 	return links
@@ -318,9 +321,13 @@ func (b *Blog) GetDropdownCategories(dropdown config.MenuDropdown) []MenuLink {
 		if !ok {
 			continue
 		}
+		folder := cat.Folder
+		if folder == "" {
+			folder = ref.Category
+		}
 		links = append(links, MenuLink{
 			Label: cat.BlogName,
-			URL:   "/?category=" + ref.Category,
+			URL:   "/content/" + folder + "/",
 		})
 	}
 	return links
@@ -663,9 +670,9 @@ func (b *Blog) parsePost(fullPath string) (*Post, error) {
 	}, nil
 }
 
-// resolveSlugViaIndex searches the post index for a slug and returns the full
+// ResolveSlugViaIndex searches the post index for a slug and returns the full
 // filesystem path and category slug when found, or empty strings when not found.
-func (b *Blog) resolveSlugViaIndex(slug string) (string, string) {
+func (b *Blog) ResolveSlugViaIndex(slug string) (string, string) {
 	index := b.loadPostIndex()
 	if index == nil {
 		return "", ""
@@ -674,6 +681,10 @@ func (b *Blog) resolveSlugViaIndex(slug string) (string, string) {
 		if ip.Slug == slug {
 			catSlug := ip.CategorySlug
 			if catSlug == "" {
+				candidate := filepath.Join(b.cfg.PostsDir, ip.Filename)
+				if fileExists(candidate) {
+					return candidate, ""
+				}
 				continue
 			}
 			cat, ok := b.cfg.Categories[catSlug]
@@ -706,7 +717,7 @@ func indexPostToPost(ip indexPost) Post {
 			Date:        ip.Date,
 			Author:      ip.Author,
 			Tags:        ip.Tags,
-			Description: ip.Description,
+			Description: ip.Excerpt,
 		},
 	}
 }

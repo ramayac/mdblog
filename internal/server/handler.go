@@ -147,38 +147,104 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// ── Route: single post (/post) ─────────────────────────────────────────
-	if path == "/post" || strings.HasSuffix(path, "/post") {
-		h.servPost(w, r)
+	// ── Redirections for Legacy URLs (301 Permanent Redirect) ─────────────
+	if path == "/" {
+		q := r.URL.Query()
+		if q.Has("category") {
+			catSlug := q.Get("category")
+			cat := h.b.GetCategoryBySlug(catSlug)
+			if cat != nil {
+				folder := cat.Folder
+				if folder == "" {
+					folder = catSlug
+				}
+				dest := "/content/" + folder + "/"
+				if q.Has("page") {
+					dest += "?page=" + q.Get("page")
+				}
+				http.Redirect(w, r, dest, http.StatusMovedPermanently)
+				return
+			}
+		}
+	}
+
+	if path == "/page" || strings.HasSuffix(path, "/page") {
+		q := r.URL.Query()
+		if q.Has("slug") {
+			slug := q.Get("slug")
+			http.Redirect(w, r, "/pages/"+slug, http.StatusMovedPermanently)
+			return
+		}
+		http.Redirect(w, r, "/", http.StatusFound)
 		return
 	}
 
-	// ── Route: static page (/page) ────────────────────────────────────────
-	if path == "/page" || strings.HasSuffix(path, "/page") {
-		h.serveStaticPage(w, r)
+	if path == "/post" || strings.HasSuffix(path, "/post") {
+		q := r.URL.Query()
+		if q.Has("slug") {
+			slug := q.Get("slug")
+			catSlug := q.Get("category")
+			var folder string
+			if catSlug != "" {
+				cat := h.b.GetCategoryBySlug(catSlug)
+				if cat != nil {
+					folder = cat.Folder
+					if folder == "" {
+						folder = catSlug
+					}
+				}
+			}
+			if folder == "" {
+				if _, resolvedCat := h.b.ResolveSlugViaIndex(slug); resolvedCat != "" {
+					cat := h.b.GetCategoryBySlug(resolvedCat)
+					if cat != nil {
+						folder = cat.Folder
+						if folder == "" {
+							folder = resolvedCat
+						}
+					}
+				}
+			}
+			dest := "/content/"
+			if folder != "" {
+				dest += folder + "/"
+			}
+			dest += slug
+			http.Redirect(w, r, dest, http.StatusMovedPermanently)
+			return
+		}
+		http.Redirect(w, r, "/", http.StatusFound)
+		return
+	}
+
+	// ── Route: clean pages (/pages/*) ─────────────────────────────────────
+	if strings.HasPrefix(path, "/pages/") {
+		h.serveCleanPage(w, r)
+		return
+	}
+
+	// ── Route: clean content (/content/*) ─────────────────────────────────
+	if strings.HasPrefix(path, "/content/") {
+		h.serveCleanContent(w, r)
 		return
 	}
 
 	// ── Legacy/Alternative URL resolution ─────────────────────────────────
 	if post, resolved := h.b.ResolveOldURL(path); resolved {
-		start := time.Now()
-		menu := h.b.GetMenu()
-		canonical := buildCanonical(r)
-		cssV := cssVersion(h.cfg.CSSTheme)
-		footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-		versionInfo := h.b.GetVersionInfo()
-
-		base := templateData{
-			Config:     h.cfg,
-			OGType:     "article",
-			Canonical:  canonical,
-			CSSVersion: cssV,
-			Menu:       menu,
-			FooterHTML: footerHTML,
-			Version:    versionInfo,
+		cat := h.b.GetCategoryBySlug(post.CategorySlug)
+		var folder string
+		if cat != nil {
+			folder = cat.Folder
+			if folder == "" {
+				folder = post.CategorySlug
+			}
 		}
-
-		h.renderSinglePost(w, r, start, post, post.CategorySlug, base)
+		dest := "/content/"
+		if folder != "" {
+			dest += folder + "/"
+		}
+		dest += post.Slug
+		http.Redirect(w, r, dest, http.StatusMovedPermanently)
 		return
 	}
 
@@ -587,10 +653,23 @@ func mustLoadTemplates() *template.Template {
 			if slug == "" {
 				slug = catSlug
 			}
-			url := "/post?slug=" + p.Slug
+			var folder string
 			if slug != "" {
-				url += "&category=" + slug
+				cat, ok := cfg.Categories[slug]
+				if ok {
+					folder = cat.Folder
+					if folder == "" {
+						folder = slug
+					}
+				} else {
+					folder = slug
+				}
 			}
+			url := "/content/"
+			if folder != "" {
+				url += folder + "/"
+			}
+			url += p.Slug
 			return postPreviewData{Post: p, PostURL: url, Config: cfg}
 		},
 	}
@@ -728,4 +807,147 @@ func simpleHash(s string) uint64 {
 		h *= 1099511628211
 	}
 	return h
+}
+
+func (h *Handler) serveCleanPage(w http.ResponseWriter, r *http.Request) {
+	start := time.Now()
+	slug := strings.TrimPrefix(r.URL.Path, "/pages/")
+	slug = strings.TrimSuffix(slug, "/")
+
+	if slug == "" || !validSlug(slug) {
+		http.Redirect(w, r, "/", http.StatusFound)
+		return
+	}
+
+	menu := h.b.GetMenu()
+	canonical := buildCanonical(r)
+	cssV := cssVersion(h.cfg.CSSTheme)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
+	versionInfo := h.b.GetVersionInfo()
+
+	page := h.b.GetPage(slug)
+	if page == nil {
+		h.serve404(w, r, start, menu, canonical, cssV)
+		return
+	}
+
+	data := &templateData{
+		Config:          h.cfg,
+		PageTitle:       page.Title + " — " + h.cfg.BlogName,
+		PageDescription: page.FrontMatter.Description,
+		OGType:          "website",
+		Canonical:       canonical,
+		CSSVersion:      cssV,
+		Menu:            menu,
+		FooterHTML:      footerHTML,
+		Version:         versionInfo,
+		Page:            page,
+	}
+	h.renderPage(w, r, start, "page.html", data)
+}
+
+func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
+	start := time.Now()
+	relPath := strings.TrimPrefix(r.URL.Path, "/content/")
+	relPath = strings.TrimSuffix(relPath, "/")
+
+	if relPath == "" {
+		http.Redirect(w, r, "/", http.StatusFound)
+		return
+	}
+
+	menu := h.b.GetMenu()
+	canonical := buildCanonical(r)
+	cssV := cssVersion(h.cfg.CSSTheme)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
+	versionInfo := h.b.GetVersionInfo()
+
+	base := templateData{
+		Config:     h.cfg,
+		CSSVersion: cssV,
+		Menu:       menu,
+		FooterHTML: footerHTML,
+		Version:    versionInfo,
+	}
+
+	// 1. Check if the entire relPath corresponds to a category folder
+	var categorySlug string
+	for slug, cat := range h.cfg.Categories {
+		folder := cat.Folder
+		if folder == "" {
+			folder = slug
+		}
+		if folder == relPath {
+			categorySlug = slug
+			break
+		}
+	}
+
+	if categorySlug != "" {
+		cat := h.b.GetCategoryBySlug(categorySlug)
+		if cat == nil {
+			h.serve404(w, r, start, menu, canonical, cssV)
+			return
+		}
+		q := r.URL.Query()
+		page := max1(intParam(q.Get("page"), 1))
+
+		list := h.b.GetPosts(page, categorySlug)
+		data := base
+		data.OGType = "website"
+		data.Canonical = canonical
+		data.PageTitle = h.cfg.BlogName + " - " + cat.BlogName
+		data.PageDescription = cat.HeaderContent
+		data.CurrentCategory = cat
+		data.CategorySlug = categorySlug
+		data.Posts = list.Posts
+		data.Pagination = list.Pagination
+		data.SubCategories = h.b.GetSubCategories(categorySlug)
+		data.JSONLD = buildWebPageJSONLD(h.cfg, canonical, data.PageTitle, cat.HeaderContent)
+		h.renderPage(w, r, start, "category.html", &data)
+		return
+	}
+
+	// 2. Check if it's a post. Split the last segment as the slug, and everything before it as the category folder.
+	var folderPath, postSlug string
+	lastSlash := strings.LastIndex(relPath, "/")
+	if lastSlash != -1 {
+		folderPath = relPath[:lastSlash]
+		postSlug = relPath[lastSlash+1:]
+	} else {
+		postSlug = relPath
+	}
+
+	if postSlug == "" || !validSlug(postSlug) {
+		h.serve404(w, r, start, menu, canonical, cssV)
+		return
+	}
+
+	var postCategorySlug string
+	if folderPath != "" {
+		for slug, cat := range h.cfg.Categories {
+			folder := cat.Folder
+			if folder == "" {
+				folder = slug
+			}
+			if folder == folderPath {
+				postCategorySlug = slug
+				break
+			}
+		}
+		if postCategorySlug == "" {
+			h.serve404(w, r, start, menu, canonical, cssV)
+			return
+		}
+	}
+
+	post := h.b.GetPostBySlug(postSlug, postCategorySlug)
+	if post == nil {
+		h.serve404(w, r, start, menu, canonical, cssV)
+		return
+	}
+
+	base.OGType = "article"
+	base.Canonical = canonical
+	h.renderSinglePost(w, r, start, post, postCategorySlug, base)
 }

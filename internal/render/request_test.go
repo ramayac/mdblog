@@ -44,7 +44,7 @@ func TestRequest_Success(t *testing.T) {
 		Lang:          "en",
 		PostsDir:      dir,
 		PagesDir:      dir + "/pages",
-		PostIndexFile: dir + "/posts.index.json",
+		PostIndexFile: dir + "/content.index.json",
 		DateFormat:    "2006-01-02",
 		CSSTheme:      "assets/css/default.style.css",
 		MenuLinks:     []config.MenuLink{{Label: "Home", URL: "/"}},
@@ -77,7 +77,7 @@ This is the test about page content.
 
 	// Capture output for Request("/page?slug=about")
 	output, err := captureStdout(func() error {
-		return Request(cfg, "/page?slug=about")
+		return Request(cfg, "/pages/about")
 	})
 
 	if err != nil {
@@ -111,7 +111,7 @@ func TestRequest_NotFound(t *testing.T) {
 		BlogName:      "Test Blog",
 		PostsDir:      dir,
 		PagesDir:      dir + "/pages",
-		PostIndexFile: dir + "/posts.index.json",
+		PostIndexFile: dir + "/content.index.json",
 		DateFormat:    "2006-01-02",
 		CSSTheme:      "assets/css/default.style.css",
 		Labels: config.Labels{
@@ -127,7 +127,7 @@ func TestRequest_NotFound(t *testing.T) {
 
 	// Capture output for a non-existent page
 	output, err := captureStdout(func() error {
-		return Request(cfg, "/page?slug=does-not-exist")
+		return Request(cfg, "/pages/does-not-exist")
 	})
 
 	if err == nil {

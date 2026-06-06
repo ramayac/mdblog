@@ -23,7 +23,6 @@ type IndexPost struct {
 	Date         string `json:"date"`
 	Author       string `json:"author"`
 	Tags         string `json:"tags"`
-	Description  string `json:"description"`
 	Excerpt      string `json:"excerpt"`
 	CategorySlug string `json:"category_slug"`
 	SourcePath   string `json:"source_path"`
@@ -161,7 +160,6 @@ func scanFolder(dir, categorySlug, dateFormat string) ([]IndexPost, error) {
 			Date:         date,
 			Author:       fm.Author,
 			Tags:         fm.Tags,
-			Description:  fm.Description,
 			Excerpt:      excerpt,
 			CategorySlug: categorySlug,
 			SourcePath:   sourcePath,

@@ -17,7 +17,7 @@ func makeTestConfig(t *testing.T) *config.Config {
 		BlogName:      "Test Blog",
 		Lang:          "en",
 		PostsDir:      dir,
-		PostIndexFile: filepath.Join(dir, "posts.index.json"),
+		PostIndexFile: filepath.Join(dir, "content.index.json"),
 		DateFormat:    "2006-01-02",
 		Categories: map[string]config.Category{
 			"tech": {BlogName: "Tech Posts", Folder: "tech", Index: true},
@@ -110,7 +110,7 @@ func TestBuildSitemap_CategoryURLs(t *testing.T) {
 		"---\ntitle: Post Two\ndate: 2024-02-01\n---\nContent.")
 
 	xmlStr, _ := testBuildSitemap(t, cfg)
-	count := strings.Count(xmlStr, "?category=tech")
+	count := strings.Count(xmlStr, "https://example.com/content/tech/</loc>")
 	if count != 1 {
 		t.Errorf("expected category URL exactly once (deduped), got %d occurrences", count)
 	}
@@ -122,11 +122,8 @@ func TestBuildSitemap_PostURLs(t *testing.T) {
 		"---\ntitle: My Post\ndate: 2024-01-15\n---\nContent.")
 
 	xmlStr, _ := testBuildSitemap(t, cfg)
-	if !strings.Contains(xmlStr, "slug=2024-01-15-my-post") {
-		t.Errorf("expected post slug in sitemap URL")
-	}
-	if !strings.Contains(xmlStr, "category=tech") {
-		t.Errorf("expected category param in post URL")
+	if !strings.Contains(xmlStr, "/content/tech/2024-01-15-my-post") {
+		t.Errorf("expected clean post URL in sitemap")
 	}
 	if !strings.Contains(xmlStr, "<lastmod>2024-01-15</lastmod>") {
 		t.Errorf("expected <lastmod> with post date")
@@ -227,11 +224,11 @@ func TestBuildSitemap_PostWithoutCategory(t *testing.T) {
 		"---\ntitle: Root Post\ndate: 2024-01-15\n---\nContent.")
 
 	xmlStr, _ := testBuildSitemap(t, cfg)
-	if !strings.Contains(xmlStr, "slug=2024-01-15-root-post") {
-		t.Errorf("expected root post slug in sitemap")
+	if !strings.Contains(xmlStr, "/content/2024-01-15-root-post") {
+		t.Errorf("expected root post URL in sitemap")
 	}
-	if strings.Contains(xmlStr, "slug=2024-01-15-root-post&amp;category=") {
-		t.Errorf("uncategorized post URL should not include category param")
+	if strings.Contains(xmlStr, "/content/tech/") {
+		t.Errorf("uncategorized post URL should not include category folder")
 	}
 }
 

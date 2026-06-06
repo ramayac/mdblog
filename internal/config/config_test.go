@@ -12,8 +12,8 @@ func TestLoad(t *testing.T) {
 blog_name = "Test Blog"
 author_name = "Tester"
 posts_per_page = 5
-posts_dir = "posts"
-post_index_file = "posts/posts.index.json"
+posts_dir = "content"
+post_index_file = "content/content.index.json"
 date_format = "2006-01-02"
 
 [csp]

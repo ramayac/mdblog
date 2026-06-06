@@ -91,10 +91,23 @@ func buildArticleJSONLD(cfg *config.Config, post *blog.Post, canonical, category
 	}
 	url := canonical
 	if url == "" && base != "" {
-		url = base + "/post?slug=" + post.Slug
+		var folder string
 		if categorySlug != "" {
-			url += "&category=" + categorySlug
+			cat, ok := cfg.Categories[categorySlug]
+			if ok {
+				folder = cat.Folder
+				if folder == "" {
+					folder = categorySlug
+				}
+			} else {
+				folder = categorySlug
+			}
 		}
+		url = base + "/content/"
+		if folder != "" {
+			url += folder + "/"
+		}
+		url += post.Slug
 	}
 
 	description := post.FrontMatter.Description
@@ -219,16 +232,29 @@ func (h *Handler) serveSitemap(w http.ResponseWriter, r *http.Request) {
 	}
 	for _, cat := range h.b.GetCategoriesSorted() {
 		urls = append(urls, sitemapURL{
-			Loc:        base + "/?category=" + cat.Slug,
+			Loc:        base + "/content/" + cat.Folder + "/",
 			ChangeFreq: h.cfg.Sitemap.ChangeFreqCategory,
 			Priority:   h.cfg.Sitemap.PriorityCategory,
 		})
 	}
 	for _, p := range h.b.GetFeedPosts(10000) {
-		u := base + "/post?slug=" + p.Slug
+		var folder string
 		if p.CategorySlug != "" {
-			u += "&category=" + p.CategorySlug
+			cat := h.b.GetCategoryBySlug(p.CategorySlug)
+			if cat != nil {
+				folder = cat.Folder
+				if folder == "" {
+					folder = p.CategorySlug
+				}
+			} else {
+				folder = p.CategorySlug
+			}
 		}
+		u := base + "/content/"
+		if folder != "" {
+			u += folder + "/"
+		}
+		u += p.Slug
 		entry := sitemapURL{Loc: u, ChangeFreq: h.cfg.Sitemap.ChangeFreqPost, Priority: h.cfg.Sitemap.PriorityPost}
 		if p.Date != "" {
 			entry.LastMod = p.Date
