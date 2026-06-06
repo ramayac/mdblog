@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+	"testing/fstest"
+	"time"
 
 	"github.com/ramayac/mdblog/internal/blog"
 	"github.com/ramayac/mdblog/internal/buildfeed"
@@ -540,5 +542,29 @@ func TestLegacyAlternativeResolution(t *testing.T) {
 	}
 	if !strings.Contains(body2, `href="/assets/css/default.style.css`) {
 		t.Error("stylesheet path should start with a leading slash / to resolve correctly on deep legacy URLs")
+	}
+}
+
+func TestFaviconRoute(t *testing.T) {
+	oldAssets := AssetsFS
+	defer func() { AssetsFS = oldAssets }()
+
+	AssetsFS = fstest.MapFS{
+		"favicon.ico": &fstest.MapFile{
+			Data:    []byte("fake icon data"),
+			Mode:    0644,
+			ModTime: time.Now(),
+		},
+	}
+
+	h := testSetup(t)
+
+	w := get(h, "/favicon.ico")
+	if w.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w.Code)
+	}
+	contentType := w.Header().Get("Content-Type")
+	if contentType != "image/x-icon" {
+		t.Errorf("Content-Type = %q, want 'image/x-icon'", contentType)
 	}
 }

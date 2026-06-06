@@ -110,6 +110,11 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	if path == "/favicon.ico" {
+		h.serveAsset(w, r, "/assets/favicon.ico")
+		return
+	}
+
 	// ── Legacy Blogger search/label redirects ─────────────────────────────
 	if strings.HasPrefix(path, "/search/label/") {
 		tag := strings.TrimPrefix(path, "/search/label/")
