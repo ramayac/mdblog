@@ -50,6 +50,7 @@ label = "Writings"
 item = [
     { category = "personal", order = 1 },
     { category = "substack", order = 4 },
+    { category = "unalistaaparte", order = 3 },
     { category = "srbyte", order = 5 }
 ]
 
@@ -77,6 +78,12 @@ index          = true
 blog_name      = "Code Forward ⏩"
 header_content = "(2023) Substack failed newsletter."
 folder         = "writings/substack"
+index          = false
+
+[categories.unalistaaparte]
+blog_name      = "Una Lista a Parte 📝"
+header_content = "(2022) A personal list of things I've found interesting."
+folder         = "writings/unalistaaparte"
 index          = false
 
 [categories.srbyte]
