@@ -13,6 +13,8 @@ A continuación comparto con ustedes un vídeo en el que pueden apreciar lo que 
 
 Ultimate Marvel vs Capcom 3
 
+[Video](https://www.youtube.com/embed/3_rBrIaSNeU?rel=0)
+
 Cortesía de Mantan TV.
 
 Todo indica que el PS Vita es un fuerte contendiente para el Nintendo 3DS, sin embargo, los consumidores son los que tienen la última palabra. ¿Por cuál te decidirías PS Vita o Nintendo 3DS?. Es interesante conocer tu opinión.

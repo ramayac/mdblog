@@ -17,7 +17,11 @@ Ahora me encontré con este interesante video de [https://phreakmonkey.com]
 
 Lo increíble, no solo es ver que el módem funciona perfectamente, sino que K.C. (el autor del video y dueño del modem) se conecta (sin muchos inconvenientes) a la página de la wikipedia, acá les dejo el video de youtube:
 
+[Video](https://www.youtube.com/embed/X9dpXHnJXaE)
+
 Y también, una charla completa del mismo tema que dio en el DEFCON 17:
+
+[Video](https://player.vimeo.com/video/7644020?title=0&byline=0&portrait=0)
 
 ¿No es genial?, ¿Qué les parece? si que hemos avanzado :)
 

@@ -20,6 +20,8 @@ Humble Indie Bundle 3
 
 Como siempre, ustedes ponen el precio que quieran, todos los juegos son multiplataforma (y redimibles en Stream), además el porcentaje que ustedes quieran va para Child's Play Charity y la Electronic Frontier Foundation, y también para los desarrolladores.
 
+[Video](https://www.youtube.com/embed/E4c6PWtE9mI)
+
 Los invito a participar y colaborar para no dejar pasar la oportunidad:
 
 > [https://www.humblebundle.com/](https://www.humblebundle.com/)

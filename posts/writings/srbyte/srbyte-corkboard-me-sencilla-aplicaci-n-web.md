@@ -25,4 +25,6 @@ Lo podes usar para hacer: presentaciones, mapas mentales, en una clase interac
 
 Los invito a usar esta interesante aplicación y a visitar: [https://corkboard.me/](https://corkboard.me/), y los dejo con el video de uso de Corkboard.me:
 
+[YouTube video player](https://www.youtube.com/embed/GeaFCfOPwy4)
+
 ¿Qué otros servicios conocen que sean así de sencillos y funcionales? ¡Saludos!

@@ -27,6 +27,7 @@ Para los interesados de este evento y los curiosos, hay una cuenta en [YouTube](
 "Video: Campus Party Iberoamérica"
 
 También les comparto la agenda del evento:
+[Video/Embed](//www.google.com/calendar/hosted/futuranetworks.com/embed?showNav=0&showDate=0&showTabs=0&showTz=0&mode=AGENDA&height=300&wkst=1&bgcolor=%23ffffff&src=futuranetworks.com_5h1vpr5dmrq5aj6k2b8njf7k68%40group.calendar.google.com&color=%232952A3&src=futuranetworks.com_anik30a5ft1a04okn8gdiosr34%40group.calendar.google.com&color=%234E5D6C&src=futuranetworks.com_fc08rv4r5g2m4ra8dd5l7ak440%40group.calendar.google.com&color=%23528800&src=futuranetworks.com_7a8f3nrdnhl93jbfn9766grba0%40group.calendar.google.com&color=%23B1365F&src=futuranetworks.com_e6jffgggt247tg7g4fif0174cg%40group.calendar.google.com&color=%23BE6D00&ctz=America%2FBogota)
 
 Primeras Fotos del Evento Como mencione arriba, hay varias fotografías de la planeación y del evento en Flickr. Ya podemos ver como se esta armando la infraestructura que albergará a 600 personas en el Campus Party:
 
@@ -60,6 +61,7 @@ El lugar:
 
 Y finalmente, [el Mapa para que no se pierdan:](https://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=117139639938268086068.000459ddb9a1bc7a062c7&ll=13.69169,-89.241428&spn=0.050035,0.09922&z=13&source=embed)
 
+[Video/Embed](https://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=117139639938268086068.000459ddb9a1bc7a062c7&ll=13.69169,-89.241428&spn=0.050035,0.09922&output=embed&s=AARTsJqBJX3uBZkXpUEefwFq1JV7QYMiYg)
 [View Larger Map](https://maps.google.com/maps/ms?ie=UTF8&msa=0&msid=117139639938268086068.000459ddb9a1bc7a062c7&ll=13.69169,-89.241428&spn=0.050035,0.09922&source=embed)
 
 Espero que podamos encontrarnos en el Campus Party, ¡Allá nos vemos!

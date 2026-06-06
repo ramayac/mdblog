@@ -13,6 +13,8 @@ Hoy en día al abrir una página web, el consumidor de ve golpeado con un sin fi
 
 "Predice que el impacto visual", dice William Smyth, gerente de la división de gráficos de 3M, con aproximadamente 30 años de experiencia en hardware y software de imagen. "Sea cual sea el contenido creativo que está trabajando, podemos ayudar a asegurar que va a llamar la atención de la gente".
 
+[Video](https://www.youtube.com/embed/Z2tqlgrxSn8)
+
 VAS es una herramienta muy útil, y con plataforma Web. Basta con ingresar al sitio web de 3M, subir una imagen o introducir una dirección URL, y VAS la analizará. En unos 20 segundos sabrás que contenido resultará más llamativo. "Cuando vemos algo, nuestros ojos producen más datos de los que nuestro cerebro puede procesar, por lo que nuestro cerebro toma decisiones acerca de a lo que debemos prestar atención", dice Smyth. El algoritmo de VAS analiza color, bordes, caras, formas, contrastes, etc.
 
 Estos son los elementos son con los que juegan los diseñadores de una campaña y puede resultar muy útil para ayudar a los diseñadores a equilibrar las ventajas y desventajas que tienen que hacer en el diseño, por ejemplo, de un anuncio, dice Kelly Canavan.

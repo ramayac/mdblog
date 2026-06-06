@@ -23,4 +23,6 @@ Existen más detalles en [el blog de Mario Torre](https://www.jroller.com/neugen
 
 Los dejo con un vídeo de FOSDEM 2011:
 
+[YouTube video player](https://www.youtube.com/embed/dPh0lhL_Nx8)
+
 ¡Saludos!

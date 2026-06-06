@@ -41,6 +41,8 @@ Les detallo algunas características que posee Photovine:
 
 Les dejo el video con el que se anunciaron:
 
+[Video](https://www.youtube.com/embed/-MPIZKPhfDY)
+
 En lo personal me ha gustado mucho, quizá un poco mas que Instagram, pero no me agrada totalmente el hecho que no tenga a disposición mas redes sociales para compartir. El buscar las familias de fotos es divertido y entretenido ya que el agruparlas hace que se busquen específicamente temas de interés, esperemos que le sigan haciendo cambios para mejorarla.
 
 ¿Que les parece Photovine? ¿ya la instalaron?

@@ -11,6 +11,8 @@ Super quick post
 
 Esto es historia:
 
+[YouTube video player](https://www.youtube.com/embed/lI-M7O_bRNg)
+
 Watson me saco más de una sonrisa e IBM nuevamente demuestra que en espíritu, siguen siendo "el gran azul". Para más información sobre Watson, pueden visitar el sitio web de IBM dando [clic acá](https://www-943.ibm.com/innovation/us/watson/what-is-watson/index.html).
 
 > "I for one welcome our new computer﻿ overlords" -- Ken Jennings.

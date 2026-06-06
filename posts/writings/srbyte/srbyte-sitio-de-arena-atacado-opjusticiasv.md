@@ -19,6 +19,8 @@ Clic para ver más grande
 
 Les dejo el video con el mensaje en cuestión:
 
+[Video](https://www.youtube.com/embed/T9fgqBBVORM)
+
 Si les interesa la noticia, y como se va desarrollando estén pendientes del hashtag [#OPJusticiaSV](https://twitter.com/#!/search/%23OPJusticiaSV) en twitter. En lo personal, no apoyo ese tipo de mensajes para llamar la atención, y el momento en el que liberan el mensaje tampoco es el más adecuando (es más importante atender primero la emergencia nacional y ayudar a los hermanos Salvadoreños en necesidad), sin embargo no deja de parecerme curiosa la iniciativa y creo que muchos otros tampoco la apoyan, pero igual quieren "ver que pasa".
 
 ¿Creen que este tipo de iniciativas pueden funcionar?

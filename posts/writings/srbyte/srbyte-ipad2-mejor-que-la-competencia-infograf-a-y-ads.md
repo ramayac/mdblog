@@ -16,8 +16,14 @@ iPad2, ¿mejor que la competencia? Acá los dejo con algunos videos de la compet
 
 Motorola Xoom (hands-on):
 
+[YouTube video player](https://www.youtube.com/embed/SAseudjhvD0)
+
 Samsung Sliding PC (hands-on preview):
 
+[YouTube video player](https://www.youtube.com/embed/8fLH_4y1sP4)
+
 Notion Ink (Demo):
+
+[YouTube video player](https://www.youtube.com/embed/2A_jOec9eyc)
 
 PD: Les recuerdo que mañana (5 de Marzo de 2011) es el [BarCamp](https://barcampelsalvador.com/), allá nos vemos :)

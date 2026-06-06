@@ -14,6 +14,8 @@ BitTorrent resultó ser algo con muchísimo potencial, y cuya existencia esta re
 
 Hoy en día, BitTorrent es parte de la rutina diaria de millones de personas. Cientos de [Petabytes](https://en.wikipedia.org/wiki/Petabytes) de datos son transferidos por BitTorrent todos los días, y este numero continua en aumento.
 
+[Video](https://www.youtube.com/embed/aunu5EpBow0)
+
 Q&A informal con Bran Cohen
 
 ¿Algunos casos (legales) de uso de BitTorrent?

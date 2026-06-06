@@ -14,6 +14,8 @@ Apenas ayer (20 Marzo 2012) Google publico una nueva App en [Google Play](https:
 > "Captura rápidamente todos tus pensamientos y recuérdalos fácilmente estés donde estés. Crea una lista de cosas pendientes, toma una nota de voz o añade una foto. > Todo el contenido que añadas estará disponible al instante en todos tus dispositivos. > Google Keep te permite: > - Plasmar tus pensamientos a través de notas, listas y fotos > - Transcribir notas de voz automáticamente > - Usar widgets en el escritorio para capturar tus pensamientos rápidamente > - Identificar tus notas con colores para reconocerlas más fácilmente > - Deslizar las notas para archivarlas cuando ya no las necesites > - Convertir una nota en una lista de comprobación añadiendo casillas de verificación > - Acceder a tus notas estés donde estés: se guardan de forma segura en la nube en [https://drive.google.com/keep](https://drive.google.com/keep)
 "
 
+[Video](https://www.youtube.com/embed/UbvkHEDvw-o)
+
 "Video de Google Keep"
 
 Como les decía la App esta bien hecha y es sumamente funcional, con ella Google pretende adentrarse en el mercado ya fuertemente dominado por [Evernote](https://play.google.com/store/apps/details?id=com.evernote) (y otras apps [con similar funcionalidad](https://play.google.com/store/apps/details?id=org.dayup.gtask)), pero de manera mucho mas directa e integrada con Google Drive.

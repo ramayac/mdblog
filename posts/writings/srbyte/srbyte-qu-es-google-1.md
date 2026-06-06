@@ -10,6 +10,8 @@ post_id: blog-3515952828243908885.post-4835581735986283852
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQxe_bdN1n2q0HlCbpBNjp330jf4EBjNlDA1qUsbJ0QbtmSXQGSI1ZGI9zfiwjrU62J9ljeSQr8BjhCvMk1TKttxDj2ZXVTd_-so_AonehVQ6DPLCiCrapQiQ5rRjEGKlnPlCXsnHmgnoY/s1600/%252B1+icon.png)    
 [Google +1](https://www.google.com/+1/button/), es una nueva característica de Google para competir con el famoso botón de "Like" de Facebook. Lo interesante de esta nueva característica, es que pronto lo veremos integrado en todas las búsquedas que hagas en el popular buscador:
 
+[YouTube video player](https://www.youtube.com/embed/OAyUNI3_V2c)
+
 El "+1" es la forma efectiva en la que Google se acerca el frente "social" de la red. Cada vez que veas el pequeño "+1", es una invitación para recomendar un enlace a tu red de contactos (GMail y Google Buzz), y además es un nuevo factor que se añade al algoritmo de "ranking" de Google (el famoso PageRank), sin mencionar un botón extra que añadir para que la gente comparta el contenido de tu sitio entre sus contactos.
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSjrlEhI9kcizzGigZKxNWNmteIs0u_5tQOR8pjABrDdH2PUChsOWy4wKK3DCikhXpAgCB5ivaExDXZJ3YTsGgYzT-0AJTk3dcxQS8-8Ain7Gv4JUIqV6Jzz8wb76YmvhPvPYIkyRuRe_8/s320/See+%252B1s.png)    

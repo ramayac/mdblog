@@ -20,4 +20,6 @@ Otro cambio interesante, esta en el tiempo de arranque, se reemplaza OpenOffice 
 > [https://vimeo.com/22932847](https://vimeo.com/22932847) [https://www.ubuntu.com/download/ubuntu/download](https://www.ubuntu.com/download/ubuntu/download)
 Los dejo con el único video oficial (y algo sencillo) con algunas de las características nuevas de Ubuntu 11.04:
 
+[Video](https://player.vimeo.com/video/22932847?title=0&byline=0&portrait=0)
+
 ¡Saludos!

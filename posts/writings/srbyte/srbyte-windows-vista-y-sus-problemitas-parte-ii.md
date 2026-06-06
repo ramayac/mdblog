@@ -4,7 +4,7 @@ date: 2007-02-03
 author: Rodrigo A.
 tags: bad, windows, vista
 draft: false
-post_id: blog-3515952828243908885.post-1038926833403809365
+post_id: blog-3515952828243908885.post-8371025312052384721
 ---
 
 Mas confusión... (lee la [primera parte](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte-i.html))

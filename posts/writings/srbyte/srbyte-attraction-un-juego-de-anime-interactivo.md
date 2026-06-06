@@ -13,6 +13,8 @@ post_id: blog-3515952828243908885.post-4813053825910123430
 Captura de Attraction en mi navegador "[Attraction](https://www.attraction-lemanga.fr/site/index.php)
 " es una película corta interactiva para la web, con estilo Anime y una estética muy estilizada, que invita a los usuarios a desempeñar un papel activo en la exploración de Tokio el año 2040. Seguirás la historia de tres amigos a través de seis capítulos de la historia de tipo cómic, recibiendo instrucciones en el camino para ayudar a dirigir a los personajes en sus aventuras a través de movimiento o el reconocimiento de colores con tu webcam (si, podes usar tu webcam para jugar y también el mouse).
 
+[YouTube video player](https://www.youtube.com/embed/6hzbrVle0FU)
+
 Pueden visitar el sitio acá:
 
 > [https://www.attraction-lemanga.fr/site/index.php](https://www.attraction-lemanga.fr/site/index.php)

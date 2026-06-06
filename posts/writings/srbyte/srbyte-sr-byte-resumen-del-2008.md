@@ -9,4 +9,6 @@ post_id: blog-3515952828243908885.post-4432875059353668500
 
 A continuación mostramos una línea de tiempo con lo más relevante ocurrido en el Sr. Byte, para que recuerden todo lo que hemos vivido durante este 2008 y esperen con ansias las sorpresas y novedades que tenemos preparadas para el 2009:
 
+[Video/Embed](https://www.xtimeline.com/timeline/Sr-Byte-Resumen-2008-1/embed/928/390)
+
 Hagan clic sobre cualquier parte de la línea de tiempo y arrástrenla hacia la derecha o izquierda para ver el rango completo de fechas. Clic en los títulos para leer más detalles de cada evento.

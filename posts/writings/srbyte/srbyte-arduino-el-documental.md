@@ -12,6 +12,8 @@ El software libre ha tenido un increíble impacto en las aplicaciones y platafor
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC1XlOkAWmFt-I71A_0p3ZZ9f8TIXlGVwVOPIvNS4BP-pxiaDQulqGPdnUoVCqtyHRvmxl5BLyLmrdCjQXhhg6Fl9WBnscrL659RcceYkcEjilEEKKSjlABIntbjVx8-_unsAiUxugMD9E/s320/Arduino+The+Documentary+Poster+%2528Flickr+Link%2529.jpg)    
 El Poster El Documental sobre Arduino, nos da una introducción a lo que es y cómo se fue desarrollado desde sus primeros conceptos. Después de todo, si el software puede ser libre para usar ¿por qué el hardware no puede serlo también? Les comparto el documental completo en español ([también disponible en Ingles](https://vimeo.com/18539129)):
 
+[Video](https://player.vimeo.com/video/18390711?title=0&byline=0&portrait=0)
+
 El mensaje claro que el documental de Arduino nos muestra, es que estamos a punto de ver una explosión de dispositivos de hardware que nacen de proyectos estudiantiles y gente muy curiosa, pero serán proyectos que tendrán el potencial de convertirse en productos comerciales.
 
 Pero el potencial más valioso de Arduino, esta en la educación. Con Arduino se pueden enseñar electrónica a los niños, con la esperanza que alguno de estos se conviertan en la próxima generación de talentosos ingenieros que revolucionen nuestra forma de vida.

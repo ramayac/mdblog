@@ -13,7 +13,7 @@ La Universidad de Stanford ha ofrecido ya por algunos años, porciones de sus cu
 
 Por primera vez, CUALQUIER persona (si, CUALQUIER persona), puede tomar este curso, en conjunto con cientos de estudiantes que aun no se gradúan de Stanford ("undergrads"), sin tener que llenar aplicaciones, pagar "tuition" o irte a vivir a EUA. En pocas palabras, podes llevar el curso completamente GRATIS, y totalmente online.
 
-¿Cómo funciona?
+[Video](https://www.youtube.com/embed/YuJwMoubGFk)¿Cómo funciona?
 
 Estas clases son más que descargar material y ver un "live stream"; los participantes que se inscriban, tendrán que hacer el mismo trabajo que los estudiantes de Stanford. [Hay un libro que necesitan conseguir](https://www.amazon.com/gp/product/0136042597/ref=as_li_ss_tl?ie=UTF8&tag=rodrigoamayac-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0136042597) ([más info acá](https://aima.cs.berkeley.edu/)), deberían de dedicar al menos 10 horas por semana de estudio, resolver tareas semanales, ademas de tener exámenes de "medio ciclo" ("midterm") y exámenes finales. Si sobrevivimos a todo esto, obtendríamos un "record of completition" por parte de los instructores (no hay certificado ni notas del curso equivalentes para la Universidad lamentablemente), y la nota final para compararte contra las notas de los otros estudiantes que cursaron la modalidad online.
 

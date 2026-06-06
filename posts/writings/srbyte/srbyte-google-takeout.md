@@ -25,4 +25,6 @@ Cuando se complete el proceso de recopilación de datos aparecerá el botón des
 
 Les comparto este video donde pueden ver de una mejor manera cómo funciona este servicio:
 
+[Video](https://www.youtube.com/embed/CmjdSR2e6fk)
+
 Yo la verdad no conocía este servicio, pero me parece sumamente útil para hacer un respaldo de nuestra información, dado que muchas veces está en los sitios de Google, más no tenemos copia de ella. Incluso, puede ser de gran ayuda al momento de decidir cerrar por ejemplo nuestro perfil en Google+, y quisiéramos tener acceso a todo el contenido que hemos subido. Y ustedes, ¿ya hicieron una copia de seguridad de sus archivos personales?Espero les sea de tanta utilidad como lo fue para mi. ¡Saludos!

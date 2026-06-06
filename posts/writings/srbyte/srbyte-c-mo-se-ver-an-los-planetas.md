@@ -22,6 +22,8 @@ Además les comparto este interesante video (vía [Alt1040](https://alt1040.com
 
 > "Es una animación que te hace sentir pequeño"...
 
+[Video](https://player.vimeo.com/video/19231255)
+
 Y ya que hablamos de Planetarios, si les gusta todo "ese rollo" de la astronomía, planetas, rotación de los astros celestes, etc, les recomiendo mucho una aplicación de código abierto llamada "[Stellarium](https://www.stellarium.org/es/)
 ":
 

@@ -4,7 +4,7 @@ date: 2009-06-16
 author: Rodrigo A.
 tags: buscadores, google, microsoft, bing
 draft: false
-post_id: blog-3515952828243908885.post-464786498374165856
+post_id: blog-3515952828243908885.post-4776834246760037601
 ---
 
 Como [mencione hace unos días](/2009/06/search-wars.html), ya hace rato que Microsoft libero: [Bing](https://www.blogger.com/www.bing.com), su nuevo motor de búsqueda, para tener mayor oportunidad de competir con el Gran Blanco, pero Bing realmente no me pareció nada innovador o revolucionario, hasta que leí ([en el blog de Bing](https://www.bing.com/community/blogs/search/archive/2009/06/12/safe-search-update.aspx)) como manejan en contenido "explicito". La idea es tan simple y tan lógica, que me extraña que hasta a Google se le haya pasado por alto.

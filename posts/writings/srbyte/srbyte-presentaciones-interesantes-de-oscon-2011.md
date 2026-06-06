@@ -13,11 +13,19 @@ OSCON 2011, se realizó la semana pasada (Julio 2011) con muchas presentaciones 
 
 Open Source, Java, and Oracle -- Cracking the Code:
 
+[Video](https://www.youtube.com/embed/CDlsJF52iKY)
+
 Twitter: From Ruby on Rails to the JVM:
+
+[Video](https://www.youtube.com/embed/ohHdZXnsNi8)
 
 Java: The Good, Bad, and Ugly Parts:
 
+[Video](https://www.youtube.com/embed/hcY8cYfAEwU)
+
 Data Flow at Netflix:
+
+[Video](https://www.youtube.com/embed/Idu9OKnAOis)
 
 Espero que les guste la selección de presentaciones, si desean ver más no duden en visitar el canal de O'Rielly Media: [https://www.youtube.com/user/OreillyMedia](https://www.youtube.com/user/OreillyMedia)
 

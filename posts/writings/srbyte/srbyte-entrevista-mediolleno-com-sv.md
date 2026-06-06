@@ -68,6 +68,8 @@ Sergio: Ninguna, solo jóvenes participaron en el evento, a pesar que en su gra
 
 Sergio: MedioLleno ha mantenido un crecimiento en visitas de más de 100% desde su comienzo. Entre el primer y segundo año, crecimos casi el 1,000%.
 
+[YouTube video player](https://www.youtube.com/embed/A1bMemcshmU)
+
 ¿Cuál es la frecuencia de publicación de entradas y/o entrevistas?
 
 Sergio: Procuramos publicar un artículo, cobertura o entrevista todos los días. En el caso de las [Entrevistas](https://mediolleno.com.sv/entrevistas) y [Salvadoreño del Mes](https://mediolleno.com.sv/salvadoreno-del-mes), se publican a una vez al mes y en [Ayudando](https://mediolleno.com.sv/ayudando), cada dos semanas.

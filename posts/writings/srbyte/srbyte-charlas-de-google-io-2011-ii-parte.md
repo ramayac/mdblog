@@ -12,6 +12,8 @@ Continuando con los videos de las charlas preferidas de Google IO 2011, acá est
 ## Large-scale Data Analysis Using the App Engine Pipeline API
 Una buena discucion sobre pipelines y la libreria de Map Reduce para el App Engine.
 
+[Video](https://www.youtube.com/embed/Rsfy_TYA2ZY)
+
 Exponentes:
 
 - Bret Slatkin
@@ -26,6 +28,8 @@ Recursos:
 
 Lecciones, ejemplos y patrones para construir aplicaciones escalables en el App Engine.
 
+[Video](https://www.youtube.com/embed/wWhd9ZwvCyw)
+
 Exponentes:
 
 - [Ben Fried](https://twitter.com/bfnyc)
@@ -35,6 +39,8 @@ Exponentes:
 
 ## Putting Task Queues to Work
 "Pull Queues" son los nuevos amigos de los existentes "Push Queues".
+
+[Video](https://www.youtube.com/embed/AM0ZPO7-lcE)
 
 Exponentes:
 
@@ -47,6 +53,8 @@ Recursos:
 
 ## Building Enterprise Applications on App Engine
 El App Engine se pone serio y pronto deja su estado de "beta", esta charla nos da un preludio de hacia donde va la plataforma.
+
+[Video](https://www.youtube.com/embed/4Dwf3rtucXY)
 
 Exponentes:
 
@@ -62,6 +70,8 @@ Recusos:
 ## Writing Web Apps in Go
 Quizas una de las charlas mas curiosas, en la que Google nos demuestra el nuevo lenguaje que se ejecutará en el App Engine: Go.
 
+[Video](https://www.youtube.com/embed/-i0hat7pdpk)
+
 Exponentes:
 
 - [Andrew Gerrand](https://twitter.com/enneff)
@@ -76,6 +86,8 @@ Recursos:
 ## App Engine Backends
 
 Los "Backends" de App Engine no tiene limite de tiempo por peticion, y son una manera de facilitar el procesamiento pesado en la plataforma.
+
+[Video](https://www.youtube.com/embed/-kepYfCBg6w)
 
 Exponentes:
 

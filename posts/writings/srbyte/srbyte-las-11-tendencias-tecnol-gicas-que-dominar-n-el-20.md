@@ -25,6 +25,8 @@ Durante la reciente edición del [#NokiaTalk](/2010/05/nokiatalk.html), realizad
 
 7. "Este es el año de la geolocalizacion". La georeferenciación ha sido una apuesta muy acertada para Nokia desde incluso antes de la adquisición de Navteq. Estos recursos permiten cambiar interfaces de usuario o adaptar los contenidos y aplicaciones dependiendo del lugar donde estemos. El E71 permitía manipular un par de perfiles para poder disfrutar del equipo en diferentes situaciones, pero incluso existen aplicaciones experimentales como [Nokia Situations](https://betalabs.nokia.com/apps/nokia-situations) en las que el equipo se adapta de forma automática sin tocarlo:
 
+[YouTube video player](https://www.youtube.com/embed/ik2YNxDKFIg)
+
 8. El resurgimiento del SMS. "Hace años no podíamos vivir sin los mensajes de texto, pero ahora, se dice que la muerte del SMS estuvo signada con el boom del Chat". A pesar de lo anterior, prevalece aún porque hay beneficios únicos que le distinguen frente al Instant Messaging como costos y cobertura. El SMS sigue siendo una tecnología masiva y económica, por lo que estemos pendientes del rumbo que puede tomar.
 
 9. Cloud Computing. "Muchos aún necesitamos de equipos de almacenamiento masivo y software que corra en nuestros computadores". Este es todavía el obstáculo que deben sortear los oferentes de sistemas de computación en la red. Quizás este año 2011 alguien logre una idea genial para emocionarnos a probarla.

@@ -9,4 +9,6 @@ post_id: blog-3515952828243908885.post-6413122948197049676
 
 En este sencillo y elegante video, [Apple](https://apple.com/) nos describe los pensamientos y emociones que van en el proceso de creación de cada uno de sus productos:
 
+[Video](https://www.youtube.com/embed/VpZmIiIXuZ0)
+
 Via: [https://www.youtube.com/user/Apple?feature=watch](https://www.youtube.com/user/Apple?feature=watch)

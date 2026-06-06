@@ -9,4 +9,6 @@ post_id: blog-3515952828243908885.post-7889017690923404477
 
 Hace un par de horas, Apple lanzo la nueva versión del iPad 2, este es el video de introducción en [Apple.com](https://www.apple.com/ipad/#video), un video en este caso, vale más que un artículo:
 
+[YouTube video player](https://www.youtube.com/embed/KPZ8JhY4R2Y)
+
 ¡Saludos!

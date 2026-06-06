@@ -37,11 +37,19 @@ Google+
 
 Google+ se ve divertido, funcional, novedoso y sobre todo no se ve como un producto remasticado como el Google Buzz. Los invito a ver los videos y  la demostración de Google+:
 
+[Video](https://www.youtube.com/embed/xwnJ5Bl4kLI)
+
 Google+ "A quick look"
+
+[Video](https://www.youtube.com/embed/Tku1vJeuzH4)
 
 Google+ "Hangouts"
 
+[Video](https://www.youtube.com/embed/BeMZP-oyOII)
+
 Google+ Circles
+
+[Video](https://www.youtube.com/embed/MRkAdTflltc)
 
 Google+ Sparks
 

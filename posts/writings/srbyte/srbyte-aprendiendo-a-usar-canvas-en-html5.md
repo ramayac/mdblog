@@ -18,16 +18,21 @@ Antes de empezar, cabe mencionar que por el momento no todos los navegadores sop
 
 Primeramente, debemos crear nuestra página HTML con su respectivo body dentro del cual debemos ubicar nuestro tag Canvas. Este tag no requiere atributos especiales mas que su height y width. Entre la apertura y cierre del tag Canvas puedes incluir cualquier otro contenido HTML el cual le será mostrado al usuario si este utiliza un navegador que no soporte el tag. Esto puede servir como un espacio para mostrar un mensaje indicando la falta de soporte por falta del navegador. También es útil asignarle un ID a dicho tag, para luego poder identificarlo al momento de manipularlo desde Javascript:
 
+[Video/Embed](https://pastebin.com/embed_iframe.php?i=ybuKNDLX)
 "Código HTML mostrando el tag Canvas y algunos de sus atributos"
 
 Una vez que tienes el tag, es hora de manipularlo desde Javascript! empecemos por obtener el Context, el cual es el objeto que posee los métodos para dibujar dentro del canvas. Entre estos métodos se encuentran fillFect(), arc(), moveTo(), stroke(), etc. Este objeto Context además tiene una propiedad llamada fillStyle con la cual puedes definirle el color en formato rgb o rgba con el cual se realizarán los trazos.
 
+[Video/Embed](https://pastebin.com/embed_iframe.php?i=V3ka6rVZ)
 "Código Javascript obteniendo el objeto Context asociado al objeto DOM Canvas para luego establecer un color vía RGB y pintar un rectángulo"
 
 A continuación mostramos dos ejemplos un poco más elaborados. En el primero, mostramos cómo dibujar una cara feliz y en el segundo cómo asociar los eventos del ratón para pintar sobre el canvas por medio del click. Para ello utilizamos la aplicación web [jsFiddle](https://jsfiddle.net/) que te permite incrustar HTML, CSS y Javascript al mismo tiempo que se puede apreciar el resultado de dicho código. Además se hace uso de jQuery para simplificar el acceso al objeto DOM Canvas:
 
+[Video/Embed](https://jsfiddle.net/NjtgH/embedded/)
+
 "Código HTML, CSS y Javascript para dibujar una cara feliz en el Canvas. Clic en el tab Result para ver el resultado"
 
+[Video/Embed](https://jsfiddle.net/Nc82p/embedded/)
 "Código HTML, CSS y Javascript para crear una superficie de dibujo en la cual se pinta un cuadro negro por cada clic del ratón. Clic en el tab Result para ver e interactuar con el resultado"
 
 [En este link](https://mugtug.com/sketchpad/) pueden probar Sketchpad, un ejemplo mucho más elaborado de una aplicación web simulando las características de paint.

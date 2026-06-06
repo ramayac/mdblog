@@ -23,6 +23,8 @@ Me tomé la libertad de descargar y probar la librería en su versión para Java
 
 Como ejemplo les dejo un vídeo en el cual narran de manera bastante comprensible las variantes y ejemplos de un ataque por Cross Site Scripting (XSS) así como consejos básicos de cómo proteger tus sitios ante este ataque:
 
+[Video](https://www.youtube.com/embed/_Z9RQSnf8-g)
+
 "OWASP - Cross Site Scripting"
 
 Pueden encontrar más información en el la [página principal de OWASP](https://www.owasp.org/index.php/Main_Page).

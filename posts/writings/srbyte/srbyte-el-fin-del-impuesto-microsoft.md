@@ -4,7 +4,7 @@ date: 2007-05-25
 author: Rodrigo A.
 tags: fantastico, ubuntu, linux, libre, microsoft, dell, gnu
 draft: false
-post_id: blog-3515952828243908885.post-2191688278241384692
+post_id: blog-3515952828243908885.post-4973075302312129535
 ---
 
 Ahora, por la [demanda de los clientes](https://www.ideastorm.com/), Dell lanza [una nueva serie de computadoras de escritorio](https://www.dell.com/ubuntu) con la libre y gratuita distribución GNU\Linux llamada [Ubuntu](https://www.ubuntu.com/) (basada en Debian)

@@ -29,7 +29,11 @@ De igual manera, la comodidad que generará para el cliente esta aplicación, po
 
 Les dejo este video de una demostración de Google Wallet:
 
+[Video](https://www.youtube.com/embed/6tBAB5ls5vM)
+
 Y el video de lanzamiento:
+
+[Video](https://www.youtube.com/embed/DsaJMhcLm_A)
 
 ¿Consideran ustedes que sería exitoso el Google Wallet en nuestro país? ¿Para qué bienes o servicios podría ser útil?
 

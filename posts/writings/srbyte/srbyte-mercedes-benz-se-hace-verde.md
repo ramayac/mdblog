@@ -4,7 +4,7 @@ date: 2008-07-11
 author: Rodrigo A.
 tags: carro, green, interesante
 draft: false
-post_id: blog-3515952828243908885.post-1060480657067090013
+post_id: blog-3515952828243908885.post-6501939861926276839
 ---
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1MEwueMzGw0-3sk3sYbkkSE-FluiDkQxekhUA44vjbwqEDU_eTM4t4qYbxkV31fI3SH35Qr_UDptHtrG_cZcIk8xsslZcLbtBDZ2TQOnIOXRyo39tUflOesh0VlUuOr1uTTHHDcfUjfw/s400/mercedes.jpg)    

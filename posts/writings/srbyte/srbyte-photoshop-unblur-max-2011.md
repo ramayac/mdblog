@@ -11,6 +11,8 @@ Adobe esta desarrollando una nueva característica en Photoshop que puede termin
 
 Les comparto el video, y esperen "la magia" en el minuto 1:18 :
 
+[Video](https://www.youtube.com/embed/xxjiQoTp864)
+
 Ahora me pregunto, ¿cuantas fotos borrosas y únicas no habrán borrado/perdido, pensando que no sería capaz de arreglarlas?
 
 En fin, otro problema de la vida cotidiana resuelto, ¡saludos!

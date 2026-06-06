@@ -4,7 +4,7 @@ date: 2007-02-08
 author: Rodrigo A.
 tags: bad, windows, ipod, vista, drm, mac
 draft: false
-post_id: blog-3515952828243908885.post-592933366420728801
+post_id: blog-3515952828243908885.post-4945014083461302673
 ---
 
 Y para terminar hay que decir que: Microsoft hace que Windows Vista parezca tonto [(lea el articulo anterior)](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte.html).

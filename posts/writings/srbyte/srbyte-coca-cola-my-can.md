@@ -17,6 +17,8 @@ Dar al usuario la oportunidad de personalizar su lata de Coca-Cola, mucho antes 
 
 Les dejo a continuación el video de Coca-Cola donde explica en qué consiste y cómo funciona esta campaña:
 
+[Video](https://www.youtube.com/embed/OgB5HOND_9M)
+
 Hay que destacar el gran trabajo que ha hecho Coca-Cola puesto que ha conseguido dar un excelente ejemplo de la efectividad en la publicidad usando los medios sociales, y para este preciso caso, la efectividad en los banners. Muchas compañías en la actualidad aún se muestran renuentes ante la publicidad digital, pero es gracias a empresas como Coca-Cola que se puede transmitir el mensaje de la ayuda en la imagen y posicionamiento de marca que dichas campañas traen consigo.
 
 Me parece además que es una manera diferente de lograr los tan buscados "likes" en Facebook. No hay necesidad que las empresas se dediquen a pedir likes para que el usuario pueda acceder a la información de la página. Al contrario, la información debería estar expuesta al visitante para que éste la pueda leer, analizar y a partir de esto, pueda decidir si le gusta o no nuestra marca o producto. Desgraciadamente, esto no se hace así. Campañas como esta logran obtener de manera creativa y diferente visitas a nuestra landing page, fan page o sitio web, haciendo que el consumidor perciba que lo hace libremente y por su gusto, no porque se lo estamos pidiendo.

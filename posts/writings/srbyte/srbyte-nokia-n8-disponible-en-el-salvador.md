@@ -13,7 +13,11 @@ Nokia inicia el 2011 con grandes novedades para el mercado Salvadoreño e introd
 
 El N8, con respecto a hardware, es un dispositivo sofisticado, orientado a la captura de fotografías en alta definición (con su cámara de 12 MegaPixeles) y video HD, así como también a la conectividad "social" (Facebook y Twitter). Este anuncio resume bastante bien el espíritu del aparato (y en lo personal, lo que considero sus mejores características):
 
+[YouTube video player](https://www.youtube.com/embed/FZE56IB6VvI)
+
 Y con el video oficial de lanzamiento (que fué en abril de 2010):
+
+[YouTube video player](https://www.youtube.com/embed/-Thu8flWHXE)
 
 Con respecto a esta noticia, Saulo Passos (Gerente de Comunicaciones de Nokia para América Latina), realizo la siguiente declaración:
 

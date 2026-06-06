@@ -34,6 +34,8 @@ Para poder apreciar mejor la animación, algunas herramientas fueron programadas
 
 O pueden verla también en Youtube (con música y un par de sonidos):
 
+[Video](//www.youtube.com/embed/M5l8BhyGE68)
+
 Finalmente si quieren curiosear más sobre comic, pueden visitar:
 
 - [Explain xkcd](https://www.explainxkcd.com/wiki/index.php?title=1190:_Time)

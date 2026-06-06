@@ -11,6 +11,8 @@ post_id: blog-3515952828243908885.post-7051927192607039915
 
 Las dudas sobre las novedades de Facebook se acaban en este momento, la esperada conferencia anual de Facebook llamada F8, en su quinta edición comienza en estos momentos:
 
+[Video/Embed](https://cdn.livestream.com/embed/f8live?layout=4&color=0xe7e7e7&autoPlay=false&mute=false&iconColorOver=0x888888&iconColor=0x777777&allowchat=true&height=300&width=500)
+
 También pueden seguir el live stream en la fanpage de F8:
 
 >

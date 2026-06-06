@@ -25,4 +25,5 @@ Dentro de poco todos tendremos acceso a esta nueva barra de herramientas de Goog
 
 Les comparto el video de presentación de la nueva barra de Google:
 
+[Video](https://www.youtube.com/embed/vSIMpFfNLEA)
 Si quieren más información sobre esta nueva barra, pueden acceder al respectivo [Artículo en el Centro de Ayuda](https://www.google.com/support/accounts/bin/answer.py?answer=1714464). ¿Qué les parece este nuevo cambio en Google? ¡Saludos!

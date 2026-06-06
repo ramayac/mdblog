@@ -14,6 +14,8 @@ Readability en acción.
 
 Readability te permite tener el control de la apariencia visual del texto que vas a leer, para que tu experiencia sea mas cómoda, accesible y placentera.
 
+[Video](https://player.vimeo.com/video/19267888?title=0&byline=0&portrait=0&color=ffffff)
+
 Y también una herramienta bastante útil para imprimir información de paginas web en menos papel :)
 
 Si eres de los que pasan horas leyendo artículos en Internet, este complemento va a hacer tu lectura más placentera y amena para tus vista:

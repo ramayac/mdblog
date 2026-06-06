@@ -1,10 +1,10 @@
 ---
 title: Cuidado Con Lo Que "Cliqueas"
 date: 2010-04-02
-author: Carlos Peña
+author: Rodrigo A.
 tags: seguridad, internet
 draft: false
-post_id: blog-3515952828243908885.post-820251096483163466
+post_id: blog-3515952828243908885.post-5302489112529415368
 ---
 
 ¿Alguna vez  se han preguntado lo peligroso que podría ser el hacer clic sobre un link?. La respuesta es sencilla, puede ser muuuuuuuuuuy peligroso. Traigo a colación este tema, ya que en varias ocasiones he iniciado sesión en Windows Live Messenger y recibo mensajes de contactos desconectados. Esos mensajes contienen links - muy sosprechosos - y que hacen alusión a fotos bastante subidas de tono - básicamente, "pornografía" - o contenidos que para "el usuario común" son considerados atractivos e inofensivos. He aquí el problema, pues con hacer clic a ese link "inofensivo" podemos entregar valiosa información a cualquier mal intencionado ahí afuera: la [dirección IP](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP) de nuestra computadora.

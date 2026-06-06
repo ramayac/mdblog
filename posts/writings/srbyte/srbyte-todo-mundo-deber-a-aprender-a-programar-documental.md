@@ -15,6 +15,8 @@ Code.org esta impulsando una interesante campaña para promover que las escuelas
 
 Bueno, sin dar tanta vuelta, mejor les comparto el pequeño documental que code.org ha publicado respecto al tema, con la participación de algunos personajes de la industria como: Bill Gates, Mark Zuckerberg, will.i.am, Chris Bosh, Jack Dorsey, Tony Hsieh, Drew Houston, Gabe Newell, Ruchi Sanghvi, Elena Silenok, Vanessa Hurst y Hadi Partovi ([no se queden sin ver esto](https://www.code.org/quotes)).
 
+[Video](https://www.youtube.com/embed/dU1xS07N-FA)
+
 Pueden visitar el sitio de code.org dando clic acá:
 
 > [ https://www.code.org/](https://www.code.org/)

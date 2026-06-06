@@ -16,6 +16,8 @@ Funcionalmente, no es tan diferente de los otros smartphones más recientes de N
 
 Alessandro Lamanna, V.P. de Marketing de Nokia, describe en el siguiente video todas las cualidades que ofrece el Nokia Oro: "Un producto premium, no es para gritarse, es para susurrarse... es cuestión de detalles..."
 
+[Video](https://www.youtube.com/embed/QysmgTFGr1U)
+
 El Nokia Oro es un dispositivo que está claramente dirigido al consumidor que no quiere que su dispositivo móvil se vea igual al del resto de personas. Los principales mercados para este tipo de dispositivo son el Oriente Medio y Rusia, donde han sido best-sellers durante algún tiempo. El gerente general de Nokia para Rusia, Gabriel Speratti, comentó que: "productos de primera calidad como Nokia Oro siempre han sido éxitos de ventas en Rusia. Tenemos un gran número de usuarios que buscan productos con una construcción de materiales de calidad superior y que dan fe de su éxito y posición social. En algunas zonas, la posesión de productos de primera calidad es como el pasaporte para ser tomado en serio."
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzKImgKkuRxuf2Rq5ZjfIRPBuodU3ChiDHDYoSR1xcc0rl6qSeG86rYLl1Wk3leF23qxm-7l6_TqmXP_eFzpSrjR8tM4Z_Q_5fRXt1zkb44QCO0_H9gDrctWsXeW0tFMuBsNOEMRpPDC3y/s320/NCNokia_Oro_white_4-540x540.jpg)    

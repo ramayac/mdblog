@@ -12,15 +12,23 @@ QWiki.com
 
 Qwiki es una plataforma que brinda una experiencia de aprendizaje totalmente nueva para los internautas. Si alguna vez te habías preguntado ¿qué viene después de la wikipedia? creo que Qwiki es la respuesta. Supongamos que queremos saber sobre la Patagonia, esta es la información que Qwiki nos muestra:
 
+[Video/Embed](https://www.qwiki.com/embed/Patagonia)
+
 Y hay que resaltar, que es información recolectada y resumida por QWiki (por software). ¿Y qué nos dice QWiki sobre Leonardo Da Vinci?:
 
+[Video/Embed](https://www.qwiki.com/embed/Leonardo_da_Vinci)
+
 ¿Y sobre El Salvador?:
+
+[Video/Embed](https://www.qwiki.com/embed/El_Salvador)
 
 Creo que estos ejemplos, hablan más sobre esta fenomenal herramienta, que cualquier cosa que pueda escribir. QWiki actualmente esta en estado Alpha, y si bien tiene millones de datos, carece aún de bastante información, y un pequeño problema que QWiki tiene es que el contenido que esta disponible solo esta en Ingles.
 
 Pero imaginen las posibilidades: llevar una herramienta tan poderosa al alcance de tu SmartPhone para buscar un información sobre un restaurante, sitio turístico o conocer sobre una película extranjera en algún festival de cine independiente que estas a punto de ver. O simplemente para contestar la típica pregunta de los niños de [¿porque el cielo es azul?](https://qwi.ki/fCI13G) :)
 
 Los dejo con el video de presentación de QWiki en TechCrunch 2010:
+
+[Video](https://player.vimeo.com/video/15444551)
 
 ... y claro, los invito a que lo usen:
 

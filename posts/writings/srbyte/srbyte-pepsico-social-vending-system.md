@@ -22,6 +22,8 @@ En lo personal, me parece un sistema bastante innovador, fortaleciendo el intent
 
 Pueden leer también el artículo de la presentación ante los medios de este sistema: [PepsiCo Introduces Social Vending System™, the Next Generation in Interactive Vend Technology.](https://www.pepsico.com/PressRelease/PepsiCo-Introduces-Social-Vending-System-the-Next-Generation-in-Interactive-Vend04272011.html)
 
+[Video](https://www.youtube.com/embed/wJaEVEoEETA)
+
 Ahora, solo queda esperar tenerla en nuestro país, y estar pendiente de la respuesta de la competencia.
 
 ¿Qué piensan ustedes sobre este sistema?

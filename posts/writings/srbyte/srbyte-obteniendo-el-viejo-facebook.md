@@ -4,7 +4,7 @@ date: 2008-09-18
 author: Rodrigo A.
 tags: social, tips, trucos
 draft: false
-post_id: blog-3515952828243908885.post-1118772083444441896
+post_id: blog-3515952828243908885.post-7755961144550561538
 ---
 
 Hace un par de días abrí una cuenta en Facebook, justo por los días de estreno del "nuevo" Facebook. Desde entonces, hay un numero creciente de usuarios que solo piensa en regresar el viejo estilo, y no les gusta la nueva forma en que Facebook se comporta. En lo personal, no veo absolutamente ningún problema en el nuevo Facebook, pero también conozco el poder de la costumbre, así que... para todos estos usuarios deseosos de regresar con el viejo amigo, aquí esta una pequeña guía. El truco consiste en registrarte como un [Desarrollador de Aplicaciones de Facebook](https://www.insidefacebook.com/2008/09/16/fans-of-the-old-facebook-design-flock-to-developer-accounts/) - Sin la necesidad de que escribas una sola linea de código.

@@ -21,6 +21,8 @@ Su diseño, fue generado a partir de varios meses de investigación en el intent
 
 Los dejo con, el excelente [review de engadget](https://www.engadget.com/2010/10/01/recompute-cardboard-pc-in-the-flesh-its-real-it-boots-its-m/), un video, y con una pregunta ¿Te animarías a trabajar/comprar una "Recompute" PC? :)
 
+[YouTube video player](https://www.youtube.com/embed/fbnttF6Uz9k)
+
 Más información sobre Recompute:
 
 > [https://www.sustainable-computer.com/](https://www.sustainable-computer.com/)

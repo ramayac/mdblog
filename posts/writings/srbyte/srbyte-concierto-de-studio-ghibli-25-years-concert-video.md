@@ -88,4 +88,6 @@ Princess Mononoke 01:47:35 - 01:52:19
 
 Y aquí, el concierto de casi dos horas de dicha musical:
 
+[Video](https://www.youtube.com/embed/ZVCdLi6FGVg)
+
 Estoy seguro que lo van a disfrutar, ¡saludos!

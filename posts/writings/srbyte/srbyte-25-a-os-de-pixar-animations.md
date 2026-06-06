@@ -11,4 +11,6 @@ post_id: blog-3515952828243908885.post-1814126686647026550
 
 Pixar, uno de los creadores de mejores películas de animación 3D, cumplieron ayer (29 Marzo 2011) 25 años . Y para tan memorable ocasión, Pixar nos comparte un video con la reseña de todas sus animaciones:
 
+[YouTube video player](https://www.youtube.com/embed/XBH1dcHoL6Y)
+
 "Celebrando 25 años de Pixar, 12 largometrajes y 20 cortometrajes. Pixar Animation hace las mejores películas, no hay duda. Cada película es única y especial."

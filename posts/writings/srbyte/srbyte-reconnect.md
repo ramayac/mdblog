@@ -11,4 +11,6 @@ La campaña [Reconnect](https://www.facebook.com/reconnectproject) consiste en d
 
 La idea a resaltar, no es abandonar nuestras "actividades sociales online", sino reconectarnos con nuestra creatividad. La fecha es el Domingo 2 de Septiembre de 2012, ¿Se apuntan? yo si.
 
+[Video](https://player.vimeo.com/video/47951295)
+
 ¡Saludos!

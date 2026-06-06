@@ -16,6 +16,8 @@ Tengo el honor de invitarlos a participar en el [BarCamp - El Salvador](https://
 El BarCamp es una red internacional de "[desconferencias](https://es.wikipedia.org/wiki/Desconferencia)
 " (eventos abiertos y participativos), cuyo contenido es provisto por los participantes. Se enfocan usualmente tecnología y medios sociales, sin embargo, este tipo de encuentros han ampliado su temática y actualmente incluyen eventos participativos y abiertos alrededor de temas sociales, artísticos, educativos... con fuertes componentes creativos e innovadores en los respectivos ámbitos.
 
+[YouTube video player](https://www.youtube.com/embed/DsGWuXywZ6o)
+
 Más información sobre qué es un Barcamp, acá: [https://barcamp.org/](https://barcamp.org/w/page/402984/FrontPage)
 
 Barcamp es un evento sin fines de lucro. No se cobra la entrada y cualquier persona puede asistir a ella, y si se animan, también pueden realizar una presentación/charla, lo cual hace de este tipo de eventos un lugar propicio para hablar de proyectos innovadores (a ver si alguien de [Gugulea.me](https://gugulea.me/) se anima a llegar :), aplicaciones o cualquier tema interesante que se les ocurra. Lo importante en el BarCamp, es el espíritu de compartir ideas, conocer personas y aprender.

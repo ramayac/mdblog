@@ -14,6 +14,8 @@ La primera Ignite se celebró en 2006 en Seattle, Washington, y fue la creación
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLhykXnhVR657rMbh6lXmy09frdjCeNWLdyUzSDTB8gSzpD085_O0LHOh5ue0xMc0FE74mjKrn0fi7ya0h9dwvFATQ2LtPyW7YxVQ3OJdL9B4CxVRQ6A9nBT3PswentFhuE_6AvJjfNdff/s320/File-Ignite_Portland_5_shutting_%2527er_down.jpg)    
 Ignite Portlan 2009. Asistir a un Ignite es completamente gratis, dado que el evento suele recibir apoyo financiero por medio de patrocinadores. Usualmente los eventos de Ignite suceden en la "Ignite Week" de [manera simultanea](https://igniteshow.com/events), pero también suceden de forma independiente, un excelente ejemplo de un Ignite reciente es el ocurrido en el Google IO 2011, con temas como: "Brain API", Similitudes entre Disneyland y Burning Man y el Mito de la mamá tigre (Tiger Mom Myth)... les recomiendo que lo vean todo (tiene una duración de 50 min):
 
+[Video](https://www.youtube.com/embed/52Ml_zax4A0)
+
 Google IO 2011 Ignite
 
 Para más información sobre este tipo de eventos, como organizarlos y videos de los expositores pueden visitar:

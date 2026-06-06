@@ -13,6 +13,8 @@ Es por lo anterior que la nueva herramienta de [Google](https://www.google.com/)
 
 Precisamente sobre ese "Cliente Correcto", Google lanza este video de cómo su "Display Network" ayudará a los profesionales a hacer llegar su mensaje a los consumidores objetivos:
 
+[Video](https://www.youtube.com/embed/4eRsKNlyKdE)
+
 Muchos consumidores buscan información antes de realizar una compra a través de foros y blogs acerca de productos específicos, gracias al auge en las compras electrónicas. Es comprobado que en muchas ocasiones las opiniones que se encuentran en estos sitios influyen en la decisión de compra del consumidor; pero Google quiere ir un paso más allá, introduciendo una página que recoja estudios y tablas donde se expongan valores específicos acerca de temas como: automoción, [B2B](https://es.wikipedia.org/wiki/Business-to-business) (Business to Business), salud, viajes, tecnología, restaurantes, audiencias, madres, sectores de móviles, medios digitales, marketing, internet, nuevos medios, etc. y todo lo relacionado con el comportamiento de los clientes actuales en estos ámbitos.
 
 Esta apuesta pionera por parte de Google ya tiene en su versión británica un [canal de YouTube](https://www.youtube.com/watch?v=XzWZd1QhDMc) "Think with Google" donde se explica el uso de esta herramienta.

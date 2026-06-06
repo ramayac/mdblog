@@ -11,6 +11,8 @@ post_id: blog-3515952828243908885.post-5154694238754325501
 
 Hace unos momentos [@PatriciaLinares](https://twitter.com/#!/patricialinares) compartió una encuesta para encontrar a los mejores conferencistas para realizar un "TEDx San Salvador". De por si la idea es emocionante, se sabe que el evento requiere bastante organización, pero este es uno de los primeros pasos para ver la viabilidad de tal evento.
 
+[Video](https://www.youtube.com/embed/othM2dwi2bE)
+
 Introducción TEDx
 
 Acá les comparto [el vinculo para la encuesta](https://www.surveysalsa.com/index.php/ManageFreeResponse/fillSurvey/630/493), y recuerden recomendar a un Salvadoreño o Salvadoreña (que viva adentro o fuera de El Salvador) de verdadero impacto o con una increíble historia que ustedes sepan que se debe compartir. Recomienden economistas, arquitectos, docentes, líderes de comunidades, emprendedores, dueños de empresas, etc, pero que sean individuos con talento, experiencia y con una historia de impacto e inspiración para todos los que atiendan al evento.

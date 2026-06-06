@@ -14,6 +14,8 @@ Project Kal-El En vez de tratar de explicar como es que un procesador de cuatro 
 
 El video que les comparto a continuación, cuenta con la mencionada demostración llamada "Glowball", en honor a las características principales del personaje:
 
+[Video](https://www.youtube.com/embed/eBvaDtshLY8)
+
 Simplemente impresionante, NVIDIA nos muestra lo que nos depara el futuro, ahora. Para más información sobre esta tecnología, les recomiendo estar pendiente del tag Tegra en el blog de NVIDIA: [https://blogs.nvidia.com/tag/tegra/](https://blogs.nvidia.com/tag/tegra/)
 
 ¡Saludos!

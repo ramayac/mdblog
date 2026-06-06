@@ -4,7 +4,7 @@ date: 2009-08-11
 author: Rodrigo A.
 tags: pruebas, test, españa
 draft: false
-post_id: blog-3515952828243908885.post-3318491809726672013
+post_id: blog-3515952828243908885.post-6400698714951165891
 ---
 
 Esta nota esta más orientada para nuestros lectores de España, como ven, ya tenemos "audiencia internacional" :)

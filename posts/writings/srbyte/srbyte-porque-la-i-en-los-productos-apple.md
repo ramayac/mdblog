@@ -1,10 +1,10 @@
 ---
 title: ¿Porque la "i" en los Productos Apple?
 date: 2008-05-07
-author: Robertux
+author: Rodrigo A.
 tags: iloveyou, apple, idea, diseño, homenaje, internet, mac, computadoras
 draft: false
-post_id: blog-3515952828243908885.post-3032186789691031186
+post_id: blog-3515952828243908885.post-8108791751544809008
 ---
 
 El día de hoy, a través de [Fayerwayer](https://www.fayerwayer.com/2008/05/10-anos-del-imac/#more-6912) me doy cuenta que el producto que causó controversia e innovación en el diseño de las computadoras en general allá por la época de 1998, la Apple iMac "todo en uno" cumple diez años de existencia en el mercado.

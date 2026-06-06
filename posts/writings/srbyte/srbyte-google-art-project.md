@@ -37,7 +37,11 @@ Vista en el interior del museo State Tretyakov Gallery, Moscow - Russia Así que
 
 En los siguientes vídeos se explica un poco de como fue realizado este increíble proyecto:
 
+[YouTube video player](https://www.youtube.com/embed/aYXdEUB0VgQ)
+
 Google Art Project - Behind the Scenes
+
+[YouTube video player](https://www.youtube.com/embed/GThNZH5Q1yY)
 
 Google Art Project - Guided Tour
 

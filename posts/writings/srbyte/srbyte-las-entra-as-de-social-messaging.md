@@ -2,9 +2,9 @@
 title: Las entrañas de "Social Messaging"
 date: 2010-11-18
 author: Rodrigo A.
-tags: hadoop, hbase, facebook, messaging
+tags: facebook, hadoop, hbase, messaging
 draft: false
-post_id: blog-3515952828243908885.post-312319804338146340
+post_id: blog-3515952828243908885.post-5311978265864445715
 ---
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-oqDOfQAKQBp4G46KueKuLv0STqV3dyuFxvcnKn7Zi5QQ4QZV-LH_LNoIyn3H-NxIGnodvvEylgy1yN2PGBhyMib98joeNosWF6EH4u9CYb0j_MYEcC5hGlpeqwzIua9jIGmNJor3uBLX/s200/fb-messages-225.jpg)    
@@ -34,7 +34,6 @@ Actualmente la infraestructura de mensajería de Facebook (Chat e Inbox) maneja 
 1. Datos temporales y volátiles (Chat) 2. Datos que no dejan de "crecer" y de bajo acceso (Inbox).
 
 El reto para los Ingenieros de Facebook, era elegir un sistema de almacenamiento (una base de datos) que sirviera para almacenar la información que se diluye de estos dos patrones de uso detectados. Ya que Messaging es una combinación de concepto y diseño de Inbox y Chat, nada tiene más sentido que buscar dicha solución. Así que lo que hicieron por "un par de semanas" fue hacer pruebas de rendimiento a diversos motores de base de datos: MySQL, Cassandra, HBase y otros. El ganador eventual fue [HBase](https://hbase.apache.org/)
-
 ![image](https://upload.wikimedia.org/wikipedia/en/e/e7/HBase_Logo.png)    
 
 HBase es una base de datos distribuida, versionable, orientada a columnas clave-valor, open source e inspirada en el modelo de [BigTable](https://en.wikipedia.org/wiki/BigTable) (de Google). HBase se puede utilizar en escenarios en donde se necesita escritura/lectura aleatoria en tiempo real de muchos datos. Cuando hablamos de "muchos datos", hablamos por ejemplo de:

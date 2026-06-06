@@ -23,3 +23,5 @@ Netbeans 7.0, también soporte para editar HTML5 :) , PHP 5.3 aliases y  safe 
 > [https://netbeans.org/community/releases/70/relnotes.html](https://netbeans.org/community/releases/70/relnotes.html) [Descarga Netbeans 7.0](https://netbeans.org/downloads/)
 
 Los dejo con el video overview de Netbeans 7.0 :
+
+[YouTube video player](https://www.youtube.com/embed/4CLUtc8jDpE)

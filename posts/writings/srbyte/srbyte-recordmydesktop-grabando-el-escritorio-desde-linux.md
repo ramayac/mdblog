@@ -1,10 +1,10 @@
 ---
 title: RecordMyDesktop: Grabando El Escritorio Desde "Linux"
 date: 2010-02-18
-author: Carlos Peña
-tags: aplicacion, grabacion, linux
+author: Rodrigo A.
+tags: grabacion, linux, aplicacion
 draft: false
-post_id: blog-3515952828243908885.post-2990406003299370691
+post_id: blog-3515952828243908885.post-4508779245582498006
 ---
 
 Hace unos días necesitaba "grabar" ciertas actividades realizadas desde el escritorio de lo que llamaré "mi computadora", la cual utiliza [Linux Mint - Felicia](https://www.linuxmint.com/) como sistema operativo. Debido a mi poca experiencia con Distribuciones Linux pensé que esta tarea sería muy difícil de completar, sino es que imposible! - en resumen  pensé que probablemente moriría en el intento - .

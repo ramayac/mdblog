@@ -12,3 +12,5 @@ Hace 35 años, la NASA lanzo el [Voyager 1](https://en.wikipedia.org/wiki/Voyage
 ![image](https://upload.wikimedia.org/wikipedia/commons/b/bd/Voyager_Golden_Record_fx.png)    
 
 Dificilmente se puede dejar pasar esta oportunidad, sin recordar uno de los discursos más grandiosos de Carl Sagan: Pale Blue Dot.
+
+[Video](https://player.vimeo.com/video/22582065)

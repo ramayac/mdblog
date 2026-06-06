@@ -17,3 +17,5 @@ Si eres un entusiasta de tecnologías y programación para la Web seguramente es
 ![image](https://webconflatino.com/2011/panama/img/logoblue-shadow.png)  
 
 El primero de los dos eventos se realizará el 28 de abril de 2011 en el Hotel Intercontinental Miramar localizado en Panamá. Puedes encontrar información detallada del evento en el [siguiente enlace](https://webconflatino.com/2011/panama/). Para finalizar comparto con ustedes un reportaje del WebConf Latino realizado en Tegucigalpa, Honduras en el año 2009.
+
+[YouTube video player](https://www.youtube.com/embed/JAA1vuJwrOw)

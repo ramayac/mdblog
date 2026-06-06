@@ -28,6 +28,8 @@ Como ven, no es un trato que se puede ver con desdén, o de menos. Al contrario
 
 Los dejo con el vídeo de discusión sobre la alianza estratégica entre Nokia y Microsoft:
 
+[YouTube video player](https://www.youtube.com/embed/BtCaUh0x_nI)
+
 Y ustedes, ¿qué opinan de este trato, que creen que sucederá con Meego y Symbian^3?
 
 vía: [Conversaciones Nokia](https://conversaciones.nokia.com/2011/04/21/nokia-y-microsoft-firman-acuerdo-definitivo-de-la-asociacion/trackback/)

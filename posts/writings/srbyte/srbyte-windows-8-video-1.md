@@ -19,6 +19,8 @@ Nuevo Start Screen (para hardware táctil) Algunos aspectos de la nueva interfaz
 - Navegacion web optimizada para dispositivos táctiles, y completamente acelerada por hardware usando Internet Explorer 10.
 Aquí les va el video para que se formen opiniones:
 
+[Video](https://www.youtube.com/embed/p92QfWOw88I)
+
 En lo personal me gusta, a pesar de estar en pruebas, se ve como un buen producto, también se nota que le han dado el cariño ($$$) y tratamiento creativo necesario para cambiar el aspecto y esquema tradicional de escritorio para el usuario común. En 1995, Windows 95 cambio la apariencia de las PC's, y Windows 8 tiene ese potencial.
 
 Si Microsoft cumple o no, pues en un par de meses veremos. Pero francamente, yo quiero ver competencia que vaya más allá del status quo en esa categoría que quedo descuidado por tanto tiempo: el escritorio de los usuarios.

@@ -19,6 +19,8 @@ Chineasy.org
 
 A esta fecha (19 Mayo 2013), Chineasy no tiene más que el contenido mencionado, pero sinceramente espero que añadan por lo menos 200 caracteres, que sería suficiente para tener una idea de lo que leo en Weibo (el Twitter de China). Los dejo con la entretenida charla de TED:
 
+[Video](https://www.youtube.com/embed/troxvPRmZm8)
+
 Y con el sitio:
 
 > [https://chineasy.org/](https://chineasy.org/)

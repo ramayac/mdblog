@@ -9,6 +9,8 @@ post_id: blog-3515952828243908885.post-8047678896635064440
 
 En [Google Chrome Blog](https://chrome.blogspot.com/), publica una entrada en la que menciona que en la última versión estable de Chrome (versión 15 ), se ha rediseñado por completo la página de "nueva pestaña". Este diseño esta orientado al acceso sencillo de las "chrome apps". Este es el video de las nuevas características:
 
+[Video](https://www.youtube.com/embed/8y_Hn2aT8Ck)
+
 Los cambios son interesantes, y hasta "naturales", las aplicaciones y extensiones se presentan en un "muro de imágenes" que se actualiza cada vez que el usuario visita la Chrome Web Store, lo que permite que el usuario encuentre aplicaciones interesantes para probar con solo un vistazo general. Además, las aplicaciones y las extensiones son más fáciles de instalar, bastan con poner el cursor sobre una imagen y luego hacer clic en "Añadir a Google Chrome."
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKUoqr7dX3Lk7s1TLER90E6uaq6C5b20bCIlU-CQhzJq7VBA2FqNggUesdktUVOgeBv7CPqnKgwz75WzL0_FvzHzsmbZtop40kpn5hu6JBIRqx_0knqUohmhDvYt6-zCGKFfS505k3lYfI/s320/cws_image.jpg)    

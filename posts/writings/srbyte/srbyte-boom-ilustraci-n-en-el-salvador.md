@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-915815896196677805
 ---
 
-[![image](https://www.ccespanasv.org/images/content/febrero_2011_%20(4)  .jpg)](https://www.ccespanasv.org/images/content/febrero_2011_%20(4).jpg)
+![image](https://www.ccespanasv.org/images/content/febrero_2011_%20(4).jpg)    
 Vía el blog de los ilustradores de [27PM](https://27pm.net/), me entero sobre una muestra organizada por el Centro Cultural de España: que reúne a varios ilustradores salvadoreños con el motivo de presentar diferentes ramas de esta disciplina, entre los participantes de esta exposición se encuentran:
 
 Otto Meza (Ilustración Editorial), Alex Vásquez (ilustración Publicitaria), Colectivo ARCA y la gente de 27PM.

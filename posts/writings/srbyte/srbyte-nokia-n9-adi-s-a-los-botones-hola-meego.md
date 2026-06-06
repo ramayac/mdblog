@@ -25,7 +25,11 @@ Para aclarar la estrategia me remito a la siguiente figura, que nos muestra una 
 
 Pueden encontrar más información de la estrategia mencionado en el blog de [Symbian Latino](https://www.symbianlatino.com/2011/05/el-presente-de-nokia-es-symbian-el.html). Los dejo con el video de introducción del N9:
 
+[Video](https://www.youtube.com/embed/gfE3B6L-Otw)
+
 Acá esta el anuncio del N9 por [Marko Ahtisaari](https://en.wikipedia.org/wiki/Marko_Ahtisaari), por si no lo vieron en el Nokia Connection 2011:
+
+[Video](https://www.youtube.com/embed/oU8kYwqZKgM)
 
 Y para saber más del N9, pueden visitar:
 
