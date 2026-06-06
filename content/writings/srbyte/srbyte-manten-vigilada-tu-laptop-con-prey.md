@@ -20,6 +20,7 @@ Algunas de sus características son:
 - Sistema de mensajes/alertas: Puedes alertar al individuo de que está siendo perseguido enviándole mensajes que aparecerán en pantalla. También puedes activar una alarma para dejarle claro el mensaje no sólo a él sino a todos quienes estén cerca.
 - Actualizaciones automáticas: No necesitas actualizar cada versión nueva de Prey a mano. Al activar esta funcionalidad, Prey verificará que la versión instalada (y la de cada uno de sus módulos) es la actual, y en caso de que no lo sea, bajará y actualizará todo de manera automática.
 - Y ademas, Prey es multiplataforma y 100% OpenSource.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCoo5qVS5rrISP0agLKvhx-zXvgrqpttIqrJx8GV7OoZJVaegDcA9NvTmSr5X4uEIBi-JebKini-TwZpCeL6R_K7X_poZ0PxhQARxQq9eugUdVAFOmE1nSvjpS3oZ_DUtDlCDMDu0Poa3l/s320/prey-packages-540x237.png)  
 ¿Como funciona?
 

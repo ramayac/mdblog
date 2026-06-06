@@ -12,6 +12,7 @@ Como ya les habia comentado, diferentes blogs y medios digitales influyentes en 
 #NokiaTalk se programó del 25 al 27 de mayo, siendo el 26 (miercoles) el día más importante y más "pesado" en contenido de dicho evento. #NokiaTalk fue verdaderamente un excelente evento, y brindo una profunda discusión sobre medios sociales, aplicaciones y dispositivos, vinculándose con la marca a veces de manera imperceptible, a veces bastante obvia; hasta el punto de que el miércoles se cerro el evento con una sesión colaborativa para mostrar las 10 reglas de oro o mandamientos que las empresas deberían tener en cuenta al incurrir a los medios sociales.
 
 El miércoles inició con una introducción por parte de Vivian Kobeh ([@vkobeh](https://twitter.com/vkobeh)), Directora de Comunicaciones de Nokia Latinoamérica ([@Nokia_Latam](https://twitter.com/Nokia_Latam)), una de las responsables en la organización del #NokiaTalk.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwznXUrk_axcJFrX-qFnvbiGVsXQESqGVDsFcbWFFKKIw3YxPzCNr9GHKp9UQUuXBMd-y1-E2lSB2JaGppu2LwmNNXReUjRjI1tNuY2zFmrq8-jw_8yx6twV3BiGPFUIJP9krdCAl-AUEM/s320/vkobeh.JPG)  
 
 Luego nos pasaron un video muy interesante, mostrando las estadisticas del "universo" de Nokia:

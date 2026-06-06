@@ -10,6 +10,7 @@ post_id: blog-3515952828243908885.post-8200463012366721425
 En su séptima edición, Imgine Cup 2008 estuvo enfocada en la búsqueda de soluciones tecnológicas para resolver los problemas reales del mundo.
 
 Pero, ¿Qué es Imagine Cup? Este es un evento a nivel mundial que desde 2002, alienta a los más talentosos diseñadores de software, programadores, desarrolladores de juegos, fotógrafos y cineastas a crear propuestas innovadoras que puedan hacerle frente a los problemas más difíciles que enfrenta el mundo. Este evento, más que un simple concurso, es un desafío dentro del mundo tecnológico para todos aquellos que gustan de la creacción de software, jugar, reforzar sus conocimientos, pero sobre todo que desean hacer una diferencia en el mundo.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6GQX9HAfbso51Oik6zTRmw7FNqK_OLLunv6DH15Y3FyPgk07a3kirznOQpDlTkbULMvEmaY38K9QaFj4kYfzACnHzrVjg5zSmwso0Z8Y-J03KL-ihR7EF3gBbpOAEONXugX7UhVRxEegk/s320/imagen11.jpg)  
 En año pasado, alrededor de 200,000 estudiantes que se desempeñan en las diferentes ramas de la tecnología, provenientes de 100 países y regiones del mundo, acudieron a la sede de ese año, París, Francia. De ellos, 124 fueron los equipos finalistas que se disputaron los premios en las nueve categorías que ofrece el certamen.
 

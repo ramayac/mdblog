@@ -24,6 +24,7 @@ Ojo, aquí les va un tipo sobre un factor humano secreto, que se omite en el des
 Extracto de [Rethinking the Progress Bar](https://chrisharrison.net/projects/progressbars/ProgBarHarrison.pdf), el Sr. Byte traduce:
 
 > "Los seres humanos no perciben el paso del tiempo en forma linear. Esto, emparejado con el comportamiento irregular de las barras de progreso, causan que la percepción humana de la duración del proceso varíe. La comprensión de cuales comportamientos perceptibles acortan lo alargan el proceso de duración puede ser usado para diseñar una barra de progreso que aparente ser mas rápida, aunque la duración sea la misma."
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbiHLLRqp8e2jvzbG7RY8jiqLPHXh6jElchEa_nTayfdd9CgOvLOtcsHk72kZlH4dRL9xYF0jNSvmTGLizkuYbFY1AhB5H_Cgpk0OWVysb0r23qV0IoUhOyJShlngSifu_cphTMFmbThM/s400/progress-function-graph.png)  
 "Gráfico de uso de 8 comportamientos de una barra de progreso y la reacción del usuario, con respecto a cada una"
 

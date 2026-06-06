@@ -43,6 +43,7 @@ Por el camino quedan ya [más de 300.000 resultados en Google](https://www.googl
 [https://www.youtube.com/v/L9HaNbsIfp0](https://www.youtube.com/v/L9HaNbsIfp0)
 
 Camisas:
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6OYF1M1o6v_YltsCrdrhJ4ZvafHb36uu5V4kiijL1cob6v9oF9L9tiJGCwQU_FrUoiS64ofWjOvbPVZo-DfC2HvwWWEq5_xYsUY54L-hk1v0Bz5QHerbgz-phUNTBosodwMQE0ny0UkE/s400/09F91102b.jpg)  
 "Camisa con los 32 dígitos"
 

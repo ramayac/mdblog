@@ -14,18 +14,21 @@ En alusión a este lanzamiento, la comunidad ha publicado una serie de contador
 Alternativa 1
 
 ```
+
 ![image](https://www.ubuntu.com/countdown/banner1.png)  
 ```
 
 Alternativa 2
 
 ```
+
 ![image](https://www.ubuntu.com/countdown/banner2.png)  
 ```
 
 Alternativa 3
 
 ```
+
 ![image](https://www.ubuntu.com/countdown/banner3.png)  
 ```
 

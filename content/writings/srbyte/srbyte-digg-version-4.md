@@ -16,6 +16,7 @@ Un video "privado" de YouTube esta circulando con un "sneak peak" de las nueva 
 - Sugerencias que Digg provee.
 - Pagina principal personalizada, que muestra noticias de tus amigos.
 - Una forma mucho más sencilla de añadir noticias a Digg.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9UkMPp7yBkUnKfo8MC_9UmQR-DTjw_sNSH3m8x1T46kj_njVVQZN88IPO39ZyBI8pDQG5wXIonfVQ11kXwXWfxsWhAdcDiBzv1WPklL_-qRM2vaG14F25x8hQ3prHgDnvxQxP-a2Kx6Bi/s320/diggmynews.jpg)  
 
 Digg siempre trata de compartir vínculos con historias o noticias interesantes, pero ahora lo están volviendo mucho más social y fácil de usar, incluyendo características de estilo "social media", que ciertamente validan medios como este blog, Twitter, Facebook y demás redes sociales. Habra que ver como queda la versión final de Digg, y mientras tanto, los dejo con el vídeo que esta circulando:

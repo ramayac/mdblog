@@ -13,9 +13,11 @@ Queridos lectores: que la paz, el amor y el espíritu de la caridad renazca en e
 ¡Feliz Navidad 2008!
 
 Y... aquí les dejo un regalito ... bastante geek ;) ¿Saben que es lo que hacia por las mañanas por estas fechas cuando tenia 7 u 8 años? La pase más de alguna vez jugando [Duck Hunt](https://www.tripletsandus.com/80s/80s_games/duckhunt.htm), en el Nintendo de mis primos...
+
 ![image](https://amog.com/wp-content/uploads/2008/11/_duckhunt-300x224.jpg)  
 
 Y también [Battle City](https://www.1980-games.com/us/old-games/nintendo/b/Battle_City/big-game.php):
+
 ![image](https://amog.com/wp-content/uploads/2008/11/battle-city-300x281.png)  
 
 Sin lugar a dudas, más de alguno hizo igual que yo, así que aquí, el regalo nostálgico-geek (y útil en momentos de ocio) es una lista de... [

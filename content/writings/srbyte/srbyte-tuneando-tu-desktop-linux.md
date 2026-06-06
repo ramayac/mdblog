@@ -24,6 +24,7 @@ Para empezar, descargamos la imagen de fondo de [esta url](https://www.ewallpape
 "Ventana Desktop Settings del Xfce, con el fondo de pantalla SpringTime."
 
 Personalmente no me gustan los paneles o barras de botones que vienen en los sistemas operativos asi que los elimino o dejo uno solo en la parte superior con la opcion auto-ocultable y transparencia. Esto lo definimos en la ventana Panel Settings:
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3EP4_uf36oSwqLdLX2T-DUd-yYjlplgJpiFhouPuDcwvD3Yt8KsspjI4yJIXWkGZSMdZjuNd_GTcnwpFYUrnWFgzshAOC5gciD8B3g6JrK_tMHCD64C1c6wCA4QszFOgKwLF544WNjuY/s400/xfcePanelSettings.png)  
 "Ventana Panel Settings con autohide activado y un unico panel en la parte superior"
 

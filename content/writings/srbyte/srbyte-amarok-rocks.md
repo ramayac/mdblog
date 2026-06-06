@@ -33,7 +33,7 @@ Algunas de las características de Amarok son:
 - Con una coneccion a internet, se tiene la posibilidad de descargar letras de una cancion que se este escuchando y ser guardada.
 - Administra y descargar la portada de cualquier álbum en la colección musical.
 - Ver la informacion del artista que se este escuchando (informacion extraida de la wikipedia)
-- Escuchar radio y compartir gustos musicales con otras personas mediante el sitio web [Last.fm](https://rodrigoamaya.blogspot.com/2007/03/lastfm-una-revolucin-musical.html) y mejora del perfil de Last.fm al enviar la lista de canciones reproducidas.
+- Escuchar radio y compartir gustos musicales con otras personas mediante el sitio web [Last.fm](/2007/03/lastfm-una-revolucin-musical.html) y mejora del perfil de Last.fm al enviar la lista de canciones reproducidas.
 - Soporte para estadísticas.
 - Soporte para información de pistas (por nombre y por [MusicBrainz](https://en.wikipedia.org/wiki/MusicBrainz))
 - Sistema doble de puntuación de música, uno automático y otro manual. El automático tiene en cuenta el tiempo y el número de veces que se reproduce cada canción.

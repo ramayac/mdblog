@@ -10,6 +10,7 @@ post_id: blog-3515952828243908885.post-1106342298065289833
 Introducción: La cantidad de sangre que brota en este film, lo convierte en un musical no apto para el débil de corazón o del estomago. Aunque la receta de humor negro, producción y música, la hace mas llevadera, lo que hará que los fans del director Tim Burton salgan cantando de las salas de cine después de verla.
 
 "Video: Trailer de Sweeney Todd"
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVkHiilmkHjMJCZ6WRh8cR1VSnulxNf4cGA978ugapcgj-TiYVzaTDbvrXUJ2w9ytNMGFyomTJSY4xt6Q4HaJzjY7LHYmL6F-0HocFz6Xt-CoG0rp2QcebrLv3H3VRQ2oxDq71EZCCz3o/s320/sweeney2007.jpg)  
 Sinopsis: En Sweeney Todd, contamos con la sexta colaboración del director Tim Burton y Johnny Depp, este ultimo interpretando a Benjamin Barker (conocido por Sweeney Todd), un barbero falsamente apresado y condenado por el Juez Turpin. Sweeney, después de dejar la prisión, regresa a la ciudad de Londres, solo para conocer que su esposa se envenena y su hija esta cautiva. Mientras elabora el plan de su venganza color rubí, Sweeney se una con la Señora Lovett (Helena Bonham Carter), y mientras Sweeney mata "caza" a los clientes que desean una rasurada, su nueva compañera de trabajo convierte los cuerpos en deliciosos panecillos de carne. Mmmmmm!, dicen que la carne humana tiene buen sabor ;)
 Pero el Juez Turpin aun vive, y el endemoniado barbero tiene sed de venganza.

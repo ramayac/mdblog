@@ -8,7 +8,7 @@ post_id: blog-3515952828243908885.post-8195922108950999487
 ---
 
 Sigue la controversia:
-[(lea el articulo anterior)](https://rodrigoamaya.blogspot.com/2007/03/windows-vista-y-sus-problemitas-parte.html)
+[(lea el articulo anterior)](/2007/03/windows-vista-y-sus-problemitas-parte.html)
 Microsoft en vez de innovar el entorno gráfico de Windows Vista se ha limitado a mimetizar otros entornos graficos. Practica hecha a lo largo de los años en varios de sus productos. Vean este vídeo divertido e irónico que ejemplifica lo dicho anteriormente:
 
 Como pueden ver, Vista esta agregando características que son solamente innovadoras en SU producto... porque en otros sistemas operativos existen desde hace BUEN RATO. Nada acerca de Windows Vista es innovador o atrayente. ¿Y de quien "toma" estas características? pues nada menos que de el sistema operativo de [Apple Inc.](https://www.apple.com/):
@@ -31,4 +31,4 @@ Ja! y ¿creíste que no tenia buenas razones?. La tecnología DRM que ocupa es u
 
 ¿Qué significa esto para nuestro futuro?...No uso justo, no compra y reventa, no compartir, no respaldar, no intercambiar, no mezclas, no privacidad, no bienes comunes, no control sobre nuestras computadoras. Claro que ataca problemas como la piratería (y la frena muuuucho, lo acepto) pero su implementación es en buen Salvadoreño, como una "patada al pecho".
 
-Cuando damos a otros permiso de controlar nuestras computadoras y de monitorear nuestras acciones: invitamos una vigilancia más profunda y personal a lo que vemos, escuchamos y leemos... ¿debemos o no estar alarmados? ¿comentarios?... [lee la ultima parte.](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte_09.html)
+Cuando damos a otros permiso de controlar nuestras computadoras y de monitorear nuestras acciones: invitamos una vigilancia más profunda y personal a lo que vemos, escuchamos y leemos... ¿debemos o no estar alarmados? ¿comentarios?... [lee la ultima parte.](/2007/02/windows-vista-y-sus-problemitas-parte_09.html)

@@ -18,6 +18,7 @@ IceFaces:
 Con IceFaces aprendimos a preocuparnos por la lógica del negocio, y por hacer las cosas lo mejor posible, y no preocuparnos porque la GUI no se muestra bien en Internet Explorer 7+. Es un framework que recomiendo mucho, que mejora constantemente, y que ya esta en su versión 2.0, y posee soporte para las empresas. Si lo usan, se darán cuenta de que si diseñan bien la logica de su software, hacer proyectos con IceFaces es un paseo por el campo. Quizás el único inconveniente reciente, es que no hay plugin de IceFaces para Netbeans 6.8, solo para la versión 6.7.5.
 
 jQuery:
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbsMeT8b2F56SToxoW9AnCIRrOVtpkMh77QJg-68uHgxHhsN3jz1G0kBtEvVwsM4-L-8kB9a-7LZfSPdfqC0Lrr6-ZkfZ5apEBAKq2jQen6dALVCJ46zB3U6UD8OLbSplOaxc_PBi-N34K/s200/js-lib-logos.png)  
 
 Si bien no me gustaba JavaScript, cuando conocí JQuery la cosa cambio, y cuando comencé a usarlo todos los días en el trabajo, se volvió el mejor amigo para no caer en la locura y demencia de estar en un proyecto que: no usa persistencia (JPA), ni patrones de diseño, ni MVC, ni framework alguno... es bastante traumatico, pero bien, gracias a Dios tengo trabajo ¿no? :) Al menos, yo prefiero jQuery por cinco excelentes razones: Selectores, Atributos, Ajax, Documentación, y jQuery UI. Si no están usando un framework de JavaScript, háganse un favor y aprendan uno de tantos, yo recomiendo jQuery, pero también les puede interesar [MooTools](https://mootools.net/) y [Dojo](https://www.dojotoolkit.org/) (entre otros tantos más).

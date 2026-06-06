@@ -8,6 +8,7 @@ post_id: blog-3515952828243908885.post-5819380668438039354
 ---
 
 Si alguna vez chateaste en elchat.com o bajaste juegos para tu celular, seguramente has visto este logo...
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9uJoi71-XYJL5TT7x8dGW8M2NwRwX2jVuJYvSrMWVU9eD_B9J0efcCow6hECXKYz9Br003VSiT8XB1G4lkcTIFWnSPgb4x8-_tgILIET1utKiH7dY8cGhUAB7_L4DXKLjsDRHPBA29Eo/s400/Java-logo.gif)  
 "Logo de Java"
 

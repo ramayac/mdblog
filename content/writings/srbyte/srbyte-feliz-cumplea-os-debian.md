@@ -23,6 +23,7 @@ Algunos datos curiosos acerca de Debian:
 - La espiral de Debian, también fue inspirada en Toy Story. Esta marca aparece en la barbilla de Buzz Light Year, como podrán notar la próxima vez que vean la película.
 
 - Ha servido como base para una gran cantidad de distribuciones "hijas" como por ejemplo Knoppix y Ubuntu, por mencionar algunas de las mas populares ([acá](https://www.debian.org/misc/children-distros) esta la lista completa).
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizfD1GEt-vEGCtyoJj9IjVz_P2g2O3iuuib2HtMQjgwMGsjX62ws4kNYJ_rByH6SUihJVN_pWE0wrMQySL0j7USk_-WK-SyL7CR5ggnA_7D0mX16-SlXUJPp5kVhnFOVtdB1klnj2TJNg/s320/buzz.jpg)  
 "El origen de la espiral de Debian: La barbilla de Buzz Light Year"
 

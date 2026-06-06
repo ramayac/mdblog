@@ -28,6 +28,7 @@ Suele ser de caja negra, porque no importa lo que hace en el fondo el sistema, s
 - Exactitud -- ¿Cuantos errores realizaron las personas? (Fueron errores fatales, recuperables, etc).
 - Recuerdo-- ¿Que tan bien se recuerda el uso del programa, después de largos periodos de no utilizarlo?
 - Respuesta Emocional -- ¿Como se siente una persona al completar una tarea? ¿Estresada, Confiada, Emocionada?
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBr3e2mEeD1_hO-rmY_3uO6kPpmo8F_n7HeyHwoiALbymFYaFMCCQVd6eOjvyROworkAy6Cn7-_GIvnXGUsZ1xU7A8R09jK92kRdWY-_5zQiId66ol_qnlLGw24nzK5vlyDoaj476dYzlJ/s320/usability_testing_absplit.jpg)  
 "Es necesario conocer que piensa el usuario final del software que usara"
 

@@ -13,6 +13,7 @@ Continuando con [el articulo anterior](/2010/05/resumen-nokiatalk-la-manana.html
 - [MeeGo](https://meego.com/) es la plataforma que Nokia apunta a hacia sus telefonos de "gama alta", es decir, los smartphones, ademas de todas las "demas pantallas" en las que se pueda poner.
 - [Usando el SDK de Nokia](/2010/04/nokia-qt-sdk-y-el-n8.html), se puede desarrollar applicaciones para ambas plataformas, pero lo mejor seria siempre apuntar a MeeGo.
 La otra parte que me intereso mucho, fueron los coffe breaks... con muchos cupcakes con iconos de Nokia y el hashtag #NokiaTalk:
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXA__mu8IilSQNryYjRJsO842EkA_9pOkg9a3tzfw4WAhyza1vwZFteH8oklDOifjo5MOciK7o6BCllCwa_bpQbk9sdEo2jSTBVHW2sNPBPPOdcKnp6S-I7kurO1Nps7b5DJiFQ4i9GGAP/s320/26052010078.jpg)  
 "Buenísima la atención a los detalles :)"
 
@@ -21,6 +22,7 @@ No, ya hablando en serio, el otro punto que me falto mencionar fue la charla que
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4lX54vHuVPVjrirPli-q-_4Az9-EN9x1WYh7q8azsJ0DuTpD7lTCRGKTVUFEQnQQCdhEP8lneKEoIde2SVcR2jCCRXMuc_RUFiHgWQI4gl8nFqs1vyAkFS9JXTlFNSoZg3m-L4jjmTj8M/s320/26052010076.jpg)  
 
 Y esa charla se complemento perfectamente con un pequeño foro que giro en torno a la pregunta: ¿Se puede vivir del blog?
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4o3zKLevCme-hyxojqWbiid7w7pxNhBEnHwBzAFGstK-cPg9dsNlEru56jlGejsKni8I36-CMvABGHxd_R-LUaudgG9fNlvqtEDYQhcHUOa2nnYicyVU6otN5yootLrq9KnksrpXruPJw/s320/26052010091.jpg)  
 "@leoprieto, @saulopassos y @jovemnerd"
 

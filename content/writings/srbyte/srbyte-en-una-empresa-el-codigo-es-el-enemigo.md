@@ -20,6 +20,7 @@ Mientras hay mas código escrito:
 - Un empleado nuevo tardara más tiempo en comprender el sistema
 - Es mas complicado refactorizar código
 - Y también es mas difícil encontrar documentación precisa de: que hace qué, cuándo, dónde y por qué.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXbXL94H9sN5ZSck0BT4AJe1KA_tRPtYgnVwNZQCTzqe59rD_lmBDVQVlh06nHJ6yw9jxIxKhlDh5uRsaKSCgmEo1JGqVbeKhcHryZeVlkvmv6bDFdkIVG1KKsI2ttiIU7ooypul0rYb4Z/s320/beautiful-code.png)  
 "Este libro debería leerse en la Universidad..."
 
@@ -48,4 +49,6 @@ Repitan conmigo:
 > "desarrolladores infelices, producen mal código, que aumenta mis costos".
 En la empresa en la que estoy trabajando, la mayoría de desarrolladores piensan que los "usuarios" son los enemigos. Para mi, el código es el enemigo, y para la empresa también.
 
-Una cosa más, para los desarrolladores que leen este articulo... sigan como consejo la sabiduría innegable de xkcd: ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKFM3eZ2b_5XNfgtxKO3OSw4nNAt7UzcjEKi8Ti6QOkJ_P1tKNU-kSeDlCUKt6FLFjB9dHIh0dCjMAlTeSN53_JMPbBV3X4jb4CrEcUT34_R03tJxxZ3u0RPxs8wiHb38Uyv_EcWuYSw06/s320/goto.png)
+Una cosa más, para los desarrolladores que leen este articulo... sigan como consejo la sabiduría innegable de xkcd: 
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKFM3eZ2b_5XNfgtxKO3OSw4nNAt7UzcjEKi8Ti6QOkJ_P1tKNU-kSeDlCUKt6FLFjB9dHIh0dCjMAlTeSN53_JMPbBV3X4jb4CrEcUT34_R03tJxxZ3u0RPxs8wiHb38Uyv_EcWuYSw06/s320/goto.png)

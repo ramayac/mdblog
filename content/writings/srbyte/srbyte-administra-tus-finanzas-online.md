@@ -17,14 +17,17 @@ Unos hacen cuentas en papel, otros usan hojas de cálculo o programas que se ins
 Para ello, existe una serie de aplicaciones basadas en el web que te permiten realizar las tareas antes mencionadas. Desde los mas simples hasta los pesos pesados de las finanzas, desde los minimalistas hasta los orientados al web 2.0 mencionamos los siguientes (cabe destacar que todas son gratuitas):
 
 ExpenseView ([link](https://www.expenseview.com/))
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUgjCJHHzWiBRErz4uW41OTA88JfQJLzwRARFWzNZGfVp0b6zRKFzD0p6-Yf9MlY-UcpFEilgQlQ5Aw0lQ1Z7K8k3WW1BYSDfv6PYrDtYa-ZMQ8mMpXd6bLOakdNJ37EdEuO9tMMN8hnQ/s400/expenseview.png)  
 Expenseview es una sencilla herramienta (aún beta) en la cual puedes ir registrando periódicamente cuales son tus ingresos y egresos de efectivo para saber en qué te gastas todo el dinero y cuales son tus fuentes de ingreso mas frecuentes o como dicen popularmente como llegar a fin de mes. Basta registrarse en el sitio e ir agregando cada uno de los ingresos/gastos los cuales al final se pueden comparar totalizados en varios periodos de forma gráfica.
 
 Mint ([link](https://www.mint.com/))
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyJmLz-w07fzj4Ybq5DSMXyyQ4HtJHFovr6B397_ZKVmNmArGLrJiFgkJBiKbgGZp5-I_esBujO-5k_L9NsX0GDkx_fUFbRgM4c3awewsbRhGVenTjVEAUfZc3ZgNNNU0mY84AvgjBVmw/s400/mint.jpg)  
 Mint es una herramienta un poco mas profesional, pero con una fresca y muy amigable apariencia. Se sincroniza con tu cuenta bancaria (no disponible para los bancos de El Salvador, lamentablemente) o mediante tu cuenta de PayPal de manera que no tengas que ingresar manualmente tus ingresos/egresos y tu estado de cuenta. Desde mint también podras realizar pagos y recibir noticias de los movimientos de tu cuenta, revisándolos desde cualquier computadora conectada a la nube de Internet o desde tu iPhone. La seguridad de tu cuenta en mint esta respaldada por VeriSign, TRUSTe y mcAfee secure por lo que puedes estar tranquilo por la confidencialidad de tu información bancaria.
 
 Buxfer ([link](https://buxfer.com/))
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSI2ICU0yOwUeavvUCvlydVPUW0F2-n4kGag9KJGnqCulxXnksYCLbWmo2g0rHZFn9n5676sIa_EjIdCbrsPGvWGXIBqpqXI4uUYxCgI4VtWExZnFYL6kRhWvruSoL0Mf-3eCLgRgzQ7E/s400/buxfer.jpg)  
 Buxfer es casi tan profesional como mint, pero se orienta más al web 2.0 y a la administración colaborativa. Te permite crear una nueva cuenta sin necesidad de recordar un nuevo usuario/contraseña sino que te brinda la facilidad de usar una cuenta de OpenID. Al igual que mint, permite sincronizar cuentas bancarias y tarjetas de crédito, realizar pagos desde el sitio y recibir notificaciones vía telefonía móvil. Puedes agregar todo tipo de transacciones como préstamos, donaciones, pagos, etc. y asignárselas a algún miembro de tu grupo de usuarios de buxfer, haciéndolo responsable de esa transacción. Lo recomiendo personalmente para el trabajo en equipo administrando el presupuesto de un proyecto o tareas similares. Respaldado por VeriSign.
 

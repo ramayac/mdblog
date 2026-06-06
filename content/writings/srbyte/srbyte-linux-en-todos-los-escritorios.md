@@ -8,6 +8,7 @@ post_id: blog-3515952828243908885.post-8495973040200282155
 ---
 
 [Linux Foundation](https://www.linux-foundation.org/en/Main_Page), es una organización sin fines de lucro, que lucha desde hace tiempito por promover la estandarización entre las diversas [distribuciones](https://es.wikipedia.org/wiki/Distribuci%C3%B3n_Linux) de GNU/Linux para mantenerlo avanzando en ese camino tan dificil de los sistemas operativos, lleno de vidrios por las "ventanas" rotas...
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO8P97J1Q9OADUcPsaoJiXtUHJ29TwfhShewJvxj4bbeKzrtatkbsl4AdJ4Tla0ZgQmpDjeXdiwjUmXHlnURIu6tXF2SjOrdbuUXON67G3fyKfh-zi0DO87pa2e0uklGJ8X3aZlgEsjuw/s400/vista-cracked-possibly.jpg)  
 Hace poco [Mark Shuttleworth](https://es.wikipedia.org/wiki/Mark_Shuttleworth) se unio a la junta directiva del Linux Foundation. Y claro... Shuttleworth, ademas de viajar al espacio sideral:
 

@@ -13,12 +13,17 @@ Tienes GNU\Linux en tu sistema?, lo usas a diario? (o al menos semanalmente?)...
 "Tux"
 
 Si es asi, de acuerdo a algunas personas (y los que propagan el mito) si tienes GNU\Linux en tu sistema eres un super hombre...
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr3fl2DiIuN1VN0kQmXukQZ3tJBPv7wybE5vmUo6jtiq9quZ26VfanW6PkHGLFopWzdbQQ4N8SVDSyuVVOQ4NPie9nJCfy92gH7Vy_2w9HxC3DkSBNxDjmuARhueDXq9vRJOHX975MK3A/s320/superlogo.jpeg)  
 "Logo de Superman"
 
 Las distribuciones de GNU\Linux han hecho un sin fin de increíbles malabares para realizar de manera mas sencilla la instalación a través de los años.Hay instalaciones que super sencillas, por ejemplo la instalación de Linspire.
 
-![image](https://www.ffnn.nl/media/.gallery/image213.png)![image](https://www.ffnn.nl/media/.gallery/image237.png)![image](https://www.ffnn.nl/media/.gallery/image238.png)  
+![image](https://www.ffnn.nl/media/.gallery/image213.png)
+
+![image](https://www.ffnn.nl/media/.gallery/image237.png)
+
+![image](https://www.ffnn.nl/media/.gallery/image238.png)  
 
 "Capturas de pantalla de instalación de Linspire Five-0"
 

@@ -29,7 +29,10 @@ Aunque también existen usos mas útiles (y que cada día se vuelven más popula
 Y si de verdad piensan mantener tanto tiempo encendido su monitor LCD y se topan con el [problema de tener un pixel trabado](/2008/02/arreglar-pixeles-en-un-monitor-lcd.html), pues hay varias cosas que pueden hacer para destrabarlo y que regrese a la normalidad.
 
 Mucha gente enciende su PC y lo tiene horas encendido, incluso cuando no es necesario. A veces nos vamos a tomar un café, o estamos escribiendo algo en un papel, o salimos a pasear al perro, y nuestro PC sigue en marcha, sin realizar ninguna función realmente útil. En esos momentos, cuando el PC no tiene nada que hacer, en vez de tener instalada una estupidez como... un acuario o una fogata...
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2aXy9tIWyaB99G5c2Vo6-5rLOOeHpgfClu9uanUUS4SxGL6yJsQ6pCEr8k0oSfD3Lu5whpJ-ga7pESdU8kDEbs_dxWDaqkLHKZmh2gPsmhhuiJBEiTRNxrbpHMus1nYieQxYvUE82C8Y/s400/aquarium.jpg)![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWmUGcTXe5eOqcwPmm_gPN-Mqfn0_7eUE-YsaZtet85zXHTcWAsjFWODUm-TcIuv4LC31Uh1WGwZSsEs5sd5K0OYLVHdd46m_tJSRXQZMLtGaJUXKa6lH-3NgzWGz8PXtevsf6cx_MjyY/s400/fireplace-screen-saver.jpg)  
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2aXy9tIWyaB99G5c2Vo6-5rLOOeHpgfClu9uanUUS4SxGL6yJsQ6pCEr8k0oSfD3Lu5whpJ-ga7pESdU8kDEbs_dxWDaqkLHKZmh2gPsmhhuiJBEiTRNxrbpHMus1nYieQxYvUE82C8Y/s400/aquarium.jpg)
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWmUGcTXe5eOqcwPmm_gPN-Mqfn0_7eUE-YsaZtet85zXHTcWAsjFWODUm-TcIuv4LC31Uh1WGwZSsEs5sd5K0OYLVHdd46m_tJSRXQZMLtGaJUXKa6lH-3NgzWGz8PXtevsf6cx_MjyY/s400/fireplace-screen-saver.jpg)  
 "SerenScreen Saver y Fireplace Screen Saver"
 
 deberia mejor tener instalado un protector de pantallas que haga algo "util", como el de SETI@home, este protector esta diseñado para que al ser activado, comienze a analizar señales de radio para encontrar vida extraterrestre.

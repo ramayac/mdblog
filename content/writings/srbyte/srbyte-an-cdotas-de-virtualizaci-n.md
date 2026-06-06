@@ -32,6 +32,7 @@ Si bien Windows 2003 Server, es bastante estable, cualquier experto puede concor
 
 Para las máquinas virtuales, siempre hay que usar una regla de oro:
 > Usa un sistema operativo OPTIMIZADO para máquinas virtuales.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC5lzpqExPr7Hw8aXE5kcMluyi2RJrMUNhrm1e4HW60Xrh3J0P6TZVxGdP1HI0yNhE6TKLXku1v2QtXufnr1UhYavaslaTHOiHpU86mkUAUWecbhm7RabdeNay0Jwjg03A6vUrfcfF4hVL/s320/vmware-player-ubuntu-install-1.png)  
 Un PERFECTO ejemplo de esto: [Ubuntu Server Edition JeOS](https://www.ubuntu.com/products/whatisubuntu/serveredition/jeos) (que se pronuncia como jugo en Ingles: "Juice"). Beneficios inmediatos de usar JeOS son:
 

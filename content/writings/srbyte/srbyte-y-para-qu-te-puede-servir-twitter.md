@@ -10,6 +10,7 @@ post_id: blog-3515952828243908885.post-3239932646900031994
 Creo que en algún momento o de alguna u otra forma, ya habrán escuchado que es [Twitter](https://twitter.com). En lo personal es una de las cosas mas graciosas, interesantes y útiles que se puede encontrar en Internet. Es fácil de usar y muy concreto, y eso le ha dado su popularidad. Es más, es tan concreto, que muchas personas no lo entienden o saben precisamente como utilizarlo. Así que, para todos ustedes que no se deciden a utilizar Twitter, o no saben como hacerlo, sigan leyendo, ya que este post es para ustedes:
 
 > "Imaginen un bosque, lleno de pequeñas aves, cantando cada actividad que para ellos sea interesante. Esa es la visión romántica de Twitter."
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLewZX2YldNACWzNgoaEPhL74AG4BgLBiEJ3DEdn7GoNGx_Hso0y07OT80DDOgi16m7bfQbBAHxIi7gRG4_yfgJNrTWwi6eHF4V_rqvCGL81bdV19kXSR6DBD0TbtABHs280LKLu1mSWE/s320/tour_2.gif)  
 Lo que en realidad sucede con Twitter, es que esta conformado por una creciente comunidad de miles de personas aleatorias y desconocidas, que manteniendo informadas a otros cientos de personas aleatorias y también desconocidas, de la actividad que realizan diariamente. Enredado, pero acertado. Twitter es la herramienta social orientada al micro-bloggin más popular que se pueda encontrar. Y es realmente popular, ¿pero por qué es tan popular?, y más importante aún: ¿Para que te puede servir?...
 
@@ -23,6 +24,7 @@ Si bien existen millones de usuarios de Twitter, cada uno contando cualquier ton
 - ¿Que herramientas utilizan los programadores de software con blogs exitosos?
 - ¿Como es el mundo en el que estas personas se manejan?
 - ¿Como es un día típico de negocios para ellos?
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH35JV2ccPIHvQLwLaZW2SPTneeMq4zUslrFAWUDGdhb_r9lkAuz1H-27_E_sRsuMxjMMQhT4kWL2dQALA88KR0MBgKry6U9NNoOes7y41q2xk67TAwpsiQcVJZg-GwOMHdH3JWNuCyuU/s320/tour_1.gif)  
 Esas son el tipo de respuestas que Twitter me ayudo a responder, en alguna medida. Basta recordar que el éxito se puede aprender, si se rodean de gente exitosa, interesante, divertida, sana o mejores que ustedes, lo más probable es que este tipo de comportamiento o preferencias poco a poco serán aplicados a tu vida cotidiana. Eso, es útil.
 

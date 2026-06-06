@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-4945014083461302673
 ---
 
-Y para terminar hay que decir que: Microsoft hace que Windows Vista parezca tonto [(lea el articulo anterior)](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte.html).
+Y para terminar hay que decir que: Microsoft hace que Windows Vista parezca tonto [(lea el articulo anterior)](/2007/02/windows-vista-y-sus-problemitas-parte.html).
 
 Cuando Microsoft habilito la descarga del paquete Vista Ultimate Extras (practicamente el mismo día de el lanzamiento de Vista). Y entre este paquete de "Extras" solo para la versión Ultimate:
 

@@ -19,6 +19,7 @@ No. Definitivamente no. Así como la gente que se desmaya viendo sangre y no se 
 Y sobre todo, no pierde el tiempo re-escribiendo código. Un programador, es un individuo apasionado por resolver problemas, para hacer mejorar el diario vivir de los usuarios. Suele ser autodidacta, y no espera a que alguien más resuelva sus problemas, el procura resolverlos todos.
 
 [https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg)
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s320/computer-programmer.jpg)  
 [https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAmPeYMklOlxoeWP5yJv2DyjO5KH9kj0Zk_5fly_WiRfUc1OLTZ8AlglgqCNVwMy_ZnYyDxem4iyU98JY0g3v9rwRm1xWfEQNDz72r4AEnQCc83NHI5Jg3KqFr0pFAk14YdY9FwMpapLcL/s1600/computer-programmer.jpg)
 

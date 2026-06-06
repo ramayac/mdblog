@@ -29,6 +29,7 @@ Les comparto el vídeo de las nuevas características de FireFox 3.5:
 
 > Descarga Firefox 3.5 aquí: [https://es-ar.www.mozilla.com/es-AR/](https://es-ar.www.mozilla.com/es-AR/)
 >
+
 ![image](https://sfx-images.mozilla.org/affiliates/Buttons/Firefox3.5/468x60.png)  
 
 ¿Y qué estas esperando para descargar Firefox 3.5? :)

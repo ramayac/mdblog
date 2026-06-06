@@ -10,6 +10,7 @@ post_id: blog-3515952828243908885.post-6400698714951165891
 Esta nota esta más orientada para nuestros lectores de España, como ven, ya tenemos "audiencia internacional" :)
 
 Desde la empresa [SQS](https://www.sqs.es/es/) en Bilbao, España, les presentamos [QA&TEST 2009](https://www.qatest.org/es/), una Conferencia Internacional sobre Testing y Calidad de Software que este año celebrará en el mes de octubre su octava edición. QA&TEST es la conferencia más importante sobre testing celebrada en España y la única dedicada a los sistemas embebidos (empotrados). Es una oportunidad de formación inigualable que contará con 2 tutoriales, 3 keynotes y más de 20 presentaciones de la mano de grandes expertos como [Mary Poppendieck](https://www.poppendieck.com/), o el Doctor Bruce Douglas (Jefe "Evangelista" de IBM).
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwtwxFy0arKe20jr1m2KXBZL021MQ488gwD_77_oHev2hD7cxMlFV3x4gprQ2yDsOTgACXE7e_mIlCHccr_51lscwwTcnqrLHoyrkBqMar8MQ7CONT0ogOnyDe-wV3g7PQ3V-MBtUrGaA9/s200/Douglas.png)  
 
 "Doctor Bruce Douglas, IBM"

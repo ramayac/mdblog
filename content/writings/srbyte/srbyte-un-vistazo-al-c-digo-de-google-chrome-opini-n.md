@@ -35,6 +35,7 @@ Lo que si es cierto, es que la versión de Chrome para Windows esta diseñada pa
 Puntualizando: no esperen una versión para Mac o Linux en algún momento cercano, simplemente, falta mucho para que eso suceda.
 
 Quiero descargar el código y compilarlo: ¿vale la pena?
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZYMQaxTaW9RcZMeDqLgB5ZYw9RoLzullU5s1SX3YzLGOx9-wAUuHv2tgZHahd8M3zpPi03Ybi2eyNtd2zMX0qGNEOiVZC6FNR7IlHTAbgMKR8n2B6XcbjGSVKo5CSXusj7_wRpxBv7fM/s200/subversion_logo-384x332.png)  
 No, obtener el código es mas difícil de solo de dar un click y descargar. Por que además de eso, hay que instalar las librerias que "la solucion" demanda, y tambien hay que instalar una serie de scripts que permiten el [acceso al repositorio SVN](/2008/03/programemos-mejor-subversion.html) de Chromium. Si bien son scripts para la consola, se sienten lo suficientemente familiares para cualquier desarrollador con un poco de experiencia. Lo que implica trabajar con un repositorio SVN, es que se obtiene la ultima versión del código, pero obtenerlo en estos momentos, me parece un poco ridículo, porque Chomium es un proyecto en constante movimiento. Sin mencionar que el código es terriblemente pesado y puede alcanzar cerca de 2.4 GB de código, incluyendo pruebas para depurar WebKit (el renderizador de las paginas web). Solo el código de Chromium mide cerca de 500 MB comprimido. Repito, no, no vale la pena descargar el código e intentar compilarlo. Si desean aprender a compilar proyectos ajenos, comiencen compilando archivos ".tar.gz" pequeños, luego el Kernel de Linux, Mozilla Firefox, y finalmente KDE o GNOME.
 
@@ -44,6 +45,7 @@ El código fuente: El código, hasta donde lo vi (si, lo descargue, pero NO lo c
 
 Notas Finales: Por ser un Beta, no esperen grandes cosas aún de Google Chrome/Chromium. Personalmente no me agrado darme cuenta de la "movida" de Google al dividir su proyecto en una versión "pulida y comercial" y en otra que no lo es tanto. Desde un punto de vista comercial, es sabio y conveniente hacerlo así. Pero por un breve instante, que confieso: fue muuuuy ingenuo de mi parte, quería que Google Chrome fuera en su totalidad Open Source. Si bien Google Chrome es una interesante propuesta es solo
 > ...otro navegador web más.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKXtSJUL6Q7AespoBZM2tq-hq8kYwq9X8JKRratJ8eKpUiwn9k8M2KgDBwDzeVwhV8a5rLsoQ8hT7PuQxx3WZCF1HIVl_10Xf8Cma6dI6WDeoikgVDBd_4chJ0f0_Dii4PhUGnjZDTOGI/s320/googlechrome_450x257.jpg)  
 "Así es, Chrome es solamente otro navegador web mas."
 

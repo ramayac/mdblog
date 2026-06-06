@@ -8,6 +8,7 @@ post_id: blog-3515952828243908885.post-8997891708762868638
 ---
 
 El principal bloque de construcción de todos los sistemas es el objeto o la clase (enfoque orientado a objetos). De manera primitiva, antes el bloque principal de construcción de todo el software era el procedimiento o función (enfoque estructurado). Visualizar, especificar, construir y documentar sistemas orientados a objetos es exactamente e propósito del modelado de sistemas y mas específicamente del Lenguaje Unificado de Modelado (UML por sus siglas en ingles).
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKHbxGhCFbUr5Gi5toUtocJAQsYWvkuqcHjRMIADrn3itbs65ymcZ-3d1eUZP8IXlHrLcilprQ9wCu17EFQ-UMdzdXtaaYJ9Wx81kwLmQnS3p7_e71BqV_05iexXpXlfEcXqkHt6ulAOA/s400/uml_logo.jpg)  
 "UML"
 

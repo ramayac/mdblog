@@ -18,6 +18,7 @@ Yo Frankie! fue desarrollado por tres artistas de blender (modeladores 3D), dos 
 Lo mas interesante de esto, es el uso del nuevo y mejorado BGE (Blender Graphics Engine) y también el nivel de profesionalismo que manejaron a lo largo del proyecto, vean:
 
 "Blender Game Engine Demo"
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2xB0GAuh839_6o7gdlg09TNxurBTLavzeOPTlW0VS9SaQX9mLelRPKHarZ39oLd2KbgojIOWwpgl0TlFhbRmBwBT7ylJneChRE5oR9A89KBITqN2Uy-Ne6zjupX4Zg4V5z62UrvG3t7w/s320/yofrankie10.jpg)  
 "Yo Frankie! ejecutándose sobre el Blender Game Engine"
 

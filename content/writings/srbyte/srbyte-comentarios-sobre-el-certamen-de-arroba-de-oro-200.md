@@ -10,6 +10,7 @@ post_id: blog-3515952828243908885.post-5139784420296621984
 Como ya saben, gracias a ustedes (y al panel de jurados) somos ganadores en categoría de blogs para el certamen de premiaron de sitios web: Arroba de Oro. Quería comentarles un poco lo que nos pareció el evento, así que, sin mas preámbulo les dejamos con estas pequeñas entradas...
 
 Seminario y Lectura de Nominados (Miércoles 15 de Octubre 2008)
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2lyDsnpcBI3KztG8qdG-Kjxq0TknJ3q2ds_ASIwe5LP5EuoRTCnA1y7XzVZZHOrqpjb1mq-OUIVEMZC6pdFyPOlOlh3ZuJR551oRQbLGmLcvYGanqOIl9GTEPq8H-iHsPYBl5Sk6o0OM/s320/hpim1733.jpg)  
 "Salón Presidente 4 en el Sheraton."
 
@@ -92,6 +93,7 @@ Lo "fail" (errores, regadas y demás):
 - Los "datos erróneos" mencionados fueron otro fail.
 - Se suponen que tenían que mostrar dos vídeos hechos por elsalvador.com sobre los testimonios de éxito, los de la Señora de Palomitas El Salvador y el de la niña de 10 años, pero el vídeo de la niña no funcionó, parece que no tenían los codecs para reproducir el vídeo... Windows Media Player fail.
 - Pero lo mejor se lo lleva una diapositiva que queriendo hacer referencia a la apariencia y sensación de las paginas Web, es decir, el "Look and Feel" pero en vez de eso puso: "Look and Fill" ... fail total.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAN5NgBXFPHswY9L5Z7TWg7uBPNmEVsiPuERItwkUqGqSXg5UgMiCmKvVd0kldx1rglhwA4YdWN5LKdMqzqw6j0GkXKM9Ca_07xee_lw3NrBzLGNCDpW6uv7FhQ7Kg7C5O087c8MaKtXc/s320/lookandfill.png)  
 "Look and 'Fill'... fail."
 

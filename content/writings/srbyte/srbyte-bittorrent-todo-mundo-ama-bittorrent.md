@@ -39,7 +39,7 @@ Así que a buscar en un buscador de archivos torrent, los más populares:
 
 - [www.demonoid.com](https://www.demonoid.com/)
 - [www.piratebay.org](https://www.piratebay.org/)
-- [www.LegalTorrents.com](https://www.legaltorrents.com/) (contenido 100% legal, bajo licencia [Creative Commons](https://rodrigoamaya.blogspot.com/2007/03/creative-commons-30.html) )
+- [www.LegalTorrents.com](https://www.legaltorrents.com/) (contenido 100% legal, bajo licencia [Creative Commons](/2007/03/creative-commons-30.html) )
 - [www.isohunt.com](https://www.isohunt.com/)
 - [www.bittorrent.com](https://www.bittorrent.com/)
 Aquí Pedro busca lo que necesita y luego...
@@ -49,8 +49,10 @@ Aquí Pedro busca lo que necesita y luego...
 4. Y finalmente Bajar el/los archivo/s que quiere. Se abre el archivo .torrent con el cliente que tengamos y nos ponemos a bajar los archivos. Este es un proceso que depende de:
 
 1. Tamaño del archivo (un libro de Shakespeare que es "pequeño", o hasta un DVD mas de 3.0 GB!) 2. Cuanta gente tiene este archivo COMPLETO (seeders), esta es la característica más importante. 3. Cuanta gente esta bajando este archivo (leechers)
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxObFxe66cjhHSLVmrhEllH5UVtsWGO4SIJqm0jP4C_fzaWWJUnnmcwldtf05WxabEwK32ega-mghIrDsoI2wQmA6ZXtAbO7IwdsMKb3WaZXxiP5-K3fx37izdTUc54OPK14uOzQKmRKM/s400/bittorrentanimationcp0.gif)  
 "Así se ""ve"" (dale click) el proceso de compartir archivos en Bittorrent"
 
 Para entender mejor esta jerga pueden ver la [terminología de bittorrent en la wikipedia](https://es.wikipedia.org/wiki/Bittorrent#Terminolog.C3.ADa). De esta manera nuestro amigo Pedro puede bajar TODOS los capítulos de los Pitufos para recordar sus buenos tiempos... por eso ¡todo mundo ama bittorrent! Espero les haya servido, hasta la próxima!
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_B43q_mpsIaE4u8AMmQqtWZUJ8665gBv6WPTyeaprQp7ucI7ZGGeqFhUjxk8Ne_AsHWTSHOirVFdcUtr_BgEAdV1yZvF59DK8GK6uqQQMV7tJDtKYoexwO8RuUKCYub6LzCNVoHjD674/s400/lospitufos.jpg)

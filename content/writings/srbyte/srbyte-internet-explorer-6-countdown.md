@@ -8,6 +8,7 @@ post_id: blog-3515952828243908885.post-5577836320110441893
 ---
 
 > "Los verdaderos amigos, no dejan que sus amigos usen Internet Explorer 6".
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdY9m_6Jj_PTHO6ygQK5HXPhKsW7qDf5AOLpdLjAfKvZbf9QZGwJXProDNoJeHpvjkwijBRfl8lfT0udVcBq4tM1qMujyNyPzuZKuf326rCBoBUZtBEC9IbMTDvk4JVqRtftWNq7NpewtV/s200/wanted-dead.jpg)  
 Microsoft ha lanzado un sitio para reducir el porcentaje de uso del infame Internet Explorer 6 hasta menos de 1%. La buena noticia es que eso, en realidad esta sucediendo ... La mala noticia, es que el 12% del mundo aun usa IE6 :(
 

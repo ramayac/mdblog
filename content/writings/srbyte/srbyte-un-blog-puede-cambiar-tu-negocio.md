@@ -36,7 +36,9 @@ Los blogs de negocios están obteniendo lucro de la popularidad de este fenómen
 
 - Tener un blog, es una alternativa de bajo costo, a tener un sitio web completo. Para los dueños de negocios pequeños, que no se están preocupando aun en contratar gente para diseñar su sitio, o comprar alojamiento para el mismo; un blog es el lugar ideal para comenzar a obtener, algo a lo que me refiero mucho: "presencia digital".
 - Actualizar un blog, es un proceso más rápido que contactar a un diseñador web para cambiar información del sitio. Hasta para cambiar el diseño, basta con dar un par de clicks y se cambia todo el aspecto del mismo.
-- El software que te permite escribir en un blog es de lo más sencillo de usar. Compañías como [Movable Type](https://www.moveabletype.org/), [Blogger](https://blogger.com/) y Typepad ofrecen una plataforma con mucha flexibilidad y sin complicaciones para comenzar a escribir en el blog sobre tu negocio... ![image](https://www.majordojo.com/images/mt4-logo.png)  
+- El software que te permite escribir en un blog es de lo más sencillo de usar. Compañías como [Movable Type](https://www.moveabletype.org/), [Blogger](https://blogger.com/) y Typepad ofrecen una plataforma con mucha flexibilidad y sin complicaciones para comenzar a escribir en el blog sobre tu negocio... 
+
+![image](https://www.majordojo.com/images/mt4-logo.png)  
 También puede ser un poderoso punto de beneficio para consultores, puesto que les permite exponer sus ideas, pensamientos, experiencias y conocimiento (no todo, por supuesto, sino no seria negocio) para darse a conocer en un mercado global.
 
 Ejemplos de blogs de negocios:

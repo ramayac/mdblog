@@ -12,7 +12,9 @@ Nota: este articulo trata sobre sugerir ideas constructivas y ofrecer advertenci
 
 Cosas que NO debes hacer en una presentación: 1. Colocar información personal o profesional en la presentación. Realmente no necesito leer todo tu currículo en una diapositiva. Si eres importante (realmente importante), alguien me lo hará saber (porque alguien te presentara o hablaran de ti). Usualmente, basta con tu nombre al principio de la presentación, y al final de la misma la información de contacto. Recuerda siempre que la presentación no se trata de ti y tus muchos logros, se trata de un tema especifico que intentas dar a conocer.
 
-2. Llenar (topar) las diapositivas con información y tablas. ¿Estas esperando que la gente lea cada ítem presentado? o ¿qué se fije en toda la información de las tablas que vilmente pegaste de excel?, NO. Ese tipo de diapositivas solo sirve para predisponer al espectador a que: seguramente la presentación sera aburrida... ![image](https://www.codinghorror.com/blog/images/slide-with-too-many-words.png)  
+2. Llenar (topar) las diapositivas con información y tablas. ¿Estas esperando que la gente lea cada ítem presentado? o ¿qué se fije en toda la información de las tablas que vilmente pegaste de excel?, NO. Ese tipo de diapositivas solo sirve para predisponer al espectador a que: seguramente la presentación sera aburrida... 
+
+![image](https://www.codinghorror.com/blog/images/slide-with-too-many-words.png)  
 
 3. Leer de la presentación. No necesito que el presentador lea por mi, yo puedo leer, asi de simple. Me preocupa que existan individuos que procuran leer absolutamente toda la información de las diapositivas antes de pasar a la siguiente. Esta es una sugerencia sencilla: prepárese para la presentación, domine el tema, ensaye, simplifique, sintetice, vuelva a ensayar y por favor, por favor, por favor: NO LEA de las diapositivas...
 

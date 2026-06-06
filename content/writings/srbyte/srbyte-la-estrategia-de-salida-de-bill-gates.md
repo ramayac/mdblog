@@ -14,6 +14,7 @@ La idea de que Bill Gates deje su corporación para dedicar "todo su tiempo" a l
 Déjenme decirles porque: La fundación esta tan bien hecha que podría funcionar sin que Bill nunca se acerque a ella. Y todo mundo sabe que Melinda puede manejar la fundación tan bien como Bill maneja Microsoft (y hasta mejor quizás). Aunque Bill provea una importante figura estratégica y será valorada en la fundación, les pregunto a ustedes:
 
 > ¿Por que un icono de los negocios y la tecnología piensa en dejar su monopólico negocio para asistir a las aburridas reuniones de una institución de caridad?
+
 ![image](https://uk.gizmodo.com/bill%20gates.jpg)  
 "Imagen: Bill Gates."
 

@@ -11,6 +11,7 @@ post_id: blog-3515952828243908885.post-3164450502222063937
 "El Nokia N97 en mis manos una vez mas"
 
 La semana pasada nuevamente nuestros amigos de Nokia tuvieron a bien permitirnos experimentar con uno de sus gadgets y así nosotros poder brindarles nuestras experiencias con el mismo. En este caso queríamos darle una segunda oportunidad al modelo Nokia N97 y ver si con el firmware actualizado, una mejor conexión a Internet y mas tiempo de uso podemos dar una nueva opinión sobre el producto. He aquí nuestras experiencias:
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8y5BbK_vGIR-pZet_sYrXbXqArizuvRXgAtp7JqgI4UR2WR42hKCCcqgwPhfRH9EaWkAKSY-XZ9b1e9Ii88z3StbqVaekqsRVjhvYfAY-2OIO3_cD7MSbeMl_DRWMvYEjMEAsia2ZkM/s400/scr000036.jpg)  
 "Actualizado a la última version disponible a la fecha de uso"
 

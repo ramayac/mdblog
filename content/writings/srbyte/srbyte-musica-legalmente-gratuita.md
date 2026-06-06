@@ -16,16 +16,19 @@ Entre los villanos que actualmente protagonizan esta película, se encuentran la
 Afortunadamente existen alternativas legales para escuchar música, gracias a artistas que han decidido lanzar su material bajo licencias libres como [CreativeCommons](/2007/03/qu-es-creative-commons.html). Este tipo de material puede ser escuchado, compartido, descargado y redistribuido desde sitios como estos:
 
 - [Jamendo](https://www.jamendo.com/): Te permite acceder a una gran cantidad de música publicada bajo licencia CreativeCommons, muy al estilo de last.fm. Puedes crear tu perfil para agregar la música a tu lista de reproducción, hacer un review, descargarla, compartirla con amigos y hasta incrustar un widget en tu sitio web/blog para reproducir el álbum seleccionado.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUNrC71c5CrUeu2crH3hKeqOlCX0p5SRCKv0jmKIiPJx8UZEewUBavtXXBQOgVFnaXdHZ8oHA0qwOUh5FKF5A1fSO3gBrlbPk8_0waJZ7ZPC-dcSubIsh0IU9kJgsL40-Na2_6BuFdniA/s320/PostImg2.png)  
 "Página principal de Jamendo. Como pueden notar, su interfaz es multilenguaje".
 
 - [CCMixer:](https://ccmixter.org/) Un sitio que te permite crear tus remixes utilizando samples publicados bajo licencia CreativeCommons.
 
 - [Magnatune:](https://magnatune.com/) Sitio con gran cantidad de música, el cual te permite escucharla de manera gratuita, incrustar un reproductor en tu sitio web y descargarla mediante la compra del "derecho de descarga" (Los músicos se llevan la mitad de las ganancias). Este pago depende del uso que le darás al archivo de audio el cual podría ser para alguna pelicula, remix, podcast, juego de vídeo, etc. y de esto dependerá el costo (los fines no comerciales tienen un costo de CERO).
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT2wFahsD84S98tnBmjpovUUtVKw9Bl2gMzOML53rwzHIAOjRGbwfwImU3EqlpTjYAvqDWPfoYPAWVx0ETL9MeQXAmIaZILSVQcFq1rZLJrqRgMl7_6PNkKF5GNFz6TF2cyi-t5snO-Mo/s320/PostImg1.png)  
 "Interfaz de Magnatune, reproduciendo un álbum. Pueden apreciar la información del artista y los vínculos para descargar la musica."
 
 - [SoundClick:](https://www.soundclick.com/) Otro sitio web con capacidad de publicar/escuchar/descargar música con licencia CreativeCommons.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUwHms1L4Eja_co45YUSc9AUAm93mdfzUxs_bz49MGs5VkBtPqyK5hV5KmgP_T3An_Fe1tC1oes3f56DoPMAh57shSP9apBnvsmkaa8ZoupFYatMFWau3PSXEpHjBea63YR0u6lyd4wSA/s320/PostImg6.png)  
 "Interfaz del sitio SoundClick"
 

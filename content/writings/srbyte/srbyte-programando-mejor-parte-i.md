@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-3510358555177172075
 ---
 
-En el mundo de la programación, existen miles de lenguajes (funcionales o no) que sirven para el único propósito de hacer mas fácil la comunicación con las computadoras... decirles como hacer una tarea, ordenarles que hacer y como hacerlo. Cada lenguaje sirve para propósito diferente, es tarea constante para el programador buscar [el lenguaje perfecto](https://rodrigoamaya.blogspot.com/2007/01/el-lenguaje-de-programacion-perfecto.html) para que se sienta cómodo y sea más productivo. Pero entre mas de 1000 lenguajes, esta tarea es como buscar a la pareja perfecta para trabajar en la torre de Babel...
+En el mundo de la programación, existen miles de lenguajes (funcionales o no) que sirven para el único propósito de hacer mas fácil la comunicación con las computadoras... decirles como hacer una tarea, ordenarles que hacer y como hacerlo. Cada lenguaje sirve para propósito diferente, es tarea constante para el programador buscar [el lenguaje perfecto](/2007/01/el-lenguaje-de-programacion-perfecto.html) para que se sienta cómodo y sea más productivo. Pero entre mas de 1000 lenguajes, esta tarea es como buscar a la pareja perfecta para trabajar en la torre de Babel...
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKD8CKNAbCL480h7dMUS135RWOLry5iDzyp7wl4Lexot5wvyY4HT1ynC5lk5WnqJ74tWTERSOy6jOkhQxa_U73YKJ79wX73Gnjf9XG9xjcIctB3iaM63Qw8vNaTorTGHhyMrMv00yiAFM/s200/babel.jpg)  
 Muchos no saben quizás que el programador siempre busca que su código se "vea bien". El programador experimentado puede conocerse por su código: los nombres de variables son significativos, utiliza sangrías (tabulación), comenta su código de forma ordenada, entre otras buenas costumbres:

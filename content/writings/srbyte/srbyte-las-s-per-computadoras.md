@@ -50,6 +50,7 @@ Cuando su diseño fue propuesto, muchos científicos creían que los miles de de
 "Caricatura: Brain Drain ENIAC"
 
 Lo que ENIAC hizo, por las computadoras, fue validar públicamente el uso de computadoras de larga escala. Esto fue crucial para el desarrollo de la computación moderna.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfY4WA5hzl8AUy1KmY5Tf4Neztgl_k-R3VGX1xT6o3wj_QzyrwYBCEC8X8ktpd5OcTzmFoO7-zl9LbKCu1BXPHPnWfgmRCpRA65ti_agjV3o4FdDvDmTyZQwWMtz0TjjU8azEGinJxuxo/s320/eniac_front_new.png)  
 
 "Imagen Álbum ENIAC de Tony Mckenzie, rock contemporáneo instrumental"

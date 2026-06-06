@@ -13,7 +13,11 @@ Hace unos días, hablando con mi amigo [Hugo](https://hugolfutbolymas.blogspot.c
 
 Aparte del fútbol, empecé a notar esta característica también en nuestra área de estudios: la informática. Me he dado cuenta que cuando uno piensa en un geek[1] o en un programador, se imagina a gente así:
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh027QuDvXZEiRHDoodiO6mc88msbFk3Su7dnXa9pMPzvH6roDZv3MdWTzbFOefyqrgRfUK_rngcm2WtWFuJ9BStMDIWpYptsHLZQS1qqcyiJhDcD4gvYmEnm4bj5lqL2qLFLbvPGVztX4/s320/John-Gilmore-2.jpg)![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDJYpMjzxnUPNGnG6Wwm7Kmxp4oMxiKP4tBLZGfSW35XOBp-XcwoceilGZiWD5eRUkgFA-rqDaJQHdtDZLIgaZMswrZzaqjlWxGMFqCGvlnfoYueZ7GHM8eRkZzUQ2CMpSDGlnwhuHlkE/s320/Linus-Torvalds-1.jpg)![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoPNW728mmfwm-NnuM_Y__q5hegw-PCZRDiwHAisdNQYwi1Nb8NpCg2xnMSKSpstk3dxtUmYmqsZZmp2OJ6GzfMoZPPcgnw8yvpuGljvhAEpuIQYfkmu0aXJP-xsm6J0x0Rg2ONgF21mU/s320/Richard-Stallman-2.jpg)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh027QuDvXZEiRHDoodiO6mc88msbFk3Su7dnXa9pMPzvH6roDZv3MdWTzbFOefyqrgRfUK_rngcm2WtWFuJ9BStMDIWpYptsHLZQS1qqcyiJhDcD4gvYmEnm4bj5lqL2qLFLbvPGVztX4/s320/John-Gilmore-2.jpg)
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDJYpMjzxnUPNGnG6Wwm7Kmxp4oMxiKP4tBLZGfSW35XOBp-XcwoceilGZiWD5eRUkgFA-rqDaJQHdtDZLIgaZMswrZzaqjlWxGMFqCGvlnfoYueZ7GHM8eRkZzUQ2CMpSDGlnwhuHlkE/s320/Linus-Torvalds-1.jpg)
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoPNW728mmfwm-NnuM_Y__q5hegw-PCZRDiwHAisdNQYwi1Nb8NpCg2xnMSKSpstk3dxtUmYmqsZZmp2OJ6GzfMoZPPcgnw8yvpuGljvhAEpuIQYfkmu0aXJP-xsm6J0x0Rg2ONgF21mU/s320/Richard-Stallman-2.jpg)  
 "John Gillmore, fundador de Electronic Frontier Foundation y Cygnus Solutions, también colaborador en el proyecto GNU. Linus Torvalds, Creador del kernel de Linux. Richard Stallman, fundador del proyecto GNU y revolucionario del software libre."
 
 Si ponen un poco de atención, se darán cuenta que todos ellos son hombres y hombres que no les importa mucho su apariencia física, o que conservan las antiguas raíces de la moda Hippie. Donde están las mujeres? Será que algunos creerán que esta se considera una carrera sexista? La verdad es que comúnmente las mujeres no se sienten atraídas por esta, mas que una carrera, un estilo de vida.
@@ -22,7 +26,9 @@ Lastimosamente esta es una inevitable realidad. A las mujeres (por alguna inexpl
 
 Cabe destacar que esto no fue así en los inicios de la informática. Como habrán notado en el post de [las super computadoras](/2008/01/las-sper-comutadoras.html) y en algunas otras reseñas de la historia de las computadoras, era muy común encontrar a mujeres trabajando en el mantenimiento de los monstruosos equipos de computación de esa época, así como también aportaron al software. Este fue el caso de Grace Murray Hopper, una oficial naval de los Estados Unidos y especialista en ciencias de la computación. Ella fue una de las primeras programadoras de la calculadora Mark I de Hardvard y desarrolló el primer compilador para un lenguaje de programación. Cabe mencionar que esta mujer se encuentra en la posición No. 30 de la lista de las personas mas influyentes en la tecnología.
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgorrKuSdAEV8oLyx-BtKtC6pIcF500B3MgxMNmrBrJtdVWnClXgDG69afxpi7ttp23U3seesbilUQhYevonEznEwfmlx83KmdrYmOXSrTR7XHqS1wsQZUMU9esKUPpQX2MNSR_0xciHyo/s320/grace_murray_hopper_xoven.jpg)![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4F13hl5QWoFeIusy_Qo-7u29IXEYfWBruwnpIKvkJAKoYxJcttjhqKr0nWadBswquxa8nG9EkP2U3hL9__ku8a7b88QC2wMSzzNhKZhI40p7rSLNwTvBay2HKm1xIb1SreOjkAVBDBwA/s320/Grace-Murray-Hopper-2.jpg)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgorrKuSdAEV8oLyx-BtKtC6pIcF500B3MgxMNmrBrJtdVWnClXgDG69afxpi7ttp23U3seesbilUQhYevonEznEwfmlx83KmdrYmOXSrTR7XHqS1wsQZUMU9esKUPpQX2MNSR_0xciHyo/s320/grace_murray_hopper_xoven.jpg)
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4F13hl5QWoFeIusy_Qo-7u29IXEYfWBruwnpIKvkJAKoYxJcttjhqKr0nWadBswquxa8nG9EkP2U3hL9__ku8a7b88QC2wMSzzNhKZhI40p7rSLNwTvBay2HKm1xIb1SreOjkAVBDBwA/s320/Grace-Murray-Hopper-2.jpg)  
 "Fotografías de Grace Murray"
 
 Lástima que esta tendencia no continuó hasta nuestra época, esa clase de incentivos tal vez nos animaría a programar mas y mejor. Afortunadamente aún hay esperanzas.

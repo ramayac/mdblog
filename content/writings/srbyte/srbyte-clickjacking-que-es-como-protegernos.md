@@ -31,10 +31,12 @@ Que puedo hacer para protegerme?
 Como habíamos mencionado, no es tan fácil como agregar un parche o actualizar a nuestra ultima versión de nuestro navegador. Lo primero seria evitar las visitas a sitios de poca fiabilidad (ustedes saben a cuales me refiero) y si no estamos seguros de adonde nos llevara un link o un botón, dar clic derecho sobre este y revisar sus propiedades.
 
 - Opera: Vayanse a la pagina opera:config y deshabiliten la opción iFrames.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfJbWO-2oQIJiXIh0vBrUPDMpMO7U1wG7rlASCBhyphenhyphenauyLZIMwKSk3MkRRfxUCoU8VKayOiKUN3nCMVg4fC67pd-_vMwt3TxAX49Or2tIbJM2aDbrOYy1GTGKTqnyIeYEV5JJsQ1wodNZQ/s400/ClickJakingOperaConfig.png)  
 "Captura de pantalla de Opera, mostrando la pagina de configuracion donde se deshabilitan los iFrames"
 
 - Firefox: Instalar el plugin ([complemento, add-on o como le quieran llamar](/2008/07/qu-es-un-complementoadd-on-de-firefox.html)) llamado [NoScript](https://noscript.net/getit) el cual, al igual que el plugin [FlashBlock](/2008/10/flashblock-complemento-de-firefox.html) que te bloquea los elementos Flash de una pagina, este te permite bloquear una gran cantidad de tipos de contenido de una pagina, entre estos, los scripts, animaciones flash, aplicaciones Java y por supuesto, iFrames.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfpVa8BiPolWcMc9OjawtvWBYRt0rtvIZ7AiXqLbBSTjHCEEpznmLdjFv4w2EOv-_QospDl_TCriaMjatjowmfvfIrLL1RPpb_w3k9s9SmSRQHqfxBGolb6qIJrUb1cGqHYm7ZafS18mk/s400/ClickJackingFirefoxConfig.png)  
 "Captura de pantalla de Firefox, mostrando en su barra de estado la informacion de bloqueos de NoScript y en una ventana emergente, la configuracion del NoScript y donde se deshabilitan los iFrames"
 

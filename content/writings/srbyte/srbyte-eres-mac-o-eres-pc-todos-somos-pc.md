@@ -26,6 +26,7 @@ Antes de eso, prácticamente todas las IBM PC y las PC clones (las que no eran I
 
 Nada divino en las Mac Sin duda alguna los productos de Apple son maravillosos, en el sentido de la consistencia, diseño, eficiencia y fidelidad a sus precios elevados. Pero...
 > la MacBook Air no crece en los arboles, los iPod no salen del trasero a un Fénix mágico y Steve Jobs no es Moisés...
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0kAQ1n8pXov4aCHf5uq1AA5GqBhzJV3dxxDoq9Tc5RIX9wcTVXJvkHmd4yAPFIAlQJihHt7f-Jhtv96Q4FncOZtIejW3WBvOI-thveVySKWWuz7BIFVcEOSsdt5-b64rOnG58tVT7YXU/s320/and062107blog.jpg)  
 Recuerden, ahora todas las Mac emplean un CPU de Intel, y con Boot Camp, hasta las Mac ejecutan el SO Windows. ¿Me pregunto si la gente que hace eso (usar Boot Camp) se refieren a sus Mac como PC?
 

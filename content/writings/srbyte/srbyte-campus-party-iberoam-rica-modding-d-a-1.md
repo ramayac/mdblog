@@ -17,15 +17,19 @@ Ahora van las fotos de las carcasas modificadas, área también conocida como "M
 Hecho por El Salvadoreño: Oscar Segovia.
 
 Eh... un carro:
+
 ![image](https://farm4.static.flickr.com/3181/2983744891_a55b6fec3c.jpg)  
 
 El que mas se robaba las miradas eran, este:
+
 ![image](https://farm4.static.flickr.com/3020/2983744187_5f290f0b55.jpg)  
 ... posee un sistema de refrigeración liquida, sinceramente se me caía la baba al verlo.
 
 ![image](https://farm4.static.flickr.com/3162/2983743403_d2da55396d.jpg)  
 
-Y este: ![image](https://farm3.static.flickr.com/2028/2984600300_53d5b13602.jpg?v=0)  
+Y este: 
+
+![image](https://farm3.static.flickr.com/2028/2984600300_53d5b13602.jpg?v=0)  
 
 "Darth Vader":
 
@@ -43,11 +47,15 @@ Y este: ![image](https://farm3.static.flickr.com/2028/2984600300_53d5b13602.jpg?
 
 ![image](https://farm4.static.flickr.com/3285/2983737741_2e8dcffb06.jpg?v=0) ... se que Ridley Scott (creador de Alien) estaría orgulloso.
 
-Claro, también había un case Retro: ![image](https://farm4.static.flickr.com/3053/2983736199_62904a36be.jpg?v=0)  
+Claro, también había un case Retro: 
+
+![image](https://farm4.static.flickr.com/3053/2983736199_62904a36be.jpg?v=0)  
 
 Overclocking:
 
-El Overclocking es el proceso -basicamente - que consiste en forzar un componente de hardware (procesador, memoria, tarjetas de video, etc) a aumentar el numero de ciclos de reloj por segundo (Clock Rate). En la siguiente fotografia, fijense en la motherboard de la derecha, donde va el procesador se ha colocado un contenedor de bronce: ![image](https://farm4.static.flickr.com/3294/2983735141_722814264d.jpg?v=0)  
+El Overclocking es el proceso -basicamente - que consiste en forzar un componente de hardware (procesador, memoria, tarjetas de video, etc) a aumentar el numero de ciclos de reloj por segundo (Clock Rate). En la siguiente fotografia, fijense en la motherboard de la derecha, donde va el procesador se ha colocado un contenedor de bronce: 
+
+![image](https://farm4.static.flickr.com/3294/2983735141_722814264d.jpg?v=0)  
 
 ... ese contenedor sirve para colocar Nitrógeno Liquido. Al hacer Overclocking sobre una pieza, usualmente estas se sobre calientan, por lo que se utilizan técnicas como refrigeración liquida (nitrógeno liquido) para enfriar al máximo la pieza afectada.
 

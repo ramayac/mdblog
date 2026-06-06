@@ -20,6 +20,7 @@ Algunas características interesantes de TimeTracker son:
 - Puedes listar sitios de "Trabajo", para que no cuente el tiempo en ellos.
 - Muestra el tiempo total gastado por sesión, desde que se instalo el complemento y desde la ultima vez que se reinicio el contador.
 - Si si, también permite reiniciar el contador del tiempo.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCyUO3HbDbTt7YYwFhiRvTqyy8WhDGHye20EwMKcd8a1WV2ctkTKhhSUU10D-oz5_ZJEJuXQLXmsrsk5G-0ZI87gCiccXZMOxO_eT8KxLmg3rejk058aOAUn2v3eqN5z-0neBx_uCGqgc/s320/4.jpeg)  
 "TimeTracker cómodamente instalado en Firefox"
 

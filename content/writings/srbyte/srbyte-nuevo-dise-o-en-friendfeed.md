@@ -15,11 +15,13 @@ Leyendo mis Feeds me doy cuenta que [FriendFeed](https:///2008/08/que-es-friendf
 Así que basado en la experiencia general de los usuarios, las listas de hatemail, flames y sugerencias y recomendaciones, FriendFeed ha cambiado de apariencia y ahora nos presenta una lista de muy agradables e interesantes características que todo usuario compulsivo de FriendFeed, seguramente, agradecerá:
 
 ## Lista de Amigos
+
 ![image](https://beta.friendfeed.com/static/images/tour-friendlists.jpg?v=7423a87b8f3b08877ade597a0dfd0db6) La Lista de Amigos te permite organizar a la gente que sigues en grupos, como en cualquier otra web social.
 
 También se puede obtener resúmenes de lo mejor del día y lo mejor de la semana para cada lista armada.
 
 ## Publicación de Fotos
+
 ![image](https://beta.friendfeed.com/static/images/tour-photos.jpg?v=42c69e6008c761c94f9ef4f16f0fdc26) Mejoraron la "sharebox" (la herramienta que sirve para publicar contenido dentro de FriendFeed) y ahora se pueden subir fotos directamente a esta. Lo mejor es que permite subir varias imágenes de una vez.
 
 ## Navegación Rápida

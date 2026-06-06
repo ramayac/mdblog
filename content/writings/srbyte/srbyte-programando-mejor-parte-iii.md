@@ -21,6 +21,7 @@ Que hace algo, de eso no hay duda (y también nos hace reír un rato), pero de u
 
 Un ejemplo claro de la perdida del sentido común en el país es:
 > "[La ley de libre circulación de vehículos en días no feriados en las playas de El Salvador](https://www.elsalvador.com/mwedh/nota/nota_opinion.asp?idCat=2892&idArt=1035774)"
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkv-Pq9YlvOAp_zbSh57QdEvTOB3C6AlX5oEOJVXj2y4LHdeqmzTDA69iK4u3m7jZ6hRqFEhDucj_6-6w-vq1gTkeHz2a4oJDbEF7jPMKSaf5x53g749fbjmhY8DjN18ckUrMlK0MAM1A/s400/tor.jpg)  
 Me salí un poco del tema principal, pero estoy seguro que me doy a entender.
 [Noam Chomsky](https://es.wikipedia.org/wiki/Noam_Chomsky) (una de las personalidades más relevantes en la lingüística y en la ciencia cognitiva contemporánea) nos dice que:

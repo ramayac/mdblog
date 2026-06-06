@@ -16,6 +16,7 @@ Pues si a ustedes les molesta que la gente te pregunte cosas como: ¿Y donde est
 
 > "[Let me Google that for you](https://letmegooglethatforyou.com/)" ó Dejame Googlear (buscar) eso para ti
 La pagina es de lo mas simple y muy fácil de usar: se digita en un cuadro de texto lo que se desea buscar (lo que la otra persona NO sabe como hacer), y luego aparece un vinculo que se comparte a dicho individuo... este vinculo redirecciona a una pequeña animación que muestra que tan "difícil" es buscar lo que quieres, y finalmente te envia a google mostrándote los resultados.
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYtRx9TzbedLWRmfOXJTmwR_Eysuh83VZ09xMW-VvJhiBR2y43MFCh3x4fRWDfRQCjJnIWsVJpXUvOLUYv9IRtU5go_nnaC7siCuun8yaOU8-3Q_jZqv3rZPiCDta9UDOaP4QI3FXhFJs/s320/sooohard.png)  
 "¿Y eso fue difícil?"
 

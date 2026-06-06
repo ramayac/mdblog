@@ -34,6 +34,7 @@ Actualmente la infraestructura de mensajería de Facebook (Chat e Inbox) maneja 
 1. Datos temporales y volátiles (Chat) 2. Datos que no dejan de "crecer" y de bajo acceso (Inbox).
 
 El reto para los Ingenieros de Facebook, era elegir un sistema de almacenamiento (una base de datos) que sirviera para almacenar la información que se diluye de estos dos patrones de uso detectados. Ya que Messaging es una combinación de concepto y diseño de Inbox y Chat, nada tiene más sentido que buscar dicha solución. Así que lo que hicieron por "un par de semanas" fue hacer pruebas de rendimiento a diversos motores de base de datos: MySQL, Cassandra, HBase y otros. El ganador eventual fue [HBase](https://hbase.apache.org/)
+
 ![image](https://upload.wikimedia.org/wikipedia/en/e/e7/HBase_Logo.png)  
 
 HBase es una base de datos distribuida, versionable, orientada a columnas clave-valor, open source e inspirada en el modelo de [BigTable](https://en.wikipedia.org/wiki/BigTable) (de Google). HBase se puede utilizar en escenarios en donde se necesita escritura/lectura aleatoria en tiempo real de muchos datos. Cuando hablamos de "muchos datos", hablamos por ejemplo de:

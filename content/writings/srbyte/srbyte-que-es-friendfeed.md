@@ -53,6 +53,7 @@ Un detalle interesante, es todos los fundadores de FriendFeed trabajaron en Goog
 - [Yelp](https://en.wikipedia.org/wiki/Yelp,_Inc.)
 - [YouTube](https://en.wikipedia.org/wiki/YouTube)
 - [Zooomr](https://en.wikipedia.org/wiki/Zooomr)
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAxudyWHaoP1Prtl-h-RXZmaQlTM4K_qWIEPRo_dbQ2hrwnm1Aq0-MxxQiIA-2E4vp83zIio0r9XnynCIqa_i_I0-58al_Zo0tH2JLQp0UbcQsUbp22jjhQV_d4JVWezHFelC-j3-JiXI/s320/ff.jpg)  
 "Captura de servicios que consume FriendFeed."
 

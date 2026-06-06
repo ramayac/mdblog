@@ -15,7 +15,9 @@ Se espera que contenga un 25% más de tiempo de juego con respecto a Chains of O
 
 Con respecto a la trama, Ghost of Sparta narra  los sucesos que ocurren después de [God of War](https://en.wikipedia.org/wiki/God_of_War_%28video_game%29) y antes de la versión para teléfonos móviles, [Betrayal](https://en.wikipedia.org/wiki/God_of_War:_Betrayal). Para obtener las últimas noticias pueden suscribirse al siguiente [sitio](https://www.godofwar.com/spartansstandtall/) o bien a los [foros oficiales](https://forums.godofwar.com/), mientras tanto nada más nos queda disfrutar las recientes [capturas de pantalla](https://www.flickr.com/photos/playstationblog/sets/72157623986716712/) liberadas por el equipo de desarrollo, cortesía de [PlayStation.Blog](https://blog.us.playstation.com/).
 
-![image](https://farm4.static.flickr.com/3408/4576131989_dd95be621d.jpg)![image](https://farm4.static.flickr.com/3314/4576131853_c9047efa13.jpg)  
+![image](https://farm4.static.flickr.com/3408/4576131989_dd95be621d.jpg)
+
+![image](https://farm4.static.flickr.com/3314/4576131853_c9047efa13.jpg)  
 
 Esperemos que pronto liberen un trailer y proporcionen una fecha oficial de salida a la venta!.
 

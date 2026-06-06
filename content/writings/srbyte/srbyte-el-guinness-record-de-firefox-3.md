@@ -7,8 +7,11 @@ draft: false
 post_id: blog-3515952828243908885.post-6228938437524279746
 ---
 
-Si has estado viviendo debajo de una piedra... o si no tienes Internet, entonces es bastante probable que desconozcas de la campaña para descargar Firefox 3 llamada: Mozilla's Download Day, que marcó un nuevo record en el libro Guinness al obtener más de ocho millones de descargas de FireFox 3.0 en un periodo de 24 horas (para ser más precisos, fueron "8,002,530"). Nosotros ayudamos, ¿y tú?: ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWRlzI0vT9IIwilHPGsq_u0WXX7LZDmgS3V7y7sZProggHFbGHCyJtjFouehxKeWDW2ljQAFfvuCu63YUyxIuaFsBSxTRqHUXEY5mqdx7pOPp-q2XHc7YpjziQmq9bZx6-myB2g7EhB8/s400/firefox-srbyte.jpg)  
+Si has estado viviendo debajo de una piedra... o si no tienes Internet, entonces es bastante probable que desconozcas de la campaña para descargar Firefox 3 llamada: Mozilla's Download Day, que marcó un nuevo record en el libro Guinness al obtener más de ocho millones de descargas de FireFox 3.0 en un periodo de 24 horas (para ser más precisos, fueron "8,002,530"). Nosotros ayudamos, ¿y tú?: 
+
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNWRlzI0vT9IIwilHPGsq_u0WXX7LZDmgS3V7y7sZProggHFbGHCyJtjFouehxKeWDW2ljQAFfvuCu63YUyxIuaFsBSxTRqHUXEY5mqdx7pOPp-q2XHc7YpjziQmq9bZx6-myB2g7EhB8/s400/firefox-srbyte.jpg)  
 "Imagen: Sr. Byte ayudando a FireFox a establecer su marca :)" En fin, el número es OFICIAL y la marca también, Gareth Deaves (administrador de marcas de Guinness) declaró: > "As the arbiter and recorder of the world's amazing facts, Guinness World Records is pleased to add Mozilla's achievement to our archives"
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRmTK-kB1x8t78DbhnORIAg5DlM55ENc7Yy2wQGXD6wI9wycWnzB0Cd9EepbjWKdz_lMmbCd7OsgDx8khrf3pG2i2ETV2c8hQAGIInKS5s3hsHV3amMVvp5n7R-LFP9ba0rta-S08GKlI/s200/firefox3.jpg)  
 En lo personal creo, y además es obvio, que todo el "Download Day" fue una gran maniobra de publicidad (en la que gustosamente muchos de nosotros participamos sin ningún desdén jajaja), pero eso no es lo importante, sino que este acto de publicidad y la respuesta generada, indica que la gente ve este navegador como algo más que software para "surfear" la red. Los usuarios ven en FireFox una tecnología que les gusta, es por naturaleza de código abierto y tiene varios atributos (es mas seguro, robusto, ahora es más rápido, etc...) que no me molestare en comentar en este momento; esto es lo que el usuario de FireFox ve, y este evento simplemente vino a confirmarlo.
 

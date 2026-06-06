@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8371025312052384721
 ---
 
-Mas confusión... (lee la [primera parte](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte-i.html))
+Mas confusión... (lee la [primera parte](/2007/02/windows-vista-y-sus-problemitas-parte-i.html))
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheqJ-FgsAiB9eRg7eBcOIR_SL0JUjFyOi9yOY_mytl3Qv0o8SCYwwaZlIPo2uYwqCbOK955P03KjgclWsyZn-rQxwztdcRa6lWQtpXWauAO0kLbPdcVnbbobXB5kxUYnDKSLlN4Wo_lFc/s400/quick_vista.gif)  
 Ahora Vista es más fácil de actualizar... al menos eso dice la publicidad y claro que, con los precios por los que ronda cualquier edición de Windows Vista muchas personas preferiran actualizar a Vista antes que comprar una versión completa.
@@ -44,4 +44,4 @@ Ese es el problema... y los tres puntos anteriores, que con MUCHA razón, están
 Mi consejo:
 
 > NO compren una versión Upgrade de Vista.
-...continua la [tercera parte](https://rodrigoamaya.blogspot.com/2007/02/windows-vista-y-sus-problemitas-parte.html).
+...continua la [tercera parte](/2007/02/windows-vista-y-sus-problemitas-parte.html).

@@ -19,6 +19,7 @@ Y vaya que cambiaron para bien, desde ayer (13 de mayo) estrenan nuevo look, sin
 - Asistente de Vinculos y de Tablas: Una herramienta facil de usar para añadir vínculos a otras paginas wiki, asi como también otros sitios externos. Y un asistente de tablas, y características relacionadas a estas.
 - Mejoras de búsqueda: Hay mejoras en las sugerencias de búsqueda, lo que permite a los "wikinautas" encontrar más fácil y rápido lo que estén buscando.
 - Wikipedia Logo (Puzzle World): [Actualizacion en el Logo de Wikipedia.](https://blog.wikimedia.org/2010/05/13/wikipedia-in-3d/)
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTlx6ClDa23aIisI63Q3DAX5huw6RupzIccUy8q5HXE-nfHuch1RFmtDRw8TRh0saf-EGoQ7xOO8xnmn7BM8k_ixg-0Mh5UpX9zJsv3DaGKvW6dMaNHw8b0t8V1jc-KlI9LgdmL5BSK1RS/s200/400px-Wikipedia_mini_globe.jpg)  
 "Escultura de concepto del nuevo logo"
 

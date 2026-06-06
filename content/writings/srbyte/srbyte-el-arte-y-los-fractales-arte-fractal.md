@@ -53,6 +53,7 @@ Y también les dejo una lista de programas (para windows, en otro articulo hago 
 ¿Recuerdan que mencione (al inicio del articulo) que hay otra forma de hacer Arte Fractal?... y no involucra el microondas ;) El proceso de utilizar fractales para crear arte se llama Decalcomania, y produce estas obras:
 
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMbot2Mg6cQnfbpkE41q2FNbNTupvWeqlOV9i5Hx9o__LujPU6T3FGaGWCBLXNPbXy8HoC96YpRr1e4d92mkA0qOiHDL5dQFdA-nh9MVFIM3UT9I01GtRuizZ0B-SVi90iPPVEMH2fqrY/s320/ernst6a.jpg)  
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTPUODNrQr0okYW0nOEb4YYW2N7awPYx2PbHtoDOPfMzzi2QFDuClHOuBKIidmDyD5QlGJEnUF6pueVpHQsAFN5MqbaUGenryv-V-YcZGFEfHaqlN0hMHZUjB3ulCKs4oTyQxQSuhAYTY/s320/ernst1.jpg)  
 El proceso de la Decalcomania consiste en verter [gouache](https://en.wikipedia.org/wiki/Gouache) (una acuarela opaca) negro diluido en una hoja de papel blanco que tiene una determinada textura, cubriendo esto con otra hoja y, a continuación, juntándolas y ejerciendo una presión desigual en ambas, con el fin de difundir el gouache. El resultado, siempre impredecible, es una composición muy contrastada en negro, gris y blanco, lleno de fractales, en el que uno puede descubrir: paisajes, perfiles o cabezas, formas de animales o plantas desconocidas. Luego el artista pinta sobre este canvas lo que el imagina, y le da colores, texturas y sombras para generar la obra de arte final:
 
@@ -63,7 +64,9 @@ El proceso de Decalcomania fue extensamente utilizado por varios artistas, las t
 ](https://en.wikipedia.org/wiki/Decalcomania)  
 Como pueden ver, los fractales son versátiles y ampliamente utilizados en la vida cotidiana. Algunos ejemplos más del uso de los fractales son en: Algoritmos de Compresión, Generación de Terrenos (en CG y Video Juegos)...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRtxDDWV2q5am1xIOgoRXyDMKgnm8VXo9wARv_fYvyIwRFe24H-1z5yQcoJsRPkWSQZ2BT3YZ5OgODPKuRuTzX8TuF-zEiQO847M2jhZUQw3ljKsbvL7EUlBSlP6PLupa0h7xJuWg6vcw/s320/Mandelbrot_island.jpg)![image](https://upload.wikimedia.org/wikipedia/commons/6/6d/Animated_fractal_mountain.gif)  
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRtxDDWV2q5am1xIOgoRXyDMKgnm8VXo9wARv_fYvyIwRFe24H-1z5yQcoJsRPkWSQZ2BT3YZ5OgODPKuRuTzX8TuF-zEiQO847M2jhZUQw3ljKsbvL7EUlBSlP6PLupa0h7xJuWg6vcw/s320/Mandelbrot_island.jpg)
+
+![image](https://upload.wikimedia.org/wikipedia/commons/6/6d/Animated_fractal_mountain.gif)  
 
 Enzimología, Simulación de Vegetación...
 

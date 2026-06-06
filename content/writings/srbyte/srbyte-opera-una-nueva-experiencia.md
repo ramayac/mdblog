@@ -22,6 +22,7 @@ Algunas caracteristicas de Opera son:
 - Editor WYSIWYG mejorado.
 - Protección contra Fraude (En tiempo real).
 - Y la característica mas útil para mi: "Speed Dial". ([Speed Dial para Firefox aquí](https://addons.mozilla.org/en-US/firefox/addon/4810))
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMlGNBduTwRPxZSNNXeCzTFf1Hqi_2EGlQKAfz3bQShyjNjUpviWJzeIeuDA30d4jFxaom9Xz-DBP6Ax_yE6ukHk43poT4_nAB5m_r77hNBfxuqnHhTKVFqV9t3TaSNZRxX16IEGRK2ys/s400/lin.jpg)  
 "Opera con Speed Dial"
 

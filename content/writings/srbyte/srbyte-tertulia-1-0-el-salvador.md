@@ -12,6 +12,7 @@ Articulo de carácter personal Ahora fue la primera reunión de la comunidad de 
 En cuestión de minutos apareció [Victor](https://altahoradelanoche.blogspot.com/) (que por el nombre de su blog, esperaba que tuviera unas grandes ojeras... o por lo menos la cara de alguien que recién despierta). Lo que me pareció interesante, es que fuera de toda formalidad, comenzamos a platicar como cuando se platica con un amigo al que se le tiene tiempo de conocer pero no se le ha visto en años. Como dice David en su articulo con respecto a la reunión:
 
 > "Creo que en este tipo de reuniones así se siente, especialmente si ya se ha comentado en cualquiera de los blogs de cada quien"
+
 ![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7IyEvVAX9B1Nbrl8DacCvXTwg_J9KFWAoztTX6_SCT9GLTMb49PDr5Q4gsCBlhj9dFu9v0iQCq0erhX5kMTrGWlXlPU5N0K91yIDFvpWx9Z4ISoPv301Hr1SkzkA24-78lbtLMpDraVY/s400/En+el+principio+eramos+4.jpg)  
 
 Los bloggers se fueron sumando poco a poco a la reunión, llego [El Simio](https://elsimio.blogspot.com/) Cuyo singular sentido (flamer) del humor arranco carcajadas... especialmente cuando escribió el URL de su blog con @... Mas Vivo!

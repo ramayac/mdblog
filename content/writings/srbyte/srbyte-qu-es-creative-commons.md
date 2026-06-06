@@ -23,6 +23,6 @@ Buscar información, libros, música, imágenes, películas, vídeos, audiobooks
 
 [https://search.creativecommons.org/](https://search.creativecommons.org/)
 
-Mira el vídeo de [¿cómo funcionan?](https://rodrigoamaya.blogspot.com/2007/03/ms-creative-commons.html) las licencias de Creative Commons.
+Mira el vídeo de [¿cómo funcionan?](/2007/03/ms-creative-commons.html) las licencias de Creative Commons.
 
 bibliografía: https://es.wikipedia.org, 8 marzo 2007.

@@ -7,7 +7,7 @@ draft: false
 post_id: blog-3515952828243908885.post-8797746415153448249
 ---
 
-Aportando mas a los temas anteriores de las [redes sociales](/2008/05/el-video-que-resume-las-redes-sociales.html) y el web 2.0, podemos hablar un poco de lo que se considera como Medios Sociales, los cuales son las herramientas del web 2.0 que le permiten al usuario interactuar con un sitio web y los medios (hipertexto, imágenes, musica, vídeos) que este provee.
+Aportando mas a los temas anteriores de las [redes sociales](/2008/05/el-video-que-resume-las-redes-sociales.html) y el [web 2.0](Social%20Media%20in%20Plain%20English), podemos hablar un poco de lo que se considera como Medios Sociales, los cuales son las herramientas del web 2.0 que le permiten al usuario interactuar con un sitio web y los medios (hipertexto, imágenes, musica, vídeos) que este provee.
 
 Esta es la principal diferencia de los Medios Tradicionales como periódicos, estaciones de radio y televisión, los cuales transmiten la información de una forma unilateral
 
