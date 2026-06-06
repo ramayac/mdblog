@@ -62,6 +62,7 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 ## CSS Themes
 
 - Theme selection is global and configuration-driven through `css_theme` in `config.toml`.
+- To prevent relative path resolution issues on deep nested request paths (such as legacy URL resolutions), the `css_theme` path is normalized at configuration load time and server initialization to guarantee a root-relative leading slash `/` if the path is relative.
 - The layout template emits a single stylesheet link using `.Config.CSSTheme`, and the server adds a `?v=` query parameter based on the selected file's modification time so CSS changes bust caches without changing filenames.
 - Static CSS files are served through the `/assets/*` route from `AssetsFS`, which points at the on-disk `assets/` directory in the default build and can be swapped to embedded assets in the embed build.
 - The current stylesheet set is `assets/css/base.style.css`, `assets/css/default.style.css`, and `assets/css/anthropic.style.css`.
@@ -75,6 +76,7 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 
 - HTML and feed responses can be gzip-compressed when the request advertises `Accept-Encoding: gzip`, but the server intentionally skips that step on AWS Lambda because API Gateway or CloudFront is expected to handle compression there.
 - Static assets are served through a narrow `/assets/*` route that rejects `..` path traversal sequences and null bytes before opening files from `AssetsFS`.
+- Root requests for `/favicon.ico` are explicitly handled by the server to serve `assets/favicon.ico` directly, preventing browsers from receiving the HTML catch-all response (index page) and reporting a corrupted file.
 - A configurable Content Security Policy is injected per request from the `[csp]` section of `config.toml`.
 - Markdown rendering is kept in safe mode: the Goldmark configuration does not enable `html.WithUnsafe()`, so raw HTML passthrough is not enabled in post or page content.
 - Page templating uses Go `html/template`, so ordinary template values are auto-escaped by default; explicit raw HTML output is limited to trusted server-side content paths such as already-rendered Markdown and JSON-LD blocks.
@@ -151,6 +153,24 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 - Search does not render full Markdown bodies or scan the filesystem for body text at request time.
 - Unlike listing pages, search has no live filesystem fallback when the index is missing; it returns an empty result set with pagination scaffolding instead.
 - The excerpts searched at runtime come from the build-index step: the index builder prefers the post `description` field, and otherwise derives an excerpt from the raw Markdown body.
+
+## URL Resolution and Legacy Mapping
+
+- MDBlog supports both modern query-string post routes (`/post?slug=<slug>&category=<category>`) and legacy Blogger URL paths (`/<year>/<month>/<slug>` with an optional `.html` extension).
+- Legacy URL requests are resolved in `internal/blog/blog.go` using a fuzzy matching algorithm against the prebuilt `posts.index.json` post index.
+- The fuzzy resolution applies a prefix-limited Levenshtein distance check (with a minimum string length of 10 characters and a max distance of 2) and Spanish diacritics/letter collapsing (`cleanSlug`). This matches:
+  - Blogger's draft creation date vs publish date discrepancies.
+  - Alphanumeric accents and spelling variations (e.g. `ó` mapping to a dash `-` and cleaning to `opinin` vs `opinion`).
+  - Blogger-specific slug truncations (e.g. `ciencia-ficcion-despertando-la` matching `ciencia-ficci-n-despertando-la-imaginaci-n`).
+- Legacy routes resolve natively inline via the server handler's `renderSinglePost` helper, returning `200 OK` rather than performing a redirect.
+- Legacy search tag label requests (e.g. `/search/label/<tag>`) are intercepted by the server and redirected permanently to the native search page (e.g. `/?q=<tag>&search=true`).
+
+## Link Validation Linter
+
+- MDBlog includes a self-contained internal markdown link linter in `internal/blog/linter.go`.
+- The linter scans all Markdown files in `posts/` and `pages/` to validate that all root-relative paths, query-string post/page links, asset paths, and legacy URL patterns resolve correctly to active resources.
+- The linter is integrated as a validation target in the `Makefile` (`make lint-links` or `make lint`) and runs as part of the GitHub Actions CI pipeline (`.github/workflows/ci.yml`) on every pull request and push to `master`.
+- The linter ignores external URLs, protocol-relative links (starting with `//`), and allows legacy search label paths (`/search/label/...`).
 
 ## Post Structure
 

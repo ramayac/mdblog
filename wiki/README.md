@@ -46,14 +46,6 @@ make wiki-refresh
 
 These targets delegate to the global `wiki-engine` CLI tool. Configuration (wiki dir, diff base, ignore patterns) lives in `.wikirc`.
 
-## Slash Prompts
-
-Workspace prompt files under `.github/prompts/` expose the same workflow as on-demand slash commands in chat:
-
-- `/wiki-refresh` runs the full maintenance cycle.
-- `/wiki-ingest` files current repo changes back into the wiki.
-- `/wiki-query` answers repo questions from the wiki first.
-
 ## Update Loop
 
 1. Read `index.md`.
