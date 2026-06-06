@@ -525,6 +525,9 @@ func TestLegacyAlternativeResolution(t *testing.T) {
 	if !strings.Contains(body1, "12:34:56 7 8 9 y el tiempo") {
 		t.Error("rendered page should contain the post title")
 	}
+	if !strings.Contains(body1, `href="/assets/css/default.style.css`) {
+		t.Error("stylesheet path should start with a leading slash / to resolve correctly on deep legacy URLs")
+	}
 
 	// Test without .html suffix
 	w2 := get(h, "/2008/01/12-34-56-7-8-9-y-el-tiempo")
@@ -534,5 +537,8 @@ func TestLegacyAlternativeResolution(t *testing.T) {
 	body2 := w2.Body.String()
 	if !strings.Contains(body2, "12:34:56 7 8 9 y el tiempo") {
 		t.Error("rendered page should contain the post title")
+	}
+	if !strings.Contains(body2, `href="/assets/css/default.style.css`) {
+		t.Error("stylesheet path should start with a leading slash / to resolve correctly on deep legacy URLs")
 	}
 }

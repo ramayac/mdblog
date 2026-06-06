@@ -306,3 +306,28 @@ enabled = true
 		t.Error("expected error when sitemap.enabled = true without feed.base_url, got nil")
 	}
 }
+
+func TestLoad_CSSThemeNormalization(t *testing.T) {
+	tests := []struct {
+		input    string
+		expected string
+	}{
+		{"assets/css/style.css", "/assets/css/style.css"},
+		{"/assets/css/style.css", "/assets/css/style.css"},
+		{"http://example.com/style.css", "http://example.com/style.css"},
+		{"https://example.com/style.css", "https://example.com/style.css"},
+	}
+
+	for _, tc := range tests {
+		toml := `css_theme = "` + tc.input + `"`
+		tmp := filepath.Join(t.TempDir(), "config.toml")
+		_ = os.WriteFile(tmp, []byte(toml), 0644)
+		cfg, err := Load(tmp)
+		if err != nil {
+			t.Fatalf("failed to load config for input %q: %v", tc.input, err)
+		}
+		if cfg.CSSTheme != tc.expected {
+			t.Errorf("CSSTheme for input %q = %q, want %q", tc.input, cfg.CSSTheme, tc.expected)
+		}
+	}
+}

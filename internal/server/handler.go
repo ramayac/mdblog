@@ -75,6 +75,9 @@ type Handler struct {
 // New creates and returns the blog HTTP handler.
 // It panics if templates cannot be loaded.
 func New(cfg *config.Config, b *blog.Blog) *Handler {
+	if cfg.CSSTheme != "" && !strings.HasPrefix(cfg.CSSTheme, "/") && !strings.HasPrefix(cfg.CSSTheme, "http://") && !strings.HasPrefix(cfg.CSSTheme, "https://") {
+		cfg.CSSTheme = "/" + cfg.CSSTheme
+	}
 	tmpl := mustLoadTemplates()
 	h := &Handler{
 		cfg:  cfg,

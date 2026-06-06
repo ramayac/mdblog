@@ -3,6 +3,7 @@ package config
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/pelletier/go-toml/v2"
 )
@@ -233,6 +234,11 @@ func Load(path string) (*Config, error) {
 			cat.Folder = slug
 			cfg.Categories[slug] = cat
 		}
+	}
+
+	// Ensure css_theme has a leading slash if relative to root
+	if cfg.CSSTheme != "" && !strings.HasPrefix(cfg.CSSTheme, "/") && !strings.HasPrefix(cfg.CSSTheme, "http://") && !strings.HasPrefix(cfg.CSSTheme, "https://") {
+		cfg.CSSTheme = "/" + cfg.CSSTheme
 	}
 
 	return &cfg, nil
