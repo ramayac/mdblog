@@ -59,6 +59,9 @@ lint-config: ## Validate config.toml by parsing it (panics on TOML errors)
 lint-links: build-index ## Run internal markdown links validation linter
 	go run ./cmd/mdblog lint-links
 
+content-count: ## Show a treeview directory listing of markdown file counts
+	go run ./cmd/mdblog content-count
+
 test: build-index build-feed build-sitemap ## Run the Go test suite
 	go test ./...
 

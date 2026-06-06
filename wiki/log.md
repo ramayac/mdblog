@@ -1,8 +1,20 @@
 # Wiki Log
 
+## [2026-06-06] ingest | implemented content-count subcommand and Makefile target
+
+- Created `internal/blog/contentcount.go` containing logic to recursively scan content and page directories and format a text-based treeview of subdirectory file counts.
+- Wired `content-count` into the `mdblog` CLI in `cmd/mdblog/main.go` and defined the `content-count` target in the `Makefile`.
+- Verified execution of `make content-count` returning correct directory tree details and counts.
+
+## [2026-06-06] ingest | added standalone pages to sitemap generation
+
+- Updated `internal/buildsitemap/buildsitemap.go` to scan the pages directory and include standalone page routes (e.g. `/pages/about`, `/pages/privacy`, `/pages/support`) in the sitemap output.
+- Re-run sitemap generation and verified that sitemap counts correctly increased from 665 to 668 URLs, matching both posts and standalone pages.
+
 ## [2026-06-06] ingest | created performance insights wiki page
 
 - Created `wiki/performance.md` documenting key optimization strategies (redundancy elimination, index bypassing via clean slugs, embedded memory vs disk reads) and raw benchmark/simulation test results.
+- Added legacy URL redirect resolution (`ResolveOldURL`) benchmark results, yielding an average latency of **4.02ms** using a shuffled dataset of 50+ dynamically loaded posts and failed paths.
 - Linked the performance page in `wiki/index.md`.
 
 ## [2026-06-06] ingest | created default embedded templates and assets plan

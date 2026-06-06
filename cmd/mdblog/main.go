@@ -50,6 +50,8 @@ func main() {
 		runRequest(cfg, os.Args[2:])
 	case "lint-links":
 		runLintLinks(cfg)
+	case "content-count":
+		runContentCount(cfg)
 	case "version":
 		fmt.Printf("mdblog %s (%s) built %s\n", version, commit, date)
 	default:
@@ -70,6 +72,7 @@ func printUsage() {
 	fmt.Println("  render         Render a post to a standalone HTML file")
 	fmt.Println("  request        Simulate a GET request to a relative URL and print to stdout")
 	fmt.Println("  lint-links     Verify all internal post/page markdown links resolve successfully")
+	fmt.Println("  content-count  Show a treeview directory listing of markdown file counts")
 	fmt.Println("  version        Print version information")
 }
 
@@ -143,3 +146,9 @@ func runLintLinks(cfg *config.Config) {
 	}
 	fmt.Println("No broken links found!")
 }
+
+func runContentCount(cfg *config.Config) {
+	b := blog.New(cfg)
+	b.PrintContentCount()
+}
+

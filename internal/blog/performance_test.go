@@ -2,6 +2,7 @@ package blog
 
 import (
 	"encoding/json"
+	"fmt"
 	"math/rand"
 	"os"
 	"testing"
@@ -129,3 +130,70 @@ func TestRealisticUserTrafficSimulation(t *testing.T) {
 		listCount, float64(listCount)/float64(iterations)*100,
 		searchCount, float64(searchCount)/float64(iterations)*100)
 }
+
+func TestResolveOldURLPerformance(t *testing.T) {
+	// Load production config
+	cfgPath := "../../config.toml"
+	if _, err := os.Stat(cfgPath); os.IsNotExist(err) {
+		t.Skip("skipping benchmark: config.toml not found")
+	}
+	cfg, err := config.Load(cfgPath)
+	if err != nil {
+		t.Fatalf("failed to load config: %v", err)
+	}
+
+	// Adjust relative paths for testing directory context (../../)
+	cfg.PostsDir = "../../" + cfg.PostsDir
+	cfg.PagesDir = "../../" + cfg.PagesDir
+	cfg.PostIndexFile = "../../" + cfg.PostIndexFile
+
+	b := New(cfg)
+
+	// Load posts from the index to generate 50 valid legacy URLs plus failed ones
+	indexData, err := os.ReadFile(cfg.PostIndexFile)
+	if err != nil {
+		t.Fatalf("failed to read index: %v", err)
+	}
+	var posts []indexPost
+	if err := json.Unmarshal(indexData, &posts); err != nil {
+		t.Fatalf("failed to parse index: %v", err)
+	}
+
+	var urls []string
+	for i, p := range posts {
+		if i >= 50 {
+			break
+		}
+		if len(p.Date) >= 7 {
+			year := p.Date[0:4]
+			month := p.Date[5:7]
+			urls = append(urls, fmt.Sprintf("/%s/%s/%s.html", year, month, p.Slug))
+		}
+	}
+	// Add failed resolution paths to test indexing/matching fail latency
+	for i := 0; i < 10; i++ {
+		urls = append(urls, fmt.Sprintf("/2009/10/non-existent-legacy-slug-%d.html", i))
+	}
+
+	// Shuffle the URLs list to simulate random user traffic
+	rng := rand.New(rand.NewSource(54321))
+	rng.Shuffle(len(urls), func(i, j int) {
+		urls[i], urls[j] = urls[j], urls[i]
+	})
+
+	iterations := 500
+	var totalDuration time.Duration
+
+	for i := 0; i < iterations; i++ {
+		url := urls[i%len(urls)]
+		start := time.Now()
+		_, _ = b.ResolveOldURL(url)
+		totalDuration += time.Since(start)
+	}
+
+	avg := totalDuration / time.Duration(iterations)
+	t.Logf("Legacy URL resolution performance test (ResolveOldURL):")
+	t.Logf("  Total duration for %d requests: %v", iterations, totalDuration)
+	t.Logf("  Average latency per legacy redirect resolution: %v", avg)
+}
+
