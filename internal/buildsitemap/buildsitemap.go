@@ -123,6 +123,28 @@ func Build(cfg *config.Config) error {
 		}
 		urls = append(urls, entry)
 	}
+	// Standalone pages (from pages_dir)
+	if cfg.PagesDir != "" {
+		if entries, err := os.ReadDir(cfg.PagesDir); err == nil {
+			for _, e := range entries {
+				if !e.IsDir() && strings.HasSuffix(strings.ToLower(e.Name()), ".md") {
+					slug := strings.TrimSuffix(e.Name(), filepath.Ext(e.Name()))
+					u := base + "/pages/" + slug
+					entry := sitemapEntry{
+						Loc:        u,
+						ChangeFreq: cfg.Sitemap.ChangeFreqPost, // fallback to post defaults
+						Priority:   cfg.Sitemap.PriorityPost,
+					}
+					info, err := e.Info()
+					if err == nil {
+						entry.LastMod = info.ModTime().Format(cfg.DateFormat)
+					}
+					urls = append(urls, entry)
+				}
+			}
+		}
+	}
+
 
 	urlset := sitemapURLSet{
 		XMLNS: "http://www.sitemaps.org/schemas/sitemap/0.9",
