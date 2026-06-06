@@ -73,8 +73,8 @@ func TestBuild_Basic(t *testing.T) {
 	if p.Tags != "go, test" {
 		t.Errorf("Tags = %q, want 'go, test'", p.Tags)
 	}
-	if p.Description != "A test post" {
-		t.Errorf("Description = %q, want 'A test post'", p.Description)
+	if p.Excerpt != "A test post" {
+		t.Errorf("Excerpt = %q, want 'A test post'", p.Excerpt)
 	}
 	if p.Slug != "2024-01-15-hello-world" {
 		t.Errorf("Slug = %q, want '2024-01-15-hello-world'", p.Slug)

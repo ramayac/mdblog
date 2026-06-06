@@ -18,7 +18,6 @@ type indexPost struct {
 	Date         string `json:"date"`
 	Author       string `json:"author"`
 	Tags         string `json:"tags"`
-	Description  string `json:"description"`
 	Excerpt      string `json:"excerpt"`
 	CategorySlug string `json:"category_slug"`
 	SourcePath   string `json:"source_path"`

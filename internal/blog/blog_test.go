@@ -393,8 +393,8 @@ func TestGetPosts_WithIndex(t *testing.T) {
 	import_buildindex := func() {
 		// Write a minimal hand-crafted index to avoid importing buildindex (cycle risk)
 		idx := `[
-			{"slug":"2024-06-01-second","title":"Second","date":"2024-06-01","author":"A","tags":"go","description":"desc2","excerpt":"Text2.","category_slug":"tech","source_path":"tech/2024-06-01-second.md","filename":"2024-06-01-second.md"},
-			{"slug":"2024-01-01-first","title":"First","date":"2024-01-01","author":"A","tags":"go","description":"desc","excerpt":"Text.","category_slug":"tech","source_path":"tech/2024-01-01-first.md","filename":"2024-01-01-first.md"}
+			{"slug":"2024-06-01-second","title":"Second","date":"2024-06-01","author":"A","tags":"go","excerpt":"Text2.","category_slug":"tech","source_path":"tech/2024-06-01-second.md","filename":"2024-06-01-second.md"},
+			{"slug":"2024-01-01-first","title":"First","date":"2024-01-01","author":"A","tags":"go","excerpt":"Text.","category_slug":"tech","source_path":"tech/2024-01-01-first.md","filename":"2024-01-01-first.md"}
 		]`
 		_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 	}
@@ -441,8 +441,8 @@ func TestSearchPosts_Matches(t *testing.T) {
 	dir := t.TempDir()
 	cfg := makeTestConfig(dir)
 	idx := `[
-		{"slug":"a","title":"Go Programming","date":"2024-01-01","tags":"go","description":"","excerpt":"Learn Go today.","category_slug":"tech","filename":"a.md","source_path":"tech/a.md"},
-		{"slug":"b","title":"Python Basics","date":"2024-01-02","tags":"python","description":"","excerpt":"Learn Python.","category_slug":"tech","filename":"b.md","source_path":"tech/b.md"}
+		{"slug":"a","title":"Go Programming","date":"2024-01-01","tags":"go","excerpt":"Learn Go today.","category_slug":"tech","filename":"a.md","source_path":"tech/a.md"},
+		{"slug":"b","title":"Python Basics","date":"2024-01-02","tags":"python","excerpt":"Learn Python.","category_slug":"tech","filename":"b.md","source_path":"tech/b.md"}
 	]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
@@ -475,7 +475,7 @@ func TestSearchPosts_EmptyQuery(t *testing.T) {
 func TestSearchPosts_CaseInsensitive(t *testing.T) {
 	dir := t.TempDir()
 	cfg := makeTestConfig(dir)
-	idx := `[{"slug":"a","title":"Golang Rocks","date":"2024-01-01","tags":"","description":"","excerpt":"","category_slug":"tech","filename":"a.md","source_path":"tech/a.md"}]`
+	idx := `[{"slug":"a","title":"Golang Rocks","date":"2024-01-01","tags":"","excerpt":"","category_slug":"tech","filename":"a.md","source_path":"tech/a.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 	b := New(cfg)
 
@@ -550,7 +550,7 @@ func TestGetPostBySlug_ResolveViaIndex(t *testing.T) {
 
 	cfg := makeTestConfig(dir)
 	// Write an index pointing to the post
-	idx := `[{"slug":"indexed-post","title":"Indexed","date":"2024-01-01","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"tech","source_path":"tech/indexed-post.md","filename":"indexed-post.md"}]`
+	idx := `[{"slug":"indexed-post","title":"Indexed","date":"2024-01-01","author":"","tags":"","excerpt":"Body.","category_slug":"tech","source_path":"tech/indexed-post.md","filename":"indexed-post.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
 	b := New(cfg)
@@ -970,7 +970,7 @@ func TestGetPostBySlug_SlugMismatchWithCategoryViaIndex(t *testing.T) {
 	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
 
 	// Index stores the canonical slug (single hyphen) mapped to the real filename
-	idx := `[{"slug":"2026-05-19-desiderata-on-my-birthday","title":"Desiderata","date":"2026-05-19","author":"R","tags":"","description":"","excerpt":"Poem.","category_slug":"tech","source_path":"tech/2026-05-19-desiderata--on-my-birthday.md","filename":"2026-05-19-desiderata--on-my-birthday.md"}]`
+	idx := `[{"slug":"2026-05-19-desiderata-on-my-birthday","title":"Desiderata","date":"2026-05-19","author":"R","tags":"","excerpt":"Poem.","category_slug":"tech","source_path":"tech/2026-05-19-desiderata--on-my-birthday.md","filename":"2026-05-19-desiderata--on-my-birthday.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
 	b := New(cfg)
@@ -1001,7 +1001,7 @@ func TestGetPostBySlug_SlugMismatchNoCategoryViaIndex(t *testing.T) {
 	cfg := makeTestConfig(dir)
 	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
 
-	idx := `[{"slug":"my-double-post","title":"Double","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"Content.","category_slug":"tech","source_path":"tech/my--double-post.md","filename":"my--double-post.md"}]`
+	idx := `[{"slug":"my-double-post","title":"Double","date":"2026-01-01","author":"","tags":"","excerpt":"Content.","category_slug":"tech","source_path":"tech/my--double-post.md","filename":"my--double-post.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
 	b := New(cfg)
@@ -1034,7 +1034,7 @@ func TestResolveSlugViaIndex_UsesFilename(t *testing.T) {
 	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
 
 	// Index slug has single dash; Filename field has double dash
-	idx := `[{"slug":"slug-differs-from-filename","title":"Mismatch","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"tech","source_path":"tech/slug--differs-from-filename.md","filename":"slug--differs-from-filename.md"}]`
+	idx := `[{"slug":"slug-differs-from-filename","title":"Mismatch","date":"2026-01-01","author":"","tags":"","excerpt":"Body.","category_slug":"tech","source_path":"tech/slug--differs-from-filename.md","filename":"slug--differs-from-filename.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
 	b := New(cfg)
@@ -1059,7 +1059,7 @@ func TestGetPostBySlug_IndexHasPostButFileMissing(t *testing.T) {
 	cfg := makeTestConfig(dir)
 	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
 
-	idx := `[{"slug":"ghost-post","title":"Ghost","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"","category_slug":"tech","source_path":"tech/ghost-post.md","filename":"ghost-post.md"}]`
+	idx := `[{"slug":"ghost-post","title":"Ghost","date":"2026-01-01","author":"","tags":"","excerpt":"","category_slug":"tech","source_path":"tech/ghost-post.md","filename":"ghost-post.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
 	b := New(cfg)
@@ -1084,7 +1084,7 @@ func TestGetPostBySlug_IndexMissingCategorySlug(t *testing.T) {
 	cfg.PostIndexFile = filepath.Join(dir, "posts.index.json")
 
 	// Entry with no category_slug — resolveSlugViaIndex should skip it
-	idx := `[{"slug":"orphan","title":"Orphan","date":"2026-01-01","author":"","tags":"","description":"","excerpt":"","filename":"orphan.md"}]`
+	idx := `[{"slug":"orphan","title":"Orphan","date":"2026-01-01","author":"","tags":"","excerpt":"","filename":"orphan.md"}]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 
 	b := New(cfg)
@@ -1129,8 +1129,8 @@ func TestResolveOldURL(t *testing.T) {
 
 	// Write an index pointing to the posts
 	idx := `[
-		{"slug":"srbyte-musica-legalmente-gratuita","title":"Musica Legalmente Gratuita","date":"2008-07-25","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"srbyte","source_path":"writings/srbyte/srbyte-musica-legalmente-gratuita.md","filename":"srbyte-musica-legalmente-gratuita.md"},
-		{"slug":"2026-05-19-desiderata-on-my-41st-birthday","title":"Desiderata","date":"2026-05-19","author":"","tags":"","description":"","excerpt":"Body.","category_slug":"","source_path":"2026-05-19-desiderata-on-my-41st-birthday.md","filename":"2026-05-19-desiderata-on-my-41st-birthday.md"}
+		{"slug":"srbyte-musica-legalmente-gratuita","title":"Musica Legalmente Gratuita","date":"2008-07-25","author":"","tags":"","excerpt":"Body.","category_slug":"srbyte","source_path":"writings/srbyte/srbyte-musica-legalmente-gratuita.md","filename":"srbyte-musica-legalmente-gratuita.md"},
+		{"slug":"2026-05-19-desiderata-on-my-41st-birthday","title":"Desiderata","date":"2026-05-19","author":"","tags":"","excerpt":"Body.","category_slug":"","source_path":"2026-05-19-desiderata-on-my-41st-birthday.md","filename":"2026-05-19-desiderata-on-my-41st-birthday.md"}
 	]`
 	_ = os.WriteFile(cfg.PostIndexFile, []byte(idx), 0644)
 

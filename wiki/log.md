@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-06-06] ingest | merged description and excerpt in post index
+
+- Removed the redundant `description` field from `posts.index.json` schema (`IndexPost` struct in `buildindex.go`, `indexPost` struct in `blog.go`, and `indexPost` struct in `buildfeed.go`).
+- Updated `indexPostToPost` in `internal/blog/blog.go` to fallback/hydrate `FrontMatter.Description` from the post `Excerpt` when building post list responses.
+- Cleaned up mocked post index JSON strings in unit tests (`internal/blog/blog_test.go` and `internal/buildindex/buildindex_test.go`) to conform to the new structure without the `description` key.
+- Verified that all unit and integration tests pass successfully and regenerated `content/posts.index.json` without the `description` key.
+
 ## [2026-06-06] ingest | created clean category and page slugs technical plan
 
 - Created `wiki/clean-slugs-plan.md` outlining the technical strategy to rename the `posts/` folder to `content/` and route clean URL slugs (e.g. `/content/category/post` and `/pages/about`) while preserving backward compatibility.
