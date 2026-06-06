@@ -11,6 +11,7 @@
 - [posts-to-content-dryrun.md](posts-to-content-dryrun.md) | Dry run plan for renaming posts to content directory.
 - [clean-slugs-plan.md](clean-slugs-plan.md) | Technical plan for clean category and page slugs.
 - [embedded-path-plan.md](embedded-path-plan.md) | Technical plan for default embedded templates and assets.
+- [performance.md](performance.md) | Performance analysis, raw benchmarks, and traffic simulation insights.
 - [log.md](log.md) | Append-only timeline of wiki maintenance.
 
 ## Operations

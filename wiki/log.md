@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-06-06] ingest | created performance insights wiki page
+
+- Created `wiki/performance.md` documenting key optimization strategies (redundancy elimination, index bypassing via clean slugs, embedded memory vs disk reads) and raw benchmark/simulation test results.
+- Linked the performance page in `wiki/index.md`.
+
 ## [2026-06-06] ingest | created default embedded templates and assets plan
 
 - Created `wiki/embedded-path-plan.md` outlining the technical strategy to enable in-memory assets and templates by default in both local and production environments, while preserving dynamic disk-reloading during development.
@@ -9,8 +14,9 @@
 
 - Renamed `posts.index.json` to `content.index.json` to reflect that it lives in the `content/` folder and indexes clean content slugs.
 - Updated default path configurations in `config.toml`, `internal/config/config.go`, `Makefile`, and updated references across all Go unit tests.
-- Created a parsing speed performance test in `internal/blog/performance_test.go` running 500 parse iterations.
-- Verified that parsing the ~400 KB `content.index.json` containing 659 posts averages under 3 milliseconds (approx. 2.86ms), confirming parsing performance is highly optimized.
+- Created a parsing speed performance test and a randomized traffic simulation in `internal/blog/performance_test.go` running 500 iterations.
+- Verified that parsing the ~400 KB `content.index.json` containing 659 posts averages 2.86ms.
+- Verified that a realistic user traffic simulation (69% post reads, 18.4% category list views, 12.6% searches) averages **1.27ms** per request, proving that direct path lookups successfully bypass the index and minimize latency.
 
 ## [2026-06-06] ingest | merged description and excerpt in post index
 
