@@ -15,7 +15,7 @@ LDFLAGS := -s -w -X main.version=$(VERSION) -X main.commit=$(COMMIT) -X main.dat
 .PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
         docker-build docker-build-debug docker-run docker-run-release \
-        docker-stop docker-push docker-pull clean-urls
+        docker-stop docker-push docker-pull clean-urls benchmark
 
 help: ## Show available targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
@@ -67,6 +67,9 @@ clean-urls: ## Replace absolute srbyte.com URLs with relative root paths in mark
 
 test: build-index build-feed build-sitemap ## Run the Go test suite
 	go test ./...
+
+benchmark: ## Run the HTTP performance benchmark using ApacheBench
+	@bash scripts/benchmark.sh
 
 # Allow extra arguments to `make render`
 ifeq (render,$(firstword $(MAKECMDGOALS)))

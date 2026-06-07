@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-MDBlog is a lightweight, flat-file blog engine written in **Go 1.24**. Posts are Markdown files with YAML-style front matter. There is no database, no build step, and no JavaScript framework. Keep it that way.
+MDBlog is a lightweight, flat-file blog engine written in **Go 1.26**. Posts are Markdown files with YAML-style front matter. There is no database, no build step, and no JavaScript framework. Keep it that way.
 
 ## Architecture
 
@@ -48,7 +48,7 @@ Makefile            # Developer targets: help, serve, build, test, new-post, doc
 
 **Embed variant:** The default `Dockerfile` builds a single binary (`cmd/lambda-embed`) which has `templates/` and `assets/` embedded via `go:embed`. This is the production deployment image built in the CI. The `Dockerfile.debug` builds the standard binaries and copies `templates/` and `assets/` to disk for local development preview via `docker-compose.yml`.
 
-**Continuous Deployment:** A GitHub Action is configured to automatically build and release a new container image to GHCR whenever a Markdown (`.md`) file inside the `posts/` folder is pushed to `master`. A chained workflow then automatically deploys the latest image to AWS ECR and updates the Lambda function.
+**Write → Commit → Publish Flow:** A GitHub Action is configured to automatically build and release a new container image to GHCR whenever a Markdown (`.md`) file inside the `content/` folder is pushed to `master`. A chained workflow then automatically deploys the latest image to AWS ECR and updates the Lambda function.
 
 `docker-compose.yml` is for local development only and is not used in production.
 
@@ -124,6 +124,7 @@ make build-sitemap                                            # Generate sitemap
 make lint                                                     # Run go vet on all packages
 make lint-config                                              # Parse and validate config.toml
 make test                                                     # Build index + feed + sitemap then run go test ./...
+make benchmark                                                # Run HTTP performance benchmark using ApacheBench
 make render random                                            # Render a random post to HTML
 make render [category] random                                 # Render a random post from a category
 make render filename.md                                       # Render a specific post to HTML
@@ -286,7 +287,7 @@ Pages live in `PagesDir` (config key `pages_dir`, default `"pages"`). Any `<slug
 
 ## Coding Conventions
 
-- **Go 1.24+ required.** Use standard Go idioms; avoid unnecessary abstractions.
+- **Go 1.26+ required.** Use standard Go idioms; avoid unnecessary abstractions.
 - **No ORMs, no frameworks** — standard library `net/http` + Goldmark + go-toml are the only non-AWS dependencies.
 - **XSS prevention:** post content is rendered by Goldmark **without** `html.WithUnsafe()`. Template variables in `html/template` are auto-escaped. Raw HTML is only emitted via explicit `template.HTML` casts in trusted code paths.
 - **Path traversal prevention:** `GetPostBySlug` and `GetPage` both validate that resolved file paths are within their respective directories (`PostsDir` / `PagesDir`). Any new file-reading code must do the same.

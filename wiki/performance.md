@@ -8,7 +8,9 @@ This document outlines the performance characteristics, benchmark results, and a
 
 MDBlog is a database-free, flat-file blog engine. To keep serving speeds fast without a database, it uses a pre-built metadata index (`content.index.json`) for lists/search, and direct filesystem lookups for single posts. 
 
-Benchmarks show that MDBlog achieves:
+Benchmarks under Go 1.26 show that MDBlog achieves:
+* **HTTP Throughput (Home Page /):** **~10,389 requests/sec** (average latency **~0.96 ms**)
+* **HTTP Throughput (Post Page):** **~5,418 requests/sec** (average latency **~1.84 ms**)
 * **Average request latency under realistic traffic:** **~1.27 milliseconds**
 * **Metadata index JSON parsing speed:** **~2.86 milliseconds**
 * **Legacy URL redirect resolution latency:** **~4.02 milliseconds**
@@ -46,4 +48,18 @@ Measures the latency of parsing and resolving old Blogger paths (e.g. `/2008/07/
 1. **CPU/Memory cost**: Parsing the 400 KB index, doing regex parsing, diacritics cleaning, and Levenshtein distance computations over 659 posts takes ~4.02ms.
 2. **Parity**: While this is slightly higher than direct lookups (~1.27ms), it is still extremely fast and has negligible impact on standard user requests.
 3. **Usage Pattern**: Legacy URLs are typically hit by search crawlers indexing old backlinks or visitors from old bookmarks, rather than primary navigators. Therefore, the overall runtime impact on the blog's server resources is virtually unnoticeable.
+
+### Test D: Live HTTP Load Testing (ApacheBench)
+Measures raw HTTP server performance under Go 1.26 (1000 requests, 10 concurrency) run locally via `make benchmark`:
+
+#### Home Page (`/`)
+* **Throughput**: **10,389.61 requests/second**
+* **Average Latency**: **0.96 milliseconds**
+* **99% Latency**: **4.0 milliseconds**
+
+#### Post Page (`/content/writings/srbyte/srbyte-la-aquitectura-von-neumann`)
+*(Involves reading markdown from disk and parsing/rendering via Goldmark on the fly)*
+* **Throughput**: **5,418.67 requests/second**
+* **Average Latency**: **1.84 milliseconds**
+* **99% Latency**: **5.0 milliseconds**
 

@@ -1,5 +1,24 @@
 # Wiki Log
 
+## [2026-06-06] ingest | updated publication flow to Write → Commit → Publish and documented Go 1.26 benchmarks
+
+- Updated the core repository publishing tagline to "Write → Commit → Publish" across `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+- Cleared remaining legacy directory references (changing `posts/` to `content/` inside `wiki/repo-map.md` and `wiki/agents.md`).
+- Executed the ApacheBench performance suite under Go 1.26, yielding ~10.4K requests/sec on the Home Page and ~5.4K requests/sec on Post Pages.
+- Documented these load test results in `wiki/performance.md`.
+
+## [2026-06-06] ingest | upgraded project Go runtime dependency to Go 1.26
+
+- Upgraded Go compiler version in `go.mod` to Go 1.26.
+- Swapped Go builder images in `Dockerfile` and `Dockerfile.debug` to use `golang:1.26` as the build stage base.
+- Updated Go version requirements and descriptions in `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+
+## [2026-06-06] ingest | added scripts/benchmark.sh and Makefile benchmark target
+
+- Created `scripts/benchmark.sh` containing automation to compile `bin/mdblog`, start it on a custom port, run ApacheBench `ab` against the home and a post page, and terminate the server.
+- Added `benchmark` target to the `Makefile` and registered it in `.PHONY`.
+- Documented `make benchmark` in `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+
 ## [2026-06-06] ingest | switched production deployment to embedded image and renamed debug dockerfile
 
 - Switched production deployment container to the embedded templates/assets variant.
