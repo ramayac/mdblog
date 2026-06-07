@@ -2,7 +2,7 @@ services:
   blog:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.debug
     image: mdblog:latest
     # Use the HTTP server binary for local development preview.
     # In production, the Lambda entry-point (/lambda) is used instead.

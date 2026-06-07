@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-06-06] ingest | switched production deployment to embedded image and renamed debug dockerfile
+
+- Switched production deployment container to the embedded templates/assets variant.
+- Renamed `Dockerfile.embed` to `Dockerfile` to make it the default production deployment image built by CI/CD pipelines.
+- Renamed the standard Dockerfile (with templates and assets on disk) to `Dockerfile.debug`.
+- Configured local development `docker-compose.yml` to build from `Dockerfile.debug` to preserve the on-disk asset behavior locally.
+- Updated `Makefile` targets to replace `docker-build-embed` with `docker-build-debug` using `Dockerfile.debug`, and updated target descriptions.
+- Updated `.dockerignore` to ignore `Dockerfile.debug` instead of `Dockerfile.embed`.
+- Documented these changes in `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+
 ## [2026-06-06] ingest | added clean-urls script and Makefile target
 
 - Created `scripts/clean-urls.py` containing domain cleaning logic to replace absolute `srbyte.com` URLs with relative root paths.

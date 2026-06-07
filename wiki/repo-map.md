@@ -99,7 +99,7 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 
 - Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `test`, `render`, `request`, and `new-post`.
 - Wiki maintenance targets: `wiki-list`, `wiki-headings`, `wiki-log-tail`, `wiki-search`, `wiki-changed`, `wiki-candidates`, `wiki-lint`, and `wiki-refresh`. All targets delegate to the global `wiki-engine` CLI (`github.com/ramayac/go-wiki-engine`). Per-repo configuration lives in `.wikirc`. `wiki/` and `scripts/` are excluded from the Docker build via `.dockerignore`.
-- Docker targets: `docker-build`, `docker-build-embed`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.
+- Docker targets: `docker-build`, `docker-build-debug`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.
 - `help` is the default goal and prints the annotated target list from the Makefile.
 - `render` is argument-driven and supports forms like `make render random`, `make render [category] random`, and `make render filename.md`.
 - `request` is variable-driven and simulates a GET request (e.g. `make request URL="/page?slug=about"`).
@@ -115,14 +115,12 @@ MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts a
 ## AWS Runtime Model
 
 - MDBlog is deployed as a Docker container image to AWS Lambda behind API Gateway.
-- The Lambda entry point is `cmd/lambda`, which builds the normal blog handler and passes it to `algnhsa`, letting API Gateway events be served through the same standard `net/http` handler used elsewhere.
-- The standard production image is a multi-stage `FROM scratch` build that copies in the Lambda binary plus the content and runtime files the handler needs: `posts/`, `pages/`, `assets/`, `templates/`, `config.toml`, `feed.xml`, `sitemap.xml`, and `robots.txt`.
-- The embed image variant keeps the same runtime model but bakes `templates/` and `assets/` into the binary, so only content and config files remain on disk in the final image.
+- The production Lambda entry point is `cmd/lambda-embed` (renamed to `/lambda` in the image), which compiles templates and assets into the binary. The debug entry point is `cmd/lambda` (in `Dockerfile.debug`).
+- The production image is built via `Dockerfile` and is a multi-stage `FROM scratch` build that copies in the `lambda-embed` binary plus CA certificates, `config.toml`, and the content/pages and generated files: `content/`, `pages/`, `feed.xml`, `sitemap.xml`, and `robots.txt`. Templates and assets are fully embedded in the binary.
+- The debug image variant is built via `Dockerfile.debug` and keeps the templates/assets on disk so they can be read dynamically in local development environments.
 - The image is intended to run read-only, with no mutable application state and no runtime build step.
-- In the standard `Dockerfile`, the build stage produces two binaries, `/out/lambda` and `/out/mdblog`, then uses `/out/mdblog` to generate `posts/posts.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt` before copying the runtime files into the final image.
-- The standard final image contains `/lambda`, `/mdblog`, `/posts/`, `/pages/`, `/assets/`, `/templates/`, `/config.toml`, `/feed.xml`, `/sitemap.xml`, `/robots.txt`, and CA certificates.
-- In `Dockerfile.embed`, the build stage produces `/out/lambda-embed` and `/out/mdblog`, then generates the same derived content artifacts.
-- The embed final image contains `/lambda`, `/posts/`, `/pages/`, `/config.toml`, `/feed.xml`, `/sitemap.xml`, `/robots.txt`, and CA certificates; `templates/` and `assets/` are omitted because they are embedded into the binary.
+- In the production `Dockerfile`, the build stage produces two binaries, `/out/lambda-embed` and `/out/mdblog`, then uses `/out/mdblog` to generate `content/content.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt` before copying only CA certificates, `/out/lambda-embed` (as `/lambda`), config, content, and generated XML/txt files into the final scratch image.
+- In `Dockerfile.debug`, the build stage produces `/out/lambda` and `/out/mdblog`, generates the same derived content artifacts, and copies all binaries, content, pages, templates, assets, config, and generated XML/txt files into the final image.
 
 ## Publication Flow
 

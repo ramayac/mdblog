@@ -1,9 +1,18 @@
-# ── Stage 1: Build Go binaries ───────────────────────────────────────────────
+# Dockerfile — embedded production single-binary variant
+#
+# Builds cmd/lambda-embed, which has templates/ and assets/ baked into the
+# binary via go:embed. The resulting image only needs the binary, content/, and
+# config.toml — no templates/ or assets/ directories on disk.
+#
+# Usage:
+#   make docker-build
+#   docker run --rm -p 9000:8080 mdblog:latest
+
+# ── Stage 1: Build Go binary with embedded static files ──────────────────────
 FROM golang:1.24 AS build
 
 WORKDIR /src
 
-# Download dependencies first (cached layer)
 COPY go.mod go.sum ./
 RUN go mod download
 
@@ -14,32 +23,28 @@ ARG COMMIT=unknown
 ARG DATE=unknown
 ARG LDFLAGS="-s -w -X main.version=${VERSION} -X main.commit=${COMMIT} -X main.date=${DATE}"
 
-# Build the Lambda entry-point binary
+# Build the embed-variant Lambda binary (templates + assets baked in)
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
-    go build -ldflags "${LDFLAGS}" -o /out/lambda ./cmd/lambda
+    go build -ldflags "${LDFLAGS}" -o /out/lambda-embed ./cmd/lambda-embed
 
-# Build the CLI tool so we can run build-index
+# Build CLI to run build-index
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
     go build -o /out/mdblog ./cmd/mdblog
 
-# Generate the post metadata index (baked into the image)
+# Generate post metadata index
 RUN cd /src && /out/mdblog build-index && /out/mdblog build-feed && /out/mdblog build-sitemap
 
-# ── Stage 2: Minimal production image ────────────────────────────────────────
+# ── Stage 2: Truly minimal image — binary + posts + config only ───────────────
 FROM scratch
 
-# CA certificates (needed for any outbound TLS from the binary, e.g. latency checks)
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
-COPY --from=build /out/lambda  /lambda
-COPY --from=build /out/mdblog  /mdblog
-COPY --from=build /src/content/    /content/
-COPY --from=build /src/pages/      /pages/
-COPY --from=build /src/assets/     /assets/
-COPY --from=build /src/templates/  /templates/
-COPY --from=build /src/config.toml /config.toml
-COPY --from=build /src/feed.xml    /feed.xml
-COPY --from=build /src/sitemap.xml /sitemap.xml
-COPY --from=build /src/robots.txt  /robots.txt
+COPY --from=build /out/lambda-embed /lambda
+COPY --from=build /src/content/     /content/
+COPY --from=build /src/pages/       /pages/
+COPY --from=build /src/config.toml  /config.toml
+COPY --from=build /src/feed.xml     /feed.xml
+COPY --from=build /src/sitemap.xml  /sitemap.xml
+COPY --from=build /src/robots.txt   /robots.txt
 
-CMD ["/lambda"]
+ENTRYPOINT ["/lambda"]
