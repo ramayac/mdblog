@@ -30,7 +30,7 @@ Author: [@ramayac](https://x.com/ramayac).
 MDBlog is deployed as a Docker container image on AWS Lambda behind API Gateway.
 
 1. Clone the repo and configure `config.toml` (blog name, author, categories)
-2. Add `.md` posts to `posts/<category>/` directories
+2. Add `.md` file to `content/<category>/` directories
 3. Build and push the Docker image: `make docker-build && make docker-push`
 4. Deploy the image to AWS Lambda as a container image function behind API Gateway
 
@@ -51,7 +51,6 @@ make benchmark       # Run the HTTP performance benchmark using ApacheBench
 make render random   # Render a random post to a standalone HTML file
 make request URL="/" # Simulate a GET request to "/" and print to stdout
 make clean-urls      # Replace absolute srbyte.com URLs with relative root paths
-make wiki-refresh    # Show wiki files, recent log, diff-driven inputs, and lint results
 ```
 
 > **Tip:** Run `make build-index`, `make build-feed`, and `make build-sitemap` whenever you add or edit posts
@@ -83,7 +82,7 @@ make docker-build-debug   # Build the debug-variant image
 
 ### Continuous Deployment (CI/CD)
 
-MDBlog includes GitHub Actions for automated deployment. Pushing any `.md` file in `posts/` to `master` triggers a Docker build. Once pushed to GHCR, a secondary workflow propagates the image to Amazon ECR and updates the Lambda function.
+MDBlog includes GitHub Actions for automated deployment. Pushing any `.md` file in `content/` to `master` triggers a Docker build. Once pushed to GHCR, a secondary workflow propagates the image to Amazon ECR and updates the Lambda function.
 
 ### Caching on Lambda
 
@@ -97,12 +96,12 @@ There is no file-based cache. The container filesystem is read-only; the pre-bui
 make new-post TITLE="My Post Title" CATEGORY=my-category TAGS="tag1, tag2"
 ```
 
-Creates a pre-filled `.md` file at `posts/<category>/YYYY-MM-DD-my-post-title.md`.
+Creates a pre-filled `.md` file at `content/<category>/YYYY-MM-DD-my-post-title.md`.
 Author is read automatically from `config.toml`. `CATEGORY` and `TAGS` are optional.
 
 ## Writing Posts
 
-Create a `.md` file in a category subfolder under `posts/` with front matter:
+Create a `.md` file in a category subfolder under `content/` with front matter:
 
 ```yaml
 ---
@@ -178,7 +177,7 @@ Routes: `/page?slug=<slug>` renders `pages/<slug>.md` using `templates/page.html
 ## Landing Page and Search
 
 The home page (`/` with no query params) shows a static landing page with category cards.
-To add an optional intro blurb above the cards, create `posts/index.md`.
+To add an optional intro blurb above the cards, create `content/index.md`.
 
 Browsing posts: `/?category=slug`
 Searching posts: `/?q=keyword` (requires the post metadata index)
@@ -269,7 +268,7 @@ index          = true            # include in legacy aggregated index
 menu           = true            # show in nav bar
 ```
 
-Then add `.md` files to `posts/my-category/`.
+Then add `.md` files to `content/my-category/`.
 
 ## Post Metadata Index
 
@@ -349,7 +348,7 @@ Dockerfile.debug    # Debug variant (binary + content + pages + templates + asse
 - Go 1.26+
 - `make`
 
-No database. All data is read from the `posts/` directory and the pre-built JSON index.
+No database. All data is read from the `content/` directory and the pre-built JSON index.
 
 ## License
 
