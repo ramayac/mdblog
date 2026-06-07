@@ -1,6 +1,6 @@
 module github.com/ramayac/mdblog
 
-go 1.24.4
+go 1.26
 
 require (
 	github.com/akrylysov/algnhsa v1.1.0 // indirect

@@ -9,7 +9,7 @@
 #   docker run --rm -p 9000:8080 mdblog:latest
 
 # ── Stage 1: Build Go binary with embedded static files ──────────────────────
-FROM golang:1.24 AS build
+FROM golang:1.26 AS build
 
 WORKDIR /src
 

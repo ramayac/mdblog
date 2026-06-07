@@ -38,7 +38,7 @@ For local development, see [Running Locally](#running-locally) below.
 
 ## Running Locally
 
-Requires **Go 1.24+** and `make`. No other runtime dependencies.
+Requires **Go 1.26+** and `make`. No other runtime dependencies.
 
 ```bash
 make build-index     # Generate post metadata index (posts/posts.index.json)
@@ -63,7 +63,7 @@ This repo maintains a persistent `wiki/` directory powered by [go-wiki-engine](h
 
 ## Deployment (AWS Lambda)
 
-The production image uses a **multi-stage Docker build**: a `golang:1.24` stage compiles the Go binary and generates the post index; the final stage copies only the binary, posts, templates, assets and config into a minimal `FROM scratch` image.
+The production image uses a **multi-stage Docker build**: a `golang:1.26` stage compiles the Go binary (embedding templates and assets) and generates the post index; the final stage copies only the binary, content, config and generated feeds/sitemaps into a minimal `FROM scratch` image.
 
 ```bash
 make docker-build                        # Build production image (FROM scratch, Lambda-ready)
@@ -346,7 +346,7 @@ Dockerfile.debug    # Debug variant (binary + content + pages + templates + asse
 - Container registry (e.g. ghcr.io or ECR)
 
 **Local development:**
-- Go 1.24+
+- Go 1.26+
 - `make`
 
 No database. All data is read from the `posts/` directory and the pre-built JSON index.

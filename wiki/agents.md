@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-MDBlog is a lightweight, flat-file blog engine written in **Go 1.24**. Posts are Markdown files with YAML-style front matter. There is no database, no build step, and no JavaScript framework. Keep it that way.
+MDBlog is a lightweight, flat-file blog engine written in **Go 1.26**. Posts are Markdown files with YAML-style front matter. There is no database, no build step, and no JavaScript framework. Keep it that way.
 
 ## Architecture
 
@@ -287,7 +287,7 @@ Pages live in `PagesDir` (config key `pages_dir`, default `"pages"`). Any `<slug
 
 ## Coding Conventions
 
-- **Go 1.24+ required.** Use standard Go idioms; avoid unnecessary abstractions.
+- **Go 1.26+ required.** Use standard Go idioms; avoid unnecessary abstractions.
 - **No ORMs, no frameworks** — standard library `net/http` + Goldmark + go-toml are the only non-AWS dependencies.
 - **XSS prevention:** post content is rendered by Goldmark **without** `html.WithUnsafe()`. Template variables in `html/template` are auto-escaped. Raw HTML is only emitted via explicit `template.HTML` casts in trusted code paths.
 - **Path traversal prevention:** `GetPostBySlug` and `GetPage` both validate that resolved file paths are within their respective directories (`PostsDir` / `PagesDir`). Any new file-reading code must do the same.

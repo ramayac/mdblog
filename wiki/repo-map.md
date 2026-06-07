@@ -2,7 +2,7 @@
 
 ## Purpose
 
-MDBlog is a flat-file blog engine written in Go 1.24. It serves Markdown posts and standalone pages, generates a metadata index for listing and search, and can run locally or as an AWS Lambda container image.
+MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts and standalone pages, generates a metadata index for listing and search, and can run locally or as an AWS Lambda container image.
 
 ## High-Signal Areas
 

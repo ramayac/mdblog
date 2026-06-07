@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-06] ingest | upgraded project Go runtime dependency to Go 1.26
+
+- Upgraded Go compiler version in `go.mod` to Go 1.26.
+- Swapped Go builder images in `Dockerfile` and `Dockerfile.debug` to use `golang:1.26` as the build stage base.
+- Updated Go version requirements and descriptions in `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+
 ## [2026-06-06] ingest | added scripts/benchmark.sh and Makefile benchmark target
 
 - Created `scripts/benchmark.sh` containing automation to compile `bin/mdblog`, start it on a custom port, run ApacheBench `ab` against the home and a post page, and terminate the server.
