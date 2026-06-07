@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-06-06] ingest | added scripts/benchmark.sh and Makefile benchmark target
+
+- Created `scripts/benchmark.sh` containing automation to compile `bin/mdblog`, start it on a custom port, run ApacheBench `ab` against the home and a post page, and terminate the server.
+- Added `benchmark` target to the `Makefile` and registered it in `.PHONY`.
+- Documented `make benchmark` in `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+
 ## [2026-06-06] ingest | switched production deployment to embedded image and renamed debug dockerfile
 
 - Switched production deployment container to the embedded templates/assets variant.

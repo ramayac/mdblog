@@ -47,6 +47,7 @@ make build-sitemap   # Generate sitemap.xml and robots.txt (requires build-index
 make serve           # Start HTTP dev server at http://localhost:8080
 make lint            # Run go vet on all packages
 make test            # Build index + feed + sitemap, then run the Go test suite
+make benchmark       # Run the HTTP performance benchmark using ApacheBench
 make render random   # Render a random post to a standalone HTML file
 make request URL="/" # Simulate a GET request to "/" and print to stdout
 make clean-urls      # Replace absolute srbyte.com URLs with relative root paths

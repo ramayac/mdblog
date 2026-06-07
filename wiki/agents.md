@@ -124,6 +124,7 @@ make build-sitemap                                            # Generate sitemap
 make lint                                                     # Run go vet on all packages
 make lint-config                                              # Parse and validate config.toml
 make test                                                     # Build index + feed + sitemap then run go test ./...
+make benchmark                                                # Run HTTP performance benchmark using ApacheBench
 make render random                                            # Render a random post to HTML
 make render [category] random                                 # Render a random post from a category
 make render filename.md                                       # Render a specific post to HTML
