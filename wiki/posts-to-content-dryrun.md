@@ -102,8 +102,8 @@ Updates the paths copied into the production container image stage:
 + COPY --from=build /src/content/    /content/
 ```
 
-### [Dockerfile.embed](file:///home/ramayac/git/MDBlog/Dockerfile.embed)
-Updates embedded container copy stages:
+### [Dockerfile.debug](file:///home/ramayac/git/MDBlog/Dockerfile.debug)
+Updates debug container copy stages:
 ```diff
 - COPY --from=build /src/posts/       /posts/
 + COPY --from=build /src/content/     /content/

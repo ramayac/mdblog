@@ -28,7 +28,7 @@ The primary content folder will be renamed from `posts/` to `content/`. This mat
 - **[internal/config/config.go](../internal/config/config.go)**: Update fallback Go values if defaults are omitted.
 - **[Makefile](../Makefile)**: Update paths in `build-index` and `new-post` targets.
 - **[internal/blog/blog_test.go](../internal/blog/blog_test.go)**: Update relative test path references.
-- **Dockerfiles ([Dockerfile](../Dockerfile), [Dockerfile.embed](../Dockerfile.embed))**: Copy `content/` instead of `posts/` into the image.
+- **Dockerfiles ([Dockerfile](../Dockerfile), [Dockerfile.debug](../Dockerfile.debug))**: Copy `content/` instead of `posts/` into the image.
 - **[.github/workflows/ghcr-release.yml](../.github/workflows/ghcr-release.yml)**: Update push triggers path to `content/**/*.md`.
 - **[.gitignore](../.gitignore)** & **[.wikirc](../.wikirc)**: Ignore `content/content.index.json` and ignore `content/` in wiki searches.
 

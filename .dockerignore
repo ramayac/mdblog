@@ -4,7 +4,7 @@
 
 # Docker files (not needed inside build context)
 Dockerfile
-Dockerfile.embed
+Dockerfile.debug
 docker-compose.yml
 .dockerignore
 

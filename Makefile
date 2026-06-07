@@ -14,7 +14,7 @@ LDFLAGS := -s -w -X main.version=$(VERSION) -X main.commit=$(COMMIT) -X main.dat
 
 .PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
-        docker-build docker-build-embed docker-run docker-run-release \
+        docker-build docker-build-debug docker-run docker-run-release \
         docker-stop docker-push docker-pull clean-urls
 
 help: ## Show available targets
@@ -129,20 +129,20 @@ wiki-refresh: ## Run the wiki maintenance snapshot
 
 # ── Docker ────────────────────────────────────────────────────────────────────
 
-docker-build: ## Build the production Docker image (FROM scratch, Lambda-ready)
+docker-build: ## Build the production Docker image (embedded templates+assets, Lambda-ready)
 	docker build \
 		--build-arg VERSION=$(VERSION) \
 		--build-arg COMMIT=$(COMMIT) \
 		--build-arg DATE=$(DATE) \
 		-t mdblog:latest .
 
-docker-build-embed: ## Build the embed-variant Docker image (templates+assets inside binary)
+docker-build-debug: ## Build the debug-variant Docker image (with templates+assets on disk)
 	docker build \
 		--build-arg VERSION=$(VERSION) \
 		--build-arg COMMIT=$(COMMIT) \
 		--build-arg DATE=$(DATE) \
-		-f Dockerfile.embed \
-		-t mdblog-embed:latest .
+		-f Dockerfile.debug \
+		-t mdblog-debug:latest .
 
 docker-run: ## Build and start blog via Docker Compose at http://localhost:8080
 	docker compose up --build

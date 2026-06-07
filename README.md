@@ -72,12 +72,12 @@ make docker-pull TAG=1.2.3              # Pull a release image and tag as latest
 
 After pushing the image, update the Lambda function to use the new image URI.
 
-### Embed Variant
+### Debug Variant (with on-disk assets)
 
-`Dockerfile.embed` builds `cmd/lambda-embed`, which has `templates/` and `assets/` baked into the binary via `go:embed`. The resulting image only needs the binary, `posts/`, and `config.toml`.
+The default `Dockerfile` is now the embedded production variant (where `templates/` and `assets/` are baked into the binary via `go:embed`). For local Docker development and debugging with templates and assets on disk, `Dockerfile.debug` is used.
 
 ```bash
-make docker-build-embed   # Build the embed-variant image
+make docker-build-debug   # Build the debug-variant image
 ```
 
 ### Continuous Deployment (CI/CD)
@@ -333,8 +333,8 @@ posts/              # All blog post content (organized in category subfolders)
 pages/              # Standalone pages (about.md, etc.) — no category, no date
 embed.go            # go:embed declarations
 config.toml         # Runtime configuration
-Dockerfile          # Standard Lambda image (FROM scratch)
-Dockerfile.embed    # Embed variant (binary + posts + pages + config only)
+Dockerfile          # Production Lambda image (embedded templates+assets, FROM scratch)
+Dockerfile.debug    # Debug variant (binary + content + pages + templates + assets + config)
 ```
 
 ## Requirements
