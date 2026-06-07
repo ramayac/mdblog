@@ -20,4 +20,4 @@ O quien sabe, quizás en un mes hago un blog con [Gatsby](https://www.gatsbyjs.o
 
 ¿De que voy a escribir? pues de lo que me interesa, agrupado y ordenado en cómodas listas para que crean que mi mente es prístina y ordenada (les advierto, no lo es).
 
-Así que si les carcome la curiosidad y quieren saber los intereses de un Software Developer en la década de los 30, [lea, yo opino que le va a gustar](/2019/02/semana-1.html).
+Así que si les carcome la curiosidad y quieren saber los intereses de un Software Developer en la década de los 30, [lea, yo opino que le va a gustar](/content/writings/unalistaaparte/post-semana-1-relaciones-con-la-tecnolog-a-ensue-o-y-fa).
