@@ -122,20 +122,20 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - In the production `Dockerfile`, the build stage produces two binaries, `/out/lambda-embed` and `/out/mdblog`, then uses `/out/mdblog` to generate `content/content.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt` before copying only CA certificates, `/out/lambda-embed` (as `/lambda`), config, content, and generated XML/txt files into the final scratch image.
 - In `Dockerfile.debug`, the build stage produces `/out/lambda` and `/out/mdblog`, generates the same derived content artifacts, and copies all binaries, content, pages, templates, assets, config, and generated XML/txt files into the final image.
 
-## Publication Flow
+## Write → Commit → Publish Flow
 
-- The production publish path is GitHub Actions based rather than a runtime CMS upload flow.
-- A push to `master` that changes `posts/**/*.md` triggers `.github/workflows/ghcr-release.yml`.
+- The production publish path is GitHub Actions based rather than a runtime CMS upload flow. It follows the core philosophy of **Write → Commit → Publish**.
+- A push to `master` that changes `content/**/*.md` triggers `.github/workflows/ghcr-release.yml`.
 - That workflow builds the Docker image, computes version metadata from git, and pushes the resulting image to GHCR with tags including `latest`.
-- The Docker build itself regenerates `posts/posts.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt`, so Markdown post changes become part of the published image through that build stage.
+- The Docker build itself regenerates `content/content.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt`, so Markdown post changes become part of the published image through that build stage.
 - A second workflow, `.github/workflows/aws-deploy.yml`, listens for successful completion of the GHCR workflow, pulls the `latest` image from GHCR, retags and pushes it to Amazon ECR, and then runs `aws lambda update-function-code` to point the Lambda function at the new container image.
 - This means post Markdown files are published by being committed and pushed to `master`, not by being uploaded directly to the running server.
-- The automatic push trigger is scoped to `posts/**/*.md`; other Markdown locations such as `pages/` are not covered by that push-path filter and therefore do not use the same automatic publish trigger unless deployment is initiated through another path such as a release.
+- The automatic push trigger is scoped to `content/**/*.md`; other Markdown locations such as `pages/` are not covered by that push-path filter and therefore do not use the same automatic publish trigger unless deployment is initiated through another path such as a release.
 
 ## Content and Persistence Model
 
-- MDBlog has no database because its source of truth is the repository content itself: posts are Markdown files under `posts/`, standalone pages are Markdown files under `pages/`, and runtime settings live in `config.toml`.
-- Listing and search do not query a database; they read the pre-built `posts/posts.index.json` metadata file generated during the image build.
+- MDBlog has no database because its source of truth is the repository content itself: posts are Markdown files under `content/`, standalone pages are Markdown files under `pages/`, and runtime settings live in `config.toml`.
+- Listing and search do not query a database; they read the pre-built `content/content.index.json` metadata file generated during the image build.
 - Single post and page requests still read the corresponding Markdown file from disk inside the container and render it on demand.
 - RSS and SEO files are also pre-generated during the image build, then served as static runtime artifacts.
 - If the post index is missing or invalid, the blog can fall back to scanning Markdown files directly, which preserves correctness without introducing a database dependency.

@@ -1,6 +1,6 @@
 # Markdown Blog
 
-A simple Markdown-based blog engine written in **Go**, deployed as a Docker container on AWS Lambda. The idea behind it is this workflow: Write → Commit → Push → Deploy.
+A Markdown-based blog engine written in **Go**, deployed as a Docker container on AWS Lambda. The idea behind it is this workflow: Write → Commit → Publish.
 
 This used to be a generic project, but I ended up keeping my posts and configuration here.
 Eventually, I will work on a general release :)

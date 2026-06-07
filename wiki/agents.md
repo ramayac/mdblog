@@ -48,7 +48,7 @@ Makefile            # Developer targets: help, serve, build, test, new-post, doc
 
 **Embed variant:** The default `Dockerfile` builds a single binary (`cmd/lambda-embed`) which has `templates/` and `assets/` embedded via `go:embed`. This is the production deployment image built in the CI. The `Dockerfile.debug` builds the standard binaries and copies `templates/` and `assets/` to disk for local development preview via `docker-compose.yml`.
 
-**Continuous Deployment:** A GitHub Action is configured to automatically build and release a new container image to GHCR whenever a Markdown (`.md`) file inside the `posts/` folder is pushed to `master`. A chained workflow then automatically deploys the latest image to AWS ECR and updates the Lambda function.
+**Write → Commit → Publish Flow:** A GitHub Action is configured to automatically build and release a new container image to GHCR whenever a Markdown (`.md`) file inside the `content/` folder is pushed to `master`. A chained workflow then automatically deploys the latest image to AWS ECR and updates the Lambda function.
 
 `docker-compose.yml` is for local development only and is not used in production.
 

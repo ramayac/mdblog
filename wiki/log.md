@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-06-06] ingest | updated publication flow to Write → Commit → Publish and documented Go 1.26 benchmarks
+
+- Updated the core repository publishing tagline to "Write → Commit → Publish" across `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.
+- Cleared remaining legacy directory references (changing `posts/` to `content/` inside `wiki/repo-map.md` and `wiki/agents.md`).
+- Executed the ApacheBench performance suite under Go 1.26, yielding ~10.4K requests/sec on the Home Page and ~5.4K requests/sec on Post Pages.
+- Documented these load test results in `wiki/performance.md`.
+
 ## [2026-06-06] ingest | upgraded project Go runtime dependency to Go 1.26
 
 - Upgraded Go compiler version in `go.mod` to Go 1.26.
