@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-07-18] decision | investigated binary size reduction and rejected TinyGo
+
+- Evaluated Go compiler/linker flags (`-s -w`, `-funcalign 1`, `-trimpath`, `-buildvcs=false`) achieving 2.1% reduction (9.6→9.4 MB) for `mdblog`.
+- Evaluated TinyGo 0.41.1 as an alternative: produces 1.6 MB binary (83% smaller) but `html/template`, `encoding/json`, and `compress/gzip` are missing from its stdlib, blocking the server, build tools, and compression.
+- Decision: reject TinyGo; adopt gc flags only. Full analysis in `wiki/binary-size-investigation.md`.
+
 ## [2026-06-06] ingest | updated publication flow to Write → Commit → Publish and documented Go 1.26 benchmarks
 
 - Updated the core repository publishing tagline to "Write → Commit → Publish" across `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.

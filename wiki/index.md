@@ -12,6 +12,7 @@
 - [clean-slugs-plan.md](clean-slugs-plan.md) | Technical plan for clean category and page slugs.
 - [embedded-path-plan.md](embedded-path-plan.md) | Technical plan for default embedded templates and assets.
 - [performance.md](performance.md) | Performance analysis, raw benchmarks, and traffic simulation insights.
+- [binary-size-investigation.md](binary-size-investigation.md) | Binary size analysis, compiler flags, and TinyGo evaluation.
 - [log.md](log.md) | Append-only timeline of wiki maintenance.
 
 ## Operations
