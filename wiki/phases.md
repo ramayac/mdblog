@@ -12,10 +12,10 @@
 | 5 | Standardize lint | completed | Drift checks and repair steps are documented |
 | 6 | Add unix-native helpers | completed | Common wiki inspection commands are stable across repos |
 | 7 | Add change-detection workflow | completed | File-change driven wiki updates are documented |
-| 8 | Define reusable repo template | planned | New repos can copy the same wiki skeleton |
+| 8 | Define reusable repo template | completed | Schema contract and repo-map template (with exclusions) are reusable via `go-wiki-engine` |
 | 9 | Add optional on-demand automation | completed | Manual triggers can refresh the wiki without CI lock-in |
-| 10 | Prove multi-repo adoption | planned | At least one more repo uses the same structure |
-| 11 | Extract wiki-engine repo | future | Shared engine lives outside any single product repo |
+| 10 | Prove multi-repo adoption | completed | `go-wiki-engine` maintains the same `wiki/` contract in its own repo |
+| 11 | Extract wiki-engine repo | completed | `go-wiki-engine` repo is live and consumed via the global CLI |
 
 ## Phase 0 | Bootstrap the wiki
 
@@ -111,7 +111,7 @@ Implemented in MDBlog:
 
 - `make wiki-changed`
 - `make wiki-candidates`
-- Ingest filtering excludes `posts/`, generated artifacts, and temporary noise.
+- Ingest filtering excludes `content/`, generated artifacts, and temporary noise.
 
 ## Phase 8 | Define reusable repo template
 
@@ -138,7 +138,7 @@ Implemented in MDBlog:
 
 - `make wiki-lint`
 - `make wiki-refresh`
-- All helper entrypoints run locally through plain `sh` scripts.
+- All helper entrypoints delegate to the global `wiki-engine` CLI.
 
 ## Phase 10 | Prove multi-repo adoption
 

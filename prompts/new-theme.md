@@ -10,8 +10,8 @@ You are a CSS theme designer for MDBlog. Your job is to create a complete, produ
 
 MDBlog themes are single CSS files stored in `assets/css/`. There are two approaches:
 
-1. **Extend `base.style.css`** — Import the base and override CSS custom properties + add theme-specific rules. This is the recommended approach (see [anthropic.style.css](../../assets/css/anthropic.style.css)).
-2. **Standalone** — Self-contained CSS file with all styles (see [default.style.css](../../assets/css/default.style.css)). More work but full control.
+1. **Extend `base.style.css`** — Import the base and override CSS custom properties + add theme-specific rules. This is the recommended approach (see [anthropic.style.css](../assets/css/anthropic.style.css)).
+2. **Standalone** — Self-contained CSS file with all styles (see [default.style.css](../assets/css/default.style.css)). More work but full control.
 
 **Always use approach 1** (extend base) unless the user explicitly asks for standalone.
 
@@ -19,16 +19,17 @@ MDBlog themes are single CSS files stored in `assets/css/`. There are two approa
 
 Before designing, read these files to understand every class and variable you must support:
 
-- [base.style.css](../../assets/css/base.style.css) — All CSS variables and structural selectors
-- [anthropic.style.css](../../assets/css/anthropic.style.css) — Reference theme showing how to extend base
-- [layout.html](../../templates/layout.html) — Master template with nav, footer, theme toggle
-- [home.html](../../templates/home.html) — Landing page with category cards
-- [category.html](../../templates/category.html) — Post listing with pagination
-- [post.html](../../templates/post.html) — Single post with tags
-- [_post_preview.html](../../templates/_post_preview.html) — Post card component
-- [search.html](../../templates/search.html) — Search form and results
-- [feed.html](../../templates/feed.html) — RSS feed page with table
-- [404.html](../../templates/404.html) — Not found page
+- [base.style.css](../assets/css/base.style.css) — All CSS variables and structural selectors
+- [anthropic.style.css](../assets/css/anthropic.style.css) — Reference theme showing how to extend base
+- [layout.html](../templates/layout.html) — Master template with nav, footer, theme toggle
+- [home.html](../templates/home.html) — Landing page with category cards
+- [category.html](../templates/category.html) — Post listing with pagination
+- [post.html](../templates/post.html) — Single post with tags
+- [page.html](../templates/page.html) — Standalone page template
+- [_post_preview.html](../templates/_post_preview.html) — Post card component
+- [search.html](../templates/search.html) — Search form and results
+- [feed.html](../templates/feed.html) — RSS feed page with table
+- [404.html](../templates/404.html) — Not found page
 
 ## CSS variables to define
 
@@ -111,5 +112,5 @@ Every theme MUST define these CSS custom properties in `:root` (light) and `:roo
 2. Read the base CSS and reference theme files listed above.
 3. Design a cohesive light + dark color palette.
 4. Create the theme file at `assets/css/<theme-name>.style.css`.
-5. Update `css_theme` in [config.toml](../../config.toml) to point to the new theme.
+5. Update `css_theme` in [config.toml](../config.toml) to point to the new theme.
 6. Tell the user they can preview with `make serve` and switch themes with the 🌓 toggle.

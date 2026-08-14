@@ -10,6 +10,7 @@
 - [navigation.md](navigation.md) | Architecture and decisions for parent/sub-category navigation.
 - [posts-to-content-dryrun.md](posts-to-content-dryrun.md) | Dry run plan for renaming posts to content directory.
 - [clean-slugs-plan.md](clean-slugs-plan.md) | Technical plan for clean category and page slugs.
+- [slugs.md](slugs.md) | Implementation record for clean URL slugs (status: shipped).
 - [embedded-path-plan.md](embedded-path-plan.md) | Technical plan for default embedded templates and assets.
 - [performance.md](performance.md) | Performance analysis, raw benchmarks, and traffic simulation insights.
 - [binary-size-investigation.md](binary-size-investigation.md) | Binary size analysis, compiler flags, and TinyGo evaluation.
@@ -20,7 +21,7 @@
 - [operations/ingest.md](operations/ingest.md) | How to absorb a repo change into the wiki.
 - [operations/query.md](operations/query.md) | How to answer questions from the wiki first.
 - [operations/lint.md](operations/lint.md) | How to health-check and repair wiki drift.
-- [../.github/prompts/](../.github/prompts/) | Workspace prompts for on-demand workflows.
+- [../prompts/](../prompts/) | Workspace prompts for on-demand workflows.
 
 ## Current Focus
 

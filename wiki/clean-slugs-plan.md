@@ -1,5 +1,7 @@
 # Technical Plan: Clean Category and Page Slugs
 
+> **Status:** implemented and shipped — see [slugs.md](slugs.md) for the implementation record.
+
 This document outlines the design and implementation details to transition the site's URL structure to clean, SEO-friendly paths, matching the folder structure in `posts/` (which will also be renamed to `content/`).
 
 Before each step, create a unit test, and after all steps, run integration tests to verify the entire flow from URL resolution to content rendering works as expected. Youre development toop is: test -> code -> check -> pass -> next step.

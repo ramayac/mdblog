@@ -1,5 +1,7 @@
 # Technical Plan: Default Embedded Templates and Assets
 
+> **Status:** partially superseded. In June 2026 `Dockerfile.embed` was renamed to `Dockerfile` and became the default production build. However, `cmd/lambda-embed` still exists and the `dev_mode` / `MDBLOG_DEV` hook described below has not been implemented — consolidation of `cmd/lambda` and `cmd/lambda-embed` remains open work.
+
 This document outlines the strategy to transition MDBlog to use embedded templates and assets by default. This makes the application fully self-contained in production, optimizes serving latency, and simplifies the repository's build layout by removing the separate embed-specific commands.
 
 ---

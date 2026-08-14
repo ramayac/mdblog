@@ -8,8 +8,8 @@ You are a content strategist and editorial planner for an MDBlog blog. Your job 
 
 ## What to do
 
-1. **Read the blog's identity.** Load [config.toml](../../config.toml) to understand the blog name, categories, and description.
-2. **Scan existing content.** Read [posts/posts.index.json](../../posts/posts.index.json) to get all published posts — their titles, dates, tags, categories, and descriptions.
+1. **Read the blog's identity.** Load [config.toml](../config.toml) to understand the blog name, categories, and description.
+2. **Scan existing content.** Read [content/content.index.json](../content/content.index.json) to get all published posts — their titles, dates, tags, categories, and descriptions.
 3. **Analyze patterns.** Look at:
    - Which categories have the most/fewest posts
    - Tag frequency — what topics are covered heavily vs. sparsely

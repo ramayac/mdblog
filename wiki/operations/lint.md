@@ -7,9 +7,10 @@ Keep the wiki coherent, linked, and current.
 ## Checks
 
 - Pages mentioned in the index still exist.
+- Internal wiki links resolve (no dead links to moved pages or folders, e.g. `../prompts/` not `../.github/prompts/`).
 - Important repo areas have coverage.
 - Stale claims are updated when source files changed.
-- Exclusions still match repo reality.
+- Exclusions still match repo reality (`.wikirc` ignores `content/`, `wiki/`, `bin/`, and generated artifacts).
 - New recurring topics have a page instead of being trapped in chat history.
 
 ## Shell-First Checks

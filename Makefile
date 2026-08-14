@@ -13,7 +13,7 @@ GOBUILDFLAGS := -trimpath -buildvcs=false
 
 .DEFAULT_GOAL := help
 
-.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render request \
+.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config lint-links content-count test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
         docker-build docker-build-debug docker-run docker-run-release \
         docker-stop docker-push docker-pull clean-urls benchmark
@@ -64,7 +64,7 @@ content-count: ## Show a treeview directory listing of markdown file counts
 	go run ./cmd/mdblog content-count
 
 clean-urls: ## Replace absolute srbyte.com URLs with relative root paths in markdown files
-	@python3 scripts/clean-urls.py
+	@python3 bin/clean-srbyte-urls
 
 test: build-index build-feed build-sitemap ## Run the Go test suite
 	go test ./...
