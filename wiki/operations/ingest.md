@@ -28,7 +28,7 @@ If `wiki-engine candidates` returns no files for the configured diff range, `wik
 
 Routine wiki ingest ignores these paths unless the user explicitly asks otherwise:
 
-- `posts/`
+- `content/`
 - `wiki/`
 - `bin/`
 - `render/`

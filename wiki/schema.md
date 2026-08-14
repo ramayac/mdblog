@@ -11,6 +11,7 @@ It should reduce repeated repo rediscovery by storing stable summaries, operatin
 Every repo that adopts this pattern should have at least these files:
 
 - `wiki/README.md`
+- `wiki/agents.md`
 - `wiki/index.md`
 - `wiki/log.md`
 - `wiki/schema.md`
@@ -53,4 +54,4 @@ Every repo that adopts this pattern should have at least these files:
 
 Each repo should document high-noise or user-authored areas that should not be routinely ingested.
 
-For MDBlog, that exclusion is defined in [repo-map.md](repo-map.md): routine wiki maintenance ignores `posts/` content.
+For MDBlog, that exclusion is defined in [repo-map.md](repo-map.md): routine wiki maintenance ignores `content/` post content.

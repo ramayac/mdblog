@@ -15,5 +15,5 @@ Instead, always start by reading the repository wiki:
 
 - Use the global `wiki-engine` CLI for wiki-related tasks.
 - Read `wiki/repo-map.md` to understand the codebase architecture.
-- Follow the instructions in `.github/instructions/` for specific roles.
-- Refer to workspace prompts in `.github/prompts/` for on-demand workflows.
+- Follow role-specific workflows documented in `prompts/`.
+- Use on-demand prompts from `prompts/` for content and wiki workflows.

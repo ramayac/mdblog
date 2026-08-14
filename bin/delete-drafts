@@ -1,0 +1,94 @@
+#!/usr/bin/env python3
+import os
+import sys
+import argparse
+
+def is_draft(file_path):
+    """
+    Parses the front matter of a markdown file to check if draft is true.
+    Returns True if draft: true (or draft: "true" / draft: 'true') is found.
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+            first_line = f.readline()
+            if not first_line or first_line.strip() != '---':
+                return False
+            
+            front_matter_lines = []
+            for line in f:
+                if line.strip() == '---':
+                    break
+                front_matter_lines.append(line)
+            else:
+                # Reached EOF without finding closing front matter marker
+                return False
+            
+            for line in front_matter_lines:
+                if ':' in line:
+                    key, value = line.split(':', 1)
+                    key = key.strip().lower()
+                    value = value.strip().lower().strip('\'"')
+                    if key == 'draft' and value == 'true':
+                        return True
+    except Exception as e:
+        print(f"Warning: Failed to read {file_path}: {e}", file=sys.stderr)
+    return False
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Delete markdown files that have 'draft: true' in their YAML front matter."
+    )
+    parser.add_argument(
+        "--dir",
+        default="posts/writings/srbyte",
+        help="Directory to scan (default: posts/writings/srbyte)"
+    )
+    parser.add_argument(
+        "--delete",
+        action="store_true",
+        help="Actually delete the files (dry-run by default)"
+    )
+    
+    args = parser.parse_args()
+    
+    search_dir = args.dir
+    if not os.path.isdir(search_dir):
+        print(f"Error: Directory '{search_dir}' does not exist.", file=sys.stderr)
+        sys.exit(1)
+        
+    print(f"Scanning '{search_dir}' for draft markdown files...")
+    
+    draft_files = []
+    for root, _, files in os.walk(search_dir):
+        for file in files:
+            if file.endswith('.md'):
+                full_path = os.path.join(root, file)
+                if is_draft(full_path):
+                    draft_files.append(full_path)
+                    
+    if not draft_files:
+        print("No files with 'draft: true' found.")
+        return
+        
+    print(f"Found {len(draft_files)} draft files:")
+    for path in draft_files:
+        print(f"  - {path}")
+        
+    if args.delete:
+        print("\nDeleting files...")
+        deleted_count = 0
+        for path in draft_files:
+            try:
+                os.remove(path)
+                print(f"  Deleted: {path}")
+                deleted_count += 1
+            except Exception as e:
+                print(f"  Error deleting {path}: {e}", file=sys.stderr)
+        print(f"\nSuccessfully deleted {deleted_count} of {len(draft_files)} files.")
+    else:
+        print("\n*** DRY RUN ONLY ***")
+        print("To actually delete these files, run the script with the --delete flag:")
+        print(f"  python3 {sys.argv[0]} --delete")
+
+if __name__ == '__main__':
+    main()

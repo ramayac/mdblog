@@ -1,5 +1,7 @@
 # Dry Run Plan: Renaming `posts` to `content`
 
+> **Status:** completed on 2026-06-06 (see the log entry "renamed posts.index.json to content.index.json"). This page is kept as the historical plan that drove the rename.
+
 This document details the exact files and lines that would be modified to change the primary content directory from `posts/` to `content/` across the repository.
 
 ---
@@ -18,7 +20,7 @@ This document details the exact files and lines that would be modified to change
 
 ## 2. Configuration & Go Defaults
 
-### [config.toml](file:///home/ramayac/git/MDBlog/config.toml)
+### [config.toml](../config.toml)
 Updates the runtime directory configurations to point to `content`:
 ```diff
 - posts_dir              = "posts"
@@ -28,7 +30,7 @@ Updates the runtime directory configurations to point to `content`:
 + post_index_file        = "content/posts.index.json"
 ```
 
-### [internal/config/config.go](file:///home/ramayac/git/MDBlog/internal/config/config.go)
+### [internal/config/config.go](../internal/config/config.go)
 Updates the fallback Go configuration values if they are omitted in `config.toml`:
 ```diff
   if cfg.PostsDir == "" {
@@ -46,7 +48,7 @@ Updates the fallback Go configuration values if they are omitted in `config.toml
 
 ## 3. Developer Workflows & CLI
 
-### [Makefile](file:///home/ramayac/git/MDBlog/Makefile)
+### [Makefile](../Makefile)
 Updates Makefile targets for index compilation and CLI scaffolding:
 ```diff
 - build-index: ## Generate post metadata index (writes posts/posts.index.json)
@@ -68,7 +70,7 @@ Updates Makefile targets for index compilation and CLI scaffolding:
   	fi
 ```
 
-### [internal/blog/blog_test.go](file:///home/ramayac/git/MDBlog/internal/blog/blog_test.go)
+### [internal/blog/blog_test.go](../internal/blog/blog_test.go)
 Updates the relative lookup path in structural tests:
 ```diff
   func TestPostTraversal_RealDir(t *testing.T) {
@@ -80,7 +82,7 @@ Updates the relative lookup path in structural tests:
 
 ## 4. Docker & CI/CD Deployment
 
-### [.github/workflows/ghcr-release.yml](file:///home/ramayac/git/MDBlog/.github/workflows/ghcr-release.yml)
+### [.github/workflows/ghcr-release.yml](../.github/workflows/ghcr-release.yml)
 Updates the automated git triggers:
 ```diff
   on:
@@ -92,7 +94,7 @@ Updates the automated git triggers:
 +       - 'content/**/*.md'
 ```
 
-### [Dockerfile](file:///home/ramayac/git/MDBlog/Dockerfile)
+### [Dockerfile](../Dockerfile)
 Updates the paths copied into the production container image stage:
 ```diff
   # Copy compiled binary and content assets
@@ -102,7 +104,7 @@ Updates the paths copied into the production container image stage:
 + COPY --from=build /src/content/    /content/
 ```
 
-### [Dockerfile.debug](file:///home/ramayac/git/MDBlog/Dockerfile.debug)
+### [Dockerfile.debug](../Dockerfile.debug)
 Updates debug container copy stages:
 ```diff
 - COPY --from=build /src/posts/       /posts/
@@ -113,14 +115,14 @@ Updates debug container copy stages:
 
 ## 5. Git & Tool Configurations
 
-### [.gitignore](file:///home/ramayac/git/MDBlog/.gitignore)
+### [.gitignore](../.gitignore)
 Updates git ignores:
 ```diff
 - posts/posts.index.json
 + content/posts.index.json
 ```
 
-### [.wikirc](file:///home/ramayac/git/MDBlog/.wikirc)
+### [.wikirc](../.wikirc)
 Instructs `wiki-engine` to ignore the new content directory from wiki ingests:
 ```json
   "ignorePatterns": [
@@ -132,14 +134,14 @@ Instructs `wiki-engine` to ignore the new content directory from wiki ingests:
 
 ## 6. Wiki & Documentation
 
-### [wiki/agents.md](file:///home/ramayac/git/MDBlog/wiki/agents.md)
+### [wiki/agents.md](agents.md)
 Update directory map overview:
 ```diff
 - posts/              # All blog post content lives here
 + content/            # All blog post content lives here
 ```
 
-### [wiki/repo-map.md](file:///home/ramayac/git/MDBlog/wiki/repo-map.md)
+### [wiki/repo-map.md](repo-map.md)
 Update architectural references to files and paths from `posts/` to `content/`.
 
 ---

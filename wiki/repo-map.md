@@ -16,13 +16,13 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 ## Generated Artifacts
 
-- `posts/posts.index.json` is the build-time metadata index.
+- `content/content.index.json` is the build-time metadata index.
 - `feed.xml` is the build-time RSS feed.
 - `sitemap.xml` and `robots.txt` are build-time SEO outputs.
 
 ## Feed and SEO Artifacts
 
-- `internal/buildfeed/` builds `feed.xml` from `posts/posts.index.json`, not by re-rendering Markdown posts.
+- `internal/buildfeed/` builds `feed.xml` from `content/content.index.json`, not by re-rendering Markdown posts.
 - The RSS feed is enabled through `[feed]` config, uses `feed.base_url` for absolute links, caps output to `feed.max_items`, and writes item descriptions from the prebuilt post excerpts.
 - Runtime feed serving has two paths: `/feed.xml` serves the prebuilt XML file directly, while `/feed` renders a human-readable feed page from `blog.GetFeedPosts()`.
 - Unlike sitemap and robots, `/feed.xml` does not have a dynamic fallback when the built file is missing; it returns a not-found style error instead.
@@ -78,9 +78,10 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - Static assets are served through a narrow `/assets/*` route that rejects `..` path traversal sequences and null bytes before opening files from `AssetsFS`.
 - Root requests for `/favicon.ico` are explicitly handled by the server to serve `assets/favicon.ico` directly, preventing browsers from receiving the HTML catch-all response (index page) and reporting a corrupted file.
 - A configurable Content Security Policy is injected per request from the `[csp]` section of `config.toml`.
+- HTTP `Cache-Control` headers are driven by the `[cache]` config block (`max_age_pages` for HTML pages, `max_age_assets` for static CSS/JS/images).
 - Markdown rendering is kept in safe mode: the Goldmark configuration does not enable `html.WithUnsafe()`, so raw HTML passthrough is not enabled in post or page content.
 - Page templating uses Go `html/template`, so ordinary template values are auto-escaped by default; explicit raw HTML output is limited to trusted server-side content paths such as already-rendered Markdown and JSON-LD blocks.
-- Post and standalone page loading both include path-traversal guards before reading from `posts/` or `pages/`.
+- Post and standalone page loading both include path-traversal guards before reading from `content/` or `pages/`.
 - The production runtime is also hardened by the deployment model: the app ships as a minimal `FROM scratch` container image with no database, no mutable application state, and prebuilt content artifacts baked into the image.
 
 ## Build and Run Path
@@ -97,8 +98,9 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 ## Make Targets
 
-- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `test`, `benchmark`, `render`, `request`, and `new-post`.
+- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `lint-links`, `content-count`, `test`, `benchmark`, `render`, `request`, `new-post`, and `clean-urls`.
 - Wiki maintenance targets: `wiki-list`, `wiki-headings`, `wiki-log-tail`, `wiki-search`, `wiki-changed`, `wiki-candidates`, `wiki-lint`, and `wiki-refresh`. All targets delegate to the global `wiki-engine` CLI (`github.com/ramayac/go-wiki-engine`). Per-repo configuration lives in `.wikirc`. `wiki/` and `scripts/` are excluded from the Docker build via `.dockerignore`.
+- Operational helpers live in `bin/`: `clean-srbyte-urls`, `delete-drafts`, `find-thin-md`, and `fix-broken-links`. They are also excluded from Docker builds via `.dockerignore`.
 - Docker targets: `docker-build`, `docker-build-debug`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.
 - `help` is the default goal and prints the annotated target list from the Makefile.
 - `render` is argument-driven and supports forms like `make render random`, `make render [category] random`, and `make render filename.md`.
@@ -145,7 +147,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 - Search is handled on the main `/` route using the `q` query parameter or the presence of `search=1`.
 - `search=1` opens the standalone search page with an empty query; `q=<term>` executes the search and renders results with `templates/search.html`.
-- Runtime search uses `blog.SearchPosts()`, which depends on the prebuilt `posts/posts.index.json` metadata file.
+- Runtime search uses `blog.SearchPosts()`, which depends on the prebuilt `content/content.index.json` metadata file.
 - Search is a simple case-insensitive substring match against the concatenation of each indexed post's `title`, `excerpt`, and `tags` fields.
 - Results are sorted newest-first, paginated with `posts_per_page`, and rendered through the same `post_preview` partial used by other listing pages.
 - Search does not render full Markdown bodies or scan the filesystem for body text at request time.
@@ -154,25 +156,26 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 ## URL Resolution and Legacy Mapping
 
-- MDBlog supports both modern query-string post routes (`/post?slug=<slug>&category=<category>`) and legacy Blogger URL paths (`/<year>/<month>/<slug>` with an optional `.html` extension).
-- Legacy URL requests are resolved in `internal/blog/blog.go` using a fuzzy matching algorithm against the prebuilt `posts.index.json` post index.
+- Canonical routes are clean paths: `/content/<folder>/<slug>` for categorized posts, `/content/<slug>` for uncategorized posts, `/content/<folder>/` for category listings, and `/pages/<slug>` for standalone pages.
+- Legacy query-string routes (`/post?slug=...`, `/page?slug=...`, `/?category=...`) and legacy Blogger URL paths (`/<year>/<month>/<slug>` with an optional `.html` extension) are still accepted and are 301-redirected to their clean equivalents.
+- Legacy URL requests are resolved in `internal/blog/blog.go` using a fuzzy matching algorithm against the prebuilt `content/content.index.json` post index.
 - The fuzzy resolution applies a prefix-limited Levenshtein distance check (with a minimum string length of 10 characters and a max distance of 2) and Spanish diacritics/letter collapsing (`cleanSlug`). This matches:
   - Blogger's draft creation date vs publish date discrepancies.
   - Alphanumeric accents and spelling variations (e.g. `ó` mapping to a dash `-` and cleaning to `opinin` vs `opinion`).
   - Blogger-specific slug truncations (e.g. `ciencia-ficcion-despertando-la` matching `ciencia-ficci-n-despertando-la-imaginaci-n`).
-- Legacy routes resolve natively inline via the server handler's `renderSinglePost` helper, returning `200 OK` rather than performing a redirect.
+- Legacy routes resolve in the server handler and are issued a `301 Moved Permanently` redirect to their clean `/content/...` equivalent (rather than being served inline with `200 OK`).
 - Legacy search tag label requests (e.g. `/search/label/<tag>`) are intercepted by the server and redirected permanently to the native search page (e.g. `/?q=<tag>&search=true`).
 
 ## Link Validation Linter
 
 - MDBlog includes a self-contained internal markdown link linter in `internal/blog/linter.go`.
-- The linter scans all Markdown files in `posts/` and `pages/` to validate that all root-relative paths, query-string post/page links, asset paths, and legacy URL patterns resolve correctly to active resources.
+- The linter scans all Markdown files in `content/` and `pages/` to validate that all root-relative paths, query-string post/page links, asset paths, and legacy URL patterns resolve correctly to active resources.
 - The linter is integrated as a validation target in the `Makefile` (`make lint-links` or `make lint`) and runs as part of the GitHub Actions CI pipeline (`.github/workflows/ci.yml`) on every pull request and push to `master`.
 - The linter ignores external URLs, protocol-relative links (starting with `//`), and allows legacy search label paths (`/search/label/...`).
 
 ## Post Structure
 
-- A post is a Markdown file stored under `posts/`, usually inside a category subfolder such as `posts/personal/slug.md`.
+- A post is a Markdown file stored under `content/`, usually inside a category subfolder such as `content/writings/personal/slug.md`.
 - The typical filename convention is `YYYY-MM-DD-slug-with-hyphens.md`, but names without the date prefix (e.g. `mdblog.md`) are supported for generating clean URL slugs, provided the `date` front-matter field is set explicitly.
 - Post files may begin with a simple YAML-style front matter block delimited by `---` lines, followed by the Markdown body.
 - The parser recognizes these front matter keys: `title`, `date`, `author`, `tags`, `description`, and `js`. Unknown keys are preserved in an `Extra` map but are not part of the main rendering contract.
@@ -198,9 +201,9 @@ Markdown body here.
 
 ## Repo-Specific Exclusions
 
-- Ignore `posts/` during routine wiki ingestion and linting.
+- Ignore `content/` during routine wiki ingestion and linting.
 - Reason: it is a large body of user-authored content, not the primary architecture surface.
-- Exception: read `posts/` only when the user explicitly asks about post content, post rendering behavior, or content-driven bugs.
+- Exception: read `content/` only when the user explicitly asks about post content, post rendering behavior, or content-driven bugs.
 
 ## Wiki-Relevant Facts
 

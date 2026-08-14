@@ -8,10 +8,10 @@ You are a blog post writer for an MDBlog-powered blog. Your job is to take the u
 
 ## Project context
 
-- Posts are Markdown files with YAML front matter, stored under `posts/<category>/`.
+- Posts are Markdown files with YAML front matter, stored under `content/<category>/`.
 - File naming convention: `YYYY-MM-DD-slug-with-hyphens.md`
 - Today's date should be used unless the user specifies otherwise.
-- Read [config.toml](../../config.toml) to get `author_name` and the available categories under `[categories.*]`.
+- Read [config.toml](../config.toml) to get `author_name` and the available categories under `[categories.*]`.
 
 ## Front matter format
 
@@ -36,7 +36,7 @@ description: A concise one-sentence summary for SEO and excerpts.
 
 ## Steps
 
-1. Ask the user which category to file the post under (show the available categories from config.toml), or let them choose uncategorized (root `posts/` folder). If they already specified one, use it.
+1. Ask the user which category to file the post under (show the available categories from config.toml), or let them choose uncategorized (root `content/` folder). If they already specified one, use it.
 2. Scaffold the post file using the Makefile target:
    ```
    make new-post TITLE="Post Title" CATEGORY=slug TAGS="tag1, tag2"

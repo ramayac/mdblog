@@ -11,7 +11,7 @@ The wiki is the working memory for repo analysis, architectural summaries, opera
 - Update the wiki when the repo meaningfully changes.
 - Append dated entries to `log.md` for ingest, query, and lint activity.
 - Treat repo source files as the underlying evidence.
-- Ignore `posts/` during routine wiki maintenance unless the user explicitly asks about post content.
+- Ignore `content/` during routine wiki maintenance unless the user explicitly asks about post content.
 
 ## Required Files
 

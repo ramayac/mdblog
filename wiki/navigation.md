@@ -1,5 +1,7 @@
 # Parent/Sub-category Navigation & Structure
 
+> **Status:** historical record of the `feat/new-menu` work (merged). Paths below predate the `posts/` → `content/` rename — current content lives under `content/writings/`, `content/projects/`, and `content/guides/`.
+
 This document records the architectural decisions, design choices, and implementation details for the parent and sub-category navigation structure implemented on the `feat/new-menu` branch.
 
 ## Requirements & Scope

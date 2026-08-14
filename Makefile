@@ -8,11 +8,12 @@ COMMIT  := $(shell git log -1 --format="%h" 2>/dev/null || echo unknown)
 DATE    := $(shell git log -1 --format="%ad" --date=short 2>/dev/null || echo unknown)
 _TAG    := $(shell git describe --tags --abbrev=0 2>/dev/null || true)
 VERSION := $(if $(_TAG),$(_TAG),$(COMMIT))
-LDFLAGS := -s -w -X main.version=$(VERSION) -X main.commit=$(COMMIT) -X main.date=$(DATE)
+LDFLAGS := -s -w -funcalign 1 -X main.version=$(VERSION) -X main.commit=$(COMMIT) -X main.date=$(DATE)
+GOBUILDFLAGS := -trimpath -buildvcs=false
 
 .DEFAULT_GOAL := help
 
-.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config test new-post render request \
+.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config lint-links content-count test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
         docker-build docker-build-debug docker-run docker-run-release \
         docker-stop docker-push docker-pull clean-urls benchmark
@@ -25,17 +26,17 @@ help: ## Show available targets
 
 serve: ## Start local HTTP server (HOST=localhost PORT=8080)
 	@echo "Starting dev server at http://$(HOST):$(PORT)"
-	PORT=$(PORT) go run -ldflags "$(LDFLAGS)" ./cmd/mdblog serve
+	PORT=$(PORT) go run -ldflags "$(LDFLAGS)" $(GOBUILDFLAGS) ./cmd/mdblog serve
 
 build: ## Compile production binaries to bin/
 	@mkdir -p bin
-	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o bin/mdblog   ./cmd/mdblog
-	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o bin/lambda   ./cmd/lambda
+	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" $(GOBUILDFLAGS) -o bin/mdblog   ./cmd/mdblog
+	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" $(GOBUILDFLAGS) -o bin/lambda   ./cmd/lambda
 	@echo "Built: bin/mdblog  bin/lambda"
 
 build-embed: ## Compile embed-variant Lambda binary to bin/lambda-embed
 	@mkdir -p bin
-	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" -o bin/lambda-embed ./cmd/lambda-embed
+	CGO_ENABLED=0 go build -ldflags "$(LDFLAGS)" $(GOBUILDFLAGS) -o bin/lambda-embed ./cmd/lambda-embed
 	@echo "Built: bin/lambda-embed (templates + assets embedded)"
 
 build-index: ## Generate post metadata index (writes content/content.index.json)
@@ -63,7 +64,7 @@ content-count: ## Show a treeview directory listing of markdown file counts
 	go run ./cmd/mdblog content-count
 
 clean-urls: ## Replace absolute srbyte.com URLs with relative root paths in markdown files
-	@python3 scripts/clean-urls.py
+	@python3 bin/clean-srbyte-urls
 
 test: build-index build-feed build-sitemap ## Run the Go test suite
 	go test ./...

@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+import os
+import sys
+
+REPLACEMENTS = {
+    "/2009/06/usar-firefox-35-se-ha-dicho.html": "/2009/06/a-usar-firefox-3-5-se-ha-dicho",
+    "/2010/06/que-es-la-demoscene.html": "/2010/06/qu-es-la-demoscene",
+    "/2008/07/el-guiness-record-de-firefox-3.html": "/2008/07/el-guinness-record-de-firefox-3",
+    "/2011/04/que-es-google-1.html": "/2011/04/qu-es-google-1",
+    "/2009/11/opinion-sobre-ubuntu-910.html": "/2009/11/opini-n-sobre-ubuntu-9-10",
+    "/search/label/humble": "/content/writings/srbyte/srbyte-humble-voxatron-bundle",
+    "Social%20Media%20in%20Plain%20English": "https://www.youtube.com/watch?v=MpIOClX1jPE",
+    "/2011/01/como-se-verian-los-planetas.html": "/2011/01/c-mo-se-ver-an-los-planetas",
+    "/2009/07/anecdotas-de-virtualizacion.html": "/2009/07/an-cdotas-de-virtualizaci-n",
+    "/2008/08/el-rio-de-informacion-reflexion.html": "/2008/08/el-r-o-de-informaci-n-reflexi-n",
+    "/2008/05/medios-sociales-sitios-web-lo-20.html": "/2008/05/medios-sociales-sitios-web-a-lo-2-0",
+    "/2009/02/redaccion-y-estilo.html": "/2009/02/redacci-n-y-estilo",
+    "](/%20/)": "](#)",
+    "/2009/03/tecnicas-de-redaccion.html": "/2009/03/t-cnicas-de-redacci-n",
+    "/2010/03/tildacion-y-acentuacion-i.html": "/2010/03/tildaci-n-y-acentuaci-n-i",
+}
+
+def fix_file(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+            
+        original = content
+        for old, new in REPLACEMENTS.items():
+            content = content.replace(old, new)
+            
+        if content != original:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(content)
+            return True
+    except Exception as e:
+        print(f"Error processing {file_path}: {e}", file=sys.stderr)
+    return False
+
+def main():
+    target_dir = "posts/writings/srbyte"
+    if not os.path.isdir(target_dir):
+        print(f"Error: Directory '{target_dir}' not found.", file=sys.stderr)
+        sys.exit(1)
+        
+    print(f"Fixing remaining broken links in '{target_dir}'...")
+    fixed_count = 0
+    for root, _, files in os.walk(target_dir):
+        for file in files:
+            if file.endswith('.md'):
+                full_path = os.path.join(root, file)
+                if fix_file(full_path):
+                    print(f"  Fixed links in: {full_path}")
+                    fixed_count += 1
+                    
+    print(f"\nCompleted. Fixed links in {fixed_count} files.")
+
+if __name__ == '__main__':
+    main()

@@ -20,7 +20,7 @@ Benchmarks under Go 1.26 show that MDBlog achieves:
 
 ## 2. Benchmarks
 
-Benchmarks are implemented in [internal/blog/performance_test.go](file:///home/ramayac/git/MDBlog/internal/blog/performance_test.go).
+Benchmarks are implemented in [internal/blog/performance_test.go](../internal/blog/performance_test.go).
 
 ### Test A: Raw Index JSON Parsing
 Measures the duration of reading the `content.index.json` from disk and parsing it into Go structs using `json.Unmarshal` over 500 sequential runs.

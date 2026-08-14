@@ -41,11 +41,11 @@ For local development, see [Running Locally](#running-locally) below.
 Requires **Go 1.26+** and `make`. No other runtime dependencies.
 
 ```bash
-make build-index     # Generate post metadata index (posts/posts.index.json)
+make build-index     # Generate post metadata index (content/content.index.json)
 make build-feed      # Generate RSS feed (feed.xml — requires build-index first)
 make build-sitemap   # Generate sitemap.xml and robots.txt (requires build-index first)
 make serve           # Start HTTP dev server at http://localhost:8080
-make lint            # Run go vet on all packages
+make lint            # Run config check, link linter, and go vet
 make test            # Build index + feed + sitemap, then run the Go test suite
 make benchmark       # Run the HTTP performance benchmark using ApacheBench
 make render random   # Render a random post to a standalone HTML file
@@ -263,7 +263,7 @@ Register categories in `config.toml`:
 [categories.my-category]
 blog_name      = "Display Name"
 header_content = "Subtitle."
-folder         = "my-category"   # subfolder under posts/
+folder         = "my-category"   # subfolder under content/
 index          = true            # include in legacy aggregated index
 menu           = true            # show in nav bar
 ```
@@ -272,23 +272,23 @@ Then add `.md` files to `content/my-category/`.
 
 ## Post Metadata Index
 
-Listing and pagination pages are powered by a **pre-built metadata index** (`posts/posts.index.json`) that avoids scanning and parsing all Markdown files on every request.
+Listing and pagination pages are powered by a **pre-built metadata index** (`content/content.index.json`) that avoids scanning and parsing all Markdown files on every request.
 
 ### How it works
 
-1. `make build-index` (`internal/buildindex.Build()`) scans all posts, extracts front-matter metadata, and writes `posts/posts.index.json`. **Goldmark is never called** — full post bodies are not rendered during this step.
+1. `make build-index` (`internal/buildindex.Build()`) scans all posts, extracts front-matter metadata, and writes `content/content.index.json`. **Goldmark is never called** — full post bodies are not rendered during this step.
 2. `make docker-build` runs `make build-index` automatically inside the Docker build stage, so the index is baked into the image.
 3. At request time, `blog.GetPosts()` reads the index for filtering and pagination, and `blog.SearchPosts()` uses it for full-text search — no `.md` files are opened.
 4. Individual post pages still parse the full Markdown body, but only for the single requested post. The index is also used as a fallback to resolve a post's parent category when it is missing from the URL.
 
 ### Fallback
 
-If `posts/posts.index.json` is absent, the blog falls back to a live filesystem scan with a performance warning logged. Search and slug-only URL resolution will not work without the index.
+If `content/content.index.json` is absent, the blog falls back to a live filesystem scan with a performance warning logged. Search and slug-only URL resolution will not work without the index.
 
 ### Keeping the index fresh
 
 ```bash
-make build-index   # regenerate posts/posts.index.json
+make build-index   # regenerate content/content.index.json
 ```
 
 ## Configuration
@@ -329,7 +329,7 @@ internal/
 templates/          # Go html/template files (*.html)
 assets/css/         # CSS themes
 assets/js/          # Per-post JavaScript files
-posts/              # All blog post content (organized in category subfolders)
+content/            # All blog post content (organized in category subfolders)
 pages/              # Standalone pages (about.md, etc.) — no category, no date
 embed.go            # go:embed declarations
 config.toml         # Runtime configuration

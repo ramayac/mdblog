@@ -1,5 +1,23 @@
 # Wiki Log
 
+## [2026-08-13] lint | full wiki + prompts drift repair after audit
+
+- Repaired 54 stale `posts/` references across wiki pages and prompts (the rename to `content/` shipped in June 2026).
+- Rewrote `prompts/new-page.md` to use the native `pages/` system instead of the obsolete "no pages system" assumption.
+- Fixed 34 broken `../../` links in `prompts/*.md` (the prompts folder moved from `.github/prompts/` to `prompts/`); pointed `AGENTS.md`, `wiki/index.md`, and `wiki/agents.md` at `prompts/`.
+- Documented the previously unlogged `[cache]`, `blog_description`, and `default_meta_description` config keys in `wiki/agents.md` and `wiki/repo-map.md`.
+- Corrected the legacy-URL section in `wiki/repo-map.md`: legacy paths now 301-redirect to clean `/content/...` routes instead of being served inline with 200.
+- Created `wiki/slugs.md` as the implementation record for clean slugs; marked `clean-slugs-plan.md` shipped, `posts-to-content-dryrun.md` completed, `embedded-path-plan.md` partially superseded, and `navigation.md` historical.
+- Converted machine-specific `file://` links in `performance.md` and `posts-to-content-dryrun.md` to relative links.
+- Fixed `make clean-urls` (now runs `bin/clean-srbyte-urls`) and updated the script's hardcoded path to `content/writings/srbyte`; documented the `bin/` maintenance helpers.
+- Updated the `phases.md` status board (Phase 9 helper description; Phase 11 completed via `go-wiki-engine`).
+
+## [2026-07-18] decision | investigated binary size reduction and rejected TinyGo
+
+- Evaluated Go compiler/linker flags (`-s -w`, `-funcalign 1`, `-trimpath`, `-buildvcs=false`) achieving 2.1% reduction (9.6→9.4 MB) for `mdblog`.
+- Evaluated TinyGo 0.41.1 as an alternative: produces 1.6 MB binary (83% smaller) but `html/template`, `encoding/json`, and `compress/gzip` are missing from its stdlib, blocking the server, build tools, and compression.
+- Decision: reject TinyGo; adopt gc flags only. Full analysis in `wiki/binary-size-investigation.md`.
+
 ## [2026-06-06] ingest | updated publication flow to Write → Commit → Publish and documented Go 1.26 benchmarks
 
 - Updated the core repository publishing tagline to "Write → Commit → Publish" across `README.md`, `wiki/agents.md`, and `wiki/repo-map.md`.

@@ -9,4 +9,4 @@ name: "Wiki Maintainer"
 - Update the wiki incrementally instead of rewriting it from scratch.
 - Keep wiki files plain Markdown with stable filenames and grep-friendly headings.
 - Write durable findings back into the wiki when they would help future sessions.
-- Ignore `posts/` during routine wiki maintenance unless the user explicitly asks about post content or content-driven behavior.
+- Ignore `content/` during routine wiki maintenance unless the user explicitly asks about post content or content-driven behavior.

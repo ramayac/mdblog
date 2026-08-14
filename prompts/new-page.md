@@ -4,46 +4,40 @@ agent: "agent"
 argument-hint: "What kind of page? (e.g. About, Now, Uses, Projects...)"
 ---
 
-You are creating a static/standalone page for an MDBlog blog. MDBlog doesn't have a built-in "pages" system separate from posts, but standalone content pages can be implemented as regular posts filed under a dedicated category.
+You are creating a standalone page for an MDBlog blog.
 
 ## Project context
 
-- Read [config.toml](../../config.toml) to get `author_name`, `blog_name`, and existing categories.
-- Posts live under `posts/<category>/` as Markdown files with YAML front matter.
-- The blog supports an optional `posts/index.md` file that renders as a blurb on the landing page (above category cards). This is the simplest way to add a homepage introduction.
+- Read [config.toml](../config.toml) for `author_name`, `blog_name`, and `pages_dir` (default `pages`).
+- Standalone pages are Markdown files under `pages/` (e.g. `pages/about.md`), served at the clean route `/pages/<slug>`. The legacy route `/page?slug=<slug>` still works and 301-redirects to the clean route.
+- Pages use the same front matter as posts (title, date, author, description) and render with `templates/page.html` — no category, tags, or breadcrumbs.
+- Pages are **not** indexed by `make build-index`, not in the RSS feed, and not in search. Add nav visibility with a `[[menu_links]]` entry in [config.toml](../config.toml).
 
-## Strategy for static pages
-
-There are two approaches depending on what the user wants:
-
-### Option A: Landing page blurb (`posts/index.md`)
-If the user wants an "about" section on the homepage, create or update `posts/index.md`. This file has **no front matter** — it's pure Markdown rendered above the category cards.
-
-### Option B: Dedicated page as a post
-For standalone pages (About, Now, Uses, Colophon, etc.), create a regular post. Consider:
-- Filing it under an existing category, or suggesting a new `pages` or `guides` category.
-- Using a date-less or backdated filename if the page is evergreen.
-- Adding a `[[menu_links]]` entry in `config.toml` so it appears in the nav bar.
-
-## Front matter for standalone pages
+## Front matter
 
 ```yaml
 ---
 title: About
 date: YYYY-MM-DD
 author: <author_name from config.toml>
-tags:
-description: A short description of this page.
+description: A short description of the page.
 ---
 ```
 
 ## Steps
 
 1. Ask the user what kind of page they want (About, Now, Uses, etc.) if not already specified.
-2. Ask where it should live — homepage blurb (`posts/index.md`) or standalone post.
-3. If standalone: pick or create a category, write the Markdown file, and offer to add a `[[menu_links]]` entry to [config.toml](../../config.toml) for nav bar visibility.
-4. Draft the page content based on the user's input, using a clean structure appropriate for the page type.
-5. Remind the user to run `make build-index` after creating the file.
+2. Create `pages/<slug>.md` with the front matter above and the Markdown body. Use a lowercase, hyphenated slug.
+3. If the page should appear in the nav bar, add a `[[menu_links]]` entry to [config.toml](../config.toml), e.g.:
+
+   ```toml
+   [[menu_links]]
+   label = "About 💡"
+   url   = "/pages/about"
+   ```
+
+4. Verify locally with `make serve` at `/pages/<slug>`.
+5. No index rebuild is needed — `make build-index` indexes posts only.
 
 ## Page type templates
 
@@ -51,3 +45,7 @@ description: A short description of this page.
 **Now page** (nownownow.com style): What you're focused on right now — projects, reading, interests.
 **Uses page:** Hardware, software, tools, and setup you use daily.
 **Colophon:** How the blog is built, what tech stack powers it, credits.
+
+## Landing page blurb
+
+For a short homepage introduction instead of a standalone page, create `content/index.md` (no front matter, pure Markdown) — it renders above the category cards.

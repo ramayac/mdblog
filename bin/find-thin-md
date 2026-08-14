@@ -1,0 +1,190 @@
+#!/usr/bin/env bash
+# find-thin-md — find .md files with little body content (excluding frontmatter)
+#
+# Usage:
+#   ./bin/find-thin-md [--min-lines N] [--min-chars N] [--max-lines N] [--dir PATH]
+#
+# Defaults: --min-lines 0 --max-lines 50 --min-chars 0
+# Use --min-lines 3 to find files with less than 3 body lines (likely empty)
+# Use --max-lines 10 to cap the report at files with at most 10 body lines
+# Use --min-chars 100 to require at least 100 non-whitespace characters
+
+set -euo pipefail
+
+MIN_LINES=0
+MAX_LINES=50
+MIN_CHARS=0
+SEARCH_DIR="."
+STUB_FLAG=false
+SUMMARY=false
+
+usage() {
+    sed -n '2,/^$/p' "$0" | head -n -1
+    echo ""
+    echo "Options:"
+    echo "  --min-lines N    Minimum body lines (default: 0)"
+    echo "  --max-lines N    Maximum body lines (default: 50)"
+    echo "  --min-chars N    Minimum non-whitespace body chars (default: 0)"
+    echo "  --stubs-only     Only show files with placeholder/stub text"
+    echo "  --summary        Print a histogram summary instead of file list"
+    echo "  --dir PATH       Search directory (default: .)"
+    exit 0
+}
+
+while [[ $# -gt 0 ]]; do
+    case "$1" in
+        --min-lines) MIN_LINES="$2"; shift 2 ;;
+        --max-lines) MAX_LINES="$2"; shift 2 ;;
+        --min-chars) MIN_CHARS="$2"; shift 2 ;;
+        --stubs-only) STUB_FLAG=true; shift ;;
+        --summary) SUMMARY=true; shift ;;
+        --dir) SEARCH_DIR="$2"; shift 2 ;;
+        -h|--help) usage ;;
+        *) echo "Unknown: $1"; usage ;;
+    esac
+done
+
+# Temporary file for results
+TMP=$(mktemp)
+trap 'rm -f "$TMP"' EXIT
+
+# Stub markers — phrases that suggest placeholder/unfinished content
+STUB_PATTERNS=(
+    "Type the explanation"
+    "insert some images"
+    "write your content"
+    "TODO"
+    "FIXME"
+    "placeholder"
+    "Lorem ipsum"
+    "your content here"
+    "add content"
+    "coming soon"
+    "under construction"
+)
+
+# Link-dump threshold: if >= this fraction of body lines are bare URLs, flag as stub
+LINK_DUMP_RATIO=0.6
+
+count_body() {
+    local file="$1"
+    local in_frontmatter=0
+    local frontmatter_done=0
+    local body_lines=0
+    local body_chars=0
+    local stub_hit=""
+    local url_lines=0
+    local non_blank_lines=0
+
+    while IFS= read -r line; do
+        # Track frontmatter (--- delimiters)
+        if [[ "$line" =~ ^---$ ]]; then
+            if [[ $frontmatter_done -eq 0 ]]; then
+                if [[ $in_frontmatter -eq 0 ]]; then
+                    in_frontmatter=1
+                else
+                    in_frontmatter=0
+                    frontmatter_done=1
+                fi
+            fi
+            continue
+        fi
+
+        # Skip lines inside frontmatter
+        if [[ $in_frontmatter -eq 1 ]]; then
+            continue
+        fi
+
+        # Body content
+        body_lines=$((body_lines + 1))
+        # Count non-whitespace characters
+        local stripped
+        stripped=$(echo "$line" | sed 's/[[:space:]]//g')
+        body_chars=$((body_chars + ${#stripped}))
+
+        # Track non-blank lines and URL-only lines for link-dump detection
+        if [[ -n "$stripped" ]]; then
+            non_blank_lines=$((non_blank_lines + 1))
+            if [[ "$stripped" =~ ^https?:// ]]; then
+                url_lines=$((url_lines + 1))
+            fi
+        fi
+
+        # Check for stub patterns
+        if [[ $STUB_FLAG == true ]]; then
+            for pat in "${STUB_PATTERNS[@]}"; do
+                if echo "$line" | grep -qi "$pat"; then
+                    stub_hit="$pat"
+                    break 2
+                fi
+            done
+        fi
+    done < "$file"
+
+    # Link-dump detection: if enough non-blank lines are bare URLs, it's a draft
+    if [[ $STUB_FLAG == true && -z "$stub_hit" && $non_blank_lines -gt 1 ]]; then
+        local ratio
+        ratio=$(awk "BEGIN { printf \"%.2f\", $url_lines / $non_blank_lines }")
+        if awk "BEGIN { exit !($ratio >= $LINK_DUMP_RATIO) }"; then
+            stub_hit="link-dump ($url_lines/$non_blank_lines URLs)"
+        fi
+    fi
+
+    # Print: body_lines|body_chars|stub_hit|filepath
+    echo "${body_lines}|${body_chars}|${stub_hit}|${file}"
+}
+
+export -f count_body
+export STUB_FLAG
+
+# Process all .md files
+while IFS= read -r -d '' file; do
+    count_body "$file"
+done < <(find "$SEARCH_DIR" -name "*.md" -type f -print0) | sort -t'|' -k1 -n > "$TMP"
+
+# Filter and display
+if [[ $SUMMARY == true ]]; then
+    echo "=== Content size histogram (body lines, excluding frontmatter) ==="
+    echo ""
+    awk -F'|' '
+    {
+        lines = $1 + 0
+        if (lines <= 2)       bucket = "0-2"
+        else if (lines <= 5)  bucket = "3-5"
+        else if (lines <= 10) bucket = "6-10"
+        else if (lines <= 20) bucket = "11-20"
+        else if (lines <= 50) bucket = "21-50"
+        else if (lines <= 100) bucket = "51-100"
+        else                  bucket = "101+"
+        counts[bucket]++
+    }
+    END {
+        for (b in counts) printf "  %8s lines: %3d files\n", b, counts[b]
+    }' "$TMP" | sort -t'-' -k1 -n
+    echo ""
+    total=$(wc -l < "$TMP")
+    echo "Total: $total .md files"
+else
+    printed=0
+    while IFS='|' read -r lines chars stub file; do
+        # Apply filters
+        if [[ $lines -lt $MIN_LINES ]]; then continue; fi
+        if [[ $lines -gt $MAX_LINES ]]; then continue; fi
+        if [[ $chars -lt $MIN_CHARS ]]; then continue; fi
+        if [[ $STUB_FLAG == true && -z "$stub" ]]; then continue; fi
+
+        stub_marker=""
+        if [[ -n "$stub" ]]; then
+            stub_marker=" [STUB: $stub]"
+        fi
+
+        printf "%4d lines | %5d chars | %s%s\n" "$lines" "$chars" "$file" "$stub_marker"
+        printed=$((printed + 1))
+    done < "$TMP"
+
+    echo ""
+    echo "---"
+    echo "Shown: $printed files (filter: lines $MIN_LINES-$MAX_LINES, chars >= $MIN_CHARS)"
+    total=$(wc -l < "$TMP")
+    echo "Total .md files in $SEARCH_DIR: $total"
+fi
