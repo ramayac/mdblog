@@ -49,6 +49,7 @@ priority_post        = "0.6"
 label = "Writings"
 item = [
     { category = "personal", order = 1 },
+    { category = "work", order = 2 },
     { category = "substack", order = 4 },
     { category = "unalistaaparte", order = 3 },
     { category = "srbyte", order = 5 }
@@ -72,6 +73,12 @@ url   = "/page?slug=about"
 blog_name      = "Personal 🏠"
 header_content = "Personal Thoughts and Musings."
 folder         = "writings/personal"
+index          = true
+
+[categories.work]
+blog_name      = "Work 💼"
+header_content = "Thoughts on software development and engineering."
+folder         = "writings/work"
 index          = true
 
 [categories.substack]
