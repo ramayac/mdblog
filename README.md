@@ -88,7 +88,7 @@ MDBlog includes GitHub Actions for automated deployment. Pushing any `.md` file 
 
 There is no file-based cache. The container filesystem is read-only; the pre-built JSON index is baked into the image.
 
-**Recommended caching strategy:** place **CloudFront** in front of the Lambda function. Since posts change only on redeploy, a CloudFront TTL of hours or days is safe. Invalidate the distribution after each `make docker-push`.
+**Recommended caching strategy:** (big todo!) place **CloudFront** in front of the Lambda function. Since posts change only on redeploy, a CloudFront TTL of hours or days is safe. Invalidate the distribution after each `make docker-push`.
 
 ## Creating a New Post
 
@@ -113,7 +113,7 @@ description: Optional meta description
 js: optional-script.js   # loaded from assets/js/
 ---
 
-Your markdown content here (GFM + footnotes).
+Your markdown content here.
 ```
 
 ## Navigation Menu
