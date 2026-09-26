@@ -347,7 +347,7 @@ button,
 }
 
 .post-excerpt {
-    font-family: var(--body-font);
+    font-family: var(--ui-font);
     font-size: 0.95rem;
     line-height: 1.65;
     color: var(--color-text-light);

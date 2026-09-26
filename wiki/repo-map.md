@@ -72,6 +72,18 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - Theme switching between light and dark modes is client-side: `layout.html` stores the selected mode in `localStorage` under `theme-mode`, sets `data-theme` on the root element, and each theme file defines light variables, explicit `:root[data-theme="dark"]` overrides, plus a `prefers-color-scheme: dark` fallback when no explicit choice has been stored.
 - This means MDBlog chooses one CSS file at runtime, and that CSS file internally handles both the visual design and the light/dark variant behavior.
 
+## Typography Design Decision
+
+- The site uses two typography modes by design.
+- UI surfaces use `--ui-font` (system sans-serif): menu, footer, page and card titles, headings, meta lines, tags, and listing card text.
+- Long-form reading prose uses `--body-font` (Georgia serif): paragraphs, lists, and blockquotes inside `.post-content`.
+- `body` sets `font-family: var(--body-font)`, so every element inherits serif unless a rule overrides it.
+- `.post-content` deliberately declares no `font-family`, so post prose stays serif (the "editorial" reading mode).
+- Headings inside posts (`.post-content h1` to `h4`) use `--ui-font`, so headings are sans even inside serif prose.
+- Listing card text is sans-serif: both `.category-card p` and `.post-excerpt` use `--ui-font`. The `.post-excerpt` rule changed on 2026-09-26 to match category card text (commit `9da248f`).
+- Code and code blocks use `--mono-font`.
+- Rationale: sans for UI and scanning, serif for long reading. Keep the two modes consistent when adding new components.
+
 ## Compression and Security
 
 - HTML and feed responses can be gzip-compressed when the request advertises `Accept-Encoding: gzip`, but the server intentionally skips that step on AWS Lambda because API Gateway or CloudFront is expected to handle compression there.
