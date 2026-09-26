@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-09-26] decision | documented typography design decision
+
+- Added a "Typography Design Decision" section to `wiki/repo-map.md`.
+- Recorded the two-mode typography rule: `--ui-font` (sans-serif) for UI surfaces and listing cards, `--body-font` (Georgia serif) for long-form reading prose inside `.post-content`.
+- Noted that `.post-excerpt` changed to `--ui-font` (commit `9da248f`) so listing card text matches `.category-card p`.
+
 ## [2026-08-13] lint | full wiki + prompts drift repair after audit
 
 - Repaired 54 stale `posts/` references across wiki pages and prompts (the rename to `content/` shipped in June 2026).
