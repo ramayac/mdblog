@@ -623,3 +623,73 @@ func TestCSSVersionAndPerPostJSFromAssetsFS(t *testing.T) {
 		t.Error("expected traversal path to be rejected")
 	}
 }
+
+func TestLegacyRedirects(t *testing.T) {
+	h := testSetup(t)
+	cases := []struct {
+		path     string
+		wantCode int
+		wantLoc  string
+	}{
+		{"/?category=srbyte", http.StatusMovedPermanently, "/content/srbyte/"},
+		{"/?category=srbyte&page=2", http.StatusMovedPermanently, "/content/srbyte/?page=2"},
+		{"/page?slug=about", http.StatusMovedPermanently, "/pages/about"},
+		{"/page", http.StatusFound, "/"},
+		{"/post?slug=linux-commands&category=srbyte", http.StatusMovedPermanently, "/content/srbyte/linux-commands"},
+		{"/post?slug=linux-commands", http.StatusMovedPermanently, "/content/srbyte/linux-commands"},
+		{"/post", http.StatusFound, "/"},
+		{"/search/label/linux", http.StatusMovedPermanently, "/?q=linux&search=true"},
+	}
+	for _, tc := range cases {
+		w := get(h, tc.path)
+		if w.Code != tc.wantCode {
+			t.Errorf("GET %s: status = %d, want %d", tc.path, w.Code, tc.wantCode)
+		}
+		if loc := w.Header().Get("Location"); loc != tc.wantLoc {
+			t.Errorf("GET %s: Location = %q, want %q", tc.path, loc, tc.wantLoc)
+		}
+	}
+}
+
+func TestPostETagAnd304(t *testing.T) {
+	h := testSetup(t)
+	path := "/content/srbyte/linux-commands"
+
+	w1 := get(h, path)
+	if w1.Code != http.StatusOK {
+		t.Fatalf("first GET status = %d, want 200", w1.Code)
+	}
+	etag := w1.Header().Get("ETag")
+	if etag == "" {
+		t.Fatal("expected ETag header on post response")
+	}
+
+	req := httptest.NewRequest(http.MethodGet, path, nil)
+	req.Header.Set("If-None-Match", etag)
+	w2 := httptest.NewRecorder()
+	h.ServeHTTP(w2, req)
+	if w2.Code != http.StatusNotModified {
+		t.Errorf("conditional GET status = %d, want 304", w2.Code)
+	}
+}
+
+func TestNewWithOptionsInjectedFS(t *testing.T) {
+	h := testSetup(t)
+	injected := NewWithOptions(h.cfg, h.b, Options{
+		TemplateFS: os.DirFS("../../templates"),
+		AssetsFS: fstest.MapFS{
+			"css/default.style.css": &fstest.MapFile{
+				Data:    []byte("body{color:red}"),
+				Mode:    0644,
+				ModTime: time.Unix(1700000000, 0),
+			},
+		},
+	})
+	w := get(injected, "/assets/css/default.style.css")
+	if w.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w.Code)
+	}
+	if !strings.Contains(w.Body.String(), "color:red") {
+		t.Errorf("expected injected asset body, got %q", w.Body.String())
+	}
+}
