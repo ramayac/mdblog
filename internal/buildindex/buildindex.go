@@ -30,8 +30,16 @@ type IndexPost struct {
 }
 
 var (
-	slugCleanup = regexp.MustCompile(`[^a-z0-9]+`)
-	datePrefix  = regexp.MustCompile(`^\d{4}-\d{2}-\d{2}-`)
+	slugCleanup      = regexp.MustCompile(`[^a-z0-9]+`)
+	datePrefix       = regexp.MustCompile(`^\d{4}-\d{2}-\d{2}-`)
+	reFencedCode     = regexp.MustCompile("(?s)```[\\s\\S]*?```")
+	reInlineCode     = regexp.MustCompile("`[^`]+`")
+	reHeading        = regexp.MustCompile(`(?m)^#{1,6}\s+`)
+	reImage          = regexp.MustCompile(`!\[[^\]]*\]\([^\)]+\)`)
+	reLink           = regexp.MustCompile(`\[([^\]]+)\]\([^\)]+\)`)
+	reBoldItalicStar = regexp.MustCompile(`\*{1,2}([^*]+)\*{1,2}`)
+	reBoldItalicUnd  = regexp.MustCompile(`_{1,2}([^_]+)_{1,2}`)
+	reWhitespace     = regexp.MustCompile(`\s+`)
 )
 
 // Build scans all post directories, extracts metadata, and writes
@@ -65,9 +73,7 @@ func Build(cfg *config.Config) error {
 
 	// Sort by date descending (newest first) — pre-sorted so runtime skips sorting
 	sort.Slice(entries, func(i, j int) bool {
-		ti, _ := time.Parse("2006-01-02", entries[i].Date)
-		tj, _ := time.Parse("2006-01-02", entries[j].Date)
-		return tj.Before(ti)
+		return entries[i].Date > entries[j].Date
 	})
 
 	// Atomic write: tmp → rename
@@ -191,21 +197,14 @@ func titleFromFilename(filename string) string {
 
 // rawMarkdownExcerpt strips Markdown syntax to produce a plain-text excerpt.
 func rawMarkdownExcerpt(raw string, length int) string {
-	// Strip fenced code blocks
-	text := regexp.MustCompile("(?s)```[\\s\\S]*?```").ReplaceAllString(raw, "")
-	// Strip inline code
-	text = regexp.MustCompile("`[^`]+`").ReplaceAllString(text, "")
-	// Strip headings
-	text = regexp.MustCompile(`(?m)^#{1,6}\s+`).ReplaceAllString(text, "")
-	// Strip images
-	text = regexp.MustCompile(`!\[[^\]]*\]\([^\)]+\)`).ReplaceAllString(text, "")
-	// Strip links (keep label)
-	text = regexp.MustCompile(`\[([^\]]+)\]\([^\)]+\)`).ReplaceAllString(text, "$1")
-	// Strip bold/italic
-	text = regexp.MustCompile(`\*{1,2}([^*]+)\*{1,2}`).ReplaceAllString(text, "$1")
-	text = regexp.MustCompile(`_{1,2}([^_]+)_{1,2}`).ReplaceAllString(text, "$1")
-	// Collapse whitespace
-	text = regexp.MustCompile(`\s+`).ReplaceAllString(text, " ")
+	text := reFencedCode.ReplaceAllString(raw, "")
+	text = reInlineCode.ReplaceAllString(text, "")
+	text = reHeading.ReplaceAllString(text, "")
+	text = reImage.ReplaceAllString(text, "")
+	text = reLink.ReplaceAllString(text, "$1")
+	text = reBoldItalicStar.ReplaceAllString(text, "$1")
+	text = reBoldItalicUnd.ReplaceAllString(text, "$1")
+	text = reWhitespace.ReplaceAllString(text, " ")
 	text = strings.TrimSpace(text)
 
 	runes := []rune(text)

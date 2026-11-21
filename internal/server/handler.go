@@ -3,6 +3,7 @@ package server
 import (
 	"compress/gzip"
 	"fmt"
+	"hash/fnv"
 	"html/template"
 	"io"
 	"io/fs"
@@ -11,7 +12,6 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
-	"runtime"
 	"strconv"
 	"strings"
 	"time"
@@ -66,10 +66,15 @@ type postPreviewData struct {
 
 // Handler is the main HTTP handler for the blog.
 type Handler struct {
-	cfg     *config.Config
-	b       *blog.Blog
-	tmpl    *template.Template
-	mimeMap map[string]string
+	cfg         *config.Config
+	b           *blog.Blog
+	tmpl        *template.Template
+	mimeMap     map[string]string
+	menu        []blog.MenuLink
+	footerHTML  template.HTML
+	cssVersion  string
+	versionInfo blog.VersionInfo
+	indexBlurb  template.HTML
 }
 
 // New creates and returns the blog HTTP handler.
@@ -79,10 +84,23 @@ func New(cfg *config.Config, b *blog.Blog) *Handler {
 		cfg.CSSTheme = "/" + cfg.CSSTheme
 	}
 	tmpl := mustLoadTemplates()
+	versionInfo := b.GetVersionInfo()
+
+	var indexBlurb template.HTML
+	blurbFile := filepath.Join(cfg.PostsDir, "index.md")
+	if raw, err := os.ReadFile(blurbFile); err == nil {
+		indexBlurb = template.HTML(b.ParseMarkdown(string(raw)))
+	}
+
 	h := &Handler{
-		cfg:  cfg,
-		b:    b,
-		tmpl: tmpl,
+		cfg:         cfg,
+		b:           b,
+		tmpl:        tmpl,
+		menu:        b.GetMenu(),
+		footerHTML:  template.HTML(b.ParseMarkdown(cfg.FooterContent)),
+		cssVersion:  cssVersion(cfg.CSSTheme, versionInfo.Commit),
+		versionInfo: versionInfo,
+		indexBlurb:  indexBlurb,
 		mimeMap: map[string]string{
 			"css":   "text/css",
 			"js":    "application/javascript",
@@ -98,6 +116,18 @@ func New(cfg *config.Config, b *blog.Blog) *Handler {
 		},
 	}
 	return h
+}
+
+func (h *Handler) baseTemplateData(r *http.Request, ogType string) templateData {
+	return templateData{
+		Config:     h.cfg,
+		OGType:     ogType,
+		Canonical:  buildCanonical(r),
+		CSSVersion: h.cssVersion,
+		Menu:       h.menu,
+		FooterHTML: h.footerHTML,
+		Version:    h.versionInfo,
+	}
 }
 
 // ServeHTTP routes all requests.
@@ -264,28 +294,12 @@ func (h *Handler) serveIndex(w http.ResponseWriter, r *http.Request) {
 	isSearch := q.Has("search") || searchQuery != ""
 	page := max1(intParam(q.Get("page"), 1))
 
-	menu := h.b.GetMenu()
-	canonical := buildCanonical(r)
-	versionInfo := h.b.GetVersionInfo()
-	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-
-	base := templateData{
-		Config:     h.cfg,
-		OGType:     "website",
-		Canonical:  canonical,
-		CSSVersion: cssV,
-		Menu:       menu,
-		FooterHTML: footerHTML,
-		Version:    versionInfo,
-	}
+	base := h.baseTemplateData(r, "website")
 
 	if isSearch {
-		title := h.cfg.BlogName
+		title := h.cfg.Labels.SearchTitle + " - " + h.cfg.BlogName
 		if searchQuery != "" {
 			title = fmt.Sprintf(h.cfg.Labels.SearchResultsTitle, searchQuery) + " - " + h.cfg.BlogName
-		} else {
-			title = h.cfg.Labels.SearchTitle + " - " + h.cfg.BlogName
 		}
 		list := h.b.SearchPosts(searchQuery, page)
 		data := base
@@ -298,78 +312,19 @@ func (h *Handler) serveIndex(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if categorySlug != "" {
-		cat := h.b.GetCategoryBySlug(categorySlug)
-		if cat == nil {
-			h.serve404(w, r, start, menu, canonical, cssV)
-			return
-		}
-		list := h.b.GetPosts(page, categorySlug)
-		data := base
-		data.PageTitle = h.cfg.BlogName + " - " + cat.BlogName
-		data.PageDescription = cat.HeaderContent
-		data.CurrentCategory = cat
-		data.CategorySlug = categorySlug
-		data.Posts = list.Posts
-		data.Pagination = list.Pagination
-		data.SubCategories = h.b.GetSubCategories(categorySlug)
-		data.JSONLD = buildWebPageJSONLD(h.cfg, canonical, data.PageTitle, cat.HeaderContent)
-		h.renderPage(w, r, start, "category.html", &data)
+		// Valid categories are 301-redirected in ServeHTTP; unknown ones return 404.
+		h.serve404(w, r, start)
 		return
 	}
 
 	// Landing page — no post scanning
-	cats := h.b.GetCategoriesSorted()
-	blurb := ""
-	blurbFile := filepath.Join(h.cfg.PostsDir, "index.md")
-	if fileExists(blurbFile) {
-		raw, err := os.ReadFile(blurbFile)
-		if err == nil {
-			blurb = h.b.ParseMarkdown(string(raw))
-		}
-	}
 	data := base
 	data.PageTitle = h.cfg.BlogName
 	data.PageDescription = h.cfg.DefaultMetaDescription
-	data.Categories = cats
-	data.IndexBlurb = template.HTML(blurb)
+	data.Categories = h.b.GetCategoriesSorted()
+	data.IndexBlurb = h.indexBlurb
 	data.JSONLD = buildWebSiteJSONLD(h.cfg)
 	h.renderPage(w, r, start, "home.html", &data)
-}
-
-func (h *Handler) servPost(w http.ResponseWriter, r *http.Request) {
-	start := time.Now()
-	q := r.URL.Query()
-	slug := q.Get("slug")
-	categorySlug := q.Get("category")
-
-	menu := h.b.GetMenu()
-	canonical := buildCanonical(r)
-	versionInfo := h.b.GetVersionInfo()
-	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-
-	base := templateData{
-		Config:     h.cfg,
-		OGType:     "article",
-		Canonical:  canonical,
-		CSSVersion: cssV,
-		Menu:       menu,
-		FooterHTML: footerHTML,
-		Version:    versionInfo,
-	}
-
-	if slug == "" || !validSlug(slug) {
-		http.Redirect(w, r, "/", http.StatusFound)
-		return
-	}
-
-	post := h.b.GetPostBySlug(slug, categorySlug)
-	if post == nil {
-		h.serve404(w, r, start, menu, canonical, cssV)
-		return
-	}
-
-	h.renderSinglePost(w, r, start, post, categorySlug, base)
 }
 
 func (h *Handler) renderSinglePost(w http.ResponseWriter, r *http.Request, start time.Time, post *blog.Post, categorySlug string, base templateData) {
@@ -378,7 +333,7 @@ func (h *Handler) renderSinglePost(w http.ResponseWriter, r *http.Request, start
 	if t, err := time.Parse("2006-01-02", post.Date); err == nil {
 		postMtime = t.Unix()
 	}
-	etag := fmt.Sprintf(`"%x"`, md5sum(post.Slug+post.Date))
+	etag := fmt.Sprintf(`"%s"`, etagHash(post.Slug+post.Date))
 	lastMod := time.Unix(postMtime, 0).UTC().Format(http.TimeFormat)
 	w.Header().Set("Last-Modified", lastMod)
 	w.Header().Set("ETag", etag)
@@ -427,41 +382,6 @@ func (h *Handler) renderSinglePost(w http.ResponseWriter, r *http.Request, start
 	h.renderPage(w, r, start, "post.html", &data)
 }
 
-func (h *Handler) serveStaticPage(w http.ResponseWriter, r *http.Request) {
-	start := time.Now()
-	slug := r.URL.Query().Get("slug")
-	if slug == "" || !validSlug(slug) {
-		http.Redirect(w, r, "/", http.StatusFound)
-		return
-	}
-
-	menu := h.b.GetMenu()
-	canonical := buildCanonical(r)
-	versionInfo := h.b.GetVersionInfo()
-	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-
-	page := h.b.GetPage(slug)
-	if page == nil {
-		h.serve404(w, r, start, menu, canonical, cssV)
-		return
-	}
-
-	data := &templateData{
-		Config:          h.cfg,
-		PageTitle:       page.Title + " — " + h.cfg.BlogName,
-		PageDescription: page.FrontMatter.Description,
-		OGType:          "website",
-		Canonical:       canonical,
-		CSSVersion:      cssV,
-		Menu:            menu,
-		FooterHTML:      footerHTML,
-		Version:         versionInfo,
-		Page:            page,
-	}
-	h.renderPage(w, r, start, "page.html", data)
-}
-
 func (h *Handler) cacheControlPages() string {
 	if !h.cfg.Cache.Enabled {
 		return "no-store"
@@ -494,26 +414,10 @@ func (h *Handler) serveFeedXML(w http.ResponseWriter, r *http.Request) {
 
 func (h *Handler) serveFeedPage(w http.ResponseWriter, r *http.Request) {
 	start := time.Now()
-	menu := h.b.GetMenu()
-	canonical := buildCanonical(r)
-	versionInfo := h.b.GetVersionInfo()
-	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-
-	posts := h.b.GetFeedPosts(h.cfg.Feed.MaxItems)
-
-	data := &templateData{
-		Config:     h.cfg,
-		PageTitle:  "Feed — " + h.cfg.BlogName,
-		OGType:     "website",
-		Canonical:  canonical,
-		CSSVersion: cssV,
-		Menu:       menu,
-		FooterHTML: footerHTML,
-		Version:    versionInfo,
-		Posts:      posts,
-	}
-	h.renderPage(w, r, start, "feed.html", data)
+	data := h.baseTemplateData(r, "website")
+	data.PageTitle = "Feed — " + h.cfg.BlogName
+	data.Posts = h.b.GetFeedPosts(h.cfg.Feed.MaxItems)
+	h.renderPage(w, r, start, "feed.html", &data)
 }
 
 func (h *Handler) cacheControlAssets() string {
@@ -523,19 +427,10 @@ func (h *Handler) cacheControlAssets() string {
 	return fmt.Sprintf("public, max-age=%d", h.cfg.Cache.MaxAgeAssets)
 }
 
-func (h *Handler) serve404(w http.ResponseWriter, r *http.Request, start time.Time, menu []blog.MenuLink, canonical, cssV string) {
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-	versionInfo := h.b.GetVersionInfo()
-	h.renderPageStatus(w, r, start, http.StatusNotFound, "404.html", &templateData{
-		Config:     h.cfg,
-		PageTitle:  h.cfg.Labels.NotFoundTitle + " — " + h.cfg.BlogName,
-		OGType:     "website",
-		Canonical:  canonical,
-		CSSVersion: cssV,
-		Menu:       menu,
-		FooterHTML: footerHTML,
-		Version:    versionInfo,
-	})
+func (h *Handler) serve404(w http.ResponseWriter, r *http.Request, start time.Time) {
+	data := h.baseTemplateData(r, "website")
+	data.PageTitle = h.cfg.Labels.NotFoundTitle + " — " + h.cfg.BlogName
+	h.renderPageStatus(w, r, start, http.StatusNotFound, "404.html", &data)
 }
 
 func (h *Handler) serveAsset(w http.ResponseWriter, r *http.Request, urlPath string) {
@@ -797,23 +692,11 @@ func max1(n int) int {
 	return n
 }
 
-// md5sum returns a hex string of the MD5 of s (used for ETag).
-func md5sum(s string) string {
-	// Use crypto/md5 via fmt to avoid importing the package at the top level
-	// (it's only called from servPost).
-	_ = runtime.Version() // suppress unused import if crypto/md5 moved
-	h := simpleHash(s)
-	return fmt.Sprintf("%x", h)
-}
-
-// simpleHash is a fast non-cryptographic hash used only for ETags.
-func simpleHash(s string) uint64 {
-	var h uint64 = 14695981039346656037
-	for i := 0; i < len(s); i++ {
-		h ^= uint64(s[i])
-		h *= 1099511628211
-	}
-	return h
+// etagHash returns a fast non-cryptographic FNV-1a hex digest for ETags.
+func etagHash(s string) string {
+	h := fnv.New64a()
+	_, _ = h.Write([]byte(s))
+	return fmt.Sprintf("%x", h.Sum64())
 }
 
 func (h *Handler) serveCleanPage(w http.ResponseWriter, r *http.Request) {
@@ -826,31 +709,17 @@ func (h *Handler) serveCleanPage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	menu := h.b.GetMenu()
-	canonical := buildCanonical(r)
-	versionInfo := h.b.GetVersionInfo()
-	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-
 	page := h.b.GetPage(slug)
 	if page == nil {
-		h.serve404(w, r, start, menu, canonical, cssV)
+		h.serve404(w, r, start)
 		return
 	}
 
-	data := &templateData{
-		Config:          h.cfg,
-		PageTitle:       page.Title + " — " + h.cfg.BlogName,
-		PageDescription: page.FrontMatter.Description,
-		OGType:          "website",
-		Canonical:       canonical,
-		CSSVersion:      cssV,
-		Menu:            menu,
-		FooterHTML:      footerHTML,
-		Version:         versionInfo,
-		Page:            page,
-	}
-	h.renderPage(w, r, start, "page.html", data)
+	data := h.baseTemplateData(r, "website")
+	data.PageTitle = page.Title + " — " + h.cfg.BlogName
+	data.PageDescription = page.FrontMatter.Description
+	data.Page = page
+	h.renderPage(w, r, start, "page.html", &data)
 }
 
 func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
@@ -861,20 +730,6 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 	if relPath == "" {
 		http.Redirect(w, r, "/", http.StatusFound)
 		return
-	}
-
-	menu := h.b.GetMenu()
-	canonical := buildCanonical(r)
-	versionInfo := h.b.GetVersionInfo()
-	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
-
-	base := templateData{
-		Config:     h.cfg,
-		CSSVersion: cssV,
-		Menu:       menu,
-		FooterHTML: footerHTML,
-		Version:    versionInfo,
 	}
 
 	// 1. Check if the entire relPath corresponds to a category folder
@@ -893,16 +748,14 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 	if categorySlug != "" {
 		cat := h.b.GetCategoryBySlug(categorySlug)
 		if cat == nil {
-			h.serve404(w, r, start, menu, canonical, cssV)
+			h.serve404(w, r, start)
 			return
 		}
 		q := r.URL.Query()
 		page := max1(intParam(q.Get("page"), 1))
 
 		list := h.b.GetPosts(page, categorySlug)
-		data := base
-		data.OGType = "website"
-		data.Canonical = canonical
+		data := h.baseTemplateData(r, "website")
 		data.PageTitle = h.cfg.BlogName + " - " + cat.BlogName
 		data.PageDescription = cat.HeaderContent
 		data.CurrentCategory = cat
@@ -910,7 +763,7 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 		data.Posts = list.Posts
 		data.Pagination = list.Pagination
 		data.SubCategories = h.b.GetSubCategories(categorySlug)
-		data.JSONLD = buildWebPageJSONLD(h.cfg, canonical, data.PageTitle, cat.HeaderContent)
+		data.JSONLD = buildWebPageJSONLD(h.cfg, data.Canonical, data.PageTitle, cat.HeaderContent)
 		h.renderPage(w, r, start, "category.html", &data)
 		return
 	}
@@ -926,7 +779,7 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if postSlug == "" || !validSlug(postSlug) {
-		h.serve404(w, r, start, menu, canonical, cssV)
+		h.serve404(w, r, start)
 		return
 	}
 
@@ -943,18 +796,17 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 		if postCategorySlug == "" {
-			h.serve404(w, r, start, menu, canonical, cssV)
+			h.serve404(w, r, start)
 			return
 		}
 	}
 
 	post := h.b.GetPostBySlug(postSlug, postCategorySlug)
 	if post == nil {
-		h.serve404(w, r, start, menu, canonical, cssV)
+		h.serve404(w, r, start)
 		return
 	}
 
-	base.OGType = "article"
-	base.Canonical = canonical
+	base := h.baseTemplateData(r, "article")
 	h.renderSinglePost(w, r, start, post, postCategorySlug, base)
 }

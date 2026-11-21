@@ -106,6 +106,7 @@ var (
 	slugCleanupRegex = regexp.MustCompile(`[^a-z0-9]+`)
 	datePrefixRegex  = regexp.MustCompile(`^\d{4}-\d{2}-\d{2}-`)
 	whitespaceRegex  = regexp.MustCompile(`\s+`)
+	htmlTagRegex     = regexp.MustCompile(`<[^>]+>`)
 )
 
 // Blog is the core service for reading and serving blog posts.
@@ -113,6 +114,12 @@ type Blog struct {
 	cfg             *config.Config
 	categoriesOnce  sync.Once
 	categoriesCache map[string]*CategoryInfo
+
+	indexMu      sync.RWMutex
+	indexModTime time.Time
+	indexSize    int64
+	indexPosts   []indexPost
+	indexBySlug  map[string]indexPost
 }
 
 // New creates a Blog backed by the given config.
@@ -497,9 +504,30 @@ func (b *Blog) GetConfig() *config.Config {
 
 func (b *Blog) loadPostIndex() []indexPost {
 	path := b.cfg.PostIndexFile
-	if path == "" || !fileExists(path) {
+	if path == "" {
 		return nil
 	}
+	info, err := os.Stat(path)
+	if err != nil {
+		return nil
+	}
+
+	b.indexMu.RLock()
+	if b.indexPosts != nil && b.indexModTime.Equal(info.ModTime()) && b.indexSize == info.Size() {
+		posts := b.indexPosts
+		b.indexMu.RUnlock()
+		return posts
+	}
+	b.indexMu.RUnlock()
+
+	b.indexMu.Lock()
+	defer b.indexMu.Unlock()
+
+	// Double-check after acquiring write lock.
+	if b.indexPosts != nil && b.indexModTime.Equal(info.ModTime()) && b.indexSize == info.Size() {
+		return b.indexPosts
+	}
+
 	data, err := os.ReadFile(path)
 	if err != nil {
 		log.Printf("blog: loadPostIndex read error: %v", err)
@@ -510,6 +538,18 @@ func (b *Blog) loadPostIndex() []indexPost {
 		log.Printf("blog: loadPostIndex parse error: %v — falling back to filesystem scan", err)
 		return nil
 	}
+
+	bySlug := make(map[string]indexPost, len(posts))
+	for _, ip := range posts {
+		if _, exists := bySlug[ip.Slug]; !exists {
+			bySlug[ip.Slug] = ip
+		}
+	}
+
+	b.indexPosts = posts
+	b.indexBySlug = bySlug
+	b.indexModTime = info.ModTime()
+	b.indexSize = info.Size()
 	return posts
 }
 
@@ -675,29 +715,30 @@ func (b *Blog) parsePost(fullPath string) (*Post, error) {
 // ResolveSlugViaIndex searches the post index for a slug and returns the full
 // filesystem path and category slug when found, or empty strings when not found.
 func (b *Blog) ResolveSlugViaIndex(slug string) (string, string) {
-	index := b.loadPostIndex()
-	if index == nil {
+	if b.loadPostIndex() == nil {
 		return "", ""
 	}
-	for _, ip := range index {
-		if ip.Slug == slug {
-			catSlug := ip.CategorySlug
-			if catSlug == "" {
-				candidate := filepath.Join(b.cfg.PostsDir, ip.Filename)
-				if fileExists(candidate) {
-					return candidate, ""
-				}
-				continue
-			}
-			cat, ok := b.cfg.Categories[catSlug]
-			if !ok {
-				continue
-			}
-			candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
-			if fileExists(candidate) {
-				return candidate, catSlug
-			}
+	b.indexMu.RLock()
+	ip, ok := b.indexBySlug[slug]
+	b.indexMu.RUnlock()
+	if !ok {
+		return "", ""
+	}
+	catSlug := ip.CategorySlug
+	if catSlug == "" {
+		candidate := filepath.Join(b.cfg.PostsDir, ip.Filename)
+		if fileExists(candidate) {
+			return candidate, ""
 		}
+		return "", ""
+	}
+	cat, ok := b.cfg.Categories[catSlug]
+	if !ok {
+		return "", ""
+	}
+	candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
+	if fileExists(candidate) {
+		return candidate, catSlug
 	}
 	return "", ""
 }
@@ -734,9 +775,7 @@ func (b *Blog) attachCategories(posts []Post) {
 
 func sortPostsByDate(posts []Post) {
 	sort.Slice(posts, func(i, j int) bool {
-		ti, _ := time.Parse("2006-01-02", posts[i].Date)
-		tj, _ := time.Parse("2006-01-02", posts[j].Date)
-		return tj.Before(ti)
+		return posts[i].Date > posts[j].Date
 	})
 }
 
@@ -772,7 +811,7 @@ func titleFromFilename(filename string) string {
 
 func generateExcerpt(htmlContent string, length int) string {
 	// Strip all HTML tags
-	text := regexp.MustCompile(`<[^>]+>`).ReplaceAllString(htmlContent, "")
+	text := htmlTagRegex.ReplaceAllString(htmlContent, "")
 	text = whitespaceRegex.ReplaceAllString(text, " ")
 	text = strings.TrimSpace(text)
 	if len(text) <= length {
