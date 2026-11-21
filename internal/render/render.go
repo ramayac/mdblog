@@ -1,7 +1,6 @@
 package render
 
 import (
-	"encoding/json"
 	"fmt"
 	"io"
 	"math/rand"
@@ -33,7 +32,7 @@ func Run(cfg *config.Config, args []string) error {
 		}
 	}
 
-	index, err := loadIndex(cfg.PostIndexFile)
+	index, err := blog.LoadIndex(cfg.PostIndexFile)
 	if err != nil {
 		return fmt.Errorf("render: load index: %w", err)
 	}
@@ -140,16 +139,4 @@ func orUncategorized(s string) string {
 		return "(uncategorized)"
 	}
 	return s
-}
-
-func loadIndex(path string) ([]buildindex.IndexPost, error) {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return nil, err
-	}
-	var posts []buildindex.IndexPost
-	if err := json.Unmarshal(data, &posts); err != nil {
-		return nil, err
-	}
-	return posts, nil
 }

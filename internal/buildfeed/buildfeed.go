@@ -1,10 +1,8 @@
 package buildfeed
 
 import (
-	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"os"
 	"time"
 
 	"github.com/ramayac/mdblog/internal/blog"
@@ -64,13 +62,9 @@ func Build(cfg *config.Config) error {
 	}
 
 	// Load post index
-	indexData, err := os.ReadFile(cfg.PostIndexFile)
+	posts, err := blog.LoadIndex(cfg.PostIndexFile)
 	if err != nil {
-		return fmt.Errorf("buildfeed: cannot read index %s: %w", cfg.PostIndexFile, err)
-	}
-	var posts []blog.IndexPost
-	if err := json.Unmarshal(indexData, &posts); err != nil {
-		return fmt.Errorf("buildfeed: cannot parse index: %w", err)
+		return fmt.Errorf("buildfeed: load index %s: %w", cfg.PostIndexFile, err)
 	}
 
 	// Cap at max_items (index is already sorted newest-first)

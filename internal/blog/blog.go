@@ -167,23 +167,13 @@ func (b *Blog) SearchPosts(query string, page int) PostList {
 		}
 	}
 	sortPostsByDate(results)
-	total := len(results)
-	perPage := b.cfg.PostsPerPage
-	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
-	offset := (page - 1) * perPage
-	if offset > total {
-		offset = total
-	}
-	end := offset + perPage
-	if end > total {
-		end = total
-	}
+	offset, end, pag := paginateBounds(len(results), page, b.cfg.PostsPerPage)
 	posts := results[offset:end]
 	b.attachCategories(posts)
 	return PostList{
 		Posts:        posts,
-		Pagination:   b.buildPagination(page, totalPages),
-		TotalMatches: total,
+		Pagination:   pag,
+		TotalMatches: len(results),
 	}
 }
 
@@ -481,6 +471,19 @@ func (b *Blog) GetConfig() *config.Config {
 // Index loading
 // ─────────────────────────────────────────────────────────────────────────────
 
+// LoadIndex reads and parses a content.index.json file from disk.
+func LoadIndex(path string) ([]IndexPost, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return nil, err
+	}
+	var posts []IndexPost
+	if err := json.Unmarshal(data, &posts); err != nil {
+		return nil, err
+	}
+	return posts, nil
+}
+
 func (b *Blog) loadPostIndex() []indexPost {
 	path := b.cfg.PostIndexFile
 	if path == "" {
@@ -507,14 +510,9 @@ func (b *Blog) loadPostIndex() []indexPost {
 		return b.indexPosts
 	}
 
-	data, err := os.ReadFile(path)
+	posts, err := LoadIndex(path)
 	if err != nil {
-		log.Printf("blog: loadPostIndex read error: %v", err)
-		return nil
-	}
-	var posts []indexPost
-	if err := json.Unmarshal(data, &posts); err != nil {
-		log.Printf("blog: loadPostIndex parse error: %v — falling back to filesystem scan", err)
+		log.Printf("blog: loadPostIndex error: %v — falling back to filesystem scan", err)
 		return nil
 	}
 
@@ -554,17 +552,7 @@ func (b *Blog) getPostsFromIndex(index []indexPost, page int, categorySlug strin
 		}
 	}
 
-	total := len(filtered)
-	perPage := b.cfg.PostsPerPage
-	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
-	offset := (page - 1) * perPage
-	if offset > total {
-		offset = total
-	}
-	end := offset + perPage
-	if end > total {
-		end = total
-	}
+	offset, end, pag := paginateBounds(len(filtered), page, b.cfg.PostsPerPage)
 
 	posts := make([]Post, 0, end-offset)
 	for _, ip := range filtered[offset:end] {
@@ -573,7 +561,7 @@ func (b *Blog) getPostsFromIndex(index []indexPost, page int, categorySlug strin
 	b.attachCategories(posts)
 	return PostList{
 		Posts:      posts,
-		Pagination: b.buildPagination(page, totalPages),
+		Pagination: pag,
 	}
 }
 
@@ -611,20 +599,10 @@ func (b *Blog) scanAndPaginate(page int, categorySlug string) PostList {
 		}
 	}
 	sortPostsByDate(posts)
-	total := len(posts)
-	perPage := b.cfg.PostsPerPage
-	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
-	offset := (page - 1) * perPage
-	if offset > total {
-		offset = total
-	}
-	end := offset + perPage
-	if end > total {
-		end = total
-	}
+	offset, end, pag := paginateBounds(len(posts), page, b.cfg.PostsPerPage)
 	return PostList{
 		Posts:      posts[offset:end],
-		Pagination: b.buildPagination(page, totalPages),
+		Pagination: pag,
 	}
 }
 
@@ -758,6 +736,26 @@ func sortPostsByDate(posts []Post) {
 	})
 }
 
+func paginateBounds(total, page, perPage int) (int, int, Pagination) {
+	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
+	offset := (page - 1) * perPage
+	if offset > total {
+		offset = total
+	}
+	end := offset + perPage
+	if end > total {
+		end = total
+	}
+	return offset, end, Pagination{
+		Current: page,
+		Total:   totalPages,
+		HasNext: page < totalPages,
+		HasPrev: page > 1,
+		Next:    page + 1,
+		Prev:    page - 1,
+	}
+}
+
 func (b *Blog) buildPagination(current, total int) Pagination {
 	return Pagination{
 		Current: current,
@@ -867,32 +865,9 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 	// 1. Try match with year/month constraint
 	for _, ip := range index {
 		if len(ip.Date) >= 7 && ip.Date[0:4] == year && ip.Date[5:7] == month {
-			normalized := b.normalizeSlugForMatch(ip.Slug)
-			cleanPost := cleanSlug(normalized)
-
-			// Prefix-restricted Levenshtein match (handles truncation/expansion in slug generation)
-			minLen := len(cleanPost)
-			if len(cleanOld) < minLen {
-				minLen = len(cleanOld)
-			}
-			var prefixMatch bool
-			if minLen >= 10 {
-				prefixMatch = levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
-			}
-
-			// Match if clean slugs are equal, one is a prefix/suffix of the other,
-			// or they are within Levenshtein distance of 2 (or 20% of length)
-			if cleanPost == cleanOld ||
-				strings.HasPrefix(cleanPost, cleanOld) ||
-				strings.HasPrefix(cleanOld, cleanPost) ||
-				strings.HasSuffix(cleanPost, cleanOld) ||
-				strings.HasSuffix(cleanOld, cleanPost) ||
-				levenshtein(cleanPost, cleanOld) <= 2 ||
-				levenshtein(cleanPost, cleanOld) <= len(cleanOld)/5 ||
-				prefixMatch {
-
-				post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
-				if post != nil {
+			cleanPost := cleanSlug(b.normalizeSlugForMatch(ip.Slug))
+			if slugMatchesPrefixOrExact(cleanPost, cleanOld) || slugMatchesFuzzy(cleanPost, cleanOld, false) {
+				if post := b.GetPostBySlug(ip.Slug, ip.CategorySlug); post != nil {
 					return post, true
 				}
 			}
@@ -902,26 +877,9 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 	// 2. Fallback: Search entire index without year/month constraint (handles publish vs draft date discrepancies)
 	// Pass 2a: Try exact, prefix, suffix match first
 	for _, ip := range index {
-		normalized := b.normalizeSlugForMatch(ip.Slug)
-		cleanPost := cleanSlug(normalized)
-
-		minLen := len(cleanPost)
-		if len(cleanOld) < minLen {
-			minLen = len(cleanOld)
-		}
-		var prefixMatch bool
-		if minLen >= 10 {
-			prefixMatch = levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
-		}
-
-		if cleanPost == cleanOld ||
-			strings.HasPrefix(cleanPost, cleanOld) ||
-			strings.HasPrefix(cleanOld, cleanPost) ||
-			strings.HasSuffix(cleanPost, cleanOld) ||
-			strings.HasSuffix(cleanOld, cleanPost) ||
-			prefixMatch {
-			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
-			if post != nil {
+		cleanPost := cleanSlug(b.normalizeSlugForMatch(ip.Slug))
+		if slugMatchesPrefixOrExact(cleanPost, cleanOld) {
+			if post := b.GetPostBySlug(ip.Slug, ip.CategorySlug); post != nil {
 				return post, true
 			}
 		}
@@ -929,18 +887,41 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 
 	// Pass 2b: Try Levenshtein match next
 	for _, ip := range index {
-		normalized := b.normalizeSlugForMatch(ip.Slug)
-		cleanPost := cleanSlug(normalized)
-		dist := levenshtein(cleanPost, cleanOld)
-		if dist <= 2 || (len(cleanOld) >= 10 && dist <= len(cleanOld)/5) {
-			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
-			if post != nil {
+		cleanPost := cleanSlug(b.normalizeSlugForMatch(ip.Slug))
+		if slugMatchesFuzzy(cleanPost, cleanOld, true) {
+			if post := b.GetPostBySlug(ip.Slug, ip.CategorySlug); post != nil {
 				return post, true
 			}
 		}
 	}
 
 	return nil, false
+}
+
+// slugMatchesPrefixOrExact checks exact equality, prefix/suffix containment,
+// or prefix-restricted Levenshtein distance <= 2 for truncated slugs.
+func slugMatchesPrefixOrExact(cleanPost, cleanOld string) bool {
+	if cleanPost == cleanOld ||
+		strings.HasPrefix(cleanPost, cleanOld) ||
+		strings.HasPrefix(cleanOld, cleanPost) ||
+		strings.HasSuffix(cleanPost, cleanOld) ||
+		strings.HasSuffix(cleanOld, cleanPost) {
+		return true
+	}
+	minLen := min(len(cleanPost), len(cleanOld))
+	return minLen >= 10 && levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
+}
+
+// slugMatchesFuzzy checks Levenshtein distance <= 2 or <= 20% of cleanOld length.
+func slugMatchesFuzzy(cleanPost, cleanOld string, requireMinLenForRatio bool) bool {
+	dist := levenshtein(cleanPost, cleanOld)
+	if dist <= 2 {
+		return true
+	}
+	if requireMinLenForRatio && len(cleanOld) < 10 {
+		return false
+	}
+	return dist <= len(cleanOld)/5
 }
 
 func levenshtein(s, t string) int {

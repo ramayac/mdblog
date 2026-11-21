@@ -353,13 +353,8 @@ func (h *Handler) serveFeedXML(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/rss+xml; charset=utf-8")
 	w.Header().Set("Cache-Control", h.cacheControlPages())
 
-	var out io.Writer = w
-	if os.Getenv("AWS_LAMBDA_FUNCTION_NAME") == "" && strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
-		w.Header().Set("Content-Encoding", "gzip")
-		gz := gzip.NewWriter(w)
-		defer gz.Close()
-		out = gz
-	}
+	out, cleanup := responseWriter(w, r, http.StatusOK)
+	defer cleanup()
 	_, _ = out.Write(data)
 }
 
@@ -432,24 +427,31 @@ func (h *Handler) renderPageStatus(w http.ResponseWriter, r *http.Request, start
 
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
-	// Gzip when supported (skip on Lambda — API Gateway / CloudFront handles it)
-	var out io.Writer = w
+	out, cleanup := responseWriter(w, r, status)
+	defer cleanup()
+
+	if err := h.tmpl.ExecuteTemplate(out, "layout.html", data); err != nil {
+		// Headers already sent — can't send a proper error response
+		fmt.Fprintf(out, "\n<!-- render error: %v -->", err)
+	}
+}
+
+// responseWriter sets Content-Encoding: gzip when supported (outside Lambda),
+// writes any non-200 status code after headers are finalized, and returns the
+// target writer plus a cleanup function that closes the gzip stream if used.
+func responseWriter(w http.ResponseWriter, r *http.Request, status int) (io.Writer, func()) {
 	if os.Getenv("AWS_LAMBDA_FUNCTION_NAME") == "" && strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
 		w.Header().Set("Content-Encoding", "gzip")
 		if status != http.StatusOK {
 			w.WriteHeader(status)
 		}
 		gz := gzip.NewWriter(w)
-		defer gz.Close()
-		out = gz
-	} else if status != http.StatusOK {
+		return gz, func() { _ = gz.Close() }
+	}
+	if status != http.StatusOK {
 		w.WriteHeader(status)
 	}
-
-	if err := h.tmpl.ExecuteTemplate(out, "layout.html", data); err != nil {
-		// Headers already sent — can't send a proper error response
-		fmt.Fprintf(out, "\n<!-- render error: %v -->", err)
-	}
+	return w, func() {}
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

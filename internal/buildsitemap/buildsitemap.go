@@ -1,7 +1,6 @@
 package buildsitemap
 
 import (
-	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"os"
@@ -46,13 +45,9 @@ func Build(cfg *config.Config) error {
 	}
 
 	// Load post index
-	indexData, err := os.ReadFile(cfg.PostIndexFile)
+	posts, err := blog.LoadIndex(cfg.PostIndexFile)
 	if err != nil {
-		return fmt.Errorf("buildsitemap: cannot read index %s: %w", cfg.PostIndexFile, err)
-	}
-	var posts []blog.IndexPost
-	if err := json.Unmarshal(indexData, &posts); err != nil {
-		return fmt.Errorf("buildsitemap: cannot parse index: %w", err)
+		return fmt.Errorf("buildsitemap: load index %s: %w", cfg.PostIndexFile, err)
 	}
 
 	// Build URL list

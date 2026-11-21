@@ -82,6 +82,7 @@ func scanFolder(dir, categorySlug, dateFormat string) ([]IndexPost, error) {
 		return nil, fmt.Errorf("read dir %s: %w", dir, err)
 	}
 
+	cwd, _ := os.Getwd()
 	var posts []IndexPost
 	for _, e := range entries {
 		if e.IsDir() || !strings.EqualFold(filepath.Ext(e.Name()), ".md") {
@@ -129,7 +130,6 @@ func scanFolder(dir, categorySlug, dateFormat string) ([]IndexPost, error) {
 		}
 
 		// Source path relative to cwd
-		cwd, _ := os.Getwd()
 		sourcePath := fullPath
 		if cwd != "" {
 			if rel, err := filepath.Rel(cwd, fullPath); err == nil {

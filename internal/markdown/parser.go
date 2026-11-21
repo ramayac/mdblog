@@ -2,6 +2,7 @@ package markdown
 
 import (
 	"bytes"
+	stdhtml "html"
 	"regexp"
 	"strings"
 	"unicode/utf8"
@@ -74,7 +75,7 @@ func Parse(content string) ParsedDoc {
 		// Fallback: escape the raw body so the page at least shows something
 		buf.Reset()
 		buf.WriteString("<pre>")
-		buf.WriteString(htmlEscape(body))
+		buf.WriteString(stdhtml.EscapeString(body))
 		buf.WriteString("</pre>")
 	}
 	return ParsedDoc{FrontMatter: fm, HTML: buf.String()}
@@ -138,14 +139,4 @@ func parseFrontMatterFields(raw string) FrontMatter {
 		}
 	}
 	return fm
-}
-
-// htmlEscape escapes the five XML/HTML special characters.
-func htmlEscape(s string) string {
-	s = strings.ReplaceAll(s, "&", "&amp;")
-	s = strings.ReplaceAll(s, "<", "&lt;")
-	s = strings.ReplaceAll(s, ">", "&gt;")
-	s = strings.ReplaceAll(s, `"`, "&#34;")
-	s = strings.ReplaceAll(s, "'", "&#39;")
-	return s
 }
