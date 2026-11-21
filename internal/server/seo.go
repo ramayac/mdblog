@@ -91,23 +91,7 @@ func buildArticleJSONLD(cfg *config.Config, post *blog.Post, canonical, category
 	}
 	url := canonical
 	if url == "" && base != "" {
-		var folder string
-		if categorySlug != "" {
-			cat, ok := cfg.Categories[categorySlug]
-			if ok {
-				folder = cat.Folder
-				if folder == "" {
-					folder = categorySlug
-				}
-			} else {
-				folder = categorySlug
-			}
-		}
-		url = base + "/content/"
-		if folder != "" {
-			url += folder + "/"
-		}
-		url += post.Slug
+		url = base + cfg.PostPath(categorySlug, post.Slug)
 	}
 
 	description := post.FrontMatter.Description
@@ -172,7 +156,7 @@ func buildBreadcrumbItems(cfg *config.Config, post *blog.Post, base, postURL str
 			"@type":    "ListItem",
 			"position": pos,
 			"name":     post.Category.BlogName,
-			"item":     base + "/?category=" + post.CategorySlug,
+			"item":     base + cfg.CategoryPath(post.CategorySlug),
 		})
 		pos++
 	}
@@ -238,24 +222,11 @@ func (h *Handler) serveSitemap(w http.ResponseWriter, r *http.Request) {
 		})
 	}
 	for _, p := range h.b.GetFeedPosts(10000) {
-		var folder string
-		if p.CategorySlug != "" {
-			cat := h.b.GetCategoryBySlug(p.CategorySlug)
-			if cat != nil {
-				folder = cat.Folder
-				if folder == "" {
-					folder = p.CategorySlug
-				}
-			} else {
-				folder = p.CategorySlug
-			}
+		entry := sitemapURL{
+			Loc:        base + h.cfg.PostPath(p.CategorySlug, p.Slug),
+			ChangeFreq: h.cfg.Sitemap.ChangeFreqPost,
+			Priority:   h.cfg.Sitemap.PriorityPost,
 		}
-		u := base + "/content/"
-		if folder != "" {
-			u += folder + "/"
-		}
-		u += p.Slug
-		entry := sitemapURL{Loc: u, ChangeFreq: h.cfg.Sitemap.ChangeFreqPost, Priority: h.cfg.Sitemap.PriorityPost}
 		if p.Date != "" {
 			entry.LastMod = p.Date
 		}

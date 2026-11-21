@@ -187,18 +187,7 @@ func (b *Blog) validateLink(link string, currentFile string) error {
 		if rel == "" {
 			return nil
 		}
-		var categorySlug string
-		for slug, cat := range b.cfg.Categories {
-			folder := cat.Folder
-			if folder == "" {
-				folder = slug
-			}
-			if folder == rel {
-				categorySlug = slug
-				break
-			}
-		}
-		if categorySlug != "" {
+		if _, ok := b.cfg.CategorySlugByFolder(rel); ok {
 			return nil
 		}
 
@@ -213,17 +202,9 @@ func (b *Blog) validateLink(link string, currentFile string) error {
 
 		var postCategorySlug string
 		if folderPath != "" {
-			for slug, cat := range b.cfg.Categories {
-				folder := cat.Folder
-				if folder == "" {
-					folder = slug
-				}
-				if folder == folderPath {
-					postCategorySlug = slug
-					break
-				}
-			}
-			if postCategorySlug == "" {
+			var ok bool
+			postCategorySlug, ok = b.cfg.CategorySlugByFolder(folderPath)
+			if !ok {
 				return fmt.Errorf("invalid category folder: %s", folderPath)
 			}
 		}

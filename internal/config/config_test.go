@@ -331,3 +331,34 @@ func TestLoad_CSSThemeNormalization(t *testing.T) {
 		}
 	}
 }
+
+func TestConfigURLHelpers(t *testing.T) {
+	cfg := &Config{
+		Categories: map[string]Category{
+			"personal": {Folder: "writings/personal"},
+			"guides":   {},
+		},
+	}
+
+	if got := cfg.CategoryFolder("personal"); got != "writings/personal" {
+		t.Errorf("CategoryFolder(personal) = %q, want writings/personal", got)
+	}
+	if got := cfg.CategoryFolder("guides"); got != "guides" {
+		t.Errorf("CategoryFolder(guides) = %q, want guides", got)
+	}
+	if slug, ok := cfg.CategorySlugByFolder("writings/personal"); !ok || slug != "personal" {
+		t.Errorf("CategorySlugByFolder(writings/personal) = (%q, %v), want (personal, true)", slug, ok)
+	}
+	if _, ok := cfg.CategorySlugByFolder("nonexistent"); ok {
+		t.Error("expected false for nonexistent folder")
+	}
+	if got := cfg.CategoryPath("personal"); got != "/content/writings/personal/" {
+		t.Errorf("CategoryPath(personal) = %q, want /content/writings/personal/", got)
+	}
+	if got := cfg.PostPath("personal", "hello"); got != "/content/writings/personal/hello" {
+		t.Errorf("PostPath(personal, hello) = %q, want /content/writings/personal/hello", got)
+	}
+	if got := cfg.PostPath("", "root-post"); got != "/content/root-post" {
+		t.Errorf("PostPath('', root-post) = %q, want /content/root-post", got)
+	}
+}

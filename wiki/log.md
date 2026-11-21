@@ -1,5 +1,31 @@
 # Wiki Log
 
+## [2026-11-21] ingest | codebase audit, optimization, and structural simplification
+
+- **Bug fixes & correctness**:
+  - Guarded `Blog.categoriesCache` initialization with `sync.Once` to eliminate a startup data race.
+  - Fixed `mdblog render` to request canonical `/content/<folder>/<slug>` URLs instead of legacy `/post?slug=` (which 301-redirected).
+  - Fixed `cssVersion` and per-post JS checks to stat against `AssetsFS` (with build-commit fallback for embedded builds) and fixed `<script src="/assets/js/...">` root-relative path in `templates/layout.html`.
+  - Fixed 404 gzip header ordering in `internal/server/handler.go` by writing headers before status code in `renderPageStatus`.
+  - Removed shadowed `not` and `urlquery` template functions so Go's stdlib built-ins work across all types (fixing `not .SubCategories` in `category.html`).
+  - Updated JSON-LD category breadcrumbs in `internal/server/seo.go` and the About link in `config.toml` to canonical clean URLs; guarded `titleFromFilename` against empty stems; cleaned `go.mod` direct/indirect markers.
+- **Performance optimizations**:
+  - Cached `content.index.json` and a `slug → IndexPost` map in memory in `Blog.loadPostIndex()` (thread-safe via `sync.RWMutex` with `ModTime`/`Size` invalidation). Realistic traffic simulation improved from **1.27ms → 0.35ms (3.6x)** and `ResolveOldURL` from **4.02ms → 0.81ms (5.0x)**.
+  - Precomputed static chrome (`menu`, `footerHTML`, `cssVersion`, `versionInfo`, `indexBlurb`) once at server startup; removed unreachable `servPost` and `serveStaticPage` handlers.
+  - Hoisted `regexp.MustCompile` calls out of hot functions in `internal/blog` and `internal/buildindex`, and switched ISO date sorting to direct string comparison.
+- **Structural simplification**:
+  - Centralized `CategoryFolder`, `CategorySlugByFolder`, `CategoryPath`, and `PostPath` on `*config.Config`, eliminating duplicated URL/folder resolution across 6 packages.
+  - Shared `blog.IndexPost`, `blog.SlugFromFilename`, `blog.TitleFromFilename`, and `blog.AtomicWrite` across `buildindex`, `buildfeed`, and `buildsitemap`; collapsed `GetNavPinned`/`GetDropdownCategories` into `resolveCategoryRefs`.
+  - Modernized `internal/server` to use `http.ServeMux`, `http.FileServerFS`, and injected `server.Options` (`TemplateFS`/`AssetsFS`) in `cmd/lambda-embed`.
+  - Added unified `mdblog build` subcommand and updated `Dockerfile` and `Dockerfile.debug` to use it.
+- **Theme, CSS, JS, & Security Cleanup**:
+  - Fixed reflected XSS in `templates/search.html` by removing `| safeHTML` on `.Query` (covered by `TestSearchXSSAutoEscaped`).
+  - Simplified CSS from ~1,888 lines to ~760 lines: adopted native `color-scheme: light dark` + `light-dark()` tokens (removing duplicated dark-mode blocks), eliminated the `@import` waterfall by loading `base.style.css` and the active theme in parallel `<link>` tags, turned `default.style.css` into a thin override on `base.style.css`, merged duplicated card/heading/button rules, and removed all inline `style=` attributes and all 16 `!important` overrides.
+  - Replaced 58 lines of inline dropdown JS in `templates/layout.html` with native `<details class="nav-dropdown" name="nav-dropdown">` elements and extracted theme-toggle + dropdown dismissal into `assets/js/site.js`.
+  - Tightened `[csp]` in `config.toml` to remove `'unsafe-inline'` from both `script-src` and `style-src`.
+- **Documentation**:
+  - Updated `wiki/agents.md`, `wiki/repo-map.md`, `wiki/performance.md`, `README.md`, and refreshed `AGENTS.md`.
+
 ## [2026-09-26] decision | documented typography design decision
 
 - Added a "Typography Design Decision" section to `wiki/repo-map.md`.

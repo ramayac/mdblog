@@ -5,7 +5,9 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 	"testing"
+	"time"
 
 	"github.com/ramayac/mdblog/internal/config"
 )
@@ -1192,4 +1194,100 @@ func TestResolveOldURL(t *testing.T) {
 			}
 		})
 	}
+}
+
+func TestTitleFromFilename_EmptyStem(t *testing.T) {
+	if got := TitleFromFilename("2026-01-01-.md"); got != "" {
+		t.Errorf("TitleFromFilename('2026-01-01-.md') = %q, want empty", got)
+	}
+}
+
+func TestAtomicWriteAndLoadIndex(t *testing.T) {
+	dir := t.TempDir()
+	path := filepath.Join(dir, "sub", "content.index.json")
+	payload := `[{"slug":"hello","title":"Hello","date":"2026-01-15","category_slug":"tech","filename":"hello.md"}]`
+
+	if err := AtomicWrite(path, []byte(payload)); err != nil {
+		t.Fatalf("AtomicWrite failed: %v", err)
+	}
+	posts, err := LoadIndex(path)
+	if err != nil {
+		t.Fatalf("LoadIndex failed: %v", err)
+	}
+	if len(posts) != 1 || posts[0].Slug != "hello" {
+		t.Fatalf("unexpected posts: %+v", posts)
+	}
+}
+
+func TestGetFeedPosts_AndIndexCacheInvalidation(t *testing.T) {
+	dir := t.TempDir()
+	cfg := makeTestConfig(dir)
+	writePost(t, filepath.Join(dir, "tech"), "p1.md", "---\ntitle: P1\ndate: 2026-01-01\n---\nBody")
+
+	idx1 := `[{"slug":"p1","title":"P1","date":"2026-01-01","category_slug":"tech","filename":"p1.md"}]`
+	if err := AtomicWrite(cfg.PostIndexFile, []byte(idx1)); err != nil {
+		t.Fatal(err)
+	}
+
+	b := New(cfg)
+	feed := b.GetFeedPosts(10)
+	if len(feed) != 1 || feed[0].Slug != "p1" || feed[0].Category == nil {
+		t.Fatalf("unexpected feed: %+v", feed)
+	}
+
+	// Update the index on disk (different size & mtime) and verify cache invalidates
+	idx2 := `[{"slug":"p2","title":"P2","date":"2026-02-01","category_slug":"tech","filename":"p2.md"},{"slug":"p1","title":"P1","date":"2026-01-01","category_slug":"tech","filename":"p1.md"}]`
+	if err := AtomicWrite(cfg.PostIndexFile, []byte(idx2)); err != nil {
+		t.Fatal(err)
+	}
+	future := time.Now().Add(2 * time.Second)
+	_ = os.Chtimes(cfg.PostIndexFile, future, future)
+
+	feed2 := b.GetFeedPosts(1)
+	if len(feed2) != 1 || feed2[0].Slug != "p2" {
+		t.Fatalf("expected cache reload with p2 capped to 1, got: %+v", feed2)
+	}
+}
+
+func TestConcurrentGetCategoriesAndIndex(t *testing.T) {
+	dir := t.TempDir()
+	cfg := makeTestConfig(dir)
+	writePost(t, filepath.Join(dir, "tech"), "p1.md", "---\ntitle: P1\ndate: 2026-01-01\n---\nBody")
+	idx := `[{"slug":"p1","title":"P1","date":"2026-01-01","category_slug":"tech","filename":"p1.md"}]`
+	if err := AtomicWrite(cfg.PostIndexFile, []byte(idx)); err != nil {
+		t.Fatal(err)
+	}
+
+	b := New(cfg)
+	var wg sync.WaitGroup
+	for i := 0; i < 16; i++ {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			_ = b.GetCategories()
+			_ = b.GetPosts(1, "tech")
+			_, _ = b.ResolveSlugViaIndex("p1")
+		}()
+	}
+	wg.Wait()
+}
+
+func TestContentCountTree(t *testing.T) {
+	dir := t.TempDir()
+	cfg := makeTestConfig(filepath.Join(dir, "content"))
+	cfg.PagesDir = filepath.Join(dir, "pages")
+	writePost(t, filepath.Join(cfg.PostsDir, "tech"), "a.md", "# A")
+	writePost(t, filepath.Join(cfg.PostsDir, "tech"), "b.md", "# B")
+	writePost(t, cfg.PagesDir, "about.md", "# About")
+
+	b := New(cfg)
+	tree, err := b.buildDirTree(cfg.PostsDir)
+	if err != nil {
+		t.Fatalf("buildDirTree failed: %v", err)
+	}
+	if tree.FileCount != 2 {
+		t.Errorf("FileCount = %d, want 2", tree.FileCount)
+	}
+	// Smoke test PrintContentCount (ensures formatting doesn't panic)
+	b.PrintContentCount()
 }

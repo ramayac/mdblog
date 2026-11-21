@@ -252,3 +252,36 @@ func MustLoad(path string) *Config {
 	}
 	return cfg
 }
+
+// CategoryFolder returns the configured folder for a category slug,
+// falling back to the slug itself when unset.
+func (c *Config) CategoryFolder(slug string) string {
+	if cat, ok := c.Categories[slug]; ok && cat.Folder != "" {
+		return cat.Folder
+	}
+	return slug
+}
+
+// CategorySlugByFolder resolves a category folder path (e.g. "writings/personal")
+// back to its configured category slug.
+func (c *Config) CategorySlugByFolder(folder string) (string, bool) {
+	for slug := range c.Categories {
+		if c.CategoryFolder(slug) == folder {
+			return slug, true
+		}
+	}
+	return "", false
+}
+
+// CategoryPath returns the canonical root-relative URL path for a category.
+func (c *Config) CategoryPath(slug string) string {
+	return "/content/" + c.CategoryFolder(slug) + "/"
+}
+
+// PostPath returns the canonical root-relative URL path for a post.
+func (c *Config) PostPath(categorySlug, postSlug string) string {
+	if categorySlug == "" {
+		return "/content/" + postSlug
+	}
+	return "/content/" + c.CategoryFolder(categorySlug) + "/" + postSlug
+}

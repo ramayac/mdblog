@@ -232,6 +232,19 @@ func TestBuildSitemap_PostWithoutCategory(t *testing.T) {
 	}
 }
 
+func TestBuildSitemap_IncludesStandalonePages(t *testing.T) {
+	cfg := makeTestConfig(t)
+	cfg.PagesDir = filepath.Join(cfg.PostsDir, "pages")
+	writePost(t, filepath.Join(cfg.PostsDir, "tech"), "2024-01-15-hello.md",
+		"---\ntitle: Hello\ndate: 2024-01-15\n---\nBody.")
+	writePost(t, cfg.PagesDir, "about.md", "---\ntitle: About\n---\nAbout page.")
+
+	xmlStr, _ := testBuildSitemap(t, cfg)
+	if !strings.Contains(xmlStr, "https://example.com/pages/about") {
+		t.Errorf("expected standalone page URL in sitemap, got:\n%s", xmlStr)
+	}
+}
+
 func min(a, b int) int {
 	if a < b {
 		return a

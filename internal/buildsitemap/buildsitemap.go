@@ -1,23 +1,15 @@
 package buildsitemap
 
 import (
-	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
 
+	"github.com/ramayac/mdblog/internal/blog"
 	"github.com/ramayac/mdblog/internal/config"
 )
-
-// indexPost mirrors the JSON fields in posts.index.json.
-type indexPost struct {
-	Slug         string `json:"slug"`
-	Title        string `json:"title"`
-	Date         string `json:"date"`
-	CategorySlug string `json:"category_slug"`
-}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Sitemap XML structures
@@ -53,13 +45,9 @@ func Build(cfg *config.Config) error {
 	}
 
 	// Load post index
-	indexData, err := os.ReadFile(cfg.PostIndexFile)
+	posts, err := blog.LoadIndex(cfg.PostIndexFile)
 	if err != nil {
-		return fmt.Errorf("buildsitemap: cannot read index %s: %w", cfg.PostIndexFile, err)
-	}
-	var posts []indexPost
-	if err := json.Unmarshal(indexData, &posts); err != nil {
-		return fmt.Errorf("buildsitemap: cannot parse index: %w", err)
+		return fmt.Errorf("buildsitemap: load index %s: %w", cfg.PostIndexFile, err)
 	}
 
 	// Build URL list
@@ -76,18 +64,8 @@ func Build(cfg *config.Config) error {
 	for _, p := range posts {
 		if p.CategorySlug != "" && !seen[p.CategorySlug] {
 			seen[p.CategorySlug] = true
-			var folder string
-			cat, ok := cfg.Categories[p.CategorySlug]
-			if ok {
-				folder = cat.Folder
-				if folder == "" {
-					folder = p.CategorySlug
-				}
-			} else {
-				folder = p.CategorySlug
-			}
 			urls = append(urls, sitemapEntry{
-				Loc:        base + "/content/" + folder + "/",
+				Loc:        base + cfg.CategoryPath(p.CategorySlug),
 				ChangeFreq: cfg.Sitemap.ChangeFreqCategory,
 				Priority:   cfg.Sitemap.PriorityCategory,
 			})
@@ -96,25 +74,8 @@ func Build(cfg *config.Config) error {
 
 	// Individual post pages
 	for _, p := range posts {
-		var folder string
-		if p.CategorySlug != "" {
-			cat, ok := cfg.Categories[p.CategorySlug]
-			if ok {
-				folder = cat.Folder
-				if folder == "" {
-					folder = p.CategorySlug
-				}
-			} else {
-				folder = p.CategorySlug
-			}
-		}
-		u := base + "/content/"
-		if folder != "" {
-			u += folder + "/"
-		}
-		u += p.Slug
 		entry := sitemapEntry{
-			Loc:        u,
+			Loc:        base + cfg.PostPath(p.CategorySlug, p.Slug),
 			ChangeFreq: cfg.Sitemap.ChangeFreqPost,
 			Priority:   cfg.Sitemap.PriorityPost,
 		}
@@ -157,32 +118,17 @@ func Build(cfg *config.Config) error {
 	}
 	output := []byte(xml.Header + string(xmlBytes) + "\n")
 
-	if err := atomicWrite(cfg.Sitemap.OutputFile, output); err != nil {
+	if err := blog.AtomicWrite(cfg.Sitemap.OutputFile, output); err != nil {
 		return fmt.Errorf("buildsitemap: write sitemap: %w", err)
 	}
 	fmt.Printf("buildsitemap: wrote %d URLs to %s\n", len(urls), cfg.Sitemap.OutputFile)
 
 	// robots.txt
 	robots := "User-agent: *\nAllow: /\nSitemap: " + base + "/" + cfg.Sitemap.OutputFile + "\n"
-	if err := atomicWrite(cfg.Sitemap.RobotsFile, []byte(robots)); err != nil {
+	if err := blog.AtomicWrite(cfg.Sitemap.RobotsFile, []byte(robots)); err != nil {
 		return fmt.Errorf("buildsitemap: write robots: %w", err)
 	}
 	fmt.Printf("buildsitemap: wrote %s\n", cfg.Sitemap.RobotsFile)
 
-	return nil
-}
-
-func atomicWrite(path string, data []byte) error {
-	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
-		return err
-	}
-	tmp := path + ".tmp"
-	if err := os.WriteFile(tmp, data, 0644); err != nil {
-		return err
-	}
-	if err := os.Rename(tmp, path); err != nil {
-		_ = os.Remove(tmp)
-		return err
-	}
 	return nil
 }

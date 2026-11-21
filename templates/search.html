@@ -6,22 +6,20 @@
 </h2>
 
 <main class="main-content">
-    
-    <form action="/" method="GET" class="standalone-search-form" style="display: flex; justify-content: center; gap: 10px; max-width: 500px; margin: 0 auto;">
-        <input type="text" name="q" value="{{ .Query }}" placeholder="{{ .Config.Labels.SearchPlaceholder }}" required autofocus style="flex: 1; padding: 10px; font-size: 1.1em; border: 1px solid #ccc; border-radius: 6px;">
-        <button type="submit" style="padding: 10px 20px; font-size: 1.1em; border: 1px solid #ccc; border-radius: 6px; background: #f0f0f0; cursor: pointer;">{{ .Config.Labels.SearchButton }}</button>
+    <form action="/" method="GET" class="standalone-search-form">
+        <input type="text" name="q" value="{{ .Query }}" placeholder="{{ .Config.Labels.SearchPlaceholder }}" required autofocus>
+        <button type="submit">{{ .Config.Labels.SearchButton }}</button>
     </form>
     {{ if .Query }}
-    <p style="margin-top: 1em; color: #666;">{{ printf .Config.Labels.SearchShowingResults .Query | safeHTML }}</p>
+    <p class="search-results-summary">{{ printf .Config.Labels.SearchShowingResults .Query }}</p>
     {{ end }}
 
-
     {{ if not .Query }}
-    <div class="no-posts" style="text-align: center;">
+    <div class="no-posts">
         <p>{{ .Config.Labels.SearchEmptyQuery }}</p>
     </div>
     {{ else if not .Posts }}
-    <div class="no-posts" style="text-align: center;">
+    <div class="no-posts">
         <p>{{ .Config.Labels.SearchNoResults }}</p>
     </div>
     {{ else }}

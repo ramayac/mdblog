@@ -27,7 +27,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - Runtime feed serving has two paths: `/feed.xml` serves the prebuilt XML file directly, while `/feed` renders a human-readable feed page from `blog.GetFeedPosts()`.
 - Unlike sitemap and robots, `/feed.xml` does not have a dynamic fallback when the built file is missing; it returns a not-found style error instead.
 - `internal/buildsitemap/` builds both `sitemap.xml` and `robots.txt` from the same prebuilt post index.
-- The sitemap includes the home page, one URL per discovered category slug, and one URL per indexed post. Category and post URLs use query-string routes, and post entries include `lastmod` when a post date exists.
+- The sitemap includes the home page, one URL per discovered category slug, one URL per indexed post, and standalone pages from `pages/`. Category, post, and page URLs use clean routes (`/content/<folder>/`, `/content/<folder>/<slug>`, `/pages/<slug>`), and post/page entries include `lastmod` when available.
 - Sitemap `changefreq` and `priority` values come from the `[sitemap]` config block.
 - The generated `robots.txt` is intentionally simple: it allows all crawlers and advertises the sitemap URL.
 - In production, `server/seo.go` serves the prebuilt `sitemap.xml` and `robots.txt` files from disk. For local development, if those files are absent, the handler can generate fallback responses dynamically so `make serve` still works without running the build step first.
@@ -39,7 +39,9 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - The embed build can override `TemplateFS` and `AssetsFS` so templates and assets come from the repository-root `go:embed` bundle in `embed.go`.
 - `embed.go` lives at the repository root because `go:embed` cannot reach sibling directories through `..`; placing it there lets one package embed both `templates/` and `assets/` directly.
 - `embed.go` exposes `EmbeddedTemplates()` and `EmbeddedAssets()`, each returning an `fs.FS` rooted to the corresponding subtree via `fs.Sub`.
-- `cmd/lambda-embed/main.go` assigns those embedded filesystems to `server.TemplateFS` and `server.AssetsFS` before building the HTTP handler, so the rest of the server code can keep using the same filesystem abstraction without special cases.
+- `cmd/lambda-embed/main.go` passes `mdblog.EmbeddedTemplates()` and `mdblog.EmbeddedAssets()` via `server.NewWithOptions`, so the rest of the server code uses injected `fs.FS` instances without mutating package-level globals.
+- Static chrome (`menu`, `footerHTML`, `cssVersion`, `versionInfo`, `indexBlurb`) is precomputed once in `server.NewWithOptions()` instead of on every HTTP request.
+- `internal/server/handler.go` uses Go's `http.ServeMux` for declarative routing and `http.FileServerFS` for `/assets/*`.
 - The purpose of the embed variant is deployment simplicity: the compiled Lambda binary already contains the UI templates and static assets, so the embed Docker image does not need `templates/` or `assets/` copied alongside it at runtime.
 - Posts, pages, config, and generated feed and sitemap files still stay on disk in the embed image; `embed.go` is only for templates and assets.
 - Each route prepares a shared `templateData` struct that carries global page state such as `Config`, menu links, footer HTML, version info, canonical URL, JSON-LD, and page-specific fields like `Post`, `Posts`, `Page`, `Categories`, and pagination.
@@ -59,18 +61,17 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - If render timing is enabled but no build commit is available, the footer still shows the render time by itself.
 - Non-HTML artifact endpoints such as `/feed.xml` do not use the footer because they do not render through `layout.html`.
 
-## CSS Themes
+## CSS Themes & Client JS
 
 - Theme selection is global and configuration-driven through `css_theme` in `config.toml`.
-- To prevent relative path resolution issues on deep nested request paths (such as legacy URL resolutions), the `css_theme` path is normalized at configuration load time and server initialization to guarantee a root-relative leading slash `/` if the path is relative.
-- The layout template emits a single stylesheet link using `.Config.CSSTheme`, and the server adds a `?v=` query parameter based on the selected file's modification time so CSS changes bust caches without changing filenames.
-- Static CSS files are served through the `/assets/*` route from `AssetsFS`, which points at the on-disk `assets/` directory in the default build and can be swapped to embedded assets in the embed build.
-- The current stylesheet set is `assets/css/base.style.css`, `assets/css/default.style.css`, and `assets/css/anthropic.style.css`.
-- `base.style.css` is the shared structural layer: reset rules, CSS variables, layout primitives, typography, menus, cards, and other common component styles.
-- `anthropic.style.css` is a theme built on top of that shared layer via `@import "base.style.css"`; it overrides design tokens and adds theme-specific component styling.
-- `default.style.css` is a standalone theme file with its own full rule set rather than importing `base.style.css`.
-- Theme switching between light and dark modes is client-side: `layout.html` stores the selected mode in `localStorage` under `theme-mode`, sets `data-theme` on the root element, and each theme file defines light variables, explicit `:root[data-theme="dark"]` overrides, plus a `prefers-color-scheme: dark` fallback when no explicit choice has been stored.
-- This means MDBlog chooses one CSS file at runtime, and that CSS file internally handles both the visual design and the light/dark variant behavior.
+- To prevent relative path resolution issues on deep nested request paths, `css_theme` is normalized at configuration load time and server initialization to guarantee a root-relative leading slash `/` if the path is relative.
+- `layout.html` loads `/assets/css/base.style.css` and the active theme stylesheet in parallel via separate `<link>` tags (avoiding CSS `@import` waterfalls), both cache-busted with `?v={{ .CSSVersion }}`.
+- Static assets are served through `/assets/*` via `http.FileServerFS(assetsFS)` (on-disk `assets/` in default builds, embedded via `go:embed` in `cmd/lambda-embed`).
+- `assets/css/base.style.css` is the single shared structural layer and default light/dark token set. Both `assets/css/anthropic.style.css` and `assets/css/default.style.css` layer on top of it as clean overrides with zero `!important` rules.
+- Light/dark mode uses native CSS `color-scheme: light dark` and `light-dark(...)` tokens in a single `:root` block per theme, with `:root[data-theme="light"]` / `:root[data-theme="dark"]` switching `color-scheme` cleanly without duplicating dark palettes.
+- Client-side behavior lives in one tiny file, `assets/js/site.js` (loaded in `<head>` with `?v=`), which applies any saved `localStorage` `theme-mode` before first paint, binds the `.theme-toggle` button, and closes open `<details class="nav-dropdown">` menus on outside click or `Escape`.
+- Navigation dropdowns use native `<details class="nav-dropdown" name="nav-dropdown">` / `<summary>` elements (keyboard-accessible, zero-JS toggling, plus CSS hover on fine-pointer desktop).
+- Because templates contain zero inline `<script>`, `onclick`, or `style=` attributes, `[csp]` in `config.toml` enforces strict `script-src 'self'; style-src 'self';` with no `'unsafe-inline'`.
 
 ## Typography Design Decision
 
@@ -100,7 +101,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 - Local dev uses `make serve`.
 - Local container preview uses `make docker-run`, which delegates to `docker compose up --build` and reads `docker-compose.yml` from the repo root.
-- `docker-compose.yml` defines a single `blog` service that builds from the standard root `Dockerfile`, tags the resulting image as `mdblog:latest`, and then overrides the container command to `/mdblog serve` so local Docker runs the plain HTTP server instead of the Lambda entry point.
+- `docker-compose.yml` defines a single `blog` service that builds from `Dockerfile.debug`, tags the resulting image as `mdblog:latest`, and then overrides the container command to `/mdblog serve` so local Docker runs the plain HTTP server instead of the Lambda entry point.
 - The compose service sets `PORT=8080`, publishes host `8080` to container `8080`, and uses `restart: unless-stopped` for local restarts.
 - The compose file also applies the same local hardening intent as production by setting `read_only: true`, `security_opt: [no-new-privileges:true]`, and `cap_drop: [ALL]`, and it declares a `64M` memory limit under `deploy.resources.limits`.
 - Tests use `make test` and depend on building index, feed, and sitemap first.
@@ -116,7 +117,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - Docker targets: `docker-build`, `docker-build-debug`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.
 - `help` is the default goal and prints the annotated target list from the Makefile.
 - `render` is argument-driven and supports forms like `make render random`, `make render [category] random`, and `make render filename.md`.
-- `request` is variable-driven and simulates a GET request (e.g. `make request URL="/page?slug=about"`).
+- `request` is variable-driven and simulates a GET request (e.g. `make request URL="/pages/about"`).
 - `new-post` scaffolds a Markdown post using `TITLE` and optional `CATEGORY` and `TAGS` variables.
 
 ## Testing Model
@@ -133,8 +134,8 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - The production image is built via `Dockerfile` and is a multi-stage `FROM scratch` build that copies in the `lambda-embed` binary plus CA certificates, `config.toml`, and the content/pages and generated files: `content/`, `pages/`, `feed.xml`, `sitemap.xml`, and `robots.txt`. Templates and assets are fully embedded in the binary.
 - The debug image variant is built via `Dockerfile.debug` and keeps the templates/assets on disk so they can be read dynamically in local development environments.
 - The image is intended to run read-only, with no mutable application state and no runtime build step.
-- In the production `Dockerfile`, the build stage produces two binaries, `/out/lambda-embed` and `/out/mdblog`, then uses `/out/mdblog` to generate `content/content.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt` before copying only CA certificates, `/out/lambda-embed` (as `/lambda`), config, content, and generated XML/txt files into the final scratch image.
-- In `Dockerfile.debug`, the build stage produces `/out/lambda` and `/out/mdblog`, generates the same derived content artifacts, and copies all binaries, content, pages, templates, assets, config, and generated XML/txt files into the final image.
+- In the production `Dockerfile`, the build stage produces `/out/lambda-embed` and `/out/mdblog`, then runs `/out/mdblog build` to generate `content/content.index.json`, `feed.xml`, `sitemap.xml`, and `robots.txt` before copying only CA certificates, `/out/lambda-embed` (as `/lambda`), config, content, pages, and generated XML/txt files into the final scratch image.
+- In `Dockerfile.debug`, the build stage produces `/out/lambda` and `/out/mdblog`, runs `/out/mdblog build`, and copies all binaries, content, pages, templates, assets, config, and generated XML/txt files into the final image.
 
 ## Write → Commit → Publish Flow
 
@@ -149,7 +150,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 ## Content and Persistence Model
 
 - MDBlog has no database because its source of truth is the repository content itself: posts are Markdown files under `content/`, standalone pages are Markdown files under `pages/`, and runtime settings live in `config.toml`.
-- Listing and search do not query a database; they read the pre-built `content/content.index.json` metadata file generated during the image build.
+- Listing and search do not query a database; they read the pre-built `content/content.index.json` metadata file generated during the image build. `Blog.loadPostIndex()` caches the parsed index and a `slug → IndexPost` map in memory (guarded by `sync.RWMutex` and auto-reloaded on `ModTime`/`Size` change for local dev).
 - Single post and page requests still read the corresponding Markdown file from disk inside the container and render it on demand.
 - RSS and SEO files are also pre-generated during the image build, then served as static runtime artifacts.
 - If the post index is missing or invalid, the blog can fall back to scanning Markdown files directly, which preserves correctness without introducing a database dependency.

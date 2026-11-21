@@ -81,9 +81,9 @@ endif
 render: ## Render a post to HTML: make render random | make render [category] random | make render filename.md
 	go run ./cmd/mdblog render $(RENDER_ARGS)
 
-request: ## Simulate a GET request: make request URL="/page?slug=about"
+request: ## Simulate a GET request: make request URL="/pages/about"
 	@if [ -z "$(URL)" ]; then \
-		echo "Usage: make request URL=\"/page?slug=about\""; exit 1; \
+		echo "Usage: make request URL=\"/pages/about\""; exit 1; \
 	fi
 	go run ./cmd/mdblog request "$(URL)"
 

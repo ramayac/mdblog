@@ -1,7 +1,6 @@
 package render
 
 import (
-	"encoding/json"
 	"fmt"
 	"io"
 	"math/rand"
@@ -33,7 +32,7 @@ func Run(cfg *config.Config, args []string) error {
 		}
 	}
 
-	index, err := loadIndex(cfg.PostIndexFile)
+	index, err := blog.LoadIndex(cfg.PostIndexFile)
 	if err != nil {
 		return fmt.Errorf("render: load index: %w", err)
 	}
@@ -95,22 +94,20 @@ func Run(cfg *config.Config, args []string) error {
 	// We reuse the server's template machinery via a fake HTTP round-trip.
 	h := server.New(cfg, b)
 
-	url := "/post?slug=" + target.Slug
-	if target.CategorySlug != "" {
-		url += "&category=" + target.CategorySlug
-	}
+	url := cfg.PostPath(target.CategorySlug, target.Slug)
 
 	req := httptest.NewRequest(http.MethodGet, url, nil)
 	rr := httptest.NewRecorder()
 	h.ServeHTTP(rr, req)
 
 	resp := rr.Result()
+	defer resp.Body.Close()
 	htmlBytes, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return fmt.Errorf("render: read response body: %w", err)
 	}
-	if resp.StatusCode == http.StatusNotFound {
-		return fmt.Errorf("render: post not found (slug=%s category=%s)", target.Slug, target.CategorySlug)
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("render: unexpected status %d for %s (slug=%s category=%s)", resp.StatusCode, url, target.Slug, target.CategorySlug)
 	}
 
 	html := string(htmlBytes)
@@ -142,16 +139,4 @@ func orUncategorized(s string) string {
 		return "(uncategorized)"
 	}
 	return s
-}
-
-func loadIndex(path string) ([]buildindex.IndexPost, error) {
-	data, err := os.ReadFile(path)
-	if err != nil {
-		return nil, err
-	}
-	var posts []buildindex.IndexPost
-	if err := json.Unmarshal(data, &posts); err != nil {
-		return nil, err
-	}
-	return posts, nil
 }

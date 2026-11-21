@@ -10,7 +10,7 @@ Author: [@ramayac](https://x.com/ramayac).
 ## Features
 
 - Write posts in Markdown with YAML-style front matter
-- **Standalone pages** (`pages/` directory, `/page?slug=`) — About, Projects, or any single page without dates or categories
+- **Standalone pages** (`pages/` directory, `/pages/<slug>`) — About, Privacy, Support, or any single page without dates or categories
 - Built-in pagination powered by a **build-time metadata index** (handles 300+ posts without Lambda timeouts)
 - Standalone search page using the pre-built metadata index
 - **RSS 2.0 feed** (`/feed.xml`) generated at build time; human-readable feed page at `/feed`
@@ -122,7 +122,7 @@ The nav bar is driven entirely by `config.toml` and renders in three layers:
 
 1. **`[[menu_links]]`** — static links, always shown first (e.g. Home, About).
 2. **`[[menu.pinned]]`** — category links shown directly in the bar (no dropdown).
-3. **`[menu.categories]`** — category links grouped into a single **dropdown**, labelled by `menu.categories.label`.
+3. **`[[menu.dropdowns]]`** — one or more dropdown menus, each with a `label` and `item` list.
 
 ```toml
 # Static links
@@ -132,28 +132,24 @@ url   = "/"
 
 [[menu_links]]
 label = "About"
-url   = "/page?slug=about"
+url   = "/pages/about"
 
 # Pinned categories — shown inline in the nav bar
 [[menu.pinned]]
 category = "guides"
 order    = 2
 
-# Dropdown section — all items appear under a single "Writings" button
-[menu.categories]
+# Dropdown sections
+[[menu.dropdowns]]
 label = "Writings"
-
-[[menu.categories.item]]
-category = "personal"
-order    = 1
-
-[[menu.categories.item]]
-category = "srbyte"
-order    = 2
+item = [
+    { category = "personal", order = 1 },
+    { category = "srbyte", order = 2 }
+]
 ```
 
-Result: `HOME | ABOUT | GUIDES | WRITINGS ▾ | 🔍 | 🌓`  
-Hovering **WRITINGS ▾** opens the dropdown with all `menu.categories.item` links.
+Result: `HOME | ABOUT | GUIDES | WRITINGS ▾ | 🔍 | 🌓`
+Hovering **WRITINGS ▾** opens the dropdown with all configured category links.
 
 ## Standalone Pages
 
@@ -169,17 +165,17 @@ Add a nav link in `config.toml`:
 ```toml
 [[menu_links]]
 label = "About"
-url   = "/page?slug=about"
+url   = "/pages/about"
 ```
 
-Routes: `/page?slug=<slug>` renders `pages/<slug>.md` using `templates/page.html`.
+Routes: `/pages/<slug>` renders `pages/<slug>.md` using `templates/page.html` (legacy `/page?slug=<slug>` 301-redirects here).
 
 ## Landing Page and Search
 
 The home page (`/` with no query params) shows a static landing page with category cards.
 To add an optional intro blurb above the cards, create `content/index.md`.
 
-Browsing posts: `/?category=slug`
+Browsing posts: `/content/<folder>/`
 Searching posts: `/?q=keyword` (requires the post metadata index)
 
 ## RSS Feed
@@ -316,16 +312,18 @@ Edit `config.toml` to customize all settings. Key fields:
 
 ```
 cmd/
-  mdblog/           # CLI: serve | build-index | render | version
+  mdblog/           # CLI: serve | build | build-index | build-feed | build-sitemap | render | request | lint-links | content-count | version
   lambda/           # AWS Lambda entry point (disk-based templates/assets)
   lambda-embed/     # AWS Lambda entry point (templates+assets in binary)
 internal/
-  blog/             # Core domain: posts, pages, pagination, menu, search
-  buildindex/       # Build-time index generator
-  config/           # TOML config loader
+  blog/             # Core domain: posts, pages, pagination, menu, search, cached index
+  buildfeed/        # Build-time RSS 2.0 feed generator
+  buildindex/       # Build-time metadata index generator
+  buildsitemap/     # Build-time sitemap.xml and robots.txt generator
+  config/           # TOML config loader + canonical URL helpers
   markdown/         # Front matter parser + Goldmark renderer
-  render/           # CLI render subcommand
-  server/           # net/http handler: routing, templates, gzip, CSP
+  render/           # CLI render and request subcommands
+  server/           # net/http ServeMux handler: routing, FileServerFS, templates, gzip, CSP, SEO
 templates/          # Go html/template files (*.html)
 assets/css/         # CSS themes
 assets/js/          # Per-post JavaScript files

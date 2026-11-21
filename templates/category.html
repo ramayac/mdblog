@@ -5,7 +5,7 @@
 
 <main class="main-content">
     {{ if .SubCategories }}
-    <div class="category-cards" style="margin-bottom: 2rem;">
+    <div class="category-cards subcategories-grid">
         {{ range .SubCategories }}
         <a href="/content/{{ .Folder }}/" class="category-card">
             <h3>{{ .BlogName }}</h3>

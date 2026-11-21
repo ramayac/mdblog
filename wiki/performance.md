@@ -63,3 +63,15 @@ Measures raw HTTP server performance under Go 1.26 (1000 requests, 10 concurrenc
 * **Average Latency**: **1.84 milliseconds**
 * **99% Latency**: **5.0 milliseconds**
 
+---
+
+## 3. Post-Optimization Results (2026-11-21)
+
+After caching `content.index.json` in memory (guarded by `sync.RWMutex` with `ModTime`/`Size` invalidation for local dev), indexing slugs in a `map[string]IndexPost`, precomputing static server chrome (`menu`, `footerHTML`, `cssVersion`, `versionInfo`, `indexBlurb`) in `server.NewWithOptions()`, and hoisting regex compilation out of hot paths:
+
+| Benchmark | Before | After | Speedup |
+|-----------|--------|-------|---------|
+| Realistic User Traffic Simulation (500 reqs) | 1.27 ms avg (637.8 ms total) | **0.35 ms (348 µs) avg** (174.0 ms total) | **3.6x faster** |
+| Legacy URL Resolution (`ResolveOldURL`, 500 reqs) | 4.02 ms avg | **0.81 ms (810 µs) avg** (405.2 ms total) | **5.0x faster** |
+| `go test -race ./internal/blog` | 37.8 s | **19.7 s** | **1.9x faster** |
+

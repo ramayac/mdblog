@@ -1,6 +1,8 @@
 package server
 
 import (
+	"compress/gzip"
+	"io"
 	"io/fs"
 	"net/http"
 	"net/http/httptest"
@@ -560,5 +562,149 @@ func TestFaviconRoute(t *testing.T) {
 	contentType := w.Header().Get("Content-Type")
 	if contentType != "image/x-icon" {
 		t.Errorf("Content-Type = %q, want 'image/x-icon'", contentType)
+	}
+}
+
+func Test404GzipHeaderOrder(t *testing.T) {
+	t.Setenv("AWS_LAMBDA_FUNCTION_NAME", "")
+	h := testSetup(t)
+	req := httptest.NewRequest(http.MethodGet, "/content/does-not-exist", nil)
+	req.Header.Set("Accept-Encoding", "gzip")
+	w := httptest.NewRecorder()
+	h.ServeHTTP(w, req)
+
+	if w.Code != http.StatusNotFound {
+		t.Fatalf("status = %d, want 404", w.Code)
+	}
+	if ce := w.Header().Get("Content-Encoding"); ce != "gzip" {
+		t.Fatalf("Content-Encoding = %q, want gzip", ce)
+	}
+	gr, err := gzip.NewReader(w.Body)
+	if err != nil {
+		t.Fatalf("gzip.NewReader failed: %v", err)
+	}
+	defer gr.Close()
+	raw, err := io.ReadAll(gr)
+	if err != nil {
+		t.Fatalf("read gunzipped body: %v", err)
+	}
+	if !strings.Contains(string(raw), "404") {
+		t.Errorf("expected 404 page in gunzipped body")
+	}
+}
+
+func TestCSSVersionAndPerPostJSFromAssetsFS(t *testing.T) {
+	oldAssets := AssetsFS
+	defer func() { AssetsFS = oldAssets }()
+
+	modTime := time.Unix(1700000000, 0)
+	AssetsFS = fstest.MapFS{
+		"css/default.style.css": &fstest.MapFile{
+			Data:    []byte("body{}"),
+			Mode:    0644,
+			ModTime: modTime,
+		},
+		"js/demo.js": &fstest.MapFile{
+			Data: []byte("console.log('ok');"),
+			Mode: 0644,
+		},
+	}
+
+	if got := cssVersion(AssetsFS, "/assets/css/default.style.css", "abc123"); got != "1700000000" {
+		t.Errorf("cssVersion with ModTime = %q, want 1700000000", got)
+	}
+	if got := cssVersion(AssetsFS, "/assets/css/missing.css", "abc123"); got != "abc123" {
+		t.Errorf("cssVersion fallback commit = %q, want abc123", got)
+	}
+	if !assetExists(AssetsFS, "js/demo.js") {
+		t.Error("expected assetExists(js/demo.js) to be true")
+	}
+	if assetExists(AssetsFS, "../secret.js") {
+		t.Error("expected traversal path to be rejected")
+	}
+}
+
+func TestLegacyRedirects(t *testing.T) {
+	h := testSetup(t)
+	cases := []struct {
+		path     string
+		wantCode int
+		wantLoc  string
+	}{
+		{"/?category=srbyte", http.StatusMovedPermanently, "/content/srbyte/"},
+		{"/?category=srbyte&page=2", http.StatusMovedPermanently, "/content/srbyte/?page=2"},
+		{"/page?slug=about", http.StatusMovedPermanently, "/pages/about"},
+		{"/page", http.StatusFound, "/"},
+		{"/post?slug=linux-commands&category=srbyte", http.StatusMovedPermanently, "/content/srbyte/linux-commands"},
+		{"/post?slug=linux-commands", http.StatusMovedPermanently, "/content/srbyte/linux-commands"},
+		{"/post", http.StatusFound, "/"},
+		{"/search/label/linux", http.StatusMovedPermanently, "/?q=linux&search=true"},
+	}
+	for _, tc := range cases {
+		w := get(h, tc.path)
+		if w.Code != tc.wantCode {
+			t.Errorf("GET %s: status = %d, want %d", tc.path, w.Code, tc.wantCode)
+		}
+		if loc := w.Header().Get("Location"); loc != tc.wantLoc {
+			t.Errorf("GET %s: Location = %q, want %q", tc.path, loc, tc.wantLoc)
+		}
+	}
+}
+
+func TestPostETagAnd304(t *testing.T) {
+	h := testSetup(t)
+	path := "/content/srbyte/linux-commands"
+
+	w1 := get(h, path)
+	if w1.Code != http.StatusOK {
+		t.Fatalf("first GET status = %d, want 200", w1.Code)
+	}
+	etag := w1.Header().Get("ETag")
+	if etag == "" {
+		t.Fatal("expected ETag header on post response")
+	}
+
+	req := httptest.NewRequest(http.MethodGet, path, nil)
+	req.Header.Set("If-None-Match", etag)
+	w2 := httptest.NewRecorder()
+	h.ServeHTTP(w2, req)
+	if w2.Code != http.StatusNotModified {
+		t.Errorf("conditional GET status = %d, want 304", w2.Code)
+	}
+}
+
+func TestNewWithOptionsInjectedFS(t *testing.T) {
+	h := testSetup(t)
+	injected := NewWithOptions(h.cfg, h.b, Options{
+		TemplateFS: os.DirFS("../../templates"),
+		AssetsFS: fstest.MapFS{
+			"css/default.style.css": &fstest.MapFile{
+				Data:    []byte("body{color:red}"),
+				Mode:    0644,
+				ModTime: time.Unix(1700000000, 0),
+			},
+		},
+	})
+	w := get(injected, "/assets/css/default.style.css")
+	if w.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w.Code)
+	}
+	if !strings.Contains(w.Body.String(), "color:red") {
+		t.Errorf("expected injected asset body, got %q", w.Body.String())
+	}
+}
+
+func TestSearchXSSAutoEscaped(t *testing.T) {
+	h := testSetup(t)
+	w := get(h, "/?q=%3Cscript%3Ealert(1)%3C/script%3E")
+	if w.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w.Code)
+	}
+	body := w.Body.String()
+	if strings.Contains(body, "<script>alert(1)</script>") {
+		t.Error("raw <script> tag from query must be HTML-escaped")
+	}
+	if !strings.Contains(body, "&lt;script&gt;alert(1)&lt;/script&gt;") {
+		t.Error("expected escaped query string in search results summary")
 	}
 }

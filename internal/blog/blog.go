@@ -10,8 +10,10 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"sync"
 	"time"
 	"unicode"
+	"unicode/utf8"
 
 	"github.com/ramayac/mdblog/internal/config"
 	"github.com/ramayac/mdblog/internal/markdown"
@@ -87,8 +89,8 @@ type VersionInfo struct {
 	Date    string
 }
 
-// indexPost mirrors the JSON fields in posts.index.json.
-type indexPost struct {
+// IndexPost represents a post metadata entry stored in content.index.json.
+type IndexPost struct {
 	Slug         string `json:"slug"`
 	Title        string `json:"title"`
 	Date         string `json:"date"`
@@ -100,16 +102,26 @@ type indexPost struct {
 	Filename     string `json:"filename"`
 }
 
+type indexPost = IndexPost
+
 var (
 	slugCleanupRegex = regexp.MustCompile(`[^a-z0-9]+`)
 	datePrefixRegex  = regexp.MustCompile(`^\d{4}-\d{2}-\d{2}-`)
 	whitespaceRegex  = regexp.MustCompile(`\s+`)
+	htmlTagRegex     = regexp.MustCompile(`<[^>]+>`)
 )
 
 // Blog is the core service for reading and serving blog posts.
 type Blog struct {
 	cfg             *config.Config
+	categoriesOnce  sync.Once
 	categoriesCache map[string]*CategoryInfo
+
+	indexMu      sync.RWMutex
+	indexModTime time.Time
+	indexSize    int64
+	indexPosts   []indexPost
+	indexBySlug  map[string]indexPost
 }
 
 // New creates a Blog backed by the given config.
@@ -155,23 +167,13 @@ func (b *Blog) SearchPosts(query string, page int) PostList {
 		}
 	}
 	sortPostsByDate(results)
-	total := len(results)
-	perPage := b.cfg.PostsPerPage
-	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
-	offset := (page - 1) * perPage
-	if offset > total {
-		offset = total
-	}
-	end := offset + perPage
-	if end > total {
-		end = total
-	}
+	offset, end, pag := paginateBounds(len(results), page, b.cfg.PostsPerPage)
 	posts := results[offset:end]
 	b.attachCategories(posts)
 	return PostList{
 		Posts:        posts,
-		Pagination:   b.buildPagination(page, totalPages),
-		TotalMatches: total,
+		Pagination:   pag,
+		TotalMatches: len(results),
 	}
 }
 
@@ -278,56 +280,33 @@ func (b *Blog) GetMenu() []MenuLink {
 
 // GetNavPinned returns navigation links for menu.pinned entries, sorted by Order.
 func (b *Blog) GetNavPinned() []MenuLink {
-	refs := make([]config.MenuCategoryRef, len(b.cfg.Menu.Pinned))
-	copy(refs, b.cfg.Menu.Pinned)
-	sort.Slice(refs, func(i, j int) bool {
-		if refs[i].Order != refs[j].Order {
-			return refs[i].Order < refs[j].Order
-		}
-		return refs[i].Category < refs[j].Category
-	})
-	var links []MenuLink
-	for _, ref := range refs {
-		cat, ok := b.cfg.Categories[ref.Category]
-		if !ok {
-			continue
-		}
-		folder := cat.Folder
-		if folder == "" {
-			folder = ref.Category
-		}
-		links = append(links, MenuLink{
-			Label: cat.BlogName,
-			URL:   "/content/" + folder + "/",
-		})
-	}
-	return links
+	return b.resolveCategoryRefs(b.cfg.Menu.Pinned)
 }
 
 // GetDropdownCategories returns navigation links for a dropdown's item entries,
 // sorted by Order.
 func (b *Blog) GetDropdownCategories(dropdown config.MenuDropdown) []MenuLink {
-	refs := make([]config.MenuCategoryRef, len(dropdown.Item))
-	copy(refs, dropdown.Item)
-	sort.Slice(refs, func(i, j int) bool {
-		if refs[i].Order != refs[j].Order {
-			return refs[i].Order < refs[j].Order
+	return b.resolveCategoryRefs(dropdown.Item)
+}
+
+func (b *Blog) resolveCategoryRefs(refs []config.MenuCategoryRef) []MenuLink {
+	sorted := make([]config.MenuCategoryRef, len(refs))
+	copy(sorted, refs)
+	sort.Slice(sorted, func(i, j int) bool {
+		if sorted[i].Order != sorted[j].Order {
+			return sorted[i].Order < sorted[j].Order
 		}
-		return refs[i].Category < refs[j].Category
+		return sorted[i].Category < sorted[j].Category
 	})
 	var links []MenuLink
-	for _, ref := range refs {
+	for _, ref := range sorted {
 		cat, ok := b.cfg.Categories[ref.Category]
 		if !ok {
 			continue
 		}
-		folder := cat.Folder
-		if folder == "" {
-			folder = ref.Category
-		}
 		links = append(links, MenuLink{
 			Label: cat.BlogName,
-			URL:   "/content/" + folder + "/",
+			URL:   b.cfg.CategoryPath(ref.Category),
 		})
 	}
 	return links
@@ -354,38 +333,37 @@ func (b *Blog) menuOrderForSlug(slug string) int {
 // GetCategories returns all categories that have at least one post,
 // ordered by MenuOrder (ascending), then slug for ties.
 func (b *Blog) GetCategories() map[string]*CategoryInfo {
-	if b.categoriesCache != nil {
-		return b.categoriesCache
-	}
-	cats := make(map[string]*CategoryInfo)
-	for slug, cat := range b.cfg.Categories {
-		dir := filepath.Join(b.cfg.PostsDir, cat.Folder)
-		count := 0
-		err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+	b.categoriesOnce.Do(func() {
+		cats := make(map[string]*CategoryInfo)
+		for slug, cat := range b.cfg.Categories {
+			dir := filepath.Join(b.cfg.PostsDir, cat.Folder)
+			count := 0
+			err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+				if err != nil {
+					return err
+				}
+				if !d.IsDir() && strings.EqualFold(filepath.Ext(d.Name()), ".md") {
+					count++
+				}
+				return nil
+			})
 			if err != nil {
-				return err
+				continue
 			}
-			if !d.IsDir() && strings.EqualFold(filepath.Ext(d.Name()), ".md") {
-				count++
-			}
-			return nil
-		})
-		if err != nil {
-			continue
-		}
-		if count > 0 {
-			cats[slug] = &CategoryInfo{
-				BlogName:      cat.BlogName,
-				HeaderContent: cat.HeaderContent,
-				Folder:        cat.Folder,
-				Slug:          slug,
-				Count:         count,
-				MenuOrder:     b.menuOrderForSlug(slug),
+			if count > 0 {
+				cats[slug] = &CategoryInfo{
+					BlogName:      cat.BlogName,
+					HeaderContent: cat.HeaderContent,
+					Folder:        cat.Folder,
+					Slug:          slug,
+					Count:         count,
+					MenuOrder:     b.menuOrderForSlug(slug),
+				}
 			}
 		}
-	}
-	b.categoriesCache = cats
-	return cats
+		b.categoriesCache = cats
+	})
+	return b.categoriesCache
 }
 
 // GetCategoriesSorted returns categories sorted by MenuOrder (ascending), then slug,
@@ -493,21 +471,62 @@ func (b *Blog) GetConfig() *config.Config {
 // Index loading
 // ─────────────────────────────────────────────────────────────────────────────
 
-func (b *Blog) loadPostIndex() []indexPost {
-	path := b.cfg.PostIndexFile
-	if path == "" || !fileExists(path) {
-		return nil
-	}
+// LoadIndex reads and parses a content.index.json file from disk.
+func LoadIndex(path string) ([]IndexPost, error) {
 	data, err := os.ReadFile(path)
 	if err != nil {
-		log.Printf("blog: loadPostIndex read error: %v", err)
-		return nil
+		return nil, err
 	}
-	var posts []indexPost
+	var posts []IndexPost
 	if err := json.Unmarshal(data, &posts); err != nil {
-		log.Printf("blog: loadPostIndex parse error: %v — falling back to filesystem scan", err)
+		return nil, err
+	}
+	return posts, nil
+}
+
+func (b *Blog) loadPostIndex() []indexPost {
+	path := b.cfg.PostIndexFile
+	if path == "" {
 		return nil
 	}
+	info, err := os.Stat(path)
+	if err != nil {
+		return nil
+	}
+
+	b.indexMu.RLock()
+	if b.indexPosts != nil && b.indexModTime.Equal(info.ModTime()) && b.indexSize == info.Size() {
+		posts := b.indexPosts
+		b.indexMu.RUnlock()
+		return posts
+	}
+	b.indexMu.RUnlock()
+
+	b.indexMu.Lock()
+	defer b.indexMu.Unlock()
+
+	// Double-check after acquiring write lock.
+	if b.indexPosts != nil && b.indexModTime.Equal(info.ModTime()) && b.indexSize == info.Size() {
+		return b.indexPosts
+	}
+
+	posts, err := LoadIndex(path)
+	if err != nil {
+		log.Printf("blog: loadPostIndex error: %v — falling back to filesystem scan", err)
+		return nil
+	}
+
+	bySlug := make(map[string]indexPost, len(posts))
+	for _, ip := range posts {
+		if _, exists := bySlug[ip.Slug]; !exists {
+			bySlug[ip.Slug] = ip
+		}
+	}
+
+	b.indexPosts = posts
+	b.indexBySlug = bySlug
+	b.indexModTime = info.ModTime()
+	b.indexSize = info.Size()
 	return posts
 }
 
@@ -533,17 +552,7 @@ func (b *Blog) getPostsFromIndex(index []indexPost, page int, categorySlug strin
 		}
 	}
 
-	total := len(filtered)
-	perPage := b.cfg.PostsPerPage
-	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
-	offset := (page - 1) * perPage
-	if offset > total {
-		offset = total
-	}
-	end := offset + perPage
-	if end > total {
-		end = total
-	}
+	offset, end, pag := paginateBounds(len(filtered), page, b.cfg.PostsPerPage)
 
 	posts := make([]Post, 0, end-offset)
 	for _, ip := range filtered[offset:end] {
@@ -552,7 +561,7 @@ func (b *Blog) getPostsFromIndex(index []indexPost, page int, categorySlug strin
 	b.attachCategories(posts)
 	return PostList{
 		Posts:      posts,
-		Pagination: b.buildPagination(page, totalPages),
+		Pagination: pag,
 	}
 }
 
@@ -590,20 +599,10 @@ func (b *Blog) scanAndPaginate(page int, categorySlug string) PostList {
 		}
 	}
 	sortPostsByDate(posts)
-	total := len(posts)
-	perPage := b.cfg.PostsPerPage
-	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
-	offset := (page - 1) * perPage
-	if offset > total {
-		offset = total
-	}
-	end := offset + perPage
-	if end > total {
-		end = total
-	}
+	offset, end, pag := paginateBounds(len(posts), page, b.cfg.PostsPerPage)
 	return PostList{
 		Posts:      posts[offset:end],
-		Pagination: b.buildPagination(page, totalPages),
+		Pagination: pag,
 	}
 }
 
@@ -673,29 +672,30 @@ func (b *Blog) parsePost(fullPath string) (*Post, error) {
 // ResolveSlugViaIndex searches the post index for a slug and returns the full
 // filesystem path and category slug when found, or empty strings when not found.
 func (b *Blog) ResolveSlugViaIndex(slug string) (string, string) {
-	index := b.loadPostIndex()
-	if index == nil {
+	if b.loadPostIndex() == nil {
 		return "", ""
 	}
-	for _, ip := range index {
-		if ip.Slug == slug {
-			catSlug := ip.CategorySlug
-			if catSlug == "" {
-				candidate := filepath.Join(b.cfg.PostsDir, ip.Filename)
-				if fileExists(candidate) {
-					return candidate, ""
-				}
-				continue
-			}
-			cat, ok := b.cfg.Categories[catSlug]
-			if !ok {
-				continue
-			}
-			candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
-			if fileExists(candidate) {
-				return candidate, catSlug
-			}
+	b.indexMu.RLock()
+	ip, ok := b.indexBySlug[slug]
+	b.indexMu.RUnlock()
+	if !ok {
+		return "", ""
+	}
+	catSlug := ip.CategorySlug
+	if catSlug == "" {
+		candidate := filepath.Join(b.cfg.PostsDir, ip.Filename)
+		if fileExists(candidate) {
+			return candidate, ""
 		}
+		return "", ""
+	}
+	cat, ok := b.cfg.Categories[catSlug]
+	if !ok {
+		return "", ""
+	}
+	candidate := filepath.Join(b.cfg.PostsDir, cat.Folder, ip.Filename)
+	if fileExists(candidate) {
+		return candidate, catSlug
 	}
 	return "", ""
 }
@@ -732,10 +732,28 @@ func (b *Blog) attachCategories(posts []Post) {
 
 func sortPostsByDate(posts []Post) {
 	sort.Slice(posts, func(i, j int) bool {
-		ti, _ := time.Parse("2006-01-02", posts[i].Date)
-		tj, _ := time.Parse("2006-01-02", posts[j].Date)
-		return tj.Before(ti)
+		return posts[i].Date > posts[j].Date
 	})
+}
+
+func paginateBounds(total, page, perPage int) (int, int, Pagination) {
+	totalPages := max1(int(math.Ceil(float64(total) / float64(perPage))))
+	offset := (page - 1) * perPage
+	if offset > total {
+		offset = total
+	}
+	end := offset + perPage
+	if end > total {
+		end = total
+	}
+	return offset, end, Pagination{
+		Current: page,
+		Total:   totalPages,
+		HasNext: page < totalPages,
+		HasPrev: page > 1,
+		Next:    page + 1,
+		Prev:    page - 1,
+	}
 }
 
 func (b *Blog) buildPagination(current, total int) Pagination {
@@ -749,26 +767,54 @@ func (b *Blog) buildPagination(current, total int) Pagination {
 	}
 }
 
-func generateSlug(filename string) string {
+// SlugFromFilename derives a URL-safe slug from a post filename.
+func SlugFromFilename(filename string) string {
 	name := strings.TrimSuffix(filename, filepath.Ext(filename))
 	slug := strings.ToLower(name)
 	slug = slugCleanupRegex.ReplaceAllString(slug, "-")
 	return strings.Trim(slug, "-")
 }
 
-func titleFromFilename(filename string) string {
+// TitleFromFilename derives a fallback post title from a filename.
+func TitleFromFilename(filename string) string {
 	name := strings.TrimSuffix(filename, filepath.Ext(filename))
 	name = datePrefixRegex.ReplaceAllString(name, "")
 	name = strings.ReplaceAll(name, "-", " ")
 	name = strings.ReplaceAll(name, "_", " ")
-	return strings.Map(func(r rune) rune {
-		return unicode.ToTitle(r)
-	}, name[:1]) + name[1:]
+	if name == "" {
+		return ""
+	}
+	r, size := utf8.DecodeRuneInString(name)
+	return string(unicode.ToTitle(r)) + name[size:]
+}
+
+// AtomicWrite writes data to path via a temporary file and rename.
+func AtomicWrite(path string, data []byte) error {
+	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
+		return err
+	}
+	tmp := path + ".tmp"
+	if err := os.WriteFile(tmp, data, 0644); err != nil {
+		return err
+	}
+	if err := os.Rename(tmp, path); err != nil {
+		_ = os.Remove(tmp)
+		return err
+	}
+	return nil
+}
+
+func generateSlug(filename string) string {
+	return SlugFromFilename(filename)
+}
+
+func titleFromFilename(filename string) string {
+	return TitleFromFilename(filename)
 }
 
 func generateExcerpt(htmlContent string, length int) string {
 	// Strip all HTML tags
-	text := regexp.MustCompile(`<[^>]+>`).ReplaceAllString(htmlContent, "")
+	text := htmlTagRegex.ReplaceAllString(htmlContent, "")
 	text = whitespaceRegex.ReplaceAllString(text, " ")
 	text = strings.TrimSpace(text)
 	if len(text) <= length {
@@ -819,32 +865,9 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 	// 1. Try match with year/month constraint
 	for _, ip := range index {
 		if len(ip.Date) >= 7 && ip.Date[0:4] == year && ip.Date[5:7] == month {
-			normalized := b.normalizeSlugForMatch(ip.Slug)
-			cleanPost := cleanSlug(normalized)
-
-			// Prefix-restricted Levenshtein match (handles truncation/expansion in slug generation)
-			minLen := len(cleanPost)
-			if len(cleanOld) < minLen {
-				minLen = len(cleanOld)
-			}
-			var prefixMatch bool
-			if minLen >= 10 {
-				prefixMatch = levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
-			}
-
-			// Match if clean slugs are equal, one is a prefix/suffix of the other,
-			// or they are within Levenshtein distance of 2 (or 20% of length)
-			if cleanPost == cleanOld ||
-				strings.HasPrefix(cleanPost, cleanOld) ||
-				strings.HasPrefix(cleanOld, cleanPost) ||
-				strings.HasSuffix(cleanPost, cleanOld) ||
-				strings.HasSuffix(cleanOld, cleanPost) ||
-				levenshtein(cleanPost, cleanOld) <= 2 ||
-				levenshtein(cleanPost, cleanOld) <= len(cleanOld)/5 ||
-				prefixMatch {
-
-				post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
-				if post != nil {
+			cleanPost := cleanSlug(b.normalizeSlugForMatch(ip.Slug))
+			if slugMatchesPrefixOrExact(cleanPost, cleanOld) || slugMatchesFuzzy(cleanPost, cleanOld, false) {
+				if post := b.GetPostBySlug(ip.Slug, ip.CategorySlug); post != nil {
 					return post, true
 				}
 			}
@@ -854,26 +877,9 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 	// 2. Fallback: Search entire index without year/month constraint (handles publish vs draft date discrepancies)
 	// Pass 2a: Try exact, prefix, suffix match first
 	for _, ip := range index {
-		normalized := b.normalizeSlugForMatch(ip.Slug)
-		cleanPost := cleanSlug(normalized)
-
-		minLen := len(cleanPost)
-		if len(cleanOld) < minLen {
-			minLen = len(cleanOld)
-		}
-		var prefixMatch bool
-		if minLen >= 10 {
-			prefixMatch = levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
-		}
-
-		if cleanPost == cleanOld ||
-			strings.HasPrefix(cleanPost, cleanOld) ||
-			strings.HasPrefix(cleanOld, cleanPost) ||
-			strings.HasSuffix(cleanPost, cleanOld) ||
-			strings.HasSuffix(cleanOld, cleanPost) ||
-			prefixMatch {
-			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
-			if post != nil {
+		cleanPost := cleanSlug(b.normalizeSlugForMatch(ip.Slug))
+		if slugMatchesPrefixOrExact(cleanPost, cleanOld) {
+			if post := b.GetPostBySlug(ip.Slug, ip.CategorySlug); post != nil {
 				return post, true
 			}
 		}
@@ -881,18 +887,41 @@ func (b *Blog) ResolveOldURL(path string) (*Post, bool) {
 
 	// Pass 2b: Try Levenshtein match next
 	for _, ip := range index {
-		normalized := b.normalizeSlugForMatch(ip.Slug)
-		cleanPost := cleanSlug(normalized)
-		dist := levenshtein(cleanPost, cleanOld)
-		if dist <= 2 || (len(cleanOld) >= 10 && dist <= len(cleanOld)/5) {
-			post := b.GetPostBySlug(ip.Slug, ip.CategorySlug)
-			if post != nil {
+		cleanPost := cleanSlug(b.normalizeSlugForMatch(ip.Slug))
+		if slugMatchesFuzzy(cleanPost, cleanOld, true) {
+			if post := b.GetPostBySlug(ip.Slug, ip.CategorySlug); post != nil {
 				return post, true
 			}
 		}
 	}
 
 	return nil, false
+}
+
+// slugMatchesPrefixOrExact checks exact equality, prefix/suffix containment,
+// or prefix-restricted Levenshtein distance <= 2 for truncated slugs.
+func slugMatchesPrefixOrExact(cleanPost, cleanOld string) bool {
+	if cleanPost == cleanOld ||
+		strings.HasPrefix(cleanPost, cleanOld) ||
+		strings.HasPrefix(cleanOld, cleanPost) ||
+		strings.HasSuffix(cleanPost, cleanOld) ||
+		strings.HasSuffix(cleanOld, cleanPost) {
+		return true
+	}
+	minLen := min(len(cleanPost), len(cleanOld))
+	return minLen >= 10 && levenshtein(cleanPost[:minLen], cleanOld[:minLen]) <= 2
+}
+
+// slugMatchesFuzzy checks Levenshtein distance <= 2 or <= 20% of cleanOld length.
+func slugMatchesFuzzy(cleanPost, cleanOld string, requireMinLenForRatio bool) bool {
+	dist := levenshtein(cleanPost, cleanOld)
+	if dist <= 2 {
+		return true
+	}
+	if requireMinLenForRatio && len(cleanOld) < 10 {
+		return false
+	}
+	return dist <= len(cleanOld)/5
 }
 
 func levenshtein(s, t string) int {

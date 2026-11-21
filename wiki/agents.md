@@ -8,7 +8,7 @@ MDBlog is a lightweight, flat-file blog engine written in **Go 1.26**. Posts are
 
 ```
 cmd/
-  mdblog/           # CLI entry point: serve | build-index | build-feed | build-sitemap | render | request | version
+  mdblog/           # CLI entry point: serve | build | build-index | build-feed | build-sitemap | render | request | lint-links | content-count | version
   lambda/           # AWS Lambda entry point (reads templates/assets from disk)
   lambda-embed/     # AWS Lambda entry point (templates+assets embedded in binary)
 internal/
@@ -187,9 +187,13 @@ The debug-variant `Dockerfile.debug` is built using `make docker-build-debug`. I
 
 ### `internal/config`
 
-Loads and validates `config.toml`. Exported functions:
+Loads and validates `config.toml`, and centralizes canonical URL/folder helpers. Exported functions and methods:
 - `Load(path string) (*Config, error)` — parse and apply defaults
 - `MustLoad(path string) *Config` — panics on error (used by entry points)
+- `(*Config).CategoryFolder(slug string) string` — resolves configured folder (falling back to slug)
+- `(*Config).CategorySlugByFolder(folder string) (string, bool)` — reverse-maps a folder path to its category slug
+- `(*Config).CategoryPath(slug string) string` — canonical `/content/<folder>/` path
+- `(*Config).PostPath(categorySlug, postSlug string) string` — canonical `/content/[<folder>/]<slug>` path
 
 ### `internal/markdown`
 
@@ -200,31 +204,36 @@ Front matter extractor and Goldmark-based renderer.
 
 ### `internal/buildindex`
 
-Scans all post directories, calls `ParseMetaOnly` for each, and writes `content/content.index.json` atomically. Full Goldmark rendering is **never invoked** during index generation.
+Scans all post directories, calls `ParseMetaOnly` for each, and writes `content/content.index.json` atomically via `blog.AtomicWrite`. Full Goldmark rendering is **never invoked** during index generation. Shares `blog.IndexPost`, `blog.SlugFromFilename`, and `blog.TitleFromFilename`.
 - `Build(cfg *config.Config) error`
 
 ### `internal/blog`
 
 Core domain logic. The `Blog` struct is the main service object:
 - `New(cfg *config.Config) *Blog`
-- `GetPosts(category string, page int) (PostList, error)` — paginates from the JSON index
-- `SearchPosts(query string, page int) (PostList, error)` — full-text search via the JSON index
-- `GetPostBySlug(slug, category string) (*Post, error)` — reads + renders a single post
+- `IndexPost` — shared metadata struct for `content/content.index.json` (reused by `buildindex`, `buildfeed`, `buildsitemap`)
+- `SlugFromFilename(filename string) string`, `TitleFromFilename(filename string) string`, `AtomicWrite(path string, data []byte) error`
+- `GetPosts(page int, categorySlug string) PostList` — paginates from the cached JSON index
+- `SearchPosts(query string, page int) PostList` — full-text search via the cached JSON index
+- `GetPostBySlug(slug, category string) *Post` — reads + renders a single post (with O(1) index slug fallback)
 - `GetPage(slug string) *Page` — reads + renders a standalone page from `PagesDir`; path-traversal-safe
-- `GetCategories() map[string]*CategoryInfo`
-- `GetCategoryBySlug(slug string) (*CategoryInfo, bool)`
-- `GetMenu() []MenuLink` — returns flat links (`[[menu_links]]`, pinned) + multiple dropdown `MenuLink` entries configured in `[[menu.dropdowns]]`
+- `GetCategories() map[string]*CategoryInfo` — race-free via `sync.Once`
+- `GetCategoryBySlug(slug string) *CategoryInfo`
+- `GetMenu() []MenuLink` — returns flat links (`[[menu_links]]`), pinned categories (`[[menu.pinned]]`), and dropdown menus (`[[menu.dropdowns]]`)
 - `GetVersionInfo() VersionInfo`
+- **Index caching:** `loadPostIndex()` caches the parsed `[]IndexPost` and a `slug → IndexPost` map in memory guarded by `sync.RWMutex`, auto-reloading when the file's `ModTime` or `Size` changes (so local dev stays live while production avoids per-request disk reads and JSON unmarshaling).
 
 ### `internal/server`
 
-`net/http` handler. Key details:
-- `New(cfg *config.Config, b *blog.Blog) *Handler` — loads templates, returns the handler
-- `TemplateFS` and `AssetsFS` package-level variables — override in embed builds
-- Routes: `/` (home/category/search), `/content/*` (clean category and post routes), `/pages/*` (clean standalone page routes), `/feed.xml` (RSS), `/feed` (human-readable feed page), `/sitemap.xml`, `/robots.txt`, `/assets/*` (static files). Legacy `/post`, `/page`, `/?category=`, and Blogger year/month/slug URLs are 301-redirected to their clean equivalents.
-- Gzip compression via `compress/gzip` (when `Accept-Encoding: gzip` is present)
+`net/http` handler backed by `http.ServeMux` and `http.FileServerFS`. Key details:
+- `New(cfg *config.Config, b *blog.Blog) *Handler` — uses default `TemplateFS`/`AssetsFS`
+- `NewWithOptions(cfg *config.Config, b *blog.Blog, opts Options) *Handler` — injects `TemplateFS` and `AssetsFS` explicitly (used by `cmd/lambda-embed` without mutating globals)
+- Precomputes static chrome (`menu`, `footerHTML`, `cssVersion`, `versionInfo`, `indexBlurb`) once at startup
+- `cssVersion` reads CSS `ModTime` from `AssetsFS` and falls back to build commit hash for embedded builds
+- Routes: `/` (home/search), `/content/*` (clean category and post routes), `/pages/*` (clean standalone page routes), `/feed.xml` (RSS), `/feed` (human-readable feed page), `/sitemap.xml`, `/robots.txt`, `/assets/*` (via `http.FileServerFS` with traversal guard and `Cache-Control`), `/favicon.ico`. Legacy `/post`, `/page`, `/?category=`, `/search/label/`, and Blogger `/YYYY/MM/slug[.html]` URLs are 301-redirected to their clean equivalents.
+- Gzip compression via `compress/gzip` (when `Accept-Encoding: gzip` is present, skipped on Lambda; headers set before status code including on 404 responses)
 - CSP header injected per request when `csp.enabled = true`
-- Templates use `html/template` with custom functions: `safeHTML`, `formatDate`, `urlquery`, `postPreviewData`, `defaultStr`
+- Templates use `html/template` with custom functions: `safeHTML`, `formatDate`, `printf`, `postPreviewData`, `defaultStr` (stdlib `not` and `urlquery` are preserved unshadowed)
 - **`handler.go`**: routing, template rendering, HTTP helpers
 - **`seo.go`**: JSON-LD structured data builders (`buildWebSiteJSONLD`, `buildWebPageJSONLD`, `buildArticleJSONLD`) and HTTP handlers for `/sitemap.xml` and `/robots.txt` (serves pre-built files, falls back to dynamic generation during local dev)
 
@@ -258,7 +267,7 @@ The nav bar is built by `blog.GetMenu()`. Three sources, rendered in order:
 2. `[[menu.pinned]]` entries — category links shown directly in the bar (no dropdown), sorted by `order`.
 3. `[[menu.dropdowns]]` entries — a list of dropdown menus. Each dropdown entry specifies a `label` and a list of category references under `item` (each referencing `category` and an `order` hint).
 
-`MenuLink` carries a `SubItems []MenuLink` field. When `SubItems` is non-empty the template renders a `<div class="nav-dropdown">` with a button trigger; when empty it renders a plain `<a>` tag. Dropdown CSS lives in `base.style.css` (`.nav-dropdown`, `.nav-dropdown-content`); the anthropic theme overrides colours in `anthropic.style.css`.
+`MenuLink` carries a `SubItems []MenuLink` field. When `SubItems` is non-empty the template renders a native `<details class="nav-dropdown" name="nav-dropdown">` with a `<summary>` trigger; when empty it renders a plain `<a>` tag. Dropdown CSS lives in `base.style.css` (`.nav-dropdown`, `.nav-dropdown-content`), with theme overrides in `anthropic.style.css` and outside-click/`Escape` dismissal in `assets/js/site.js`.
 
 ## Category Config Flags & Sub-categories
 
@@ -277,24 +286,24 @@ Each `[categories.<slug>]` block in `config.toml` supports:
 MDBlog dynamically resolves parent/child category relationships by checking if a sub-category's folder starts with a parent category's folder prefix followed by a slash (e.g. `folder = "projects/android"` is resolved as a sub-category under parent category `projects` which has `folder = "projects"`).
 
 - **Homepage Index Filtering**: Sub-categories should set `index = false` to hide them from the landing page cards.
-- **Dynamic Render**: When a user visits the parent category page (e.g., `/?category=projects`), MDBlog populates `SubCategories` in `templateData` using `blog.GetSubCategories(parentSlug)`. The category template (`templates/category.html`) renders these sub-categories as cards at the top of the main listing, linking to `/?category=sub-category`.
+- **Dynamic Render**: When a user visits the parent category page (e.g., `/content/projects/`), MDBlog populates `SubCategories` in `templateData` using `blog.GetSubCategories(parentSlug)`. The category template (`templates/category.html`) renders these sub-categories as cards at the top of the main listing, linking to `/content/<sub-folder>/`.
 
 ## Landing Page, Category Page, Search, Feed, and Standalone Pages
 
 The server handler has **six rendering paths**:
 
 - **`/` with no query params** → Static landing page. Shows the blog header, optional `content/index.md` blurb, then auto-generated category cards (only those with `index = true`). **No post scanning.**
-- **`/?category=slug`** → Category post listing with pagination. If the category has sub-categories, it also renders them as card grids at the top.
-- **`/?q=keyword`** or **`/?search=1`** → Standalone search results page using the JSON index.
+- **`/content/<folder>/`** → Category post listing with pagination. If the category has sub-categories, it also renders them as card grids at the top.
+- **`/?q=keyword`** or **`/?search=1`** → Standalone search results page using the cached JSON index.
 - **`/feed.xml`** → Serves the pre-built RSS 2.0 feed from disk. Returns 404 when `feed.enabled = false`.
 - **`/feed`** → Human-readable feed page listing all posts (date | category | title). Uses `blog.GetFeedPosts(maxItems)`.
-- **`/page?slug=<slug>`** → Standalone page. Reads `<pages_dir>/<slug>.md`, renders it with `page.html` (no date, author, tags, or category breadcrumb).
+- **`/pages/<slug>`** → Standalone page. Reads `<pages_dir>/<slug>.md`, renders it with `page.html` (no date, author, tags, or category breadcrumb).
 
 To add a landing page blurb: create `content/index.md` with Markdown content. Delete it to show only the category cards.
 
 ## Standalone Pages
 
-Pages live in `PagesDir` (config key `pages_dir`, default `"pages"`). Any `<slug>.md` file there is served at `/page?slug=<slug>`.
+Pages live in `PagesDir` (config key `pages_dir`, default `"pages"`). Any `<slug>.md` file there is served at `/pages/<slug>` (legacy `/page?slug=<slug>` 301-redirects here).
 
 - **`blog.GetPage(slug string) *Page`** — path-traversal-safe reader: validates that the resolved absolute path is a child of `PagesDir` before calling `os.ReadFile`. Returns `nil` for unknown slugs.
 - **`templates/page.html`** — minimal template: just title + rendered body + a back-to-home link. No metadata section.
@@ -308,7 +317,7 @@ Pages live in `PagesDir` (config key `pages_dir`, default `"pages"`). Any `<slug
 - **Path traversal prevention:** `GetPostBySlug` and `GetPage` both validate that resolved file paths are within their respective directories (`PostsDir` / `PagesDir`). Any new file-reading code must do the same.
 - **CSP:** configured via `config.toml` `[csp]` block. Do not add `unsafe-eval` without a documented security justification.
 - **Gzip:** the server handler applies gzip compression. Any new HTTP entry point should do the same.
-- **No globals:** pass `*config.Config` and `*blog.Blog` explicitly. Do not introduce package-level mutable state (except the `TemplateFS`/`AssetsFS` embed overrides).
+- **No globals:** pass `*config.Config`, `*blog.Blog`, and `server.Options` (`TemplateFS`/`AssetsFS`) explicitly. Do not introduce package-level mutable state (`TemplateFS`/`AssetsFS` vars remain only as test defaults).
 - **Tests live in the same package** (white-box style). Run with `make test`.
 
 ## Adding a New Category
@@ -343,7 +352,6 @@ Listing, pagination, and search are driven by a **build-time metadata index** (`
 | `date` | front matter or file mtime |
 | `author` | front matter |
 | `tags` | front matter |
-| `description` | front matter |
 | `excerpt` | `description` or plain-text strip of raw Markdown body |
 | `category_slug` | parent folder slug |
 | `source_path` | relative path to `.md` file |
@@ -418,4 +426,4 @@ The feed table is UI chrome, not prose — set `font-family: var(--ui-font)` on 
 
 ### Custom Post Slugs and Dates
 
-By default, posts use the file naming format `YYYY-MM-DD-slug.md` which results in a date-prefixed slug (e.g. `2026-06-03-my-app`). For showcasing products or projects where a clean, permanent URL is desired (e.g. `/post?slug=my-app`), you can name the file without the date prefix (e.g. `my-app.md`). In this case, you **must** specify the date in the post's YAML front matter (`date: 2026-06-03`) to ensure it indexes and displays with the correct date.
+By default, posts use the file naming format `YYYY-MM-DD-slug.md` which results in a date-prefixed slug (e.g. `2026-06-03-my-app`). For showcasing products or projects where a clean, permanent URL is desired (e.g. `/content/projects/tools/my-app`), you can name the file without the date prefix (e.g. `my-app.md`). In this case, you **must** specify the date in the post's YAML front matter (`date: 2026-06-03`) to ensure it indexes and displays with the correct date.
