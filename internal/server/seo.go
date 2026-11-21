@@ -168,11 +168,15 @@ func buildBreadcrumbItems(cfg *config.Config, post *blog.Post, base, postURL str
 	}
 	pos := 2
 	if post.Category != nil {
+		folder := post.Category.Folder
+		if folder == "" {
+			folder = post.CategorySlug
+		}
 		items = append(items, map[string]any{
 			"@type":    "ListItem",
 			"position": pos,
 			"name":     post.Category.BlogName,
-			"item":     base + "/?category=" + post.CategorySlug,
+			"item":     base + "/content/" + folder + "/",
 		})
 		pos++
 	}

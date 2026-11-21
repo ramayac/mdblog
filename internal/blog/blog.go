@@ -10,8 +10,10 @@ import (
 	"regexp"
 	"sort"
 	"strings"
+	"sync"
 	"time"
 	"unicode"
+	"unicode/utf8"
 
 	"github.com/ramayac/mdblog/internal/config"
 	"github.com/ramayac/mdblog/internal/markdown"
@@ -109,6 +111,7 @@ var (
 // Blog is the core service for reading and serving blog posts.
 type Blog struct {
 	cfg             *config.Config
+	categoriesOnce  sync.Once
 	categoriesCache map[string]*CategoryInfo
 }
 
@@ -354,38 +357,37 @@ func (b *Blog) menuOrderForSlug(slug string) int {
 // GetCategories returns all categories that have at least one post,
 // ordered by MenuOrder (ascending), then slug for ties.
 func (b *Blog) GetCategories() map[string]*CategoryInfo {
-	if b.categoriesCache != nil {
-		return b.categoriesCache
-	}
-	cats := make(map[string]*CategoryInfo)
-	for slug, cat := range b.cfg.Categories {
-		dir := filepath.Join(b.cfg.PostsDir, cat.Folder)
-		count := 0
-		err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+	b.categoriesOnce.Do(func() {
+		cats := make(map[string]*CategoryInfo)
+		for slug, cat := range b.cfg.Categories {
+			dir := filepath.Join(b.cfg.PostsDir, cat.Folder)
+			count := 0
+			err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+				if err != nil {
+					return err
+				}
+				if !d.IsDir() && strings.EqualFold(filepath.Ext(d.Name()), ".md") {
+					count++
+				}
+				return nil
+			})
 			if err != nil {
-				return err
+				continue
 			}
-			if !d.IsDir() && strings.EqualFold(filepath.Ext(d.Name()), ".md") {
-				count++
-			}
-			return nil
-		})
-		if err != nil {
-			continue
-		}
-		if count > 0 {
-			cats[slug] = &CategoryInfo{
-				BlogName:      cat.BlogName,
-				HeaderContent: cat.HeaderContent,
-				Folder:        cat.Folder,
-				Slug:          slug,
-				Count:         count,
-				MenuOrder:     b.menuOrderForSlug(slug),
+			if count > 0 {
+				cats[slug] = &CategoryInfo{
+					BlogName:      cat.BlogName,
+					HeaderContent: cat.HeaderContent,
+					Folder:        cat.Folder,
+					Slug:          slug,
+					Count:         count,
+					MenuOrder:     b.menuOrderForSlug(slug),
+				}
 			}
 		}
-	}
-	b.categoriesCache = cats
-	return cats
+		b.categoriesCache = cats
+	})
+	return b.categoriesCache
 }
 
 // GetCategoriesSorted returns categories sorted by MenuOrder (ascending), then slug,
@@ -761,9 +763,11 @@ func titleFromFilename(filename string) string {
 	name = datePrefixRegex.ReplaceAllString(name, "")
 	name = strings.ReplaceAll(name, "-", " ")
 	name = strings.ReplaceAll(name, "_", " ")
-	return strings.Map(func(r rune) rune {
-		return unicode.ToTitle(r)
-	}, name[:1]) + name[1:]
+	if name == "" {
+		return ""
+	}
+	r, size := utf8.DecodeRuneInString(name)
+	return string(unicode.ToTitle(r)) + name[size:]
 }
 
 func generateExcerpt(htmlContent string, length int) string {

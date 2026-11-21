@@ -266,8 +266,8 @@ func (h *Handler) serveIndex(w http.ResponseWriter, r *http.Request) {
 
 	menu := h.b.GetMenu()
 	canonical := buildCanonical(r)
-	cssV := cssVersion(h.cfg.CSSTheme)
 	versionInfo := h.b.GetVersionInfo()
+	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
 	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 
 	base := templateData{
@@ -344,9 +344,9 @@ func (h *Handler) servPost(w http.ResponseWriter, r *http.Request) {
 
 	menu := h.b.GetMenu()
 	canonical := buildCanonical(r)
-	cssV := cssVersion(h.cfg.CSSTheme)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 	versionInfo := h.b.GetVersionInfo()
+	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 
 	base := templateData{
 		Config:     h.cfg,
@@ -401,7 +401,7 @@ func (h *Handler) renderSinglePost(w http.ResponseWriter, r *http.Request, start
 	var jsFiles []string
 	if post.FrontMatter.JS != "" {
 		jsFile := strings.TrimSpace(post.FrontMatter.JS)
-		if jsFile != "" && fileExists("assets/js/"+jsFile) {
+		if jsFile != "" && assetExists(AssetsFS, "js/"+jsFile) {
 			jsFiles = []string{jsFile}
 		}
 	}
@@ -437,9 +437,9 @@ func (h *Handler) serveStaticPage(w http.ResponseWriter, r *http.Request) {
 
 	menu := h.b.GetMenu()
 	canonical := buildCanonical(r)
-	cssV := cssVersion(h.cfg.CSSTheme)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 	versionInfo := h.b.GetVersionInfo()
+	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 
 	page := h.b.GetPage(slug)
 	if page == nil {
@@ -496,9 +496,9 @@ func (h *Handler) serveFeedPage(w http.ResponseWriter, r *http.Request) {
 	start := time.Now()
 	menu := h.b.GetMenu()
 	canonical := buildCanonical(r)
-	cssV := cssVersion(h.cfg.CSSTheme)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 	versionInfo := h.b.GetVersionInfo()
+	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 
 	posts := h.b.GetFeedPosts(h.cfg.Feed.MaxItems)
 
@@ -526,9 +526,7 @@ func (h *Handler) cacheControlAssets() string {
 func (h *Handler) serve404(w http.ResponseWriter, r *http.Request, start time.Time, menu []blog.MenuLink, canonical, cssV string) {
 	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 	versionInfo := h.b.GetVersionInfo()
-	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	w.WriteHeader(http.StatusNotFound)
-	h.renderPage(w, r, start, "404.html", &templateData{
+	h.renderPageStatus(w, r, start, http.StatusNotFound, "404.html", &templateData{
 		Config:     h.cfg,
 		PageTitle:  h.cfg.Labels.NotFoundTitle + " — " + h.cfg.BlogName,
 		OGType:     "website",
@@ -584,6 +582,10 @@ func (h *Handler) serveAsset(w http.ResponseWriter, r *http.Request, urlPath str
 // ─────────────────────────────────────────────────────────────────────────────
 
 func (h *Handler) renderPage(w http.ResponseWriter, r *http.Request, start time.Time, tmplName string, data *templateData) {
+	h.renderPageStatus(w, r, start, http.StatusOK, tmplName, data)
+}
+
+func (h *Handler) renderPageStatus(w http.ResponseWriter, r *http.Request, start time.Time, status int, tmplName string, data *templateData) {
 	// Render the inner page template into a buffer, then wrap with layout.
 	var innerBuf strings.Builder
 	if err := h.tmpl.ExecuteTemplate(&innerBuf, tmplName, data); err != nil {
@@ -598,16 +600,21 @@ func (h *Handler) renderPage(w http.ResponseWriter, r *http.Request, start time.
 		log.Printf("render %s %s %.2fms", r.Method, r.URL.RequestURI(), ms)
 	}
 
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
+
 	// Gzip when supported (skip on Lambda — API Gateway / CloudFront handles it)
 	var out io.Writer = w
 	if os.Getenv("AWS_LAMBDA_FUNCTION_NAME") == "" && strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
 		w.Header().Set("Content-Encoding", "gzip")
+		if status != http.StatusOK {
+			w.WriteHeader(status)
+		}
 		gz := gzip.NewWriter(w)
 		defer gz.Close()
 		out = gz
+	} else if status != http.StatusOK {
+		w.WriteHeader(status)
 	}
-
-	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
 	if err := h.tmpl.ExecuteTemplate(out, "layout.html", data); err != nil {
 		// Headers already sent — can't send a proper error response
@@ -629,19 +636,7 @@ func mustLoadTemplates() *template.Template {
 			}
 			return t.Format("January 2, 2006")
 		},
-		"urlquery": func(s string) string { return s }, // stdlib already does this
-		"printf":   fmt.Sprintf,
-		"not": func(v interface{}) bool {
-			switch x := v.(type) {
-			case bool:
-				return !x
-			case []blog.Post:
-				return len(x) == 0
-			case string:
-				return x == ""
-			}
-			return false
-		},
+		"printf": fmt.Sprintf,
 		"defaultStr": func(dflt, s string) string {
 			if s == "" {
 				return dflt
@@ -747,12 +742,24 @@ func removePaginationParam(uri string) string {
 	return base + "?" + strings.Join(parts, "&")
 }
 
-func cssVersion(cssPath string) string {
-	info, err := os.Stat(cssPath)
-	if err != nil {
-		return "0"
+func cssVersion(cssPath, buildCommit string) string {
+	rel := strings.TrimPrefix(cssPath, "/assets/")
+	rel = strings.TrimPrefix(rel, "assets/")
+	if info, err := fs.Stat(AssetsFS, rel); err == nil && !info.ModTime().IsZero() {
+		return strconv.FormatInt(info.ModTime().Unix(), 10)
 	}
-	return strconv.FormatInt(info.ModTime().Unix(), 10)
+	if buildCommit != "" && buildCommit != "unknown" {
+		return buildCommit
+	}
+	return "0"
+}
+
+func assetExists(fsys fs.FS, rel string) bool {
+	if strings.Contains(rel, "..") || strings.Contains(rel, "\x00") {
+		return false
+	}
+	info, err := fs.Stat(fsys, rel)
+	return err == nil && !info.IsDir()
 }
 
 func validSlug(s string) bool {
@@ -821,9 +828,9 @@ func (h *Handler) serveCleanPage(w http.ResponseWriter, r *http.Request) {
 
 	menu := h.b.GetMenu()
 	canonical := buildCanonical(r)
-	cssV := cssVersion(h.cfg.CSSTheme)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 	versionInfo := h.b.GetVersionInfo()
+	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 
 	page := h.b.GetPage(slug)
 	if page == nil {
@@ -858,9 +865,9 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 
 	menu := h.b.GetMenu()
 	canonical := buildCanonical(r)
-	cssV := cssVersion(h.cfg.CSSTheme)
-	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 	versionInfo := h.b.GetVersionInfo()
+	cssV := cssVersion(h.cfg.CSSTheme, versionInfo.Commit)
+	footerHTML := template.HTML(h.b.ParseMarkdown(h.cfg.FooterContent))
 
 	base := templateData{
 		Config:     h.cfg,

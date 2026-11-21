@@ -1,6 +1,8 @@
 package server
 
 import (
+	"compress/gzip"
+	"io"
 	"io/fs"
 	"net/http"
 	"net/http/httptest"
@@ -560,5 +562,64 @@ func TestFaviconRoute(t *testing.T) {
 	contentType := w.Header().Get("Content-Type")
 	if contentType != "image/x-icon" {
 		t.Errorf("Content-Type = %q, want 'image/x-icon'", contentType)
+	}
+}
+
+func Test404GzipHeaderOrder(t *testing.T) {
+	t.Setenv("AWS_LAMBDA_FUNCTION_NAME", "")
+	h := testSetup(t)
+	req := httptest.NewRequest(http.MethodGet, "/content/does-not-exist", nil)
+	req.Header.Set("Accept-Encoding", "gzip")
+	w := httptest.NewRecorder()
+	h.ServeHTTP(w, req)
+
+	if w.Code != http.StatusNotFound {
+		t.Fatalf("status = %d, want 404", w.Code)
+	}
+	if ce := w.Header().Get("Content-Encoding"); ce != "gzip" {
+		t.Fatalf("Content-Encoding = %q, want gzip", ce)
+	}
+	gr, err := gzip.NewReader(w.Body)
+	if err != nil {
+		t.Fatalf("gzip.NewReader failed: %v", err)
+	}
+	defer gr.Close()
+	raw, err := io.ReadAll(gr)
+	if err != nil {
+		t.Fatalf("read gunzipped body: %v", err)
+	}
+	if !strings.Contains(string(raw), "404") {
+		t.Errorf("expected 404 page in gunzipped body")
+	}
+}
+
+func TestCSSVersionAndPerPostJSFromAssetsFS(t *testing.T) {
+	oldAssets := AssetsFS
+	defer func() { AssetsFS = oldAssets }()
+
+	modTime := time.Unix(1700000000, 0)
+	AssetsFS = fstest.MapFS{
+		"css/default.style.css": &fstest.MapFile{
+			Data:    []byte("body{}"),
+			Mode:    0644,
+			ModTime: modTime,
+		},
+		"js/demo.js": &fstest.MapFile{
+			Data: []byte("console.log('ok');"),
+			Mode: 0644,
+		},
+	}
+
+	if got := cssVersion("/assets/css/default.style.css", "abc123"); got != "1700000000" {
+		t.Errorf("cssVersion with ModTime = %q, want 1700000000", got)
+	}
+	if got := cssVersion("/assets/css/missing.css", "abc123"); got != "abc123" {
+		t.Errorf("cssVersion fallback commit = %q, want abc123", got)
+	}
+	if !assetExists(AssetsFS, "js/demo.js") {
+		t.Error("expected assetExists(js/demo.js) to be true")
+	}
+	if assetExists(AssetsFS, "../secret.js") {
+		t.Error("expected traversal path to be rejected")
 	}
 }

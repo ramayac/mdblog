@@ -290,6 +290,9 @@ func TestBuildArticleJSONLD_Breadcrumb_WithCategory(t *testing.T) {
 	if !strings.Contains(result, `"Tech Posts"`) {
 		t.Errorf("breadcrumb should include category name")
 	}
+	if !strings.Contains(result, `"https://example.com/content/tech/"`) {
+		t.Errorf("breadcrumb should use clean category URL, got: %s", result)
+	}
 }
 
 // ─────────────────────────────────────────────────────────────────────────────

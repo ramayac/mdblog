@@ -67,7 +67,7 @@ url   = "/"
 
 [[menu_links]]
 label = "About 💡"
-url   = "/page?slug=about"
+url   = "/pages/about"
 
 [categories.personal]
 blog_name      = "Personal 🏠"

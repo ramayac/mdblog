@@ -95,22 +95,32 @@ func Run(cfg *config.Config, args []string) error {
 	// We reuse the server's template machinery via a fake HTTP round-trip.
 	h := server.New(cfg, b)
 
-	url := "/post?slug=" + target.Slug
+	var folder string
 	if target.CategorySlug != "" {
-		url += "&category=" + target.CategorySlug
+		if cat, ok := cfg.Categories[target.CategorySlug]; ok && cat.Folder != "" {
+			folder = cat.Folder
+		} else {
+			folder = target.CategorySlug
+		}
 	}
+	url := "/content/"
+	if folder != "" {
+		url += folder + "/"
+	}
+	url += target.Slug
 
 	req := httptest.NewRequest(http.MethodGet, url, nil)
 	rr := httptest.NewRecorder()
 	h.ServeHTTP(rr, req)
 
 	resp := rr.Result()
+	defer resp.Body.Close()
 	htmlBytes, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return fmt.Errorf("render: read response body: %w", err)
 	}
-	if resp.StatusCode == http.StatusNotFound {
-		return fmt.Errorf("render: post not found (slug=%s category=%s)", target.Slug, target.CategorySlug)
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("render: unexpected status %d for %s (slug=%s category=%s)", resp.StatusCode, url, target.Slug, target.CategorySlug)
 	}
 
 	html := string(htmlBytes)
