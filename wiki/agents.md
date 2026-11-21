@@ -267,7 +267,7 @@ The nav bar is built by `blog.GetMenu()`. Three sources, rendered in order:
 2. `[[menu.pinned]]` entries — category links shown directly in the bar (no dropdown), sorted by `order`.
 3. `[[menu.dropdowns]]` entries — a list of dropdown menus. Each dropdown entry specifies a `label` and a list of category references under `item` (each referencing `category` and an `order` hint).
 
-`MenuLink` carries a `SubItems []MenuLink` field. When `SubItems` is non-empty the template renders a `<div class="nav-dropdown">` with a button trigger; when empty it renders a plain `<a>` tag. Dropdown CSS lives in `base.style.css` (`.nav-dropdown`, `.nav-dropdown-content`); the anthropic theme overrides colours in `anthropic.style.css`.
+`MenuLink` carries a `SubItems []MenuLink` field. When `SubItems` is non-empty the template renders a native `<details class="nav-dropdown" name="nav-dropdown">` with a `<summary>` trigger; when empty it renders a plain `<a>` tag. Dropdown CSS lives in `base.style.css` (`.nav-dropdown`, `.nav-dropdown-content`), with theme overrides in `anthropic.style.css` and outside-click/`Escape` dismissal in `assets/js/site.js`.
 
 ## Category Config Flags & Sub-categories
 

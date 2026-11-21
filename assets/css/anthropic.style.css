@@ -1,136 +1,67 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   anthropic.style.css — Editorial, open, Anthropic-inspired theme for MDBlog.
-   Builds on base.style.css design tokens via CSS variable overrides.
+   anthropic.style.css — Editorial, warm, Anthropic-inspired theme for MDBlog.
+   Layered on top of base.style.css (loaded via <link> in layout.html).
+   Typography design: --ui-font (sans) for UI/cards/headings, --body-font
+   (Georgia serif) for long-form .post-content prose.
    ═══════════════════════════════════════════════════════════════════════════ */
 
-@import "base.style.css";
-
-/* ── Light Theme Variables ─────────────────────────────────────────────── */
 :root {
-    /* Palette */
-    --color-bg:              #faf8f5;
-    --color-surface:         #ffffff;
-    --color-text:            #1c1c1c;
-    --color-text-muted:      #6b6460;
-    --color-text-light:      #4a4440;
-    --color-heading:         #0d0d0d;
-    --color-primary:         #c8501a;
-    --color-primary-hover:   #a83e13;
-    --color-border:          #e5dfd8;
-    --color-code-bg:         #f2ede6;
-    --color-code-text:       #a0320a;
-    --color-code-block-text: #2a2420;
-    --color-tag-bg:          #ede8e1;
-    --color-quote-bg:        #f5f0e8;
-    --color-muted-heading:   #a09890;
-    --color-no-posts-code:   #0d0d0d;
-    --color-no-posts-bg:     #ede8e1;
+    --color-bg:            light-dark(#faf8f5, #141210);
+    --color-surface:       light-dark(#ffffff, #1e1b18);
+    --color-surface-hover: light-dark(#f5f0e8, #252018);
+    --color-text:          light-dark(#1c1c1c, #e8e2db);
+    --color-text-muted:    light-dark(#6b6460, #9b948d);
+    --color-text-light:    light-dark(#4a4440, #c8c0b8);
+    --color-heading:       light-dark(#0d0d0d, #f5f0e8);
+    --color-primary:       light-dark(#c8501a, #e8753a);
+    --color-primary-hover: light-dark(#a83e13, #f08050);
+    --color-border:        light-dark(#e5dfd8, #2e2924);
+    --color-code-bg:       light-dark(#f2ede6, #252018);
+    --color-code-text:     light-dark(#a0320a, #e8753a);
+    --color-tag-bg:        light-dark(#ede8e1, #2e2924);
+    --color-quote-bg:      light-dark(#f5f0e8, #1e1b18);
+    --color-muted-heading: light-dark(#a09890, #5a5248);
+    --color-nav-active-bg: light-dark(#f0ebe3, #252018);
 
-    /* Theme-specific extras */
-    --color-card-bg:         #ffffff;
-    --color-card-bg-hover:   #f5f0e8;
-    --color-card-border:     #e5dfd8;
-    --color-nav-active-bg:   #f0ebe3;
-
-    /* Layout */
-    --container-width:       880px;
-    --body-font:             'Georgia', 'Times New Roman', serif;
-    --ui-font:               -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    --mono-font:             'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
-    --base-font-size:        17px;
-    --base-line-height:      1.65;
-    --content-line-height:   1.8;
+    --container-width:     880px;
+    --body-font:           'Georgia', 'Times New Roman', serif;
+    --ui-font:             -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --base-font-size:      17px;
+    --base-line-height:    1.65;
+    --content-line-height: 1.8;
 }
 
-/* ── Dark Theme ────────────────────────────────────────────────────────── */
-:root[data-theme="dark"] {
-    --color-bg:              #141210;
-    --color-surface:         #1e1b18;
-    --color-text:            #e8e2db;
-    --color-text-muted:      #9b948d;
-    --color-text-light:      #c8c0b8;
-    --color-heading:         #f5f0e8;
-    --color-primary:         #e8753a;
-    --color-primary-hover:   #f08050;
-    --color-border:          #2e2924;
-    --color-code-bg:         #252018;
-    --color-code-text:       #e8753a;
-    --color-code-block-text: #e0d8ce;
-    --color-tag-bg:          #2e2924;
-    --color-quote-bg:        #1e1b18;
-    --color-muted-heading:   #5a5248;
-    --color-no-posts-code:   #f5f0e8;
-    --color-no-posts-bg:     #2e2924;
-    --color-card-bg:         #1e1b18;
-    --color-card-bg-hover:   #252018;
-    --color-card-border:     #2e2924;
-    --color-nav-active-bg:   #252018;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-        --color-bg:              #141210;
-        --color-surface:         #1e1b18;
-        --color-text:            #e8e2db;
-        --color-text-muted:      #9b948d;
-        --color-text-light:      #c8c0b8;
-        --color-heading:         #f5f0e8;
-        --color-primary:         #e8753a;
-        --color-primary-hover:   #f08050;
-        --color-border:          #2e2924;
-        --color-code-bg:         #252018;
-        --color-code-text:       #e8753a;
-        --color-code-block-text: #e0d8ce;
-        --color-tag-bg:          #2e2924;
-        --color-quote-bg:        #1e1b18;
-        --color-muted-heading:   #5a5248;
-        --color-no-posts-code:   #f5f0e8;
-        --color-no-posts-bg:     #2e2924;
-        --color-card-bg:         #1e1b18;
-        --color-card-bg-hover:   #252018;
-        --color-card-border:     #2e2924;
-        --color-nav-active-bg:   #252018;
-    }
-}
-
-/* ── Body overrides ────────────────────────────────────────────────────── */
 body {
-    font-family: var(--body-font);
-    font-size: var(--base-font-size);
     letter-spacing: -0.01em;
 }
 
-/* UI elements use sans-serif */
+/* UI surfaces use sans-serif; .post-content inherits Georgia serif */
 .site-menu,
 .site-footer,
 .post-meta,
 .post-count,
+.post-excerpt,
 .tag,
 .read-more,
 .back-to-home,
 .pagination,
-.category-card .post-count,
 .category-card p,
 .no-posts,
+.feed-subscribe-card,
+.feed-subscribe-link,
 input,
-button,
-.blog-title small {
+button {
     font-family: var(--ui-font);
 }
 
 /* ── Navigation ────────────────────────────────────────────────────────── */
 .site-menu {
     padding: 0.75rem 0;
-    border-bottom: 1px solid var(--color-border);
-}
-
-.site-menu .menu-links {
-    text-align: center;
 }
 
 .site-menu a,
-.site-menu button {
-    font-family: var(--ui-font);
+.site-menu button,
+.site-menu summary {
     font-size: 0.875rem;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -142,7 +73,9 @@ button,
 }
 
 .site-menu a:hover,
-.site-menu button:hover {
+.site-menu button:hover,
+.site-menu summary:hover,
+.nav-dropdown-content a:hover {
     background-color: var(--color-nav-active-bg);
     color: var(--color-heading);
 }
@@ -150,56 +83,46 @@ button,
 .site-menu a:visited { color: var(--color-text-muted); }
 .site-menu a:visited:hover { color: var(--color-heading); }
 
-/* ── Nav Dropdown (anthropic overrides) ────────────────────────────────── */
 .nav-dropdown-content {
-    background-color: var(--color-bg);
-    border-color: var(--color-border);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-.nav-dropdown-content a {
-    font-family: var(--ui-font);
-    font-size: 0.875rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: var(--color-text-muted);
-}
-
-.nav-dropdown-content a:hover {
-    background-color: var(--color-nav-active-bg);
-    color: var(--color-heading);
-}
-
-/* ── Blog Title / Home Header ──────────────────────────────────────────── */
+/* ── Page & Section Headings (.blog-title h2 + .category-title) ────────── */
 .blog-title {
     padding: 3rem 0 2rem;
     border-bottom: 1px solid var(--color-border);
     margin-bottom: 2.5rem;
 }
 
-.blog-title h2 {
+.blog-title h2,
+.category-title {
     font-family: var(--ui-font);
     font-size: 2.5rem;
     font-weight: 800;
     letter-spacing: -0.03em;
     color: var(--color-heading);
-    margin: 0;
     line-height: 1.15;
+    margin: 0;
 }
 
-.blog-title h2 small {
+.category-title {
+    padding: 3rem 0 2rem;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 2.5rem;
+}
+
+.blog-title h2 small,
+.category-title small {
     display: block;
+    font-family: var(--ui-font);
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0;
+    font-style: italic;
     color: var(--color-text-muted);
     margin-top: 0.5rem;
-    font-style: italic;
-    font-family: var(--ui-font);
 }
 
-/* ── Index blurb ───────────────────────────────────────────────────────── */
 .index-content {
     font-size: 1.05rem;
     line-height: 1.75;
@@ -209,196 +132,113 @@ button,
     border-bottom: 1px solid var(--color-border);
 }
 
-/* ── Category Cards ────────────────────────────────────────────────────── */
+/* ── Cards (Category Cards & Post Preview Cards) ───────────────────────── */
 .category-cards {
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.25rem;
     margin-top: 0;
 }
 
-.category-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: var(--color-card-bg);
-    border: 1px solid var(--color-card-border);
-    border-radius: 10px;
-    padding: 1.5rem 1.75rem;
-    text-decoration: none;
-    color: var(--color-text);
-    transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
-    min-height: 130px;
-}
-
-.category-card:hover {
-    background: var(--color-card-bg-hover);
-    border-color: var(--color-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
-    text-decoration: none;
-    color: var(--color-text);
-}
-
-.category-card h3 {
-    margin: 0 0 0.4rem;
-    font-size: 1.1rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: var(--color-heading);
-    font-family: var(--ui-font);
-    line-height: 1.3;
-}
-
-.category-card p {
-    margin: 0;
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-    line-height: 1.5;
-    flex: 1;
-}
-
-.category-card .post-count {
-    display: inline-block;
-    margin-top: 1rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--color-primary);
-}
-
-/* ── Category Heading — matches .blog-title h2 ─────────────────────────── */
-.category-title {
-    font-family: var(--ui-font);
-    font-size: 2.5rem;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    color: var(--color-heading);
-    line-height: 1.15;
-    margin: 0;
-    padding: 3rem 0 2rem;
-    border-bottom: 1px solid var(--color-border);
-    margin-bottom: 2.5rem;
-}
-
-.category-title small {
-    display: block;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 0;
-    color: var(--color-text-muted);
-    margin-top: 0.5rem;
-    font-style: italic;
-    font-family: var(--ui-font);
-}
-
-/* ── Post Preview Cards ─────────────────────────────────────────────────── */
 .posts-grid {
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 1.25rem;
-    margin-bottom: 3rem;
 }
 
+.category-card,
 .post-preview {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: var(--color-card-bg);
-    border: 1px solid var(--color-card-border);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
     border-radius: 10px;
     padding: 1.5rem 1.75rem;
-    transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
-    text-decoration: none;
     color: var(--color-text);
+    text-decoration: none;
+    transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* base.style.css sets border-bottom on last-child; restore full card border */
+.category-card { min-height: 130px; }
+
+/* Restore bottom border stripped by base.style.css for list-style previews */
 .post-preview:last-child {
-    border-bottom: 1px solid var(--color-card-border);
+    border-bottom: 1px solid var(--color-border);
 }
 
+.category-card:hover,
 .post-preview:hover {
-    background: var(--color-card-bg-hover);
+    background: var(--color-surface-hover);
     border-color: var(--color-primary);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.10);
     color: var(--color-text);
     text-decoration: none;
     z-index: 1;
 }
 
+.category-card h3,
 .post-title {
+    font-family: var(--ui-font);
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: -0.02em;
-    margin: 0 0 0.4rem;
-    font-family: var(--ui-font);
     color: var(--color-heading);
     line-height: 1.3;
+    margin: 0 0 0.4rem;
 }
+
+.category-card p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.category-card .post-count,
+.read-more {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.category-card .post-count { margin-top: 1rem; }
+.read-more { margin-top: auto; }
+.read-more:hover { color: var(--color-primary-hover); text-decoration: none; }
 
 .post-meta {
     margin: 0.4rem 0 0.6rem;
     font-size: 0.85rem;
-    color: var(--color-text-muted);
     letter-spacing: 0.01em;
 }
 
 .post-excerpt {
-    font-family: var(--ui-font);
     font-size: 0.95rem;
     line-height: 1.65;
-    color: var(--color-text-light);
     margin: 0 0 1rem;
     flex: 1;
 }
 
-.read-more {
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    color: var(--color-primary);
-    text-transform: uppercase;
-    margin-top: auto;
-}
-
-.read-more:hover { color: var(--color-primary-hover); text-decoration: none; }
-
-@media (max-width: 720px) {
-    .posts-grid { grid-template-columns: 1fr; }
-}
-
-/* ── Single Post ───────────────────────────────────────────────────────── */
+/* ── Single Post & Prose ───────────────────────────────────────────────── */
 .post-header {
     text-align: left;
-    border-bottom: 1px solid var(--color-border);
     padding-bottom: 2rem;
     margin-bottom: 2.5rem;
 }
 
 .post-header .post-title {
-    font-family: var(--ui-font);
     font-size: 2.5rem;
     font-weight: 800;
     letter-spacing: -0.03em;
     line-height: 1.15;
-    color: var(--color-heading);
     margin-bottom: 1rem;
 }
 
 .page-description {
-    font-family: var(--ui-font);
-    font-size: 1rem;
     font-style: italic;
-    color: var(--color-text-muted);
     margin: -0.25rem 0 0;
 }
 
 .post-content {
     font-size: 1.075rem;
-    line-height: var(--content-line-height);
 }
 
 .post-content h1,
@@ -412,21 +252,16 @@ button,
 
 .post-content h2 { font-size: 1.65rem; }
 .post-content h3 { font-size: 1.3rem; }
-
-.post-content p { margin: 1.25rem 0; }
+.post-content p  { margin: 1.25rem 0; }
 
 .post-content a {
-    color: var(--color-primary);
     text-decoration: underline;
     text-underline-offset: 2px;
     text-decoration-thickness: 1px;
 }
 
-.post-content a:hover { color: var(--color-primary-hover); }
-
-/* ── Tags ──────────────────────────────────────────────────────────────── */
+/* ── Tags, Outlined Buttons, Code, Quotes, Feed, Footer ────────────────── */
 .tag {
-    background: var(--color-tag-bg);
     color: var(--color-text-muted);
     border-radius: 5px;
     font-size: 0.77rem;
@@ -436,8 +271,8 @@ button,
     padding: 0.2rem 0.55rem;
 }
 
-/* ── Back / Navigation button ──────────────────────────────────────────── */
-.back-to-home {
+.back-to-home,
+.pagination-link {
     background: transparent;
     border: 1.5px solid var(--color-primary);
     color: var(--color-primary);
@@ -446,124 +281,48 @@ button,
     font-weight: 600;
     letter-spacing: 0.01em;
     padding: 0.6rem 1.25rem;
-    transition: background 0.15s ease, color 0.15s ease;
 }
 
-.back-to-home:hover {
-    background: var(--color-primary);
-    color: #fff;
-    text-decoration: none;
-}
-
-/* ── Pagination ────────────────────────────────────────────────────────── */
-.pagination-link {
-    background: transparent;
-    border: 1.5px solid var(--color-primary);
-    color: var(--color-primary);
-    border-radius: 6px;
-    font-size: 0.875rem;
-    font-weight: 600;
-}
-
+.back-to-home:hover,
 .pagination-link:hover {
     background: var(--color-primary);
     color: #fff;
 }
 
-/* ── Code ──────────────────────────────────────────────────────────────── */
 pre {
     border-radius: 8px;
-    border-left: 3px solid var(--color-primary);
+    border-left-width: 3px;
 }
 
-/* ── Blockquote ────────────────────────────────────────────────────────── */
 blockquote {
-    border-left: 3px solid var(--color-primary);
-    background: var(--color-quote-bg);
+    border-left-width: 3px;
     border-radius: 0 6px 6px 0;
-    font-style: italic;
     font-size: 1.05rem;
 }
 
-/* ── Footer ────────────────────────────────────────────────────────────── */
+.feed-subscribe-card {
+    background: var(--color-surface);
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+}
+
+.feed-subscribe-card h3 { letter-spacing: -0.02em; }
+.feed-subscribe-link { font-size: 0.8rem; letter-spacing: 0.02em; }
+
 .site-footer {
-    font-family: var(--ui-font);
     font-size: 0.85rem;
     letter-spacing: 0.01em;
 }
 
-/* ── Search form (search.html) ─────────────────────────────────────────── */
-.search-header input[type="text"],
-.standalone-search-form input[type="text"] {
-    font-family: var(--ui-font) !important;
-    background: var(--color-surface) !important;
-    color: var(--color-text) !important;
-    border: 1.5px solid var(--color-card-border) !important;
-    border-radius: 8px !important;
-    transition: border-color 0.15s ease !important;
-}
-
-.search-header input[type="text"]:focus,
-.standalone-search-form input[type="text"]:focus {
-    outline: none !important;
-    border-color: var(--color-primary) !important;
-}
-
-.search-header button,
-.standalone-search-form button {
-    font-family: var(--ui-font) !important;
-    background: var(--color-primary) !important;
-    color: #fff !important;
-    border: none !important;
-    border-radius: 8px !important;
-    cursor: pointer !important;
-    font-weight: 600 !important;
-    transition: background 0.15s ease !important;
-}
-
-.search-header button:hover,
-.standalone-search-form button:hover {
-    background: var(--color-primary-hover) !important;
-}
-
-/* ── Responsive overrides ──────────────────────────────────────────────── */
+/* ── Responsive ────────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
-    .blog-title h2 { font-size: 1.85rem; }
-    .category-title { font-size: 1.85rem; }
+    .blog-title h2,
+    .category-title,
     .post-header .post-title { font-size: 1.85rem; }
     .category-cards { grid-template-columns: 1fr; gap: 1rem; }
     .category-card { min-height: auto; }
 }
 
-/* ── Feed page ─────────────────────────────────────────────────────────── */
-/* Inherits base layout from base.style.css; overrides for Anthropic theme */
-.feed-subscribe-card {
-    background: var(--color-card-bg);
-    border: 1px solid var(--color-card-border);
-    border-radius: 10px;
-    padding: 1.5rem 1.75rem;
-}
-
-.feed-subscribe-card h3 {
-    font-family: var(--ui-font);
-    letter-spacing: -0.02em;
-}
-
-.feed-subscribe-card p {
-    font-family: var(--ui-font);
-}
-
-.feed-subscribe-link {
-    font-family: var(--ui-font);
-    font-size: 0.8rem;
-    letter-spacing: 0.02em;
-}
-
-.feed-table,
-.feed-cap-note {
-    font-family: var(--ui-font);
-}
-
-.feed-table tbody tr:hover {
-    background: var(--color-card-bg-hover);
+@media (max-width: 720px) {
+    .posts-grid { grid-template-columns: 1fr; }
 }

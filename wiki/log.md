@@ -18,6 +18,11 @@
   - Shared `blog.IndexPost`, `blog.SlugFromFilename`, `blog.TitleFromFilename`, and `blog.AtomicWrite` across `buildindex`, `buildfeed`, and `buildsitemap`; collapsed `GetNavPinned`/`GetDropdownCategories` into `resolveCategoryRefs`.
   - Modernized `internal/server` to use `http.ServeMux`, `http.FileServerFS`, and injected `server.Options` (`TemplateFS`/`AssetsFS`) in `cmd/lambda-embed`.
   - Added unified `mdblog build` subcommand and updated `Dockerfile` and `Dockerfile.debug` to use it.
+- **Theme, CSS, JS, & Security Cleanup**:
+  - Fixed reflected XSS in `templates/search.html` by removing `| safeHTML` on `.Query` (covered by `TestSearchXSSAutoEscaped`).
+  - Simplified CSS from ~1,888 lines to ~760 lines: adopted native `color-scheme: light dark` + `light-dark()` tokens (removing duplicated dark-mode blocks), eliminated the `@import` waterfall by loading `base.style.css` and the active theme in parallel `<link>` tags, turned `default.style.css` into a thin override on `base.style.css`, merged duplicated card/heading/button rules, and removed all inline `style=` attributes and all 16 `!important` overrides.
+  - Replaced 58 lines of inline dropdown JS in `templates/layout.html` with native `<details class="nav-dropdown" name="nav-dropdown">` elements and extracted theme-toggle + dropdown dismissal into `assets/js/site.js`.
+  - Tightened `[csp]` in `config.toml` to remove `'unsafe-inline'` from both `script-src` and `style-src`.
 - **Documentation**:
   - Updated `wiki/agents.md`, `wiki/repo-map.md`, `wiki/performance.md`, `README.md`, and refreshed `AGENTS.md`.
 

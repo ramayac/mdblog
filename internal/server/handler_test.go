@@ -693,3 +693,18 @@ func TestNewWithOptionsInjectedFS(t *testing.T) {
 		t.Errorf("expected injected asset body, got %q", w.Body.String())
 	}
 }
+
+func TestSearchXSSAutoEscaped(t *testing.T) {
+	h := testSetup(t)
+	w := get(h, "/?q=%3Cscript%3Ealert(1)%3C/script%3E")
+	if w.Code != http.StatusOK {
+		t.Fatalf("status = %d, want 200", w.Code)
+	}
+	body := w.Body.String()
+	if strings.Contains(body, "<script>alert(1)</script>") {
+		t.Error("raw <script> tag from query must be HTML-escaped")
+	}
+	if !strings.Contains(body, "&lt;script&gt;alert(1)&lt;/script&gt;") {
+		t.Error("expected escaped query string in search results summary")
+	}
+}

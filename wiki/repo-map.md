@@ -61,18 +61,17 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - If render timing is enabled but no build commit is available, the footer still shows the render time by itself.
 - Non-HTML artifact endpoints such as `/feed.xml` do not use the footer because they do not render through `layout.html`.
 
-## CSS Themes
+## CSS Themes & Client JS
 
 - Theme selection is global and configuration-driven through `css_theme` in `config.toml`.
-- To prevent relative path resolution issues on deep nested request paths (such as legacy URL resolutions), the `css_theme` path is normalized at configuration load time and server initialization to guarantee a root-relative leading slash `/` if the path is relative.
-- The layout template emits a single stylesheet link using `.Config.CSSTheme`, and the server adds a `?v=` query parameter based on the selected file's modification time so CSS changes bust caches without changing filenames.
-- Static CSS files are served through the `/assets/*` route from `AssetsFS`, which points at the on-disk `assets/` directory in the default build and can be swapped to embedded assets in the embed build.
-- The current stylesheet set is `assets/css/base.style.css`, `assets/css/default.style.css`, and `assets/css/anthropic.style.css`.
-- `base.style.css` is the shared structural layer: reset rules, CSS variables, layout primitives, typography, menus, cards, and other common component styles.
-- `anthropic.style.css` is a theme built on top of that shared layer via `@import "base.style.css"`; it overrides design tokens and adds theme-specific component styling.
-- `default.style.css` is a standalone theme file with its own full rule set rather than importing `base.style.css`.
-- Theme switching between light and dark modes is client-side: `layout.html` stores the selected mode in `localStorage` under `theme-mode`, sets `data-theme` on the root element, and each theme file defines light variables, explicit `:root[data-theme="dark"]` overrides, plus a `prefers-color-scheme: dark` fallback when no explicit choice has been stored.
-- This means MDBlog chooses one CSS file at runtime, and that CSS file internally handles both the visual design and the light/dark variant behavior.
+- To prevent relative path resolution issues on deep nested request paths, `css_theme` is normalized at configuration load time and server initialization to guarantee a root-relative leading slash `/` if the path is relative.
+- `layout.html` loads `/assets/css/base.style.css` and the active theme stylesheet in parallel via separate `<link>` tags (avoiding CSS `@import` waterfalls), both cache-busted with `?v={{ .CSSVersion }}`.
+- Static assets are served through `/assets/*` via `http.FileServerFS(assetsFS)` (on-disk `assets/` in default builds, embedded via `go:embed` in `cmd/lambda-embed`).
+- `assets/css/base.style.css` is the single shared structural layer and default light/dark token set. Both `assets/css/anthropic.style.css` and `assets/css/default.style.css` layer on top of it as clean overrides with zero `!important` rules.
+- Light/dark mode uses native CSS `color-scheme: light dark` and `light-dark(...)` tokens in a single `:root` block per theme, with `:root[data-theme="light"]` / `:root[data-theme="dark"]` switching `color-scheme` cleanly without duplicating dark palettes.
+- Client-side behavior lives in one tiny file, `assets/js/site.js` (loaded in `<head>` with `?v=`), which applies any saved `localStorage` `theme-mode` before first paint, binds the `.theme-toggle` button, and closes open `<details class="nav-dropdown">` menus on outside click or `Escape`.
+- Navigation dropdowns use native `<details class="nav-dropdown" name="nav-dropdown">` / `<summary>` elements (keyboard-accessible, zero-JS toggling, plus CSS hover on fine-pointer desktop).
+- Because templates contain zero inline `<script>`, `onclick`, or `style=` attributes, `[csp]` in `config.toml` enforces strict `script-src 'self'; style-src 'self';` with no `'unsafe-inline'`.
 
 ## Typography Design Decision
 
