@@ -22,14 +22,12 @@ func main() {
 	blog.BuildCommit = commit
 	blog.BuildDate = date
 
-	// Override the default os.DirFS-backed filesystems with embedded ones.
-	// templates/ and assets/ are baked into this binary at compile time.
-	server.TemplateFS = mdblog.EmbeddedTemplates()
-	server.AssetsFS = mdblog.EmbeddedAssets()
-
 	cfg := config.MustLoad("config.toml")
 	b := blog.New(cfg)
-	h := server.New(cfg, b)
+	h := server.NewWithOptions(cfg, b, server.Options{
+		TemplateFS: mdblog.EmbeddedTemplates(),
+		AssetsFS:   mdblog.EmbeddedAssets(),
+	})
 
 	algnhsa.ListenAndServe(h, nil)
 }

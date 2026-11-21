@@ -610,10 +610,10 @@ func TestCSSVersionAndPerPostJSFromAssetsFS(t *testing.T) {
 		},
 	}
 
-	if got := cssVersion("/assets/css/default.style.css", "abc123"); got != "1700000000" {
+	if got := cssVersion(AssetsFS, "/assets/css/default.style.css", "abc123"); got != "1700000000" {
 		t.Errorf("cssVersion with ModTime = %q, want 1700000000", got)
 	}
-	if got := cssVersion("/assets/css/missing.css", "abc123"); got != "abc123" {
+	if got := cssVersion(AssetsFS, "/assets/css/missing.css", "abc123"); got != "abc123" {
 		t.Errorf("cssVersion fallback commit = %q, want abc123", got)
 	}
 	if !assetExists(AssetsFS, "js/demo.js") {

@@ -64,12 +64,20 @@ type postPreviewData struct {
 	Config  *config.Config
 }
 
+// Options configures optional filesystem overrides for Handler.
+// Nil fields default to TemplateFS and AssetsFS.
+type Options struct {
+	TemplateFS fs.FS
+	AssetsFS   fs.FS
+}
+
 // Handler is the main HTTP handler for the blog.
 type Handler struct {
 	cfg         *config.Config
 	b           *blog.Blog
 	tmpl        *template.Template
-	mimeMap     map[string]string
+	assetsFS    fs.FS
+	mux         *http.ServeMux
 	menu        []blog.MenuLink
 	footerHTML  template.HTML
 	cssVersion  string
@@ -77,13 +85,28 @@ type Handler struct {
 	indexBlurb  template.HTML
 }
 
-// New creates and returns the blog HTTP handler.
-// It panics if templates cannot be loaded.
+// New creates and returns the blog HTTP handler using the default TemplateFS
+// and AssetsFS. It panics if templates cannot be loaded.
 func New(cfg *config.Config, b *blog.Blog) *Handler {
+	return NewWithOptions(cfg, b, Options{})
+}
+
+// NewWithOptions creates and returns the blog HTTP handler with injected filesystems.
+// It panics if templates cannot be loaded.
+func NewWithOptions(cfg *config.Config, b *blog.Blog, opts Options) *Handler {
 	if cfg.CSSTheme != "" && !strings.HasPrefix(cfg.CSSTheme, "/") && !strings.HasPrefix(cfg.CSSTheme, "http://") && !strings.HasPrefix(cfg.CSSTheme, "https://") {
 		cfg.CSSTheme = "/" + cfg.CSSTheme
 	}
-	tmpl := mustLoadTemplates()
+	tmplFS := opts.TemplateFS
+	if tmplFS == nil {
+		tmplFS = TemplateFS
+	}
+	assetsFS := opts.AssetsFS
+	if assetsFS == nil {
+		assetsFS = AssetsFS
+	}
+
+	tmpl := mustLoadTemplates(tmplFS)
 	versionInfo := b.GetVersionInfo()
 
 	var indexBlurb template.HTML
@@ -96,26 +119,43 @@ func New(cfg *config.Config, b *blog.Blog) *Handler {
 		cfg:         cfg,
 		b:           b,
 		tmpl:        tmpl,
+		assetsFS:    assetsFS,
 		menu:        b.GetMenu(),
 		footerHTML:  template.HTML(b.ParseMarkdown(cfg.FooterContent)),
-		cssVersion:  cssVersion(cfg.CSSTheme, versionInfo.Commit),
+		cssVersion:  cssVersion(assetsFS, cfg.CSSTheme, versionInfo.Commit),
 		versionInfo: versionInfo,
 		indexBlurb:  indexBlurb,
-		mimeMap: map[string]string{
-			"css":   "text/css",
-			"js":    "application/javascript",
-			"png":   "image/png",
-			"jpg":   "image/jpeg",
-			"jpeg":  "image/jpeg",
-			"gif":   "image/gif",
-			"svg":   "image/svg+xml",
-			"ico":   "image/x-icon",
-			"woff":  "font/woff",
-			"woff2": "font/woff2",
-			"ttf":   "font/ttf",
-		},
 	}
+	h.mux = h.buildMux()
 	return h
+}
+
+func (h *Handler) buildMux() *http.ServeMux {
+	mux := http.NewServeMux()
+	assetServer := http.StripPrefix("/assets/", http.FileServerFS(h.assetsFS))
+
+	mux.HandleFunc("/assets/", func(w http.ResponseWriter, r *http.Request) {
+		rel := strings.TrimPrefix(r.URL.Path, "/assets/")
+		if strings.Contains(rel, "..") || strings.Contains(rel, "\x00") {
+			http.NotFound(w, r)
+			return
+		}
+		w.Header().Set("Cache-Control", h.cacheControlAssets())
+		assetServer.ServeHTTP(w, r)
+	})
+	mux.HandleFunc("/favicon.ico", h.serveFavicon)
+	mux.HandleFunc("/search/label/", func(w http.ResponseWriter, r *http.Request) {
+		tag := strings.TrimPrefix(r.URL.Path, "/search/label/")
+		http.Redirect(w, r, "/?q="+tag+"&search=true", http.StatusMovedPermanently)
+	})
+	mux.HandleFunc("/feed.xml", h.serveFeedXML)
+	mux.HandleFunc("/feed", h.serveFeedPage)
+	mux.HandleFunc("/sitemap.xml", h.serveSitemap)
+	mux.HandleFunc("/robots.txt", h.serveRobots)
+	mux.HandleFunc("/pages/", h.serveCleanPage)
+	mux.HandleFunc("/content/", h.serveCleanContent)
+	mux.HandleFunc("/", h.serveFallback)
+	return mux
 }
 
 func (h *Handler) baseTemplateData(r *http.Request, ogType string) templateData {
@@ -133,62 +173,22 @@ func (h *Handler) baseTemplateData(r *http.Request, ogType string) templateData 
 // ServeHTTP routes all requests.
 func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	path := r.URL.Path
-
-	// ── Static assets ──────────────────────────────────────────────────────
-	if strings.HasPrefix(path, "/assets/") {
-		h.serveAsset(w, r, path)
-		return
-	}
-
-	if path == "/favicon.ico" {
-		h.serveAsset(w, r, "/assets/favicon.ico")
-		return
-	}
-
-	// ── Legacy Blogger search/label redirects ─────────────────────────────
-	if strings.HasPrefix(path, "/search/label/") {
-		tag := strings.TrimPrefix(path, "/search/label/")
-		http.Redirect(w, r, "/?q="+tag+"&search=true", http.StatusMovedPermanently)
-		return
-	}
-
-	// ── CSP header —————————————————————————————————————————————————————————
-	if h.cfg.CSP.Enabled {
+	if h.cfg.CSP.Enabled && !strings.HasPrefix(path, "/assets/") && path != "/favicon.ico" && !strings.HasPrefix(path, "/search/label/") {
 		w.Header().Set(splitCSPHeader(h.cfg.CSP.Header))
 	}
+	h.mux.ServeHTTP(w, r)
+}
 
-	// ── Route: RSS feed (/feed.xml, /feed) ────────────────────────────────
-	if path == "/feed.xml" {
-		h.serveFeedXML(w, r)
-		return
-	}
-	if path == "/feed" {
-		h.serveFeedPage(w, r)
-		return
-	}
+func (h *Handler) serveFallback(w http.ResponseWriter, r *http.Request) {
+	path := r.URL.Path
 
-	// ── Route: sitemap / robots ───────────────────────────────────────────
-	if path == "/sitemap.xml" {
-		h.serveSitemap(w, r)
-		return
-	}
-	if path == "/robots.txt" {
-		h.serveRobots(w, r)
-		return
-	}
-
-	// ── Redirections for Legacy URLs (301 Permanent Redirect) ─────────────
+	// Legacy category query redirect (/?category=...)
 	if path == "/" {
 		q := r.URL.Query()
 		if q.Has("category") {
 			catSlug := q.Get("category")
-			cat := h.b.GetCategoryBySlug(catSlug)
-			if cat != nil {
-				folder := cat.Folder
-				if folder == "" {
-					folder = catSlug
-				}
-				dest := "/content/" + folder + "/"
+			if h.b.GetCategoryBySlug(catSlug) != nil {
+				dest := h.cfg.CategoryPath(catSlug)
 				if q.Has("page") {
 					dest += "?page=" + q.Get("page")
 				}
@@ -198,10 +198,9 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
+	// Legacy /page?slug=... redirect
 	if path == "/page" || strings.HasSuffix(path, "/page") {
-		q := r.URL.Query()
-		if q.Has("slug") {
-			slug := q.Get("slug")
+		if slug := r.URL.Query().Get("slug"); slug != "" {
 			http.Redirect(w, r, "/pages/"+slug, http.StatusMovedPermanently)
 			return
 		}
@@ -209,76 +208,28 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Legacy /post?slug=... redirect
 	if path == "/post" || strings.HasSuffix(path, "/post") {
 		q := r.URL.Query()
-		if q.Has("slug") {
-			slug := q.Get("slug")
+		if slug := q.Get("slug"); slug != "" {
 			catSlug := q.Get("category")
-			var folder string
-			if catSlug != "" {
-				cat := h.b.GetCategoryBySlug(catSlug)
-				if cat != nil {
-					folder = cat.Folder
-					if folder == "" {
-						folder = catSlug
-					}
-				}
+			if catSlug == "" || h.b.GetCategoryBySlug(catSlug) == nil {
+				_, catSlug = h.b.ResolveSlugViaIndex(slug)
 			}
-			if folder == "" {
-				if _, resolvedCat := h.b.ResolveSlugViaIndex(slug); resolvedCat != "" {
-					cat := h.b.GetCategoryBySlug(resolvedCat)
-					if cat != nil {
-						folder = cat.Folder
-						if folder == "" {
-							folder = resolvedCat
-						}
-					}
-				}
-			}
-			dest := "/content/"
-			if folder != "" {
-				dest += folder + "/"
-			}
-			dest += slug
-			http.Redirect(w, r, dest, http.StatusMovedPermanently)
+			http.Redirect(w, r, h.cfg.PostPath(catSlug, slug), http.StatusMovedPermanently)
 			return
 		}
 		http.Redirect(w, r, "/", http.StatusFound)
 		return
 	}
 
-	// ── Route: clean pages (/pages/*) ─────────────────────────────────────
-	if strings.HasPrefix(path, "/pages/") {
-		h.serveCleanPage(w, r)
-		return
-	}
-
-	// ── Route: clean content (/content/*) ─────────────────────────────────
-	if strings.HasPrefix(path, "/content/") {
-		h.serveCleanContent(w, r)
-		return
-	}
-
-	// ── Legacy/Alternative URL resolution ─────────────────────────────────
+	// Legacy Blogger URL resolution (/YYYY/MM/slug[.html])
 	if post, resolved := h.b.ResolveOldURL(path); resolved {
-		cat := h.b.GetCategoryBySlug(post.CategorySlug)
-		var folder string
-		if cat != nil {
-			folder = cat.Folder
-			if folder == "" {
-				folder = post.CategorySlug
-			}
-		}
-		dest := "/content/"
-		if folder != "" {
-			dest += folder + "/"
-		}
-		dest += post.Slug
-		http.Redirect(w, r, dest, http.StatusMovedPermanently)
+		http.Redirect(w, r, h.cfg.PostPath(post.CategorySlug, post.Slug), http.StatusMovedPermanently)
 		return
 	}
 
-	// ── Route: index (/) ──────────────────────────────────────────────────
+	// Home / search
 	h.serveIndex(w, r)
 }
 
@@ -356,7 +307,7 @@ func (h *Handler) renderSinglePost(w http.ResponseWriter, r *http.Request, start
 	var jsFiles []string
 	if post.FrontMatter.JS != "" {
 		jsFile := strings.TrimSpace(post.FrontMatter.JS)
-		if jsFile != "" && assetExists(AssetsFS, "js/"+jsFile) {
+		if jsFile != "" && assetExists(h.assetsFS, "js/"+jsFile) {
 			jsFiles = []string{jsFile}
 		}
 	}
@@ -433,17 +384,8 @@ func (h *Handler) serve404(w http.ResponseWriter, r *http.Request, start time.Ti
 	h.renderPageStatus(w, r, start, http.StatusNotFound, "404.html", &data)
 }
 
-func (h *Handler) serveAsset(w http.ResponseWriter, r *http.Request, urlPath string) {
-	// Strip leading /assets/ prefix to get the fs-relative path.
-	rel := strings.TrimPrefix(urlPath, "/assets/")
-
-	// Validate: reject traversal sequences and null bytes.
-	if strings.Contains(rel, "..") || strings.Contains(rel, "\x00") {
-		http.NotFound(w, r)
-		return
-	}
-
-	f, err := AssetsFS.Open(rel)
+func (h *Handler) serveFavicon(w http.ResponseWriter, r *http.Request) {
+	f, err := h.assetsFS.Open("favicon.ico")
 	if err != nil {
 		http.NotFound(w, r)
 		return
@@ -455,21 +397,14 @@ func (h *Handler) serveAsset(w http.ResponseWriter, r *http.Request, urlPath str
 		http.NotFound(w, r)
 		return
 	}
-
 	rs, ok := f.(io.ReadSeeker)
 	if !ok {
-		http.Error(w, "asset not seekable", http.StatusInternalServerError)
+		http.NotFound(w, r)
 		return
 	}
-
-	ext := strings.ToLower(strings.TrimPrefix(filepath.Ext(rel), "."))
-	contentType, ok := h.mimeMap[ext]
-	if !ok {
-		contentType = "application/octet-stream"
-	}
-	w.Header().Set("Content-Type", contentType)
+	w.Header().Set("Content-Type", "image/x-icon")
 	w.Header().Set("Cache-Control", h.cacheControlAssets())
-	http.ServeContent(w, r, rel, st.ModTime(), rs)
+	http.ServeContent(w, r, "favicon.ico", st.ModTime(), rs)
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -521,7 +456,7 @@ func (h *Handler) renderPageStatus(w http.ResponseWriter, r *http.Request, start
 // Template loading
 // ─────────────────────────────────────────────────────────────────────────────
 
-func mustLoadTemplates() *template.Template {
+func mustLoadTemplates(tmplFS fs.FS) *template.Template {
 	funcMap := template.FuncMap{
 		"safeHTML": func(s string) template.HTML { return template.HTML(s) },
 		"formatDate": func(dateStr string) string {
@@ -543,30 +478,13 @@ func mustLoadTemplates() *template.Template {
 			if slug == "" {
 				slug = catSlug
 			}
-			var folder string
-			if slug != "" {
-				cat, ok := cfg.Categories[slug]
-				if ok {
-					folder = cat.Folder
-					if folder == "" {
-						folder = slug
-					}
-				} else {
-					folder = slug
-				}
-			}
-			url := "/content/"
-			if folder != "" {
-				url += folder + "/"
-			}
-			url += p.Slug
-			return postPreviewData{Post: p, PostURL: url, Config: cfg}
+			return postPreviewData{Post: p, PostURL: cfg.PostPath(slug, p.Slug), Config: cfg}
 		},
 	}
 
 	tmpl := template.New("").Funcs(funcMap)
 
-	entries, err := fs.ReadDir(TemplateFS, ".")
+	entries, err := fs.ReadDir(tmplFS, ".")
 	if err != nil {
 		panic("server: cannot read templates dir: " + err.Error())
 	}
@@ -574,7 +492,7 @@ func mustLoadTemplates() *template.Template {
 		if e.IsDir() || !strings.HasSuffix(e.Name(), ".html") {
 			continue
 		}
-		data, err := fs.ReadFile(TemplateFS, e.Name())
+		data, err := fs.ReadFile(tmplFS, e.Name())
 		if err != nil {
 			panic("server: cannot read template " + e.Name() + ": " + err.Error())
 		}
@@ -637,10 +555,10 @@ func removePaginationParam(uri string) string {
 	return base + "?" + strings.Join(parts, "&")
 }
 
-func cssVersion(cssPath, buildCommit string) string {
+func cssVersion(assetsFS fs.FS, cssPath, buildCommit string) string {
 	rel := strings.TrimPrefix(cssPath, "/assets/")
 	rel = strings.TrimPrefix(rel, "assets/")
-	if info, err := fs.Stat(AssetsFS, rel); err == nil && !info.ModTime().IsZero() {
+	if info, err := fs.Stat(assetsFS, rel); err == nil && !info.ModTime().IsZero() {
 		return strconv.FormatInt(info.ModTime().Unix(), 10)
 	}
 	if buildCommit != "" && buildCommit != "unknown" {
@@ -667,11 +585,6 @@ func validSlug(s string) bool {
 		}
 	}
 	return true
-}
-
-func fileExists(path string) bool {
-	_, err := os.Stat(path)
-	return err == nil
 }
 
 func intParam(s string, def int) int {
@@ -733,19 +646,7 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// 1. Check if the entire relPath corresponds to a category folder
-	var categorySlug string
-	for slug, cat := range h.cfg.Categories {
-		folder := cat.Folder
-		if folder == "" {
-			folder = slug
-		}
-		if folder == relPath {
-			categorySlug = slug
-			break
-		}
-	}
-
-	if categorySlug != "" {
+	if categorySlug, ok := h.cfg.CategorySlugByFolder(relPath); ok {
 		cat := h.b.GetCategoryBySlug(categorySlug)
 		if cat == nil {
 			h.serve404(w, r, start)
@@ -785,17 +686,9 @@ func (h *Handler) serveCleanContent(w http.ResponseWriter, r *http.Request) {
 
 	var postCategorySlug string
 	if folderPath != "" {
-		for slug, cat := range h.cfg.Categories {
-			folder := cat.Folder
-			if folder == "" {
-				folder = slug
-			}
-			if folder == folderPath {
-				postCategorySlug = slug
-				break
-			}
-		}
-		if postCategorySlug == "" {
+		var ok bool
+		postCategorySlug, ok = h.cfg.CategorySlugByFolder(folderPath)
+		if !ok {
 			h.serve404(w, r, start)
 			return
 		}

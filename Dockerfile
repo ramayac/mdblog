@@ -31,8 +31,8 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
     go build -o /out/mdblog ./cmd/mdblog
 
-# Generate post metadata index
-RUN cd /src && /out/mdblog build-index && /out/mdblog build-feed && /out/mdblog build-sitemap
+# Generate post metadata index, RSS feed, sitemap, and robots.txt
+RUN cd /src && /out/mdblog build
 
 # ── Stage 2: Truly minimal image — binary + posts + config only ───────────────
 FROM scratch

@@ -38,6 +38,10 @@ func main() {
 	switch os.Args[1] {
 	case "serve":
 		runServe(cfg)
+	case "build":
+		runBuildIndex(cfg)
+		runBuildFeed(cfg)
+		runBuildSitemap(cfg)
 	case "build-index":
 		runBuildIndex(cfg)
 	case "build-feed":
@@ -66,6 +70,7 @@ func printUsage() {
 	fmt.Println()
 	fmt.Println("Subcommands:")
 	fmt.Println("  serve          Start HTTP server (default :8080, set PORT env to override)")
+	fmt.Println("  build          Generate index, RSS feed, sitemap, and robots.txt in one step")
 	fmt.Println("  build-index    Generate content/content.index.json")
 	fmt.Println("  build-feed     Generate feed.xml (requires build-index to run first)")
 	fmt.Println("  build-sitemap  Generate sitemap.xml and robots.txt (requires build-index)")

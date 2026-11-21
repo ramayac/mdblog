@@ -89,8 +89,8 @@ type VersionInfo struct {
 	Date    string
 }
 
-// indexPost mirrors the JSON fields in posts.index.json.
-type indexPost struct {
+// IndexPost represents a post metadata entry stored in content.index.json.
+type IndexPost struct {
 	Slug         string `json:"slug"`
 	Title        string `json:"title"`
 	Date         string `json:"date"`
@@ -101,6 +101,8 @@ type indexPost struct {
 	SourcePath   string `json:"source_path"`
 	Filename     string `json:"filename"`
 }
+
+type indexPost = IndexPost
 
 var (
 	slugCleanupRegex = regexp.MustCompile(`[^a-z0-9]+`)
@@ -288,56 +290,33 @@ func (b *Blog) GetMenu() []MenuLink {
 
 // GetNavPinned returns navigation links for menu.pinned entries, sorted by Order.
 func (b *Blog) GetNavPinned() []MenuLink {
-	refs := make([]config.MenuCategoryRef, len(b.cfg.Menu.Pinned))
-	copy(refs, b.cfg.Menu.Pinned)
-	sort.Slice(refs, func(i, j int) bool {
-		if refs[i].Order != refs[j].Order {
-			return refs[i].Order < refs[j].Order
-		}
-		return refs[i].Category < refs[j].Category
-	})
-	var links []MenuLink
-	for _, ref := range refs {
-		cat, ok := b.cfg.Categories[ref.Category]
-		if !ok {
-			continue
-		}
-		folder := cat.Folder
-		if folder == "" {
-			folder = ref.Category
-		}
-		links = append(links, MenuLink{
-			Label: cat.BlogName,
-			URL:   "/content/" + folder + "/",
-		})
-	}
-	return links
+	return b.resolveCategoryRefs(b.cfg.Menu.Pinned)
 }
 
 // GetDropdownCategories returns navigation links for a dropdown's item entries,
 // sorted by Order.
 func (b *Blog) GetDropdownCategories(dropdown config.MenuDropdown) []MenuLink {
-	refs := make([]config.MenuCategoryRef, len(dropdown.Item))
-	copy(refs, dropdown.Item)
-	sort.Slice(refs, func(i, j int) bool {
-		if refs[i].Order != refs[j].Order {
-			return refs[i].Order < refs[j].Order
+	return b.resolveCategoryRefs(dropdown.Item)
+}
+
+func (b *Blog) resolveCategoryRefs(refs []config.MenuCategoryRef) []MenuLink {
+	sorted := make([]config.MenuCategoryRef, len(refs))
+	copy(sorted, refs)
+	sort.Slice(sorted, func(i, j int) bool {
+		if sorted[i].Order != sorted[j].Order {
+			return sorted[i].Order < sorted[j].Order
 		}
-		return refs[i].Category < refs[j].Category
+		return sorted[i].Category < sorted[j].Category
 	})
 	var links []MenuLink
-	for _, ref := range refs {
+	for _, ref := range sorted {
 		cat, ok := b.cfg.Categories[ref.Category]
 		if !ok {
 			continue
 		}
-		folder := cat.Folder
-		if folder == "" {
-			folder = ref.Category
-		}
 		links = append(links, MenuLink{
 			Label: cat.BlogName,
-			URL:   "/content/" + folder + "/",
+			URL:   b.cfg.CategoryPath(ref.Category),
 		})
 	}
 	return links
@@ -790,14 +769,16 @@ func (b *Blog) buildPagination(current, total int) Pagination {
 	}
 }
 
-func generateSlug(filename string) string {
+// SlugFromFilename derives a URL-safe slug from a post filename.
+func SlugFromFilename(filename string) string {
 	name := strings.TrimSuffix(filename, filepath.Ext(filename))
 	slug := strings.ToLower(name)
 	slug = slugCleanupRegex.ReplaceAllString(slug, "-")
 	return strings.Trim(slug, "-")
 }
 
-func titleFromFilename(filename string) string {
+// TitleFromFilename derives a fallback post title from a filename.
+func TitleFromFilename(filename string) string {
 	name := strings.TrimSuffix(filename, filepath.Ext(filename))
 	name = datePrefixRegex.ReplaceAllString(name, "")
 	name = strings.ReplaceAll(name, "-", " ")
@@ -807,6 +788,30 @@ func titleFromFilename(filename string) string {
 	}
 	r, size := utf8.DecodeRuneInString(name)
 	return string(unicode.ToTitle(r)) + name[size:]
+}
+
+// AtomicWrite writes data to path via a temporary file and rename.
+func AtomicWrite(path string, data []byte) error {
+	if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
+		return err
+	}
+	tmp := path + ".tmp"
+	if err := os.WriteFile(tmp, data, 0644); err != nil {
+		return err
+	}
+	if err := os.Rename(tmp, path); err != nil {
+		_ = os.Remove(tmp)
+		return err
+	}
+	return nil
+}
+
+func generateSlug(filename string) string {
+	return SlugFromFilename(filename)
+}
+
+func titleFromFilename(filename string) string {
+	return TitleFromFilename(filename)
 }
 
 func generateExcerpt(htmlContent string, length int) string {

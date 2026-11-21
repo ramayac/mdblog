@@ -5,24 +5,11 @@ import (
 	"encoding/xml"
 	"fmt"
 	"os"
-	"path/filepath"
 	"time"
 
+	"github.com/ramayac/mdblog/internal/blog"
 	"github.com/ramayac/mdblog/internal/config"
 )
-
-// indexPost mirrors the JSON fields in posts.index.json.
-type indexPost struct {
-	Slug         string `json:"slug"`
-	Title        string `json:"title"`
-	Date         string `json:"date"`
-	Author       string `json:"author"`
-	Tags         string `json:"tags"`
-	Excerpt      string `json:"excerpt"`
-	CategorySlug string `json:"category_slug"`
-	SourcePath   string `json:"source_path"`
-	Filename     string `json:"filename"`
-}
 
 // ─────────────────────────────────────────────────────────────────────────────
 // RSS 2.0 XML structures
@@ -81,7 +68,7 @@ func Build(cfg *config.Config) error {
 	if err != nil {
 		return fmt.Errorf("buildfeed: cannot read index %s: %w", cfg.PostIndexFile, err)
 	}
-	var posts []indexPost
+	var posts []blog.IndexPost
 	if err := json.Unmarshal(indexData, &posts); err != nil {
 		return fmt.Errorf("buildfeed: cannot parse index: %w", err)
 	}
@@ -107,7 +94,7 @@ func Build(cfg *config.Config) error {
 	// Build items
 	items := make([]rssItem, 0, len(posts))
 	for _, p := range posts {
-		link := buildPostURL(cfg, baseURL, p.Slug, p.CategorySlug)
+		link := baseURL + cfg.PostPath(p.CategorySlug, p.Slug)
 		pubDate := ""
 		if t, err := time.Parse("2006-01-02", p.Date); err == nil {
 			pubDate = t.UTC().Format(time.RFC1123Z)
@@ -159,40 +146,10 @@ func Build(cfg *config.Config) error {
 
 	// Atomic write: tmp -> rename
 	outPath := cfg.Feed.OutputFile
-	if err := os.MkdirAll(filepath.Dir(outPath), 0755); err != nil {
-		return fmt.Errorf("buildfeed: mkdir: %w", err)
-	}
-	tmp := outPath + ".tmp"
-	if err := os.WriteFile(tmp, output, 0644); err != nil {
-		return fmt.Errorf("buildfeed: write tmp: %w", err)
-	}
-	if err := os.Rename(tmp, outPath); err != nil {
-		_ = os.Remove(tmp)
-		return fmt.Errorf("buildfeed: rename: %w", err)
+	if err := blog.AtomicWrite(outPath, output); err != nil {
+		return fmt.Errorf("buildfeed: write %s: %w", outPath, err)
 	}
 
 	fmt.Printf("buildfeed: wrote %d items to %s\n", len(items), outPath)
 	return nil
-}
-
-// buildPostURL constructs an absolute post URL.
-func buildPostURL(cfg *config.Config, baseURL, slug, categorySlug string) string {
-	var folder string
-	if categorySlug != "" {
-		cat, ok := cfg.Categories[categorySlug]
-		if ok {
-			folder = cat.Folder
-			if folder == "" {
-				folder = categorySlug
-			}
-		} else {
-			folder = categorySlug
-		}
-	}
-	u := baseURL + "/content/"
-	if folder != "" {
-		u += folder + "/"
-	}
-	u += slug
-	return u
 }

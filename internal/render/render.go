@@ -95,19 +95,7 @@ func Run(cfg *config.Config, args []string) error {
 	// We reuse the server's template machinery via a fake HTTP round-trip.
 	h := server.New(cfg, b)
 
-	var folder string
-	if target.CategorySlug != "" {
-		if cat, ok := cfg.Categories[target.CategorySlug]; ok && cat.Folder != "" {
-			folder = cat.Folder
-		} else {
-			folder = target.CategorySlug
-		}
-	}
-	url := "/content/"
-	if folder != "" {
-		url += folder + "/"
-	}
-	url += target.Slug
+	url := cfg.PostPath(target.CategorySlug, target.Slug)
 
 	req := httptest.NewRequest(http.MethodGet, url, nil)
 	rr := httptest.NewRecorder()

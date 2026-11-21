@@ -12,26 +12,15 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/ramayac/mdblog/internal/blog"
 	"github.com/ramayac/mdblog/internal/config"
 	"github.com/ramayac/mdblog/internal/markdown"
 )
 
-// IndexPost is the structure written into posts.index.json.
-type IndexPost struct {
-	Slug         string `json:"slug"`
-	Title        string `json:"title"`
-	Date         string `json:"date"`
-	Author       string `json:"author"`
-	Tags         string `json:"tags"`
-	Excerpt      string `json:"excerpt"`
-	CategorySlug string `json:"category_slug"`
-	SourcePath   string `json:"source_path"`
-	Filename     string `json:"filename"`
-}
+// IndexPost is the structure written into content.index.json.
+type IndexPost = blog.IndexPost
 
 var (
-	slugCleanup      = regexp.MustCompile(`[^a-z0-9]+`)
-	datePrefix       = regexp.MustCompile(`^\d{4}-\d{2}-\d{2}-`)
 	reFencedCode     = regexp.MustCompile("(?s)```[\\s\\S]*?```")
 	reInlineCode     = regexp.MustCompile("`[^`]+`")
 	reHeading        = regexp.MustCompile(`(?m)^#{1,6}\s+`)
@@ -57,12 +46,8 @@ func Build(cfg *config.Config) error {
 	}
 
 	// Categorized posts
-	for slug, cat := range cfg.Categories {
-		folder := cat.Folder
-		if folder == "" {
-			folder = slug
-		}
-		dir := filepath.Join(cfg.PostsDir, folder)
+	for slug := range cfg.Categories {
+		dir := filepath.Join(cfg.PostsDir, cfg.CategoryFolder(slug))
 		catEntries, err := scanFolder(dir, slug, cfg.DateFormat)
 		if err != nil {
 			log.Printf("buildindex: scan %s: %v", dir, err)
@@ -78,20 +63,12 @@ func Build(cfg *config.Config) error {
 
 	// Atomic write: tmp → rename
 	indexPath := cfg.PostIndexFile
-	if err := os.MkdirAll(filepath.Dir(indexPath), 0755); err != nil {
-		return fmt.Errorf("buildindex: mkdir %s: %w", filepath.Dir(indexPath), err)
-	}
-	tmp := indexPath + ".tmp"
 	data, err := json.MarshalIndent(entries, "", "  ")
 	if err != nil {
 		return fmt.Errorf("buildindex: marshal: %w", err)
 	}
-	if err := os.WriteFile(tmp, data, 0644); err != nil {
-		return fmt.Errorf("buildindex: write tmp: %w", err)
-	}
-	if err := os.Rename(tmp, indexPath); err != nil {
-		_ = os.Remove(tmp)
-		return fmt.Errorf("buildindex: rename: %w", err)
+	if err := blog.AtomicWrite(indexPath, data); err != nil {
+		return fmt.Errorf("buildindex: write %s: %w", indexPath, err)
 	}
 
 	fmt.Printf("buildindex: wrote %d posts to %s\n", len(entries), indexPath)
@@ -130,10 +107,10 @@ func scanFolder(dir, categorySlug, dateFormat string) ([]IndexPost, error) {
 		meta := markdown.ParseMetaOnly(string(content))
 		fm := meta.FrontMatter
 
-		slug := slugFromFilename(e.Name())
+		slug := blog.SlugFromFilename(e.Name())
 		title := fm.Title
 		if title == "" {
-			title = titleFromFilename(e.Name())
+			title = blog.TitleFromFilename(e.Name())
 		}
 
 		date := fm.Date
@@ -173,26 +150,6 @@ func scanFolder(dir, categorySlug, dateFormat string) ([]IndexPost, error) {
 		})
 	}
 	return posts, nil
-}
-
-// slugFromFilename mirrors Blog.generateSlug.
-func slugFromFilename(filename string) string {
-	name := strings.TrimSuffix(filename, filepath.Ext(filename))
-	slug := strings.ToLower(name)
-	slug = slugCleanup.ReplaceAllString(slug, "-")
-	return strings.Trim(slug, "-")
-}
-
-// titleFromFilename mirrors Blog.getTitleFromFilename.
-func titleFromFilename(filename string) string {
-	name := strings.TrimSuffix(filename, filepath.Ext(filename))
-	name = datePrefix.ReplaceAllString(name, "")
-	name = strings.ReplaceAll(name, "-", " ")
-	name = strings.ReplaceAll(name, "_", " ")
-	if name == "" {
-		return ""
-	}
-	return strings.ToUpper(name[:1]) + name[1:]
 }
 
 // rawMarkdownExcerpt strips Markdown syntax to produce a plain-text excerpt.
