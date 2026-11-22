@@ -13,7 +13,7 @@ GOBUILDFLAGS := -trimpath -buildvcs=false
 
 .DEFAULT_GOAL := help
 
-.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config lint-links content-count test new-post render request \
+.PHONY: help serve build build-embed build-index build-feed build-sitemap lint lint-config lint-links lint-styles lint-layout content-count test new-post render request \
 	wiki-list wiki-headings wiki-log-tail wiki-search wiki-changed wiki-candidates wiki-lint wiki-refresh \
         docker-build docker-build-debug docker-run docker-run-release \
         docker-stop docker-push docker-pull clean-urls benchmark
@@ -51,7 +51,7 @@ build-sitemap: ## Generate sitemap.xml and robots.txt (requires build-index firs
 	@echo "Building sitemap and robots.txt..."
 	go run ./cmd/mdblog build-sitemap
 
-lint: lint-config lint-links ## Run all code and post link validation linters
+lint: lint-config lint-links lint-styles ## Run all code, style, and post link validation linters
 	go vet ./...
 
 lint-config: ## Validate config.toml by parsing it (panics on TOML errors)
@@ -59,6 +59,12 @@ lint-config: ## Validate config.toml by parsing it (panics on TOML errors)
 
 lint-links: build-index ## Run internal markdown links validation linter
 	go run ./cmd/mdblog lint-links
+
+lint-styles: ## Run static CSS hygiene, WCAG AA contrast, and template CSP/XSS checks
+	go test -v ./internal/server -run 'TestCSS|TestTemplateCSP'
+
+lint-layout: ## Run headless Chromium computed-geometry layout checks (requires Playwright)
+	@bash scripts/lint-layout.sh
 
 content-count: ## Show a treeview directory listing of markdown file counts
 	go run ./cmd/mdblog content-count

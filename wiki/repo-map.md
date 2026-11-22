@@ -111,7 +111,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 ## Make Targets
 
-- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `lint-links`, `content-count`, `test`, `benchmark`, `render`, `request`, `new-post`, and `clean-urls`.
+- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `lint-links`, `lint-styles`, `lint-layout`, `content-count`, `test`, `benchmark`, `render`, `request`, `new-post`, and `clean-urls`.
 - Wiki maintenance targets: `wiki-list`, `wiki-headings`, `wiki-log-tail`, `wiki-search`, `wiki-changed`, `wiki-candidates`, `wiki-lint`, and `wiki-refresh`. All targets delegate to the global `wiki-engine` CLI (`github.com/ramayac/go-wiki-engine`). Per-repo configuration lives in `.wikirc`. `wiki/` and `scripts/` are excluded from the Docker build via `.dockerignore`.
 - Operational helpers live in `bin/`: `clean-srbyte-urls`, `delete-drafts`, `find-thin-md`, and `fix-broken-links`. They are also excluded from Docker builds via `.dockerignore`.
 - Docker targets: `docker-build`, `docker-build-debug`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.

@@ -36,3 +36,28 @@ jobs:
 
     - name: Run tests
       run: go test ./...
+
+  layout-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v5
+      with:
+        go-version-file: go.mod
+        cache: true
+
+    - name: Set up Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 22
+
+    - name: Install Playwright Chromium
+      run: |
+        npm install --no-save playwright
+        npx playwright install --with-deps chromium
+
+    - name: Run deterministic layout checks
+      run: make lint-layout

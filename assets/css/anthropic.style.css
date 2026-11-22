@@ -13,8 +13,8 @@
     --color-text-muted:    light-dark(#6b6460, #9b948d);
     --color-text-light:    light-dark(#4a4440, #c8c0b8);
     --color-heading:       light-dark(#0d0d0d, #f5f0e8);
-    --color-primary:       light-dark(#c8501a, #e8753a);
-    --color-primary-hover: light-dark(#a83e13, #f08050);
+    --color-primary:       light-dark(#be4915, #e8753a);
+    --color-primary-hover: light-dark(#9f3a0f, #f08050);
     --color-border:        light-dark(#e5dfd8, #2e2924);
     --color-code-bg:       light-dark(#f2ede6, #252018);
     --color-code-text:     light-dark(#a0320a, #e8753a);

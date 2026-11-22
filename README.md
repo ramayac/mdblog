@@ -45,7 +45,9 @@ make build-index     # Generate post metadata index (content/content.index.json)
 make build-feed      # Generate RSS feed (feed.xml — requires build-index first)
 make build-sitemap   # Generate sitemap.xml and robots.txt (requires build-index first)
 make serve           # Start HTTP dev server at http://localhost:8080
-make lint            # Run config check, link linter, and go vet
+make lint            # Run config check, link linter, style/WCAG linter, and go vet
+make lint-styles     # Run static CSS hygiene, WCAG AA contrast, and template CSP/XSS checks
+make lint-layout     # Run headless Chromium layout geometry checks (requires Playwright)
 make test            # Build index + feed + sitemap, then run the Go test suite
 make benchmark       # Run the HTTP performance benchmark using ApacheBench
 make render random   # Render a random post to a standalone HTML file
