@@ -1,0 +1,486 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   simple.style.css — Quiet, flat, paper-and-ink editorial theme for MDBlog.
+   Inspired by klauria.tech: warm off-white paper, deep charcoal ink,
+   restrained cobalt links, hairline rules, zero drop shadows, and generous
+   serif reading typography layered on base.style.css.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+    --color-bg:            light-dark(#fafaf8, #161614);
+    --color-surface:       light-dark(#f1f1ec, #1f1f1c);
+    --color-surface-hover: light-dark(#e9e9e2, #272723);
+    --color-text:          light-dark(#1c1c1a, #ecece6);
+    --color-text-muted:    light-dark(#55554f, #a3a39b);
+    --color-text-light:    light-dark(#3b3b36, #ccccc4);
+    --color-heading:       light-dark(#1c1c1a, #f7f7f2);
+    --color-primary:       light-dark(#1d4ed8, #60a5fa);
+    --color-primary-hover: light-dark(#1e40af, #93c5fd);
+    --color-border:        light-dark(#dcdcd6, #2e2e2a);
+    --color-divider:       light-dark(#c6c6c1, #3f3f3a);
+    --color-code-bg:       light-dark(#f1f1ec, #22221e);
+    --color-code-text:     light-dark(#1c1c1a, #e2e2da);
+    --color-tag-bg:        light-dark(#f1f1ec, #252521);
+    --color-quote-bg:      transparent;
+    --color-muted-heading: light-dark(#76766e, #7a7a72);
+
+    /* Layout & Typography */
+    --container-width:     860px;
+    --body-font:           'Source Serif 4', 'Iowan Old Style', 'Palatino Linotype', 'Georgia', serif;
+    --ui-font:             'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --mono-font:           'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
+    --base-font-size:      16px;
+    --base-line-height:    1.6;
+    --content-line-height: 1.65;
+}
+
+/* ── Base Document & Links ─────────────────────────────────────────────── */
+body {
+    font-family: var(--ui-font);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--body-font);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+a {
+    text-underline-offset: 0.15em;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible,
+input:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* ── Navigation (flat, crisp ink links, no pill fills) ─────────────────── */
+.site-menu {
+    padding: 1.25rem 0 1rem;
+    border-bottom: 1px solid var(--color-divider);
+    margin-bottom: 2.25rem;
+}
+
+.site-menu .menu-links {
+    text-align: left;
+}
+
+.site-menu a,
+.site-menu button,
+.site-menu summary {
+    font-family: var(--ui-font);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-heading);
+    padding: 0.25rem 0.5rem;
+    margin: 0 0.1rem;
+    border-radius: 0;
+}
+
+.site-menu a:hover,
+.site-menu button:hover,
+.site-menu summary:hover {
+    background-color: transparent;
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.site-menu a:visited { color: var(--color-heading); }
+.site-menu a:visited:hover { color: var(--color-primary); }
+
+.nav-dropdown-content {
+    left: 0;
+    transform: none;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg);
+    padding: 0.25rem 0;
+}
+
+.nav-dropdown-content a {
+    font-weight: 400;
+    padding: 0.45rem 0.9rem;
+    border-radius: 0;
+}
+
+.nav-dropdown-content a:first-child,
+.nav-dropdown-content a:last-child {
+    border-radius: 0;
+}
+
+.nav-dropdown-content a:hover {
+    background-color: var(--color-surface);
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+/* ── Page & Section Headings ───────────────────────────────────────────── */
+.blog-title {
+    padding: 0.5rem 0 1.75rem;
+    border-bottom: 1px solid var(--color-divider);
+    margin-bottom: 2rem;
+}
+
+.blog-title h2,
+.category-title {
+    font-family: var(--body-font);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.1;
+    color: var(--color-heading);
+    margin: 0;
+}
+
+.category-title {
+    padding: 0.5rem 0 1.75rem;
+    border-bottom: 1px solid var(--color-divider);
+    margin-bottom: 2rem;
+}
+
+.blog-title h2 small,
+.category-title small {
+    display: block;
+    font-family: var(--ui-font);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--color-text-muted);
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+.index-content {
+    font-family: var(--body-font);
+    font-size: 1.1rem;
+    line-height: 1.65;
+    max-width: 72ch;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid var(--color-divider);
+}
+
+/* ── Category Cards & Post Previews (flat hairline editorial style) ────── */
+.category-cards {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.25rem;
+    margin-top: 0;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 2.5rem;
+}
+
+.category-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0;
+    padding: 1.25rem 1.4rem;
+    min-height: 115px;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.category-card:hover {
+    border-color: var(--color-heading);
+    background-color: var(--color-surface);
+}
+
+.category-card h3 {
+    font-family: var(--body-font);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 0.3rem;
+}
+
+.category-card:hover h3 {
+    text-decoration: underline;
+}
+
+.category-card p {
+    font-family: var(--ui-font);
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.category-card .post-count {
+    font-family: var(--ui-font);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    margin-top: 0.85rem;
+}
+
+.post-preview {
+    padding: 1.35rem 0;
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color 0.15s ease;
+}
+
+.post-preview:first-child {
+    padding-top: 0.25rem;
+}
+
+.post-preview:hover {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.post-preview:hover .post-title {
+    text-decoration: underline;
+}
+
+.post-title {
+    font-family: var(--body-font);
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0 0 0.3rem;
+}
+
+.post-meta {
+    font-family: var(--ui-font);
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin: 0.25rem 0 0.5rem;
+}
+
+.post-excerpt {
+    font-family: var(--ui-font);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    color: var(--color-text-light);
+    margin: 0.4rem 0 0.6rem;
+    max-width: 72ch;
+}
+
+.read-more {
+    font-family: var(--ui-font);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-top: 0.15rem;
+}
+
+/* ── Single Post & Standalone Page (72ch editorial serif measure) ──────── */
+.post {
+    max-width: 72ch;
+}
+
+.post-header {
+    text-align: left;
+    border-bottom: 1px solid var(--color-divider);
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.post-header .post-title {
+    font-family: var(--body-font);
+    font-size: clamp(1.9rem, 4vw, 2.5rem);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.75rem;
+}
+
+.page-description {
+    font-family: var(--ui-font);
+    font-size: 1rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+}
+
+.post-content {
+    font-family: var(--body-font);
+    font-size: clamp(1.0625rem, 2.2vw, 1.2rem);
+    line-height: var(--content-line-height);
+}
+
+.post-content h2 {
+    margin-top: 2.25rem;
+    font-size: 1.45em;
+    line-height: 1.25;
+}
+
+.post-content h3 {
+    margin-top: 1.75rem;
+    font-size: 1.2em;
+    line-height: 1.3;
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol {
+    margin-top: 1rem;
+}
+
+.post-content img {
+    border-radius: 0;
+    max-height: 85vh;
+}
+
+.post-content table {
+    border-collapse: collapse;
+    font-family: var(--ui-font);
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
+    width: 100%;
+    margin: 1.5rem 0;
+    display: block;
+    overflow-x: auto;
+}
+
+.post-content th,
+.post-content td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.45rem 1rem 0.45rem 0;
+}
+
+.post-content th + th,
+.post-content td + td {
+    border-left: 1px solid var(--color-border);
+    padding-left: 1rem;
+}
+
+.post-content th {
+    border-bottom: 1.5px solid var(--color-heading);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.post-content td {
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* ── Blockquotes, Code & Tags ──────────────────────────────────────────── */
+blockquote {
+    border-left: 3px solid var(--color-border);
+    background: transparent;
+    margin: 1.25rem 0 1.25rem 1.25rem;
+    padding: 0.15rem 0 0.15rem 1rem;
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+code {
+    border-radius: 0;
+    font-size: 0.88em;
+    padding: 0.15rem 0.35rem;
+}
+
+pre {
+    border: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+    border-radius: 0;
+    padding: 1rem 1.15rem;
+    font-size: 0.85rem;
+    line-height: 1.55;
+}
+
+.tag {
+    border: 1px solid var(--color-border);
+    border-radius: 0;
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    font-family: var(--ui-font);
+    font-size: 0.8rem;
+    padding: 0.2rem 0.55rem;
+}
+
+/* ── Flat Hairline Buttons (klauria.tech .demos style) ─────────────────── */
+.back-to-home,
+.pagination-link,
+.feed-subscribe-link,
+.standalone-search-form button {
+    background: var(--color-surface);
+    color: var(--color-heading);
+    border: 1px solid var(--color-border);
+    border-radius: 0;
+    font-family: var(--ui-font);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.55rem 1.1rem;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.back-to-home:hover,
+.pagination-link:hover,
+.feed-subscribe-link:hover,
+.standalone-search-form button:hover {
+    background: var(--color-surface-hover);
+    border-color: var(--color-heading);
+    color: var(--color-heading);
+    text-decoration: none;
+}
+
+.post-navigation {
+    text-align: left;
+    border-top: 1px solid var(--color-divider);
+    padding-top: 1.5rem;
+}
+
+.pagination {
+    border-top: 1px solid var(--color-divider);
+}
+
+/* ── Search Form & Feed Page ───────────────────────────────────────────── */
+.standalone-search-form {
+    max-width: 560px;
+    margin: 0 0 1.5rem;
+}
+
+.standalone-search-form input[type="text"] {
+    border-radius: 0;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+}
+
+.standalone-search-form input[type="text"]:focus {
+    border-color: var(--color-heading);
+}
+
+.search-results-summary {
+    text-align: left;
+}
+
+.feed-subscribe-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0;
+}
+
+.feed-table {
+    font-variant-numeric: tabular-nums;
+}
+
+.feed-table thead th {
+    border-bottom: 1.5px solid var(--color-heading);
+    color: var(--color-heading);
+}
+
+.feed-table tbody tr:hover {
+    background: var(--color-surface);
+}
+
+/* ── Footer ────────────────────────────────────────────────────────────── */
+.site-footer {
+    border-top: 1px solid var(--color-divider);
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+/* ── Responsive ────────────────────────────────────────────────────────── */
+@media (max-width: 720px) {
+    .category-cards { grid-template-columns: 1fr; gap: 0.9rem; }
+    .category-card { min-height: auto; }
+    blockquote { margin-left: 0.5rem; }
+    .standalone-search-form { flex-direction: column; }
+}

@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-11-22] ingest | added simple.style.css editorial theme
+
+- Created `assets/css/simple.style.css` inspired by `klauria.tech` (warm off-white paper `#fafaf8`, deep charcoal ink `#1c1c1a`, cobalt links `#1d4ed8`, hairline rules, flat geometry with zero drop shadows, 72ch serif reading measure, and harmonious warm dark mode via `light-dark()`).
+- Activated `assets/css/simple.style.css` as `css_theme` in `config.toml` and registered it in `wiki/repo-map.md`.
+
 ## [2026-11-21] ingest | codebase audit, optimization, and structural simplification
 
 - **Bug fixes & correctness**:
