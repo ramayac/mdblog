@@ -243,6 +243,11 @@ a:hover {
     font-size: 0.9rem;
 }
 
+.post-category + .post-author::before {
+    content: " · ";
+    margin: 0 0.15rem;
+}
+
 .post-excerpt {
     margin: 1rem 0;
     color: var(--color-text-light);
