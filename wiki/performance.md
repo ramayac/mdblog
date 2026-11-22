@@ -75,3 +75,10 @@ After caching `content.index.json` in memory (guarded by `sync.RWMutex` with `Mo
 | Legacy URL Resolution (`ResolveOldURL`, 500 reqs) | 4.02 ms avg | **0.81 ms (810 µs) avg** (405.2 ms total) | **5.0x faster** |
 | `go test -race ./internal/blog` | 37.8 s | **19.7 s** | **1.9x faster** |
 
+### AWS Lambda Cold vs. Warm Reality & Frontend Impact
+
+- **Cold start (1st isolated request):** In-memory index caching does **not** speed up request #1 on a fresh Lambda sandbox (the first listing/search still parses `content.index.json` once, ~3 ms, and single post reads don't touch the index at all). On isolated cold hits, Lambda container init (~50–150 ms) and network RTT dominate.
+- **Warm invocations (5–15 min Lambda keep-alive):** Any second page click, search query, or crawler burst within the warm window hits the cached index and precomputed chrome (`menu`, `footerHTML`, `indexBlurb`, `cssVersion`), realizing the 3.6×–5× backend reduction and lower GC/CPU usage.
+- **First-paint win even on a single cold visit:** Replacing CSS `@import "base.style.css"` with parallel `<link>` tags removes a full render-blocking network round-trip (50–150 ms) on cold browser loads, and moving inline JS into cacheable `assets/js/site.js` shrinks every HTML response.
+- **Benchmark scope note:** `TestRealisticUserTrafficSimulation` benchmarks `internal/blog` directly rather than full HTTP round-trips; single post pages still render Markdown on demand via Goldmark to keep memory well under the `64M` container budget.
+

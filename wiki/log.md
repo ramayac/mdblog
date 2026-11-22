@@ -6,6 +6,7 @@
 - Upgraded light-mode contrast tokens in `assets/css/base.style.css` and `assets/css/anthropic.style.css` so every theme passes WCAG AA (`>= 4.5:1`).
 - Added Layer 2 headless Chromium computed-geometry checker in `scripts/lint-layout.mjs` + `scripts/lint-layout.sh` (`make lint-layout`) and wired it as a dedicated `layout-lint` job in `.github/workflows/ci.yml`.
 - Documented both layers in `wiki/style-checking.md` and updated `wiki/index.md`, `wiki/agents.md`, `wiki/repo-map.md`, `AGENTS.md`, and `README.md`.
+- Added AWS Lambda cold vs. warm invocation and frontend first-paint analysis to `wiki/performance.md`.
 
 ## [2026-11-22] ingest | added simple.style.css editorial theme
 
