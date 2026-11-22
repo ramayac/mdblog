@@ -63,7 +63,11 @@ try {
         const cspViolations = [];
 
         page.on('console', (msg) => {
-          if (msg.type() === 'error') consoleErrors.push(msg.text());
+          if (msg.type() !== 'error') return;
+          const text = msg.text();
+          // Chromium logs a console error for the intentionally-404 test route itself.
+          if (route.expectStatus === 404 && text.includes('status of 404')) return;
+          consoleErrors.push(text);
         });
         page.on('pageerror', (err) => consoleErrors.push(err.message));
         page.on('response', (resp) => {
