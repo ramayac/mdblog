@@ -348,6 +348,12 @@ input:focus-visible {
     margin: 0 0 1.15rem;
 }
 
+.post-content a,
+.index-content a {
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
 .post-content ul,
 .post-content ol {
     margin: 0 0 1.25rem;
@@ -403,10 +409,10 @@ input:focus-visible {
 blockquote {
     border-left: 3px solid var(--color-border);
     background: transparent;
-    margin: 1.25rem 0 1.25rem 0.75rem;
+    margin: 1.25rem 0 1.25rem 1.25rem;
     padding: 0.15rem 0 0.15rem 1rem;
     color: var(--color-text-light);
-    font-style: italic;
+    font-style: normal;
     overflow-wrap: anywhere;
 }
 
