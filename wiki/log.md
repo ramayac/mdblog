@@ -1,5 +1,10 @@
 # Wiki Log
 
+## [2026-11-22] lint | validated README.md and recorded audit/theme lessons learned
+
+- Fixed 6 minor drift items in `README.md`: removed nonexistent `[feed].title`/`description` and top-level `header_content`, updated `[categories]` example (`index` = homepage cards, nav via `[[menu.*]]`), noted standalone pages in `/sitemap.xml`, updated `assets/js/` description (`site.js`), and noted warm Lambda in-memory caching.
+- Recorded durable lessons learned in `wiki/agents.md` covering strict CSP/XSS guardrails, `light-dark()` theme layering, template heading alignment, and Lambda cold vs. warm performance realities.
+
 ## [2026-11-22] ingest | added deterministic CSS, WCAG contrast, and headless layout checkers
 
 - Added Layer 1 pure-Go static style/template linter in `internal/server/style_lint_test.go` (`make lint-styles`, included in `make lint` and `make test`): checks CSS hygiene (no `@import`, no `!important`, no duplicate/orphan selectors), WCAG AA (`>= 4.5:1`) contrast in both light and dark modes for all themes, and template CSP/XSS hygiene.
