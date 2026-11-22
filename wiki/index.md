@@ -13,6 +13,7 @@
 - [slugs.md](slugs.md) | Implementation record for clean URL slugs (status: shipped).
 - [embedded-path-plan.md](embedded-path-plan.md) | Technical plan for default embedded templates and assets.
 - [performance.md](performance.md) | Performance analysis, raw benchmarks, and traffic simulation insights.
+- [style-checking.md](style-checking.md) | Deterministic CSS hygiene, WCAG contrast, and headless layout geometry checking.
 - [binary-size-investigation.md](binary-size-investigation.md) | Binary size analysis, compiler flags, and TinyGo evaluation.
 - [log.md](log.md) | Append-only timeline of wiki maintenance.
 

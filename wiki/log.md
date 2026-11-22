@@ -1,5 +1,17 @@
 # Wiki Log
 
+## [2026-11-22] ingest | added deterministic CSS, WCAG contrast, and headless layout checkers
+
+- Added Layer 1 pure-Go static style/template linter in `internal/server/style_lint_test.go` (`make lint-styles`, included in `make lint` and `make test`): checks CSS hygiene (no `@import`, no `!important`, no duplicate/orphan selectors), WCAG AA (`>= 4.5:1`) contrast in both light and dark modes for all themes, and template CSP/XSS hygiene.
+- Upgraded light-mode contrast tokens in `assets/css/base.style.css` and `assets/css/anthropic.style.css` so every theme passes WCAG AA (`>= 4.5:1`).
+- Added Layer 2 headless Chromium computed-geometry checker in `scripts/lint-layout.mjs` + `scripts/lint-layout.sh` (`make lint-layout`) and wired it as a dedicated `layout-lint` job in `.github/workflows/ci.yml`.
+- Documented both layers in `wiki/style-checking.md` and updated `wiki/index.md`, `wiki/agents.md`, `wiki/repo-map.md`, `AGENTS.md`, and `README.md`.
+
+## [2026-11-22] ingest | added simple.style.css editorial theme
+
+- Created `assets/css/simple.style.css` inspired by `klauria.tech` (warm off-white paper `#fafaf8`, deep charcoal ink `#1c1c1a`, cobalt links `#1d4ed8`, hairline rules, flat geometry with zero drop shadows, 72ch serif reading measure, and harmonious warm dark mode via `light-dark()`).
+- Activated `assets/css/simple.style.css` as `css_theme` in `config.toml` and registered it in `wiki/repo-map.md`.
+
 ## [2026-11-21] ingest | codebase audit, optimization, and structural simplification
 
 - **Bug fixes & correctness**:

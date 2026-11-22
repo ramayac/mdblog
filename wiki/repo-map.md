@@ -67,7 +67,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 - To prevent relative path resolution issues on deep nested request paths, `css_theme` is normalized at configuration load time and server initialization to guarantee a root-relative leading slash `/` if the path is relative.
 - `layout.html` loads `/assets/css/base.style.css` and the active theme stylesheet in parallel via separate `<link>` tags (avoiding CSS `@import` waterfalls), both cache-busted with `?v={{ .CSSVersion }}`.
 - Static assets are served through `/assets/*` via `http.FileServerFS(assetsFS)` (on-disk `assets/` in default builds, embedded via `go:embed` in `cmd/lambda-embed`).
-- `assets/css/base.style.css` is the single shared structural layer and default light/dark token set. Both `assets/css/anthropic.style.css` and `assets/css/default.style.css` layer on top of it as clean overrides with zero `!important` rules.
+- `assets/css/base.style.css` is the single shared structural layer and default light/dark token set. `assets/css/simple.style.css` (active default, paper-and-ink editorial theme inspired by `klauria.tech`), `assets/css/anthropic.style.css`, and `assets/css/default.style.css` layer on top of it as clean overrides with zero `!important` rules.
 - Light/dark mode uses native CSS `color-scheme: light dark` and `light-dark(...)` tokens in a single `:root` block per theme, with `:root[data-theme="light"]` / `:root[data-theme="dark"]` switching `color-scheme` cleanly without duplicating dark palettes.
 - Client-side behavior lives in one tiny file, `assets/js/site.js` (loaded in `<head>` with `?v=`), which applies any saved `localStorage` `theme-mode` before first paint, binds the `.theme-toggle` button, and closes open `<details class="nav-dropdown">` menus on outside click or `Escape`.
 - Navigation dropdowns use native `<details class="nav-dropdown" name="nav-dropdown">` / `<summary>` elements (keyboard-accessible, zero-JS toggling, plus CSS hover on fine-pointer desktop).
@@ -111,7 +111,7 @@ MDBlog is a flat-file blog engine written in Go 1.26. It serves Markdown posts a
 
 ## Make Targets
 
-- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `lint-links`, `content-count`, `test`, `benchmark`, `render`, `request`, `new-post`, and `clean-urls`.
+- Core development targets: `help`, `serve`, `build`, `build-embed`, `build-index`, `build-feed`, `build-sitemap`, `lint`, `lint-config`, `lint-links`, `lint-styles`, `lint-layout`, `content-count`, `test`, `benchmark`, `render`, `request`, `new-post`, and `clean-urls`.
 - Wiki maintenance targets: `wiki-list`, `wiki-headings`, `wiki-log-tail`, `wiki-search`, `wiki-changed`, `wiki-candidates`, `wiki-lint`, and `wiki-refresh`. All targets delegate to the global `wiki-engine` CLI (`github.com/ramayac/go-wiki-engine`). Per-repo configuration lives in `.wikirc`. `wiki/` and `scripts/` are excluded from the Docker build via `.dockerignore`.
 - Operational helpers live in `bin/`: `clean-srbyte-urls`, `delete-drafts`, `find-thin-md`, and `fix-broken-links`. They are also excluded from Docker builds via `.dockerignore`.
 - Docker targets: `docker-build`, `docker-build-debug`, `docker-run`, `docker-run-release`, `docker-stop`, `docker-push`, and `docker-pull`.

@@ -125,9 +125,11 @@ make build-embed                                              # Compile embed-va
 make build-index                                              # Generate content/content.index.json
 make build-feed                                               # Generate feed.xml (requires build-index first)
 make build-sitemap                                            # Generate sitemap.xml and robots.txt (requires build-index)
-make lint                                                     # Run config check, link linter, and go vet
+make lint                                                     # Run config check, link linter, style linter, and go vet
 make lint-config                                              # Parse and validate config.toml
 make lint-links                                               # Validate internal markdown links (requires build-index)
+make lint-styles                                              # Run static CSS hygiene, WCAG AA contrast, and template CSP/XSS checks
+make lint-layout                                              # Run headless Chromium computed-geometry layout checks (requires Playwright)
 make test                                                     # Build index + feed + sitemap then run go test ./...
 make benchmark                                                # Run HTTP performance benchmark using ApacheBench
 make render random                                            # Render a random post to HTML
@@ -403,6 +405,12 @@ Inside a `{{ range }}` block, `.` is rebound to the current iteration item. Acce
 ```
 
 Forgetting `$` produces: `can't evaluate field Config in type blog.CategoryInfo`.
+
+### CSS & Layout Validation
+
+Whenever you edit `assets/css/*.css`, `assets/js/site.js`, or `templates/*.html`:
+1. Always run `make lint-styles` (also included in `make lint` and `make test`) to verify zero `@import`, zero `!important`, zero duplicate/orphan CSS rules, WCAG AA contrast (`>= 4.5:1`) in both light and dark modes, and strict CSP/XSS template hygiene.
+2. Run `make lint-layout` (when Playwright Chromium is installed locally, or verify the `layout-lint` CI job on your PR) to confirm zero horizontal overflow, flush column alignment, vertical rhythm, typography bounds, dark-mode switching, and zero CSP/console errors across desktop and mobile viewports. See [wiki/style-checking.md](style-checking.md).
 
 ### CSS: Cards in a Grid — Shadow and Hover Pitfalls
 

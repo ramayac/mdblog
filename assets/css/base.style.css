@@ -20,11 +20,11 @@
     --color-surface:       light-dark(#ffffff, #222222);
     --color-surface-hover: light-dark(#f8f9fa, #2a2a2a);
     --color-text:          light-dark(#333333, #e0e0e0);
-    --color-text-muted:    light-dark(#7f8c8d, #a0a0a0);
+    --color-text-muted:    light-dark(#5b6667, #a0a0a0);
     --color-text-light:    light-dark(#555555, #c0c0c0);
     --color-heading:       light-dark(#2c3e50, #ffffff);
-    --color-primary:       light-dark(#3498db, #4fa8d8);
-    --color-primary-hover: light-dark(#2980b9, #6bb6e0);
+    --color-primary:       light-dark(#1f73b7, #4fa8d8);
+    --color-primary-hover: light-dark(#185a90, #6bb6e0);
     --color-border:        light-dark(#eeeeee, #333333);
     --color-code-bg:       light-dark(#f8f9fa, #2a2a2a);
     --color-code-text:     light-dark(#e83e8c, #ff6b9d);
@@ -241,6 +241,11 @@ a:hover {
     margin: 0.5rem 0 1rem;
     color: var(--color-text-muted);
     font-size: 0.9rem;
+}
+
+.post-category + .post-author::before {
+    content: " · ";
+    margin: 0 0.15rem;
 }
 
 .post-excerpt {
