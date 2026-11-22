@@ -412,6 +412,22 @@ Whenever you edit `assets/css/*.css`, `assets/js/site.js`, or `templates/*.html`
 1. Always run `make lint-styles` (also included in `make lint` and `make test`) to verify zero `@import`, zero `!important`, zero duplicate/orphan CSS rules, WCAG AA contrast (`>= 4.5:1`) in both light and dark modes, and strict CSP/XSS template hygiene.
 2. Run `make lint-layout` (when Playwright Chromium is installed locally, or verify the `layout-lint` CI job on your PR) to confirm zero horizontal overflow, flush column alignment, vertical rhythm, typography bounds, dark-mode switching, and zero CSP/console errors across desktop and mobile viewports. See [wiki/style-checking.md](style-checking.md).
 
+### Strict CSP & Template Security Hygiene
+
+`config.toml` enforces `script-src 'self'; style-src 'self';` with **no `'unsafe-inline'`**:
+- Never add inline `style="..."` attributes, inline `<script>` blocks, or `on*=` event handlers to any template in `templates/`. Put styles in `assets/css/` and client behavior in `assets/js/site.js`.
+- Never pipe user-controlled values like `.Query` to `| safeHTML` (reflected XSS). Enforced automatically by `TestTemplateCSPAndSecurityHygiene` (`make lint-styles`).
+
+### Theme Layering, `light-dark()`, and Flush Column Alignment
+
+- **No `@import` or `!important` in themes:** `layout.html` loads `base.style.css` and the active theme in parallel via `<link>` (eliminating a render-blocking RTT on cold browser loads). Use native `color-scheme: light dark` and `light-dark(#light, #dark)` tokens so dark palettes are never duplicated.
+- **Template heading placement differs:** `home.html` and `category.html` render `.blog-title` / `.category-title` *outside* `<main class="main-content">`, whereas `post.html` and `page.html` render `.post-header` *inside* `<main class="main-content">`. Keep `.main-content` top padding consistent (`0` in `simple.style.css`) and avoid capping `.post` narrower than `.container`, or post/page headers and dividers will misalign with `.site-menu` and `.site-footer`.
+
+### AWS Lambda Cold vs. Warm Performance
+
+- In-memory caching (`content.index.json`, `indexBySlug`, precomputed footer/menu/blurb) dramatically speeds up **warm Lambda invocations** (multi-page browsing sessions, search, crawlers within the ~5–15 min keep-alive window).
+- On an isolated **cold** 1-page visit, Lambda init (~50–150 ms) and network RTT dominate; frontend wins like removing `@import` waterfalls and shrinking inline HTML payloads deliver the biggest single-visit improvement. See [wiki/performance.md](performance.md).
+
 ### CSS: Cards in a Grid — Shadow and Hover Pitfalls
 
 When using `display: grid` with card elements that lift on hover (`transform: translateY`):

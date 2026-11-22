@@ -88,7 +88,7 @@ MDBlog includes GitHub Actions for automated deployment. Pushing any `.md` file 
 
 ### Caching on Lambda
 
-There is no file-based cache. The container filesystem is read-only; the pre-built JSON index is baked into the image.
+There is no file-based cache. The container filesystem is read-only; the pre-built JSON index is baked into the image, and both the parsed index and static page chrome (nav menu, footer, CSS version, index blurb) are cached in memory across warm Lambda invocations.
 
 **Recommended caching strategy:** (big todo!) place **CloudFront** in front of the Lambda function. Since posts change only on redeploy, a CloudFront TTL of hours or days is safe. Invalidate the distribution after each `make docker-push`.
 
@@ -192,14 +192,12 @@ Configure the feed in `config.toml`:
 ```toml
 [feed]
 enabled     = true
-title       = "Your Blog Name"
-description = "Blog description."
 base_url    = "https://your-domain.com"   # required — used for absolute URLs in the XML
 max_items   = 50
 output_file = "feed.xml"
 ```
 
-`base_url` is **required** when `feed.enabled = true`. `make build-index` must run before `make build-feed`.
+Channel title and description come from top-level `blog_name` and `blog_description`. `base_url` is **required** when `feed.enabled = true`. `make build-index` must run before `make build-feed`.
 
 To add a "Feed" link to the nav bar, add to `config.toml`:
 
@@ -222,7 +220,7 @@ make build-feed    # writes feed.xml
 
 MDBlog generates `sitemap.xml` and `robots.txt` at build time. In production, these pre-built files are served directly from disk; during local development (`make serve`), the server generates them on-the-fly so no extra build step is required.
 
-- **`/sitemap.xml`** — Valid XML sitemap listing the homepage, all category pages, and all individual posts
+- **`/sitemap.xml`** — Valid XML sitemap listing the homepage, all category pages, all individual posts, and standalone pages (`/pages/*`)
 - **`/robots.txt`** — Allows all crawlers and points to the sitemap
 
 Configure in `config.toml`:
@@ -262,11 +260,10 @@ Register categories in `config.toml`:
 blog_name      = "Display Name"
 header_content = "Subtitle."
 folder         = "my-category"   # subfolder under content/
-index          = true            # include in legacy aggregated index
-menu           = true            # show in nav bar
+index          = true            # show as a card on the homepage
 ```
 
-Then add `.md` files to `content/my-category/`.
+Add the category to `[[menu.pinned]]` or `[[menu.dropdowns]]` to display it in the nav bar, then add `.md` files to `content/my-category/`.
 
 ## Post Metadata Index
 
@@ -297,7 +294,7 @@ Edit `config.toml` to customize all settings. Key fields:
 |-----|---------|
 | `blog_name` | Site title |
 | `author_name` | Default author for new posts |
-| `header_content` | Landing page subtitle |
+| `blog_description` | Landing page subtitle and RSS/meta description |
 | `footer_content` | Footer text (Markdown supported) |
 | `posts_per_page` | Pagination size |
 | `excerpt_length` | Max characters in post excerpt |
@@ -327,8 +324,8 @@ internal/
   render/           # CLI render and request subcommands
   server/           # net/http ServeMux handler: routing, FileServerFS, templates, gzip, CSP, SEO
 templates/          # Go html/template files (*.html)
-assets/css/         # CSS themes
-assets/js/          # Per-post JavaScript files
+assets/css/         # CSS themes (base, simple, anthropic, default)
+assets/js/          # site.js (theme toggle + dropdown dismiss) and optional per-post JS
 content/            # All blog post content (organized in category subfolders)
 pages/              # Standalone pages (about.md, etc.) — no category, no date
 embed.go            # go:embed declarations
